@@ -128,7 +128,7 @@
     padding-top:20px
   }
   .universal_rich .block_first_center_text{
-    padding:0 16px
+    padding:0 16px;
   }
 
 
@@ -152,10 +152,10 @@
         padding: 0 20px 40px;
       }
       .universal_rich .left_universal_text{
-        padding: 0
+        padding: 0;
       }
       .universal_rich .right_universal_text{
-        padding: 0
+        padding: 0;
       }
       .universal_rich .first{
         padding-top: 40px;
@@ -165,10 +165,10 @@
       }
 
       .universal_rich .block_first_center{
-      padding-top:30px
+      padding-top:30px;
     }
     .universal_rich .block_first_center_text{
-      padding:0 20px
+      padding:0 20px;
     }
 
 
