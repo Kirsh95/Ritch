@@ -1,0 +1,331 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .braun img {
+      margin: 0;
+    }
+    .braun p {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: Roboto ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .braun h3 {
+      color: #000;
+      font-family: Roboto ,sans-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .braun h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .braun ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .braun ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .braun {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .braun ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .braun ul li {
+      padding: 0;
+    }
+    .braun div {
+      padding: 0;
+    }
+    div.braun {
+      padding: 0;
+    }
+    .braun br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .braun{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .braun img{
+      width: 100%;
+      display: block;
+    }
+
+
+
+    .braun .multigrill{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        position: relative;
+        padding: 0 16px 20px;
+        z-index: 2;
+    }
+
+    .braun .multigrill .red_text{
+        color: #FE0000;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+
+    .braun .multigrill .multigrill_text{
+        padding-top: 40px;
+    }
+
+
+    .braun .multigrill .red_block{ 
+        border-radius: 0px 0px 60px 0px;
+        background: rgb(254, 0, 0);
+        width: 100%;
+        height: 323px;
+    }
+
+
+    .braun .multigrill .grill_img{
+        width: 310px;
+        z-index: 2;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+
+
+
+    @media screen and (min-width:666px) {
+
+        .braun .title{
+            margin-bottom: 18px;
+        }
+        .braun .multigrill{
+            padding: 0 95px 20px;
+        }  
+    }
+
+    @media screen and (min-width:1024px) {
+        .braun .title{
+            font-size: 30px;
+            margin-bottom: 24px;
+        }
+        .braun .description{
+            font-size: 16px;
+        }
+        .braun .multigrill{
+            padding: 0 133px 18px;
+        }  
+        .braun .multigrill .red_block{
+            height:441px;
+            border-radius: 0px 0px 80px 0px;
+
+        }
+        .braun .multigrill .grill_img{
+            width: 417px;
+        }
+        .braun .multigrill .multigrill_text{
+            padding-top: 60px;
+        }   
+    }
+
+    @media screen and (min-width:1366px) {
+        .braun .title{
+            font-size: 42px;
+        }
+        .braun .description{
+            font-size: 22px;
+        }
+        .braun .multigrill{
+            padding: 0 166px 20px;
+        }  
+        .braun .multigrill .red_block{
+            height:609px;
+            border-radius: 0px 0px 100px 0px;
+        }
+        .braun .multigrill .grill_img{
+            width: 611px;
+        }   
+    }
+    
+    /* perfect_grilling */
+
+    .braun .perfect_grilling{
+        display: grid;
+        gap: 16px;
+        padding: 40px 0 0;
+    }
+    .braun .perfect_grilling .perfect_grilling_text{
+        text-align: center;
+        padding: 0 17px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .braun .perfect_grilling{
+            grid-template-columns: repeat(2,1fr);
+            position: relative;
+            align-items: center;
+            z-index: 1;
+            gap: 0;
+            padding: 0;
+            margin-top: -20px;
+        }
+        .braun .perfect_grilling .perfect_grilling_text{
+            text-align: left;
+            padding: 0 40px 0 32px;
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .braun .perfect_grilling .perfect_grilling_text{
+            padding: 0 109px 0 61px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .braun .perfect_grilling .perfect_grilling_text{
+            padding: 0 142px 0 94px;
+        }
+    }
+
+
+    /* 3_in_1_position */
+
+    .braun .in_position{
+        padding: 40px 16px 0;
+        display: grid;
+        gap: 32px;
+    }
+
+    .braun .in_block{
+        display: grid;
+        gap: 10px;
+    }
+
+    @media screen and (min-width:666px) {
+        .braun .in_position{
+            padding: 40px
+        }
+
+        .braun .in_block{
+            grid-template-columns: repeat(2,1fr);
+            gap: 64px;
+        }   
+    }
+
+    @media screen and (min-width:1024px) {
+        .braun .in_position{
+            padding: 60px;
+            gap: 60px;
+        }
+
+        .braun .in_position .in_block{
+            gap: 122px;
+            padding: 0 49px;
+
+        }   
+    }
+
+    @media screen and (min-width:1366px) {
+        .braun .in_position{
+            padding:80px 60px;
+            gap: 60px;
+        }
+
+        .braun .in_position .in_block{
+            gap: 188px;
+            padding: 0 82px;
+
+        }   
+    }
+
+
+    /* block_left block_rigth */
+
+    .braun .block_rigth,
+    .braun .block_left{
+        display: grid;
+        gap: 16px;
+    }
+
+    .braun .block_rigth .block_right_text,
+    .braun .block_left .block_left_text{
+        padding: 40px 16px 0;
+        text-align: center;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .braun .block_rigth,
+        .braun .block_left{
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            gap: 0px;
+        }
+
+        .braun .block_rigth .block_right_text,
+        .braun .block_left .block_left_text{
+            text-align: left;
+        }
+        .braun .block_rigth .block_right_text{
+            padding: 0  40px 0 32px;
+        }
+        .braun .block_left .block_left_text{
+            padding: 0  32px 0 40px;
+        }
+
+        .braun .block_rigth .block_right_text{
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .braun .block_rigth .block_right_text{
+            padding: 0  109px 0 61px;
+        }
+        .braun .block_left .block_left_text{
+            padding: 0  65px 0 109px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .braun .block_rigth .block_right_text{
+            padding: 0  142px 0 94px;
+        }
+        .braun .block_left .block_left_text{
+            padding: 0  94px 0 142px;
+        }
+    }

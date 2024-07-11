@@ -1,0 +1,765 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .GUS8555 img {
+      margin: 0;
+    }
+    .GUS8555 p {
+      padding: 0;
+      margin: 0;
+      color: #ffffff;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+
+    }
+    .GUS8555 h3 {
+      color: #ffff;
+      font-family: 'Roboto',sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .GUS8555 h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .GUS8555 ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .GUS8555 ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .GUS8555 {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .GUS8555 ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .GUS8555 ul li {
+      padding: 0;
+    }
+    .GUS8555 div {
+      padding: 0;
+    }
+    div.GUS8555 {
+      padding: 0;
+    }
+    .GUS8555 br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .GUS8555{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+      background:#0A061F ;
+    }
+    .GUS8555 img{
+      width: 100%;
+      display: block;
+    }
+
+
+
+    /* quantum_dots */
+
+    .GUS8555 .quantum_dots{
+        position: relative;
+    }
+
+    .GUS8555 .quantum_dots #ergo_logo{
+        position: absolute;
+        width: 172px;
+        left: 16px;
+        top: 24px;
+    }   
+    .GUS8555 .quantum_dots .quantum_dots_text{
+        position: absolute;
+        bottom: 0;
+        padding: 0 16px;
+        display: grid;
+        gap: 14px;
+    }
+
+    .GUS8555 .quantum_dots #quantum_dots_icon{
+        width: 156px
+    }
+
+    @media screen and (min-width:666px) {
+        .GUS8555 p{
+            line-height: 150%;
+        }
+        .GUS8555 .quantum_dots #ergo_logo{
+            left: 40px;
+            top: 58px;
+            width: 220px;
+        }
+        .GUS8555 .quantum_dots .quantum_dots_text{
+            grid-template-columns: 165px auto;
+            padding: 0 40px;
+            bottom: 58px;
+            gap: 20px;
+            align-items: center;
+        }
+        .GUS8555 .quantum_dots #quantum_dots_icon{
+            width: 165px
+        }
+        
+    }
+
+    @media screen and (min-width:1024px) {
+
+        .GUS8555 p{
+            font-size: 18px;
+        }
+        .GUS8555 h3{
+            font-size: 26px;
+            margin-bottom: 18px;
+
+        }
+
+        .GUS8555 .quantum_dots #ergo_logo{
+            left: 60px;
+            top: 80px;
+            width: 293px;
+        }
+        .GUS8555 .quantum_dots .quantum_dots_text{
+            grid-template-columns: 220px auto;
+            padding: 0 60px;
+            bottom: 90px;
+            gap: 28px;
+            align-items: center;
+        }
+        .GUS8555 .quantum_dots #quantum_dots_icon{
+            width: 220px
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+
+        .GUS8555 p{
+            font-size: 24px;
+        }
+        .GUS8555 h3{
+            font-size: 36px;
+            margin-bottom: 24px;
+        }
+
+        .GUS8555 .quantum_dots #ergo_logo{
+            left: 100px;
+            top: 163px;
+            width: 423px;
+        }
+        .GUS8555 .quantum_dots .quantum_dots_text{
+            grid-template-columns: 318px auto;
+            padding: 0 166px;
+            bottom: 90px;
+            gap: 40px;
+            align-items: center;
+        }
+        .GUS8555 .quantum_dots #quantum_dots_icon{
+            width: 318px
+        }
+    }
+
+
+    /* comparison_of_screens */
+
+
+    .GUS8555 .comparison_of_screens{
+        background: #0D0723;
+        text-align: center;
+        padding: 40px 0;
+        position: relative;
+    }
+    .GUS8555 .comparison_of_screens .dect_screen{
+        display: none;
+    }
+
+    .GUS8555 .comparison_of_screens h3{
+        margin-bottom: 0;
+    }
+
+    .GUS8555 .comparison_of_screens .mobile_screen{
+        display: grid;
+        gap: 20px;
+
+    }
+    .GUS8555 .comparison_of_screens .mobile_screen_top .values{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 0px 36px 0;
+        gap: 29px;
+    }
+
+    .GUS8555 .comparison_of_screens .mobile_screen_top .values .values_cont{
+        position: relative;
+        padding-top: 46px;
+    }
+
+    .GUS8555 .comparison_of_screens .mobile_screen_top .values .values_text{
+        font-size: 10px;
+    }   
+    .GUS8555 .comparison_of_screens .mobile_screen_top .values .values_text::after{
+        content: " ";
+        position: absolute;
+        width: 1px;
+        height: 34px;
+        background: #ffff;
+        left: 50%;
+        top:0;
+        transform: translate(-50%, 0);
+    }   
+    .GUS8555 .comparison_of_screens .mobile_screen_bottom .values .values_text::after{
+        content: " ";
+        position: absolute;
+        width: 1px;
+        height: 34px;
+        background: #ffff;
+        left: 50%;
+        top:0;
+        transform: translate(-50%, 0);
+    }   
+    .GUS8555 .comparison_of_screens .mobile_screen_bottom .values{
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 0px 16px 0;
+    }
+    .GUS8555 .comparison_of_screens .mobile_screen_bottom .values .values_cont{
+        position: relative;
+        padding-top: 46px;
+    }
+    .GUS8555 .comparison_of_screens .mobile_screen_bottom .values .values_text{
+        font-size: 10px;
+    }
+
+
+    @media screen and (min-width:666px) {
+
+        .GUS8555 .comparison_of_screens{
+            padding:44px 0;
+        }
+
+        .GUS8555 .comparison_of_screens .mobile_screen{
+            display: none;
+        }
+
+        .GUS8555 .comparison_of_screens .dect_screen{
+            display: grid;
+            /* background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/730017/op.webp?_t=1699538768");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top; */
+        }
+        .GUS8555 .comparison_of_screens .dect_screen .top_block{
+            display: flex;
+            padding: 0 40px;
+            text-align: center;
+            position: relative;
+            justify-content: space-around;
+        }
+
+        .GUS8555 .comparison_of_screens .dect_screen .center_block{
+            margin-top: -72px;
+            margin-bottom: -93px;
+        }
+
+
+        .GUS8555 .comparison_of_screens .dect_screen .values{
+            display: grid;
+            padding: 0 40px;
+            position: relative;
+            grid-template-columns: repeat(7,auto);
+        }
+
+        .GUS8555 .comparison_of_screens .dect_screen .values .values_text::after{
+            content: " ";
+            position: absolute;
+            width: 1px;
+            height: 34px;
+            background: #ffff;
+            left: 50%;
+            top:0;
+            transform: translate(-50%, 0);
+        } 
+        .GUS8555 .comparison_of_screens .dect_screen .values .values_text{
+            font-size: 10px;
+        }
+        .GUS8555 .comparison_of_screens .dect_screen .values .values_cont{
+            position: relative;
+            padding-top: 46px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .GUS8555 .comparison_of_screens{
+            padding:60px 0;
+        }
+        .GUS8555 .comparison_of_screens .dect_screen .values .values_text{
+            font-size: 16px;
+        }
+        .GUS8555 .comparison_of_screens .dect_screen .values{
+            padding: 0 25px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .GUS8555 .comparison_of_screens{
+            padding:80px 0;
+        }
+        .GUS8555 .comparison_of_screens .dect_screen .values .values_text{
+            font-size: 20px;
+        }
+        .GUS8555 .comparison_of_screens .dect_screen .values{
+            padding: 0 98px;
+        }
+        
+        .GUS8555 .comparison_of_screens .dect_screen .center_block{
+            margin-top: -130px;
+            margin-bottom: -165px;
+        }
+    }
+
+
+    /* quantum_particles */
+
+
+    .GUS8555 .quantum_particles{
+        background: #0D0723;
+        padding: 10px 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        .GUS8555 .quantum_particles{
+            padding: 10px 40px;
+        }
+
+    }
+    @media screen and (min-width:1024px) {
+        .GUS8555 .quantum_particles{
+            padding: 14px 60px;
+        }
+
+    }
+    @media screen and (min-width:1366px) {
+        .GUS8555 .quantum_particles{
+            padding: 20px 166px;
+        }
+
+    }
+
+
+    /* premium_design */
+
+    .GUS8555 .premium_design{
+        position: relative;
+    }
+
+    .GUS8555 .premium_design .premium_design_text{
+        position: absolute;
+        padding: 0 16px;
+        bottom: 0;
+    }
+    @media screen and (min-width:666px) {
+        .GUS8555 .premium_design .premium_design_text{
+            width: 310px;
+            bottom: 60px;
+            left: 40px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .GUS8555 .premium_design .premium_design_text{
+            width: 416px;
+            bottom: 80px;
+            left: 60px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .GUS8555 .premium_design .premium_design_text{
+            width: 505px;
+            bottom: 160px;
+            left: 166px;
+        }
+    }
+
+
+    /* android_tv */
+
+    .GUS8555 .android_tv{
+        position: relative;
+    }
+    .GUS8555 .android_tv .android_tv_text{
+        padding: 0 16px;
+    }
+
+    .GUS8555 .android_tv .android_tv_text #android_tv_logo{
+        width: 165px;
+        margin-bottom: 14px;
+    }
+@media screen and (min-width:666px) {
+
+    .GUS8555 .android_tv .android_tv_text{
+        position: absolute;
+        width: 310px;
+        right: 40px;
+        top: 50%;
+        transform: translate(0 ,-50%)
+   }
+}
+
+@media screen and (min-width:1024px) {
+
+    .GUS8555 .android_tv .android_tv_text{
+        position: absolute;
+        width: 416px;
+        right: 60px;
+   }
+
+    .GUS8555 .android_tv .android_tv_text #android_tv_logo{
+        width: 219x;
+        margin-bottom: 18px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+
+    .GUS8555 .android_tv .android_tv_text{
+        position: absolute;
+        width: 505px;
+        right: 166px;
+   }
+
+    .GUS8555 .android_tv .android_tv_text #android_tv_logo{
+        width: 318px;
+        margin-bottom: 24px;
+    }
+}
+
+
+/* dbx_tv */
+
+
+.GUS8555 .dbx_tv{
+    padding: 40px 0 0;
+}
+.GUS8555 .dbx_tv .dbx_tv_text{
+    padding: 0 16px;
+    margin-bottom: -30px;
+}
+.GUS8555 .dbx_tv .dbx_tv_text #dbx_tv_icon{
+    width: 165px;
+    margin-bottom: 14px;
+}
+@media screen and (min-width:666px) {
+    .GUS8555 .dbx_tv{
+        padding: 0 0 0;
+    }
+
+    .GUS8555 .dbx_tv .dbx_tv_text{
+        padding: 0 40px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 165px auto;
+        gap: 20px;
+        margin-bottom: -60px;
+    }
+    .GUS8555 .dbx_tv .dbx_tv_text #dbx_tv_icon{
+        width: 165px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .GUS8555 .dbx_tv .dbx_tv_text{
+        padding: 0 60px;
+        grid-template-columns: 219px auto;
+        gap: 28px;
+        margin-bottom: -60px;
+    }
+    .GUS8555 .dbx_tv .dbx_tv_text #dbx_tv_icon{
+        width: 219px;
+    }
+}
+@media screen and (min-width:1366px) {
+    .GUS8555 .dbx_tv .dbx_tv_text{
+        padding: 0 166px;
+        grid-template-columns: 318px auto;
+        gap: 40px;
+        align-items: start;
+        margin-bottom: -100px;
+    }
+    .GUS8555 .dbx_tv .dbx_tv_text #dbx_tv_icon{
+        width: 318px;
+    }
+}
+
+
+/* dolby_atmos */
+
+.GUS8555 .dolby_atmos{
+    display: grid;
+    gap: 40px;
+    background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/730017/bg%201.svg?_t=1699615012");
+    background-position: center 21%;
+    background-repeat: no-repeat;
+    
+}
+.GUS8555 .dolby_atmos .dolby_atmos_text #dolby_atmos_icon{
+    width: 95px;
+    margin-bottom: 14px;
+}
+.GUS8555 .dolby_atmos .dolby_atmos_top{
+    display: grid;
+    gap: 55px;
+    padding: 0 16px;
+}
+
+.GUS8555 .dolby_atmos .google_bottom .google_text #google_icon{
+    width: 110px;
+    margin-bottom: 14px;
+}
+
+.GUS8555 .dolby_atmos .google_bottom{
+    padding: 0 0 0 16px;
+    display: grid;
+    gap: 20px;
+}
+
+.GUS8555 .dolby_atmos .google_bottom .google_text{
+    padding: 0 16px 0 0;
+}
+
+@media screen and (min-width:666px) {
+    .GUS8555 .dolby_atmos{
+        background-position: center 77.5%;
+        gap: 42px;
+    }
+
+    .GUS8555 .dolby_atmos .dolby_atmos_top{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 0 40px;
+    }
+    .GUS8555 .dolby_atmos .google_bottom{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 0 0 0 40px;
+    }
+    .GUS8555 .dolby_atmos .google_bottom .google_text{
+        padding: 0;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+    .GUS8555 .dolby_atmos{
+        background-position: 0 73%;
+        background-size: contain;
+        gap: 58px;
+    }
+
+    .GUS8555 .dolby_atmos .dolby_atmos_top{
+        padding: 0 60px;
+        gap: 73px;
+    }
+    .GUS8555 .dolby_atmos .google_bottom{
+        padding: 0 0 0 60px;
+    }
+    .GUS8555 .dolby_atmos .dolby_atmos_text #dolby_atmos_icon{
+        width: 128px;
+        margin-bottom: 18px;
+    }
+    .GUS8555 .dolby_atmos .google_bottom .google_text #google_icon{
+        width: 147px;
+        margin-bottom: 18px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .GUS8555 .dolby_atmos{
+        background-position: 0 110%;
+        background-size: contain;
+        gap: 58px;
+    }
+
+    .GUS8555 .dolby_atmos .dolby_atmos_top{
+        padding: 0 166px 0 60px;
+        gap: 106px;
+    }
+    .GUS8555 .dolby_atmos .google_bottom{
+        padding: 0 0 0 166px;
+    }
+    .GUS8555 .dolby_atmos .dolby_atmos_text #dolby_atmos_icon{
+        width: 188px;
+        margin-bottom: 24px;
+    }
+    .GUS8555 .dolby_atmos .google_bottom .google_text #google_icon{
+        width: 212px;
+        margin-bottom:24px;
+    }
+}
+
+/* cromecast */
+
+
+.GUS8555 .cromecast{
+    padding: 40px 0 0;
+    display: grid;
+    gap: 20px;
+}
+
+.GUS8555 .cromecast .cromecast_text{
+    padding: 0 16px;
+}
+
+.GUS8555 .cromecast .cromecast_text #cromecast_logo{
+    width: 145px;
+    margin-bottom: 14px;
+}
+
+@media screen and (min-width:666px) {
+    .GUS8555 .cromecast{
+        padding: 0;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 0;
+        margin-top: -50px;
+    }
+    
+    .GUS8555 .cromecast .cromecast_text{
+        padding: 0 40px 0 0;
+    }
+    
+    .GUS8555 .cromecast .cromecast_text #cromecast_logo{
+        width: 145px;
+        margin-bottom: 14px;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+    
+    .GUS8555 .cromecast .cromecast_text{
+        padding: 0 75px 0 0;
+    }
+    
+    .GUS8555 .cromecast .cromecast_text #cromecast_logo{
+        width: 196px;
+        margin-bottom: 18px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    
+    .GUS8555 .cromecast .cromecast_text{
+        padding: 0 166px 0 0;
+    }
+    
+    .GUS8555 .cromecast .cromecast_text #cromecast_logo{
+        width: 294px;
+        margin-bottom: 24px;
+    }
+}
+
+/* bluetooth */
+
+.GUS8555 .bluetooth{
+    padding: 40px 0 0 16px;
+    display: grid;
+    gap: 20px;
+    background: linear-gradient(180deg, rgba(41, 31, 54, 0.00) 71.77%, #291F36 100%), linear-gradient(303deg, #48047B 0%, rgba(103, 2, 134, 0.60) 19.8%, rgba(103, 2, 134, 0.00) 40.81%), url('https://i.citrus.world/uploads/content/product-photos/kirsh/730017/bg.webp?_t=1699538769'), #0A061F;
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.GUS8555 .bluetooth .bluetooth_text{
+    display: grid;
+    gap: 14px;
+    padding-right: 16px;
+}
+
+.GUS8555 .bluetooth .bluetooth_text #bluetooth_logo{
+    width: 110px;
+}
+.GUS8555 .bluetooth .bluetooth_text #acoustics_logo{
+    width: 200px;
+}
+
+@media screen and (min-width:666px) {
+    .GUS8555 .bluetooth{
+        display: grid;     
+        grid-template-columns: repeat(2,1fr);
+        background-position: 50% center;
+        background-size: cover;
+        gap: 55px;
+        align-items: center;
+
+    }
+    .GUS8555 .bluetooth .bluetooth_text{
+        padding-right: 0;
+        padding-left: 40px;
+
+    }
+}
+@media screen and (min-width:1024px) {
+    .GUS8555 .bluetooth{
+        gap: 73px;
+        padding: 0;
+    }
+    .GUS8555 .bluetooth .bluetooth_text{
+        padding-right: 0;
+        padding-left: 60px;
+        gap: 18px;
+    }
+    .GUS8555 .bluetooth .bluetooth_text #bluetooth_logo{
+        width: 147px;
+    }
+    .GUS8555 .bluetooth .bluetooth_text #acoustics_logo{
+        width: 269px;
+    }
+}
+@media screen and (min-width:1366px) {
+    .GUS8555 .bluetooth{
+        gap: 106px;
+        padding: 0;
+    }
+    .GUS8555 .bluetooth .bluetooth_text{
+        padding-left: 120px;
+        gap: 24px;
+    }
+    .GUS8555 .bluetooth .bluetooth_text #bluetooth_logo{
+        width: 212px;
+    }
+    .GUS8555 .bluetooth .bluetooth_text #acoustics_logo{
+        width: 399px;
+    }
+}

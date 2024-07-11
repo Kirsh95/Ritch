@@ -1,0 +1,356 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .protect img {
+      margin: 0;
+    }
+    .protect p {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .protect h3 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 8px;
+    }
+    .protect h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .protect ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .protect ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .protect {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .protect ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .protect ul li {
+      padding: 0;
+    }
+    .protect div {
+      padding: 0;
+    }
+    div.protect {
+      padding: 0;
+    }
+    .protect br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .protect{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .protect img{
+      width: 100%;
+      display: block;
+    }
+
+    .protect .leaks .leaks_text{
+        padding: 32px 16px;
+        text-align: center;
+    }
+    @media screen and (min-width:666px) {
+        body{
+            padding: 0 24px;
+        }
+        .protect h3{
+            font-size: 28px;
+            margin-bottom: 16px;
+        }
+        .protect .leaks .leaks_text{
+            padding: 48px 40px;        
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .protect h3{
+            font-size: 38px;
+        }
+        .protect p{
+            font-size: 16px;
+        }
+        .protect .leaks .leaks_text{
+            padding: 56px 48px;        
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .protect h3{
+            font-size: 50px;
+            margin-bottom: 24px;
+        }
+        .protect p{
+            font-size: 18px;
+        }
+        .protect .leaks .leaks_text{
+            padding: 80px 283px;        
+        }
+    }
+
+    /* constant_monitoring */
+
+    .protect .constant_monitoring .constant_monitoring_text{
+        padding: 32px 16px;
+        text-align: center;
+    }
+
+    .protect .constant_monitoring .deck{
+        display: none;
+    }
+
+    @media screen and (min-width:666px) {
+        .protect .constant_monitoring .constant_monitoring_text{
+            padding: 48px 40px;
+            text-align: center;
+        }
+        .protect .constant_monitoring .deck{
+            display: block;
+        }
+        .protect .constant_monitoring .mob{
+            display: none;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .protect .constant_monitoring .constant_monitoring_text{
+            padding: 56px 88px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .protect .constant_monitoring .constant_monitoring_text{
+            padding: 80px 64px;
+        }
+        .protect .constant_monitoring .constant_monitoring_text p{
+            padding: 0 180px;
+        }
+    }
+
+    /* risk_flooding */
+
+    .protect .risk_flooding{
+        padding: 32px 16px;
+        display: grid;
+        gap: 24px;
+        text-align: center;
+    }
+
+    .protect .risk_flooding .risk_flooding_puzle{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 8px;
+    }
+
+    .protect .risk_flooding .risk_flooding_items{
+        position: relative
+    }
+    .protect .risk_flooding .risk_flooding_items p{
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        color: #fff;
+        text-align: left;
+        font-weight: 500;
+    }
+    .protect .risk_flooding img{
+        border-radius: 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        .protect .risk_flooding{
+            padding: 48px 40px;
+        }
+        .protect .risk_flooding .risk_flooding_puzle{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 8px;
+        }
+        .protect .risk_flooding .risk_flooding_items p{
+            bottom: 16px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .protect .risk_flooding{
+            padding: 56px 48px;
+        }
+        .protect .risk_flooding .risk_flooding_puzle{
+            gap: 12px;
+        }
+        .protect .risk_flooding .risk_flooding_items p{
+            bottom: 24px;
+            left: 24px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .protect .risk_flooding{
+            padding: 80px 64px;
+        }
+        .protect .risk_flooding .risk_flooding_puzle{
+            gap: 16px;
+        }
+        .protect .risk_flooding .risk_flooding_text{
+            padding: 0 175px;
+        }
+
+        .protect .risk_flooding .risk_flooding_items p{
+            font-size: 24px;
+        }
+    }
+
+
+
+    /* block_left */
+
+    .protect .block_left{
+        padding: 0 16px 32px;
+        display: grid;
+        gap: 16px;
+        text-align: center;
+    }
+    .protect .block_left .block_left_items{
+        display: grid;
+        gap: 10px;
+    }
+
+    .protect .block_left p{
+        font-size: 16px;
+    }
+
+    .protect .block_rigth{
+        padding: 0 16px 32px;
+        display: grid;
+        gap: 16px;
+        text-align: center;
+    }
+    .protect .block_rigth .block_rigth_items{
+        display: grid;
+        gap: 10px;
+    }
+
+    .protect .block_rigth p{
+        font-size: 16px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .protect .block_left{
+            display: grid;
+            grid-template-columns: 1.37fr 1fr;
+            padding: 0 40px 48px;
+            text-align: left;
+            align-items: center;
+            gap: 40px;
+        }
+        .protect .block_left .block_left_text{
+            grid-column-start: 1;
+            grid-row-start: 1;
+        }
+        .protect .block_rigth{
+            display: grid;
+            grid-template-columns:1fr 1.37fr;
+            padding: 0 40px 48px;
+            text-align: left;
+            align-items: center;
+            gap: 40px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .protect .block_left{
+            padding: 0 48px 56px;
+            gap: 48px;
+        }
+        .protect .block_rigth{
+            padding: 0 48px 56px;
+            gap: 48px;
+        }
+        /* .protect .block_rigth p{
+            font-size: 18px;
+        } */
+    
+    }
+
+    @media screen and (min-width:1366px) {
+        .protect .block_left{
+            grid-template-columns: 1.4fr 1fr;
+            padding: 0 64px 80px;
+            gap: 64px;
+        }
+        .protect .block_rigth{
+            grid-template-columns:1fr 1.4fr;
+            padding: 0 50px 80px 64px;
+            gap:64px;
+        }
+        .protect .block_rigth p{
+            font-size: 18px;
+        }
+    }
+
+
+
+/* center_block */
+
+.protect .center_block{
+    text-align: center;
+    padding: 0 16px 32px;
+}
+
+@media screen and (min-width:666px) {
+    .protect .center_block{
+        padding: 0 40px 48px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .protect .center_block{
+        padding: 0 88px 56px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .protect .center_block{
+        padding: 0 210px 80px;
+    }
+    .protect .center_block p{
+        padding: 0 70px;
+    }
+
+
+}

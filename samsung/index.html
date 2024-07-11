@@ -1,0 +1,5296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,600;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+  <style type="text/css">.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .samsung img {
+      margin: 0;
+    }
+    .samsung p {
+      padding: 0;
+      margin: 0;
+      line-height: normal;
+    }
+    .samsung ul {
+      list-style: none;
+      margin: 0;
+    }
+    .samsung ul li {
+      line-height: normal;
+    }
+    .samsung {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+    }
+    .samsung ul {
+      padding: 0;
+    }
+    .samsung ul li {
+      padding: 0;
+    }
+    .samsung div {
+      padding: 0;
+    }
+    /* div.aqara {
+    padding: 0;
+    } */
+    .samsung br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .samsung .title {
+      color: #FFF;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 120%;
+    }
+    .samsung .title span {
+      font-weight: 400;
+    }
+    .samsung .title-s {
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 130%;
+    }
+    .samsung .subtitle {
+      color: #ffffff;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .samsung .description {
+      color: #999;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    @media (min-width: 1024px) {
+      .samsung .title {
+        font-size: 30px;
+      }
+      .samsung .title-s {
+        font-size: 22px;
+      }
+      .samsung .subtitle {
+        font-size: 16px;
+      }
+      .samsung .description {
+        font-size: 14px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .title {
+        font-size: 42px;
+      }
+      .samsung .title-s {
+        font-size: 28px;
+      }
+      .samsung .subtitle {
+        font-size: 20px;
+      }
+    }
+    .samsung {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1366px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 24px 0px 0;
+      background: #000000;
+      color: #ffffff;
+    }
+    .samsung-white {
+      background: #ffffff;
+      padding: 0px 0px 24px;
+      display: grid;
+      justify-items: center;
+      width: 100%;
+    }
+    .samsung .section {
+      padding: 40px 0 0 0;
+      margin-bottom: 40px;
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      max-width: 530px;
+    }
+    .samsung .header__title {
+      width: 182px;
+      min-height: 23px;
+      margin-bottom: 20px;
+    }
+    .samsung .header__image {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .samsung .header__subtitle:not(:last-child) {
+      margin-bottom: 10px;
+    }
+    .samsung .header__subtitle {
+      color: #ffffff;
+      padding: 0 24px;
+    }
+    .samsung .header__subtitle span {
+      color: #999999;
+    }
+    @media (min-width: 768px) {
+      .samsung .section {
+        padding: 44px 0 0 0;
+        margin-bottom: 44px;
+        max-width: initial;
+      }
+      .samsung .header__image {
+        padding: 0 40px;
+        margin-bottom: 44px;
+      }
+      .samsung .header__subtitle {
+        padding: 0px;
+        max-width: 530px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .section {
+        /* padding: 60px 0 0 0; */
+        margin-bottom: 60px;
+        max-width: 1238px;
+        margin: 0 auto 60px;
+      }
+      .samsung .header__title {
+        width: 245px;
+        height: 30px;
+      }
+      .samsung .header__image {
+        padding: 0 96px;
+        margin-bottom: 60px;
+      }
+      .samsung .header__subtitle {
+        padding: 0px;
+        max-width: 584px;
+      }
+      .samsung .header__subtitle:not(:last-child) {
+        margin-bottom: 12px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .section {
+        /* padding: 80px 0 0 0; */
+        margin-bottom: 80px;
+        max-width: 1046px;
+      }
+      .samsung .header__title {
+        width: 329px;
+        height: 48px;
+      }
+      .samsung .header__image {
+        padding: 0 0px;
+        margin-bottom: 80px;
+      }
+      .samsung .header__subtitle {
+        padding: 0px;
+        max-width: 800px;
+      }
+      .samsung .header__subtitle:not(:last-child) {
+        margin-bottom: 16px;
+      }
+    }
+    .samsung .perfection {
+      padding: 0 24px;
+    }
+    .samsung .perfection__title {
+      margin-bottom: 32px;
+    }
+    .samsung .perfection__title-s {
+      margin-bottom: 16px;
+    }
+    .samsung .perfection__subtitle {
+      text-align: initial;
+      margin-bottom: 16px;
+    }
+    .samsung .perfection__description {
+      text-align: initial;
+      margin-bottom: 16px;
+    }
+    .samsung .perfection__wrapper {
+      display: grid;
+      gap: 24px;
+      margin-bottom: 32px;
+    }
+    .samsung .perfection__tab-list {
+      display: grid;
+      grid-template-columns: min-content min-content;
+      gap: 24px;
+    }
+    .samsung .tab-item {
+      display: grid;
+      grid-template-columns: 32px min-content;
+      gap: 6px;
+      place-items: center;
+      cursor: pointer;
+    }
+    .samsung .tab-item__name {
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 150%;
+    }
+    .samsung .tab-item__container {
+      width: 32px;
+      height: 32px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      transition: border .3s ease;
+    }
+    .samsung .tab-item.js__active .tab-item__container {
+      border: 1px solid #585654;
+      transition: border .3s ease;
+    }
+    .samsung .perfection__tab-item_biege.js__active .tab-item__container {
+      border: 1px solid #D2C5B8;
+      transition: border .2s ease;
+    }
+    .samsung .tab-item__circle {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #585654;
+    }
+    .samsung .tab-item__circle_biege {
+      background: #D2C5B8;
+    }
+    .samsung .perfection__video {
+      width: 100%;
+    }
+    .samsung .perfection__tab {
+      width: 100%;
+      display: none;
+    }
+    .samsung .perfection__tab.js__active {
+      display: grid;
+    }
+    @media (min-width: 768px) {
+      .samsung .perfection {
+        padding: 0 40px;
+      }
+      .samsung .perfection__title {
+        margin-bottom: 40px;
+      }
+      .samsung .perfection__wrapper {
+        grid-template-columns: 1fr 200px;
+        align-items: end;
+        margin-bottom: 40px;
+      }
+      .samsung .perfection__description {
+        margin-bottom: 0;
+      }
+      .samsung .perfection__tab-list {
+        gap: 18px;
+      }
+      .samsung .tab-item {
+        grid-template-columns: 20px min-content;
+      }
+      .samsung .tab-item__container {
+        width: 20px;
+        height: 20px;
+      }
+      .samsung .tab-item__circle {
+        width: 12px;
+        height: 12px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .perfection {
+        padding: 0 96px;
+      }
+      .samsung .perfection__title {
+        margin-bottom: 60px;
+      }
+      .samsung .perfection__title-s {
+        margin-bottom: 18px;
+      }
+      .samsung .perfection__subtitle {
+        margin-bottom: 18px;
+      }
+      .samsung .perfection__wrapper {
+        grid-template-columns: 1fr 200px;
+        align-items: end;
+        margin-bottom: 60px;
+      }
+      .samsung .perfection__tab-list {
+        gap: 18px;
+      }
+      .samsung .tab-item {
+        grid-template-columns: 28px min-content;
+      }
+      .samsung .tab-item__container {
+        width: 28px;
+        height: 28px;
+      }
+      .samsung .tab-item__circle {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .perfection {
+        padding: 0 0px;
+      }
+      .samsung .perfection__title {
+        margin-bottom: 80px;
+      }
+      .samsung .perfection__title-s {
+        margin-bottom: 24px;
+      }
+      .samsung .perfection__subtitle {
+        margin-bottom: 24px;
+      }
+      .samsung .perfection__wrapper {
+        grid-template-columns: 1fr 200px;
+        align-items: end;
+        margin-bottom: 80px;
+      }
+      .samsung .perfection__tab-list {
+        gap: 24px;
+      }
+      .samsung .tab-item {
+        grid-template-columns: 40px min-content;
+      }
+      .samsung .tab-item__container {
+        width: 40px;
+        height: 40px;
+      }
+      .samsung .tab-item__circle {
+        width: 28px;
+        height: 28px;
+      }
+    }
+    .samsung .samsung__slider {
+      padding: 0 0 40px 0;
+      margin-bottom: 40px;
+      line-height: 1px
+    }
+    .samsung .swiper {
+      width: 360px;
+      height: 585px;
+      /* width: 100vw;
+      max-width: 415px;
+      min-height: 50.1vh; */
+    }
+    .samsung .slide1-mob {
+      display: grid;
+      gap: 16px;
+      padding: 0 24px;
+      grid-template-areas:
+        "first second"
+        "first second"
+        "first fourth"
+        "first fourth"
+        "third fourth"
+        "third fourth"
+        "fifth fifth"
+        "fifth fifth";
+    }
+    .samsung .first {
+      grid-area: first;
+    }
+    .samsung .second {
+      grid-area: second;
+    }
+    .samsung .third {
+      grid-area: third;
+    }
+    .samsung .fourth {
+      grid-area: fourth;
+    }
+    .samsung .fifth {
+      grid-area: fifth;
+    }
+    .samsung .slide1-mob__wrapper {
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+    }
+    .samsung .slide1-mob__wrapper video {
+      width: 100%;
+    }
+    .samsung .slider__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      width: initial;
+    }
+    .samsung .slider__link-name {
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 135%;
+    }
+    .samsung .slider__link-icon {
+      width: 16px;
+      height: 16px;
+    }
+    .samsung .slider__slide {
+      position: relative;
+      display: grid;
+      place-items: center;
+      width: 360px;
+      height: 585px;
+      padding: 0 24px;
+    }
+    .samsung .slider__slide-wrapper {
+      overflow: hidden;
+      border-radius: 20px;
+      /* margin-bottom: 50px; */
+      width: 284px;
+      height: 507px;
+    }
+    .samsung .slider__slide video {
+      width: 100%;
+      /* max-height: 535px; */
+    }
+    .samsung .slider__slide-description {
+      color: #FFF;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 150%;
+      padding: 32px 40px 16px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(transparent, rgb(0, 0, 0, 0.7));
+    }
+    .samsung .slider__button {
+      position: absolute;
+      top: 32px;
+      right: 54px;
+      cursor: pointer;
+      padding: 16px;
+      width: initial;
+    }
+    .samsung .slider__button svg {
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.30);
+      transition: 0.2s ease background;
+    }
+    @media(hover: hover) {
+      .samsung .slider__button:hover svg {
+        background: rgba(192, 192, 192, 0.30);
+        transition: 0.2s ease background;
+      }
+    }
+    @media(hover: none) {
+      .samsung .slider__button:active svg {
+        background: rgba(192, 192, 192, 0.30);
+        transition: 0.2s ease background;
+      }
+    }
+    .samsung .slider__button-icon_pause {
+      display: none;
+    }
+    .samsung .swiper-pagination {
+      display: none;
+      position: absolute;
+      top: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .samsung .pagination-visible {
+      display: grid;
+      grid-auto-flow: column;
+      height: 2px;
+      gap: 8px;
+      max-width: 312px;
+    }
+    .swiper-pagination-bullet {
+      width: 100%;
+      height: 2px;
+      padding: 2px 0;
+      border-radius: 0;
+    }
+    .samsung .swiper-pagination-bullet {
+      background-color: rgba(255, 255, 255, 0.50);
+    }
+    .samsung .swiper-pagination-bullet-active {
+      background-color: #fff;
+    }
+    .swiper-button-prev {
+      width: 40px;
+      height: 40px;
+      background: rgba(0, 0, 0, 0.87);
+      border-radius: 50%;
+      transition: background .2s ease;
+    }
+    .swiper-button-next {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      transition: background .2s ease;
+    }
+    @media(hover: hover) {
+      .swiper-button-prev:hover {
+        background: rgba(192, 192, 192, 0.50);
+        transition: background .2s ease;
+      }
+      .swiper-button-next:hover {
+        background: rgba(192, 192, 192, 0.50);
+        transition: background .2s ease;
+      }
+    }
+    @media(hover: none) {
+      .swiper-button-prev:active {
+        background: rgba(192, 192, 192, 0.50);
+        transition: background .2s ease;
+      }
+      .swiper-button-next:active {
+        background: rgba(192, 192, 192, 0.50);
+        transition: background .2s ease;
+      }
+    }
+    .swiper-button-next {
+      width: 40px;
+      height: 40px;
+      background: rgba(0, 0, 0, 0.87);
+      border-radius: 50%;
+      transition: background .2s ease;
+    }
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+      font-size: 24px;
+      color: white;
+    }
+    .samsung .slider-1__video_mobile {
+      display: grid;
+    }
+    .samsung .slider-1__video_desktop {
+      display: none;
+    }
+    @media (min-width: 768px) {
+      .samsung .samsung__slider {
+        padding: 0 0 44px 0;
+        margin-bottom: 44px;
+      }
+      .samsung .swiper {
+        width: 100vw;
+        /* height: 368px; */
+        height: 50vw;
+        padding: 0 40px;
+        /* width: 100vw;
+        max-width: 415px;
+        min-height: 50.1vh; */
+      }
+      .samsung .slider-1__video_mobile {
+        display: none;
+      }
+      .samsung .slider-1__video_desktop {
+        display: grid;
+      }
+      .samsung .swiper-slide {
+        padding: 0 40px;
+      }
+      .samsung .slide1-mob {
+        display: grid;
+        gap: 16px;
+        padding: 0px;
+        height: inherit;
+        grid-template-areas:
+          "first first first first first first fourth fourth fourth"
+          "first first first first first first fourth fourth fourth"
+          "second second fifth fifth third third fourth fourth fourth"
+          "second second fifth fifth third third fourth fourth fourth";
+      }
+      .samsung .slider__link {
+        top: 12px;
+        left: 12px;
+      }
+      .swiper-button-next {
+        right: 35px;
+      }
+      .swiper-button-prev {
+        left: 35px;
+      }
+      .samsung .swiper-pagination {
+        top: 24px;
+        left: 100px;
+        transform: initial;
+      }
+      .samsung .slider__slide {
+        height: 50vw;
+        width: 100%;
+        padding: 0;
+        justify-content: end;
+        align-content: end;
+        place-items: initial;
+      }
+      .samsung .slider__slide video {
+        width: 100%;
+        height: 100%;
+        max-height: initial;
+      }
+      .samsung .slider__slide-description {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        text-align: initial;
+        padding: 0px 0px 64px 28px;
+      }
+      .samsung .slider__slide-wrapper {
+        width: 178px;
+        height: 320px;
+        margin-bottom: 0;
+        height: 97%;
+        width: 26vw;
+        display: grid;
+        align-items: self-end;
+      }
+      .samsung .slider__button {
+        bottom: 18px;
+        right: 8px;
+        top: initial;
+      }
+      .samsung .slider__link-name {
+        font-size: 14px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .samsung__slider {
+        padding: 0 0 60px 0;
+        margin-bottom: 60px;
+      }
+      .samsung .swiper-slide {
+        padding: 0 70px;
+      }
+      .samsung .swiper {
+        width: 1024px;
+        height: 500px;
+        padding: 0 50px;
+      }
+      .samsung .swiper-pagination {
+        top: 26px;
+        left: 120px;
+        transform: initial;
+      }
+      .samsung .slider__slide-description {
+        font-size: 24px;
+        padding: 0px 0px 64px 4px;
+      }
+      .samsung .slider__slide-wrapper {
+        width: 178px;
+        height: 320px;
+        margin-bottom: 0;
+        height: 100%;
+        width: 100%;
+        display: grid;
+        align-items: self-end;
+      }
+      .samsung .slider__slide {
+        height: 100%;
+        width: 100%;
+        /* max-width: 300px; */
+        /* max-height: 632px; */
+      }
+      .samsung .slider__slide video {
+        max-width: 300px;
+        max-height: 632px;
+      }
+      .samsung .slider__link-name {
+        font-size: 16px;
+      }
+      .samsung .slider__link-icon {
+        width: 18px;
+        height: 18px;
+      }
+      .samsung .slider__link {
+        top: 12px;
+        left: 16px px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .samsung__slider {
+        padding: 0 0 80px 0;
+        margin-bottom: 80px;
+      }
+      .samsung .slider__link-name {
+        font-size: 18px;
+      }
+      .samsung .slider__link-icon {
+        width: 24px;
+        height: 24px;
+      }
+      .samsung .slider__link {
+        top: 16px;
+        left: 20px;
+      }
+      .samsung .slide1-mob {
+        gap: 22px;
+      }
+      .samsung .swiper {
+        width: 1030px;
+        height: 550px;
+        padding: 0px 16px;
+      }
+      .samsung .slide1-mob__wrapper {
+        border-radius: 30px;
+      }
+      .samsung .slider__slide-wrapper {
+        border-radius: 30px;
+        width: 277px;
+        height: 490px;
+      }
+      .samsung .slider__slide {
+        justify-content: end;
+        align-content: center;
+      }
+      .samsung .slider__button {
+        bottom: 40px;
+        right: 12px;
+      }
+      .samsung .slider__slide-description {
+        font-size: 32px;
+        padding: 0px 0px 30px 4px;
+      }
+      .samsung .swiper-pagination {
+        top: 26px;
+        left: 82px;
+      }
+      .samsung .swiper-button-next {
+        right: 0px;
+      }
+      .samsung .swiper-button-prev {
+        left: 0px;
+      }
+    }
+    .samsung .techspec {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 16px;
+      padding: 0px 24px 40px;
+      justify-items: flex-start;
+    }
+    .samsung .column {
+      padding: 6px 0px;
+    }
+    .samsung .row {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      align-items: center;
+      gap: 16px;
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .samsung .row p {
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 150%;
+    }
+    .samsung .row span {
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    @media (min-width: 768px) {
+      .samsung .techspec {
+        padding: 0px 0px 44px;
+        gap: 24px;
+      }
+      .samsung .row {
+        grid-template-rows: 21px 1fr 1fr 1fr;
+        gap: 24px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .techspec {
+        padding: 0px 0px 60px;
+        grid-template-columns: 110px 110px 110px 110px;
+      }
+      .samsung .row {
+        grid-template-rows: 24px 1fr 1fr 1fr;
+        font-size: 16px;
+      }
+      .samsung .row p {
+        font-size: 30px;
+      }
+      .samsung .row span {
+        font-size: 22px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .techspec {
+        padding: 0 0px 80px;
+        grid-template-columns: 155px 155px 155px 155px;
+      }
+      .samsung .row {
+        grid-template-rows: 30px 1fr 1fr 1fr;
+        font-size: 20px;
+      }
+      .samsung .row p {
+        font-size: 42px;
+      }
+      .samsung .row span {
+        font-size: 28px;
+      }
+    }
+    .samsung .clear {
+      padding: 0 24px 40px;
+    }
+    .samsung .clear__wrapper {
+      margin-bottom: 32px;
+    }
+    .samsung .clear__title-s {
+      margin-bottom: 16px;
+    }
+    .samsung .clear__subtitle {
+      margin-bottom: 16px;
+      text-align: start;
+    }
+    .samsung .clear__description {
+      margin-bottom: 16px;
+      text-align: start;
+    }
+    .samsung .clear__logo {
+      width: 166px;
+      height: 30px;
+    }
+    .samsung .clear__image {
+      width: 100%;
+    }
+    @media (min-width: 768px) {
+      .samsung .clear {
+        padding: 0 40px 44px;
+      }
+      .samsung .clear__wrapper {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 16px;
+        margin-bottom: 40px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .clear {
+        padding: 0 96px 60px;
+      }
+      .samsung .clear__logo {
+        width: 202px;
+        height: 36px;
+      }
+      .samsung .clear__wrapper {
+        display: grid;
+        grid-template-columns: 245px 1fr;
+        gap: 24px;
+        margin-bottom: 60px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .clear {
+        padding: 0 0px 80px;
+      }
+      .samsung .clear__wrapper {
+        display: grid;
+        grid-template-columns: 333px 1fr;
+        gap: 24px;
+        margin-bottom: 80px;
+      }
+      .samsung .clear__logo {
+        width: 267px;
+        height: 47px;
+      }
+    }
+    .samsung .details {
+      padding: 0 24px 0px;
+    }
+    .samsung .details__title-s {
+      margin-bottom: 32px;
+      display: flex;
+      gap: 10px;
+      text-align: center;
+      align-items: center;
+    }
+    .samsung .details__buttons-list {
+      display: grid;
+      width: 100%;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 22px;
+    }
+    .samsung .details__buttons-item {
+      display: grid;
+      align-content: center;
+      color: #FFF;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+      padding: 8px 0;
+      position: relative;
+      cursor: pointer;
+    }
+    .samsung .details__buttons-item::after {
+      content: '';
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: #fff;
+    }
+    .samsung .details__buttons-item.js__active::after {
+      content: '';
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: #fff;
+    }
+
+    .samsung .details__buttons-item.js__active {
+      font-weight: 500;
+    }
+
+    /*  */
+
+
+
+
+    .samsung .details__buttons-list_ai {
+      display: grid;
+      width: 100%;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 22px;
+    }
+    .samsung .details__buttons-item_ai {
+      display: grid;
+      align-content: center;
+      color: #FFF;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+      padding: 8px 0;
+      position: relative;
+      cursor: pointer;
+    }
+    .samsung .details__buttons-item_ai::after {
+      content: '';
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: #fff;
+    }
+    .samsung .details__buttons-item_ai.js__active_ai::after {
+      content: '';
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: #fff;
+    }
+    .samsung .details__buttons-item_ai.js__active_ai {
+      font-weight: 500;
+    }
+    .samsung .details__subtitle {
+      margin-bottom: 16px;
+      text-align: start;
+    }
+    .samsung .details__description {
+      text-align: start;
+    }
+    .samsung .details__content {
+      margin-bottom: 32px;
+      line-height: 1px;
+    }
+    .samsung .details__content_ai {
+      margin-bottom: 32px;
+      line-height: 1px;
+    }
+    .samsung .details__image {
+      display: none;
+      width: 100%;
+    }
+    .samsung .details__image.js__visible {
+      display: block;
+    }
+    .samsung .details__image_ai {
+      display: none;
+      width: 100%;
+    }
+    .samsung .details__image_ai.js__visible_ai {
+      display: block;
+    }
+
+    .samsung .details__image_ai .items_block_img img{
+      width: 100%;
+    }
+    .samsung .details__image_ai .items_block_text{
+        text-align: center;
+    }
+    .samsung .details__image_ai .subtitle,
+    .samsung .details__image_ai .description{
+        text-align: center;
+    }
+    .samsung .details__image_ai .items_block{
+        display: grid;
+        gap: 32px;
+    }
+    .samsung .details .title_slid {
+        font-size: 24px;
+    }
+    
+    .samsung .details__image_ai {
+      display: none;
+      width: 100%;
+    }
+    .samsung .details__image_ai.js__visible_ai {
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .samsung .details__image_ai .items_block{
+        gap: 40px;
+    }
+      .samsung .details {
+        padding: 0 40px 0px;
+      }
+      .samsung .details__title-s {
+        margin-bottom: 40px;
+      }
+      .samsung .details__content {
+        margin-bottom: 40px;
+      }
+      .samsung .details__content_ai {
+        margin-bottom: 40px;
+      }
+      .samsung .details__wrapper {
+        width: 100%;
+        max-width: 308px;
+        justify-self: flex-start;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .details {
+        padding: 0 96px 0px;
+      }
+      .samsung .details__title-s {
+        margin-bottom: 60px;
+      }
+      .samsung .details .title_slid {
+        font-size: 30px;
+    }
+    .samsung .details__image_ai .items_block{
+        gap: 60px;
+    }
+      .samsung .details__content {
+        margin-bottom: 60px;
+      }
+      .samsung .details__content_ai {
+        margin-bottom: 60px;
+      }
+      .samsung .details__buttons-item {
+        font-size: 16px;
+        padding: 10px 0;
+      }
+      .samsung .details__buttons-item.js__active::after {
+        height: 3px;
+      }
+      /*  */
+      .samsung .details__buttons-item_ai {
+        font-size: 16px;
+        padding: 10px 0;
+      }
+      .samsung .details__buttons-item_ai.js__active_ai::after {
+        height: 3px;
+      }
+      .samsung .details__wrapper {
+        max-width: 380px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .details {
+        padding: 0 0px 0px;
+      }
+      .samsung .details .title_slid {
+        font-size: 42px;
+    }
+    .samsung .details__image_ai .items_block{
+        gap: 80px;
+    }
+      .samsung .details__title-s {
+        margin-bottom: 80px;
+      }
+      .samsung .details__content {
+        margin-bottom: 80px;
+      }
+      .samsung .details__content_ai {
+        margin-bottom: 80px;
+      }
+      .samsung .details__subtitle {
+        margin-bottom: 24px;
+      }
+      .samsung .details__wrapper {
+        max-width: 511px;
+      }
+    }
+    .samsung .brightness {
+      padding: 0 24px 0px;
+    }
+    .samsung .brightness__title-s {
+      margin-bottom: 16px;
+    }
+    .samsung .brightness__subtitle {
+      margin-bottom: 16px;
+      text-align: start;
+    }
+    .samsung .brightness__description {
+      text-align: start;
+    }
+    .samsung .brightness__image {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    @media (min-width: 768px) {
+      .samsung .brightness {
+        padding: 0 40px 0px;
+      }
+      .samsung .brightness__wrapper {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 16px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .brightness {
+        padding: 0 96px 0px;
+      }
+      .samsung .brightness__wrapper {
+        display: grid;
+        grid-template-columns: 245px 1fr;
+        gap: 24px;
+      }
+      .samsung .brightness__image {
+        margin-bottom: 60px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .brightness {
+        padding: 0px;
+      }
+      .samsung .brightness__wrapper {
+        display: grid;
+        grid-template-columns: 333px 1fr;
+        gap: 24px;
+      }
+      .samsung .brightness__image {
+        margin-bottom: 80px;
+      }
+    }
+    .samsung .game {
+      padding: 0 24px 0px;
+    }
+    .samsung .game__content {
+      display: grid;
+    }
+    .samsung .game__title-s {
+      margin-bottom: 16px;
+    }
+    .samsung .game__subtitle {
+      margin-bottom: 16px;
+      text-align: start;
+    }
+    .samsung .game__description {
+      margin-bottom: 16px;
+      text-align: start;
+    }
+    .samsung .game__logo {
+      width: 166px;
+      height: 30px;
+    }
+    .samsung .game__image {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .samsung .game__logo {
+      width: 183px;
+      height: 32px;
+      margin-bottom: 14px;
+    }
+    .samsung .game__icons {
+      width: 171px;
+      height: 14px;
+    }
+    @media (min-width: 768px) {
+      .samsung .game {
+        padding: 0 40px 0px;
+      }
+      .samsung .game__wrapper {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 16px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .game {
+        padding: 0 96px 0px;
+      }
+      .samsung .game__logo {
+        width: 202px;
+        height: 36px;
+      }
+      .samsung .game__wrapper {
+        display: grid;
+        grid-template-columns: 245px 1fr;
+        gap: 24px;
+      }
+      .samsung .game__image {
+        margin-bottom: 60px;
+      }
+      .samsung .game__logo {
+        width: 239px;
+        height: 42px;
+        margin-bottom: 18px;
+      }
+      .samsung .game__icons {
+        width: 206px;
+        height: 18px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .game {
+        padding: 0 0px 0px;
+      }
+      .samsung .game__wrapper {
+        display: grid;
+        grid-template-columns: 333px 1fr;
+        gap: 24px;
+        margin-bottom: 80px;
+      }
+      .samsung .game__logo {
+        width: 267px;
+        height: 47px;
+      }
+      .samsung .game__image {
+        margin-bottom: 80px;
+      }
+      .samsung .game__logo {
+        width: 325px;
+        height: 60px;
+        margin-bottom: 24px;
+      }
+      .samsung .game__icons {
+        width: 269px;
+        height: 25px;
+      }
+    }
+    .samsung .waterproof {
+      padding: 0 24px 0px;
+    }
+    .samsung .waterproof__wrapper {
+      width: 100%;
+    }
+    .samsung .waterproof__image {
+      margin: 32px 0;
+    }
+    .samsung .waterproof__title {
+      text-align: start;
+    }
+    .samsung .waterproof__subtitle {
+      text-align: start;
+    }
+    @media (min-width: 768px) {
+      .samsung .waterproof {
+        padding: 0 40px 0px;
+      }
+      .waterproof__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        width: 100%;
+      }
+      .samsung .waterproof__image {
+        margin: 40px 0;
+      }
+      .samsung .waterproof__subtitle {
+        grid-column: 2;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .waterproof {
+        padding: 0 92px 0px;
+      }
+      .samsung .waterproof__image {
+        margin: 60px 0;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .waterproof {
+        padding: 0 0px 0px;
+      }
+      .samsung .waterproof__image {
+        margin: 80px 0;
+      }
+      .waterproof__wrapper:nth-child(1) {
+        grid-template-columns: 2fr 1fr;
+      }
+    }
+    .samsung .spen {
+      padding: 0 24px 0px;
+    }
+    .samsung .spen__wrapper {
+      width: 100%;
+    }
+    .samsung .spen__image {
+      margin: 32px 0;
+    }
+    .samsung .spen__title {
+      text-align: start;
+    }
+    .samsung .spen__subtitle {
+      text-align: start;
+      margin-bottom: 14px;
+    }
+    .samsung .spen__logo {
+      width: 217px;
+      height: 58px;
+    }
+    @media (min-width: 768px) {
+      .samsung .spen {
+        padding: 0 40px 0px;
+      }
+      .spen__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        width: 100%;
+      }
+      .samsung .spen__image {
+        margin: 0px 0 40px;
+      }
+      .samsung .spen__container {
+        grid-column: 2;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .spen {
+        padding: 0 92px 0px;
+      }
+      .samsung .spen__image {
+        margin: 0px 0 60px;
+      }
+      .samsung .spen__logo {
+        width: 261px;
+        height: 78px;
+      }
+      .samsung .spen__subtitle {
+        margin-bottom: 18px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .spen {
+        padding: 0 0px 0px;
+      }
+      .samsung .spen__image {
+        margin: 0px 0 80px;
+      }
+      .spen__wrapper:nth-child(1) {
+        grid-template-columns: 2fr 1fr;
+      }
+      .samsung .spen__logo {
+        width: 342px;
+        height: 110px;
+      }
+      .samsung .spen__subtitle {
+        margin-bottom: 24px;
+      }
+    }
+    .samsung .booster {
+      padding: 0 24px 0px;
+    }
+    .samsung .booster__title-s {
+      margin-bottom: 16px;
+    }
+    .samsung .booster__subtitle {
+      margin-bottom: 16px;
+      text-align: start;
+    }
+    .samsung .booster__description {
+      text-align: start;
+    }
+    .samsung .booster__image {
+      width: 100%;
+    }
+    .samsung .booster__wrapper {
+      margin-bottom: 40px;
+    }
+    @media (min-width: 768px) {
+      .samsung .booster {
+        padding: 0 40px 0px;
+      }
+      .samsung .booster__wrapper {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 16px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .booster {
+        padding: 0 96px 0px;
+      }
+      .samsung .booster__wrapper {
+        display: grid;
+        grid-template-columns: 245px 1fr;
+        gap: 24px;
+        margin-bottom: 60px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .booster {
+        padding: 0px;
+      }
+      .samsung .booster__wrapper {
+        display: grid;
+        grid-template-columns: 333px 1fr;
+        gap: 24px;
+        margin-bottom: 80px;
+      }
+    }
+    .samsung .battery {
+      padding: 0 24px 0px;
+    }
+    .samsung .battery__title-s {
+      margin-bottom: 16px;
+    }
+    .samsung .battery__subtitle {
+      text-align: start;
+    }
+    .samsung .battery__description {
+      text-align: start;
+    }
+    .samsung .battery__image {
+      width: 100%;
+    }
+    .samsung .battery__wrapper {
+      margin-bottom: 40px;
+    }
+    @media (min-width: 768px) {
+      .samsung .battery {
+        padding: 0 40px 0px;
+      }
+      .samsung .battery__wrapper {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 16px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .battery {
+        padding: 0 96px 0px;
+      }
+      .samsung .battery__wrapper {
+        display: grid;
+        grid-template-columns: 245px 1fr;
+        gap: 24px;
+        margin-bottom: 60px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .battery {
+        padding: 0px;
+      }
+      .samsung .battery__wrapper {
+        display: grid;
+        grid-template-columns: 333px 1fr;
+        gap: 24px;
+        margin-bottom: 80px;
+      }
+    }
+    .samsung .pc {
+      padding: 0 24px 0px;
+    }
+    .samsung .pc__wrapper {
+      width: 100%;
+    }
+    .samsung .pc__wrapper:nth-child(1) {
+      width: 100%;
+      margin-bottom: 16px;
+    }
+    .samsung .pc__image {
+      margin: 32px 0 0;
+    }
+    .samsung .pc__logo {
+      width: 31px;
+      height: 35px;
+    }
+    .samsung .pc__title {
+      text-align: start;
+    }
+    .samsung .pc__subtitle {
+      text-align: start;
+      margin-bottom: 14px;
+    }
+    .samsung .pc__description {
+      text-align: start;
+      margin-bottom: 14px;
+    }
+    @media (min-width: 768px) {
+      .samsung .pc {
+        padding: 0 40px 0px;
+      }
+      .samsung .pc__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        width: 100%;
+      }
+      .samsung .pc__wrapper:nth-child(1) {
+        grid-template-columns: 1fr 1fr;
+      }
+      .samsung .pc__image {
+        margin: 40px 0;
+      }
+      .samsung .pc__container {
+        grid-column: 2;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .pc {
+        padding: 0 92px 0px;
+      }
+      .samsung .pc__image {
+        margin: 60px 0 0;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .pc {
+        padding: 0 0px 0px;
+      }
+      .samsung .pc__image {
+        margin: 80px 0 0;
+      }
+      .samsung .pc__wrapper:nth-child(1) {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    .samsung .notes {
+      padding: 40px 24px 0px;
+    }
+    .samsung .notes__wrapper {
+      width: 100%;
+    }
+    .samsung .notes__logo {
+      width: 142px;
+      height: 30px;
+      margin-bottom: 14px;
+    }
+    .samsung .notes__image {
+      margin: 32px 0;
+    }
+    .samsung .notes__title {
+      text-align: start;
+      color: #000000;
+    }
+    .samsung .notes__description {
+      margin-bottom: 0;
+      text-align: start;
+    }
+    .samsung .notes__subtitle {
+      text-align: start;
+      color: #000000;
+      margin-bottom: 14px;
+    }
+    @media (min-width: 768px) {
+      .samsung .notes {
+        padding: 44px 40px 0px;
+      }
+      .notes__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        width: 100%;
+      }
+      .samsung .notes__image {
+        margin: 0px;
+      }
+      .samsung .notes__container {
+        grid-column: 2;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .notes {
+        padding: 60px 92px 0px;
+      }
+      .samsung .notes__image {
+        margin: 0px;
+      }
+      .samsung .notes__logo {
+        width: 178px;
+        height: 38px;
+        margin-bottom: 18px;
+      }
+      .samsung .notes__subtitle {
+        margin-bottom: 18px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .notes {
+        padding: 80px 0px 0px;
+      }
+      .samsung .notes__logo {
+        width: 244px;
+        height: 52px;
+        margin-bottom: 24px;
+      }
+      .samsung .notes__subtitle {
+        margin-bottom: 24px;
+      }
+      .notes__wrapper:nth-child(1) {
+        grid-template-columns: 2fr 1fr;
+      }
+    }
+    .samsung .microsd {
+      padding: 40px 24px 0;
+    }
+    .samsung .microsd__image {
+      width: 100%;
+      margin-bottom: 32px;
+    }
+    .samsung .microsd__logo {
+      width: 142px;
+      height: 30px;
+    }
+    .samsung .microsd__title-s {
+      margin-bottom: 14px;
+      text-align: start;
+    }
+    .samsung .microsd__subtitle {
+      margin-bottom: 14px;
+      text-align: start;
+    }
+    .samsung .microsd__subtitle span {
+      margin-bottom: 14px;
+      font-weight: 700;
+      text-align: start;
+    }
+    @media (min-width: 768px) {
+      .samsung .microsd {
+        padding: 44px 40px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        align-items: center;
+      }
+      .samsung .microsd__image {
+        margin-bottom: 0px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .microsd {
+        padding: 60px 96px 0;
+      }
+      .samsung .microsd__image {
+        margin-bottom: 0px;
+      }
+      .samsung .microsd__logo {
+        width: 178px;
+        height: 38px;
+      }
+      .samsung .microsd__title-s {
+        margin-bottom: 18px;
+      }
+      .samsung .microsd__subtitle {
+        margin-bottom: 18px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .microsd {
+        padding: 80px 0px 0;
+      }
+      .samsung .microsd__logo {
+        width: 244px;
+        height: 52px;
+      }
+      .samsung .microsd__title-s {
+        margin-bottom: 24px;
+      }
+      .samsung .microsd__subtitle {
+        margin-bottom: 24px;
+      }
+    }
+    .samsung .notepaper {
+      padding: 0 24px 0px;
+    }
+    .samsung .notepaper__title-s {
+      margin-bottom: 16px;
+      color: #000000;
+    }
+    .samsung .notepaper__subtitle {
+      margin-bottom: 14px;
+      text-align: start;
+      color: #000000;
+    }
+    .samsung .notepaper__description {
+      text-align: start;
+      margin-bottom: 14px;
+    }
+    .samsung .notepaper__image {
+      width: 100%;
+    }
+    .samsung .notepaper__logo {
+      width: 217px;
+      height: 58px;
+    }
+    .samsung .notepaper__wrapper {
+      margin-bottom: 32px;
+    }
+    @media (min-width: 768px) {
+      .samsung .notepaper {
+        padding: 0 40px 0px;
+      }
+      .samsung .notepaper__wrapper {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 16px;
+        margin-bottom: 40px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .notepaper {
+        padding: 0 96px 0px;
+      }
+      .samsung .notepaper__wrapper {
+        display: grid;
+        grid-template-columns: 245px 1fr;
+        gap: 24px;
+        margin-bottom: 60px;
+      }
+      .samsung .notepaper__logo {
+        width: 261px;
+        height: 78px;
+      }
+      .samsung .notepaper__subtitle {
+        margin-bottom: 18px;
+      }
+      .samsung .notepaper__description {
+        margin-bottom: 18px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .notepaper {
+        padding: 0px;
+      }
+      .samsung .notepaper__wrapper {
+        display: grid;
+        grid-template-columns: 333px 1fr;
+        gap: 24px;
+        margin-bottom: 80px;
+      }
+      .samsung .notepaper__logo {
+        width: 342px;
+        height: 110px;
+      }
+      .samsung .notepaper__subtitle {
+        margin-bottom: 24px;
+      }
+      .samsung .notepaper__description {
+        margin-bottom: 24px;
+      }
+    }
+    .samsung .usefulness {
+      padding: 0px 24px 0;
+    }
+    .samsung .usefulness__image {
+      width: 100%;
+    }
+    .samsung .usefulness__title-s {
+      margin-bottom: 14px;
+      text-align: start;
+      color: #000000;
+    }
+    .samsung .usefulness__subtitle {
+      margin-bottom: 14px;
+      text-align: start;
+      color: #000000;
+    }
+    .samsung .usefulness__wrapper {
+      margin-bottom: 32px;
+    }
+    .samsung .usefulness__description {
+      text-align: start;
+    }
+    @media (min-width: 768px) {
+      .samsung .usefulness {
+        padding: 0px 40px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        align-items: center;
+      }
+      .samsung .usefulness__wrapper {
+        margin-bottom: 0px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .usefulness {
+        padding: 0px 96px 0;
+      }
+      .samsung .usefulness__image {
+        margin-bottom: 0px;
+      }
+      .samsung .usefulness__title-s {
+        margin-bottom: 18px;
+      }
+      .samsung .usefulness__subtitle {
+        margin-bottom: 18px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .usefulness {
+        padding: 0px 0px 0;
+      }
+      .samsung .usefulness__title-s {
+        margin-bottom: 24px;
+      }
+      .samsung .usefulness__subtitle {
+        margin-bottom: 24px;
+      }
+    }
+    .samsung .cowork {
+      padding: 0 24px 0px;
+    }
+    .samsung .cowork__title-s {
+      margin-bottom: 16px;
+      color: #000000;
+    }
+    .samsung .cowork__subtitle {
+      margin-bottom: 14px;
+      text-align: start;
+      color: #000000;
+    }
+    .samsung .cowork__description {
+      text-align: start;
+    }
+    .samsung .cowork__image {
+      width: 100%;
+    }
+    .samsung .cowork__wrapper {
+      margin-bottom: 40px;
+    }
+    @media (min-width: 768px) {
+      .samsung .cowork {
+        padding: 0 40px 0px;
+      }
+      .samsung .cowork__wrapper {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 16px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .cowork {
+        padding: 0 96px 0px;
+      }
+      .samsung .cowork__subtitle {
+        margin-bottom: 18px;
+      }
+      .samsung .cowork__wrapper {
+        display: grid;
+        grid-template-columns: 245px 1fr;
+        gap: 24px;
+        margin-bottom: 60px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .cowork {
+        padding: 0px;
+      }
+      .samsung .cowork__wrapper {
+        display: grid;
+        grid-template-columns: 333px 1fr;
+        gap: 24px;
+        margin-bottom: 80px;
+      }
+      .samsung .cowork__subtitle {
+        margin-bottom: 24px;
+      }
+    }
+    .samsung .capabilities {
+      padding: 0 24px 0px;
+    }
+    .samsung .capabilities__title {
+      color: #000000;
+      margin-bottom: 32px;
+    }
+    .samsung .capabilities__video {
+      width: 100%;
+    }
+    @media (min-width: 768px) {
+      .samsung .capabilities {
+        padding: 0 40px 0px;
+      }
+      .samsung .capabilities__title {
+        margin-bottom: 40px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .capabilities {
+        padding: 0 96px 0px;
+      }
+      .samsung .capabilities__title {
+        margin-bottom: 60px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .capabilities {
+        padding: 0;
+      }
+      .samsung .capabilities__title {
+        margin-bottom: 80px;
+      }
+    }
+    .samsung .likepc {
+      padding: 0 24px 0px;
+    }
+    .samsung .likepc__title-s {
+      margin-bottom: 20px;
+      color: #000000;
+      text-align: start;
+      width: 100%;
+    }
+    .samsung .likepc__subtitle {
+      margin-bottom: 0px;
+      text-align: start;
+      color: #000000;
+    }
+    .samsung .likepc__image_second {
+      margin-bottom: 14px;
+    }
+    .samsung .likepc__image_main {
+      margin-bottom: 14px;
+    }
+    @media (min-width: 768px) {
+      .samsung .likepc {
+        padding: 0 40px 0px;
+        width: 100%;
+      }
+      .samsung .likepc__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 197px;
+        gap: 24px;
+        width: 100%;
+      }
+      .samsung .likepc__image_main {
+        margin-bottom: 0px;
+        width: 100%;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .likepc {
+        padding: 0 96px 0px;
+      }
+      .samsung .likepc__image_second {
+        margin-bottom: 18px;
+      }
+      .samsung .likepc__wrapper {
+        grid-template-columns: 1fr 245px;
+      }
+      .samsung .likepc__title-s {
+        margin-bottom: 28px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .likepc {
+        padding: 0px;
+      }
+      .samsung .likepc__image_second {
+        margin-bottom: 24px;
+      }
+      .samsung .likepc__wrapper {
+        grid-template-columns: 1fr 333px;
+      }
+      .samsung .likepc__title-s {
+        margin-bottom: 40px;
+      }
+    }
+    .samsung .cover {
+      padding: 0px 24px 0;
+    }
+    .samsung .cover__image {
+      width: 100%;
+      margin-bottom: 32px;
+    }
+    .samsung .cover__logo {
+      width: 217px;
+      height: 58px;
+    }
+    .samsung .cover__title-s {
+      margin-bottom: 14px;
+      text-align: start;
+      color: #000000;
+    }
+    .samsung .cover__subtitle {
+      margin-bottom: 14px;
+      text-align: start;
+      color: #000000;
+    }
+    .samsung .cover__wrapper {
+      margin-bottom: 32px;
+    }
+    .samsung .cover__description {
+      text-align: start;
+      margin-bottom: 14px;
+    }
+    @media (min-width: 768px) {
+      .samsung .cover {
+        padding: 0px 40px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        align-items: center;
+      }
+      .samsung .cover__wrapper {
+        margin-bottom: 0px;
+      }
+      .samsung .cover__image {
+        width: 100%;
+        margin-bottom: 0px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .cover {
+        padding: 0px 96px 0;
+      }
+      .samsung .cover__image {
+        margin-bottom: 0px;
+      }
+      .samsung .cover__title-s {
+        margin-bottom: 18px;
+      }
+      .samsung .cover__subtitle {
+        margin-bottom: 18px;
+      }
+      .samsung .cover__description {
+        margin-bottom: 18px;
+      }
+      .samsung .cover__logo {
+        width: 261px;
+        height: 78px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .cover {
+        padding: 0px 0px 0;
+      }
+      .samsung .cover__title-s {
+        margin-bottom: 24px;
+      }
+      .samsung .cover__subtitle {
+        margin-bottom: 24px;
+      }
+      .samsung .cover__description {
+        margin-bottom: 24px;
+      }
+      .samsung .cover__logo {
+        width: 342px;
+        height: 110px;
+      }
+    }
+    .samsung .devide {
+      padding: 0px 24px 0;
+    }
+    .samsung .devide__image {
+      width: 100%;
+      margin-bottom: 32px;
+    }
+    .samsung .devide__title-s {
+      margin-bottom: 14px;
+      text-align: start;
+      color: #000000;
+    }
+    .samsung .devide__subtitle {
+      margin-bottom: 14px;
+      text-align: start;
+      color: #000000;
+    }
+    .samsung .devide__wrapper {
+      margin-bottom: 32px;
+    }
+    .samsung .devide__description {
+      text-align: start;
+    }
+    @media (min-width: 768px) {
+      .samsung .devide {
+        padding: 0px 40px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        align-items: center;
+      }
+      .samsung .devide__wrapper {
+        margin-bottom: 0px;
+        order: 2;
+      }
+      .samsung .devide__image {
+        width: 100%;
+        margin-bottom: 0px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .devide {
+        padding: 0px 96px 0;
+      }
+      .samsung .devide__image {
+        margin-bottom: 0px;
+      }
+      .samsung .devide__title-s {
+        margin-bottom: 18px;
+      }
+      .samsung .devide__subtitle {
+        margin-bottom: 18px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .devide {
+        padding: 0px 0px 0;
+      }
+      .samsung .devide__title-s {
+        margin-bottom: 24px;
+      }
+      .samsung .devide__subtitle {
+        margin-bottom: 24px;
+      }
+    }
+    .samsung .optimization {
+      padding: 0 24px 0px;
+      margin-bottom: 0;
+    }
+    .samsung .optimization__title-s {
+      margin-bottom: 16px;
+      color: #000000;
+    }
+    .samsung .optimization__subtitle {
+      margin-bottom: 14px;
+      text-align: start;
+      color: #000000;
+    }
+    .samsung .optimization__description {
+      text-align: start;
+      margin-bottom: 14px;
+    }
+    .samsung .optimization__image {
+      width: 100%;
+    }
+    .samsung .optimization__logo {
+      width: 66px;
+      height: 24px;
+    }
+    .samsung .optimization__wrapper {
+      margin-bottom: 32px;
+    }
+    @media (min-width: 768px) {
+      .samsung .optimization {
+        padding: 0 40px 0px;
+        margin-bottom: 0;
+      }
+      .samsung .optimization__wrapper {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 16px;
+        margin-bottom: 40px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .optimization {
+        padding: 0 96px 0px;
+        margin-bottom: 0;
+      }
+      .samsung .optimization__wrapper {
+        display: grid;
+        grid-template-columns: 245px 1fr;
+        gap: 24px;
+        margin-bottom: 60px;
+      }
+      .samsung .optimization__logo {
+        width: 88px;
+        height: 32px;
+      }
+      .samsung .optimization__subtitle {
+        margin-bottom: 18px;
+      }
+      .samsung .optimization__description {
+        margin-bottom: 18px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .optimization {
+        margin-bottom: 0;
+        padding: 0px;
+      }
+      .samsung .optimization__wrapper {
+        display: grid;
+        grid-template-columns: 333px 1fr;
+        gap: 24px;
+        margin-bottom: 80px;
+      }
+      .samsung .optimization__logo {
+        width: 122px;
+        height: 44px;
+      }
+      .samsung .optimization__subtitle {
+        margin-bottom: 24px;
+      }
+      .samsung .optimization__description {
+        margin-bottom: 24px;
+      }
+    }
+    .samsung .footnotes {
+      width: 100%;
+      background-color: #F7F7F7;
+    }
+    .samsung .footnotes__list {
+      padding: 40px 24px 40px 48px;
+      max-width: 530px;
+      margin: 0 auto;
+    }
+    .samsung .footnotes__item {
+      list-style: decimal;
+      list-style-position: outside;
+      color: #666;
+      font-family: Roboto;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .samsung .footnotes__item:not(:last-child) {
+      margin-bottom: 2px;
+    }
+    @media (min-width: 768px) {
+      .samsung .footnotes__list {
+        padding: 44px 40px 44px 60px;
+        max-width: initial;
+        margin: 0 auto;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .footnotes__list {
+        padding: 60px 96px 60px 120px;
+        max-width: initial;
+        margin: 0 auto;
+      }
+      .samsung .footnotes__item {
+        font-size: 14px;
+      }
+      .samsung .footnotes__item:not(:last-child) {
+        margin-bottom: 4px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .footnotes__list {
+        padding: 80px 160px 80px 184px;
+      }
+    }
+    .samsung .quickshare {
+      padding: 0px 0 40px 24px;
+      margin-bottom: 0;
+    }
+    .samsung .quickshare__image-second {
+      display: none;
+    }
+    .samsung .quickshare__image-main {
+      margin-bottom: 24px;
+      width: 100%;
+      max-width: 482px;
+    }
+    .samsung .quickshare__title {
+      margin-bottom: 32px;
+      color: #000000;
+      text-align: start;
+    }
+    .samsung .quickshare__subtitle {
+      margin-bottom: 14px;
+      text-align: start;
+      color: #000000;
+    }
+    .samsung .quickshare__description {
+      margin-bottom: 14px;
+      text-align: start;
+    }
+    .samsung .quickshare__logo {
+      width: 142px;
+      height: 23px;
+    }
+    .samsung .quickshare__content {
+      padding-right: 24px;
+    }
+    @media (min-width: 768px) {
+      .samsung .quickshare {
+        padding: 0px 0 44px 40px;
+        width: 100%;
+        max-width: initial;
+      }
+      .samsung .quickshare__content {
+        padding-right: 0px;
+        order: -1;
+      }
+      .samsung .quickshare__wrapper {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 24px;
+        align-items: flex-end;
+        justify-items: flex-end;
+        width: 100%;
+      }
+      .samsung .quickshare__image-main {
+        margin-bottom: 0px;
+        max-width: initial;
+      }
+      .samsung .quickshare__logo {
+        margin-bottom: 20px;
+      }
+      .samsung .quickshare__image-second {
+        display: block;
+      }
+      .samsung .quickshare__title {
+        margin-bottom: 20px;
+        width: 100%;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .quickshare {
+        padding: 0px 0 80px 160px;
+        max-width: initial;
+      }
+      .samsung .quickshare__wrapper {
+        grid-template-columns: 422px 1fr;
+        gap: 60px;
+      }
+      .samsung .quickshare__logo {
+        margin-bottom: 40px;
+        width: 244px;
+        height: 40px;
+      }
+      .samsung .quickshare__image-second {
+        display: block;
+        width: 244px;
+        height: 422px;
+      }
+      .samsung .quickshare__title {
+        margin-bottom: 28px;
+        width: 100%;
+      }
+      .samsung .quickshare__subtitle {
+        margin-bottom: 24px;
+      }
+      .samsung .quickshare__description {
+        margin-bottom: 24px;
+      }
+    }
+  </style>
+  <div class="samsung">
+    <div class="samsung__header header section"><img alt="Samsung Tab S9 Citrus" class="header__title" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Header/header__title.png" /> <img alt="Samsung Tab S9 image" class="header__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Header/header__image.jpg" />
+      <p class="header__subtitle subtitle">Планшет із найбільшим екраном.
+      </p>
+      <p class="header__subtitle subtitle"><span>Наш найбільший планшет Dynamic AMOLED 2X. Міцніший, ніж будь-коли, і водонепроникний.<sup>1</sup>
+        <br />
+        Наше найпотужніше S Pen.<sup>2</sup> Унікальна продуктивність Snapdragon&reg; 8 Gen2.</span>
+      </p>
+      <p class="header__subtitle subtitle"><span>Galaxy Tab S9 Series</span> | Новий стандарт планшетів рівня преміум
+      </p>
+    </div>
+    <div class="samsung__slider slider">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide first-slide">
+            <div class="slider__slidemob slide1-mob">
+              <div class="slide1-mob__wrapper link__wrapper first">
+                <div class="slider__link">
+                  <p class="slider__link-name">Дизайн
+                  </p>
+                  <svg class="slider__link-icon" fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+                    <path clip-rule="evenodd" d="M8.71674 4.96967C9.00963 4.67678 9.48451 4.67678 9.7774 4.96967L16.2774 11.4697C16.4181 11.6103 16.4971 11.8011 16.4971 12C16.4971 12.1989 16.4181 12.3897 16.2774 12.5303L9.7774 19.0303C9.48451 19.3232 9.00963 19.3232 8.71674 19.0303C8.42385 18.7374 8.42385 18.2626 8.71674 17.9697L14.6864 12L8.71674 6.03033C8.42385 5.73744 8.42385 5.26256 8.71674 4.96967Z" fill="white" fill-rule="evenodd">
+                    </path> 
+                  </svg>
+                </div>
+                <video autoplay="" class="slider-1__video_mobile" muted="" playsinline="" preload="auto">
+                  <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/video_slide-1/slide-1.webm" type="video/webm" /> 
+                  <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/video_slide-1/slide-1.mp4" type="video/mp4" />
+                </video>
+                <video autoplay="" class="slider-1__video_desktop" muted="" playsinline="" preload="auto">
+                  <source src="https://images.samsung.com/ua/galaxy-tab-s9/feature/galaxy-tab-s9-overview-feature01-pc.webm" type="video/webm" /> 
+                  <source src="https://images.samsung.com/ua/galaxy-tab-s9/feature/galaxy-tab-s9-overview-feature01-pc.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="slide1-mob__wrapper link__wrapper second">
+                <div class="slider__link">
+                  <p class="slider__link-name">S Pen
+                  </p>
+                  <svg class="slider__link-icon" fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+                    <path clip-rule="evenodd" d="M8.71674 4.96967C9.00963 4.67678 9.48451 4.67678 9.7774 4.96967L16.2774 11.4697C16.4181 11.6103 16.4971 11.8011 16.4971 12C16.4971 12.1989 16.4181 12.3897 16.2774 12.5303L9.7774 19.0303C9.48451 19.3232 9.00963 19.3232 8.71674 19.0303C8.42385 18.7374 8.42385 18.2626 8.71674 17.9697L14.6864 12L8.71674 6.03033C8.42385 5.73744 8.42385 5.26256 8.71674 4.96967Z" fill="white" fill-rule="evenodd">
+                    </path> 
+                  </svg>
+                </div>
+                <picture> 
+                  <source media="(min-width: 768px)" srcset="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/slide--2%20(1).png" /> <img alt="" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/slidemob_2.png" /> 
+                </picture>
+              </div>
+              <div class="slide1-mob__wrapper link__wrapper third">
+                <div class="slider__link">
+                  <p class="slider__link-name">Аксесуари
+                  </p>
+                  <svg class="slider__link-icon" fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+                    <path clip-rule="evenodd" d="M8.71674 4.96967C9.00963 4.67678 9.48451 4.67678 9.7774 4.96967L16.2774 11.4697C16.4181 11.6103 16.4971 11.8011 16.4971 12C16.4971 12.1989 16.4181 12.3897 16.2774 12.5303L9.7774 19.0303C9.48451 19.3232 9.00963 19.3232 8.71674 19.0303C8.42385 18.7374 8.42385 18.2626 8.71674 17.9697L14.6864 12L8.71674 6.03033C8.42385 5.73744 8.42385 5.26256 8.71674 4.96967Z" fill="white" fill-rule="evenodd">
+                    </path> 
+                  </svg>
+                </div>
+                <picture> 
+                  <source media="(min-width: 768px)" srcset="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/accessories_desk.png" /> <img alt="" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/slidemob_3.png" /> 
+                </picture>
+              </div>
+              <div class="slide1-mob__wrapper link__wrapper fourth">
+                <div class="slider__link">
+                  <p class="slider__link-name">Довговічність
+                  </p>
+                  <svg class="slider__link-icon" fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+                    <path clip-rule="evenodd" d="M8.71674 4.96967C9.00963 4.67678 9.48451 4.67678 9.7774 4.96967L16.2774 11.4697C16.4181 11.6103 16.4971 11.8011 16.4971 12C16.4971 12.1989 16.4181 12.3897 16.2774 12.5303L9.7774 19.0303C9.48451 19.3232 9.00963 19.3232 8.71674 19.0303C8.42385 18.7374 8.42385 18.2626 8.71674 17.9697L14.6864 12L8.71674 6.03033C8.42385 5.73744 8.42385 5.26256 8.71674 4.96967Z" fill="white" fill-rule="evenodd">
+                    </path> 
+                  </svg>
+                </div>
+                <video autoplay="" muted="" playsinline="" preload="auto">
+                  <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/video_slide-1/slide-3.webm" type="video/webm" /> 
+                  <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/video_slide-1/slide__3.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="slide1-mob__wrapper link__wrapper fifth">
+                <div class="slider__link">
+                  <p class="slider__link-name">Дисплей
+                  </p>
+                  <svg class="slider__link-icon" fill="none" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+                    <path clip-rule="evenodd" d="M8.71674 4.96967C9.00963 4.67678 9.48451 4.67678 9.7774 4.96967L16.2774 11.4697C16.4181 11.6103 16.4971 11.8011 16.4971 12C16.4971 12.1989 16.4181 12.3897 16.2774 12.5303L9.7774 19.0303C9.48451 19.3232 9.00963 19.3232 8.71674 19.0303C8.42385 18.7374 8.42385 18.2626 8.71674 17.9697L14.6864 12L8.71674 6.03033C8.42385 5.73744 8.42385 5.26256 8.71674 4.96967Z" fill="white" fill-rule="evenodd">
+                    </path> 
+                  </svg>
+                </div>
+                <picture> 
+                  <source media="(min-width: 768px)" srcset="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/display_desk.png" /> <img alt="" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/slidemob_5.png" /> 
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider__slide">
+              <div class="slider__slide-wrapper">
+                <video autoplay="" class="slide__video" muted="" playsinline="" preload="auto">
+                  <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/video_slide-1/slide-1.webm" type="video/webm" /> 
+                  <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Perfection/galaxy-tab-s9-size-graphite-pc.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <p class="slider__slide-description">Три розміри. Два кольори,
+                <br />
+                натхненні природою
+              </p>
+              <div class="slider__button">
+                <svg class="slider__button-icon_play" fill="none" viewbox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg"> 
+                  <path clip-rule="evenodd" d="M13.1602 8.89791C13.5666 8.68038 14.0598 8.70423 14.4434 8.95994L29.4434 18.9599C29.7911 19.1918 30 19.5821 30 20C30 20.4179 29.7911 20.8082 29.4434 21.0401L14.4434 31.0401C14.0598 31.2958 13.5666 31.3196 13.1602 31.1021C12.7537 30.8846 12.5 30.461 12.5 30V10C12.5 9.53901 12.7537 9.11543 13.1602 8.89791Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                </svg> 
+                <svg class="slider__button-icon_pause" fill="none" viewbox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg"> 
+                  <path clip-rule="evenodd" d="M14.375 8.75C15.4105 8.75 16.25 9.58947 16.25 10.625V29.375C16.25 30.4105 15.4105 31.25 14.375 31.25C13.3395 31.25 12.5 30.4105 12.5 29.375V10.625C12.5 9.58947 13.3395 8.75 14.375 8.75Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                  <path clip-rule="evenodd" d="M25.625 8.75C26.6605 8.75 27.5 9.58947 27.5 10.625V29.375C27.5 30.4105 26.6605 31.25 25.625 31.25C24.5895 31.25 23.75 30.4105 23.75 29.375V10.625C23.75 9.58947 24.5895 8.75 25.625 8.75Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider__slide">
+              <div class="slider__slide-wrapper">
+                <video class="slide__video" muted="" playsinline="" preload="auto">
+                  <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/video_slide-1/slide-3.webm" type="video/webm" /> 
+                  <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/video_slide-1/slide__3.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <p class="slider__slide-description">Перший водо- й
+                <br />
+                пилонепроникний
+                <br />
+                планшет Galaxy S в історії
+              </p>
+              <div class="slider__button">
+                <svg class="slider__button-icon_play" fill="none" viewbox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg"> 
+                  <path clip-rule="evenodd" d="M13.1602 8.89791C13.5666 8.68038 14.0598 8.70423 14.4434 8.95994L29.4434 18.9599C29.7911 19.1918 30 19.5821 30 20C30 20.4179 29.7911 20.8082 29.4434 21.0401L14.4434 31.0401C14.0598 31.2958 13.5666 31.3196 13.1602 31.1021C12.7537 30.8846 12.5 30.461 12.5 30V10C12.5 9.53901 12.7537 9.11543 13.1602 8.89791Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                </svg> 
+                <svg class="slider__button-icon_pause" fill="none" viewbox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg"> 
+                  <path clip-rule="evenodd" d="M14.375 8.75C15.4105 8.75 16.25 9.58947 16.25 10.625V29.375C16.25 30.4105 15.4105 31.25 14.375 31.25C13.3395 31.25 12.5 30.4105 12.5 29.375V10.625C12.5 9.58947 13.3395 8.75 14.375 8.75Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                  <path clip-rule="evenodd" d="M25.625 8.75C26.6605 8.75 27.5 9.58947 27.5 10.625V29.375C27.5 30.4105 26.6605 31.25 25.625 31.25C24.5895 31.25 23.75 30.4105 23.75 29.375V10.625C23.75 9.58947 24.5895 8.75 25.625 8.75Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider__slide">
+              <div class="slider__slide-wrapper"><img alt="" class="slide__video" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/slider__slide_3.png" />
+              </div>
+              <p class="slider__slide-description">Улюблені додатки, оптимізовані
+                <br />
+                для великого екрана
+              </p>
+              <div class="slider__button" style="display: none;">
+                <svg class="slider__button-icon_play" fill="none" viewbox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg"> 
+                  <path clip-rule="evenodd" d="M13.1602 8.89791C13.5666 8.68038 14.0598 8.70423 14.4434 8.95994L29.4434 18.9599C29.7911 19.1918 30 19.5821 30 20C30 20.4179 29.7911 20.8082 29.4434 21.0401L14.4434 31.0401C14.0598 31.2958 13.5666 31.3196 13.1602 31.1021C12.7537 30.8846 12.5 30.461 12.5 30V10C12.5 9.53901 12.7537 9.11543 13.1602 8.89791Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                </svg> 
+                <svg class="slider__button-icon_pause" fill="none" viewbox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg"> 
+                  <path clip-rule="evenodd" d="M14.375 8.75C15.4105 8.75 16.25 9.58947 16.25 10.625V29.375C16.25 30.4105 15.4105 31.25 14.375 31.25C13.3395 31.25 12.5 30.4105 12.5 29.375V10.625C12.5 9.58947 13.3395 8.75 14.375 8.75Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                  <path clip-rule="evenodd" d="M25.625 8.75C26.6605 8.75 27.5 9.58947 27.5 10.625V29.375C27.5 30.4105 26.6605 31.25 25.625 31.25C24.5895 31.25 23.75 30.4105 23.75 29.375V10.625C23.75 9.58947 24.5895 8.75 25.625 8.75Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider__slide">
+              <div class="slider__slide-wrapper"><img alt="" class="slide__video" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/slider__slide_4.png" />
+              </div>
+              <p class="slider__slide-description">Відчуйте гру на новому рівні
+                <br />
+                завдяки епічним,
+                <br />
+                кінематографічним
+                <br />
+                візуальним ефектам
+              </p>
+              <div class="slider__button" style="display: none;">
+                <svg class="slider__button-icon_play" fill="none" viewbox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg"> 
+                  <path clip-rule="evenodd" d="M13.1602 8.89791C13.5666 8.68038 14.0598 8.70423 14.4434 8.95994L29.4434 18.9599C29.7911 19.1918 30 19.5821 30 20C30 20.4179 29.7911 20.8082 29.4434 21.0401L14.4434 31.0401C14.0598 31.2958 13.5666 31.3196 13.1602 31.1021C12.7537 30.8846 12.5 30.461 12.5 30V10C12.5 9.53901 12.7537 9.11543 13.1602 8.89791Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                </svg> 
+                <svg class="slider__button-icon_pause" fill="none" viewbox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg"> 
+                  <path clip-rule="evenodd" d="M14.375 8.75C15.4105 8.75 16.25 9.58947 16.25 10.625V29.375C16.25 30.4105 15.4105 31.25 14.375 31.25C13.3395 31.25 12.5 30.4105 12.5 29.375V10.625C12.5 9.58947 13.3395 8.75 14.375 8.75Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                  <path clip-rule="evenodd" d="M25.625 8.75C26.6605 8.75 27.5 9.58947 27.5 10.625V29.375C27.5 30.4105 26.6605 31.25 25.625 31.25C24.5895 31.25 23.75 30.4105 23.75 29.375V10.625C23.75 9.58947 24.5895 8.75 25.625 8.75Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider__slide">
+              <div class="slider__slide-wrapper">
+                <video class="slide__video" muted="" playsinline="" preload="auto">
+                  <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/video_slide-1/slide-5.webm" type="video/webm" /> 
+                  <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Slider/video_slide-1/slide-5.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <p class="slider__slide-description">Розширте можливості планшета
+              </p>
+              <div class="slider__button">
+                <svg class="slider__button-icon_play" fill="none" viewbox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg"> 
+                  <path clip-rule="evenodd" d="M13.1602 8.89791C13.5666 8.68038 14.0598 8.70423 14.4434 8.95994L29.4434 18.9599C29.7911 19.1918 30 19.5821 30 20C30 20.4179 29.7911 20.8082 29.4434 21.0401L14.4434 31.0401C14.0598 31.2958 13.5666 31.3196 13.1602 31.1021C12.7537 30.8846 12.5 30.461 12.5 30V10C12.5 9.53901 12.7537 9.11543 13.1602 8.89791Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                </svg> 
+                <svg class="slider__button-icon_pause" fill="none" viewbox="0 0 40 40" width="40" xmlns="http://www.w3.org/2000/svg"> 
+                  <path clip-rule="evenodd" d="M14.375 8.75C15.4105 8.75 16.25 9.58947 16.25 10.625V29.375C16.25 30.4105 15.4105 31.25 14.375 31.25C13.3395 31.25 12.5 30.4105 12.5 29.375V10.625C12.5 9.58947 13.3395 8.75 14.375 8.75Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                  <path clip-rule="evenodd" d="M25.625 8.75C26.6605 8.75 27.5 9.58947 27.5 10.625V29.375C27.5 30.4105 26.6605 31.25 25.625 31.25C24.5895 31.25 23.75 30.4105 23.75 29.375V10.625C23.75 9.58947 24.5895 8.75 25.625 8.75Z" fill="white" fill-rule="evenodd">
+                  </path> 
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination">
+        </div>
+        <div class="swiper-button-prev">
+        </div>
+        <div class="swiper-button-next">
+        </div>
+      </div>
+    </div>
+    <div class="samsung__details details section">
+      <p class="details__title-s title-s title_slid">Galaxy AI <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/Group%203.svg?_t=1713184623" alt="">вже тут
+      </p>
+      <ul class="details__buttons-list_ai">
+        <li class="details__buttons-item_ai js__active_ai">Note Assist</li>
+        <li class="details__buttons-item_ai">Photo Assist</li>
+        <li class="details__buttons-item_ai">Transcript Assist</li>
+      </ul>
+      <div class="details__content_ai">
+        <div class="details__image_ai js__visible_ai" >
+          <div class="items_block">
+            <div class="items_block_img">
+              <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/725151/opt.Property%201%3D1.png?_t=1713349731" alt="">
+            </div>
+            <div class="items_block_text">
+              <p class="perfection__title-s title-s">Підсумовуйте нотатки за мить зі штучним інтелектом</p>
+              <p class="perfection__subtitle subtitle">Набагато легше користуватися функціями AI на просторому екрані планшетів Galaxy Tab S9. Чи то ви друкуєте величезний текст, чи то занотовуєте лекцію – Note Assist перетворить довгу історію на коротку. Просто почніть писати, а потім відформатуйте написане в короткий опис. На екрані вашого смартфона нотатки будуть впорядкованими завдяки спрощеним і підсумованим описам на нових обкладинках.</p>
+              <p class="perfection__description description">* Функція Note Assist доступна лише в One UI 6.1 та Samsung Note 4.4.17. або пізніших версіях. Для роботи функції Notes Assist потрібне підключення до мережі та вхід до облікового запису Samsung. Застосовується обмеження щодо кількості символів. Доступність послуги може залежати від мови. Точність результатів не гарантується. Фактичний інтерфейс користувача може відрізнятися.</p>
+            </div>
+          </div>
+        </div>
+        <div class="details__image_ai " >
+          <div class="items_block">
+            <div class="items_block_img">
+              <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/725151/opt.Property%201%3D2.png?_t=1713349731" alt="">
+            </div>
+            <div class="items_block_text">
+              <p class="perfection__title-s title-s">Міняйте розмір. Ретушуйте. Ось так просто!</p>
+              <p class="perfection__subtitle subtitle">Щось не на своєму місці? Просто перемістіть. Набагато легше користуватися функціями AI на просторому екрані планшетів Galaxy Tab S9.  Нові можливості редагування зі штучним інтелектом – переміщення об’єктів і розумне заповнення звільненого простору – дозволять отримувати бажані фото.</p>
+              <p class="perfection__description description">* Функція Згенероване редагування доступна лише в One UI 6.1 та Photo Editor 3.4.21 або новіших версіях. Для роботи функції Згенероване редагування потрібне підключення до мережі та вхід до облікового запису Samsung. Результатом застосування функції Згенероване редагування є змінена фотографія розміром до 12 МП. Під час збереження на згенероване за допомогою штучного інтелекту зображення накладається водяний знак. Точність і надійність згенерованого результату не гарантується. Фактичний інтерфейс користувача може відрізнятися.</p>
+            </div>
+          </div>
+        </div>
+        <div class="details__image_ai " >
+          <div class="items_block">
+            <div class="items_block_img">
+              <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/725151/opt.Property%201%3D1.png?_t=1713349731" alt="">
+            </div>
+            <div class="items_block_text">
+              <p class="perfection__title-s title-s">AI розшифрує ваші голосові записи</p>
+              <p class="perfection__subtitle subtitle">Потрібен персональний помічник? Запишіть свій голос, а штучний інтелект перетворить його на текст, підсумує і навіть перекладе за потреби.</p>
+              <p class="perfection__description description">* Для роботи функції Transcript Assist потрібне підключення до мережі та вхід до облікового запису Samsung. Функція Transcript Assist доступна лише в One UI 6.1 і Samsung Voice Recoder 21.5 або новішої версії, а також для файлів, записаних за допомогою попередньо встановленого застосунку Samsung Phone. У деяких країнах функція запису голосу за допомогою попередньо встановленого застосунку Samsung Phone не підтримується. Обробляти можна лише аудіофайли тривалістю до 3 годин. Функція підсумовування тексту Transcript Assist застосовується до текстів, які містять певну кількість символів. Доступність послуги залежить від мови. Точність результатів не гарантується. Фактичний інтерфейс користувача може відрізнятися.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="samsung__perfection perfection section">
+      <p class="perfection__title title"><span>Dynamic AMOLED 2X.</span>
+        <br />
+        Універсальна досконалість
+      </p>
+      <!-- <img src="" alt="" class="perfection__image"> -->
+      <video autoplay="" class="perfection__video" muted="" playsinline="" preload="auto">
+        <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Perfection/galaxy-tab-s9-display-pc.webm" type="video/webm" /> 
+        <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Perfection/galaxy-tab-s9-display-pc.mp4" type="video/mp4" />
+      </video>
+      <div class="perfection__wrapper">
+        <div class="perfection__content">
+          <p class="perfection__title-s title-s">Три розміри.&sup3;<sup>,</sup>⁴
+            <br />
+            Два кольори, натхненні природою
+          </p>
+          <p class="perfection__subtitle subtitle">Обирайте між стриманим, професійним кольором графіт і м&#39;яким, природним бежевим &ndash; обидві моделі оздоблено вишуканими деталями та гладким матовим покриттям для витонченого вигляду.<sup>5</sup>
+          </p>
+          <p class="perfection__description description">* Вага, подана вище, є актуальною для Wi-Fi моделі.
+          </p>
+        </div>
+        <ul class="perfection__tab-list">
+          <li class="perfection__tab-item_graphite tab-item js__active">
+            <div class="tab-item__container"><span class="tab-item__circle tab-item__graphite"></span>
+            </div>
+            <p class="tab-item__name">Графіт
+            </p>
+          </li>
+          <li class="perfection__tab-item_biege tab-item">
+            <div class="tab-item__container"><span class="tab-item__circle tab-item__circle_biege"></span>
+            </div>
+            <p class="tab-item__name">Бежевий
+            </p>
+          </li>
+        </ul>
+      </div>
+      <video autoplay="" class="perfection__tab perfection__tab_graphite js__active" muted="" playsinline="" preload="auto">
+        <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Perfection/galaxy-tab-s9-size-graphite.webm" type="video/webm" /> 
+        <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Perfection/galaxy-tab-s9-size-graphite-pc.mp4" type="video/mp4" />
+      </video>
+      <video autoplay="" class="perfection__tab perfection__tab_beige" muted="" playsinline="" preload="auto">
+        <!-- <source src="//images.samsung.com/ua/galaxy-tab-s9/feature/galaxy-tab-s9-size-beige-pc.webm" type="video/webm" />  -->
+        <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Perfection/galaxy-tab-s9-size-beige-pc.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="samsung__techspec techspec section">
+      <div class="techspec__row-1 row">
+        <div class="techspec__column-1 column">
+        </div>
+        <div class="techspec__column-2 column">Дисплей
+        </div>
+        <div class="techspec__column-3 column">Вага
+        </div>
+        <div class="techspec__column-4 column">Товщина
+        </div>
+      </div>
+      <div class="techspec__row-2 row">
+        <div class="techspec__column-1 column">Tab S9 Ultra
+        </div>
+        <div class="techspec__column-2 column">
+          <p>14,6&Prime;
+          </p>
+        </div>
+        <div class="techspec__column-3 column">
+          <p>732<span>г</span>
+          </p>
+        </div>
+        <div class="techspec__column-4 column">
+          <p>5,5<span>мм</span>
+          </p>
+        </div>
+      </div>
+      <div class="techspec__row-3 row">
+        <div class="techspec__column-1 column">Tab S9+
+        </div>
+        <div class="techspec__column-2 column">
+          <p>12,4&Prime;
+          </p>
+        </div>
+        <div class="techspec__column-3 column">
+          <p>581<span>г</span>
+          </p>
+        </div>
+        <div class="techspec__column-4 column">
+          <p>5,7<span>мм</span>
+          </p>
+        </div>
+      </div>
+      <div class="techspec__row-4 row">
+        <div class="techspec__column-1 column">Tab S9
+        </div>
+        <div class="techspec__column-2 column">
+          <p>11&Prime;
+          </p>
+        </div>
+        <div class="techspec__column-3 column">
+          <p>498<span>г</span>
+          </p>
+        </div>
+        <div class="techspec__column-4 column">
+          <p>5,6<span>мм</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="samsung__clear clear section">
+      <div class="clear__wrapper">
+        <p class="clear__title-s title-s">Кришталева чистота та комфортність перегляду зображень на Dynamic&nbsp;AMOLED&nbsp;2X
+        </p>
+        <div class="clear__content">
+          <p class="clear__subtitle subtitle">Що б ви не обрали &ndash; Galaxy Tab S9, Galaxy Tab S9+ чи Galaxy Tab S9 Ultra &ndash; у будь-якому разі ви зможете реалізувати своє творче бачення. Усі три пристрої оснащено екраном Dynamic AMOLED 2X, що забезпечує неймовірну передачу кольорів і візуальних образів. Крім того, очі менше втомлюються завдяки зниженню рівня синього випромінювання.⁶
+          </p>
+          <p class="clear__description description">* Зображення змодельовано з ілюстраційною метою.
+          </p>
+          <img alt="" class="clear__logo" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Clear/clear__logo.png" />
+        </div>
+      </div>
+      <img alt="" class="clear__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Clear/clear__image.jpg" />
+    </div>
+    <div class="samsung__details details section">
+      <p class="details__title-s title-s">Уніфікований дизайн. Краса&nbsp;в&nbsp;деталях
+      </p>
+      <ul class="details__buttons-list">
+        <li class="details__buttons-item js__active">Плаваюча камера</li>
+        <li class="details__buttons-item">Динаміки</li>
+        <li class="details__buttons-item">Бічна кнопка</li>
+      </ul>
+      <div class="details__content"><img alt="" class="details__image js__visible" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Details/details__image-1.jpg" /> <img alt="" class="details__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Details/details__image-2.jpg" /> <img alt="" class="details__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Details/details__image-3.jpg" />
+      </div>
+      <div class="details__wrapper">
+        <p class="details__subtitle subtitle">Найменші дрібниці завжди мають найбільше значення. Наприклад, плаваючий дизайн камери на задній панелі, створений для того, щоб елегантно інтегрувати в корпус модернізовану систему камер. Ми навіть переосмислили розташування бічних кнопок і динаміків, щоб зробити їх більш звичними.
+        </p>
+        <p class="details__description description">* Зображення відображає функціональність Galaxy Tab S9 Ultra
+          <br />
+          * Порівняно з Galaxy Tab S8 Ultra, Tab S9 Ultra має оновлену основну камеру на 13 МП і 8 МП, а також ультрашироку фронтальну камеру на 12 МП і 12 МП. У порівнянні з Galaxy Tab S8+, Tab S9+ має оновлену основну камеру на 13 МП і 8 МП, а також ультрашироку фронтальну камеру на 12 МП. Galaxy Tab S9 має 13-мегапіксельну основну камеру та 12-мегапіксельну ультрашироку фронтальну камеру.
+        </p>
+      </div>
+    </div>
+    <div class="samsung__brightness brightness section"><img alt="" class="brightness__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Brightness/brightness__image.jpg" />
+      <div class="brightness__wrapper">
+        <p class="brightness__title-s title-s">Яскраві відтінки. Приголомшливі зображення
+        </p>
+        <div class="brightness__content">
+          <p class="brightness__subtitle subtitle">Дисплей Dynamic AMOLED 2X із високою роздільною здатністю забезпечує особливу реалістичність зображення. Чіткі й виразні деталі, широке охоплення яскравих кольорів і відтворення справжнього чорного кольору завдяки технології поліпшення зображення HDR10+ та плавному прокручуванню з частотою до 120 Гц.
+          </p>
+          <p class="brightness__description description">* Зображення змодельовано з ілюстраційною метою.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="samsung__game game section"><img alt="" class="game__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Game/game__image.jpg" />
+      <div class="game__wrapper">
+        <p class="game__title-s title-s">Відчуйте гру на новому рівні завдяки епічним, кінематографічним візуальним ефектам
+        </p>
+        <div class="game__content">
+          <p class="game__subtitle subtitle">Серія Galaxy Tab S9 пропонує захопливі враження й фотографічну реалістичність зображень на великому екрані Tab для справжніх фанатів ігор.<sup>6,7</sup> Занурення в атмосферу підсилюється завдяки звуку з ефектом присутності від чотирикомпонентної акустичної системи AKG та об&#39;ємному звуку Dolby Atmos.
+          </p>
+          <p class="game__description description">* Зображення змодельовано з ілюстраційною метою.
+          </p>
+          <img alt="" class="game__logo" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Game/game__logo.png" /> <img alt="" class="game__icons" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Game/game__icons.png" />
+        </div>
+      </div>
+    </div>
+    <div class="samsung__waterproof waterproof section">
+      <div class="waterproof__wrapper">
+        <p class="waterproof__title title">Перший водо- й
+          <br />
+          пилонепроникний
+          <br />
+          планшет Galaxy S в історії
+        </p>
+      </div>
+      <img alt="" class="waterproof__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/waterproof/waterproof__image_short.jpg" />
+      <div class="waterproof__wrapper">
+        <p class="waterproof__subtitle subtitle">Tab стійко витримує повсякденне використання. Гладкий метал поєднується з нашою надміцною рамкою Armor Aluminum⁸ , яка відповідає своїй назві, захищаючи планшет від ударів і падінь. Пристрій відповідає стандарту IP68<sup>9,10</sup>, що робить його першим водо- й пилонепроникним планшетом серії Galaxy Tab S Series в історії.
+        </p>
+      </div>
+    </div>
+    <div class="samsung__spen spen section">
+      <div class="spen__wrapper">
+        <p class="spen__title-s title-s">S Pen. Міцніше, швидше, чутливіше
+        </p>
+      </div>
+      <img alt="" class="spen__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/spen/spen__image.jpg" />
+      <div class="spen__wrapper">
+        <div class="spen__container">
+          <p class="spen__subtitle subtitle">Ми оновили конструкцію пера S Pen з комплекту поставки, щоб зробити його водонепроникним відповідно до стандарту IP68&sup1;&sup1; &sup1;&sup2; подібно до Tab. Також ми покращили перо в усіх аспектах, зокрема, підвищивши чутливість наконечника для зменшення кількості випадкових натискань. А завдяки магнітному кріпленню та двонаправленій зарядці заряджати його неймовірно просто.<sup>13</sup>
+          </p>
+          <img alt="" class="spen__logo" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/spen/spen__logo.png" />
+        </div>
+      </div>
+    </div>
+    <div class="samsung__booster booster section">
+      <div class="booster__wrapper">
+        <p class="booster__title-s title-s">Покращений перегляд на вулиці завдяки Vision Booster
+        </p>
+        <div class="booster__content">
+          <p class="booster__subtitle subtitle">Vision Booster дає змогу чітко бачити екран у яскраво освітлених місцях завдяки інтелектуальному алгоритму, який розпізнає сонячне сяйво й змінює налаштування відповідно до нього. Переходьте з приміщення на внутрішній дворик із легкістю завдяки покращенню контрастності та кольору для підтримання яскравості зображення.<sup>14</sup>
+          </p>
+          <p class="booster__description description">*Зображення змодельовано з ілюстраційною метою. Фактичний вигляд UI може відрізнятися.
+          </p>
+        </div>
+      </div>
+      <img alt="" class="booster__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Booster/booster__image.jpg" />
+    </div>
+    <div class="samsung__pc pc section">
+      <div class="pc__wrapper">
+        <p class="pc__title title">Процесор нового покоління для реалістичних ігор нового рівня
+        </p>
+      </div>
+      <div class="pc__wrapper">
+        <div class="pc__container">
+          <p class="pc__subtitle subtitle">Надзвичайно швидкий процесор Snapdragon&reg; 8 Gen2 для Galaxy розумно спроєктовано для забезпечення підвищеної продуктивності та енергозбереження під час ігор на чемпіонському рівні.<sup>15,16</sup> Графічний рушій передає реалістичні відображення та тіні в 3D-середовищі, створюючи особливі враження від ігрового процесу.
+          </p>
+          <p class="pc__description description">* Зображення змодельовано з ілюстраційною метою.
+          </p>
+          <img alt="" class="pc__logo" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Pc/pc__logo.jpg" />
+        </div>
+      </div>
+      <img alt="" class="pc__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Pc/pc__image.jpg" />
+    </div>
+    <div class="samsung__battery battery section">
+      <div class="battery__wrapper">
+        <p class="battery__title-s title-s">Продовжуйте творити на ходу завдяки довготривалому акумулятору
+        </p>
+        <div class="battery__content">
+          <p class="battery__subtitle subtitle">Не стримуйте творчі пориви завдяки довготривалому акумулятору. Його заряду вистачить на цілий день і навіть залишиться трохи на випадок, якщо вашому телефону теж знадобиться підзарядка. Підключіть свій Samsung Galaxy смартфон за допомогою кабелю USB-C, а зарядка подбає про решту.<sup>17,18,19,20,21,22</sup>
+          </p>
+        </div>
+      </div>
+      <picture> 
+        <source media="(min-width: 768px)" srcset="https://i.citrus.world/uploads/promo/Samsung/TabS9/Battery/battery__image.png" /> <img alt="" class="battery__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Battery/battery__image-mob.png" /> 
+      </picture>
+    </div>
+    <div class="samsung__microsd microsd section"><img alt="" class="microsd__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Microsd/microsd__image.png" />
+      <div class="microsd__wrapper">
+        <p class="microsd__title-s title-s">Підтримка microSD допоможе
+          <br />
+          зберегти все, що надихає
+        </p>
+        <p class="microsd__subtitle subtitle">Виберіть внутрішню пам&#39;ять обсягом до 1TB, створіть свій шедевр за допомогою GoodNotes, а потім установіть microSD, щоб збільшити обсяг пам&#39;яті для ваших відео, композицій, фотографій у високій роздільній здатності та інших даних.23,24
+        </p>
+        <p class="microsd__subtitle subtitle"><span>Пам&#39;ять обсягом до 1 ТБ | Micro SD</span>
+        </p>
+        <img alt="" class="microsd__logo" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Microsd/microsd__logo.jpg" />
+      </div>
+    </div>
+    <div class="samsung__wrapper samsung-white">
+      <div class="samsung__notes notes section">
+        <div class="notes__wrapper">
+          <p class="notes__title title">Зручніше ведення нотаток
+            <br />
+            на&nbsp;великому екрані
+          </p>
+        </div>
+        <img alt="" class="notes__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Notes/notes__image.jpg" />
+        <div class="notes__wrapper">
+          <div class="notes__container"><img alt="" class="notes__logo" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Notes/notes__logo.jpg" />
+            <p class="notes__subtitle subtitle">Дайте волю своїй уяві за допомогою додатків для творчості професійного рівня на зразок GoodNotes, оптимізованих для максимально ефективного використання пера S Pen подібно до ручки та паперу&sup2;⁵ Малюйте ескізи в портретній орієнтації, а редагуйте &ndash; у горизонтальній, або навпаки.
+            </p>
+            <p class="notes__description description">* Зображення змодельовано з ілюстраційною метою. Фактичний вигляд UI може відрізнятися.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="samsung__notepaper notepaper section">
+        <div class="notepaper__wrapper">
+          <p class="notepaper__title-s title-s">Пишіть пером <span>S Pen</span>, як на папері, завдяки <span>Notepaper Screen</span>
+          </p>
+          <div class="notepaper__content">
+            <p class="notepaper__subtitle subtitle">У разі використання Notepaper Screen писати на екрані так само зручно, як ручкою на папері.&sup2;⁶ Додайте S Pen &ndash; унікальний інструмент для малювання, що розширить ваші творчі можливості. Перо чутливе до натискання й нахилу, завдяки чому можна створювати детальні ескізи та ілюстрації з високою точністю кожного руху.
+            </p>
+            <p class="notepaper__description description">* Зображення змодельовано з ілюстраційною метою. Фактичний вигляд UI може відрізнятися.
+            </p>
+            <img alt="" class="notepaper__logo" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Notepaper/notepaper__logo.png" />
+          </div>
+        </div>
+        <picture> 
+          <source media="(min-width: 768px)" srcset="https://i.citrus.world/uploads/promo/Samsung/TabS9/Notepaper/notepaper__image.png" /> <img alt="" class="notepaper__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Notepaper/notepaper__image-mob.png" /> 
+        </picture>
+      </div>
+      <div class="samsung__usefulness usefulness section">
+        <div class="usefulness__wrapper">
+          <p class="usefulness__title-s title-s">Ведення нотаток стало ще кориснішим
+          </p>
+          <p class="usefulness__subtitle subtitle">Підвищте свою продуктивність завдяки покращеним функціям S Pen для ведення нотаток. Швидко занотуйте нові ідеї або намалюйте просту схему, щоб донести свою думку. А завдяки функції S Pen to Text ви зможете легко перетворити рукописний текст на цифровий у різноманітних додатках на зразок Google, Messages, Maps та інших.
+          </p>
+          <p class="usefulness__description description">* Зображення змодельовано з ілюстраційною метою. Фактичний вигляд UI може відрізнятися.
+          </p>
+        </div>
+        <img alt="" class="usefulness__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/usefulness/usefulness__image.jpg" />
+      </div>
+      <div class="samsung__cowork cowork section">
+        <div class="cowork__wrapper">
+          <p class="cowork__title-s title-s">Співпраця в реальному часі тепер і в <span>Samsung Notes</span>
+          </p>
+          <div class="cowork__content">
+            <p class="cowork__subtitle subtitle">Зберіть колег на мозковий штурм, використовуючи S Pen та Samsung Notes. Обмінюйтеся нотатками на пристроях Samsung Galaxy, щоб редагувати вміст у режимі реального часу безпосередньо в додатку. Можна навіть легко сканувати багатосторінкові документи та зберігати їх у Gallery, щоб використовувати під час відеоконференцій.
+            </p>
+            <p class="cowork__description description">* Зображення змодельовано з ілюстраційною метою. Фактичний вигляд UI може відрізнятися.
+            </p>
+          </div>
+        </div>
+        <img alt="" class="cowork__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Cowork/cowork__image.jpg" />
+      </div>
+      <div class="samsung__capabilities capabilities section">
+        <p class="capabilities__title title">Розширте можливості планшета
+        </p>
+        <video autoplay="" class="capabilities__video" muted="" playsinline="" preload="auto">
+          <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Capabilities/galaxy-tab-s9-experience-pc.webm" type="video/webm" /> 
+          <source src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Capabilities/galaxy-tab-s9-experience-pc.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="samsung__likepc likepc section">
+        <p class="likepc__title-s title-s">Досягніть функціональності рівня ПК
+          <br />
+          одним рухом
+        </p>
+        <div class="likepc__wrapper"><img alt="" class="likepc__image_main" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Likepc/likepc__image_1.jpg" />
+          <div class="likepc__content"><img alt="" class="likepc__image_second" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Likepc/likepc__image_2.jpg" />
+            <p class="likepc__subtitle subtitle">Приєднайте клавіатуру Book Cover, щоб із легкістю виконувати завдання. Повністю підсвічена, з функціональними клавішами та сенсорною панеллю, клавіатура підтримує режим DeX для зручної роботи, як на ПК. Налаштовуйте сполучення клавіш у різних додатках для підвищення ефективності й підключайтеся до інших пристроїв Galaxy через бездротове з&#39;єднання, щоб легко вводити текст на будь-якому екрані.<sup>27,28,29,30,31,32</sup>
+            </p>
+            <p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="samsung__cover cover section"><img alt="" class="cover__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Cover/logo__image.jpg" />
+        <div class="cover__wrapper">
+          <p class="cover__title-s title-s">Чохол Smart Book Cover не потребує опори
+          </p>
+          <p class="cover__subtitle subtitle">Виберіть найзручніше положення для виконуваного завдання, без зусиль відрегулювавши складану обкладинку Smart Book Cover. Установіть ваш Galaxy Tab S9, S9+ або S9 Ultra вертикально чи горизонтально, щоб малювати, як на мольберті, або дивитися серіали, не тримаючи пристрій у руках.
+          </p>
+          <p class="cover__description description">* Чохол Smart Book Cover продається окремо.
+          </p>
+          <img alt="" class="cover__logo" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Cover/cover__logo.png" />
+        </div>
+      </div>
+      <div class="samsung__quickshare quickshare section">
+        <p class="quickshare__title title">Знімайте на телефон
+          <br />
+          і передавайте на планшет
+        </p>
+        <div class="quickshare__wrapper">
+          <picture> 
+            <source media="(min-width: 768px)" srcset="https://i.citrus.world/uploads/promo/Samsung/TabS9/QuickShare/quickshare__image-main_desk.png" /> <img alt="" class="quickshare__image-main" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/QuickShare/quickshare__image-main_mob.png" /> 
+          </picture>
+          <div class="quickshare__content">
+            <p class="quickshare__subtitle subtitle">Миттєво переміщуйте великі файли з одного Samsung Galaxy пристрою на інший за допомогою Quick Share.<sup>33</sup> Відкрийте LumaFusion і скористайтеся перевагами широкого екрана для точного редагування, вирізання та додавання останніх штрихів.<sup>34</sup>
+            </p>
+            <p class="quickshare__description description">* Зображення змодельовано з ілюстраційною метою. Фактичний вигляд UI може відрізнятися.
+            </p>
+            <img alt="" class="quickshare__logo" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/QuickShare/quickshare__logo.jpg" /> <img alt="" class="quickshare__image-second" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/QuickShare/quickshare__image-second_desk.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="samsung__optimization optimization section">
+        <div class="optimization__wrapper">
+          <p class="optimization__title-s title-s">Оптимізація операцій, пов&#39;язаних із творчістю й багатозадачністю
+          </p>
+          <div class="optimization__content">
+            <p class="optimization__subtitle subtitle">Малюйте на планшеті, ніби пензлем, за допомогою Clip Studio Paint EX та виконуйте кілька операцій одночасно, підключивши смартфон. Функція Multi Control дає змогу перетягувати малюнки між пристроями або миттєво переносити їх зі смартфона для подальшого редагування на планшеті.<sup>35,36</sup>
+            </p>
+            <p class="optimization__description description">* Зображення змодельовано з ілюстраційною метою. Фактичний вигляд UI може відрізнятися. ** Клавіатура Book Cover продається окремо. Galaxy Flip5 продається окремо. *** Clip Studio Paint потрібно передплатити. Попереднє завантаження підтримується на окремих ринках. Clip Studio Paint можна завантажити з Galaxy Store на окремих ринках.
+            </p>
+            <img alt="" class="optimization__logo" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Optimization/optimization__logo.jpg" />
+          </div>
+        </div>
+        <img alt="" class="optimization__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Optimization/optimization__image.jpg" />
+      </div>
+      <div class="samsung__devide devide section">
+        <div class="devide__wrapper">
+          <p class="devide__title-s title-s">Розділіть екран.
+            <br />
+            Підвищте продуктивність
+          </p>
+          <p class="devide__subtitle subtitle">Виконуйте кілька завдань одночасно. Можна схематично малювати архітектурні плани, вибирати захоплюючі візуальні ефекти та спілкуватися у відеочаті &ndash; і все це на одному екрані, навіть не закриваючи вікна.<sup>37</sup>
+          </p>
+          <p class="devide__description description">* Зображення змодельовано з ілюстраційною метою. Фактичний вигляд UI може відрізнятися.
+            <br />
+            ** Клавіатура Book Cover продається окремо.
+            <br />
+            *Google Meet and Microsoft 365 available for download at Google Play. Google Meet is a trademark of Google LLC.
+            <br />
+            *** Google Meet та Microsoft 365 можна завантажити з Google Play. Google Meet є торговельною маркою компанії Google LLC.
+          </p>
+        </div>
+        <img alt="" class="devide__image" src="https://i.citrus.world/uploads/promo/Samsung/TabS9/Devide/devide__image.jpg" />
+      </div>
+      <div class="samsung__footnotes footnotes">
+        <ul class="footnotes__list">
+          <li class="footnotes__item">Galaxy Tab S9 &ndash; перший водо- й пилонепроникний планшет серії Samsung Galaxy Tab S, що відповідає стандарту IP68.</li>
+          <li class="footnotes__item">Перо S Pen з комплекту поставки для серії Galaxy Tab S9 &ndash; перше водо- й пилонепроникне перо S Pen, що відповідає стандарту IP68.</li>
+          <li class="footnotes__item">Розмір екрана Galaxy Tab S9 Ultra становить 14,6&quot; за діагоналлю повного прямокутника й 14,5&quot; з урахуванням заокруглення кутів. Розмір екрана Galaxy Tab S9+ становить 12,4&quot; за діагоналлю повного прямокутника й 12,4&quot; з урахуванням заокруглення кутів. Розмір екрана Galaxy Tab S9 становить 11&quot; за діагоналлю повного прямокутника й 10,9&quot; з урахуванням заокруглення кутів. Фактична зона перегляду менша через заокруглені кути та отвір для камери.</li>
+          <li class="footnotes__item">Вага виробу залежить від моделі. Galaxy Tab S9 Ultra 5G &ndash; 737 г, Wi-Fi &ndash; 732 г. Galaxy Tab S9+ 5G &ndash; 586 г, Wi-Fi &ndash; 581 г. Galaxy Tab S9 5G &ndash; 500 г, Wi-Fi &ndash; 498 г.</li>
+          <li class="footnotes__item">Барвники для анодування металевої рамки на 10% складаються з природних компонентів.</li>
+          <li class="footnotes__item">SGS, провідна світова компанія із сертифікації, відзначила дисплей серії Galaxy Tab S9 сертифікатом Eye Care Certification за його здатність значно зменшувати шкідливий вплив синього світла. Сертифікат можна знайти на сайті www.sgs.com/performance.</li>
+          <li class="footnotes__item">Сертифікат від SGS з &quot;Ігрової продуктивністі&quot;, отриманий в результаті запису 0,2 мм або меньше і 0,0005 ніт або менше часу відповіді, а також ідеального чорного, що є важливими факторами якості для отримання задоволення від динамічних і швидких ігор. Більше інформації про сертифікацію можна знайти на www.sgs.com/performance.</li>
+          <li class="footnotes__item">Покриття Armor Aluminum нанесено на металеву задню панель, окрім Cam Deco, Pen Deco, бічних клавіш і гнізда для SIM-карт.</li>
+          <li class="footnotes__item">Galaxy Tab S9, Tab S9+, Tab S9 Ultra та S Pen мають клас захисту IPx4/68 відповідно до стандарту IEC 60529. Тестування проводилося в лабораторних умовах із розпилення води під кутом 180&deg;, 10 л/хв протягом 5 хвилин (IPx4) і зануренням у прісну воду на глибину до 1,5 м на термін до 30 хв (IP68). Не рекомендується використовувати на пляжі чи в басейні. Захист пристрою від води та пилу з часом може погіршуватися внаслідок нормального зносу.</li>
+          <li class="footnotes__item">Випробування на проникність для пилу проведено в сторонній лабораторії: 2 кг тальку (з макс. діаметром часток 0,05 мм) на кубічний метр задувалися у випробувальну камеру з пристроєм (тиск всередині пристрою був нижчим за атмосферний) протягом 2 годин.</li>
+          <li class="footnotes__item">Перо S Pen з комплекту поставки для серії Galaxy Tab S9 &ndash; перше водо- й пилонепроникне перо S Pen, що відповідає стандарту IP68. Тестування проводилося в лабораторних умовах із зануренням у прісну воду на глибину до 1,5 м на термін до 30 хв. Не рекомендується використовувати на пляжі чи в басейні. Захист пера S Pen від води та пилу з часом може погіршуватися внаслідок нормального зносу.</li>
+          <li class="footnotes__item">Випробування на проникність для пилу проведено в сторонній лабораторії: 2 кг тальку (з макс. діаметром часток 0,05 мм) на кубічний метр задувалися у випробувальну камеру з пристроєм (тиск всередині пристрою був нижчим за атмосферний) протягом 2 годин. Відповідає стандарту IP6X. Проникність для пилу залежить від фактичних умов користування.</li>
+          <li class="footnotes__item">Перш ніж використовувати або приєднувати перо S Pen, витріть його сухою тканиною або рушником.</li>
+          <li class="footnotes__item">Дисплей Dynamic AMOLED 2X із Vision Booster, що використовується на пристроях Galaxy Tab S9 Series, здобув сертифікат VDE Germany за 100-відсотковий колірний об&#39;єм для мобільних пристроїв у діапазоні кольорів DCI-P3. Це означає, що кольори зображень залишаються чіткими та неймовірно яскравими незалежно від інтенсивності зовнішнього освітлення. Дисплей, який може досягати максимальної яскравості до 1750 ніт, покращує контраст між темними та світлими аспектами цифрового вмісту, забезпечуючи видатну якість зображення та контрастність 3 000 000:1 для більшого занурення під час використання мобільного пристрою.</li>
+          <li class="footnotes__item">Snapdragon &ndash; це виріб компанії Qualcomm Technologies Inc. і/або її дочірніх компаній.</li>
+          <li class="footnotes__item">Snapdragon &ndash; це торговельна марка або зареєстрована торговельна марка компанії Qualcomm Incorporated.</li>
+          <li class="footnotes__item">Типове значення за умов тестування в сторонній лабораторії. Типове значення є приблизним середнім значенням з урахуванням відхилень ємності акумулятора серед зразків акумуляторів, які було протестовано за стандартом IEC 61960. Номінальна (мінімальна) ємність становить 10,880 mAh для Galaxy Tab S9 Ultra, 9,800 mAh для Galaxy Tab S9+ та 8,160 mAh для Galaxy Tab S9. Фактичний час роботи від акумулятора залежить від мережі, способу використання й інших чинників.</li>
+          <li class="footnotes__item">Зарядка підтримується, якщо екран планшета серії Galaxy Tab S9 вимкнений, а рівень заряду акумулятора становить щонайменше 30%.</li>
+          <li class="footnotes__item">Можливість заряджання від пристроїв серії Galaxy Tab S9 обмежено певними моделями смартфонів. Цей спосіб заряджання підтримується, якщо дисплей планшета вимкнено, а рівень заряду акумулятора становить не менше 30%. При цьому слід використовувати кабель Type-C.</li>
+          <li class="footnotes__item">Швидкість заряджання залежить від умов заряджання та інших факторів.</li>
+          <li class="footnotes__item">Кабель Type-C може продаватися окремо. Рекомендується використовувати оригінальний кабель для передачі даних Samsung.</li>
+          <li class="footnotes__item">Смартфон Galaxy продається окремо.</li>
+          <li class="footnotes__item">Карта 23.MicroSD продається окремо.</li>
+          <li class="footnotes__item">Можливість вибору пам&#39;яті обсягом 1TB залежить ввід країни, регіону або оператора зв&#39;язку. Фактичний обсяг доступної пам&#39;яті залежить від попередньо встановленого програмного забезпечення.</li>
+          <li class="footnotes__item">Додаток GoodNotes потрібно окремо завантажити з Galaxy Store. На 1 рік надається безкоштовна повна версія. Щоб продовжити користування додатком після закінчення терміну дії безкоштовної повної версії, його потрібно передплатити. Умови надання послуг можуть відрізнятися залежно від країни та регіону.</li>
+          <li class="footnotes__item">Notepaper Screen продається окремо.</li>
+          <li class="footnotes__item">Клавіатура Book Cover продається окремо. Продукт доступний для Galaxy Tab S9 Ultra, Galaxy Tab S9+ та Galaxy Tab S9. Дизайн продукту може відрізнятися залежно від моделі.</li>
+          <li class="footnotes__item">Функції та розкладка клавіатури можуть відрізнятися залежно від моделі або типу мови. Функція підсвічування доступна лише на Galaxy Tab S9 Ultra клавіатура Book Cover. Щоб активувати, натисніть Fn + F12.</li>
+          <li class="footnotes__item">Сполучення клавіш можна призначити лише певним додаткам.</li>
+          <li class="footnotes__item">Функція Wireless Keyboard Sharing підтримується на смартфонах Galaxy з оболонкою One UI 3.1 або вище та пристроях Galaxy Tab з оболонкою One UI 2.5 або вище, підключених до клавіатури Book Cover через POGO. Недоступно на окремих моделях смартфонів.</li>
+          <li class="footnotes__item">Для використання Wireless Keyboard Sharing можна зареєструвати до 3 пристроїв. Щоб активувати Wireless Keyboard Sharing, на обох пристроях потрібно ввійти в один Samsung Account. Продуктивність може відрізнятися залежно від мережевого середовища користувача.</li>
+          <li class="footnotes__item">Функцію Wireless Keyboard Sharing можна ввімкнути/вимкнути в меню &laquo;Налаштування &gt; Загальне керування &gt; Фізична клавіатура &gt; Wireless Keyboard Sharing&raquo;.</li>
+          <li class="footnotes__item">Доступно на пристроях з оболонкою One UI 2.1 або пізніших версій. Потребує оновлення додатків MDE Service Framework та Quick Share. Для використання функції Quick Share потрібні підключення Bluetooth Low Energy та Wi-Fi. Деякі додатки можуть не підтримувати Quick Share.</li>
+          <li class="footnotes__item">Застосунок LumaFusion потрібно придбати й завантажити окремо. Умови надання послуг можуть відрізнятися залежно від країни та регіону.</li>
+          <li class="footnotes__item">Функція Multi Control доступна лише на смартфонах Galaxy з оболонкою One UI 5.1 або вище та пристроях Galaxy Tab з оболонкою One UI 4.1 або вище. Дії Multi Control можуть бути недоступні в деяких додатках.</li>
+          <li class="footnotes__item">На окремих ринках додаток Clip Studio Paint попередньо встановлено на пристрої. Застосунок Clip Studio Paint можна завантажити з Galaxy Store. Для початкових користувачів доступна 6-місячна безкоштовна ознайомлювальна версія. Щоб продовжити користуватися додатком, потрібно придбати місячний або річний план передплати. Умови надання послуг можуть відрізнятися залежно від країни та регіону.</li>
+          <li class="footnotes__item">Деякі додатки можуть не підтримувати багатозадачний режим.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script>
+    (function () {
+      let swiper;
+      const buttons = document.querySelectorAll('.tab-item');
+      const videos = document.querySelectorAll('.perfection__tab');
+      const videoGraphite = document.querySelector('.perfection__tab_graphite');
+      const videoBiege = document.querySelector('.perfection__tab_beige');
+      const buttonHandler = (element) => {
+        buttons.forEach(button => button.classList.remove('js__active'));
+        videos.forEach(video => {
+          video.currentTime = 0;
+          video.pause();
+          video.classList.remove('js__active');
+        });
+        element.classList.add('js__active');
+        if (element.classList.contains('perfection__tab-item_graphite')) {
+          videoGraphite.classList.add('js__active');
+          videoGraphite.play();
+        } else {
+          videoBiege.classList.add('js__active');
+          videoBiege.play();
+        };
+      };
+      buttons.forEach(button => {
+        button.addEventListener('click', () => buttonHandler(button));
+      });
+      const createScript = (url, onloadCb) => {
+        const bodyElement = document.getElementsByTagName('BODY')[0];
+        const scriptContent = document.createElement('script');
+        scriptContent.type = 'text/javascript';
+        scriptContent.async = false;
+        scriptContent.src = url;
+        if (onloadCb) {
+          scriptContent.onload = onloadCb;
+        };
+        bodyElement.appendChild(scriptContent);
+      };
+      const initSwiper = () => {
+        swiper = new Swiper('.swiper', {
+          direction: 'horizontal',
+          pagination: {
+            el: '.swiper-pagination',
+            hiddenClass: 'pagination-hidden',
+            type: 'bullets',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          on: {
+            slideChange: function () {
+              const { realIndex } = this;
+              const paginationElement = document.querySelector('.swiper-pagination');
+              if (realIndex !== 0) {
+                paginationElement.classList.add('pagination-visible');
+              }
+              if (realIndex === 0) {
+                paginationElement.classList.remove('pagination-visible');
+                firstSlideVideos.forEach(video => {
+                  video.currentTime = 0;
+                  video.play();
+                });
+              } else if (realIndex !== 3 && realIndex !== 4) {
+                sliderVideos[realIndex - 1].currentTime = 0;
+                sliderVideos[realIndex - 1].play();
+              }
+            }
+          }
+        });
+      };
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css';
+      document.head.appendChild(link);
+      createScript(
+        'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js',
+        () => {
+          initSwiper();
+          makeLinksClickable();
+        }
+      );
+      const slider = document.querySelector('.swiper');
+      const firstSlide = document.querySelector('.first-slide');
+      const sliderVideos = slider.querySelectorAll('.slide__video');
+      const firstSlideVideos = firstSlide.querySelectorAll('video');
+      const sliderPlayPauseButtons = slider.querySelectorAll('.slider__button');
+      const updateIcon = (button, video) => {
+        if (video.paused) {
+          button.querySelector('.slider__button-icon_play').style.display = 'block';
+          button.querySelector('.slider__button-icon_pause').style.display = 'none';
+        } else {
+          button.querySelector('.slider__button-icon_play').style.display = 'none';
+          button.querySelector('.slider__button-icon_pause').style.display = 'block';
+        };
+      };
+      sliderPlayPauseButtons.forEach((button, i) => {
+        button.addEventListener('click', () => {
+          if (sliderVideos[i].paused) {
+            sliderVideos[i].play();
+          } else {
+            sliderVideos[i].pause();
+          };
+        });
+        sliderVideos[i].addEventListener('play', () => updateIcon(button, sliderVideos[i]));
+        sliderVideos[i].addEventListener('pause', () => updateIcon(button, sliderVideos[i]));
+        sliderVideos[i].addEventListener('ended', () => updateIcon(button, sliderVideos[i]));
+        updateIcon(button, sliderVideos[i]);
+      });
+      const makeLinksClickable = () => {
+        const sliderLinks = slider.querySelectorAll('.link__wrapper');
+        sliderLinks[0].addEventListener('click', () => {
+          swiper.slideTo(1);
+        });
+        sliderLinks[1].addEventListener('click', () => {
+          swiper.slideTo(3);
+        });
+        sliderLinks[2].addEventListener('click', () => {
+          swiper.slideTo(5);
+        });
+        sliderLinks[3].addEventListener('click', () => {
+          swiper.slideTo(2);
+        });
+        sliderLinks[4].addEventListener('click', () => {
+          swiper.slideTo(4);
+        });
+      };
+      const detailsButtonsList = document.querySelector('.details__buttons-list');
+      const detailsImages = document.querySelectorAll('.details__image');
+      detailsButtonsList.addEventListener('click', (event) => {
+        const target = event.target;
+        if (target.classList.contains('details__buttons-item')) {
+          detailsImages.forEach((image, index) => {
+            if (detailsButtonsList.children[index] === target) {
+              image.classList.add('js__visible');
+              target.classList.add('js__active');
+            } else {
+              image.classList.remove('js__visible');
+              detailsButtonsList.children[index].classList.remove('js__active');
+            }
+          });
+        }
+      });
+
+
+      const detailsButtonsList_ai = document.querySelector('.details__buttons-list_ai');
+      const detailsImages_ai = document.querySelectorAll('.details__image_ai');
+      detailsButtonsList_ai.addEventListener('click', (event) => {
+        const target = event.target;
+        if (target.classList.contains('details__buttons-item_ai')) {
+          detailsImages_ai.forEach((image, index) => {
+            if (detailsButtonsList_ai.children[index] === target) {
+              image.classList.add('js__visible_ai');
+              target.classList.add('js__active_ai');
+            } else {
+              image.classList.remove('js__visible_ai');
+              detailsButtonsList_ai.children[index].classList.remove('js__active_ai');
+            }
+          });
+        }
+      });
+    })()
+  </script>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <style type="text/css">.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .galaxy img {
+      margin: 0;
+    }
+    .galaxy p {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #0E0E0E;
+      line-height: 130%;
+      margin: 0;
+    }
+    .galaxy h3 {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 130%;
+      color: #0E0E0E;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .galaxy .footnote{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 130%;
+      color: rgba(14, 14, 14, 0.8);
+    }
+    .galaxy ul {
+      list-style: none;
+      margin: 0;
+    }
+    .galaxy ul li {
+      line-height: normal;
+    }
+    .galaxy {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .galaxy ul {
+      padding: 0;
+    }
+    .galaxy ul li {
+      padding: 0;
+    }
+    .galaxy div {
+      padding: 0;
+    }
+    div.galaxy {
+      padding: 0;
+    }
+    .galaxy br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .galaxy{
+      margin: 0 auto;
+      max-width: 1366px;
+      overflow-x: hidden;
+      text-align: center;
+    }
+    .galaxy img{
+      width: 100%;
+    }
+    /* s23 */
+    .galaxy .s23{
+      padding: 40px 0;
+    }
+    .galaxy .galaxy_tite{
+      display: grid;
+    }
+    .galaxy .logo_galaxy{
+      width: 252px;
+      margin: 0 auto;
+      margin-bottom: 18px;
+    }
+    .galaxy .logo_ai{
+      width: 169px;
+      margin: 0 auto;
+      margin-bottom: 28px;
+    }
+    @media screen and (min-width:666px) {
+      .galaxy p {
+        font-size: 16px;
+      }
+      .galaxy h3 {
+        font-size: 24px;
+        margin-bottom: 14px;
+      }
+      .galaxy .s23{
+        padding: 60px 0 40px;
+      }
+      .galaxy .logo_galaxy{
+        width: 276px;
+      }
+      .galaxy .logo_ai{
+        margin-bottom: 40px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .galaxy p {
+        font-size: 18px;
+        line-height: 150%;
+      }
+      .galaxy h3 {
+        font-size: 30px;
+        margin-bottom: 16px;
+      }
+      .galaxy .logo_galaxy{
+        width: 370px;
+        margin-bottom: 26px;
+      }
+      .galaxy .logo_ai{
+        width: 221px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .galaxy p {
+        font-size: 22px;
+      }
+      .galaxy h3 {
+        font-size: 42px;
+        margin-bottom: 24px;
+      }
+      .galaxy .s23{
+        padding: 80px 0 60px;
+      }
+      .galaxy .logo_galaxy{
+        width: 365px;
+        margin-bottom:33px;
+      }
+      .galaxy .logo_ai{
+        width: 305px;
+      }
+      .galaxy .footnote{
+        font-size: 14px;
+      }
+    }
+    /* more_power */
+    .galaxy .more_power{
+      padding: 0 16px ;
+    }
+    .galaxy .more_power .more_power_icon{
+      width: 34px;
+    }
+    .galaxy .more_power h3{
+      margin-top: 8px;
+    }
+    .galaxy .more_power .snapgragon{
+      margin-top: 14px;
+      margin-bottom: 40px;
+      width: 48px;
+    }
+    .galaxy .more_power .footnote_first{
+      margin-top: 20px;
+    }
+    @media screen and (min-width:666px) {
+      .galaxy .more_power{
+        padding: 0 24px ;
+      }
+      .galaxy .more_power .snapgragon{
+        margin-top: 16px;
+        margin-bottom: 40px;
+      }
+      .galaxy .more_power p{
+        padding: 0 42px;
+      }
+      .galaxy .more_power .footnote{
+        padding: 0 22px;
+      }
+      .galaxy .more_power h3{
+        margin-top: 10px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .galaxy .more_power{
+        padding:0 ;
+        padding-bottom: 40px;
+      }
+      .galaxy .more_power .snapgragon{
+        margin-top: 16px;
+        margin-bottom: 40px;
+        width: 56px;
+      }
+      .galaxy .more_power p{
+        padding: 0 151px;
+      }
+      .galaxy .more_power .footnote{
+        padding: 0 64px;
+      }
+      .galaxy .more_power h3{
+        margin-top: 12px;
+      }
+      .galaxy .more_power .more_power_icon{
+        width: 42px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .galaxy .more_power{
+        padding: 0 24px 60px ;
+      }
+      .galaxy .more_power .footnote_first{
+        margin-top: 24px;
+      }
+      .galaxy .more_power .snapgragon{
+        margin-top: 24px;
+        margin-bottom: 40px;
+        width: 80px;
+      }
+      .galaxy .more_power p{
+        padding: 0 259px;
+      }
+      .galaxy .more_power .footnote{
+        padding: 0 259px;
+      }
+      .galaxy .more_power h3{
+        margin-top: 16px;
+      }
+      .galaxy .more_power .more_power_icon{
+        width: 60px;
+      }
+    }
+    /* environment */
+    .galaxy .environment{
+      padding: 40px 16px;
+    }
+    .galaxy .environment .more_power_icon{
+      width: 34px;
+    }
+    .galaxy .environment h3{
+      margin-top: 8px;
+    }
+    .galaxy .environment .footnote_first{
+      margin-top: 20px;
+    }
+    .galaxy .environment .teh_text{
+      margin-bottom: 40px;
+    }
+    @media screen and (min-width:666px) {
+      .galaxy .environment{
+        padding: 40px 24px;
+      }
+      .galaxy .environment h3{
+        margin-top: 10px;
+      }
+      .galaxy .environment .footnote{
+        padding: 0 22px;
+      }
+      .galaxy .environment p{
+        padding: 0 42px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .galaxy .environment h3{
+        margin-top: 12px;
+      }
+      .galaxy .environment .footnote{
+        padding: 0 64px;
+      }
+      .galaxy .environment p{
+        padding: 0 64px;
+      }
+      .galaxy .environment .more_power_icon{
+        width: 42px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .galaxy .environment{
+        padding: 60px 24px;
+      }
+      .galaxy .environment h3{
+        margin-top: 16px;
+      }
+      .galaxy .environment .footnote{
+        padding: 0 259px;
+      }
+      .galaxy .environment p{
+        padding: 0 259px;
+      }
+      .galaxy .environment .more_power_icon{
+        width: 50px;
+      }
+    }
+    /* starrysky */
+    .galaxy .starrysky{
+      padding: 40px 16px 0;
+      text-align: left;
+      display: grid;
+      gap:24px ;
+    }
+    .galaxy .starrysky .footnote_first{
+      margin-top: 14px;
+    }
+    @media screen and (min-width:666px) {
+      .galaxy .starrysky{
+        padding: 40px 0 40px 24px ;
+        grid-template-columns: auto 348px;
+        align-items: center;
+      }
+      .galaxy .starrysky .footnote_first{
+        margin-top: 16px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .galaxy .starrysky{
+        grid-template-columns: auto 476px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .galaxy .starrysky{
+        grid-template-columns: auto 671px;
+      }
+    }
+    /* noglare */
+    .galaxy .noglare{
+      padding: 40px 16px 0;
+      text-align: left;
+      display: grid;
+      gap:24px ;
+    }
+    .galaxy .noglare .footnote_first{
+      margin-top: 14px;
+    }
+    @media screen and (min-width:666px) {
+      .galaxy .noglare{
+        padding: 40px 0 40px 24px;
+        grid-template-columns: auto 348px;
+        align-items: center;
+      }
+      .galaxy .noglare .footnote_first{
+        margin-top: 16px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .galaxy .noglare{
+        grid-template-columns: auto 476px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .galaxy .noglare{
+        grid-template-columns: auto 671px;
+      }
+    }
+    /* play_longer */
+    .galaxy .play_longer{
+      padding: 40px 16px 0;
+      text-align: left;
+      display: grid;
+      gap:24px ;
+    }
+    .galaxy .play_longer .footnote_first{
+      margin-top: 14px;
+    }
+    @media screen and (min-width:666px) {
+      .galaxy .play_longer{
+        padding: 40px 0 40px 24px;
+        grid-template-columns: auto 348px;
+        align-items: center;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .galaxy .play_longer{
+        grid-template-columns: auto 476px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .galaxy .play_longer{
+        grid-template-columns: auto 671px;
+      }
+    }
+    /* multi_control */
+    .galaxy .multi_control{
+      padding: 40px 16px 0;
+      text-align: left;
+      display: grid;
+      gap:24px 
+    }
+    .galaxy .multi_control .footnote_first{
+      margin-top: 14px;
+    }
+    @media screen and (min-width:666px) {
+      .galaxy .multi_control{
+        padding: 40px 24px 40px 0px;
+        grid-template-columns: 348px auto;
+        align-items: center;
+      }
+      .galaxy .multi_control .footnote_first{
+        margin-top: 16px;
+      }
+      .galaxy .multi_control img{
+        grid-row-start: 1;
+        grid-column-start: 1;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .galaxy .multi_control{
+        grid-template-columns: 476px auto;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .galaxy .multi_control{
+        grid-template-columns: 671px auto;
+      }
+    }
+    /* galaxy_personally */
+    .galaxy .galaxy_personally{
+      padding: 40px 16px 0;
+      text-align: left;
+      display: grid;
+      gap:24px ;
+    }
+    @media screen and (min-width:666px) {
+      .galaxy .galaxy_personally{
+        padding: 40px 0 40px 24px;
+        grid-template-columns:auto 348px ;
+        align-items: center;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .galaxy .galaxy_personally{
+        grid-template-columns:auto 476px ;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .galaxy .galaxy_personally{
+        grid-template-columns: auto 671px;
+      }
+    }
+    /* saving_data */
+    .galaxy .saving_data{
+      padding: 40px 16px 0;
+      text-align: left;
+      display: grid;
+      gap:24px ;
+    }
+    .galaxy .saving_data .footnote_first{
+      margin-top: 14px;
+    }
+    @media screen and (min-width:666px) {
+      .galaxy .saving_data .footnote_first{
+        margin-top: 16px;
+      }
+      .galaxy .saving_data{
+        padding: 40px 24px 40px 0;
+        grid-template-columns: 348px auto;
+        align-items: center;
+      }
+      .galaxy .saving_data .saving_data_block{
+        grid-row-start: 1;
+        grid-column-start: 2;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .galaxy .saving_data{
+        grid-template-columns: 476px auto;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .galaxy .saving_data{
+        grid-template-columns: 671px auto;
+      }
+    }
+    /* comparison */
+    .galaxy .comparison{
+      padding: 40px 16px;
+      background-color: #FAFAFA;
+    }
+    .galaxy .comparison .footnote_first{
+      margin-top: 40px;
+    }
+    .galaxy .comparison_block{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 16px;
+    }
+    .galaxy .comparison_block h3{
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 150%;
+    }
+    .galaxy .comparison_block p{
+      font-size: 12px;
+      line-height: 150%;
+    }
+    .galaxy .comparison_block .galaxy_ultra{
+      display: none;
+    }
+    .galaxy .comparison_block .galaxy_plus,
+    .galaxy .comparison_block .galaxy_new
+    {
+      display: grid;
+      grid-template-rows: auto;
+      padding: 0 10px ;
+      background-color: #FFFFFF;
+      border-radius: 12px;
+    }
+    /* .galaxy_plus */
+    .galaxy .comparison_block .display_photo{
+      width: 32px;
+    }
+    .galaxy .comparison_block .camera_photo {
+      width: 33.37px;
+    }
+    .galaxy .comparison_block .battary_photo {
+      width: 32px;
+    }
+    .galaxy .comparison_block h3{
+      margin-top: 12px;
+      margin-bottom: 4px;
+    }
+    .galaxy .comparison_block .photo_model{
+      padding-top: 18px;
+    }
+    .galaxy .comparison_block .display,
+    .galaxy .comparison_block .camera,
+    .galaxy .comparison_block .battary
+    {
+      position: relative;
+      padding-top: 16px;
+      padding-bottom: 12px;
+    }
+    .galaxy .comparison_block .display::before,
+    .galaxy .comparison_block .camera::before{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      height:1px;
+      background-color: #F0F0F0 ;
+      transform: matrix(1, 0, 0, -1, 0, 0);
+      content: "";
+    }
+    @media screen and (min-width:666px) {
+      .galaxy .comparison_block .galaxy_plus,
+      .galaxy .comparison_block .galaxy_new,
+      .galaxy .comparison_block .galaxy_ultra
+      {
+        display: grid;
+        grid-template-rows: auto;
+        padding: 0 12px ;
+        background-color: #FFFFFF;
+        border-radius: 12px;
+      }
+      .galaxy .comparison_block{
+        grid-template-columns: repeat(3,1fr);
+        gap: 24px;
+        margin-top: 40px;
+      }
+      .galaxy .comparison{
+        padding: 40px 24px;
+      }
+      .galaxy .comparison_block .display,
+      .galaxy .comparison_block .camera,
+      .galaxy .comparison_block .battary
+      {
+        padding-top: 20px;
+        padding-bottom: 14px;
+      }
+      .galaxy .comparison_block h3{
+        font-size: 18px;
+      }
+      .galaxy .comparison_block .display_photo,
+      .galaxy .comparison_block .camera_photo,
+      .galaxy .comparison_block .battary_photo{
+        width: 40px;
+      }
+      .galaxy .comparison_block .model{
+        width: 126px;
+      }
+      .galaxy .comparison .footnote{
+        padding: 0 43px;
+      }
+      .galaxy .comparison_block .photo_model{
+        padding-top: 20px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .galaxy .comparison_block .model{
+        width: 160px;
+      }
+      .galaxy .comparison_block h3{
+        font-size: 26px;
+      }
+      .galaxy .comparison_block .display_photo,
+      .galaxy .comparison_block .camera_photo,
+      .galaxy .comparison_block .battary_photo{
+        width: 50px;
+      }
+      .galaxy .comparison_block .galaxy_plus,
+      .galaxy .comparison_block .galaxy_new,
+      .galaxy .comparison_block .galaxy_ultra
+      {
+        padding: 0 18px ;
+      }
+      .galaxy .comparison_block .display,
+      .galaxy .comparison_block .camera,
+      .galaxy .comparison_block .battary
+      {
+        padding-top: 28px;
+        padding-bottom: 18px;
+      }
+      .galaxy .comparison .footnote{
+        padding: 0 64px;
+      }
+      .galaxy .comparison_block .photo_model h3{
+        font-size: 20px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .galaxy .comparison{
+        padding: 60px 136px;
+      }
+      .galaxy .comparison_block .model{
+        width: 215px;
+      }
+      .galaxy .comparison_block h3{
+        font-size: 38px;
+      }
+      .galaxy .comparison_block p{
+        font-size: 22px;
+      }
+      .galaxy .comparison_block .photo_model h3{
+        font-size: 25px;
+      }
+      .galaxy .comparison_block .galaxy_plus,
+      .galaxy .comparison_block .galaxy_new,
+      .galaxy .comparison_block .galaxy_ultra
+      {
+        padding: 0 24px ;
+      }
+      .galaxy .comparison_block .camera,
+      .galaxy .comparison_block .display,
+      .galaxy .comparison_block .battary
+      {
+        padding-top: 40px;
+        padding-bottom: 24px;
+      }
+      .galaxy .comparison_block .display_photo,
+      .galaxy .comparison_block .camera_photo,
+      .galaxy .comparison_block .battary_photo{
+        width: 73px;
+      }
+      .galaxy .comparison_block .display_photo{
+        margin-bottom: 24px;
+      }
+      .galaxy .comparison_block .camera_photo{
+        margin-bottom: 21px;
+      }
+      .galaxy .comparison_block .battary{
+        margin-bottom: 30px;
+      }
+      .galaxy .comparison .footnote{
+        padding: 0 147px;
+      }
+    }
+    /*  */
+    .product__description.base-padding {
+      padding: 0;
+      border-radius: 0px;
+    }
+    .samsung img {
+      margin: 0;
+    }
+    .samsung p {
+      padding: 0;
+      margin: 0;
+      line-height: normal;
+    }
+    .samsung ul {
+      list-style: none;
+      margin: 0;
+    }
+    .samsung ul li {
+      line-height: normal;
+    }
+    .samsung {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .samsung ul {
+      padding: 0;
+    }
+    .samsung ul li {
+      padding: 0;
+    }
+    .samsung div {
+      padding: 0;
+    }
+    /* div.aqara {
+    padding: 0;
+    } */
+    .samsung br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .samsung .title {
+      color: #FFF;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 120%;
+    }
+    .samsung .title span {
+      font-weight: 400;
+    }
+    .samsung .title-s {
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 130%;
+    }
+    .samsung .subtitle {
+      color: #ffffff;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .samsung .description {
+      color: #999;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    @media (min-width: 1024px) {
+      .samsung .title {
+        font-size: 30px;
+      }
+      .samsung .title-s {
+        font-size: 22px;
+      }
+      .samsung .subtitle {
+        font-size: 16px;
+      }
+      .samsung .description {
+        font-size: 14px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .title {
+        font-size: 42px;
+      }
+      .samsung .title-s {
+        font-size: 28px;
+      }
+      .samsung .subtitle {
+        font-size: 20px;
+      }
+    }
+    .samsung {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1366px;
+      width: 100%;
+      margin: 0 auto;
+      background: rgb(255, 255, 255);
+      /* color: #ffffff; */
+    }
+    .samsung-white {
+      background: #ffffff;
+      padding: 0px 0px 24px;
+      display: grid;
+      justify-items: center;
+      width: 100%;
+    }
+    .samsung .section {
+      padding: 40px 0 0 0;
+      margin-bottom: 40px;
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: center;
+      max-width: 530px;
+    }
+    .samsung .header__title {
+      width: 182px;
+      min-height: 23px;
+      margin-bottom: 20px;
+    }
+    .samsung .header__image {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .samsung .header__subtitle:not(:last-child) {
+      margin-bottom: 10px;
+    }
+    .samsung .header__subtitle {
+      color: #ffffff;
+      padding: 0 24px;
+    }
+    .samsung .header__subtitle span {
+      color: #999999;
+    }
+    .samsung-flip-5 .banner__content .banner__content_text{
+      text-align: center;
+    }
+    .samsung-flip-5 .banner__content .banner__content_text .ai_logo{
+      width: 169px;
+      margin: 0 auto;
+    }
+    @media (min-width: 768px) {
+      .samsung .section {
+        padding: 44px 0 0 0;
+        margin-bottom: 44px;
+        max-width: initial;
+      }
+      .samsung .header__image {
+        padding: 0 40px;
+        margin-bottom: 44px;
+      }
+      .samsung .header__subtitle {
+        padding: 0px;
+        max-width: 530px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .section {
+        /* padding: 60px 0 0 0; */
+        margin-bottom: 60px;
+        max-width: 1238px;
+        margin: 0 auto 60px;
+      }
+      .samsung .header__title {
+        width: 245px;
+        height: 30px;
+      }
+      .samsung .header__image {
+        padding: 0 96px;
+        margin-bottom: 60px;
+      }
+      .samsung .header__subtitle {
+        padding: 0px;
+        max-width: 584px;
+      }
+      .samsung .header__subtitle:not(:last-child) {
+        margin-bottom: 12px;
+      }
+      .samsung-flip-5 .banner__content .banner__content_text{
+        display: grid;
+        gap: 27px;
+      }
+      .samsung-flip-5 .banner__content .banner__content_text .ai_logo{
+        width: 221px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .section {
+        /* padding: 80px 0 0 0; */
+        margin-bottom: 80px;
+        max-width: 1046px;
+      }
+      .samsung .header__title {
+        width: 329px;
+        height: 48px;
+      }
+      .samsung .header__image {
+        padding: 0 0px;
+        margin-bottom: 80px;
+      }
+      .samsung .header__subtitle {
+        padding: 0px;
+        max-width: 800px;
+      }
+      .samsung .header__subtitle:not(:last-child) {
+        margin-bottom: 16px;
+      }
+      .samsung-flip-5 .banner__content .banner__content_text{
+        gap: 33px;
+      }
+      .samsung-flip-5 .banner__content .banner__content_text .ai_logo{
+        width: 305px;
+      }
+    }
+    /* galaxy_ai */
+    .samsung .galaxy_ai .galaxy_ai_text{
+      display: grid;
+      gap: 10px;
+      text-align: left;
+      padding: 40px 24px;
+    }
+    .samsung .galaxy_ai .subtitle{
+      font-size: 14px;
+      color: #000000;
+      text-align: left;
+    }
+    .samsung .galaxy_ai .galaxy_ai_title{
+      display: flex;
+    }
+    .samsung .galaxy_ai .galaxy_ai_item{
+      display: grid;
+      gap: 10px;
+    }
+    .samsung .galaxy_ai .title-s{
+      text-align: left;
+      align-items: start;
+      display: flex;
+      font-size: 24px;
+      color: #000000;
+    }
+    .samsung .galaxy_ai .ai_logo{
+      width: 26px;
+      margin: 0 10px;
+    }
+    @media (min-width: 666px) {
+      .samsung .galaxy_ai .galaxy_ai_text{
+        padding: 0px 24px;
+        gap: 24px;
+        grid-template-columns: 150px auto;
+      }
+      .samsung .galaxy_ai .galaxy_ai_title{
+        display: inline;
+      }
+      .samsung .galaxy_ai .subtitle{
+        font-size: 16px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .galaxy_ai .galaxy_ai_text{
+        gap:24px ;
+        grid-template-columns: 214px auto;
+      }
+      .samsung .galaxy_ai .galaxy_ai_item{
+        gap: 12px;
+      }
+      .samsung .galaxy_ai .subtitle{
+        font-size: 18px;
+      }
+      .samsung .galaxy_ai .title-s{
+        font-size: 30px;
+      }
+      .samsung .galaxy_ai .ai_logo{
+        width: 35px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .galaxy_ai .galaxy_ai_text{
+        padding: 0px 135px;
+        grid-template-columns: 311px auto;
+      }
+      .samsung .galaxy_ai .galaxy_ai_item{
+        gap: 12px;
+      }
+      .samsung .galaxy_ai .subtitle{
+        font-size: 22px;
+      }
+      .samsung .galaxy_ai .title-s{
+        font-size: 42px;
+      }
+      .samsung .galaxy_ai .ai_logo{
+        width: 45px;
+      }
+    }
+    /* experience_galaxy */
+    .samsung .experience_galaxy{
+      padding:40px 0;
+    }
+    .samsung .experience_galaxy img{
+      width: 100%;
+    }
+    .samsung .experience_galaxy .experience_galaxy_block{
+      padding:24px;
+      background: rgb(244, 244, 244);
+      display: grid;
+      grid-template-columns: 100px auto;
+      border-radius: 18px;
+    }
+    .samsung .experience_galaxy .experience_galaxy_text{
+      display: grid;
+      align-content: space-between;
+      padding-left: 18px;
+    }
+    .samsung .experience_galaxy .title-s{
+      font-size: 18px;
+    }
+    .samsung .experience_galaxy .subtitle,
+    .samsung .experience_galaxy .title-s{
+      color: rgb(1, 1, 1);
+      text-align: left;
+    }
+    @media (min-width: 666px) {
+      .samsung .experience_galaxy{
+        padding: 40px 182px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .experience_galaxy{
+        padding: 60px 274px;
+      }
+      .samsung .experience_galaxy .experience_galaxy_block{
+        padding: 30px;
+        grid-template-columns: 121px auto;
+      }
+      .samsung .experience_galaxy .title-s{
+        font-size: 22px;
+      }
+      .samsung .experience_galaxy .subtitle{
+        font-size: 16px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .samsung .experience_galaxy{
+        padding: 80px 404px;
+      }
+      .samsung .experience_galaxy .experience_galaxy_block{
+        padding: 40px;
+        grid-template-columns: 162px auto;
+      }
+      .samsung .experience_galaxy .experience_galaxy_text{
+        padding-left: 24px;
+      }
+      .samsung .experience_galaxy .title-s{
+        font-size: 28px;
+      }
+      .samsung .experience_galaxy .subtitle{
+        font-size: 20px;
+      }
+    }
+    /* samsung__slider */
+    .samsung .samsung__slider {
+      line-height: 1px
+    }
+    .samsung .swiper {
+      width: 100vw;
+      max-width: 1440px;
+    }
+    .samsung .slide1-mob {
+      display: grid;
+      gap: 16px;
+    }
+    .samsung .slider__slide-wrapper {
+      overflow: hidden;
+      border-radius: 20px;
+      /* margin-bottom: 50px; */
+      width: 284px;
+      height: 507px;
+    }
+    .samsung .slider__slide video {
+      width: 100%;
+      /* max-height: 535px; */
+    }
+    .samsung .slider__slide-description {
+      color: #FFF;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 150%;
+      padding: 32px 40px 16px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(transparent, rgb(0, 0, 0, 0.7));
+    }
+    .samsung .slider__button {
+      position: absolute;
+      top: 32px;
+      right: 54px;
+      cursor: pointer;
+      padding: 16px;
+      width: initial;
+    }
+    .samsung .slider__button svg {
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.30);
+      transition: 0.2s ease background;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after{
+      font-size: large !important;
+    }
+    .swiper-button-next, .swiper-button-prev{
+      width: 34px !important;
+      height: 34px !important;
+      top: 40% !important;
+    }
+    @media(hover: hover) {
+      .samsung .slider__button:hover svg {
+        background: rgba(192, 192, 192, 0.30);
+        transition: 0.2s ease background;
+      }
+    }
+    @media(hover: none) {
+      .samsung .slider__button:active svg {
+        background: rgba(192, 192, 192, 0.30);
+        transition: 0.2s ease background;
+      }
+    }
+    .samsung .slider__button-icon_pause {
+      display: none;
+    }
+    .samsung .swiper-pagination {
+      top: auto !important;
+      width: auto !important;
+      position: absolute;
+      border-radius: 16px;
+      padding: 6px 10px;
+      border: 1px solid rgb(229, 229, 229);
+      bottom: 0px !important;
+      left: 50% !important;
+      transform: translate( -50%, 0) !important;
+    }
+    .swiper-pagination-bullet {
+      width: 8px !important;
+      height: 8px !important;
+    }
+    .samsung .swiper-pagination-bullet {
+      background: rgb(117, 117, 117);
+      opacity: 0.8;
+    }
+    .samsung .swiper-pagination-bullet-active {
+      background: rgb(0, 0, 0);
+      opacity: 0.8;
+    }
+    .swiper-button-prev {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.27);
+      transition: background .2s ease;
+    }
+    .swiper-button-next {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.27);
+      transition: background .2s ease;
+    }
+    @media(hover: hover) {
+      .swiper-button-prev:hover {
+        background: rgba(192, 192, 192, 0.50);
+        transition: background .2s ease;
+      }
+      .swiper-button-next:hover {
+        background: rgba(192, 192, 192, 0.50);
+        transition: background .2s ease;
+      }
+    }
+    @media(hover: none) {
+      .swiper-button-prev:active {
+        background: rgba(192, 192, 192, 0.50);
+        transition: background .2s ease;
+      }
+      .swiper-button-next:active {
+        background: rgba(192, 192, 192, 0.50);
+        transition: background .2s ease;
+      }
+    }
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+      font-size: 24px;
+      color: white;
+    }
+    .samsung .slider-1__video_mobile {
+      display: grid;
+    }
+    .samsung .slider-1__video_desktop {
+      display: none;
+    }
+    /* swiper_item */
+    .samsung .swiper_item img{
+      width: 100%;
+      display: block;
+    }
+    .samsung .swiper_item {
+      background: rgb(255, 255, 255);
+      border-radius: 18px;
+      padding: 40px 24px;
+      display: grid;
+      gap: 28px;
+    }
+    .samsung .swiper_item .swiper_item_block_img{
+      padding: 0 26px;
+    }
+    .samsung .swiper_item .swiper_item_text .blue_text{
+      display: grid;
+      font-family: "roboto";
+      font-weight: 700;
+      font-size: 14px;
+      grid-template-columns: 15px auto;
+      color: rgb(2, 129, 254);
+      text-transform: uppercase;
+      gap: 6px;
+      text-align: left;
+    }
+    .samsung .swiper_item .swiper_item_text{
+      display: grid;
+      gap: 14px;
+    }
+    .samsung .swiper_item .subtitle,
+    .samsung .swiper_item .title-s{
+      color: #000000;
+      text-align: left;
+    }
+    .samsung .swiper_item .notes{
+      font-size: 12px;
+      color: rgb(153, 153, 153);
+      text-align: left;
+    }
+    .samsung .swiper_item .title-s{
+      font-size:24px ;
+    }
+    .samsung .swiper_item_cont{
+      padding: 0 0 40px;
+    }
+    @media (min-width: 768px) {
+      .samsung .swiper_item_cont{
+        padding: 0 40px 40px;
+      }
+      .samsung .swiper {
+        width: 100vw;
+        height: auto;
+      }
+      .samsung .slider-1__video_mobile {
+        display: none;
+      }
+      .samsung .slider-1__video_desktop {
+        display: grid;
+      }
+      .samsung .slider__link {
+        top: 12px;
+        left: 12px;
+      }
+      .swiper-button-next {
+        right: 40px !important;
+      }
+      .swiper-button-prev {
+        left: 40px !important;
+      }
+      .swiper-button-next, .swiper-button-prev{
+        top: 50% !important;
+      }
+      .samsung .swiper-pagination {
+        top: 24px;
+        left: 100px;
+        transform: initial;
+      }
+      .samsung .slider__slide {
+        height: 50vw;
+        width: 100%;
+        padding: 0;
+        justify-content: end;
+        align-content: end;
+        place-items: initial;
+      }
+      .samsung .swiper_item{
+        grid-template-columns: repeat(2,1fr);
+        padding: 60px 40px;
+        align-items: center;
+        gap: 0;
+      }
+      .samsung .swiper_item .swiper_item_block_img{
+        padding: 0;
+        padding-left: 28px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .samsung .swiper_item{
+        padding: 60px 72px;
+      }
+      .samsung .swiper_item .swiper_item_block_img{
+        padding-left: 40px;
+      }
+      .swiper-button-next, .swiper-button-prev{
+        width: 40px !important;
+        height: 40px !important;
+      }
+      .swiper-button-next{
+        right: 75px !important;
+      }
+      .swiper-button-prev{
+        left:75px !important;
+      }
+      .swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 24px !important;
+      }
+      .samsung .swiper_item_cont{
+        padding: 0 60px 40px;
+      }
+      .samsung .swiper-pagination {
+        top: 26px;
+        left: 120px;
+        transform: initial;
+      }
+      .samsung .slider__link {
+        top: 12px;
+        left: 16px;
+      }
+      .samsung .swiper_item .swiper_item_text{
+        gap: 18px;
+      }
+      .samsung .swiper_item .swiper_item_text .blue_text{
+        grid-template-columns: 16px auto;
+        font-size: 16px;
+      }
+      .samsung .swiper_item .title-s{
+        font-size: 30px;
+      }
+      .samsung .swiper_item .notes{
+        font-size: 14px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .swiper-button-next{
+        right: 140px !important;
+      }
+      .swiper-button-prev{
+        left:140px !important;
+      }
+      .samsung .swiper_item{
+        padding: 80px 140px;
+      }
+      .samsung .swiper_item_cont{
+        padding: 0 100px 60px;
+      }
+      .swiper-button-next, .swiper-button-prev{
+        top: 45% !important;
+      }
+      .swiper-button-next, .swiper-button-prev{
+        width: 56px !important;
+        height: 56px !important;
+      }
+      .swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 32px !important;
+      }
+      .samsung .swiper_item .swiper_item_block_img{
+        padding-left: 60px;
+      }
+      .samsung .swiper_item .swiper_item_text{
+        gap: 24px;
+      }
+      .samsung .swiper_item .swiper_item_text .blue_text{
+        grid-template-columns: 22px auto;
+        font-size: 20px;
+      }
+      .samsung .swiper_item .title-s{
+        font-size: 42px;
+      }
+      .samsung .swiper-pagination {
+        top: 26px;
+        left: 82px;
+      }
+      .samsung .swiper-button-next {
+        right: 0px;
+      }
+      .samsung .swiper-button-prev {
+        left: 0px;
+      }
+    }
+  </style>
+<div class="galaxy">
+  <div class="s23">
+    <div class="galaxy_tite">
+        <img alt="" class="logo_galaxy" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/Galaxy%20S23.png?_t=1675076116" /> 
+        <img class="logo_ai" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/Group%202.svg?_t=1713184624" alt="">
+    </div>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/Visual.png?_t=1675076118" />
+  </div>
+  <div class="samsung">
+    <div class="galaxy_ai">
+      <div class="galaxy_ai_text">
+            <div class="galaxy_ai_title">
+                  <p class="title-s">Galaxy AI 
+
+                    <img alt="" class="ai_logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/Group%203.svg?_t=1713184623" />
+
+                  </p> 
+                  <p class="title-s">вже тут</p>
+                  
+          </div>
+        <div class="galaxy_ai_item">
+              <p class="subtitle">Ласкаво просимо в еру мобільного AI. Galaxy S23 Ultra відкриває світ нових можливостей для творчості й продуктивності – починаючи з найважливішого пристрою у вашому житті. Вашого смартфона.
+              </p>
+              <p class="subtitle"><strong>Дивовижно. Саме так.</strong>
+              </p>
+        </div>
+      </div>
+    </div>
+    <div class="samsung__slider slider">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide first-slide">
+            <div class="swiper_item_cont">
+              <div class="swiper_item">
+                <div class="swiper_item_text">
+                  <p class="blue_text"><img alt="" class="swiper_item__logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/Group%203.svg?_t=1713184623" /> CIRCLE TO SEARCH
+                  </p>
+                  <p class="title-s">Обведіть і знайдіть. Ось так просто!
+                  </p>
+                  <p class="subtitle">З функцією Circle to Search пошук стає ефективнішим, як ніколи раніше. Просто обведіть об&rsquo;єкт, щоб отримати результати пошуку Google. Не потрібно вводити текст.
+                  </p>
+                  <p class="notes">*Зображення змодельоване для ілюстрації. Фактичний інтерфейс може відрізнятися.
+                  </p>
+                </div>
+                <div class="swiper_item_block_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/opt.Property%201%3D1.png?_t=1713184794" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper_item_cont">
+              <div class="swiper_item">
+                <div class="swiper_item_text">
+                  <p class="blue_text"><img alt="" class="swiper_item__logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/Group%203.svg?_t=1713184623" /> Live Translate
+                  </p>
+                  <p class="title-s">Найпростіший спосіб спілкування
+                  </p>
+                  <p class="subtitle">Функція Live Translate дозволяє перекладати телефонну розмову безпосередньо у процесі. Надсилайте відповідь вашою рідною мовою, а співрозмовник отримає вже готовий переклад.
+                  </p>
+                  <p class="notes">*Зображення змодельоване для ілюстрації. Фактичний інтерфейс може відрізнятися.
+                  </p>
+                </div>
+                <div class="swiper_item_block_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/opt.Property%201%3D2.png?_t=1713184794" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper_item_cont">
+              <div class="swiper_item">
+                <div class="swiper_item_text">
+                  <p class="blue_text"><img alt="" class="swiper_item__logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/Group%203.svg?_t=1713184623" /> ПЕРЕКЛАДАЧ
+                  </p>
+                  <p class="title-s">Перекладач у кишені
+                  </p>
+                  <p class="subtitle">Хочете запитати рекомендацію у місцевого жителя? Не хвилюйтеся! У вашій кишені завжди є перекладач. Функція доступна навіть у літаку, без доступу до мережі Wi-Fi.
+                  </p>
+                  <p class="notes">*Зображення змодельоване для ілюстрації. Фактичний інтерфейс може відрізнятися.
+                  </p>
+                </div>
+                <div class="swiper_item_block_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/opt.Property%201%3D3.png?_t=1713184795" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper_item_cont">
+              <div class="swiper_item">
+                <div class="swiper_item_text">
+                  <p class="blue_text"><img alt="" class="swiper_item__logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/Group%203.svg?_t=1713184623" /> PHOTO ASSIST
+                  </p>
+                  <p class="title-s">Міняйте розмір. Ретушуйте.
+                    <br />
+                    Ось так просто!
+                  </p>
+                  <p class="subtitle">Нова технологія редагування зображень із застосуванням можливостей AI дозволяє переміщати об&#39;єкти на фото й заповнювати спорожнілі місця за допомогою штучного інтелекту.
+                  </p>
+                  <p class="notes">*Зображення змодельоване для ілюстрації. Фактичний інтерфейс може відрізнятися.
+                  </p>
+                </div>
+                <div class="swiper_item_block_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/opt.Property%201%3D4.png?_t=1713184795" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination">
+        </div>
+        <div class="swiper-button-prev">
+        </div>
+        <div class="swiper-button-next">
+        </div>
+      </div>
+    </div>
+    <div class="experience_galaxy">
+      <div class="experience_galaxy_block"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/Layer-4%201.svg?_t=1713184623" />
+        <div class="experience_galaxy_text">
+          <p class="title-s">Випробуйте Galaxy на своєму телефоні
+          </p>
+          <p class="subtitle">Відскануйте цей QR-код або відвідайте trygalaxy.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="more_power"><img alt="" class="more_power_icon" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/icon%3D1.png?_t=1675076116" />
+    <h3>Скорость - его стихия
+    </h3>
+    <p>Революционный чип и супермощный аккумулятор выводят гейминг и видеостриминг на совершенно новый уровень. Теперь вас ничто не остановит!
+    </p>
+    <img alt="" class="snapgragon" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/sd_8_gen-2_badge_rgb_for_galaxy.png?_t=1675076118" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/VISUAL2.png?_t=1675076119" />
+    <p class="footnote footnote_first">* Snapdragon является продуктом Qualcomm Technologies, Inc. и/или ее дочерних компаний.
+    </p>
+    <p class="footnote">* Snapdragon является товарным знаком или зарегистрированным товарным знаком Qualcomm Incorporated.
+    </p>
+    <p class="footnote">*Только для серии Galaxy S23 до 30 апреля 2023 г. на основе спецификаций и отраслевых тестов, проведенных Qualcomm Technologies, Inc.
+    </p>
+  </div>
+  <div class="environment"><img alt="" class="more_power_icon" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/icon%3D2.png?_t=1675076117" />
+    <h3>Создан с любовью к природе
+    </h3>
+    <p class="teh_text">Почувствуйте заботу о природе в каждой детали. Мы создали этот смартфон с использованием переработанных стекла и ПЭТ-пленки, а также природных красителей. А основой для коробки стали переработанные бумажные материалы.
+    </p>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/Visual3.png?_t=1675076119" />
+    <p class="footnote footnote_first">*Красители для анодирования алюминиевого корпуса изготовлены из 10% натурального красителя.
+    </p>
+    <p class="footnote">*Фронтальное и заднее стекло содержит в среднем 22% переработанного материала. Деко-пленка для заднего стекла содержит не менее 80% переработанных материалов. Вышеуказанные измерения основаны на весе.
+    </p>
+    <p class="footnote">*Стеклянная ПЭТ-пленка и переработанное стекло прошли проверку экологических требований (ECV).
+    </p>
+    <p class="footnote">*Бумажная упаковка изготовлена ​​из 100% переработанной бумаги, за исключением наклейки и термоусадочной пленки. Защитная бумага изготовлена ​​из 100% переработанной бумаги. Измерения основаны на весе.
+    </p>
+  </div>
+  <div class="starrysky">
+    <div class="starrysky_block">
+      <h3>Снимайте как профи
+      </h3>
+      <p>Создавайте космически четкие снимки в RAW формате. Откройте приложение Expert RAW и наведите камеру на звезды, чтобы запечатлеть созвездия и планеты с захватывающей дух детализацией.
+      </p>
+      <p class="footnote footnote_first">*Приложение Expert RAW необходимо загрузить отдельно из магазина Galaxy Store перед использованием (бесплатно). Поддерживается на устройствах серии S23, серии S22, S21 Ultra, S20 Ultra, Note20 Ultra, Fold4, Fold3 и Fold2.
+      </p>
+    </div>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/Visual4.png?_t=1675076119" />
+  </div>
+  <div class="noglare">
+    <div class="noglare_block">
+      <h3>Бликам здесь не место
+      </h3>
+      <p>Играйте или записывайте трансляции на открытом воздухе без бликов на экране. Функция адаптивной видимости подстроит оптимальные цвета и яркость для любого освещения. Адаптивная частота обновления 120 Гц обеспечит плавный скроллинг, а технология Eye Comfort Shield не даст вашим глазам устать, даже при просмотре в темноте.
+      </p>
+      <p class="footnote footnote_first">*Дисплей Dynamic AMOLED 2X с поддержкой Vision Booster на Galaxy S23 и S23+ получил сертификат VDE (Немецкая ассоциация электрических, электронных и информационных технологий) на 100-процентный цветовой объем для мобильных в цветовой палитре DCI-P3. А это гарантия четких фотографий и невероятно насыщенных цветов независимо от уровня яркости. Максимальная яркость этого дисплея составляет до 1750 нит, она улучшает контраст между темными и светлыми тонами для повышенного качества изображения с контрастностью 3 000 000:1 &mdash; гарантия захватывающих впечатлений при использовании смартфона.
+      </p>
+    </div>
+    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/IMG5.png?_t=1675076117" />
+  </div>
+  <div class="play_longer">
+    <div class="play_longer_block">
+      <h3>Заряжен на долгую игру
+      </h3>
+      <p>Готовы погрузиться в любимую игру или сериал на всю ночь? С мощной батареей и сверхбыстрой зарядкой Galaxy это просто как никогда!
+      </p>
+    </div>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/Visual6.png?_t=1675076119" />
+  </div>
+  <div class="multi_control">
+    <div class="multi_control_block">
+      <h3>Мультиконтроль для мультизадачности
+      </h3>
+      <p>Ваш смартфон и ПК работают как единое целое, чтобы сохранить ваше время. Не переключая мышь, клавиатуру или сенсорную панель, переносите, копируйте, вставляйте и печатайте на обоих устройствах.
+      </p>
+      <p class="footnote footnote_first">*Доступность функции мультиконтроль ограничена некоторыми планшетными устройствами Galaxy, включая Galaxy Tab S7, S7+, S7 FE, S8, S8+ и S8 Ultra.
+      </p>
+      <p class="footnote ">*Для функции мультиконтроль требуются обновленные планшеты с One UI 4.1 или более поздней версии, телефоны с One UI 5.1 или более поздней версии и устройства серии Galaxy Book, выпущенные в 2021 году или более поздней версии, с настройками Samsung Settings версии 1.5 (Intel) или Samsung Settings версии 3.3 (ARM)
+      </p>
+      <p class="footnote ">*Некоторые модели могут иметь ограниченную поддержку функций.
+      </p>
+      <p class="footnote ">*Требуется подключение к сети или Wi-Fi. Каждое устройство должно быть зарегистрировано с одной учетной записью Samsung Account.
+      </p>
+      <p>
+      </p>
+    </div>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/visual7.png?_t=1675076119" />
+  </div>
+  <div class="galaxy_personally">
+    <div class="galaxy_personally_block">
+      <h3>Ваш Galaxy, все по-вашему
+      </h3>
+      <p>Настроить интерфейс по своему вкусу стало легко как никогда. Оболочка One UI позволяет кастомизировать практически любую деталь: от экранов блокировки и тем до виджетов и уведомлений на всех ваших устройствах.
+      </p>
+    </div>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/Visual8.png?_t=1675076119" />
+  </div>
+  <div class="saving_data">
+    <div class="saving_data_block">
+      <h3>Возьмите любимые файлы на новый смартфон
+      </h3>
+      <p>Перенесите свои приложения, фотографии, сообщения и другие файлы из любой ОС на новый смартфон в несколько кликов с приложением Smart Switch. Сделайте этот процесс еще проще с передачей по Wi-Fi или через быстрый вход в учетную запись Samsung Account.
+      </p>
+      <p class="footnote footnote_first">*Быстрая настройка поддерживается только на моделях серии Galaxy S23 с One UI 5.1 или более поздней версии и Android M или более поздней версии.
+      </p>
+      <p class="footnote ">*Для проводной передачи данных на устройство Galaxy требуется Android&trade; не ниже 4.3. iOS 5, более старые ОС Android должны использовать варианты беспроводной передачи. Если у вас нет необходимого USB-кабеля/разъема для проводной передачи на Galaxy, вы также можете использовать варианты беспроводной передачи. Откройте Smart Switch Mobile в &laquo;Настройках&raquo; на новом телефоне Galaxy или загрузите приложение Smart Switch Mobile из Galaxy Store. Данные и содержимое, доступные для передачи, могут различаться в зависимости от ОС. Данные устройства Galaxy резервируются и восстанавливаются на запоминающем устройстве. Используйте резервное копирование ПК с помощью функции резервного копирования ПК Smart Switch или SD-карты Smart Switch Mobile.
+      </p>
+    </div>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/Visual9.png?_t=1675076115" />
+  </div>
+  <div class="comparison">
+    <h3>Сравнение телефонов Galaxy
+    </h3>
+    <div class="comparison_block">
+      <div class="galaxy_ultra">
+        <div class="photo_model"><img alt="" class="model" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/phone%3Ds23ultra.png?_t=1675076118" />
+          <h3 class="model_block_pres">Galaxy S23 Ultra
+          </h3>
+        </div>
+        <div class="display"><img alt="" class="display_photo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/icon%3D3.png?_t=1675076117" />
+          <h3>6.8&quot;
+          </h3>
+          <p>163.4 x 78.1 x 8.9
+          </p>
+        </div>
+        <div class="camera"><img alt="" class="camera_photo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/icon%3D4.png?_t=1675076117" />
+          <h3>12.0MP (UW)
+          </h3>
+          <h3>200.0MP (W)
+          </h3>
+          <h3>10.0/10.0MP (T)
+          </h3>
+          <h3>12.0MP (F)
+          </h3>
+        </div>
+        <div class="battary"><img alt="" class="battary_photo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/icon%3D5.png?_t=1675076117" />
+          <h3>5000mAh (typ)
+          </h3>
+        </div>
+      </div>
+      <div class="galaxy_plus">
+        <div class="photo_model"><img alt="" class="model" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/phone%3Ds23%2B.png?_t=1675076118" />
+          <h3 class="model_block_pres">Galaxy S23+
+          </h3>
+        </div>
+        <div class="display"><img alt="" class="display_photo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/icon%3D3.png?_t=1675076117" />
+          <h3>6.6&quot;
+          </h3>
+          <p>157.8 x 76.2 x 7.6
+          </p>
+        </div>
+        <div class="camera"><img alt="" class="camera_photo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/icon%3D4.png?_t=1675076117" />
+          <h3>12.0MP (UW)
+          </h3>
+          <h3>50.0MP (W)
+          </h3>
+          <h3>10.0MP (T)
+          </h3>
+          <h3>12.0MP (F)
+          </h3>
+        </div>
+        <div class="battary"><img alt="" class="battary_photo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/icon%3D5.png?_t=1675076117" />
+          <h3>4700mAh (typ)
+          </h3>
+        </div>
+      </div>
+      <div class="galaxy_new">
+        <div class="photo_model"><img alt="" class="model" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/phone%3Ds23.png?_t=1675076117" />
+          <h3 class="model_block_pres">Galaxy S23
+          </h3>
+        </div>
+        <div class="display"><img alt="" class="display_photo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/icon%3D3.png?_t=1675076117" />
+          <h3>6.1&quot;
+          </h3>
+          <p>146,3 x 70,9 x 7,6 мм
+          </p>
+        </div>
+        <div class="camera"><img alt="" class="camera_photo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/icon%3D4.png?_t=1675076117" />
+          <h3>12.0MP (UW)
+          </h3>
+          <h3>50.0MP (W)
+          </h3>
+          <h3>10.0MP (T)
+          </h3>
+          <h3>12.0MP (F)
+          </h3>
+        </div>
+        <div class="battary"><img alt="" class="battary_photo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/715616/icon%3D5.png?_t=1675076117" />
+          <h3>3900mAh (typ)
+          </h3>
+        </div>
+      </div>
+    </div>
+    <p class="footnote footnote_first">* Измерение проводилось по диагонали полного прямоугольника. Фактически видимое пространство меньше из-за округленных углов и/или отверстия камеры.
+      <br />
+      Типичное значение проверено в условиях сторонней лаборатории. Типичное значение &mdash; расчетное среднее значение с учетом отклонения емкости батареи среди образцов батарей, испытанных в соответствии со стандартом IEC 61960. Номинальная емкость составляет 3785 мАч для Galaxy S23, 4565 мАч для Galaxy S23+ и 4855 мАч для Galaxy S23 Ultra.
+    </p>
+  </div>
+</div>
+
+<script>
+  (function () {
+    let swiper;
+    const buttons = document.querySelectorAll('.tab-item');
+    const videos = document.querySelectorAll('.perfection__tab');
+    const videoGraphite = document.querySelector('.perfection__tab_graphite');
+    const videoBiege = document.querySelector('.perfection__tab_beige');
+    const buttonHandler = (element) => {
+      buttons.forEach(button => button.classList.remove('js__active'));
+      videos.forEach(video => {
+        video.currentTime = 0;
+        video.pause();
+        video.classList.remove('js__active');
+      });
+      element.classList.add('js__active');
+      if (element.classList.contains('perfection__tab-item_graphite')) {
+        videoGraphite.classList.add('js__active');
+        videoGraphite.play();
+      } else {
+        videoBiege.classList.add('js__active');
+        videoBiege.play();
+      };
+    };
+    buttons.forEach(button => {
+      button.addEventListener('click', () => buttonHandler(button));
+    });
+    const createScript = (url, onloadCb) => {
+      const bodyElement = document.getElementsByTagName('BODY')[0];
+      const scriptContent = document.createElement('script');
+      scriptContent.type = 'text/javascript';
+      scriptContent.async = false;
+      scriptContent.src = url;
+      if (onloadCb) {
+        scriptContent.onload = onloadCb;
+      };
+      bodyElement.appendChild(scriptContent);
+    };
+    const initSwiper = () => {
+      swiper = new Swiper('.swiper', {
+        direction: 'horizontal',
+        pagination: {
+          el: '.swiper-pagination',
+          hiddenClass: 'pagination-hidden',
+          type: 'bullets',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        on: {
+          slideChange: function () {
+            const { realIndex } = this;
+            const paginationElement = document.querySelector('.swiper-pagination');
+            if (realIndex !== 0) {
+              paginationElement.classList.add('pagination-visible');
+            }
+            if (realIndex === 0) {
+              paginationElement.classList.remove('pagination-visible');
+              firstSlideVideos.forEach(video => {
+                video.currentTime = 0;
+                video.play();
+              });
+            } else if (realIndex !== 3 && realIndex !== 4) {
+              sliderVideos[realIndex - 1].currentTime = 0;
+              sliderVideos[realIndex - 1].play();
+            }
+          }
+        }
+      });
+    };
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css';
+    document.head.appendChild(link);
+    createScript(
+      'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js',
+      () => {
+        initSwiper();
+        makeLinksClickable();
+      }
+    );
+  })()
+</script>
+ -->
+
+<!-- <div class="samsung">
+
+<div class="galaxy_ai">
+    <div class="galaxy_ai_text">
+        <p class="title-s">Galaxy AI <span><img class="ai_logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/Group%203.svg?_t=1713184623" alt=""></span>вже тут</p>
+        <p class="subtitle">Ласкаво просимо в еру мобільного AI. Galaxy Flip5 відкриває світ нових можливостей для творчості й продуктивності – починаючи з найважливішого пристрою у вашому житті. Вашого смартфона.</p>
+        <p class="subtitle"><strong>Дивовижно. Саме так.</strong></p>
+    </div>
+</div>
+
+  <div class="samsung__slider slider">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide first-slide">
+            <div class="swiper_item_cont">
+                <div class="swiper_item">
+                    <div class="swiper_item_text">
+                        <p class="blue_text"><img class="swiper_item__logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/Group%203.svg?_t=1713184623" alt=""> CIRCLE TO SEARCH </p>
+                        <p class="title-s">Обведіть і знайдіть.
+                            Ось так просто!</p>
+                        <p class="subtitle">З функцією Circle to Search пошук стає ефективнішим, як ніколи раніше. Просто обведіть об’єкт, щоб отримати результати пошуку Google. Не потрібно вводити текст.</p>
+                        <p class="notes">
+                            *Зображення змодельоване для ілюстрації. Фактичний інтерфейс може відрізнятися.
+                        </p>
+                    </div>
+                    <div class="swiper_item_block_img">
+                        <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/opt.Property%201%3D1.png?_t=1713184794" alt="">
+                    </div>
+                </div>
+             </div>
+         
+          
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper_item_cont">
+            <div class="swiper_item">
+                <div class="swiper_item_text">
+                    <p class="blue_text"><img class="swiper_item__logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/Group%203.svg?_t=1713184623" alt=""> CIRCLE TO SEARCH </p>
+                    <p class="title-s">Обведіть і знайдіть.
+                        Ось так просто!</p>
+                    <p class="subtitle">З функцією Circle to Search пошук стає ефективнішим, як ніколи раніше. Просто обведіть об’єкт, щоб отримати результати пошуку Google. Не потрібно вводити текст.</p>
+                    <p class="notes">
+                        *Зображення змодельоване для ілюстрації. Фактичний інтерфейс може відрізнятися.
+                    </p>
+                </div>
+                <div class="swiper_item_block_img">
+                    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/opt.Property%201%3D1.png?_t=1713184794" alt="">
+                </div>
+             </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper_item_cont">
+            <div class="swiper_item">
+                <div class="swiper_item_text">
+                    <p class="blue_text"><img class="swiper_item__logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/Group%203.svg?_t=1713184623" alt=""> CIRCLE TO SEARCH </p>
+                    <p class="title-s">Обведіть і знайдіть.
+                        Ось так просто!</p>
+                    <p class="subtitle">З функцією Circle to Search пошук стає ефективнішим, як ніколи раніше. Просто обведіть об’єкт, щоб отримати результати пошуку Google. Не потрібно вводити текст.</p>
+                    <p class="notes">
+                        *Зображення змодельоване для ілюстрації. Фактичний інтерфейс може відрізнятися.
+                    </p>
+                </div>
+                <div class="swiper_item_block_img">
+                    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/opt.Property%201%3D1.png?_t=1713184794" alt="">
+                </div>
+             </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper_item_cont">
+              <div class="swiper_item">
+                  <div class="swiper_item_text">
+                      <p class="blue_text"><img class="swiper_item__logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/Group%203.svg?_t=1713184623" alt=""> CIRCLE TO SEARCH </p>
+                      <p class="title-s">Обведіть і знайдіть.
+                          Ось так просто!</p>
+                      <p class="subtitle">З функцією Circle to Search пошук стає ефективнішим, як ніколи раніше. Просто обведіть об’єкт, щоб отримати результати пошуку Google. Не потрібно вводити текст.</p>
+                      <p class="notes">
+                          *Зображення змодельоване для ілюстрації. Фактичний інтерфейс може відрізнятися.
+                      </p>
+                  </div>
+                  <div class="swiper_item_block_img">
+                      <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/opt.Property%201%3D1.png?_t=1713184794" alt="">
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination">
+      </div>
+      <div class="swiper-button-prev">
+      </div>
+      <div class="swiper-button-next">
+      </div>
+    </div>
+  </div>
+
+  <div class="experience_galaxy">
+    <div class="experience_galaxy_block">
+        <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/725729/Layer-4%201.svg?_t=1713184623" alt="">
+        <div class="experience_galaxy_text">
+            <p class="title-s">Випробуйте Galaxy на своєму телефоні</p>
+            <p class="subtitle">Відскануйте цей QR-код або відвідайте trygalaxy.com</p>
+        </div>
+    </div>
+  </div>
+
+</div>-->
+<!-- <script>
+  (function () {
+    let swiper;
+    const buttons = document.querySelectorAll('.tab-item');
+    const videos = document.querySelectorAll('.perfection__tab');
+    const videoGraphite = document.querySelector('.perfection__tab_graphite');
+    const videoBiege = document.querySelector('.perfection__tab_beige');
+    const buttonHandler = (element) => {
+      buttons.forEach(button => button.classList.remove('js__active'));
+      videos.forEach(video => {
+        video.currentTime = 0;
+        video.pause();
+        video.classList.remove('js__active');
+      });
+      element.classList.add('js__active');
+      if (element.classList.contains('perfection__tab-item_graphite')) {
+        videoGraphite.classList.add('js__active');
+        videoGraphite.play();
+      } else {
+        videoBiege.classList.add('js__active');
+        videoBiege.play();
+      };
+    };
+    buttons.forEach(button => {
+      button.addEventListener('click', () => buttonHandler(button));
+    });
+    const createScript = (url, onloadCb) => {
+      const bodyElement = document.getElementsByTagName('BODY')[0];
+      const scriptContent = document.createElement('script');
+      scriptContent.type = 'text/javascript';
+      scriptContent.async = false;
+      scriptContent.src = url;
+      if (onloadCb) {
+        scriptContent.onload = onloadCb;
+      };
+      bodyElement.appendChild(scriptContent);
+    };
+    const initSwiper = () => {
+      swiper = new Swiper('.swiper', {
+        direction: 'horizontal',
+        pagination: {
+          el: '.swiper-pagination',
+          hiddenClass: 'pagination-hidden',
+          type: 'bullets',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        on: {
+          slideChange: function () {
+            const { realIndex } = this;
+            const paginationElement = document.querySelector('.swiper-pagination');
+            if (realIndex !== 0) {
+              paginationElement.classList.add('pagination-visible');
+            }
+            if (realIndex === 0) {
+              paginationElement.classList.remove('pagination-visible');
+              firstSlideVideos.forEach(video => {
+                video.currentTime = 0;
+                video.play();
+              });
+            } else if (realIndex !== 3 && realIndex !== 4) {
+              sliderVideos[realIndex - 1].currentTime = 0;
+              sliderVideos[realIndex - 1].play();
+            }
+          }
+        }
+      });
+    };
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css';
+    document.head.appendChild(link);
+    createScript(
+      'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js',
+      () => {
+        initSwiper();
+        makeLinksClickable();
+      }
+    );
+   
+  })()
+</script> -->
+    
+</body>
+</html>

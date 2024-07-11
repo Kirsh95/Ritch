@@ -1,0 +1,427 @@
+.product__description.base-padding {
+  padding: 0;
+  border-radius: 0px;
+  }
+  .MS20A img {
+    margin: 0;
+  }
+  .MS20A .description {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .MS20A .title {
+    color: #ffffff;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  .MS20A h2 {
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+  .MS20A ul {
+    list-style: disc;
+    margin: 0;
+  }
+  .MS20A ul li {
+    line-height: normal;
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .MS20A {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .MS20A ul {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .MS20A ul li {
+    padding: 0;
+  }
+  .MS20A div {
+    padding: 0;
+  }
+  div.MS20A {
+    padding: 0;
+  }
+  .MS20A br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+  .MS20A{
+    max-width: 1536px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background: #000;
+  }
+  .MS20A img{
+    width: 100%;
+    display: block;
+  } 
+
+
+  /* main_advantages */
+
+
+  .MS20A .main_advantages{
+    display: grid;
+    gap: 24px;
+    background: #000;
+    padding: 24px 20px;
+  }
+  .MS20A .main_advantages .main_advantages_text .title {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .MS20A .main_advantages .main_advantages_block{
+    display: grid;
+    gap: 24px;
+  }
+  .MS20A .main_advantages .advantages_item {
+    display: grid;
+    gap: 16px;
+  }
+
+
+  @media screen and (min-width:666px) {
+    .MS20A .description{
+        font-size: 16px;
+    }
+    .MS20A .main_advantages .advantages_item {
+        gap: 50px;
+      }
+
+    .MS20A .main_advantages .title{
+        margin-bottom: 16px;
+    }
+
+    .MS20A .main_advantages{
+        padding: 40px 18px 40px 24px; 
+        gap: 50px;
+    }
+    .MS20A .main_advantages .main_advantages_block{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+        align-items: start;
+
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+    .MS20A .description{
+        font-size: 24px;
+    }
+    .MS20A .title{
+        font-size: 32px;
+    }
+    .MS20A .main_advantages{
+        padding: 50px 30px 0; 
+        gap: 60px;
+    }
+    .MS20A .main_advantages .main_advantages_block{
+        gap: 32px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .MS20A .description{
+        font-size: 36px;
+    }
+    .MS20A .title{
+        font-size: 42px;
+    }
+    .MS20A .main_advantages{
+        padding: 54px 40px; 
+        gap: 32px;
+    }
+    .MS20A .main_advantages .main_advantages_block{
+        gap: 32px;
+    }
+    .MS20A .main_advantages .advantages_item{
+        gap: 32px;
+    }
+    .MS20A .main_advantages .main_advantages_text .title {
+        font-size: 64px;
+    }
+}
+
+
+/* perfect_style */
+
+.MS20A .perfect_style{
+    background: #000000;
+    text-align: center;
+    position: relative;
+}
+
+.MS20A .perfect_style .title:nth-child(2){ 
+    font-size: 18px;
+}
+.MS20A .perfect_style .title{ 
+    margin-bottom: 12px;
+}
+
+.MS20A .perfect_style .perfect_style_text{
+    padding: 24px 29px;   
+}
+
+@media screen and (min-width:666px) {
+
+    .MS20A .perfect_style .perfect_style_text{
+        padding: 24px;   
+        position: absolute;
+
+    }
+    .MS20A .perfect_style .title:nth-child(2) {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:1024px) {
+
+    .MS20A .perfect_style .perfect_style_text{
+        padding:60px 32px 32px;   
+    }
+    .MS20A .perfect_style .title:nth-child(2) {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+
+    .MS20A .perfect_style .perfect_style_text{
+        padding:32px 40px 32px;   
+    }
+    .MS20A .perfect_style .title:nth-child(2) {
+        font-size: 36px;
+    }
+    .MS20A .perfect_style .title:nth-child(1) {
+        font-size: 64px;
+    }
+    .MS20A .perfect_style .title{ 
+        margin-bottom: 18px;
+    }
+}
+
+/* metal_edges */
+
+.MS20A .metal_edges{
+    position: relative;
+}
+
+.MS20A .metal_edges .metal_edges_text{
+    padding: 24px 19px;
+
+}   
+.MS20A .metal_edges .mini_title{
+    font-size: 18px;
+    margin: 12px 0;
+}   
+
+
+@media screen and (min-width:666px) {
+     .MS20A .metal_edges .metal_edges_text{
+        position: absolute;
+        padding: 0;
+        padding-top: 30px;
+        padding-bottom: 60px;
+        left: 24px;
+        width: 321px;
+     }
+     .MS20A .metal_edges .metal_edges_text .description{
+        padding-right: 21px;
+     }
+}
+
+@media screen and (min-width:1024px) {
+  .MS20A .metal_edges{
+    padding: 40px 0;
+  }
+     .MS20A .metal_edges .metal_edges_text{
+        padding-top: 15px;
+        padding-bottom: 0px;
+        left: 31px;
+        width: 433px;
+     }
+     .MS20A .metal_edges .metal_edges_text .description{
+        padding-right: 0px;
+     }
+     .MS20A .metal_edges .mini_title{
+      font-size: 24px;
+     }
+}
+
+@media screen and (min-width:1366px) {
+    .MS20A .metal_edges{
+      padding: 64px 0;
+    }
+    .MS20A .metal_edges .title{
+      font-size: 64px;
+    }
+     .MS20A .metal_edges .metal_edges_text{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        left: 40px;
+        width: 705px;
+     }
+     .MS20A .metal_edges .metal_edges_text .description{
+        padding-right: 20px;
+     }
+     .MS20A .metal_edges .mini_title{
+      font-size:36px;
+      margin: 16px 0;
+     }
+}
+
+
+/* double_dial */
+
+.MS20A .double_dial .double_dial_text{
+  padding: 24px 36px;
+  text-align: center;
+
+}
+
+.MS20A .double_dial .mini_title{
+  font-weight: 700;
+  margin: 12px 0;
+}
+
+@media screen and (min-width:666px) {
+  .MS20A .double_dial .double_dial_text{
+    padding: 24px 26px;
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width:1024px) {
+  .MS20A .double_dial .double_dial_text{
+    padding: 32px 32px;
+    text-align: center;
+  }
+  .MS20A .double_dial .mini_title{
+    margin: 16px 0;
+  }
+
+}
+
+@media screen and (min-width:1366px) {
+  .MS20A .double_dial .double_dial_text{
+    padding: 32px 0px;
+    text-align: center;
+  }
+  .MS20A .double_dial .double_block{
+    padding: 32px 5px;
+  }
+  .MS20A .double_dial .mini_title{
+    margin: 18px 0;
+  }
+  .MS20A .double_dial .title{
+    font-size: 64px;
+  }
+}
+
+.MS20A .notes{
+  padding: 8px 30px ;
+}
+.MS20A .notes p{
+  font-size: 12px;
+}
+
+@media screen and (min-width:666px) {
+  .MS20A .notes{
+    padding: 12px 24px ;
+  }
+  .MS20A .notes p{
+    font-size: 14px;
+  }
+}
+@media screen and (min-width:1024px) {
+  .MS20A .notes{
+    padding: 16px 32px ;
+  }
+  .MS20A .notes p{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width:1366px) {
+  .MS20A .notes{
+    padding: 24px 40px ;
+  }
+}
+
+/* how_measure */
+
+.MS20A .how_measure .how_measure_notes{
+  display: grid;
+}
+.MS20A .how_measure .how_measure_dec{
+  display: none;
+}
+
+.MS20A .how_measure{
+  background: #f7f7f7;
+  position: relative;
+}
+.MS20A .how_measure  .title{
+  color: #000000;
+  text-align: center;
+  padding:24px ;
+}
+
+
+@media screen and (min-width:666px) {
+  .MS20A .how_measure  .title{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+  .MS20A .how_measure .how_measure_notes{
+    display: none;
+  }
+  .MS20A .how_measure .how_measure_dec{
+    display: block;
+  }
+}
+@media screen and (min-width:1024px) {
+  .MS20A .how_measure  .title{
+    position: absolute;
+    padding-top: 32px;
+  }
+
+}
+
+@media screen and (min-width:1366px) {
+  .MS20A .how_measure  .title{
+    font-size: 64px;   
+  }
+}
+

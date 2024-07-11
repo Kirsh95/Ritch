@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,600;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .interstuhl img {
+      margin: 0;
+    }
+    .interstuhl .description {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .interstuhl .title {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .interstuhl h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .interstuhl ul {
+      list-style: none;
+      margin: 0;
+    }
+
+    .interstuhl ul li {
+      line-height: normal;
+      color: #000;
+      position: relative;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .interstuhl ul li::before{
+        content: url('https://i.citrus.world/uploads/content/product-photos/kirsh/741413/image%2070.svg?_t=1718358199');
+        position: absolute;
+        color: #000;
+        left: -20px;
+        top: 0;
+    }
+
+    .interstuhl {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .interstuhl ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .interstuhl ul li {
+      padding: 0;
+    }
+    .interstuhl div {
+      padding: 0;
+    }
+    div.interstuhl {
+      padding: 0;
+    }
+    .interstuhl br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .interstuhl{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .interstuhl img{
+      width: 100%;
+      display: block;
+    }
+    .interstuhl .top_interstuhl{
+      padding: 0 16px 24px;
+      display: grid;
+      gap: 16px;
+    }
+    .interstuhl .top_interstuhl .top_interstuhl_text{
+      display: grid;
+      gap: 10px;
+      text-align: center;
+    }
+    @media screen and (min-width:666px) {
+      /* body{
+      padding: 0 24px;
+    } */
+      .interstuhl .description{
+        font-size: 16px;
+      }
+      .interstuhl .description{
+        font-size: 14px;
+      }
+      .interstuhl .titles{
+        font-size: 24px;
+      }
+      .interstuhl .top_interstuhl{
+        padding: 0 40px 32px;
+        display: grid;
+        gap: 24px;
+      }
+      .interstuhl .top_interstuhl .top_interstuhl_text{
+        display: grid;
+        gap: 10px;
+        text-align: center;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .interstuhl .top_interstuhl .description{
+        font-size: 18px;
+      }
+      .interstuhl .description{
+        font-size: 16px;
+      }
+      .interstuhl .title{
+        font-size: 28px;
+        margin-bottom: 16px;
+      }
+      .interstuhl .top_interstuhl{
+        padding: 0 64px 32px;
+        display: grid;
+        gap: 24px;
+      }
+      .interstuhl .top_interstuhl .top_interstuhl_text{
+        display: grid;
+        gap: 10px;
+        text-align: center;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .interstuhl .top_interstuhl .description{
+        font-size: 20px;
+      }
+      .interstuhl .description{
+        font-size: 18px;
+      }
+      .interstuhl .title{
+        font-size: 38px;
+      }
+      .interstuhl .top_interstuhl{
+        padding: 0 80px 40px;
+        display: grid;
+        gap: 40px;
+      }
+      .interstuhl .top_interstuhl .top_interstuhl_text{
+        display: grid;
+        gap: 10px;
+        text-align: center;
+      }
+    }
+    /* modern */
+    .interstuhl .modern{
+      padding: 24px 16px;
+      text-align: center;
+      display: grid;
+      gap: 24px;
+    }
+    @media screen and (min-width:666px) {
+      .interstuhl .modern{
+        display: grid;
+        padding: 32px 40px;
+        gap: 32px;
+        align-items: center;
+        grid-template-columns: 1fr 1.6fr;
+      }
+      .interstuhl .modern .modern_text{
+        text-align: left;
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .interstuhl .modern{
+        display: grid;
+        padding: 32px 63px;
+        gap: 32px;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .interstuhl .modern{
+        display: grid;
+        padding: 40px 80px;
+        gap: 40px;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    /* developed_scientists */
+    .interstuhl .developed_scientists{
+      padding: 24px 16px;
+      text-align: center;
+      display: grid;
+      gap: 24px;
+    }
+    @media screen and (min-width:666px) {
+      .interstuhl .developed_scientists{
+        display: grid;
+        padding: 32px 40px;
+        gap: 32px;
+        align-items: center;
+        grid-template-columns: 1.6fr 1fr;
+      }
+      .interstuhl .developed_scientists .developed_scientists_text{
+        text-align: left;
+        grid-column-start: 1;
+        grid-row-start: 1;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .interstuhl .developed_scientists{
+        display: grid;
+        padding: 32px 63px;
+        gap: 32px;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .interstuhl .developed_scientists{
+        display: grid;
+        padding: 40px 80px;
+        gap: 40px;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+
+    /* akin_health */
+    .interstuhl .akin_health{
+      padding: 24px 16px;
+      text-align: left;
+      display: grid;
+      gap: 24px;
+    }
+    .interstuhl .akin_health .akin_health_text{
+        display: grid;
+         gap: 16px;
+    }
+    .interstuhl .akin_health .akin_health_text ul{
+        display: grid;
+         gap: 16px;
+    }
+    .interstuhl ul{
+        padding-left: 43px;
+    }
+    .interstuhl ul li::before{
+        left: -35px;
+    }
+    .interstuhl .akin_health .akin_health_text .title{
+        margin-bottom: 0;
+    }
+    .interstuhl .akin_health .notes{
+        padding-left: 20px;
+    }
+
+
+
+    @media screen and (min-width:666px) {
+      .interstuhl .akin_health{
+        background: #DFDFDF;
+        display: grid;
+        padding: 32px 40px;
+        gap: 32px;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+      }
+      .interstuhl .akin_health .akin_health_text{
+        text-align: left;
+        gap: 18px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+      .interstuhl .akin_health .akin_health_text ul{
+        display: grid;
+         gap: 18px;
+        }
+        .interstuhl ul{
+            padding-left: 25px;
+        }
+        .interstuhl ul li::before{
+            left: -25px;
+        }
+        .interstuhl .akin_health .notes{
+            padding-left: 0px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+      .interstuhl .akin_health{
+        display: grid;
+        padding: 32px 63px;
+        gap: 32px;
+        align-items: center;
+        grid-template-columns: 1fr 1.2fr;
+      }
+    }
+
+    @media screen and (min-width:1366px) {
+      .interstuhl .akin_health{
+        display: grid;
+        padding: 40px 80px;
+        gap: 40px;
+        align-items: center;
+        grid-template-columns: 1.1fr 1fr;
+      }
+    }
+
+
+   
+    /* synchronous */
+    .interstuhl .synchronous{
+      display: grid;
+      gap: 24px;
+      padding: 0px 16px 24px;
+      text-align: center;
+    }
+    @media screen and (min-width:666px) {
+      .interstuhl .synchronous{
+        padding: 32px 40px;
+      }
+      .interstuhl .synchronous .description{
+        font-size: 16px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .interstuhl .synchronous{
+        padding: 32px 64px;
+        gap: 32px;
+      }
+      .interstuhl .synchronous .description{
+        font-size: 18px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .interstuhl .synchronous{
+        padding: 40px 80px;
+        gap: 40px;
+      }
+      .interstuhl .synchronous .description{
+        font-size: 20px;
+      }
+    }
+    
+    /* reliable */
+    .interstuhl .reliable{
+      padding: 24px 16px;
+    }
+    .interstuhl .reliable .reliable_block{
+      background: linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(60,60,59,1) 0%);
+    }
+    .interstuhl .reliable .reliable_text{
+      text-align: center;
+      padding: 24px 16px;
+    }
+    @media screen and (min-width:666px) {
+      .interstuhl .reliable{
+        padding: 32px 40px;
+        display: grid;
+        gap: 32px;
+        align-items: center;
+        grid-template-columns: 1fr 1.5fr;
+      }
+      .interstuhl .reliable .reliable_text{
+        text-align: center;
+        padding: 0;
+        grid-row-start: 1;
+        grid-column-start: 2;
+        text-align: left;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .interstuhl .reliable{
+        padding: 32px 64px;
+        gap: 32px;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .interstuhl .reliable{
+        padding: 40px 80px;
+        gap: 40px;
+      }
+    }
+    </style>
+      <div class="interstuhl">
+        <div class="top_interstuhl"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/741413/opt.img%201.webp?_t=1718356958" />
+          <div class="top_interstuhl_text">
+            <p class="description">Більше свободи, більше комфорту, більше стилю.
+            </p>
+            <p class="description">Interstuhl EVERY &mdash; ідеальне рішення для домашнього офісу та робочих просторів.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="modern">
+          <div class="modern_text">
+            <p class="title">СУЧАСНЕ, СТИЛЬНЕ, ЗРУЧНЕ
+            </p>
+            <p class="description"><b>Interstuhl EVERY</b> гармонійно поєднує в собі стиль, безпеку та зручність. Крім свого універсального мінімалістичного дизайну, ця модель вразить вас своєю технічною досконалістю та високим рівнем комфорту. Крісло Interstuhl EVERY створене спеціально для тих, хто проводить багато часу сидячи, щоб зробити ваш досвід максимально зручним та безпечним для здоров&#39;я.
+            </p>
+          </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/741413/opt.img%202.webp?_t=1718356957" />
+        </div>
+        <!--  -->
+        <div class="developed_scientists ">
+          <div class="developed_scientists_text">
+            <p class="title">ЗРОБЛЕНО У СПІВПРАЦІ
+                З НАУКОВЦЯМИ
+            </p>
+            <p class="description">Довгі періоди нерухомого сидіння — дуже шкідливі для нашого здоров’я. І, згідно з дослідженнями Фраунгоферського інституту та Тюбінгенського університету, лише двох годин помірної фізичної активності на день достатньо, щоб компенсувати негативні наслідки малорухливого способу життя. Саме для того, щоб переосмислити саму концепцію офісних крісел та зробити процес сидіння динамічнішим, Interstuhl протягом багатьох років співпрацює з вченими Фраунгоферського інституту та перетворює наукові відкриття на практичні рішення.</p>
+            <br>
+            <p style="color: rgba(0, 0, 0, 0.6);" class="description">Кольори спинки : чорний, білий, коричньовий</p>
+          </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/741413/opt.img%203.webp?_t=1718356958" />
+        </div>
+        <!--  -->
+        <div class="akin_health ">
+          <div class="akin_health_text">
+            <p style="color: rgba(0, 0, 0, 0.6);" class="title">ТУРБОТА 
+                ПРО ВАШЕ ЗДОРОВ’Я
+            </p>
+            <p class="description">Крісло Interstuhl PURE ефективно зміцнює здоров'я* користувача
+                трьома способами:</p>
+            <ul>
+                <li class="description">Активність — з PURE процес сидіння ніколи не буде статичним. 
+                    Часта зміна пози тримає м’язи у тонусі, а також забезпечує рух ніг, стегон і хребта. </li>
+                <li class="description">Свобода — забудьте про некомфортні пози, що напружують спину 
+                    та поперек. З PURE ви відчуєте повну свободу руху та зможете сидіти так, як комфортно саме вам. </li>
+                <li class="description">Комфорт — PURE гарантує постійну підтримку усіх ваших рухів. 
+                    У звичайних стільцях комфортне сидіння можливе лише якщо правильно відрегулювати всі важелі та нахили, а PURE зробить </li>
+            </ul>
+            <p style="color: rgba(0, 0, 0, 0.6); text-align:right;" class="description notes">*Здоров’ю сприяє не саме крісло, а рух, який воно забезпечує. 
+                PURE робить усе, щоб користувач залишався активним 
+                не відчував напругу у м’язах. </p>
+          </div>
+          <div class="akin_health_img">
+            <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/741413/opt.img%204.webp?_t=1718356958" />
+          </div>
+        </div>
+
+        <!--  -->
+        <div class="synchronous">
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/741413/opt.img%207.webp?_t=1718356958" />
+          <div class="synchronous_text">
+            <p class="title">ТЕХНОЛОГІЯ SMART SPRING
+            </p>
+            <p class="description">Головна особливість моделі PURE — технологія Smart Spring. Виготовляється з суміші поліаміду та скловолокна, яка дозволяє кріслу динамічно підлаштовуватися під статуру, вагу та рухи користувача. Smart Spring забезпечує вражаючі радіуси переміщення, у тому числі в напрямках, які неможливі 
+                в інших кріслах. І вам необхідно нічого регулювати, Interstuhl PURE зробить все автоматично та забезпечить вам унікальний досвід тривимірного сидіння.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="reliable">
+          <div class="reliable_text">
+            <p class="title">НАДІЙНЕ ВИРОБНИЦТВО
+            </p>
+            <p class="description">Interstuhl &mdash; компанія, що дотримується активної екологічної позиції та відповідально ставиться до процесу виробництва всієї своєї продукції. Всі моделі лінійки EVERY вироблені на заводах в Німеччині з надійних та екологічно безпечних перероблюваних матеріалів. Крісла Interstuhl мають 10-річну гарантію, що доводить впевненість бренду у якості та довговічності їхніх виробів.
+            </p>
+          </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/741413/opt.img%206.webp?_t=1718356958" />
+        </div>
+      </div>
+      
+</body>
+</html>

@@ -1,0 +1,453 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+  }
+  .iphone_fifteen img {
+    margin: 0;
+  }
+  .iphone_fifteen h2{
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .iphone_fifteen p {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%
+}
+
+.iphone_fifteen h3{
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .iphone_fifteen a{
+    font-family: "Roboto",sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 130%;
+
+  }
+
+  .iphone_fifteen ul {
+    list-style: none;
+    margin: 0;
+  }
+  .iphone_fifteen ul li {
+    line-height: normal;
+  }
+  .iphone_fifteen {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .iphone_fifteen ul {
+    padding: 0;
+  }
+  .iphone_fifteen ul li {
+    padding: 0;
+  }
+  .iphone_fifteen div {
+    padding: 0;
+  }
+  div.iphone_fifteen {
+    padding: 0;
+  }
+  .iphone_fifteen br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+
+  .iphone_fifteen{
+    max-width: 1366px;
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
+  .iphone_fifteen img{
+    display: block;
+    width: 100%;
+  }
+
+
+  .iphone_fifteen .fifteen{
+    text-align: center;
+    padding-top: 40px;
+
+  }
+  .iphone_fifteen .fifteen .logo_iphone{
+    margin: 0 auto;
+    width: 140px;
+    margin-top: 8px;
+  }
+  .iphone_fifteen .fifteen .big_title{
+    font-weight: 700;
+    font-size: 32px;
+    color: #87878B;
+  }
+
+
+  @media screen and (min-width:666px) {
+    .iphone_fifteen .fifteen .logo_iphone{
+        width: 198px;
+        margin-top: 12px;
+      }
+      .iphone_fifteen .fifteen .big_title{
+        font-size: 44px;
+      }
+  }
+
+  @media screen and (min-width:1024px) {
+    .iphone_fifteen .fifteen .logo_iphone{
+        width: 264px;
+        margin-top: 12px;
+      }
+      .iphone_fifteen .fifteen .big_title{
+        font-size: 64px;
+      }
+
+      .iphone_fifteen p {
+        font-size: 22px;
+     }
+    
+    .iphone_fifteen h3{
+        font-size: 22px;
+    }
+  }
+
+  @media screen and (min-width:1366px) {
+    .iphone_fifteen .fifteen .logo_iphone{
+        width: 370px;
+        margin-top: 18px;
+      }
+      .iphone_fifteen .fifteen .big_title{
+        font-size: 88px;
+      }
+  }
+
+  /* pre_order */
+
+
+  .iphone_fifteen .pre_order{
+    display: grid;
+    gap: 16px;
+    text-align: center;
+  }
+  .iphone_fifteen .pre_order a{
+    border: 1px solid #000;
+    border-radius: 80px;
+    padding: 10px 24px;
+    width: 123px;
+    margin: 0 auto;
+    font-size: 22px;
+  }
+
+  .iphone_fifteen .pre_order h3{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+
+  }
+
+
+  @media screen and (min-width:666px) {
+    .iphone_fifteen .pre_order{
+        margin-top: -20px;
+      }
+  .iphone_fifteen .pre_order{
+    gap: 24px;
+  }
+
+    .iphone_fifteen .pre_order a{
+        padding: 16px 30px;
+        width: 201px;
+        font-size: 36px;
+      }
+    
+      .iphone_fifteen .pre_order h3{
+        font-size: 52px;
+      }
+
+  }
+  @media screen and (min-width:1024px) {
+    .iphone_fifteen .pre_order{
+        margin-top: -50px;
+      }
+
+    .iphone_fifteen .pre_order a{
+        padding: 20px 36px;
+        width: 224px;
+        font-size: 40px;
+      }
+    
+      .iphone_fifteen .pre_order h3{
+        font-size: 52px;
+      }
+
+  }
+
+  @media screen and (min-width:1366px) {
+    .iphone_fifteen .pre_order{
+        margin-top: -100px;
+      }
+
+    .iphone_fifteen .pre_order a{
+        padding: 24px 40px;
+    }
+
+  }
+
+
+
+  /* dynamic_Island */
+
+
+  .iphone_fifteen .dynamic_Island{
+    padding-top: 32px;
+    text-align: center;
+    display: grid;
+  }
+
+  .iphone_fifteen .dynamic_Island p{
+    font-size: 18px;
+
+  }
+
+  .iphone_fifteen .dynamic_Island .dynamic_Island_text{
+    padding: 0 14px;
+  }
+
+
+  @media screen and (min-width:666px) {
+    .iphone_fifteen .dynamic_Island{
+        padding-top: 60px;
+        gap: 80px;
+      }
+
+    .iphone_fifteen .dynamic_Island p{
+        font-size: 28px;
+    }
+    
+    .iphone_fifteen .dynamic_Island .dynamic_Island_text{
+        padding: 0 22px;
+    }
+
+  }
+
+  @media screen and (min-width:1024px) {
+
+    .iphone_fifteen .dynamic_Island p{
+        font-size: 36px;
+    }
+    
+    .iphone_fifteen .dynamic_Island .dynamic_Island_text{
+        padding: 0 22px;
+    }
+
+  }
+  @media screen and (min-width:1366px) {
+    .iphone_fifteen .dynamic_Island{
+        padding-top: 74px;
+        gap: 100px;
+      }
+    
+    .iphone_fifteen .dynamic_Island .dynamic_Island_text{
+        padding: 0 80px;
+    }
+
+  }
+
+/* .main_characteristics */
+
+.iphone_fifteen .main_characteristics{
+    padding: 40px 16px;
+    display: grid;
+    gap: 40px;
+}
+
+.iphone_fifteen .main_characteristics .main_block{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.iphone_fifteen .main_characteristics .main_characteristics_block_left,
+.iphone_fifteen .main_characteristics .main_characteristics_block_rigth{
+    display: grid;
+    gap: 40px;
+    align-items:flex-start;
+}
+.iphone_fifteen .main_characteristics .main_characteristics_block_left .main_items,
+.iphone_fifteen .main_characteristics .main_characteristics_block_rigth .main_items{
+    display: grid;
+    gap: 8px;
+    align-items: flex-start;
+
+}
+.iphone_fifteen .main_characteristics .main_characteristics_block{
+    display: grid;
+    gap: 40px;
+    align-items: flex-start;
+
+}
+
+
+@media screen and (min-width:666px) {
+    .iphone_fifteen .main_characteristics .main_block{
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .iphone_fifteen .main_characteristics{
+        padding: 80px 30px;
+    }
+
+    .iphone_fifteen .main_characteristics .main_characteristics_block{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .iphone_fifteen .main_characteristics .main_characteristics_block_left,
+    .iphone_fifteen .main_characteristics .main_characteristics_block_rigth{
+        gap: 40px;
+
+    }
+
+
+}
+@media screen and (min-width:1024px) {
+    .iphone_fifteen .main_characteristics .main_block{
+        font-size: 48px;
+    }
+
+    .iphone_fifteen .main_characteristics{
+        padding: 80px 32px;
+        gap: 64px;
+    }
+
+    .iphone_fifteen .main_characteristics .main_characteristics_block{
+        gap: 153.55px;
+    }
+
+    .iphone_fifteen .main_characteristics .main_characteristics_block_left .main_items,
+    .iphone_fifteen .main_characteristics .main_characteristics_block_rigth .main_items{
+        gap: 16px;
+
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .iphone_fifteen .main_characteristics .main_block{
+        font-size: 64px;
+    }
+
+    .iphone_fifteen .main_characteristics{
+        padding: 100px 91px;
+    }
+
+    .iphone_fifteen .main_characteristics .main_characteristics_block{
+        gap: 207px;
+    }
+
+    .iphone_fifteen .main_characteristics .main_characteristics_block_left .main_items,
+    .iphone_fifteen .main_characteristics .main_characteristics_block_rigth .main_items{
+        gap: 16px;
+
+    }
+}
+
+
+
+/* legal_information */
+
+.iphone_fifteen .legal_information{
+    display: grid;
+    gap:16px ;
+    padding: 0 16px 20px;
+}
+
+.iphone_fifteen .legal_information .legal_information_block{
+    gap: 16px;
+    display: grid;
+}
+
+.iphone_fifteen .legal_information .legal_information_block .legal_items{
+    gap: 16px;
+    display: grid;
+}
+
+.iphone_fifteen .legal_information .legal_information_block .legal_items .legal_item{
+    gap: 16px;
+    display: grid;
+}
+
+
+@media screen and (min-width:666px) {
+    .iphone_fifteen .legal_information{
+        padding: 0 24px 40px;
+    }
+
+    .iphone_fifteen .legal_information p,
+    .iphone_fifteen .legal_information h3{
+        font-size: 22px;
+    }
+
+    .iphone_fifteen .legal_information .legal_information_block{
+        gap: 40px;
+    }
+    
+    .iphone_fifteen .legal_information .legal_information_block .last_items{
+        gap: 35px;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    
+    .iphone_fifteen .legal_information .legal_information_block .legal_items .legal_item{
+        gap: 24px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .iphone_fifteen .legal_information{
+        padding: 0 40px 40px;
+    }
+
+    .iphone_fifteen .legal_information .legal_information_block{
+        gap: 40px;
+    }
+    
+    .iphone_fifteen .legal_information .legal_information_block .last_items{
+        gap: 49px;
+    }
+    
+}
+
+@media screen and (min-width:1366px) {
+    .iphone_fifteen .legal_information{
+        padding: 0 118px 40px;
+    }
+    .iphone_fifteen .legal_information .legal_information_block .last_items{
+        gap: 81px;
+    }
+    .iphone_fifteen .legal_information .legal_information_block .legal_items .legal_item{
+        padding-right: 45px;
+    }
+
+}

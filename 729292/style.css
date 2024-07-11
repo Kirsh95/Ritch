@@ -1,0 +1,529 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .PEBBLE img {
+      margin: 0;
+    }
+    .PEBBLE p {
+      padding: 0;
+      margin: 0;
+      color: rgb(64, 64, 64);
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      opacity: 0.8;
+    }
+    .PEBBLE h3 {
+        color: rgb(64, 64, 64);
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .PEBBLE h2 {
+      color: rgba(46, 46, 46, 1);
+      font-family: 'Roboto',sans-serif;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 6px;
+    }
+    .PEBBLE ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .PEBBLE ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .PEBBLE {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .PEBBLE ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .PEBBLE ul li {
+      padding: 0;
+    }
+    .PEBBLE div {
+      padding: 0;
+    }
+    div.PEBBLE {
+      padding: 0;
+    }
+    .PEBBLE br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .PEBBLE{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .PEBBLE img{
+      width: 100%;
+      display: block;
+    }
+
+    .PEBBLE .M350S{
+        display: grid;
+        background: rgba(206, 202, 193, 1)
+    }
+
+    .PEBBLE .M350S .M350S_text {
+        padding: 24px 16px;
+    }
+
+    .PEBBLE .M350S .M350S_text #logo_ligitech{
+        width: 58px;
+        margin-bottom: 16px;
+    }
+
+    .PEBBLE .M350S p{
+        color: rgba(46, 46, 46, 1)
+    }
+
+    .PEBBLE .M350S .M350S_img{
+        padding: 0px 31px 0;
+    }
+
+
+    @media screen and  (min-width:666px) {
+        /* body{
+            padding: 0 24px;
+        } */
+        .PEBBLE .M350S .M350S_text {
+            padding: 37px 24px;
+        }
+        .PEBBLE .M350S{
+            display: grid;
+            grid-template-columns: 1.29fr 1fr;
+            align-items: center;
+
+        }
+        .PEBBLE .M350S .M350S_text {
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+        .PEBBLE .M350S .M350S_img{
+            padding: 0;
+        }
+
+    }
+
+    @media screen and  (min-width:1024px) {
+        .PEBBLE .M350S .M350S_text {
+            padding: 54.5px 38px 54.5 24px;
+        }
+        .PEBBLE .M350S .M350S_text #logo_ligitech{
+            width: 76px;
+            margin-bottom: 22px;
+        }
+        .PEBBLE .M350S .M350S_text {
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+        .PEBBLE h2{
+            font-size: 36px;
+        }
+        .PEBBLE p{
+            font-size: 18px;
+        }
+    }
+
+    @media screen and  (min-width:1366px) {
+        .PEBBLE .M350S .M350S_text {
+            padding: 75.5px 60px 75.5px 24px;
+        }
+        .PEBBLE .M350S{
+            grid-template-columns: 1.32fr 1fr;
+        }
+        .PEBBLE .M350S .M350S_text #logo_ligitech{
+            width: 106px;
+            margin-bottom: 32px;
+        }
+        .PEBBLE .M350S .M350S_text {
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+        .PEBBLE h2{
+            font-size: 48px;
+            margin-bottom: 8px;
+        }
+        .PEBBLE p{
+            font-size: 22px;
+        }
+    }
+
+    /* colour_options */
+
+    .PEBBLE .colour_options{
+        background: rgb(234, 230, 227);
+        padding: 40px  24px;
+        display: grid;
+        gap: 24px;
+    }
+
+    .PEBBLE .colour_options h3{
+        color: rgb(64, 64, 64);
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+
+    .PEBBLE .colour_options .colour_options_item{
+        padding: 28px 14.5px 0;
+        background: rgb(255, 255, 255);
+    }
+
+    .PEBBLE .colour_options .colour_options_item .colour_options_text{
+        display: grid;
+        grid-template-columns: 22px auto;
+        align-items: center;
+        gap: 12px;
+        justify-content: center;
+    }
+
+
+    @media screen and  (min-width:666px) {
+        .PEBBLE .colour_options{
+            grid-template-columns: repeat(3,1fr);
+        }
+        .PEBBLE .colour_options h3{
+           font-size: 14px;
+        }
+        .PEBBLE .colour_options .colour_options_item .colour_options_text{
+            grid-template-columns: 16px auto;
+            gap: 8px;
+        }
+
+        .PEBBLE .colour_options .colour_options_item{
+            padding: 20px 0px 0;
+        }
+    }
+
+    @media screen and  (min-width:1024px) {
+        .PEBBLE .colour_options{
+            padding: 40px;
+        }
+        .PEBBLE .colour_options h3{
+           font-size: 18px;
+        }
+        .PEBBLE .colour_options .colour_options_item .colour_options_text{
+            grid-template-columns: 22px auto;
+            gap: 12px;
+        }
+
+        .PEBBLE .colour_options .colour_options_item{
+            padding: 28px 0px 0;
+        }
+    }
+
+    @media screen and  (min-width:1366px) {
+        .PEBBLE .colour_options{
+            padding: 60px;
+            gap: 23px;
+        }
+        .PEBBLE .colour_options h3{
+           font-size: 22px;
+        }
+        .PEBBLE .colour_options .colour_options_item .colour_options_text{
+            grid-template-columns: 32px auto;
+            gap: 18px;
+        }
+
+        .PEBBLE .colour_options .colour_options_item{
+            padding: 40px 0px 0;
+        }
+    }
+
+
+    /* big_pazle */
+
+    .PEBBLE .big_pazle{
+        display: grid;
+        gap: 28px;
+        padding: 40px 16px;
+    }
+
+    .PEBBLE .big_pazle .block_left,
+    .PEBBLE .big_pazle .block_rigth{
+        display: grid;
+        gap: 30px;
+        align-items: center;
+    }
+
+    @media screen and  (min-width:666px) {
+
+        .PEBBLE .big_pazle{
+            padding: 40px  24px;
+        }
+
+        .PEBBLE .big_pazle .block_left,
+        .PEBBLE .big_pazle .block_rigth{  
+            gap: 0;
+        }
+    
+
+    .PEBBLE .big_pazle .block_left{
+        grid-template-columns:1.317fr 1fr;
+    }
+    .PEBBLE .big_pazle .block_rigth{
+        grid-template-columns:1fr 1.317fr;
+    }
+    .PEBBLE .big_pazle .block_rigth .block_rigth_text{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        padding-right: 30px;
+    }
+    .PEBBLE .big_pazle .block_left .block_left_text{
+        padding-left: 30px;
+    }
+}
+
+@media screen and  (min-width:1024px) {
+    .PEBBLE h3{
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    .PEBBLE .big_pazle .block_left_text h3:first-child{
+        padding-right: 20px;
+    }
+    .PEBBLE p{
+        font-size: 18px;
+    }
+    .PEBBLE .big_pazle{
+        padding: 42px 40px;
+        gap: 38px;
+    }
+    .PEBBLE .big_pazle .block_rigth .block_rigth_text{
+        padding-right: 42px;
+    }
+    .PEBBLE .big_pazle .block_left .block_left_text{
+        padding-left: 42px;
+    }
+}
+
+@media screen and  (min-width:1366px) {
+    .PEBBLE h3{
+        font-size: 32px;
+        margin-bottom: 22px;
+    }
+    .PEBBLE p{
+        font-size: 22px;
+    }
+    .PEBBLE .big_pazle .block_left_text h3:first-child{
+        padding-right: 20px;
+    }
+    .PEBBLE .big_pazle{
+        padding: 60px;
+        gap: 39px;
+    }
+    .PEBBLE .big_pazle .block_rigth .block_rigth_text{
+        padding-right: 60px;
+    }
+    .PEBBLE .big_pazle .block_left .block_left_text{
+        padding-left: 60px;
+    }
+}
+
+
+
+/* size */
+
+.PEBBLE .size{
+    padding: 40px 18px;
+    background: rgb(234, 230, 227);
+    text-align: center;
+    display: grid;
+    gap: 28px;
+}
+.PEBBLE .size h3{
+    margin-bottom: 0;
+}
+.PEBBLE .size .size_item_horizontal {
+    padding: 0 24px;
+}
+
+@media screen and  (min-width:666px) {
+    .PEBBLE .size{
+        padding: 40px 67px;
+    }
+
+    .PEBBLE .size .size_item_horizontal {
+        padding: 0 66px;
+    }
+}
+@media screen and  (min-width:1024px) {
+    .PEBBLE .size{
+        padding: 42px 106px;
+        gap: 38px;
+    }
+    .PEBBLE .size .size_item_horizontal {
+        padding: 0 88px;
+    }
+}
+@media screen and  (min-width:1366px) {
+    .PEBBLE .size{
+        padding: 60px 171px;
+        gap: 40px;
+    }
+
+    .PEBBLE .size .size_item_horizontal {
+        padding: 0 118px;
+    }
+}
+
+
+/* advantages */
+
+.PEBBLE .advantages{
+    display: grid;
+    padding: 40px 16px;
+    gap: 24px;
+    text-align: center;
+}
+
+.PEBBLE .advantages .title_item{
+    opacity: 1;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.PEBBLE .advantages .advantages_item{
+    display: grid;
+    gap: 20px;
+}
+
+
+@media screen and  (min-width:666px) {
+    .PEBBLE .advantages{
+        grid-template-columns: repeat(3,1fr);
+        align-items: start;
+        padding: 40px 24px;
+    }
+}
+@media screen and  (min-width:1024px) {
+    .PEBBLE .advantages{
+        align-items: start;
+        padding: 42px 40px;
+    }
+    .PEBBLE .advantages .advantages_item{
+        gap: 28px;
+    }
+    .PEBBLE .advantages .title_item{
+        margin-bottom:14px ;
+    }
+}
+@media screen and  (min-width:1366px) {
+    .PEBBLE .advantages{
+        align-items: start;
+        padding: 60px;
+    }
+    .PEBBLE .advantages .advantages_item{
+        gap: 40px;
+    }
+    .PEBBLE .advantages .title_item{
+        margin-bottom:18px ;
+    }
+}
+
+
+/* future */
+
+
+.PEBBLE .future{
+    display: grid;
+background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/729293/opt.pebble-keys-2-k380s-horizontal-graphite-gallery-desktop-43.webp?_t=1711615621");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.PEBBLE .future  h3{
+    margin-bottom: 0;
+}
+
+.PEBBLE .future  h3,
+.PEBBLE .future  p{
+    color: #ffffff;
+    font-weight: 500;
+}
+.PEBBLE .future .future_block{
+    /* position: absolute; */
+    padding: 24px 16px;
+    display: grid;
+    gap: 20px;
+}   
+.PEBBLE .future .future_block .future_text{
+    display: grid;
+    gap: 10px;
+}
+
+.PEBBLE .future .future_block .future_text_item{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 40px auto;
+    align-items: center;
+}   
+
+
+
+@media screen and  (min-width:666px) {
+    .PEBBLE .future .future_img{
+        padding-right: 0px;
+    }
+    .PEBBLE .future .future_block{
+        padding: 40px 24px;
+    }  
+
+}
+@media screen and  (min-width:1024px) {
+
+    .PEBBLE .future .future_block{
+        gap: 28px;
+        padding: 42px;
+
+    }  
+    .PEBBLE .future .future_block .future_text_item{
+        gap: 16px;
+        grid-template-columns: 72px auto;
+    } 
+    .PEBBLE .future .future_block .future_text{
+        gap: 16px;
+    }
+
+}
+
+@media screen and  (min-width:1366px) {
+    .PEBBLE .future .future_block{
+        gap: 40px;
+        padding: 80px 60px;
+    }  
+    .PEBBLE .future .future_block .future_text_item{
+        gap: 22px;
+        grid-template-columns: 100px auto;
+    } 
+    .PEBBLE .future .future_block .future_text{
+        gap: 22px;
+    }
+
+}

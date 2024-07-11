@@ -1,0 +1,604 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .AIMA_F606 img {
+      margin: 0;
+    }
+    .AIMA_F606 .description {
+      padding: 0;
+      margin: 0;
+      color: rgba(0, 0, 0, 0.7);
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .AIMA_F606 .title {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+    .AIMA_F606 .title_s {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+    .AIMA_F606 ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .AIMA_F606 ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .AIMA_F606 {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .AIMA_F606 ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .AIMA_F606 ul li {
+      padding: 0;
+    }
+    .AIMA_F606 div {
+      padding: 0;
+    }
+    div.AIMA_F606 {
+      padding: 0;
+    }
+    .AIMA_F606 br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .AIMA_F606{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .AIMA_F606 img{
+      width: 100%;
+      display: block;
+    }
+    /* electric_scooter */
+    .AIMA_F606 .electric_scooter{
+      background:radial-gradient(129.69% 81.27% at 33% 54%,rgb(163, 212, 255),rgb(35, 91, 158) 100%);
+      padding: 24px 16px;
+      position: relative;
+      display: grid;
+      gap: 16px;
+    }
+    .AIMA_F606 .electric_scooter .icon_top{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    .AIMA_F606 .electric_scooter .electric_scooter_img{
+      position: relative;
+      z-index: 2;
+    }
+    .AIMA_F606 .electric_scooter .electric_scooter_text p{
+      color: rgb(255, 255, 255);
+    }
+    @media screen and (min-width:666px) {
+      .AIMA_F606 .electric_scooter{
+        grid-template-columns:1fr 1.4fr ;
+        align-items: center;
+        padding: 24px 40px;
+        gap: 0;
+      }
+      .AIMA_F606 .electric_scooter .electric_scooter_img{
+        padding-right: 24px;
+      }
+      .AIMA_F606 .electric_scooter .icon_top{
+        width: 315px;
+        left: -60px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .AIMA_F606 .electric_scooter{
+        grid-template-columns:1fr 1fr ;
+        padding: 24px 64px;
+        gap:32px;
+      }
+      .AIMA_F606 .electric_scooter .electric_scooter_img{
+        padding-right: 0px;
+      }
+      .AIMA_F606 .electric_scooter .icon_top{
+        width: 380px;
+        left: 0px;
+      }
+      .AIMA_F606 .electric_scooter .title{
+        padding-right: 140px;
+      }
+      .AIMA_F606 .title {
+        font-size: 28px;
+      }
+      .AIMA_F606 .title_s {
+        font-size: 18px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .AIMA_F606 .electric_scooter{
+        grid-template-columns:1.1fr 1fr ;
+        padding: 24px 64px;
+        gap: 40px;
+      }
+      .AIMA_F606 .electric_scooter .electric_scooter_img{
+        padding-right: 0px;
+      }
+      .AIMA_F606 .electric_scooter .icon_top{
+        width: 607px;
+        left: 0px;
+      }
+      .AIMA_F606 .electric_scooter .electric_scooter_text{
+        padding-right: 34px;
+      }
+      .AIMA_F606 .electric_scooter .title{
+        padding-right: 240px;
+      }
+      .AIMA_F606 .title {
+        font-size: 38px;
+        margin-bottom: 18px;
+      }
+      .AIMA_F606 .description {
+        font-size: 18px;
+        line-height: 150%;
+      }
+      .AIMA_F606 .title_s {
+        font-size: 22px;
+        margin-bottom: 18px;
+      }
+    }
+    /* main_chareckt */
+    .AIMA_F606 .main_chareckt{
+      display: grid;
+    }
+    .AIMA_F606 .main_chareckt .description{
+      color: rgba(0, 0, 0, 0.7);
+    }
+    .AIMA_F606 .main_chareckt .main_chareckt_img{
+      padding-left: 92px;
+    }
+    .AIMA_F606 .main_chareckt .main_chareckt_text{
+      display: grid;
+      padding: 40px 16px;
+      text-align: center;
+      align-items: start;
+      gap: 16px;
+      grid-template-columns: repeat(2,1fr);
+    }
+    .AIMA_F606 .main_chareckt .main_chareckt_item{
+      display: grid;
+      gap: 8px;
+    }
+    .AIMA_F606 .main_chareckt .main_chareckt_item{
+      display: grid;
+      gap: 8px;
+    }
+    .AIMA_F606 .main_chareckt .main_chareckt_text img{
+      width: 64px;
+      margin: 0 auto;
+    }
+    
+    @media screen and (min-width:666px) {
+      .AIMA_F606 .main_chareckt{
+        grid-template-columns: 1fr .48fr;
+        padding-left: 40px;
+        align-items: start;
+        align-items: center;
+        gap: 32px;
+      }
+    .AIMA_F606 .main_chareckt .main_chareckt_text{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+      .AIMA_F606 .main_chareckt .main_chareckt_img{
+        padding-left: 0px;
+      }
+      .AIMA_F606 .main_chareckt .main_chareckt_text img{
+        width: 48px;
+        margin: 0 auto;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .AIMA_F606 .main_chareckt{
+        padding-left: 64px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .AIMA_F606 .main_chareckt{
+        padding-left: 80px;
+      }
+      .AIMA_F606 .main_chareckt .main_chareckt_text img{
+        width: 80px;
+      }
+    }
+    /* lightweight_and_fast */
+    .AIMA_F606 .lightweight_and_fast{
+      background: radial-gradient(135.38% 81.22% at 64% 50%,rgb(163, 212, 255),rgb(35, 91, 158) 100%);
+      position: relative;
+      display: grid;
+      padding: 24px 16px;
+      gap: 16px;
+    }
+    .AIMA_F606 .lightweight_and_fast p{
+      color: #fff;
+    }
+    .AIMA_F606 .lightweight_and_fast .lightweight_img{
+      position: relative;
+      z-index: 2;
+    }
+    .AIMA_F606 .lightweight_and_fast .icon_two{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 1;
+      width: 320px;
+    }
+    @media screen and (min-width:666px) {
+      .AIMA_F606 .lightweight_and_fast{
+        grid-template-columns: 1.5fr 1fr;
+        padding: 24px 40px;
+        align-items: center;
+      }
+      .AIMA_F606 .lightweight_and_fast .icon_two{
+        right: -40px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .AIMA_F606 .lightweight_and_fast{
+        grid-template-columns: 1fr 1fr;
+        padding: 24px 60px;
+        gap: 40px;
+      }
+      .AIMA_F606 .lightweight_and_fast .icon_two{
+        right: 0px;
+        width: 403px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .AIMA_F606 .lightweight_and_fast{
+        padding: 30px 80px;
+        gap: 40px;
+      }
+      .AIMA_F606 .lightweight_and_fast .icon_two{
+        right: -25px;
+        width: 607px;
+      }
+    }
+    /* power_reserve */
+    .AIMA_F606 .power_reserve{
+      padding: 40px 16px;
+      display: grid;
+      gap: 16px;
+    }
+    @media screen and (min-width:666px) {
+      .AIMA_F606 .power_reserve{
+        grid-template-columns: 1fr 1.5fr;
+        align-items: center;
+        padding: 40px
+      }
+      .AIMA_F606 .power_reserve .power_reserve_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .AIMA_F606 .power_reserve{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 40px 64px;
+        gap: 32px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .AIMA_F606 .power_reserve{
+        grid-template-columns: 1.18fr 1fr;
+        gap: 40px;
+        align-items: center;
+        padding: 50px 80px;
+      }
+    }
+    /* in_front_of */
+    .AIMA_F606 .in_front_of{
+      background: rgb(248, 248, 248);
+      display: grid;
+      padding: 32px 16px 0;
+      gap: 16px;
+    }
+    @media screen and (min-width:666px) {
+      .AIMA_F606 .in_front_of{
+        grid-template-columns: 1.22fr 1fr;
+        align-items: center;
+        padding: 40px 0 40px 40px ;
+        gap: 0;
+      }
+      .AIMA_F606 .in_front_of .in_front_of_text{
+        padding-right: 33px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .AIMA_F606 .in_front_of{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 40px 64px ;
+        gap: 32px;
+      }
+      .AIMA_F606 .in_front_of .in_front_of_text{
+        padding-right: 0px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .AIMA_F606 .in_front_of{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 50px 80px ;
+        gap:40px;
+      }
+      .AIMA_F606 .in_front_of .in_front_of_text{
+        padding-right: 0px;
+      }
+    }
+    /* energy_efficiency */
+    .AIMA_F606 .energy_efficiency{
+      padding: 40px 16px;
+      display: grid;
+      gap: 16px;
+    }
+    @media screen and (min-width:666px) {
+      .AIMA_F606 .energy_efficiency{
+        grid-template-columns: repeat(2,1fr);
+        padding: 40px;
+        gap: 32px;
+        align-items: center;
+      }
+      .AIMA_F606 .energy_efficiency .energy_efficiency_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .AIMA_F606 .energy_efficiency{
+        padding: 40px 64px;
+        gap: 32px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .AIMA_F606 .energy_efficiency{
+        grid-template-columns: 1fr 1.29fr;
+        padding: 50px 80px;
+        gap: 40px;
+      }
+      .AIMA_F606 .energy_efficiency .title{
+        padding-right: 90px;
+      }
+    }
+    /* ergonomic_design */
+    .AIMA_F606 .ergonomic_design{
+      background:radial-gradient(142.94% 81.22% at 64% 50%,rgb(163, 212, 255),rgb(35, 91, 158) 100%);
+      padding: 24px 16px;
+      position: relative;
+    }
+    .AIMA_F606 .ergonomic_design p{
+      color: #fff;
+    }
+    .AIMA_F606 .ergonomic_design .ergonomic_design_img{
+      position: relative;
+      z-index: 2;
+    }
+    .AIMA_F606 .ergonomic_design .icon_last{
+      position: absolute;
+      top: 0;
+      right: -265px;
+      width: 500px;
+      z-index: 1;
+    }
+    @media screen and (min-width:666px) {
+      .AIMA_F606 .ergonomic_design{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1.5fr 1fr;
+        padding: 24px 40px;
+      }
+      .AIMA_F606 .ergonomic_design .ergonomic_design_text{
+        padding-right: 9px;
+      }
+      .AIMA_F606 .ergonomic_design .ergonomic_design_img{
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+      .AIMA_F606 .ergonomic_design .icon_last{
+        position: absolute;
+        top: 0;
+        right: 0px;
+        width: 295px;
+        z-index: 1;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .AIMA_F606 .ergonomic_design{
+        padding: 24px 64px;
+        gap: 32px;
+        grid-template-columns: repeat(2,1fr);
+      }
+      .AIMA_F606 .ergonomic_design .ergonomic_design_text{
+        padding-right: 0px;
+      }
+      .AIMA_F606 .ergonomic_design .icon_last{
+        width: 408px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .AIMA_F606 .ergonomic_design{
+        padding: 20px 80px;
+        gap: 0px;
+        grid-template-columns: 1fr 1.2fr;
+      }
+      .AIMA_F606 .ergonomic_design .ergonomic_design_text{
+        padding-right: 10px;
+      }
+      .AIMA_F606 .ergonomic_design .icon_last{
+        width: 607px;
+      }
+    }
+    /* confident_movement   */
+    .AIMA_F606 .confident_movement{
+      display: grid;
+      gap: 16px;
+    }
+    .AIMA_F606 .confident_movement .confident_movement_text{
+      padding: 0 16px 32px;
+    }
+    @media screen and (min-width:666px) {
+      .AIMA_F606 .confident_movement{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1.5fr;
+        gap: 32px;
+      }
+      .AIMA_F606 .confident_movement .confident_movement_text{
+        padding: 0;
+        padding-right:40px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .AIMA_F606 .confident_movement{
+        grid-template-columns: 1fr 1.3fr;
+        gap: 32px;
+      }
+      .AIMA_F606 .confident_movement .confident_movement_text{
+        padding-right:64px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .AIMA_F606 .confident_movement{
+        grid-template-columns: 1fr 1.43fr;
+        gap: 40px;
+      }
+      .AIMA_F606 .confident_movement .confident_movement_text{
+        padding: 0;
+        padding-right:80px;
+      }
+    }
+    /* IP54 */
+    .AIMA_F606 .IP54{
+      background: rgb(248, 248, 248);
+      display: grid;
+      padding: 40px 16px 0;
+      gap: 16px;
+    }
+    @media screen and (min-width:666px) {
+      .AIMA_F606 .IP54{
+        display: grid;
+        align-items: center;
+        padding: 40px;
+        grid-template-columns: 1.5fr 1fr;
+        gap: 32px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .AIMA_F606 .IP54{
+        display: grid;
+        align-items: center;
+        padding: 40px 64px 0;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .AIMA_F606 .IP54{
+        display: grid;
+        align-items: center;
+        padding:50px 80px 0;
+        grid-template-columns: 1fr 1.11fr;
+        gap: 40px;
+      }
+    }
+    /* safe_travelling */
+    .AIMA_F606 .safe_travelling{
+      padding: 40px 16px;
+      display: grid;
+      gap: 16px;
+    }
+    @media screen and (min-width:666px) {
+      .AIMA_F606 .safe_travelling{
+        display: grid;
+        align-items: center;
+        padding: 40px;
+        grid-template-columns: 1fr 1.6fr;
+        gap: 32px;
+      }
+      .AIMA_F606 .safe_travelling .safe_travelling_text{
+        grid-column-start:2;
+        grid-row-start: 1;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .AIMA_F606 .safe_travelling{
+        padding: 40px 64px;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+      }
+      .AIMA_F606 .safe_travelling .safe_travelling_text{
+        grid-column-start:2;
+        grid-row-start: 1;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .AIMA_F606 .safe_travelling{
+        padding: 40px 80px;
+        grid-template-columns: 628px 1fr;
+        gap: 40px;
+      }
+      .AIMA_F606 .safe_travelling .safe_travelling_text{
+        grid-column-start:2;
+        grid-row-start: 1;
+      }
+    }
+    .AIMA_F606 .notes{
+      background: radial-gradient(48.00% 100.00% at 53% 100%,rgb(163, 212, 255),rgb(35, 91, 158) 100%);
+      padding: 40px 16px;
+    }
+    .AIMA_F606 .notes p{
+      color: #fff;
+    }
+    @media screen and (min-width:666px) {
+      .AIMA_F606 .notes{
+        padding: 40px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .AIMA_F606 .notes{
+        padding: 40px 64px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .AIMA_F606 .notes{
+        padding: 40px 80px;
+      }
+    }

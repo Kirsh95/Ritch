@@ -1,0 +1,282 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .sonicare img {
+      margin: 0;
+    }
+    .sonicare .description {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .sonicare .title {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+    }
+    .sonicare .title_big {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .sonicare h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .sonicare ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .sonicare ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .sonicare {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .sonicare ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .sonicare ul li {
+      padding: 0;
+    }
+    .sonicare div {
+      padding: 0;
+    }
+    div.sonicare {
+      padding: 0;
+    }
+    .sonicare br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .sonicare{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .sonicare img{
+      width: 100%;
+      display: block;
+    }
+
+
+    .sonicare .keratin_styler_mobile .keratin_styler_text{
+       background: linear-gradient(126.41deg, rgb(74, 22, 87) 7.368%,rgb(124, 0, 98) 78.063%);
+       display: grid;
+       gap: 24px;
+        padding: 0 40px 24px 16px;
+    }
+    .sonicare .keratin_styler_mobile .keratin_styler_text p{
+        color: #fff;
+    } 
+    .sonicare .keratin_styler_mobile #keratin_styler_philips{
+        width: 66px;
+    }
+    .sonicare .keratin_styler_deckt{
+        display: none;
+    }
+
+
+    @media screen and (min-width:666px) {
+        body{
+            padding: 0 24px;
+        }
+        .sonicare .keratin_styler_mobile{
+            display: none;
+        }
+        .sonicare .keratin_styler_deckt{
+            display: block;
+        }
+        
+    }
+
+
+
+    .sonicare  .main_features{
+        padding: 40px 16px 0;
+    }
+    @media screen and (min-width:666px) {
+        .sonicare  .main_features{
+            padding: 40px 32px 0;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .sonicare  .main_features{
+            padding: 40px 40px 0;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .sonicare  .main_features{
+            padding: 60px 166px 0;
+        }
+    }
+
+.sonicare .main_pazzle{
+    padding: 24px 16px 40px;
+    display: grid;
+    gap: 18px;
+}
+.sonicare .main_pazzle .pazzle_item{
+    display: grid;
+    gap: 24px;
+}
+.sonicare .main_pazzle .pazzle_item_text{
+    display: grid;
+    gap: 14px;
+}
+
+
+
+    @media screen and (min-width:666px) {
+        .sonicare .description{
+            font-size: 16px;
+        }
+        .sonicare .title{
+            font-size: 20px;
+        }
+        .sonicare .main_pazzle{
+            grid-template-columns: repeat(2,1fr);
+            align-items: start;
+            gap:40px 24px;
+            padding: 40px 32px;
+        }
+        .sonicare .main_pazzle  img{
+            border-radius: 6px;
+        }
+
+        .sonicare .main_pazzle .pazzle_item_text {
+            grid-row-start: 2;
+
+        }
+
+    }
+
+    @media screen and (min-width:1024px) {
+        .sonicare .description{
+            font-size: 18px;
+        }
+        .sonicare .title{
+            font-size: 24px;
+        }
+        .sonicare .main_pazzle{
+            padding: 40px;
+        }
+        .sonicare .main_pazzle  img{
+            border-radius: 8px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .sonicare .description{
+            font-size: 22px;
+        }
+        .sonicare .title{
+            font-size: 32px;
+        }
+        .sonicare .main_pazzle{
+            padding: 40px 167px 60px;
+        }
+        .sonicare .main_pazzle  img{
+            border-radius: 10px;
+        }
+    }
+
+    /* comparative_table */
+
+
+    .sonicare .comparative_table{
+        display: none;
+    }
+
+
+
+    @media screen and (min-width:666px) {
+        .sonicare .comparative_table{
+            display: grid;
+            padding: 40px 0;
+            grid-template-columns: repeat(5,1fr);
+            align-items: stretch;
+            text-align: center;
+            gap: 8px;
+        }
+
+        .sonicare .comparative_table .item_tablet{
+            display: grid;
+            align-items: center;
+            border-bottom: 1px solid rgb(209, 209, 209);
+            padding: 8px 12px;
+        }
+        .sonicare .comparative_table .description{
+            font-size: 12px;
+        }
+
+        .sonicare .comparative_table .title_tablet{
+            text-align: left; 
+            font-weight: 500; 
+        }
+
+        .sonicare .comparative_table .title_tablet:first-child {
+            align-items: start;
+            border-bottom: none;
+        }
+        .sonicare .comparative_table .item_tablet:nth-child(2), 
+        .sonicare .comparative_table .item_tablet:nth-child(3), 
+        .sonicare .comparative_table .item_tablet:nth-child(4), 
+        .sonicare .comparative_table .item_tablet:nth-child(5),
+        .sonicare .comparative_table .item_tablet:nth-child(61),
+        .sonicare .comparative_table .item_tablet:nth-child(62),
+        .sonicare .comparative_table .item_tablet:nth-child(63),
+        .sonicare .comparative_table .item_tablet:nth-child(64),
+        .sonicare .comparative_table .item_tablet:nth-child(65){
+                 border-bottom: none;
+        }
+
+
+    }
+
+    @media screen and (min-width:1024px) {
+        .sonicare .comparative_table .item_tablet .title_description {
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .sonicare .comparative_table{
+            padding:60px 0;
+        }
+        .sonicare .comparative_table .description{
+            font-size: 18px;
+        }
+        .sonicare .comparative_table .item_tablet .title_description {
+            font-size: 22px;
+        }
+    }

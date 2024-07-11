@@ -1,0 +1,795 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+  }
+  .AC085011 img {
+    margin: 0;
+  }
+  .AC085011 p {
+    padding: 0;
+    margin: 0;
+     color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    line-height: 130%;
+
+  }
+
+  .AC085011 h3{
+    color: #000;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 14px;
+  }
+
+  .AC085011 ul {
+    list-style: disc;
+    margin: 0;
+  }
+  .AC085011 ul li {
+    line-height: normal;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    line-height: 140%;
+  }
+  .AC085011 {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .AC085011 ul {
+    padding: 0;
+    padding-left: 16px;
+  }
+  .AC085011 ul li {
+    padding: 0;
+  }
+  .AC085011 div {
+    padding: 0;
+  }
+  div.AC085011 {
+    padding: 0;
+  }
+  .AC085011 br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+
+  .AC085011 {
+    max-width: 1366px;
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
+
+  .AC085011 img{
+    width: 100%;
+    max-width: 200%;
+    display: block;
+  }
+
+/* Flip_Juice */
+
+.AC085011 .Flip_Juice{
+    display: grid;
+    gap: 24px;
+}   
+
+.AC085011 .Flip_Juice .Flip_Juice_text{
+    padding: 40px 38px 0;
+    text-align: center;
+}
+
+.AC085011 .Flip_Juice .Flip_Juice_text p{
+    padding: 0 8px;
+}
+
+.AC085011 .Flip_Juice .Flip_Juice_img{
+    position: relative;
+}
+.AC085011 .Flip_Juice .Flip_Juice_img .logo_hr377{
+    position: absolute;
+    top: 0;
+    left: 16px;
+    width: 60px;
+}
+
+
+@media screen and (min-width:666px){
+
+
+    .AC085011 .Flip_Juice .Flip_Juice_text{
+        padding: 40px 100px 0;
+    }
+    .AC085011 p {
+        font-size: 16px;
+        line-height: 150%;
+
+    }
+    .AC085011 h3{
+        font-size: 20px;
+    }
+    .AC085011 .Flip_Juice .Flip_Juice_text p{
+        font-size: 18px;  
+    
+    }
+    .AC085011 .Flip_Juice .Flip_Juice_text h3{
+        font-size: 24px;  
+    }
+    .AC085011 .Flip_Juice .Flip_Juice_img .logo_hr377{
+        left: 32px;
+        width: 89px;
+    }
+    .AC085011 ul li {
+        font-size: 16px;
+    }
+    
+     
+}
+
+@media screen and (min-width:1024px){
+    .AC085011 p {
+        font-size: 18px;
+    }
+    .AC085011 h3{
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+
+    .AC085011 .Flip_Juice .Flip_Juice_text p{
+        font-size: 24px;  
+    }
+    .AC085011 .Flip_Juice{
+        gap: 40px;
+    }
+    .AC085011 .Flip_Juice .Flip_Juice_text h3{
+        font-size: 26px;  
+    }
+    .AC085011 .Flip_Juice .Flip_Juice_img .logo_hr377{
+        left: 40px;
+        width: 129px;
+    }
+    .AC085011 ul li {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1366px){
+    .AC085011 p {
+        font-size: 22px;
+    }
+    .AC085011 ul li {
+        font-size:22px;
+        font-weight: 150%;
+    }
+    .AC085011 h3{
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+
+    .AC085011 .Flip_Juice .Flip_Juice_text p{
+        font-size: 32px;  
+    }
+    .AC085011 .Flip_Juice{
+        gap: 40px;
+    }
+    .AC085011 .Flip_Juice .Flip_Juice_text h3{
+        font-size: 36px;  
+        margin-bottom: 16px;
+    }
+
+    .AC085011 .Flip_Juice .Flip_Juice_text{
+        padding: 60px 272px 0;
+    }
+    .AC085011 .Flip_Juice{
+        gap: 60px;
+    }
+    .AC085011 .Flip_Juice .Flip_Juice_img .logo_hr377{
+        left: 60px;
+        width: 188px;
+    }
+}
+
+
+/* squeeze_juice */
+
+.AC085011 .squeeze_juice{
+    display: grid;
+    gap: 24px;
+    padding: 40px 16px 0;
+
+}
+
+
+@media screen and (min-width:666px){
+    .AC085011 .squeeze_juice{
+        padding: 32px 30px 0;
+        grid-template-columns: repeat(2,1fr);
+        gap: 24px;
+        align-items: center;
+    }
+    .AC085011 .squeeze_juice .squeeze_juice_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    
+
+}
+@media screen and (min-width:1024px){
+    .AC085011 .squeeze_juice{
+        gap: 32px;
+        padding: 40px 42px 0
+
+    }
+}
+@media screen and (min-width:1366px){
+    .AC085011 .squeeze_juice {
+        padding: 60px 166px 0
+    }
+    .AC085011 .squeeze_juice{
+        gap: 40px;
+    }
+    .AC085011 .squeeze_juice .squeeze_juice_text{
+        padding-right: 20px;
+    }
+}
+/* juices_and_juices */
+
+.AC085011 .juices_and_juices{
+    padding: 40px 16px 0;
+    display: grid;
+    gap: 24px;
+}
+
+
+@media screen and (min-width:666px){
+
+    .AC085011 .juices_and_juices{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 32px 30px 0;
+        text-align: left;
+    }
+
+
+}
+
+
+@media screen and (min-width:1024px){
+    .AC085011 .juices_and_juices{
+        padding: 40px 42px 0;
+        gap: 32px;
+    }
+
+
+}
+
+@media screen and (min-width:1366px){
+    .AC085011 .juices_and_juices{
+        padding: 60px 166px 0 177px;
+        gap: 40px;
+    }
+
+
+}
+
+
+
+/* NutriU */
+
+.AC085011 .NutriU{
+    padding: 40px 16px 0;
+    display: grid;
+    gap:24px;
+
+}
+
+@media screen and (min-width:666px){
+    .AC085011 .NutriU{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 32px 30px 0;
+        text-align: left;
+
+    }
+    .AC085011 .NutriU .NutriU_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+}
+
+@media screen and (min-width:1024px){
+
+    .AC085011 .NutriU{
+        padding: 40px 42px;
+        gap: 32px;
+    }
+
+}
+@media screen and (min-width:1366px){
+
+    .AC085011 .NutriU{
+        padding: 60px 166px;
+        gap: 40px;
+    }
+
+}
+
+
+/*  .ntensity_levels */
+
+.AC085011 .ntensity_levels{
+    padding: 40px 15px 0;
+    display: grid;
+    gap: 16px;
+}
+.AC085011 .ntensity_levels .ntensity_levels_blocks{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 40px auto;
+    align-items: flex-start;
+}
+.AC085011 .ntensity_levels .ntensity_levels_blocks img{
+    width: 40px;
+}
+
+
+@media screen and (min-width:666px){
+
+
+    .AC085011 .ntensity_levels{
+        padding: 32px 30px;
+        gap: 24px;
+    }
+    .AC085011 .ntensity_levels .ntensity_levels_blocks{
+        grid-template-columns: 60px auto;
+    }
+    .AC085011 .ntensity_levels .ntensity_levels_blocks img{
+        width: 60px;
+    }
+
+   
+
+}
+
+@media screen and (min-width:1024px){
+    .AC085011 .ntensity_levels{
+        padding: 40px 39px;
+        gap: 32px;
+
+    }
+    .AC085011 .ntensity_levels .ntensity_levels_blocks{
+        grid-template-columns: 80px auto;
+        gap: 24px;
+    }
+    .AC085011 .ntensity_levels .ntensity_levels_blocks img{
+        width: 80px;
+    }
+
+    
+}
+
+@media screen and (min-width:1366px){
+    .AC085011 .ntensity_levels{
+        padding: 60px 166px;
+        gap: 40px;
+
+    }
+    .AC085011 .ntensity_levels .ntensity_levels_blocks{
+        grid-template-columns: 120px auto;
+        gap: 40px;
+    }
+    .AC085011 .ntensity_levels .ntensity_levels_blocks img{
+        width: 120px;
+    }
+   
+
+}
+
+
+/* quick_selection */
+
+.AC085011 .quick_selection{
+    padding: 40px 16px 0;
+    display: grid;
+    gap:24px;
+} 
+@media screen and (min-width:666px){
+    .AC085011 .quick_selection{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 32px 30px 0;
+
+    }
+    .AC085011 .quick_selection .quick_selection_text {
+        grid-column-start: 1;
+        grid-row-start: 1;
+
+    }
+    
+
+
+}
+@media screen and (min-width:1024px){
+    .AC085011 .quick_selection{
+        padding: 40px 42px 0;
+        gap: 34px;
+    }
+}
+@media screen and (min-width:1366px){
+    .AC085011 .quick_selection{
+        padding: 60px 166px 0 166px;
+        gap: 40px;
+    }
+    .AC085011 .quick_selection .quick_selection_text {
+        padding-right: 12px;
+
+    }
+    
+}
+
+/* quick_cleaning */
+
+.AC085011 .quick_cleaning{
+    padding: 40px 16px 0;
+    display: grid;
+    gap:24px;
+}
+@media screen and (min-width:666px){
+    .AC085011 .quick_cleaning{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 32px 30px 0;
+
+    }
+    .AC085011 .quick_cleaning .quick_cleaning_text {
+        grid-column-start: 2;
+        grid-row-start: 1;
+
+    }
+
+}
+@media screen and (min-width:1024px){
+    .AC085011 .quick_cleaning{
+        padding: 40px 46px 0 42px;
+        gap: 32px;
+    }
+}
+
+@media screen and (min-width:1366px){
+    .AC085011 .quick_cleaning{
+        padding: 60px 166px 0;
+        gap: 40px;
+    }
+    .AC085011 .quick_cleaning .quick_cleaning_text{
+        padding-right: 20px;
+    }
+}
+
+/* dishwasher */
+
+
+.AC085011 .dishwasher{
+    padding: 40px 16px 0;
+    display: grid;
+    gap:24px;
+
+}
+@media screen and (min-width:666px){
+    .AC085011 .dishwasher{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 32px 30px 0;
+        gap:28px;
+
+
+    }
+    .AC085011 .dishwasher .dishwasher_text {
+        grid-column-start: 1;
+        grid-row-start: 1;
+
+    }
+}
+
+@media screen and (min-width:1024px){
+    .AC085011 .dishwasher{
+        padding: 40px 42px 0;
+        gap: 34px;
+    }
+}
+@media screen and (min-width:1366px){
+    .AC085011 .dishwasher{
+        padding: 60px 180px 0 166px;
+        gap: 40px;
+    }
+}
+
+
+/* large_capacity */
+
+
+.AC085011 .large_capacity{
+    padding: 40px 16px 0;
+    display: grid;
+    gap:24px;
+}
+@media screen and (min-width:666px){
+    .AC085011 .large_capacity{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 32px 30px 0;
+    }
+
+    .AC085011 .large_capacity .large_capacity_tex {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        padding-right: 3px;
+
+    }
+
+   
+
+
+    
+}
+@media screen and (min-width:1024px){
+    .AC085011 .large_capacity{
+        padding: 40px 42px 0;
+        gap: 34px;
+    }
+    .AC085011 .large_capacity .large_capacity_tex {
+        padding-right: 12px;
+    }
+}
+@media screen and (min-width:1366px){
+    .AC085011 .large_capacity{
+        padding: 60px 166px;
+        gap: 40px;
+    }
+
+}
+
+
+.AC085011 .choose_your{
+    display: grid;
+    padding: 40px 0px;
+}
+
+.AC085011 .choose_your .choose_your_test{
+    padding: 0 45px 24px;
+    text-align: center;
+
+}
+.AC085011 .choose_your .choose_your_test h3{
+    margin-bottom: 0;
+}
+
+.AC085011 .choose_your .choose_your_last{
+    padding: 40px 16px 0;
+}
+
+.AC085011 .choose_your .choose_your_last p{
+    font-size: 12px;
+}
+
+@media screen and (min-width:666px){
+    .AC085011 .choose_your .choose_your_test h3{
+        margin-bottom: 0;
+        font-size: 24px;
+    }
+    .AC085011 .choose_your .choose_your_last{
+        padding: 32px 30px 0;
+    }
+
+}
+@media screen and (min-width:1024px){
+    .AC085011 .choose_your{
+        padding: 40px 0px 60px;
+    }
+    .AC085011 .choose_your .choose_your_test{
+        padding-bottom: 40px;
+    }
+    .AC085011 .choose_your .choose_your_test h3{
+        margin-bottom: 0;
+        font-size: 26px;
+    }
+    .AC085011 .choose_your .choose_your_last{
+        padding: 40px 42px 0;
+    }
+    .AC085011 .choose_your .choose_your_last p{
+        font-size: 14px;
+    }
+
+}
+@media screen and (min-width:1366px){
+    .AC085011 .choose_your{
+        padding: 60px 0px 80px;
+
+    }
+
+    .AC085011 .choose_your .choose_your_test h3{
+        margin-bottom: 0;
+        font-size: 36px;
+    }
+    .AC085011 .choose_your .choose_your_test{
+        padding-bottom: 60px;
+    }
+    .AC085011 .choose_your .choose_your_last{
+        padding: 60px 166px 0;
+    }
+
+}
+/* ProBlend */
+.AC085011 .ProBlend {
+    padding: 32px 16px 0;
+    display: grid;
+    gap: 24px;
+    text-align: center;
+}
+
+.AC085011 .ProBlend .ProBlend_block .ProBlend_block_text h3{
+    margin-bottom: 0;
+}
+
+
+.AC085011 .ProBlend .ProBlend_block .ProBlend_block_text{
+    text-align: left;
+    display: grid;
+    gap: 14px;
+}
+.AC085011 .ProBlend .ProBlend_block {
+    display: grid;
+    gap: 16px;
+}
+
+.AC085011 .ProBlend .ProBlend_container{
+    display: grid;
+    gap: 24px;
+}
+
+@media screen and (min-width:666px){
+
+    .AC085011 .ProBlend {
+        padding: 32px 30px 0;
+    }
+    .AC085011 .ProBlend .ProBlend_text{
+        padding: 0 30px;
+    }
+    .AC085011 .ProBlend .ProBlend_container{
+        grid-template-columns: repeat(3,1fr);
+        align-items: flex-start;
+
+    }
+
+    .AC085011 .ProBlend .ProBlend_block img{
+        grid-row-start: 1;
+
+    }
+
+}
+
+@media screen and (min-width:1024px){
+    .AC085011 .ProBlend {
+        padding: 40px 42px 0;
+        gap: 32px;
+    }
+    .AC085011 .ProBlend .ProBlend_text{
+        padding: 0 80px;
+    }
+    .AC085011 .ProBlend .ProBlend_block{
+        gap: 24px;
+    }
+    .AC085011 .ProBlend .ProBlend_block .ProBlend_block_text h3{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width:1366px){
+
+    .AC085011 .ProBlend {
+        padding: 40px 166px 0;
+        gap: 40px;
+    }
+    .AC085011 .ProBlend .ProBlend_text{
+        padding: 0 117px;
+    }
+    .AC085011 .ProBlend .ProBlend_block .ProBlend_block_text{
+        gap: 12px;
+    }
+
+    .AC085011 .ProBlend .ProBlend_block .ProBlend_block_text h3{
+        margin-bottom: 14px;
+    }
+
+}
+
+
+/* NutriU */
+
+.AC085011 .NutriU{
+    padding: 32px 16px 32px;
+    display: grid;
+    gap:24px;
+    text-align: center;
+
+}
+
+@media screen and (min-width:666px){
+    .AC085011 .NutriU{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 32px 30px;
+        text-align: left;
+
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+
+    .AC085011 .NutriU{
+        padding: 40px 42px;
+        gap: 32px;
+    }
+
+}
+@media screen and (min-width:1366px){
+
+    .AC085011 .NutriU{
+        padding: 60px 166px;
+        gap: 40px;
+    }
+
+}
+
+
+.AC085011 .fonter_block{
+    display: grid;
+    padding: 40px 16px;
+}
+
+.AC085011 .fonter{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+@media screen and (min-width:666px){
+    .AC085011 .fonter_block{
+        padding: 32px 30px;
+
+    }
+}
+
+@media screen and (min-width:1024px){
+    .AC085011 .fonter{
+        font-size: 14px;
+    }
+    .AC085011 .fonter_block{
+        padding: 32px 42px;
+
+    }
+
+
+}
+
+@media screen and (min-width:1366px){
+    
+    .AC085011 .fonter_block{
+        padding: 60px 166px;
+
+    }
+
+
+}
+
+

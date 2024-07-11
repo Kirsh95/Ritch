@@ -1,0 +1,586 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+  }
+  .edge40 img {
+    margin: 0;
+  }
+  .edge40 p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+  }
+  
+.edge40 .foonter_text p{
+  color: white;
+  font-size: 12px;
+}
+  .edge40 h3{
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0;
+  }
+  .edge40 .find p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 8px;
+  }
+
+ 
+  .edge40 ul {
+    list-style: decimal;
+    margin: 0;
+  }
+  .edge40 ul li {
+    line-height: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: white;
+    line-height: 150%;
+    font-weight: 400;
+
+  }
+  .edge40 {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .edge40 ul {
+    padding: 0;
+    padding-left: 20px;
+
+  }
+  .edge40 ul li {
+    padding: 0;
+  }
+  .edge40 div {
+    padding: 0;
+  }
+  div.edge40 {
+    padding: 0;
+  }
+  .edge40 br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+.edge40 {
+    max-width: 1366px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.edge40 img{
+    display: block;
+    width: 100%;
+}
+
+
+
+
+/* style */
+.edge40 .style .find{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 12px;
+
+}
+.edge40 .style .find .inwez{
+    display: none;
+}
+
+
+.edge40 .style .details{
+    display: grid;
+    grid-template-columns: 82px auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    }
+
+.edge40 .style .details .details_text{
+    display: grid;
+    gap: 14px;
+
+}
+
+.edge40 .style .deck{
+  display: none;
+}
+
+@media screen and (min-width:666px) {
+  .edge40 .white_text{
+    color: white;
+  }
+
+  .edge40 .style .mibi{
+    display: none;
+  }
+  .edge40 .style .deck{
+    display: block;
+  }
+}
+
+
+/* rounded_design */
+
+
+.edge40 .rounded_design{
+  display: grid;
+  margin-top: 24px;
+  gap: 24px;
+  text-align: center;
+}
+.edge40 .rounded_design .rounded_design_text{
+  padding: 0 16px;
+  display: grid;
+    gap: 14px;
+}
+.edge40 .rounded_design img{
+  border-radius: 0 0 12px 12px;
+}
+
+@media screen and (min-width:666px) {
+  .edge40 .rounded_design{
+    grid-template-columns: repeat(2,1fr);
+    background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/724614/Layer%209.png?_t=1695132558");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 85px 40px;
+    border-radius: 12px;
+  }
+  .edge40 .rounded_design .rounded_design_text{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    align-items: center;
+    padding: 0 17px;
+    
+  }
+  .edge40 .rounded_design img{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width:1024px) {
+
+  .edge40 p {
+    font-size: 18px;
+  }
+  
+  .edge40 h3{
+    font-size: 20px;
+  }
+
+  .edge40 .rounded_design{
+    padding: 123px 40px 127px;
+
+  }
+  .edge40 .rounded_design .rounded_design_text{
+    padding:0 30px;
+    gap: 24px;
+  }
+
+}
+
+@media screen and (min-width:1366px) {
+
+  .edge40 p {
+    font-size: 20px;
+  }
+  
+  .edge40 h3{
+    font-size: 28px;
+  }
+
+  .edge40 .rounded_design{
+    padding: 212px 60px;
+
+  }
+  .edge40 .rounded_design .rounded_design_text{
+    padding:0 50px;
+    gap: 24px;
+  }
+
+}
+
+
+/* camera */
+
+
+.edge40 .camera{
+  display: grid;
+  gap: 24px;
+  padding: 24px 0;
+  text-align: center;
+
+}
+
+.edge40 .camera .camera_text{
+  padding: 0 16px;
+  display: grid;
+  gap: 14px;
+}
+
+.edge40 .camera img{
+  border-radius: 0 0 12px 12px;
+}
+
+@media screen and (min-width:666px) {
+  .edge40 .camera{
+    grid-template-columns: repeat(2,1fr);
+    gap: 0;
+    padding: 24px 0;
+    align-items: center;
+  }
+  .edge40 .camera .camera_text{
+    padding: 0 45px 0 40px; 
+  }
+  .edge40 .camera img{
+    border-radius: 0 12px 12px 0;
+  }
+
+}
+
+@media screen and (min-width:1024px) {
+
+  .edge40 .camera .camera_text{
+    padding: 0 61px 0 60px; 
+  }
+
+}
+@media screen and (min-width:1366px) {
+
+  .edge40 .camera .camera_text{
+    padding: 0 118px 0 60px; 
+  }
+}
+
+
+/* frameless_display */
+
+
+.edge40 .frameless_display{
+  display: grid;
+  gap: 24px;
+  text-align: center;
+}
+
+.edge40 .frameless_display .frameless_display_text{
+  padding: 0 16px;
+  display: grid;
+  gap: 14px;
+
+}
+
+.edge40 .frameless_display .frameless_display_text_bottom{
+  display: none;
+}
+.edge40 .frameless_display img{
+  border-radius: 0 0 12px 12px;
+}
+
+@media screen and (min-width:666px) {
+  .edge40 .frameless_display{
+    border-radius: 12px;
+    padding: 32px 60px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/724614/Layer%2010.png?_t=1695132559");
+  }
+  .edge40 .frameless_display img{
+     display: none;
+  }
+
+  .edge40 .frameless_display .frameless_display_text{
+    gap:185px ;
+  }
+}
+
+@media screen and (min-width:1024px) {
+
+.edge40 .frameless_display .frameless_display_text{
+    gap:290px ;
+    padding: 0;
+  }
+  .edge40 .frameless_display{
+    padding: 60px 88px;
+  }
+}
+
+@media screen and (min-width:1366px) {
+
+.edge40 .frameless_display .frameless_display_text{
+    gap:350px ;
+    padding: 0 25pxs;
+  }
+  .edge40 .frameless_display{
+    padding: 80px 225px;
+  }
+}
+
+
+/* charge_per_day */
+
+
+.edge40 .charge_per_day{
+  border-radius: 12px;
+  margin-top: 24px;
+  text-align: center;
+  padding: 32px 0;
+  background: radial-gradient(135.09% 100% at 50% 100%, #007B9F 0%, #01112A 100%);    ;
+}
+
+.edge40 .charge_per_day .white_text{
+  color: white;
+}
+
+.edge40 .charge_per_day .charge_per_day_text{
+  padding: 0 16px;
+  display: grid;
+  gap: 14px
+}
+
+
+@media screen and (min-width:666px) {
+  .edge40 .charge_per_day{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 0;
+  }
+  .edge40 .charge_per_day .charge_per_day_text{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding: 0 40px 0 45px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+
+  .edge40 .charge_per_day .charge_per_day_text{
+    padding: 0 60px 0 61px;
+  }
+}
+@media screen and (min-width:1366px) {
+
+  .edge40 .charge_per_day .charge_per_day_text{
+    padding: 0 60px 0 118px;
+  }
+}
+
+
+/* left */
+
+
+.edge40 .left,
+.edge40 .right{
+  padding: 20px 0 0;
+  text-align: center;
+  display: grid;
+  gap :20px;
+}
+.edge40 .right br{
+  display: none;
+}
+
+.edge40 .left .left_text,
+.edge40 .right .right_text
+{
+  padding: 0 16px ;
+  display: grid;
+  gap: 14px;
+}
+
+.edge40 .left img,
+.edge40 .right img{
+  border-radius: 0 0 12px 12px;
+}
+
+@media screen and (min-width:666px) {
+  .edge40 .left,
+  .edge40 .right{
+    grid-template-columns: repeat(2,1fr);
+    gap: 0;
+    align-items: center;
+  }
+ 
+
+  .edge40 .left .left_text{
+    padding: 0 47px 0 40px ;
+  }
+
+  .edge40 .right .right_text{
+    grid-column-start:2;
+    grid-row-start: 1;
+    padding: 0 40px 0 45px ;
+  }
+
+
+  .edge40 .left img{
+    border-radius: 0 12px 12px 0;
+
+  }
+  .edge40 .right img{
+    border-radius:12px 0 0 12px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .edge40 .left .left_text{
+    padding: 0 61px 0 60px ;
+  }
+
+  .edge40 .right br{
+    display: block;
+  }
+
+  .edge40 .right .right_text{
+    padding: 0 60px 0 61px ;
+  }
+
+
+}
+
+@media screen and (min-width:1366px) {
+  .edge40 .left .left_text{
+    padding: 0 118px 0 60px ;
+  }
+
+  .edge40 .right .right_text{
+    padding: 0 60px 0 118px ;
+  }
+
+
+}
+
+
+/* pure_android */
+  .edge40 .pure_android{
+    padding: 24px 0 0;
+    margin-top:24px;
+    border-radius: 12px;
+    display: grid;
+    text-align: center;
+    gap: 16px;
+    background: radial-gradient(93.24% 75.94% at 50% 75.94%, #0091B6 0%, #001428 100%);
+  }
+  .edge40 .pure_android .pure_android_text{
+    padding: 0 16px;
+    display: grid;
+    gap: 14px;
+  }
+  .edge40 .pure_android .white_text{
+    color: white;
+  }
+
+
+@media screen and (min-width:666px) {
+
+  .edge40 .pure_android{
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 0;
+    gap: 0;
+  }
+  .edge40 .pure_android .pure_android_text{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding: 0 40px 0 45px;
+  }
+
+}
+  
+@media screen and (min-width:1024px) {
+  .edge40 .pure_android .pure_android_text{
+    padding: 0 60px 0 61px;
+  }
+
+}
+
+@media screen and (min-width:1366px) {
+  .edge40 .pure_android .pure_android_text{
+    padding: 0 60px 0 118px;
+  }
+
+}
+
+
+
+/* foonter */
+
+.edge40 .foonter{
+  padding: 32px 16px 40px;
+  margin-top: 24px;
+  display: grid;
+  gap: 20px;
+  border-radius: 12px 12px 0 0;
+  background: radial-gradient(115.73% 100.42% at 40.78% 0%, #007B9F 0%, #01112A 100%);
+}
+
+.edge40 .foonter .foonter_text{
+  display: grid;
+  gap: 20px;
+}
+
+
+@media screen and (min-width:666px) {
+
+  .edge40 .foonter{
+    padding: 32px 75px 44px;
+
+  }
+
+  .edge40 .foonter .foonter_text{
+    padding: 0 21px;
+  }
+
+}
+@media screen and (min-width:1024px) {
+
+  .edge40 .foonter{
+    padding: 48px 109px 60px;
+    gap: 28px;
+  }
+
+  .edge40 .foonter .foonter_text{
+    padding: 0 75px;
+    gap: 28px;
+  }
+
+}
+
+@media screen and (min-width:1366px) {
+
+  .edge40 .foonter{
+    padding: 60px 142px 80px;
+    gap: 40px;
+  }
+
+  .edge40 .foonter .foonter_text{
+    padding: 0 25px;
+    gap: 40px;
+  }
+  .edge40 .foonter_text p{
+    font-size: 14px;
+  }
+  .edge40 ul li {
+    font-size: 14px;
+  }
+
+}

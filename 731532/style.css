@@ -1,0 +1,829 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .XC8057 img {
+      margin: 0;
+    }
+    .XC8057 p {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .XC8057 h3 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .XC8057 h2 {
+      color: #327896;
+      font-family: 'Roboto',sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .XC8057 ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .XC8057 ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .XC8057 {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .XC8057 ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .XC8057 ul li {
+      padding: 0;
+    }
+    .XC8057 div {
+      padding: 0;
+    }
+    div.XC8057 {
+      padding: 0;
+    }
+    .XC8057 br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .XC8057{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .XC8057 img{
+      width: 100%;
+      display: block;
+    }
+    .XC8057 .styler{
+      display: grid;
+      position: relative;
+      text-align: center;
+    }
+    .XC8057 .styler .styler_text{
+      padding: 40px 40px 10px;
+    }
+    .XC8057 .styler .styler_text h3{
+      font-size: 16px;
+      padding: 0 16px;
+    }
+    .XC8057 .styler .styler_text h2{
+        font-size: 24px;
+    }
+
+    .XC8057 .styler .styler_img{
+      position: relative;
+    }
+    .XC8057 .styler .styler_img .logo_philips{
+      position: absolute;
+      top: 0;
+      left: 16px;
+      width: 60px;
+    }
+    .XC8057 .styler .styler_img .turbo{
+        display: none;
+      }
+
+
+
+    @media screen and (min-width:666px) {
+
+        body{padding: 0 24px;}
+
+      .XC8057 .styler .styler_text h2{
+        font-size: 24px;
+        padding: 0 120px;
+      }
+      .XC8057 .styler .styler_text{
+        padding: 40px 40px 10px;
+      }
+      .XC8057 .styler .styler_text h3{
+        font-size: 16px;
+      }
+      .XC8057 .styler .styler_img .logo_philips{
+        width: 89px;
+        left: 32px;
+      }
+      .XC8057 p{
+        font-size: 16px;
+      }
+      .XC8057 ul li {
+        font-size: 16px;
+      }
+      .XC8057 h3 {
+        font-size: 20px;
+      }
+      .XC8057 .styler .styler_img .turbo{
+        position: absolute;
+        display: block;
+        bottom: 66px;
+        left: 66px;
+        width: 80px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .XC8057 h2{
+        font-size: 32px;
+      }
+      .XC8057 .styler .styler_text h2{
+        font-size:32px;
+        padding: 0 180px;
+      }
+      .XC8057 .styler .styler_text h3{
+        font-size: 32px;
+        padding: 0;
+      }
+      .XC8057 .styler .styler_text{
+        padding: 40px 0;
+      }
+      .XC8057 .styler .styler_img .logo_philips{
+        width: 129px;
+        left: 40px;
+      }
+      .XC8057 p{
+        font-size: 18px;
+      }
+      .XC8057 h3 {
+        font-size: 24px;
+      }
+      .XC8057 ul li {
+        font-size: 18px;
+      }
+      .XC8057 .styler .styler_img .turbo{  
+        bottom: 66px;
+        left: 78px;
+        width: 140px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .XC8057 h2{
+        font-size: 48px;
+      }
+      .XC8057 .styler .styler_text h2{
+        font-size:48px;
+        padding: 0 200px;
+      }
+      .XC8057 .styler .styler_text h3{
+        font-size: 32px;
+      }
+      .XC8057 .styler .styler_img .logo_philips{
+        width: 241px;
+        left: 60px;
+      }
+      .XC8057 p{
+        font-size: 22px;
+      }
+      .XC8057 h3 {
+        font-size: 32px;
+        margin-bottom: 24px;
+      }
+      .XC8057 ul li {
+        font-size: 22px;
+      }
+      .XC8057 .styler .styler_text{
+        padding: 60px 16px 60px;
+      }
+      .XC8057 .styler .styler_img .turbo{  
+        bottom: 80px;
+        left: 117px;
+        width: 212px;
+      }
+    }
+
+    /* choice_accessories */
+
+    .XC8057 .choice_accessories .choice_accessories_text{ 
+        padding: 24px 35px;
+        text-align: center;
+    }
+    .XC8057 .choice_accessories .choice_accessories_text h2{
+        margin-bottom: 0;   
+    }
+
+    @media screen and (min-width:666px) {
+        .XC8057 .choice_accessories .choice_accessories_text{ 
+            padding: 40px 70px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .XC8057 .choice_accessories .choice_accessories_text{ 
+            padding: 40px 105px;
+            
+        }
+    }
+
+
+
+
+    /* main_characteristics */
+    .XC8057 .main_characteristics{
+      padding: 40px 16px;
+    }
+    .XC8057 .main_characteristics h3{
+      text-align: center;
+    }
+    .XC8057 .main_characteristics .main_charact_block{
+      display: grid;
+      gap: 16px;
+    }
+    .XC8057 .main_characteristics .item_charact{
+      display: grid;
+      grid-template-columns: 40px auto;
+      gap: 16px;
+      align-items: center;
+    }
+    .XC8057 .main_characteristics .item_charact p{
+      font-weight: 500;
+      font-size: 18px;
+    }
+    .XC8057 .main_characteristics .item_charact img{
+      width: 40px;
+    }
+    @media screen and (min-width:666px) {
+      .XC8057 .main_characteristics{
+        padding: 32px ;
+      }
+      .XC8057 .main_characteristics .item_charact img{
+        width: 60px;
+      }
+      .XC8057 .main_characteristics .item_charact{
+        grid-template-columns: 60px auto;
+        gap: 24px;
+      }
+      .XC8057 .main_characteristics .item_charact p{
+        font-size: 20px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .XC8057 .main_characteristics{
+        padding: 40px ;
+      }
+      .XC8057 .main_characteristics .item_charact img{
+        width: 80px;
+      }
+      .XC8057 .main_characteristics .item_charact{
+        grid-template-columns: 80px auto;
+      }
+      .XC8057 .main_characteristics .item_charact p{
+        font-size: 24px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .XC8057 .main_characteristics{
+        padding: 60px 166px ;
+      }
+      .XC8057 .main_characteristics .item_charact img{
+        width: 120px;
+      }
+      .XC8057 .main_characteristics .item_charact{
+        grid-template-columns: 120px auto;
+        gap: 40px;
+      }
+      .XC8057 .main_characteristics .item_charact p{
+        font-size: 32px;
+      }
+      .XC8057 .main_characteristics .main_charact_block{
+        gap: 40px;
+      }
+      .XC8057 .adapt{
+        padding: 0 380px;
+      }
+    }
+    /* SenseIQ_left */
+    .XC8057 .SenseIQ_left{
+      padding:0 16px 40px ;
+      display: grid;
+      gap: 24px;
+    }
+    .XC8057 .SenseIQ_left img{
+      border-radius: 10px;
+    }
+    @media screen and (min-width:666px) {
+      .XC8057 .SenseIQ_left{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        align-items: center;
+        padding:32px 32px 0;
+      }
+      .XC8057 .SenseIQ_left .SenseIQ_left_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .XC8057 .SenseIQ_left{
+        gap: 0px;
+        padding:0px 60px 0;
+      }
+      .XC8057 .SenseIQ_left .SenseIQ_left_text{
+        padding-left: 60px;
+      }
+
+    }
+    @media screen and (min-width:1366px) {
+      .XC8057 .SenseIQ_left{
+        gap: 0px;
+        padding:10px 60px 0;
+      }
+      .XC8057 .SenseIQ_left .SenseIQ_left_text{
+        padding-left: 60px
+      }
+    }
+    /* SenseIQ_right */
+    .XC8057 .SenseIQ_right{
+      padding:0 16px 40px ;
+      display: grid;
+      gap: 24px;
+    }
+    .XC8057 .SenseIQ_right img{
+      border-radius: 10px;
+    }
+    @media screen and (min-width:666px) {
+      .XC8057 .SenseIQ_right{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        align-items: center;
+        padding: 32px 32px 0;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .XC8057 .SenseIQ_right{
+        gap: 0px;
+        padding: 0px 60px 0;
+      }
+      .XC8057 .SenseIQ_right .SenseIQ_right_text{
+        padding-right: 60px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .XC8057 .SenseIQ_right{
+        padding: 20px 60px 0;
+      }
+      .XC8057 .SenseIQ_right .SenseIQ_right_text{
+        padding-right: 60px;
+      }
+    }
+    /* improved_care */
+    .XC8057 .improved_care .improved_care_text{
+      padding: 40px 16px 10px;
+      text-align: center;
+    }
+    .XC8057 .improved_care .improved_care_text h3{
+      padding: 0 20px;
+    }
+    .XC8057 .thermal_insulation{
+      padding-bottom: 40px;
+    }
+    @media screen and (min-width:666px) {
+      .XC8057 .improved_care .improved_care_text{
+        padding: 40px 50px 32px;
+      }
+      .XC8057 .improved_care .improved_care_text h2{
+        padding: 0 50px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .XC8057 .improved_care .improved_care_text{
+        padding: 40px 150px ;
+      }
+      .XC8057 .improved_care .improved_care_text h2{
+        padding: 0 30px;
+      }
+      .XC8057 .thermal_insulation{
+        padding-bottom: 0;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .XC8057 .improved_care .improved_care_text{
+        padding: 120px 266px 60px;
+      }
+      .XC8057 .improved_care .improved_care_text h2{
+        padding: 0 50px;
+        margin-bottom: 16px;
+      }
+      .XC8057 .thermal_insulation{
+        padding-bottom: 0;
+      }
+    }
+    /* SenseIQ_technology */
+    .XC8057 .SenseIQ_technology{
+      padding: 40px 16px 0;
+    }
+    .XC8057 .SenseIQ_technology img{
+      border-radius: 10px;
+    }
+    .XC8057 .SenseIQ_technology .SenseIQ_technology_block{
+      display: grid;
+      text-align: left;
+    }
+    .XC8057 .SenseIQ_technology .SenseIQ_technology_items{
+      display: grid;
+      gap: 16px;
+    }
+    .XC8057 .SenseIQ_technology .SenseIQ_technology_block{
+      display: grid;
+      gap: 24px;
+    }
+    @media screen and (min-width:666px) {
+      .XC8057 .SenseIQ_technology{
+        padding: 32px 32px 0;
+        display: grid;
+        gap: 10px;
+      }
+      .XC8057 .SenseIQ_technology .SenseIQ_technology_block{
+        grid-template-columns: repeat(3, 1fr);
+        align-items: start;
+      }
+      .XC8057 .SenseIQ_technology .SenseIQ_items{
+        grid-row-start: 2;
+      }
+      .XC8057 .SenseIQ_technology .SenseIQ_technology_items{
+        gap: 24px;
+      }
+      .XC8057 .SenseIQ_technology .SenseIQ_items h3{
+        margin-bottom: 10px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .XC8057 .SenseIQ_technology{
+        padding: 40px 40px 0;
+        gap: 24px;
+      }
+      .XC8057 .SenseIQ_technology .SenseIQ_items h3{
+        margin-bottom: 12px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .XC8057 .SenseIQ_technology{
+        padding: 60px 166px 0;
+        gap: 24px;
+      }
+      .XC8057 .SenseIQ_technology .SenseIQ_items h3{
+        margin-bottom: 12px;
+      }
+      .XC8057 .SenseIQ_technology h2{
+        padding: 0 200px;
+        margin-bottom: 40px;
+      }
+    }
+    /* SenseIQ_line */
+    .XC8057 .SenseIQ_line .SenseIQ_line_text{
+      padding: 0 16px;
+      text-align: center;
+    }
+    .XC8057 .SenseIQ_line .product_line{
+      position: relative;
+    }
+    .XC8057 .SenseIQ_line .styler_block{
+      display: flex;
+      width: 100%;
+      text-align: center;
+      justify-content: space-around;
+      position: absolute;
+      bottom: 0 ;
+      background: #ffffff26;
+      backdrop-filter: blur(6px);
+      padding: 6px;
+    }
+    .XC8057 .SenseIQ_line .styler_block p{
+      color: #ffff;
+    }
+    .XC8057 .SenseIQ_line .styler_item_big{
+      font-weight: 500;
+    }
+    @media screen and (min-width:666px) {
+      .XC8057 .SenseIQ_line .SenseIQ_line_text{
+        padding: 32px 32px 0;
+      }
+      .XC8057 .SenseIQ_line .styler_block p{
+        font-size: 20px;
+      }
+      .XC8057 .SenseIQ_line .styler_block{
+        padding: 12px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .XC8057 .SenseIQ_line .SenseIQ_line_text{
+        padding: 40px 32px 32px;
+      }
+      .XC8057 .SenseIQ_line .styler_block p{
+        font-size: 24px;
+      }
+      .XC8057 .SenseIQ_line .styler_block{
+        padding: 18px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .XC8057 .SenseIQ_line .SenseIQ_line_text{
+        padding: 60px 450px 60px;
+      }
+      .XC8057 .SenseIQ_line .styler_block p{
+        font-size: 32px;
+      }
+      .XC8057 .SenseIQ_line .styler_block{
+        padding: 24px;
+      }
+    }
+    /* models */
+    .XC8057 .models{
+      display: none;
+    }
+    @media screen and (min-width:666px) {
+      .XC8057 .models{
+        display: block;
+        padding: 40px 32px 0;
+      }
+      .XC8057 .models .models_block{
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 
+          "block1 block2 "
+          "block3 block4"
+          "block5 block5 "
+          "block6 block7 "
+          "block8 block8 "
+          "block9 block10 "
+          "block11 block11 "
+          "block12 block13 "
+          "block14 block14 "
+          "block15 block16 "
+          "block17 block17 "
+          "block18 block19 "
+          "block20 block20 "
+          "block21 block22 "
+          "block23 block23 "
+          "block24 block25 "
+          "block26 block26 "
+          "block27 block28 "
+          "block29 block29 "
+          "block30 block31 "
+          "block32 block32 "
+          "block33 block34 "
+          "block35 block35"
+          "block36 block37 "
+          "block38 block38 "
+          "block39 block40 "
+          "block41 block41 "
+          "block42 block43 "
+          "block44 block44 "
+          "block45 block46 "
+          ;
+      }
+      .XC8057 .models .models_block img{
+        width: 148px;
+        margin: 0 auto;
+      }
+      .XC8057 .models .models_block .items1{
+        grid-area: block1;
+      }
+      .XC8057 .models .models_block .items2{
+        grid-area: block2;
+      }
+      .XC8057 .models .models_block .items3{
+        grid-area: block3;
+      }
+      .XC8057 .models .models_block .items4{
+        grid-area: block4;
+      }
+      .XC8057 .models .models_block .items5{
+        grid-area: block5;
+      }
+      .XC8057 .models .models_block .items6{
+        grid-area: block6;
+      }
+      .XC8057 .models .models_block .items7{
+        grid-area: block7;
+      }
+      .XC8057 .models .models_block .items8{
+        grid-area: block8;
+      }
+      .XC8057 .models .models_block .items9{
+        grid-area: block9;
+      }
+      .XC8057 .models .models_block .items10{
+        grid-area: block10;
+      }
+      .XC8057 .models .models_block .items11{
+        grid-area: block11;
+      }
+      .XC8057 .models .models_block .items12{
+        grid-area: block12;
+      }
+      .XC8057 .models .models_block .items13{
+        grid-area: block13;
+      }
+      .XC8057 .models .models_block .items14{
+        grid-area: block14;
+      }
+      .XC8057 .models .models_block .items15{
+        grid-area: block15;
+      }
+      .XC8057 .models .models_block .items16{
+        grid-area: block16;
+      }
+      .XC8057 .models .models_block .items17{
+        grid-area: block17;
+      }
+      .XC8057 .models .models_block .items18{
+        grid-area: block18;
+      }
+      .XC8057 .models .models_block .items19{
+        grid-area: block19;
+      }
+      .XC8057 .models .models_block .items20{
+        grid-area: block20;
+      }
+      .XC8057 .models .models_block .items21{
+        grid-area: block21;
+      }
+      .XC8057 .models .models_block .items22{
+        grid-area: block22;
+      }
+      .XC8057 .models .models_block .items23{
+        grid-area: block23;
+      }
+      .XC8057 .models .models_block .items24{
+        grid-area: block24;
+      }
+      .XC8057 .models .models_block .items25{
+        grid-area: block25;
+      }
+      .XC8057 .models .models_block .items26{
+        grid-area: block26;
+      }
+      .XC8057 .models .models_block .items27{
+        grid-area: block27;
+      }
+      .XC8057 .models .models_block .items28{
+        grid-area: block28;
+      }
+      .XC8057 .models .models_block .items29{
+        grid-area: block29;
+      }
+      .XC8057 .models .models_block .items30{
+        grid-area: block30;
+      }
+      .XC8057 .models .models_block .items31{
+        grid-area: block31;
+      }
+      .XC8057 .models .models_block .items32{
+        grid-area: block32;
+      }
+      .XC8057 .models .models_block .items33{
+        grid-area: block33;
+      }
+      .XC8057 .models .models_block .items34{
+        grid-area: block34;
+      }
+      .XC8057 .models .models_block .items35{
+        grid-area: block35;
+      }
+      .XC8057 .models .models_block .items36{
+        grid-area: block36;
+      }
+      .XC8057 .models .models_block .items37{
+        grid-area: block37;
+      }
+      .XC8057 .models .models_block .items38{
+        grid-area: block38;
+      }
+      .XC8057 .models .models_block .items39{
+        grid-area: block39;
+      }
+      .XC8057 .models .models_block .items40{
+        grid-area: block40;
+      }
+      .XC8057 .models .models_block .items41{
+        grid-area: block41;
+      }
+      .XC8057 .models .models_block .items42{
+        grid-area: block42;
+      }
+      .XC8057 .models .models_block .items43{
+        grid-area: block43;
+      }
+      .XC8057 .models .models_block .white_block_items{
+        padding: 12px 0;
+        font-size: 30px;
+      }
+      .XC8057 .models .models_block .grey_items{
+        padding: 8px 14px ;
+        background: #D9D9D9;
+        text-align: left;
+      }
+      .XC8057 .models .models_block p{
+        font-size: 14px;
+      }
+      .XC8057 .models .models_block .grey_items p{
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .XC8057 .models .models_block .model_text{
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .XC8057 .models{
+        display: block;
+        padding: 40px 40px 0;
+      }
+      .XC8057 .models .models_block img{
+        width: 204px;
+      }
+      .XC8057 .models .models_block .model_text{
+        font-size: 24px;
+      }
+      .XC8057 .models .models_block p{
+        font-size: 18px;
+      }
+      .XC8057 .models .models_block .grey_items p{
+        font-size: 22px;
+      }
+      .XC8057 .models .models_block .white_block_items{
+        padding: 16px 0;
+      }
+      .XC8057 .models .models_block .grey_items{
+        padding: 12px 18px ;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .XC8057 .models{
+        display: block;
+        padding: 60px 0px 0;
+      }
+      .XC8057 .models .models_block img{
+        width: 310px;
+      }
+      .XC8057 .models .models_block .model_text{
+        font-size: 26px;
+      }
+      .XC8057 .models .models_block p{
+        font-size: 24px;
+      }
+      .XC8057 .models .models_block .grey_items p{
+        font-size: 28px;
+      }
+      .XC8057 .models .models_block .white_block_items{
+        padding: 16px 0;
+      }
+      .XC8057 .models .models_block .grey_items{
+        padding: 18px 24px ;
+      }
+    }
+    /* footnote */
+    .XC8057 .footnote{
+      padding: 40px 16px;
+    }
+    .XC8057 .footnote p{
+      color: rgba(0, 0, 0, 0.60);
+      font-size: 12px;
+    }
+    @media screen and (min-width:666px) {
+      .XC8057 .footnote{
+        padding: 40px 32px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .XC8057 .footnote{
+        padding: 40px 40px;
+      }
+      .XC8057 .footnote p{
+        font-size: 14px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .XC8057 .footnote{
+        padding: 60px 166px;
+      }
+    }

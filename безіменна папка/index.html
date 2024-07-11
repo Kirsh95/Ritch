@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <style type="text/css">.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .series_nine img {
+      margin: 0;
+    }
+    .series_nine h2{
+      font-family: "Roboto",sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      margin: 0;
+      padding: 0;
+    }
+    .series_nine p {
+      padding: 0;
+      margin: 0;
+      font-family: "Roboto",sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%
+    }
+    .series_nine h3{
+      font-family: "Roboto",sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      margin: 0;
+      padding: 0;
+    }
+    .series_nine a{
+      font-family: "Roboto",sans-serif;
+      color: black;
+      text-decoration: none;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .series_nine ul {
+      list-style: none;
+      margin: 0;
+    }
+    .series_nine ul li {
+      line-height: normal;
+    }
+    .series_nine {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .series_nine ul {
+      padding: 0;
+    }
+    .series_nine ul li {
+      padding: 0;
+    }
+    .series_nine div {
+      padding: 0;
+    }
+    div.series_nine {
+      padding: 0;
+    }
+    .series_nine br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .series_nine{
+      max-width: 1366px;
+      overflow-x: hidden;
+      margin: 0 auto;
+    }
+    .series_nine img{
+      display: block;
+      width: 100%;
+    }
+    .series_nine .fifteen{
+      text-align: center;
+      padding-top: 40px;
+    }
+    .series_nine .fifteen .logo_iphone{
+      margin: 0 auto;
+      width: 160px;
+      margin-top: 8px;
+    }
+    .series_nine .fifteen .big_img_series{
+      padding: 30px 30px 20px;
+    }
+    .series_nine .fifteen .big_title{
+      font-weight: 400;
+      font-size: 29px;
+      /* color: #87878B; */
+    }
+    @media screen and (min-width:666px) {
+      .series_nine .fifteen .logo_iphone{
+        width: 200px;
+        margin-top: 12px;
+      }
+      .series_nine .fifteen .big_title{
+        font-size: 44px;
+      }
+      .series_nine .fifteen .big_img_series{
+        padding: 50px 50px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .series_nine .fifteen .logo_iphone{
+        width: 264px;
+        margin-top: 12px;
+      }
+      .series_nine .fifteen .big_title{
+        font-size: 64px;
+      }
+      .series_nine p {
+        font-size: 22px;
+      }
+      .series_nine h3{
+        font-size: 22px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .series_nine .fifteen .logo_iphone{
+        width: 370px;
+        margin-top: 18px;
+      }
+      .series_nine .fifteen .big_title{
+        font-size: 88px;
+      }
+      .series_nine .fifteen .big_img_series{
+        padding: 100px 60px 80px;
+      }
+    }
+    /* pre_order */
+    .series_nine .pre_order{
+      display: grid;
+      gap: 16px;
+      text-align: center;
+      padding: 20px 16px 0;
+    }
+    .series_nine .pre_order a{
+      border: 1px solid #86868b;
+      color:#86868b ;
+      border-radius: 80px;
+      padding: 10px 24px;
+      margin: 0 auto;
+      font-size: 22px;
+    }
+    .series_nine .pre_order h3{
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      color:#86868b ;
+    }
+    @media screen and (min-width:666px) {
+      .series_nine .pre_order{
+        gap: 24px;
+        padding: 40px 16px 0;
+      }
+      .series_nine .pre_order a{
+        padding: 16px 30px;
+        font-size: 36px;
+      }
+      .series_nine .pre_order h3{
+        font-size: 52px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .series_nine .pre_order a{
+        padding: 20px 36px;
+        font-size: 40px;
+      }
+      .series_nine .pre_order h3{
+        font-size: 52px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .series_nine .pre_order a{
+        padding: 24px 40px;
+      }
+    }
+    /* dynamic_Island */
+    .series_nine .dynamic_Island{
+      padding-top: 32px;
+      text-align: center;
+      display: grid;
+    }
+    .series_nine .dynamic_Island p{
+      font-size: 18px;
+    }
+    .series_nine .dynamic_Island .dynamic_Island_text{
+      padding: 0 14px;
+    }
+    @media screen and (min-width:666px) {
+      .series_nine .dynamic_Island{
+        padding-top: 60px;
+      }
+      .series_nine .dynamic_Island p{
+        font-size: 28px;
+      }
+      .series_nine .dynamic_Island .dynamic_Island_text{
+        padding: 0 22px;
+      }
+      .series_nine .dynamic_Island .watch_img{
+        padding: 0 160px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .series_nine .dynamic_Island p{
+        font-size: 36px;
+      }
+      .series_nine .dynamic_Island .dynamic_Island_text{
+        padding: 0 22px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .series_nine .dynamic_Island{
+        padding-top: 74px;
+      }
+      .series_nine .dynamic_Island .dynamic_Island_text{
+        padding: 0 80px;
+      }
+
+    }
+    /* .main_characteristics */
+    .series_nine .main_characteristics{
+      padding: 20px 16px 40px;
+      display: grid;
+      gap: 40px;
+    }
+    .series_nine .main_characteristics .main_block{
+      font-size: 23px;
+      font-weight: 700;
+    }
+    .series_nine .main_characteristics .main_characteristics_block_left,
+    .series_nine .main_characteristics .main_characteristics_block_rigth{
+      display: grid;
+      gap: 40px;
+      align-items:flex-start;
+    }
+    .series_nine .main_characteristics .main_characteristics_block_left .main_items,
+    .series_nine .main_characteristics .main_characteristics_block_rigth .main_items{
+      display: grid;
+      gap: 8px;
+      align-items: flex-start;
+    }
+    .series_nine .main_characteristics .main_characteristics_block{
+      display: grid;
+      gap: 40px;
+      align-items: flex-start;
+    }
+    .series_nine .watchs_img{
+      padding: 0 16px;
+    }
+    @media screen and (min-width:666px) {
+      .series_nine .watchs_img{
+        padding: 0 60px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .series_nine .watchs_img{
+        padding: 0 80px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .series_nine .watchs_img{
+        padding: 0 160px;
+      }
+    }
+    @media screen and (min-width:666px) {
+      .series_nine .main_characteristics .main_block{
+        font-size: 34px;
+        text-align: center;
+      }
+      .series_nine .main_characteristics{
+        padding: 0px 30px 40px;
+      }
+      .series_nine .main_characteristics .main_characteristics_block{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      }
+      .series_nine .main_characteristics .main_characteristics_block_left,
+      .series_nine .main_characteristics .main_characteristics_block_rigth{
+        gap: 40px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .series_nine .main_characteristics .main_block{
+        font-size: 48px;
+      }
+      .series_nine .main_characteristics{
+        padding: 80px 32px;
+        gap: 64px;
+      }
+      .series_nine .main_characteristics .main_characteristics_block{
+        gap: 153.55px;
+      }
+      .series_nine .main_characteristics .main_characteristics_block_left .main_items,
+      .series_nine .main_characteristics .main_characteristics_block_rigth .main_items{
+        gap: 16px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .series_nine .main_characteristics .main_block{
+        font-size: 64px;
+      }
+      .series_nine .main_characteristics{
+        padding: 100px 91px;
+      }
+      .series_nine .main_characteristics .main_characteristics_block{
+        gap: 207px;
+      }
+      .series_nine .main_characteristics .main_characteristics_block_left .main_items,
+      .series_nine .main_characteristics .main_characteristics_block_rigth .main_items{
+        gap: 16px;
+      }
+    }
+    /* legal_information */
+    .series_nine .legal_information{
+      display: grid;
+      gap:16px ;
+      padding: 40px 16px;
+    }
+    .series_nine .legal_information .legal_information_block{
+      gap: 16px;
+      display: grid;
+    }
+    .series_nine .legal_information .legal_information_block .legal_items{
+      gap: 16px;
+      display: grid;
+    }
+    .series_nine .legal_information .legal_information_block .legal_items .legal_item{
+      gap: 16px;
+      display: grid;
+      align-items: flex-start;
+    }
+    @media screen and (min-width:666px) {
+      .series_nine .legal_information{
+        padding: 40px 24px;
+      }
+      .series_nine .legal_information p,
+      .series_nine .legal_information h3{
+        font-size: 22px;
+      }
+      .series_nine .legal_information .legal_information_block{
+        gap: 40px;
+      }
+      .series_nine .legal_information .legal_information_block .last_items{
+        gap: 35px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: flex-start;
+      }
+      .series_nine .legal_information .legal_information_block .legal_items .legal_item{
+        gap: 24px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .series_nine .legal_information{
+        padding: 60px 40px 40px;
+      }
+      .series_nine .legal_information .legal_information_block{
+        gap: 40px;
+      }
+      .series_nine .legal_information .legal_information_block .last_items{
+        gap: 49px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .series_nine .legal_information{
+        padding: 80px 118px 40px;
+      }
+      .series_nine .legal_information .legal_information_block .last_items{
+        gap: 81px;
+      }
+      .series_nine .legal_information .legal_information_block .legal_items .legal_item{
+        padding-right: 45px;
+      }
+    }
+  </style>
+  <div class="series_nine">
+    <section class="fifteen"><img alt="" class="logo_iphone" src="https://i.citrus.world/uploads/content/product-photos/kirsh/729054/opt.r1815_K100_051223.webp?_t=1696581035" />
+      <div class="big_img_series"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/729054/opt.Apple_Watch_Ultra_2_Cellular_49mm_3-up_Hero_Horizontal_Screen__USEN.webp?_t=1696581035" />
+      </div>
+      <h3 class="big_title">Пригоди нового рівня.
+      </h3>
+    </section>
+    <!--  -->
+    <section class="pre_order">
+      <h3 class="preorder_text">Передзамовлення
+      </h3>
+      <a href="https://www.ctrs.com.ua/smart-chasy/brand-apple/seriya_apple-watch-ultra-2/">Детальнiше </a>
+    </section>
+    <!--  -->
+    <section class="dynamic_Island">
+      <div class="dynamic_Island_text">
+        <p>Найвитриваліший і найуніверсальніший Apple Watch. Створений для активного відпочинку й інтенсивних тренувань, він має легкий титановий корпус, збільшений час роботи від акумулятора<sup>1</sup> та найяскравіший дисплей Apple Watch. Подвійний дотик<sup>2</sup> &mdash; магічний спосіб взаємодії з Apple Watch.
+        </p>
+      </div>
+      <div class="watch_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/729054/opt.Apple_Watch_Ultra_2_Cellular_49mm_Titanium_Beige_Orange_Trail_Loop_PDP_Image_Position-1__en-US.webp?_t=1696581035" />
+      </div>
+    </section>
+    <!--  -->
+    <section class="main_characteristics">
+      <h3 class="main_block">Основні характеристики:
+      </h3>
+      <div class="main_characteristics_block">
+        <div class="main_characteristics_block_left">
+          <div class="main_items">
+            <h3>ЧОМУ APPLE WATCH ULTRA 2
+            </h3>
+            <p>Міцний, функціональний і створений з урахуванням вимог витривалих спортсменів, шанувальників активного відпочинку та водних видів спорту. Має спеціальний ремінець для кожного. Завдяки чипу S9 у цього годинника надяскравий дисплей і новий магічний спосіб швидко та легко взаємодіяти з Apple Watch, не торкаючись екрана. До 36 годин роботи від акумулятора та 72 години в режимі низького заряду.<sup>1</sup>
+            </p>
+          </div>
+          <div class="main_items">
+            <h3>ВУГЛЕЦЕВА НЕЙТРАЛЬНІСТЬ
+            </h3>
+            <p>Apple Watch Ultra 2 в парі з найновішим браслетом Alpine або Trail є вуглецевонейтральним. Детальніше про Apple і довкілля на apple.com/2030.<sup>3</sup>
+            </p>
+          </div>
+          <div class="main_items">
+            <h3>НАДЗВИЧАЙНО МІЦНИЙ, НЕЙМОВІРНО ПОТУЖНИЙ
+            </h3>
+            <p>Корпус розміром 49 мм зі стійкого до корозії титану. Велика коронка Digital Crown і кнопка дії з можливістю налаштування забезпечують миттєвий контроль над різними функціями. Водонепроникність на глибині до 100 метрів.<sup>4</sup>
+            </p>
+          </div>
+          <div class="main_items">
+            <h3>НАЙБІЛЬШИЙ І НАЙЯСКРАВІШИЙ ДИСПЛЕЙ APPLE WATCH
+            </h3>
+            <p>Інформацію на яскравому завжди ввімкненому дисплеї Retina від Apple легко переглядати навіть за яскравого сонячного світла. Більше простору для додавання розширень і персоналізації циферблата, а також достатньо місця для перегляду шести показників одночасно.
+            </p>
+          </div>
+          <div class="main_items">
+            <h3>СВОБОДА БУТИ НА ЗВ&rsquo;ЯЗКУ
+            </h3>
+            <p>Інтегрований мобільний зв&rsquo;язок.<sup>5</sup> Ви можете телефонувати та надсилати повідомлення без iPhone. Слухайте улюблену музику й подкасти. Прокладайте маршрути в Картах.
+            </p>
+          </div>
+        </div>
+        <div class="main_characteristics_block_rigth">
+          <div class="main_items">
+            <h3>ДЛЯ СПОРТСМЕНІВ
+            </h3>
+            <p>Розширені показники й варіанти відображення в додатку &laquo;Тренування&raquo;, зокрема зони серцевого ритму, індивідуальні тренування та нові способи відображення для велотренувань. Високоточний двочастотний GPS забезпечує точність при розрахунку відстані, темпу та створенні маршрутів. Тонкий, легкий та гнучкий браслет Trail призначений для всіх видів тренувань.
+            </p>
+          </div>
+          <div class="main_items">
+            <h3>ДЛЯ ШАНУВАЛЬНИКІВ АКТИВНОГО ВІДПОЧИНКУ
+            </h3>
+            <p>Додаток &laquo;Компас&raquo; дає змогу переглядати корисні деталі, як-от висоту над рівнем моря та нахил. Або останнє місце, де був мобільний звʼязок. Крім того, компас допомагає позначити ваше положення за допомогою пунктів маршруту. Щоб ви могли простежити свій шлях, функція &laquo;Пройдений маршрут&raquo; використовує дані GPS і автоматично створює карту місць, де ви були. Надзвичайно міцний і надійний браслет Alpine відповідає всім вимогам шанувальників активного відпочинку.
+            </p>
+          </div>
+          <div class="main_items">
+            <h3>ДЛЯ ЛЮБИТЕЛІВ ВОДНОГО СПОРТУ
+            </h3>
+            <p>Створений для непрофесійних водних видів спорту, підводного плавання й фридайвінгу на глибині до 40 метрів.<sup>4</sup> Додаток &laquo;Глибина&raquo; показує час, поточну глибину, температуру води, тривалість перебування під водою та максимальну глибину, яку ви досягли. Додаток Oceanic+ &mdash; це компʼютер для дайвінгу на вашому запʼясті.<sup>6</sup> Легкий і гнучкий ремінець Ocean має титанову пряжку та регульовану петлю для надійної фіксації навіть під час занять водними видами спорту на високій швидкості.
+            </p>
+          </div>
+          <div class="main_items">
+            <h3>УДОСКОНАЛЕНІ ФУНКЦІЇ ДЛЯ ЗДОРОВ&rsquo;Я ТА БЕЗПЕКИ
+            </h3>
+            <p>Сповіщення про здоровʼя серця та додаток &laquo;Кисень у крові&raquo;<sup>7</sup> тримають вас поінформованими щодо вашого здоровʼя. Функції виявлення падіння<sup>8</sup> та аварій дають змогу зв&rsquo;язатися з екстреними службами в разі сильного падіння або серйозної автомобільної аварії.<sup>9</sup> Утримуючи кнопку дії, можна активувати сирену, яку чути на відстані до 180 метрів.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <div class="watchs_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/729054/opt.Apple_Watch_Ultra_2_Cellular_49mm_3-Up_SCREEN__WWEN.webp?_t=1696581035" />
+    </div>
+    <!--  -->
+    <section class="legal_information">
+      <h3>Юридична інформація
+      </h3>
+      <div class="legal_information_block">
+        <div class="legal_items">
+          <p>Для використання Apple Watch Ultra 2 потрібен iPhone Xs або новішої моделі з iOS 17 або пізнішої версії.&nbsp;
+          </p>
+          <p><sup>1</sup>Час роботи від акумулятора залежить від конфігурації та особливостей використання пристрою. Детальніше на apple.com/batteries.&nbsp;
+            <br />
+            <br />
+            <sup>2</sup>Стане доступно пізніше у 2023 році. Потрібен Apple Watch Series 9 або Apple Watch Ultra 2.
+          </p>
+        </div>
+        <div class="legal_items last_items">
+          <div class="legal_item">
+            <p><sup>3</sup> Докладніше дивіться на apple.com/2030.
+            </p>
+            <p><sup>4</sup>Apple Watch Ultra 2 захищено від води під час занурення на глибину до 100 метрів за стандартом ISO 22810. Його можна використовувати під час занять швидкісними водними видами спорту і непрофесійного підводного плавання (із сумісним стороннім додатком з App Store) на глибині до 40 метрів. Не рекомендується використовувати під час занурення на глибину понад 40 метрів. Ступінь захисту від води не є сталою величиною, тому з часом може знижуватися. Докладнішу інформацію дивіться на support.apple.com/HT205000. Apple Watch Ultra 2 має захист від пилу класу IP6X.&nbsp;
+            </p>
+            <p><sup>5</sup>Мобільна мережа доступна не скрізь, де продається Apple Watch Ultra. Докладнішу інформацію дивіться на apple.com/watch/cellular. Зв&rsquo;яжіться зі своїм оператором, щоб дізнатися більше.
+            </p>
+          </div>
+          <div class="legal_item">
+            <p><sup>6</sup>Щоб користуватися Oceanic+, потрібна передплата. Доступно в App Store. Завжди дотримуйтеся протоколів занурення, занурюйтеся з напарником і майте додатковий пристрій.
+            </p>
+            <p><sup>7</sup>Додаток &laquo;Кисень у крові&raquo; призначено лише для загального оцінювання здоров&rsquo;я, а не для медичного використання.&nbsp;
+            </p>
+            <p><sup>8</sup>Функція виявлення падіння доступна в Apple Watch Series 4 і новіших моделях із watchOS 8 або новішої версії.&nbsp;&nbsp;
+            </p>
+            <p><sup>9</sup>Для роботи функції &laquo;Сигнал SOS&raquo; потрібна мобільна мережа або можливість виклику за допомогою Wi-Fi з підключенням до інтернету через Apple Watch або iPhone.&nbsp;
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  
+
+    
+</body>
+</html>

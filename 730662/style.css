@@ -1,0 +1,184 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .bluetti img {
+      margin: 0;
+    }
+    .bluetti p {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .bluetti h3 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .bluetti h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .bluetti ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .bluetti ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .bluetti {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .bluetti ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .bluetti ul li {
+      padding: 0;
+    }
+    .bluetti div {
+      padding: 0;
+    }
+    div.bluetti {
+      padding: 0;
+    }
+    .bluetti br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .bluetti{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .bluetti img{
+      width: 100%;
+      display: block;
+    }
+
+    .bluetti section{
+        text-align: center;
+    }
+
+    .bluetti .ep600 .ep600_text,
+    .bluetti .features,
+    .bluetti .easy_install .easy_install_text,
+    .bluetti .powe .powe_text,
+    .bluetti .power_sun .power_sun_text,
+    .bluetti .clean_energy .clean_energy_text,
+    .bluetti .without_interruptions .without_interruptions_text,
+    .bluetti .charge_safer .charge_safer_text,
+    .bluetti .wide_range .wide_range_text{
+        padding:24px 16px;
+    }
+
+        .bluetti .features{
+            text-align: left;
+        }
+        .bluetti .features p{
+            padding-left: 20px;
+        }
+
+    @media screen and (min-width:666px) {
+    .bluetti .ep600 .ep600_text,
+    .bluetti .features,
+    .bluetti .easy_install .easy_install_text,
+    .bluetti .powe .powe_text,
+    .bluetti .power_sun .power_sun_text,
+    .bluetti .clean_energy .clean_energy_text,
+    .bluetti .without_interruptions .without_interruptions_text,
+    .bluetti .charge_safer .charge_safer_text,
+    .bluetti .wide_range .wide_range_text{
+        padding:40px 0 32px;
+    }
+
+        .bluetti .features{
+            padding: 32px 0;
+        }
+
+    }
+    @media screen and (min-width:1024px) {
+        .bluetti p {
+        font-size: 18px;
+        }
+        .bluetti h3 {
+        font-size: 26px;
+        margin-bottom: 14px;
+        }
+        .bluetti ul li {
+        font-size: 18px;
+        }
+        .bluetti .ep600 .ep600_text,
+        .bluetti .features,
+        .bluetti .easy_install .easy_install_text,
+        .bluetti .powe .powe_text,
+        .bluetti .power_sun .power_sun_text,
+        .bluetti .clean_energy .clean_energy_text,
+        .bluetti .without_interruptions .without_interruptions_text,
+        .bluetti .charge_safer .charge_safer_text,
+        .bluetti .wide_range .wide_range_text{
+            padding:40px 0;
+        }
+
+        .bluetti .features{
+            padding: 40px 0;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .bluetti p {
+        font-size: 32px;
+        }
+        .bluetti h3 {
+        font-size: 36px;
+        margin-bottom: 16px;
+        }
+        .bluetti ul li {
+        font-size: 32px;
+        }
+        .bluetti .ep600 .ep600_text,
+        .bluetti .features,
+        .bluetti .easy_install .easy_install_text,
+        .bluetti .powe .powe_text,
+        .bluetti .power_sun .power_sun_text,
+        .bluetti .clean_energy .clean_energy_text,
+        .bluetti .without_interruptions .without_interruptions_text,
+        .bluetti .charge_safer .charge_safer_text,
+        .bluetti .wide_range .wide_range_text{
+            padding:60px 0;
+        }
+        .bluetti .powe .powe_text{
+            padding: 60px 30px;
+        }
+
+        .bluetti .features{
+            padding: 60px 0;
+        }
+    }

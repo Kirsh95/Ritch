@@ -1,0 +1,744 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .gazer img {
+      margin: 0;
+    }
+    .gazer .description {
+      padding: 0;
+      margin: 0;
+      color: #ffffff;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .gazer .title {
+      color: #ffffff;
+      font-family: 'Roboto',sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .gazer h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .gazer ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .gazer ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .gazer {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .gazer ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .gazer ul li {
+      padding: 0;
+    }
+    .gazer div {
+      padding: 0;
+    }
+    div.gazer {
+      padding: 0;
+    }
+    .gazer br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .gazer{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+      background: #000;
+    }
+    .gazer img{
+      width: 100%;
+      display: block;
+    }
+
+    .gazer .gazer_home{
+        position: relative;
+    }
+
+    .gazer .gazer_home .gazer_home_text{
+        text-align: center;
+        padding: 16px;
+        display: grid;
+        gap: 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        /* body{
+            padding: 0 24px;
+        } */
+        .gazer .title{
+            font-size: 20px;
+        }
+        .gazer .gazer_home .gazer_home_text{
+            position: absolute;
+            padding: 0;
+            left: 32px;
+            top: 50%;
+            transform: translate(0, -50%);
+            text-align: left;
+            width: 438px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .gazer .description{
+            font-size: 18px;
+        }
+        .gazer .title{
+            font-size: 24px;
+        }
+        .gazer .gazer_home .gazer_home_text{
+            left: 40px;
+            width: 538px;
+            gap: 24px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .gazer .description{
+            font-size:22px;
+        }
+        .gazer .gazer_home .description{
+            font-size:24px;
+        }
+        .gazer .title{
+            font-size: 55px;
+        }
+        .gazer .gazer_home .gazer_home_text{
+            left: 60px;
+            gap: 40px;
+            width: 734px;
+        }
+    }
+
+
+    /* film_search  */
+
+
+    .gazer .film_search{
+        display: grid;
+        gap: 16px;
+    }
+
+    .gazer .film_search .film_search_text{
+        padding: 16px 16px 0;
+    }
+
+    @media screen and (min-width:666px) {
+        .gazer .film_search{
+            display: grid;
+            gap: 0;
+            padding: 0 32px;
+            align-items: center;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .gazer .film_search .film_search_text{
+            padding: 0;
+            padding-right: 60px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .gazer .film_search{
+            padding: 0 40px;
+        }
+        .gazer .film_search .film_search_text{
+            padding: 0;
+            padding-right: 95px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .gazer .film_search{
+            padding: 0 60px;
+        }
+        .gazer .film_search .description{
+            font-size: 32px;
+        }
+        .gazer .film_search .film_search_text{
+            padding: 0;
+            padding-right: 95px;
+        }
+    }
+
+
+    /* film_search  */
+
+
+    .gazer .metasmar{
+        display: grid;
+        gap: 16px;
+        position: relative;
+
+       
+    }
+
+    .gazer .metasmar .metasmar_text{
+        padding: 16px 16px 0;
+        position: relative;
+        z-index: 2;
+    }
+    .gazer .metasmar .metasmar_img{
+        position: relative;
+        z-index: 2;
+    }
+
+    .gazer .back_blue {
+       position: absolute;
+       width: 100%;
+       z-index: 1;
+       bottom:70px;
+       right: -50px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .gazer .metasmar{
+            display: grid;
+            gap: 0;
+            padding:32px;
+            align-items: center;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .gazer .metasmar .metasmar_text{
+            padding: 0;
+            padding-right: 52px;
+        }
+
+        .gazer  .back_blue {
+            bottom:50px;
+            right: -80px;
+            width: 65%;
+         }
+        
+    }
+
+    @media screen and (min-width:1024px) {
+        .gazer .metasmar{
+            padding: 24px 40px;
+        }
+        .gazer .metasmar .metasmar_text{
+            padding: 0;
+            padding-right: 50px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .gazer .metasmar{
+            padding: 60px;
+            grid-template-columns: 1fr 669px;
+        }
+        .gazer .metasmar .metasmar_text{
+            padding: 0;
+            padding-right: 34.8px
+        }
+        .gazer  .back_blue {
+            bottom:11px;
+            right: -15%;
+            width: 74%;
+         }
+    }
+
+    /* ChatGPT */
+
+    .gazer .ChatGPT{
+        display: grid;
+        padding-top: 16px;
+        position: relative;
+    }
+    .gazer .ChatGPT .ChatGPT_titlt{
+        text-align: center;
+    }
+
+    .gazer .ChatGPT .ChatGPT_block{
+        padding: 0 16px;
+        display: grid;
+        position: relative;
+        z-index: 2;
+        gap: 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        .gazer .ChatGPT{
+            display: grid;
+            padding-top: 16px;
+        }
+
+        .gazer .ChatGPT .ChatGPT_text{
+            padding-right: 35px;
+        }
+  
+        .gazer .ChatGPT .ChatGPT_block{
+            padding: 32px;
+            align-items: center;
+            display: grid;
+            gap: 16px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .gazer .ChatGPT{
+            display: grid;
+            padding-top: 16px;
+        }
+        .gazer .ChatGPT .ChatGPT_text{
+            padding-right: 35px;
+        }
+  
+        .gazer .ChatGPT .ChatGPT_block{
+            padding: 40px;
+            gap: 16px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .gazer .ChatGPT .ChatGPT_text{
+            padding-right: 47px;
+        }
+  
+        .gazer .ChatGPT .ChatGPT_block{
+            padding: 60px;
+            grid-template-columns: 1fr 669px;
+            gap: 0px;
+        }
+    }
+
+
+    /* metasmart */
+
+    .gazer .metasmart{
+        display: grid;
+        padding-top: 16px;
+        position: relative;
+    }
+    .gazer .metasmart .metasmart_titlt{
+        text-align: center;
+    }
+
+    .gazer .metasmart .metasmart_block{
+        padding: 0 16px;
+        display: grid;
+        gap: 16px;
+        position: relative;
+        z-index: 2;
+    }
+
+    @media screen and (min-width:666px) {
+        .gazer .metasmart{
+            display: grid;
+            padding-top: 16px;
+        }
+
+        .gazer .metasmart .metasmart_text{
+            padding-right: 54px;
+        }
+  
+        .gazer .metasmart .metasmart_block{
+            padding: 32px 0px 32px 32px;
+            align-items: center;
+            display: grid;
+            gap: 0px;
+            display: grid;
+            grid-template-columns: 1.17fr 1fr;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .gazer .metasmart{
+            display: grid;
+            padding-top: 16px;
+        }
+        .gazer .metasmart .metasmart_text{
+            padding-right: 75px;
+        }
+  
+        .gazer .metasmart .metasmart_block{
+            padding: 40px 0px 40px 40px;
+            grid-template-columns: 1fr 1fr;
+
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .gazer .metasmart .metasmart_text{
+            padding-right: 115px;
+        }
+  
+        .gazer .metasmart .metasmart_block{
+            padding: 60px 0 60px 60px; 
+            grid-template-columns: 1fr 683px;
+            gap: 0px;
+        }
+    }
+
+
+    /* collections */
+
+    .gazer .collections{
+        display: grid;
+        padding-top: 16px;
+        position: relative;
+    }
+    .gazer .collections .collections_titlt{
+        text-align: center;
+    }
+
+    .gazer .collections .collections_block{
+        padding: 0 16px;
+        position: relative;
+        z-index: 2;
+        display: grid;
+        gap: 16px;
+    }
+
+    .gazer .collections .back_blue{
+        bottom: 30px;
+        left: 0;
+    }
+
+    @media screen and (min-width:666px) {
+        .gazer .collections{
+            display: grid;
+            padding-top: 16px;
+        }
+
+        .gazer .collections .collections_text{
+            padding-left: 45px;
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+  
+        .gazer .collections .collections_block{
+            padding: 32px;
+            align-items: center;
+            display: grid;
+            gap: 0px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .gazer .collections .back_blue{
+            position: absolute;
+            bottom: 17%;
+            left:-15%;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .gazer .collections{
+            display: grid;
+            padding-top: 16px;
+        }
+        .gazer .collections .collections_text{
+            padding-left: 50px;
+        }
+  
+        .gazer .collections .collections_block{
+            padding: 40px;
+            grid-template-columns: 1fr 1fr;
+
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .gazer .collections .collections_text{
+            padding-left: 40px;
+        }
+  
+        .gazer .collections .collections_block{
+            padding: 60px; 
+            grid-template-columns: 666px 1fr;
+            gap: 0px;
+        }
+        .gazer .collections .back_blue{
+            bottom: 10%;
+            left: -10%;
+            width: 65%;
+        }
+    }
+
+
+
+
+
+      /* metasmart */
+
+      .gazer .qled{
+        display: grid;
+        padding-top: 16px;
+    }
+    .gazer .qled .qled_titlt{
+        text-align: center;
+    }
+
+    .gazer .qled .qled_block{
+        padding: 0 16px;
+        display: grid;
+        gap: 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        .gazer .qled{
+            display: grid;
+            padding-top: 16px;
+        }
+
+        .gazer .qled .qled_text{
+            padding-right: 42px;
+        }
+  
+        .gazer .qled .qled_block{
+            padding: 32px 0px 32px 32px;
+            align-items: center;
+            display: grid;
+            gap: 0px;
+            display: grid;
+            grid-template-columns: 1.17fr 1fr;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .gazer .qled{
+            display: grid;
+            padding-top: 16px;
+        }
+        .gazer .qled .qled_text{
+            padding-right: 90px;
+        }
+  
+        .gazer .qled .qled_block{
+            padding: 40px 0px 40px 40px;
+            grid-template-columns: 1fr 1fr;
+
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .gazer .qled .qled_text{
+            padding-right: 119px;
+        }
+  
+        .gazer .qled .qled_block{
+            padding: 60px 0 60px 60px; 
+            grid-template-columns: 1fr 683px;
+            gap: 0px;
+        }
+    }
+
+
+    /* remote */
+
+    .gazer .remote{
+        display: grid;
+        position: relative;
+    }
+
+    .gazer .remote .remote_title{
+        text-align: center;
+        padding: 0 16px;
+    }
+
+    .gazer .remote .remote_text{
+        padding: 0 16px 16px;
+        display: grid;
+        gap: 14px;
+    }
+    .gazer .remote .remote_blue_block{
+        display: grid;
+        gap: 14px;
+    }
+
+    .gazer .remote .remote_blue_block .blue_description{
+        border-left: 1px solid #0A65FF;
+    }
+
+    .gazer .remote_desctope{
+        display: none;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .gazer .remote .remote_block{
+            display: none;
+        }
+        .gazer .remote_desctope{
+            display: block;
+        }
+    
+            
+    }
+
+    .gazer .nft{
+        display: grid;
+        padding-top: 16px;
+    }
+
+    .gazer .nft .nft_titlt{
+        text-align: center;
+    }
+
+    .gazer .nft .nft_block{
+        padding: 0 16px;
+        display: grid;
+        gap: 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        .gazer .nft{
+            display: grid;
+            background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/733413/NFTs_and_Metaverse_Shutterstock_waifu2x_photo_noise1_scale%201.svg?_t=1718196227");
+           background-repeat: no-repeat;
+           background-size: cover;
+            padding-top: 16px;
+        }
+
+        .gazer .nft .nft_text{
+            padding-right: 98px;
+        }
+  
+        .gazer .nft .nft_block{
+            padding: 32px;
+            align-items: center;
+            display: grid;
+            gap: 0px;
+            display: grid;
+            grid-template-columns: 1.17fr 1fr;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .gazer .nft{
+            display: grid;
+            padding-top: 16px;
+        }
+        .gazer .nft .nft_text{
+            padding-right: 106px;
+        }
+  
+        .gazer .nft .nft_block{
+            padding: 40px;
+            grid-template-columns: 1fr 1fr;
+
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .gazer .nft .lnft_text{
+            padding-right: 50px;
+        }
+  
+        .gazer .nft .nft_block{
+            padding: 60px 70px 60px 60px; 
+            grid-template-columns: 1fr 682px;
+            gap: 0px;
+        }
+    }
+
+    /* last_but */
+
+    .gazer .last_but{
+        display: grid;
+        padding-top: 16px;
+        background: #fff;
+    }
+    .gazer .last_but .description,
+    .gazer .last_but .title
+    { 
+        color: #000;
+    }
+    .gazer .last_but .last_but_titlt{
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+
+    .gazer .last_but .last_but_block{
+        padding: 0 16px;
+        display: grid;
+        gap: 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        .gazer .last_but .last_but_titlt{
+            text-align: center;
+            padding: 0 140px;
+        }
+
+        .gazer .last_but{
+            display: grid;
+            padding-top: 16px;
+        }
+
+        .gazer .last_but .last_but_text{
+            padding-right: 35px;
+        }
+  
+        .gazer .last_but .last_but_block{
+            padding: 32px 0 32px 32px;
+            align-items: center;
+            display: grid;
+            gap: 0px;
+            display: grid;
+            grid-template-columns: 1.17fr 1fr;
+        }
+        .gazer .last_but .last_but_titlt br{
+            display: none;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .gazer .last_but{
+            display: grid;
+            padding-top: 16px;
+        }
+        .gazer .last_but .last_but_text{
+            padding-right: 30px;
+        }
+  
+        .gazer .last_but .last_but_block{
+            padding: 40px 0 40px 40px;
+            grid-template-columns: 1fr 1fr;
+        }
+        .gazer .last_but .last_but_titlt{
+            text-align: center;
+            padding: 0 200px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+  
+        .gazer .last_but .last_but_block{
+            padding: 60px 0px 60px 60px; 
+            grid-template-columns: 1fr 688px;
+            gap: 0px;
+        }
+        .gazer .last_but .last_but_titlt{
+            text-align: center;
+            padding: 40px 90px;
+        }
+        .gazer .last_but .last_but_titlt p{
+            font-size: 46px;
+        }
+    }

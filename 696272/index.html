@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+    <style>
+        .product__description.base-padding {
+        padding: 0;
+        border-radius: 0px;
+        }
+        .LG_F2J6H img {
+          margin: 0;
+        }
+        .LG_F2J6H p {
+          padding: 0;
+          margin: 0;
+          color: #000;
+          font-family: 'Roboto' ,sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+        }
+        .LG_F2J6H h3 {
+          color: #000;
+          font-family: 'Roboto',sans-serif;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 130%;
+          margin: 0;
+          margin-bottom: 10px;
+        }
+        .LG_F2J6H h2 {
+          color: #000;
+          font-family: 'Roboto',sans-serif;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 130%;
+          margin: 0;
+          margin-bottom: 12px;
+        }
+        .LG_F2J6H ul {
+          list-style: disc;
+          margin: 0;
+        }
+        .LG_F2J6H ul li {
+          line-height: normal;
+          color: #000;
+          font-family: 'Roboto',sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+        }
+        .LG_F2J6H {
+          overflow: hidden;
+        }
+        body {
+          padding: 0;
+          margin: 0;
+        }
+        .LG_F2J6H ul {
+          padding: 0;
+          padding-left: 20px;
+        }
+        .LG_F2J6H ul li {
+          padding: 0;
+        }
+        .LG_F2J6H div {
+          padding: 0;
+        }
+        div.LG_F2J6H {
+          padding: 0;
+        }
+        .LG_F2J6H br {
+          display: block;
+        }
+        .product__body .el-tabs__header {
+          z-index: 6;
+        }
+        .LG_F2J6H{
+          max-width: 1366px;
+          margin: 0 auto;
+          overflow-x: hidden;
+        }
+        .LG_F2J6H img{
+          width: 100%;
+          display: block;
+        }
+        .LG_F2J6H .white_text{
+          color:#fff;
+        }
+        .LG_F2J6H .notes p{
+          font-size: 12px;
+        }
+        .LG_F2J6H .perfect_wash{
+          background: rgb(58, 57, 58);
+        }
+        .LG_F2J6H .perfect_wash .perfect_wash_text{
+          text-align: center;
+          padding: 32px 16.5px 0;
+        }
+        .LG_F2J6H .perfect_wash .perfect_wash_text p{
+          font-size: 16px;
+        }
+        .LG_F2J6H .perfect_wash .perfect_wash_text h3{
+          padding: 0 20.5px;
+        }
+        .LG_F2J6H .perfect_wash .notes{
+          background: #000;
+          padding: 32px 16px;
+        }
+        @media screen and (min-width:666px) {
+          .LG_F2J6H .perfect_wash .perfect_wash_text{
+            padding: 32px 61px 0;
+          }
+          .LG_F2J6H .perfect_wash .notes{
+            padding: 32px;
+          }
+        }
+        @media screen and (min-width:1024px) {
+          .LG_F2J6H h3{
+            font-size: 24px;
+            margin-bottom: 14px;
+          }
+          .LG_F2J6H p{
+            font-size: 18px;
+          }
+          .LG_F2J6H .notes p{
+            font-size: 14px;
+          }
+          .LG_F2J6H .perfect_wash .perfect_wash_text{
+            padding: 42px 96px 0;
+          }
+          .LG_F2J6H .perfect_wash .notes{
+            padding: 42px;
+          }
+          .LG_F2J6H .perfect_wash .perfect_wash_text p{
+            font-size: 18px;
+          }
+        }
+        @media screen and (min-width:1366px) {
+          .LG_F2J6H h3{
+            font-size: 32px;
+            margin-bottom: 20px;
+          }
+          .LG_F2J6H p{
+            font-size: 24px;
+          }
+          .LG_F2J6H .notes p{
+            font-size: 14px;
+          }
+          .LG_F2J6H .perfect_wash .perfect_wash_text{
+            padding: 60px 248px 0;
+          }
+          .LG_F2J6H .perfect_wash .notes{
+            padding: 40px 60px;
+          }
+          .LG_F2J6H .perfect_wash .perfect_wash_text p{
+            font-size: 24px;
+          }
+        }
+        /* quiet_operation */
+        .LG_F2J6H .quiet_operation{
+          position: relative;
+          padding: 40px 16px;
+          display: grid;
+          gap: 40px;
+        }
+        @media screen and (min-width:666px) {
+          .LG_F2J6H .quiet_operation{
+            padding: 0;
+            gap: 0px;
+            align-items: center;
+            grid-template-columns:repeat(2,1fr) ;
+          }
+          .LG_F2J6H .quiet_operation .quiet_operation_text{
+            padding: 0 32px;
+          }
+        }
+        @media screen and (min-width:1024px) {
+          .LG_F2J6H .quiet_operation .quiet_operation_text{
+            padding: 0 42px;
+          }
+        }
+        @media screen and (min-width:1366px) {
+          .LG_F2J6H .quiet_operation{
+            grid-template-columns: none;
+          }
+          .LG_F2J6H .quiet_operation .quiet_operation_text{
+            padding: 0px;
+            left: 60px;
+            position: absolute;
+            width: 555px;
+          }
+        }
+        /* efficiency */
+        .LG_F2J6H .efficiency .efficiency_text{
+          padding: 32px 16px;
+          text-align: center;
+        }
+        .LG_F2J6H .efficiency .top_disc{
+          font-size: 16px;
+          margin-bottom: 10px;
+          font-weight: 700;
+        }
+        .LG_F2J6H .efficiency .notes{
+          padding: 32px 16px;
+        }
+        @media screen and (min-width:666px) {
+          .LG_F2J6H .efficiency .notes{
+            padding: 32px;
+          }
+             .LG_F2J6H .efficiency .efficiency_text{
+            padding: 32px 117.3px;
+          }
+        }
+        @media screen and (min-width:1024px) {
+          .LG_F2J6H .efficiency .efficiency_text{
+            padding: 42px 169px;
+          }
+          .LG_F2J6H .efficiency .notes{
+            padding: 42px;
+          }
+          .LG_F2J6H .efficiency .top_disc{
+            font-size: 22px;
+            margin-bottom: 14px;
+          }
+        }
+        @media screen and (min-width:1366px) {
+          .LG_F2J6H .efficiency .efficiency_text{
+            padding: 60px 283px;
+          }
+          .LG_F2J6H .efficiency .notes{
+            padding: 60px;
+          }
+          .LG_F2J6H .efficiency .top_disc{
+            font-size: 28px;
+            margin-bottom: 20px;
+          }
+        }
+        /* elelegant_design */
+        .LG_F2J6H .elelegant_design{
+          text-align: left;
+          display: grid;
+          gap:40px ;
+          padding: 40px 16px;
+        }
+        @media screen and (min-width:666px) {
+          .LG_F2J6H .elelegant_design{
+            padding: 0;
+            gap: 0;
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+          }
+          .LG_F2J6H .elelegant_design .elelegant_design_text{
+            padding-right:45px;
+            padding-left: 32px;
+          }
+        }
+        @media screen and (min-width:1024px) {
+          .LG_F2J6H .elelegant_design .elelegant_design_text{
+            padding-right:53px;
+            padding-left: 42px;
+          }
+        }
+        @media screen and (min-width:1366px) {
+          .LG_F2J6H .elelegant_design .elelegant_design_text{
+            padding-right:75px;
+            padding-left: 60px;
+          }
+        }
+        
+        /* smart_diagnosis  */
+        .LG_F2J6H .smart_diagnosis{
+          text-align: center;
+          display: grid;
+          background: rgb(12, 12, 12);
+        }
+        .LG_F2J6H .smart_diagnosis .smart_diagnosis_text{
+          padding: 32px 16px;
+          text-align: left;
+        }
+        .LG_F2J6H .smart_diagnosis .smart_diagnosis_text h3{
+            padding-right: 110px;
+        }
+        .LG_F2J6H .smart_diagnosis .smart_diagnosis_text img{
+            margin-top: 10px;
+            width: 70px;
+        }
+
+        @media screen and (min-width:666px) {
+            .LG_F2J6H .smart_diagnosis{
+                grid-template-columns: repeat(2,1fr);
+                align-items: center;
+            }
+            .LG_F2J6H .smart_diagnosis .smart_diagnosis_text h3{
+                padding-right: 70px;
+            }
+            .LG_F2J6H .smart_diagnosis .smart_diagnosis_text{
+                padding: 0 26px 0 32px;
+            }
+            .LG_F2J6H .smart_diagnosis .smart_diagnosis_text img{
+                margin-top: 10px;
+                width:40px;
+            }
+
+        }
+        @media screen and (min-width:1024px) {
+            .LG_F2J6H .smart_diagnosis .smart_diagnosis_text h3{
+                padding-right: 90px;
+            }
+            .LG_F2J6H .smart_diagnosis .smart_diagnosis_text{
+                padding: 0 55px 0 42px;
+            }
+            .LG_F2J6H .smart_diagnosis .smart_diagnosis_text img{
+                margin-top: 20px;
+                width:61px;
+            }
+        }
+        @media screen and (min-width:1366px) {
+            .LG_F2J6H .smart_diagnosis .smart_diagnosis_text h3{
+                padding-right: 90px;
+            }
+            .LG_F2J6H .smart_diagnosis .smart_diagnosis_text{
+                padding: 0 70px 0 60px;
+            }
+            .LG_F2J6H .smart_diagnosis .smart_diagnosis_text img{
+                margin-top: 20px;
+                width:91px;
+            }
+        }
+
+        /* communication_system */
+
+        .LG_F2J6H .communication_system{
+            display: grid;
+            gap: 40px;
+            padding: 40px 16px;
+        }
+
+        .LG_F2J6H .communication_system .notes{
+            padding-top: 10px;
+        }
+
+
+        @media screen and (min-width:666px) {
+            .LG_F2J6H .communication_system{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                align-items: center;
+                padding: 0;
+                gap: 0;
+            }
+            .LG_F2J6H .communication_system .communication_system_text{
+                grid-row-start: 1;
+                grid-column-start: 2;
+                padding: 0 30px 0 40px;
+
+            }
+        }
+
+        @media screen and (min-width:1024px) {
+
+            .LG_F2J6H .communication_system .communication_system_text{
+                padding: 0 42px 0 58px;
+            }
+        }
+        @media screen and (min-width:1366px) {
+
+            .LG_F2J6H .communication_system .communication_system_text{
+                padding: 0 60px 0 77px;
+            }
+        }
+
+
+
+    /* diagnosis */
+
+    .LG_F2J6H .diagnosis{
+        display: grid;
+        gap: 32px ;
+        padding: 0px 16px 40px;
+        text-align: center;
+    }
+
+    .LG_F2J6H .diagnosis .notes{
+        text-align: left;
+    }
+    @media screen and (min-width:666px) {
+
+        .LG_F2J6H .diagnosis{
+            padding: 42px 0px;
+        }
+        .LG_F2J6H .diagnosis .diagnosis_text{
+            padding: 0 65px;
+        }
+
+        .LG_F2J6H .diagnosis .notes{
+            padding: 0 32px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+
+        .LG_F2J6H .diagnosis{
+            padding: 58px 0px;
+            gap: 42px;
+        }
+        .LG_F2J6H .diagnosis .diagnosis_text{
+            padding: 0 95px;
+        }
+
+        .LG_F2J6H .diagnosis .notes{
+            padding: 0 42px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+
+        .LG_F2J6H .diagnosis{
+            padding: 60px 0px;
+            gap: 60px;
+        }
+        .LG_F2J6H .diagnosis .diagnosis_text{
+            padding: 0 283px;
+        }
+
+        .LG_F2J6H .diagnosis .notes{
+            padding: 0 60px;
+        }
+    }
+
+
+    /* add_items */
+
+
+    .LG_F2J6H .add_items{
+        display: grid;
+    }
+    .LG_F2J6H .add_items .add_items_text{
+        padding: 32px 16px;
+        text-align: center;
+    }
+    
+    .LG_F2J6H .add_items .notes{
+        padding: 32px 16px ;
+        background: rgb(0, 0, 0);;
+    }
+    
+    @media screen and (min-width:666px) {
+        .LG_F2J6H .add_items .add_items_text{
+            padding: 32px 70px;
+        }
+        .LG_F2J6H .add_items .notes{
+            padding: 32px ;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .LG_F2J6H .add_items .add_items_text{
+            padding: 42px 118px;
+        }
+        .LG_F2J6H .add_items .notes{
+            padding: 42px ;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .LG_F2J6H .add_items .add_items_text{
+            padding: 60px 279px;
+        }
+        .LG_F2J6H .add_items .notes{
+            padding: 60px ;
+        }
+    }
+
+
+
+        /* differential_control */
+        .LG_F2J6H .differential_control{
+          text-align: center;
+          background: #000;
+        }
+        .LG_F2J6H .differential_control .differential_control_text{
+          padding: 32px 16px;
+        }
+        @media screen and (min-width:666px) {
+          .LG_F2J6H .differential_control .differential_control_text{
+            padding: 32px 65px;
+          }
+        }
+        @media screen and (min-width:1024px) {
+          .LG_F2J6H .differential_control .differential_control_text{
+            padding: 42px 109px;
+          }
+        }
+        @media screen and (min-width:1366px) {
+          .LG_F2J6H .differential_control .differential_control_text{
+            padding: 60px 283px;
+          }
+        }
+        /* ten_years */
+        .LG_F2J6H .ten_years{
+          text-align: center;
+          background: #000;
+        }
+        .LG_F2J6H .ten_years .ten_years_text{
+          padding: 32px 16px;
+        }
+        .LG_F2J6H .ten_years .notes{
+          padding: 32px 16px;
+          text-align: left;
+        }
+        @media screen and (min-width:666px) {
+          .LG_F2J6H .ten_years .ten_years_text{
+            padding: 32px 70px;
+          }
+          .LG_F2J6H .ten_years .notes{
+            padding: 32px;
+          }
+        }
+        @media screen and (min-width:1024px) {
+          .LG_F2J6H .ten_years .ten_years_text{
+            padding: 42px 96px;
+          }
+          .LG_F2J6H .ten_years .notes{
+            padding: 42px;
+          }
+        }
+        @media screen and (min-width:1366px) {
+          .LG_F2J6H .ten_years .ten_years_text{
+            padding: 60px 283px;
+          }
+          .LG_F2J6H .ten_years .ten_years_text h3{
+            padding: 0px 109px;
+          }
+          .LG_F2J6H .ten_years .notes{
+            padding: 60px;
+            background: #000;
+          }
+        }
+        /* choice_year */
+        .LG_F2J6H .choice_year{
+          padding: 40px 16px;
+          text-align: center;
+          display: grid;
+          gap: 32px;
+        }
+        @media screen and (min-width:666px) {
+          .LG_F2J6H .choice_year{
+            padding: 42px 88px;
+          }
+        }
+        @media screen and (min-width:666px) {
+          .LG_F2J6H .choice_year{
+            padding: 58px 118px;
+            gap: 42px;
+          }
+        }
+        @media screen and (min-width:1366px) {
+          .LG_F2J6H .choice_year{
+            padding: 80px 166px;
+            gap: 60px;
+          }
+        }
+        /* sizes */
+        .LG_F2J6H .sizes{
+            padding-bottom: 40px;
+        }
+        .LG_F2J6H .sizes .sizes_front{
+          padding:0 96px 0 50px;
+        }
+        .LG_F2J6H .sizes .sizes_beak{
+          padding:0 97px;
+        }
+        @media screen and (min-width:666px) {
+          .LG_F2J6H .sizes{
+            padding: 0 91px 40px;
+            display: grid;
+            gap: 54px;
+            grid-template-columns: 1.55fr 1fr;
+          }
+          .LG_F2J6H .sizes .sizes_beak,
+          .LG_F2J6H .sizes .sizes_front{
+            padding:0;
+          }
+        }
+        @media screen and (min-width:1024px) {
+          .LG_F2J6H .sizes{
+            padding: 0 230px 40px;
+            gap: 100px;
+          }
+        }
+        @media screen and (min-width:1366px) {
+          .LG_F2J6H .sizes{
+            padding: 0 272px 80px;
+            gap: 140px;
+          }
+        }
+    </style> 
+      <div class="LG_F2J6H">
+        <section class="perfect_wash">
+          <div class="perfect_wash_text">
+            <h3 class="white_text">Ідеальне прання будь-якої тканини з 6 Motion&trade;*
+            </h3>
+            <p class="white_text">Технологія 6 Motion&trade; &mdash; це шість різних схем руху барабана, які забезпечують максимально делікатне та ефективне прання. Складні забруднення видаляються без слідів, а одяг не пошкоджується.
+            </p>
+          </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/696272/opt.Main%20Images.webp?_t=1712063330" />
+          <div class="notes">
+            <p class="white_text">*Сікс Моушн
+            </p>
+          </div>
+        </section>
+        <!--  -->
+        <section class="quiet_operation">
+          <div class="quiet_operation_text">
+            <h3>Безшумна робота.
+              <br />
+              Періть навіть уночі.
+            </h3>
+            <p>Двигун з інверторним прямим приводом забезпечує високу якість прання та низький рівень шуму. Звичний рівень шуму в пральних машинах LG - до 2,5 дБ нижче, ніж у пральних машин з ремінним приводом. Звуки роботи техніки більше не турбуватимуть Ваш сон!
+            </p>
+          </div>
+          <picture> 
+            <source media="(min-width:1366px)" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/675981/opt.img%202.webp?_t=1711843426" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/675981/opt.image%201.webp?_t=1711848942" /> 
+          </picture>
+        </section>
+        <section class="efficiency">
+          <div class="efficiency_text">
+            <h3>Функція сушки - економія простору й коштів
+            </h3>
+            <p>Пральна машина зі вбудованою сушкою LG об&#39;єднує в собі два прилади. Одразу після завершення програми прання речі можна висушити, навіть не виймаючи їх із барабана. Таким чином, Ви зможете зекономити дорогоцінний простір в помешканні.
+            </p>
+          </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/696272/opt.Main%20Images1.webp?_t=1712063330" />
+        </section>
+        <!--  -->
+        <section class="elelegant_design">
+          <div class="elelegant_design_text">
+            <h3 >Функція пари Steam™*</h3>
+            <p >Пральна машина LG оснащена функцією прання парою Steam™, яка працює на програмі «Одяг малюка+Пара». Завдяки такій обробці знищуються джерела побутової алергії, речі стають м'якшими на дотик.</p>
+        </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/696272/opt.Frame%20231.webp?_t=1712063330" />
+        </section>
+        <!--  -->
+        <section class="smart_diagnosis">
+          <div class="smart_diagnosis_text">
+            <h3 class="white_text">Боріться із алергенами
+                за допомогою пари</h3>
+            <p class="white_text">Завдяки дбайливій обробці парою, що доступна на програмі “Гіпоалергенне прання”, Ви зможете дезінфікувати Ваш одяг, знищивши до 99,9% алергенів, та зберегти м’якість речей. Бережіть своє здоров’я та чистоту Вашого одягу від шкідливого впливу алергенів.</p>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/696272/Main%20Images4.svg?_t=1712063131" alt="">
+        </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/696272/opt.img_3.webp?_t=1712063331" />
+        </section>
+        <!--  -->
+        <section class="communication_system">
+            <div class="communication_system_text">
+                <h3>Система безконтактної комунікації*</h3>
+                <p>Технологія Tag On** дозволяє використовувати більшість смартфонів з підтримкою NFC для з'єднання з Вашою пральною машиною. Встановивши додаток LG ThinQ™*** Ви зможете завантажувати та використовувати нові програми прання.</p>
+                <div class="notes">
+                    <p >
+                        *Працює лише зі смартфонами під керуванням ОС Android <br>**Теґ Он<br>***ЕлДжі СінК'ю
+                    </p>
+                </div>
+                
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/696272/opt.Frame%20232.webp?_t=1712063330" alt="">
+        </section>
+<!--  -->
+        <section class="diagnosis">
+            <div class="diagnosis_text">
+                <h3>Smart Diagnosis™*. Новий рівень інтелекту.</h3>
+                <p>Функція мобільної діагностики Smart Diagnosis™ знаходить збої в роботі та виявляє внутрішні несправності машини. Отримана інформація швидко передається до сервісного центру. Щоб активувати Smart Diagnosis™, потрібно лише встановити програму LG ThinQ™** на Ваш смартфон.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/696272/opt.Main%20Images9.webp?_t=1712063331" alt="">
+            <div class="notes">
+                <p >
+                    *Смарт Дiагнозіз<br>
+                    **ЕлДжі СінК'ю
+                </p>
+            </div>
+            
+        </section>
+        <!--  -->
+        <section class="add_items">
+            <div class="add_items_text">
+                <h3>Функція “Додати речі”</h3>
+                <p>Якщо Ви забули покласти речі до пральної машини до початку прання, просто натисніть на кнопку «Додати речі» та покладіть, що необхідно: маленькі дитячі шкарпетки чи навіть велику зимову куртку. Ви зможете відкрити дверцята* та додати забуту річ без необхідності перезапускати весь цикл прання.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/696272/opt.img_14.webp?_t=1712063331" alt="">
+            <div class="notes">
+                <p class="white_text">
+                    *В залежності від кількості речей та типу тканин, дверцята можуть не розблокуватися. <br>
+                    За температури вище 40°C дверцята не розблокуються задля Вашої безпеки.
+                </p>
+            </div>
+        </section>
+
+
+
+
+
+        <!--  -->
+        <section class="differential_control">
+          <div class="differential_control_text">
+            <h3 class="white_text">Контроль перепаду напруги
+            </h3>
+            <p class="white_text">Компанія LG дбає про комфорт та безпеку своїх споживачів. Спеціально розроблена система захисту від перепадів напруги дозволяє всій техніці LG працювати без перебоїв. З нею можна не хвилюватися, що техніка згорить від чергового відключення світла чи очевидних перепадів напруги у діапазоні від 174 до 400 Вольт.
+            </p>
+          </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/696272/opt.Main%20Images16.webp?_t=1712063331" />
+        </section>
+        <!--  -->
+        <section class="ten_years">
+          <div class="ten_years_text">
+            <h3 class="white_text">10 років додаткових зобов&rsquo;язань перед нашими споживачами*
+            </h3>
+            <p class="white_text">Компанія LG створює наднадійну техніку та окрім повної гарантії на продукт терміном 12 місяців зобов&rsquo;язується безкоштовно надавати певний перелік деталей для подальшої заміни. Для пральних машин LG ці зобов&rsquo;язання поширюються на окремі деталі інверторного двигуна з прямим приводом із системою Inverter Direct Drive&trade;**.
+            </p>
+          </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/696272/opt.Main%20Images17.webp?_t=1712063331" />
+          <div class="notes">
+            <p class="white_text">*Детальний перелік деталей, які підпадають під дію додаткового зобов&rsquo;язання, вказано у гарантійному талоні або посібнику користувача.
+              <br />
+              **Інвертор Дайрект Драйв
+            </p>
+          </div>
+        </section>
+        <!--  -->
+        <section class="choice_year"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/675981/opt.img_8.webp?_t=1711843426" />
+          <div class="choice_year_text">
+            <h3>Вибір року 2018-2022
+            </h3>
+            <p>З великою вдячністю та задоволенням компанія LG в Україні вже п&rsquo;ятий раз поспіль отримує почесне звання &laquo;Вибір року&raquo; в категорії &laquo;Пральні машини&raquo;. Наш продукт став вибором як споживачів, так і експертів, представників рекламних агенцій, культури та оргкомітету конкурсу.
+            </p>
+          </div>
+        </section>
+        <section class="sizes">
+          <div class="sizes_front"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/696272/Frame%20237.svg?_t=1712063141" />
+          </div>
+          <div class="sizes_beak"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/696272/Frame%20235.svg?_t=1712063141" />
+          </div>
+        </section>
+      </div>
+      
+    
+</body>
+</html>

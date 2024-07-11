@@ -1,0 +1,404 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .hx632 img {
+      margin: 0;
+    }
+    .hx632 p {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .hx632 h3 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .hx632 h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .hx632 ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .hx632 ul li {
+      line-height: normal;
+      color: rgb(93, 93, 93);;
+      font-family: 'Roboto',sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .hx632 {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .hx632 ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .hx632 ul li {
+      padding: 0;
+    }
+    .hx632 div {
+      padding: 0;
+    }
+    div.hx632 {
+      padding: 0;
+    }
+    .hx632 br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .hx632{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .hx632 img{
+      width: 100%;
+      display: block;
+    }
+
+
+    .hx632 .for_kids{
+        position: relative;
+    }
+
+    .hx632 .for_kids .for_kids_img{
+        position: relative;
+    }
+
+    .hx632 .for_kids .logo_philips{
+        position: absolute;
+        top: 0;
+        left: 16px;
+        width: 60px;
+    }   
+
+
+    .hx632 .for_kids .for_kids_text{
+        background-color: #08A4E3;
+        padding: 24px 16px 40px;
+        display: grid;
+        gap: 10px;
+    }
+    .hx632 .for_kids .for_kids_text h3{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    .hx632 .for_kids .for_kids_text p{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+
+    @media screen and (min-width:666px){
+        body{
+            padding: 0 24px;
+        }
+        .hx632 .for_kids .for_kids_text{
+            position: absolute;
+            background: none;
+            padding: 0;
+            bottom: 32px;
+            left: 32px;
+            gap: 16px;
+        }
+        .hx632 .for_kids .logo_philips{
+            left: 32px;
+            width: 89px;
+        }  
+    }
+
+    @media screen and (min-width:1024px){
+        .hx632 .for_kids .for_kids_text{
+            bottom: 40px;
+            left: 40px;
+            gap: 24px;
+        }
+        .hx632 .for_kids .logo_philips{
+            left: 40px;
+            width: 129px;
+        }  
+        .hx632 .for_kids .for_kids_text h3{
+            font-size: 26px;
+            font-weight: 700;
+        }
+        .hx632 .for_kids .for_kids_text p{
+            font-size: 24px;
+        }
+    }
+
+    @media screen and (min-width:1366px){
+        .hx632 .for_kids .for_kids_text{
+            bottom: 60px;
+            left: 60px;
+        }
+        .hx632 .for_kids .logo_philips{
+            left: 60px;
+            width: 188px;
+        }  
+        .hx632 .for_kids .for_kids_text h3{
+            font-size: 36px;
+        }
+        .hx632 .for_kids .for_kids_text p{
+            font-size: 32px;
+        }
+    }
+
+    /* blue_pazzle */
+
+    .hx632 .blue_pazzle{
+        background: rgb(0, 68, 124);
+    }
+    .hx632 .blue_pazzle h2{
+        font-size: 20px;
+        padding: 16px;
+        color: #fff;
+        margin-bottom: 0;
+    }
+
+    @media screen and (min-width:666px){
+        .hx632 .blue_pazzle h2{
+            font-size: 24px;
+            padding: 24px;
+        }
+    }
+
+    @media screen and (min-width:1024px){
+        .hx632 .blue_pazzle h2{
+            font-size: 30px;
+            padding:24px 40px;
+        }
+    }
+
+    @media screen and (min-width:1366px){
+        .hx632 .blue_pazzle h2{
+            font-size: 42px;
+            padding:24px 60px;
+        }
+    }
+    
+
+    /* healthy_habits */
+
+    .hx632 .healthy_habits{
+        padding: 0 17px 40px;
+    }
+
+    .hx632 .healthy_habits .healthy_habits_img{
+        padding: 0 42.5px;
+    }
+    .hx632 .healthy_habits .healthy_habits_text{
+        display: grid;
+        gap: 24px;
+    }
+    .hx632 .healthy_habits .notes{
+        font-size: 12px;
+        color: rgb(93, 93, 93);
+    }
+
+    .hx632 .healthy_habits .blue_text{
+        color: rgb(27, 102, 161);
+        font-weight: 500;
+    }
+    
+
+    @media screen and (min-width:666px){
+        .hx632 .healthy_habits{
+            display: grid;
+            grid-template-columns: 1fr 2.1fr;
+            padding: 20px 37px 20px 32px;
+            align-items: center;
+            gap: 24px;
+        }
+        .hx632 .healthy_habits .healthy_habits_img{
+            padding: 0;
+        }
+    }
+
+    @media screen and (min-width:1024px){
+        .hx632 ul li,
+        .hx632 p{
+            font-size: 18px;
+            line-height: 150%;
+        }
+        .hx632 .healthy_habits{
+            grid-template-columns: 1fr 2.1fr;
+            padding: 0 47px 20px 40px;
+            gap: 32px;
+        }
+        .hx632 .healthy_habits .healthy_habits_text{
+            gap: 32px;
+        }
+        .hx632 .healthy_habits .notes{
+            font-size: 14px;
+        }
+    }
+    
+    @media screen and (min-width:1366px){
+        .hx632 ul li,
+        .hx632 p{
+            font-size: 22px;
+            line-height: 150%;
+        }
+        .hx632 .healthy_habits{
+            grid-template-columns: 1fr 1.5fr;
+            padding: 0 168px;
+            gap: 32px;
+        }
+        .hx632 .healthy_habits .healthy_habits_text{
+            gap: 40px;
+        }
+    }
+
+    /* big_block */
+
+    .hx632 .big_block{
+        display: grid;
+        gap: 40px;
+        padding: 0px 16px 40px;
+    }
+    
+    .hx632 .big_block img{
+        border-radius: 6px;
+    }
+
+    .hx632 .big_block .text_blue{
+        color: #08A4E3;
+        font-weight: 500;
+        margin-bottom: 14px;
+    }
+
+    .hx632 .big_block .big_block_items{
+        display: grid;
+        gap: 24px;
+    }
+
+    @media screen and (min-width:666px){
+        .hx632 .big_block{
+            grid-template-columns: repeat(2,1fr);
+            padding: 0 32px 40px;
+            align-items: start;
+            gap: 40px 24px;
+        }
+    }
+
+    @media screen and (min-width:1024px){
+        .hx632 .big_block{
+            padding: 0 40px 40px;
+            gap: 60px 32px;
+        }
+        .hx632 .big_block .text_blue{
+            margin-bottom: 18px;
+        }
+        .hx632 .big_block .big_block_items{
+            gap: 32px;
+        }
+        .hx632 .big_block img{
+            border-radius: 10px;
+        }
+    }
+
+    @media screen and (min-width:1366px){
+        .hx632 .big_block{
+            padding: 0 166px 40px;
+            gap: 60px 40px;
+        }
+        .hx632 .big_block .text_blue{
+            margin-bottom: 18px;
+        }
+        .hx632 .big_block .big_block_items{
+            gap: 40px;
+        }
+    }
+
+    /* .blue_block */
+
+    .hx632 .blue_block{
+        background: rgb(27, 102, 160);
+        padding: 40px 16px;
+        display: grid;
+        gap: 24px
+    }
+
+    .hx632 .blue_block .blue_block_text{
+        display: grid;
+        gap: 14px;
+    }
+
+    .hx632 .blue_block h3{
+        color:#fff ;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .hx632 .blue_block p{
+        color:#fff ;
+        font-size: 12px;
+    }
+
+
+    @media screen and (min-width:666px){
+        .hx632 .blue_block{
+            grid-template-columns: repeat(2,1fr);
+            padding: 0 32px;
+            align-items: center;   
+        }
+    }
+
+    @media screen and (min-width:1024px){
+
+        .hx632 .blue_block{
+            padding: 0 40px;
+        }
+        .hx632 .blue_block h3{
+            font-size: 18px;
+        }
+        .hx632 .blue_block p{
+            font-size: 14px;
+        }
+        .hx632 .blue_block .blue_block_text{
+            gap: 18px;
+        }
+    }
+    @media screen and (min-width:1366px){
+
+        .hx632 .blue_block{
+            padding: 0 166px;
+            gap: 40px;
+        }
+        .hx632 .blue_block h3{
+            font-size: 20px;
+        }
+        .hx632 .blue_block .blue_block_text{
+            gap: 18px;
+        }
+    }

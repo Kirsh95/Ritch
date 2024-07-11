@@ -1,0 +1,538 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .EcoFlow img {
+      margin: 0;
+    }
+    .EcoFlow p {
+      padding: 0;
+      margin: 0;
+      color: rgba(0, 0, 0, 0.70);
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .EcoFlow a{
+        color: #000;
+    }
+    .EcoFlow h3 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+    .EcoFlow h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .EcoFlow ul {
+      list-style: none;
+      margin: 0;
+    }
+    .EcoFlow ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 130%;
+    }
+    .EcoFlow {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .EcoFlow ul {
+      padding: 0;
+    }
+    .EcoFlow ul li {
+      padding: 0;
+    }
+    .EcoFlow div {
+      padding: 0;
+    }
+    div.EcoFlow {
+      padding: 0;
+    }
+    .EcoFlow br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .EcoFlow{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .EcoFlow img{
+      width: 100%;
+      display: block;
+    }
+
+
+    /* PowerOcean */
+
+    .EcoFlow .PowerOcean {
+        padding: 40px 0;
+    }
+    .EcoFlow .PowerOcean .PowerOcean_text{ 
+        padding: 0 16px 24px;
+        text-align: center;
+    }
+
+    @media screen and (min-width:666px) {
+        .EcoFlow p {
+            font-size: 16px;
+        }
+        .EcoFlow h3 {
+            font-size: 24px;
+        }
+
+        body{
+            padding: 0 24px;
+        }
+        .EcoFlow .PowerOcean .PowerOcean_text{ 
+            padding: 0 32px 24px;
+            text-align: center;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        body{
+            padding: 0 28px;
+        }
+        .EcoFlow p {
+            font-size: 18px;
+        }
+         .EcoFlow h3 {
+            font-size: 28px;
+        }
+        .EcoFlow .PowerOcean .PowerOcean_text{ 
+            padding: 0 40px 40px;
+            text-align: center;
+        }
+        .EcoFlow .PowerOcean {
+            padding: 60px 0;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .EcoFlow p {
+            font-size: 20px;
+        }
+         .EcoFlow h3 {
+            font-size: 36px;
+        }
+        .EcoFlow .PowerOcean .PowerOcean_text{ 
+            padding: 0 60px 40px;
+            text-align: center;
+        }
+        .EcoFlow .PowerOcean {
+            padding: 80px 0;
+        }
+    }
+
+    /* power */
+
+
+    .EcoFlow .power{
+        padding: 40px 16px;
+        text-align: center;
+        display: grid;
+        gap: 24px;
+    }
+
+    .EcoFlow .power .power_text{
+        display: grid;
+        gap: 24px;
+    }
+
+    @media screen and (min-width:666px) {
+        .EcoFlow .power{
+            padding: 40px 32px;
+        }
+        .EcoFlow .power .power_text{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .EcoFlow .power{
+            padding: 60px 40px;
+            gap: 40px;
+        }
+        .EcoFlow .power .power_text{
+            gap: 40px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .EcoFlow .power{
+            padding: 80px 60px;
+        }
+    }
+
+    /* bypass_line */
+
+    .EcoFlow .bypass_line .bypass_line_text{
+        padding: 10px 16px 40px;
+        text-align: center;
+        background: #000007;
+    }
+
+    .EcoFlow .bypass_line .bypass_line_text p{
+        color: rgba(255, 255, 255, 0.70);
+    }
+    .EcoFlow .bypass_line .bypass_line_text h3{
+        color: #FFF;;
+    }
+
+    @media screen and (min-width:666px) {
+        .EcoFlow .bypass_line .bypass_line_text{
+            padding: 10px 32px 40px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .EcoFlow .bypass_line .bypass_line_text{
+            padding: 10px 40px 60px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .EcoFlow .bypass_line .bypass_line_text{
+            padding: 20px 60px 80px;
+        }
+    }
+
+    /* aerosol_module */
+
+    .EcoFlow .aerosol_module{
+        padding: 40px 16px;
+        text-align: center;
+        display: grid;
+        gap: 24px;
+    }
+    .EcoFlow .aerosol_module img{
+        border-radius: 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        .EcoFlow .aerosol_module{
+            padding: 40px 65px;
+        }
+        .EcoFlow .aerosol_module .aerosol_module_text{
+            padding: 0 20px;
+        }   
+    }
+
+    @media screen and (min-width:1024px) {
+        .EcoFlow .aerosol_module{
+            padding: 60px 89px;
+            gap: 40px;
+        }
+        .EcoFlow .aerosol_module .aerosol_module_text{
+            padding: 0 80px;
+        }   
+    }
+
+    @media screen and (min-width:1366px) {
+        .EcoFlow .aerosol_module{
+            padding: 80px 142px;
+        }
+        .EcoFlow .aerosol_module .aerosol_module_text{
+            padding: 0 125px;
+        }   
+    }
+
+
+    /* battery_heating */
+
+
+    .EcoFlow .battery_heating .battery_heating_text{
+        padding: 40px 16px 10px;
+        background:#000007;
+        text-align: center;
+    }
+
+    .EcoFlow .battery_heating .battery_heating_text p{
+        color: rgba(255, 255, 255, 0.70);
+    }
+    .EcoFlow .battery_heating .battery_heating_text h3{
+        color: #FFF;;
+    }
+
+    @media screen and (min-width:666px) {
+        .EcoFlow .battery_heating .battery_heating_text{
+            padding: 40px 32px 10px;
+        }
+        .EcoFlow .battery_heating .battery_heating_text p{
+            padding: 0 100px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .EcoFlow .battery_heating .battery_heating_text{
+            padding: 60px 40px 10px;
+        }
+        .EcoFlow .battery_heating .battery_heating_text p{
+            padding: 0 200px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .EcoFlow .battery_heating .battery_heating_text{
+            padding: 80px 60px 20px;
+        }
+        .EcoFlow .battery_heating .battery_heating_text p{
+            padding: 0 335px;
+        }
+    }
+
+
+    /* multiple_communication */
+
+
+    .EcoFlow .multiple_communication{
+        padding: 60px 16px;
+        text-align: center;
+        display: grid;
+        gap: 24px;
+    }
+
+    .EcoFlow .multiple_communication_block{
+        display: grid;
+        gap: 16px;
+        text-align: left;
+    }
+    .EcoFlow .multiple_communication_block .multiple_communication_left ul,
+    .EcoFlow .multiple_communication_block .multiple_communication_right ul{
+        display: grid;
+        gap: 16px;
+        
+    }
+    .EcoFlow .multiple_communication_block .multiple_communication_left ul li,
+    .EcoFlow .multiple_communication_block .multiple_communication_right ul li{
+        background: #F7F7F7;
+        border-radius: 40px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 40px auto;
+        padding:12px 10px;
+        align-items: center;
+
+    }
+
+    .EcoFlow .multiple_communication_block .multiple_communication_left ul p,
+    .EcoFlow .multiple_communication_block .multiple_communication_right ul p{
+        color: #000;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .EcoFlow .multiple_communication_block .multiple_communication_left .number,
+    .EcoFlow .multiple_communication_block .multiple_communication_right .number{
+        padding:  4px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        color: #FFF;
+        background: #000;
+        border-radius: 78px;
+    }
+
+    @media screen and (min-width:666px) {
+        .EcoFlow .multiple_communication{
+             padding: 60px 32px 24px;     
+
+        }
+        .EcoFlow .multiple_communication_block{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .EcoFlow .multiple_communication_block .multiple_communication_left ul li,
+        .EcoFlow .multiple_communication_block .multiple_communication_right ul li{
+        gap: 10px;
+        grid-template-columns: 40px auto;
+        padding:16px 14px;
+        }   
+    }
+
+    @media screen and (min-width:1024px) {
+        .EcoFlow .multiple_communication{
+             padding: 60px 40px 24px;     
+        }
+        .EcoFlow .multiple_communication_block .multiple_communication_left ul li,
+        .EcoFlow .multiple_communication_block .multiple_communication_right ul li{
+        gap: 10px;
+        grid-template-columns: 40px auto;
+        padding:16px 14px;
+        }   
+    }
+
+    @media screen and (min-width:1366px) {
+        .EcoFlow .multiple_communication{
+            padding: 80px 60px 40px;     
+            gap: 40px;
+       }
+
+       .EcoFlow .multiple_communication_block .multiple_communication_left ul li,
+       .EcoFlow .multiple_communication_block .multiple_communication_right ul li{
+            padding:24px 22px;
+       }
+       .EcoFlow .multiple_communication_block .multiple_communication_left ul p,
+       .EcoFlow .multiple_communication_block .multiple_communication_right ul p{
+           font-size: 20px;
+       }
+       .EcoFlow .multiple_communication_block .multiple_communication_left .number,
+       .EcoFlow .multiple_communication_block .multiple_communication_right .number{
+        width: 35px;
+        height: 34px;
+       }
+
+    }
+
+    /* increased_security */
+
+    .EcoFlow .increased_security{
+        display: grid;
+        gap: 24px;
+        text-align: center;
+        padding: 0px 16px 60px;
+        box-shadow: #0000001c -1px 1px 2px;
+        margin-bottom: 40px;
+    }
+    .EcoFlow .increased_security h3{
+        margin-bottom: 0;
+
+    }
+    .EcoFlow .increased_security .foonter{
+        padding: 0 20px;
+    }
+
+    @media screen and (min-width:666px) {
+        .EcoFlow .increased_security{
+            padding: 0px 32px 60px;
+            box-shadow: none;
+            margin-bottom: 0;
+        }
+
+    }
+    @media screen and (min-width:1024px) {
+        .EcoFlow .increased_security{
+            padding: 0px 60px 80px;
+            gap: 40px;
+        }
+        .EcoFlow .increased_security .foonter{
+            padding: 0px;
+        }
+
+    }
+
+    @media screen and (min-width:1366px) {
+        .EcoFlow .increased_security{
+            padding: 0px 40px 60px;
+            box-shadow: none;
+            margin-bottom: 0;
+        }
+        .EcoFlow .increased_security .foonter{
+            padding: 0px;
+        }
+
+    }
+
+
+
+
+
+
+
+    /* specifications */
+
+    .EcoFlow .specifications_container {
+        display: grid;
+        
+        
+    }
+    .EcoFlow .specifications_container .items_specific{
+        padding: 8px 24px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+    }
+    .EcoFlow .specifications_container  .item_2{
+        gap: 8px;
+        display: grid;
+    }   
+
+    .EcoFlow .specifications_container .items_specific p{
+        font-size: 12px;
+        color: #000;
+    }
+
+    .EcoFlow .specifications_container .items_specific br{
+        display: block;
+    }   
+
+    .EcoFlow .specifications_container .grey_item{
+        background: #F2F2F2;
+    }
+    .EcoFlow .specifications .two_container{
+        padding-bottom: 24px;
+    }
+
+    .EcoFlow .specifications_container .item_4{
+        border-top: 2px solid #000;
+        padding: 16px 24px 8px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .EcoFlow .specifications_container .items_specific p{
+            font-size: 16px;
+        }
+      
+        .EcoFlow .specifications_container .items_specific{
+            padding: 8px 24px;
+        }
+        
+        
+    }
+
+    @media screen and (min-width:1024px) {
+        .EcoFlow .specifications_container .items_specific p{
+            font-size: 18px;
+        }
+  
+        .EcoFlow .specifications_container .items_specific{
+            padding: 8px 24px;
+        }
+        
+        .EcoFlow .specifications{
+            padding: 60px 0;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .EcoFlow .specifications_container .items_specific p{
+            font-size: 24px;
+        }
+       
+        .EcoFlow .specifications_container .items_specific{
+            padding: 8px 24px;
+        }
+        .EcoFlow .specifications h3{
+            margin-bottom: 40px;
+        }
+
+    }

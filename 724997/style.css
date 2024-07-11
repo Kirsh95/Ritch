@@ -1,0 +1,1193 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .WaterStop img {
+      margin: 0;
+    }
+    .WaterStop p {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .WaterStop h3 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+
+    .WaterStop .stop_title{
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .WaterStop h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .WaterStop ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .WaterStop ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .WaterStop {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .WaterStop ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .WaterStop ul li {
+      padding: 0;
+    }
+    .WaterStop div {
+      padding: 0;
+    }
+    div.WaterStop {
+      padding: 0;
+    }
+    .WaterStop br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .WaterStop{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .WaterStop img{
+      width: 100%;
+      display: block;
+    }
+
+
+    /* no_problems */
+
+
+    .WaterStop .no_problems{
+        display: grid;
+        gap: 40px;
+        padding: 40px 16px;
+        text-align: center;
+    }
+    .WaterStop .no_problems img{
+        border-radius: 12px;
+    }
+    .WaterStop .no_problems .no_problems_text_top{
+        padding: 0 20px;
+    }
+
+    @media screen and (min-width:666px) {
+        .WaterStop h3 {
+            font-size: 24px;
+        }
+    .WaterStop .no_problems{
+        padding: 40px 32px;
+    }
+    .WaterStop .no_problems .no_problems_text_bottom{
+        padding: 0 57px;
+    }
+
+        
+    }
+
+    @media screen and (min-width:1024px) {
+        .WaterStop p {
+            font-size: 18px;
+        }
+
+        .WaterStop h3 {
+            font-size: 34px;
+            margin-bottom: 14px;
+        }
+
+        .WaterStop .stop_title{
+            font-size: 34px;
+        }
+
+        .WaterStop .no_problems{
+            padding: 48px 40px;
+            gap: 48px;
+        }
+
+        .WaterStop .no_problems .no_problems_text_bottom{
+            padding: 0 48px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .WaterStop p {
+            font-size: 22px;
+        }
+
+        .WaterStop .stop_title{
+            font-size: 48px;
+        }
+
+        .WaterStop h3 {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+
+        .WaterStop .no_problems{
+            padding: 60px;
+            gap: 60px;
+        }
+
+        .WaterStop .no_problems .no_problems_text_bottom{
+            padding: 0 106px;
+        }
+    }
+
+    /* puzzle */
+
+
+    .WaterStop .puzzle{
+        padding: 0 16px;
+        display: grid;
+        gap: 16px;
+    }
+    .WaterStop .puzzle .puzzle_top{
+        display: grid;
+        gap: 16px;
+    }
+    .WaterStop .puzzle .puzzle_title{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .WaterStop .puzzle .puzzle_description{
+        font-size: 10px;
+    }
+    .WaterStop .puzzle .pipe_description{
+        font-size: 9.4px;
+        margin-top: 8px;
+    }
+
+    .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left .mounting_positions .puzzle_title{
+        font-size: 16px;
+    }
+
+    .WaterStop .puzzle .puzzle_block_one{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 16px;
+    }
+
+    .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left{
+        display: grid;
+        gap: 16px;
+        text-align: center;
+    }
+    .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left .mounting_positions{
+        padding: 12px 0 0;
+        border-radius: 12px;
+    }
+    .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left .mounting_positions img{
+        width: 124px;
+        margin: 0 auto;
+    }
+
+    .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left .five_seconds{
+        background: #F7F7F7;
+        border-radius: 12px;
+        display: grid;
+        gap: 10px;
+        padding: 12px;
+    }
+    .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left .five_seconds img{
+        width: 32px;
+        margin: 0 auto;
+    }
+
+    .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_right {
+        padding:12px;
+        background: #F7F7F7;
+        border-radius: 12px;
+        gap: 12.65px;
+        display: grid;
+        align-items: center;
+        text-align: center;
+    }
+
+    .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_right .bonomi_text .puzzle_title{
+        margin-bottom: 4px;
+    }
+    .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_right img{
+        margin: 0 auto;
+        width: 31px;
+    }
+
+
+
+    .WaterStop .puzzle .puzzle_block_two{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 16px;
+    }
+    .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left{
+        display: grid;
+        gap: 16px;
+    }
+    .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left .communication{
+        text-align: center;
+        background: #F7F7F7;
+        border-radius: 12px;
+        padding: 12px;
+        display: flex;
+        align-items: center;
+    }
+    .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left .cold_and_hot{
+        text-align: center;
+        background: #F7F7F7;
+        border-radius: 12px;
+        padding: 12px;
+        display: grid;
+        align-items: center;
+    }
+
+    .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left .cold_and_hot img{
+        width: 81px;
+        margin: 0 auto;
+    }
+    .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left .batteries{
+        text-align: center;
+        background: #F7F7F7;
+        border-radius: 12px;
+        padding: 12px;
+        display: grid;
+        align-items: center;
+    }
+    .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left .batteries img{
+        width: 32px;
+        margin: 0 auto;
+    }
+
+
+    .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right{
+        display: grid;
+        gap: 16px;
+    }
+
+    .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .jeweller{
+        text-align: center;
+        background: #F7F7F7;
+        border-radius: 12px;
+        padding: 12px;
+        display: grid;
+        align-items: center;
+    }
+    .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .jeweller .puzzle_title{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .jeweller img{
+        width: 32px;
+        margin: 0 auto;
+    }
+
+    .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .mounting{
+        text-align: center;
+        background: #F7F7F7;
+        border-radius: 12px;
+        padding: 12px;
+        display: grid;
+        align-items: center;
+    }
+    
+    .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .mounting img{
+        width: 32px;
+        margin: 0 auto;
+    }
+    .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .prevention{
+        text-align: center;
+        background: #F7F7F7;
+        border-radius: 12px;
+        padding: 12px;
+        display: grid;
+        align-items: center;
+    }
+
+    .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .prevention img{
+        width: 32px;
+        margin: 0 auto 10px;
+    }
+
+
+
+    .WaterStop .puzzle .puzzle_block_three{
+        display: grid;
+        gap: 16px;
+    }
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left{
+        display: grid;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .automation{
+        text-align: center;
+        background: #F7F7F7;
+        border-radius: 12px;
+        padding: 12px;
+        display: grid;
+        align-items: center;
+    }
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .automation img{
+        width: 32px;
+        margin: 0 auto 4px;
+    }
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .automation .puzzle_title{
+        font-size: 16px;
+    
+    }
+    
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .unauthorized_dismantling{
+        text-align: left;
+        background: #F7F7F7;
+        border-radius: 12px;
+        padding: 12px 0 12px 12px;
+        display: grid;
+        grid-template-columns: auto 72px;
+        align-items: center;
+    }
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .unauthorized_dismantling img{
+        width: 72px;
+        margin-left:auto;
+    }
+
+
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .button_important{
+        text-align: left;
+        padding: 12px;
+        display: grid;
+        gap: 8px;
+        grid-template-columns:84px auto;
+        align-items: center;
+    }
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .button_important img{
+        width: 84px;
+        margin-left:auto;
+    }
+
+
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center{
+        display: grid;
+        gap: 16px;
+    }
+
+
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments{
+        text-align:center;
+        background: #F7F7F7;
+        border-radius: 12px;
+        padding: 12px;
+        display: grid;
+        gap: 8px;
+        align-items: center;
+
+    }
+
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .puzzle_title{
+        font-size: 16px;
+    }
+
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments img{
+        width: 19px;
+        margin-left:auto;
+    }
+
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .appointments_container{
+        display: grid;
+        position: relative;
+        gap: 5.4px;
+        padding: 0 40px;
+    }
+
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .app_item{
+        display: grid;
+        padding: 5.2px;
+        grid-template-columns: 19px auto;
+        background: #EDEDED;
+        align-items: center;
+        gap: 5.2px;
+        position: relative;
+        border-radius: 8.3px;
+    }
+
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .app_item .app_item_text{
+        display: grid;
+        text-align: left;
+    }
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .app_item .puzzle_title{
+        font-size: 10px;
+    }
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .app_item .puzzle_description{
+        font-size: 6px;
+    }
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .app_item .app_clock {
+        position: absolute;
+        top: 5.2px;
+        right: 5.2px;
+        color: #919191;
+    }
+
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .remote_control{
+        background: #F7F7F7;
+        padding: 12px 76px;
+        border-radius: 12px;
+        display: grid;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth{
+        display: grid;
+        gap: 16px;
+    } 
+
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .feeding{
+        text-align:center;
+        background: #F7F7F7;
+        border-radius: 12px;
+        padding: 12px;
+        display: grid;
+        gap: 8px;
+        align-items: center;
+    }
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .overheat_warning img{
+        margin: 0 auto;
+        width: 32px;
+    }   
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .overheat_warning{
+        text-align:center;
+        background: #F7F7F7;
+        border-radius: 12px;
+        padding: 12px;
+        display: grid;
+        gap: 8px;
+        align-items: center;
+    }
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .feeding img{
+        margin: 0 auto;
+        width: 32px;
+    }   
+
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .feeding .puzzle_title,
+    .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .overheat_warning .puzzle_title{
+        font-size: 16px;
+
+    }
+
+    @media screen and (min-width:666px) {
+        .WaterStop .puzzle{
+            padding: 0 32px;
+        }
+        .WaterStop .puzzle .puzzle_top{
+            display: grid;
+            gap: 16px;
+            grid-template-columns: 1fr 1.5fr;
+        }
+
+        .WaterStop .puzzle .puzzle_block_two {
+            grid-template-columns: 1fr 1.3fr;
+        }
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .mounting,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .prevention{
+            grid-template-columns: 40px auto;
+            text-align: left;
+            padding-right: 20px;
+            gap: 10px;
+        }
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .mounting img,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .jeweller img,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .prevention img,
+        .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left .five_seconds img,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .feeding img,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .overheat_warning img{
+            width: 40px;
+            margin-bottom: 0;
+        }
+    
+        .WaterStop .puzzle .puzzle_block_three{
+            grid-template-columns: repeat(3,1fr);
+        }           
+
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .appointments_container{
+            padding: 0;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .remote_control{
+            padding: 12px 36px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .feeding,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .overheat_warning{
+            align-items: stretch;
+            gap: 0;
+        }
+    
+    }
+
+
+    @media screen and (min-width:1024px) {
+        .WaterStop .puzzle{
+            padding: 0 40px;
+            gap: 24px;
+        }
+        .WaterStop .puzzle .puzzle_block_three,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left,
+        .WaterStop .puzzle .puzzle_block_two,
+        .WaterStop .puzzle .puzzle_block_one,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right,
+        .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left{
+            gap: 24px;
+        }
+
+        .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left .mounting_positions .puzzle_title,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .jeweller .puzzle_title,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .automation .puzzle_title,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .puzzle_title,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .feeding .puzzle_title, .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .overheat_warning .puzzle_title{
+            font-size: 22px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .app_item .puzzle_description{
+            font-size: 8px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .app_item .puzzle_title{
+            font-size: 12px;
+        }
+        .WaterStop .puzzle .puzzle_title{
+            font-size: 16px;
+        }
+        .WaterStop .puzzle .puzzle_description{
+            font-size: 14px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments img{
+            width: 26px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .app_item{
+            grid-template-columns: 26px auto;
+        }
+
+        .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_right img{
+            width: 42px;
+        }
+        .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_right,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left .communication,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left .cold_and_hot,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left .batteries,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .jeweller,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .mounting,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .prevention,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .automation,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .button_important,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .feeding,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .overheat_warning,
+        .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left .five_seconds,
+        .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left .mounting_positions{
+            padding: 18px;
+        }
+
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .automation img{
+            width: 56px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .unauthorized_dismantling{
+            padding: 18px 0 18px 18px;
+            grid-template-columns: auto 101px;
+        }
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left .cold_and_hot img{
+            width: 109px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .unauthorized_dismantling img{
+            width: 101px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .button_important{
+            grid-template-columns: 114px auto;
+            gap: 12px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .button_important img{
+            width: 114px;
+        }
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .mounting img, .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .jeweller img, .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .prevention img, .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left .five_seconds img, .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .feeding img, .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .overheat_warning img,.WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left .batteries img{
+            width: 56px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .remote_control{
+            padding: 18px 50px;
+        }
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .mounting, .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .prevention{
+            grid-template-columns: 56px auto;
+        }
+        
+    }
+
+
+    @media screen and (min-width:1366px) {
+        .WaterStop .puzzle{
+            padding: 0 60px;
+        }
+        .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_right,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left .communication,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left .cold_and_hot,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left .batteries,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .jeweller,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .mounting,
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .prevention,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .automation,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .button_important,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .feeding,
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .overheat_warning,
+        .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left .five_seconds
+        {
+            padding: 24px;
+        }
+        .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left .mounting_positions{
+            padding: 14px;
+        }
+
+        .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left .mounting_positions .puzzle_title, .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .jeweller .puzzle_title, .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .automation .puzzle_title, .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .puzzle_title, .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .feeding .puzzle_title, .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .overheat_warning .puzzle_title{
+            font-size: 32px;
+        }
+        .WaterStop .puzzle .puzzle_title{
+            font-size: 22px;
+        }
+        .WaterStop .puzzle .puzzle_description{
+            font-size: 18px;
+        }
+        .WaterStop .puzzle .pipe_description{
+            font-size: 18px
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .automation img, .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .mounting img, .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .jeweller img, .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .prevention img, .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_left .five_seconds img, .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .feeding img, .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_rigth .overheat_warning img, .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_left .batteries img{
+            width: 80px;
+        }
+        .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .mounting, .WaterStop .puzzle .puzzle_block_two .puzzle_block_two_right .prevention{
+            grid-template-columns: 80px auto;
+        }
+        .WaterStop .puzzle .puzzle_block_one .puzzle_block_one_right img{
+            width: 59px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .unauthorized_dismantling {
+            padding: 24px 0 24px 24px;
+            grid-template-columns: auto 140px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .unauthorized_dismantling img{
+            width: 140px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .button_important{
+            grid-template-columns: 160px auto;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_left .button_important img{
+            width: 160px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .app_item{
+            padding: 10.4px;
+            grid-template-columns: 40px auto;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments img{
+            width: 40px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .app_item .puzzle_description{
+            font-size: 12px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .app_item .puzzle_title{
+            font-size: 16px;
+        }
+        .WaterStop .puzzle .puzzle_block_three .puzzle_block_three_center .appointments .app_item .app_clock{
+            top: 10.4px;
+            right: 10.4px;
+        }
+    }
+
+
+
+    /* risk_flooding */
+
+
+    .WaterStop .risk_flooding{
+        padding: 40px 0 0;
+        text-align: center;
+    }
+
+    .WaterStop .risk_flooding .risk_flooding_container{
+        display: grid;
+        gap: 16px;
+        padding-top: 30px;
+        padding: 0 16px;
+    }
+
+    .WaterStop .risk_flooding .risk_flooding_container .item_risk{
+        position: relative;
+
+    }
+    .WaterStop .risk_flooding .risk_flooding_container .item_risk .risk_text{
+        color: #fff;
+        position: absolute;
+        bottom: 24px;
+        left: 24px;
+        font-weight: 500;
+
+    }
+    .WaterStop .risk_flooding .risk_flooding_container .item_risk img{
+        border-radius: 12px;
+    }
+
+    .WaterStop .risk_flooding .risk_flooding_container div:nth-child(1){
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 52.85%, #000 100%), url("https://i.citrus.world/uploads/content/product-photos/kirsh/724997/House%20ajax%20mark%201.webp?_t=1700552654"), lightgray 50% / cover no-repeat;        
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 12px;
+    }
+
+    .WaterStop .risk_flooding .risk_flooding_container div:nth-child(2){
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 52.85%, #000 100%), url("https://i.citrus.world/uploads/content/product-photos/kirsh/724997/House%20ajax%20mark%202.webp?_t=1700552654"), lightgray 50% / cover no-repeat;        
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 12px;
+    }
+    .WaterStop .risk_flooding .risk_flooding_container div:nth-child(3){
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 52.85%, #000 100%), url("https://i.citrus.world/uploads/content/product-photos/kirsh/724997/House%20ajax%20mark%203.webp?_t=1700552654"), lightgray 50% / cover no-repeat;        
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 12px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .WaterStop .risk_flooding{
+            padding: 40px 0px 0; 
+        }
+        .WaterStop .risk_flooding .risk_flooding_container{
+            grid-template-areas: 
+            "a b"
+            "a c";
+            grid-template-columns: 1.4fr 1fr;
+            padding: 0 32px;
+        }
+        .WaterStop .risk_flooding .risk_flooding_container div:nth-child(1){
+            grid-area: a;
+            background-size: cover;
+        }
+    
+        .WaterStop .risk_flooding .risk_flooding_container div:nth-child(2){
+            grid-area: b;
+        }
+        .WaterStop .risk_flooding .risk_flooding_container div:nth-child(3){
+            grid-area: c;
+        }
+        .WaterStop .risk_flooding .risk_flooding_container .item_risk .risk_text{
+            font-size: 16px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .WaterStop .risk_flooding{
+            padding: 48px 0 0; 
+        }
+        .WaterStop .risk_flooding .risk_flooding_container{
+            padding-top: 38px;
+            padding: 38px 40px 0;
+            gap: 24px;
+         }
+         .WaterStop .risk_flooding .risk_flooding_container .item_risk .risk_text{
+            font-size: 22px;
+            bottom: 28px;
+            left: 28px;
+        }
+
+    }
+    @media screen and (min-width:1366px) {
+        .WaterStop .risk_flooding{
+            padding: 60px 0 0; 
+        }
+
+        .WaterStop .risk_flooding .risk_flooding_container{
+            padding: 48px 60px;
+            gap: 24px;
+         }
+
+         .WaterStop .risk_flooding .risk_flooding_container .item_risk .risk_text{
+            font-size: 32px;
+            bottom: 40px;
+            left: 40px;
+        }
+
+    }
+
+
+    /* block_left */
+
+    .WaterStop .block_left{
+        padding: 40px 16px;
+        display: grid;
+        gap: 16px;
+    }
+    .WaterStop .block_left .block_left_text{
+        text-align: left;
+    }
+    .WaterStop .block_left .block_left_text p:nth-child(3){
+        margin-top: 10px;
+    }
+    .WaterStop .block_left img{
+        border-radius: 12px;
+    }
+    @media screen and (min-width:666px) {
+        .WaterStop .block_left{
+            grid-template-columns: 1fr 1.54fr;
+            align-items: center;
+            padding: 40px 32px;
+            gap: 0;
+        }
+        .WaterStop .block_left .block_left_text{
+            padding-left: 24px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .WaterStop .block_left{
+            grid-template-columns: 1fr 1.5fr;
+            align-items: center;
+            padding: 48px 40px;
+            gap: 0;
+        }
+        .WaterStop .block_left .block_left_text{
+            padding-left: 29px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .WaterStop .block_left{
+            grid-template-columns: 1fr 1.47fr;
+            align-items: center;
+            padding: 60px;
+            gap: 0;
+        }
+        .WaterStop .block_left .block_left_text{
+            padding-left: 40px;
+        }
+    }
+
+
+
+
+    /* block_rigth */
+    .WaterStop .block_rigth{
+        padding: 40px 16px;
+        display: grid;
+        gap: 16px;
+    }
+    .WaterStop .block_rigth img{
+        border-radius: 12px;
+    }
+    .WaterStop .block_rigth .block_rigth_text{
+        text-align: left;
+    }
+    @media screen and (min-width:666px) {
+        .WaterStop .block_rigth{
+            grid-template-columns:1.54fr 1fr;
+            align-items: center;
+            padding: 40px 32px;
+            gap: 0;
+        }
+        .WaterStop .block_rigth .block_rigth_text{
+            padding-right: 24px;
+            grid-column-start: 1;
+            grid-row-start: 1;
+        }
+    }
+    
+    @media screen and (min-width:1024px) {
+        .WaterStop .block_rigth{
+            grid-template-columns:1.55fr 1fr;
+            align-items: center;
+            padding: 48px 40px;
+            gap: 0;
+        }
+        .WaterStop .block_rigth .block_rigth_text{
+            padding-right: 28px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .WaterStop .block_rigth{
+            grid-template-columns:1.47fr 1fr;
+            align-items: center;
+            padding:60px;
+            gap: 0;
+        }
+        .WaterStop .block_rigth .block_rigth_text{
+            padding-right: 40px;
+        }
+    }
+
+
+    /* center_block */
+
+    .WaterStop .center_block{
+        padding: 40px 16px;
+        display: grid;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .WaterStop .center_block img{
+        border-radius: 12px;
+    }
+
+
+    .WaterStop .center_block .center_container{
+        display: grid;
+        gap: 16px;
+    }
+
+    .WaterStop .center_block .center_container .center_item{
+        background: #F7F7F7;
+        border-radius: 12px;
+        display: grid;
+        gap: 20px;
+        padding: 28px;
+    }
+    .WaterStop .center_block .center_container .center_item p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+
+    .WaterStop .center_block .center_container .center_item img{
+        width: 48px;
+        margin: 0 auto;
+    }
+
+
+    @media screen and (min-width:666px) {
+         .WaterStop .center_block{
+            padding: 40px 32px;
+         }
+         .WaterStop .center_block .center_block_text{
+            padding: 0 58px;
+         }
+
+         .WaterStop .center_block .center_container{
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+         }
+
+         .WaterStop .center_block .center_container .center_item{
+            padding: 28px 15px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+         .WaterStop .center_block{
+            padding: 48px 40px;
+            gap: 48px;
+         }
+         .WaterStop .center_block .center_block_text{
+            padding: 0 60px;
+         }
+         .WaterStop .center_block .center_container{
+            gap: 10px;
+         }
+         .WaterStop .center_block .center_container .center_item p{
+            font-size: 22px;
+        }
+         .WaterStop .center_block .center_container .center_item{
+            padding: 48px 24px;
+        }
+        .WaterStop .center_block .center_container .center_item img{
+            width: 72px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+         .WaterStop .center_block{
+            padding: 60px 60px;
+            gap: 60px;
+         }
+         .WaterStop .center_block .center_block_text{
+            padding: 0 100px;
+         }
+         .WaterStop .center_block .center_container{
+            gap: 10px;
+         }
+         .WaterStop .center_block .center_container .center_item p{
+            font-size: 32px;
+        }
+         .WaterStop .center_block .center_container .center_item{
+            padding: 60px 0px;
+            gap: 40px;
+            border-radius: 16px;
+        }
+        .WaterStop .center_block .center_container .center_item img{
+            width: 100px;
+        }
+    }
+
+
+    /* puzzle_bottom */
+
+    .WaterStop .puzzle_bottom_block{
+        display: grid;
+        gap: 16px;
+        padding: 0 16px 10px;
+    }
+    .WaterStop .puzzle_bottom_block p{
+        font-size: 16px;
+    }
+
+    .WaterStop .puzzle_bottom_block div{
+        border-radius: 12px;
+    }
+
+    .WaterStop .puzzle_bottom_block .block_one{
+        background: #F7F7F7;
+        display: grid;
+        gap: 20px;
+        text-align: center;
+        padding: 28px 45px;
+        grid-area: a;
+    }
+
+    .WaterStop .puzzle_bottom_block .block_one img{
+        width: 110px;
+        margin: 0 auto;
+    }
+
+    .WaterStop .puzzle_bottom_block .block_two{
+        display: grid;
+        gap: 20px;
+        text-align: center;
+        padding-bottom: 28px;
+        grid-area: b;
+
+    }
+
+    .WaterStop .puzzle_bottom_block .block_two img{
+        border-radius: 12px;
+    }
+
+    .WaterStop .puzzle_bottom_block .block_tree{
+        display: grid;
+        gap: 20px;
+        text-align: center;
+        padding-bottom: 28px;
+        grid-area: c;
+
+    }
+
+    .WaterStop .puzzle_bottom_block .block_tree img{
+        border-radius: 12px;
+    }
+
+    .WaterStop .puzzle_bottom_block .block_four{
+        display: grid;
+        gap: 20px;
+        background: #F7F7F7;
+        text-align: center;
+        padding: 28px 45px;
+        grid-area: d;
+
+    }
+
+    .WaterStop .puzzle_bottom_block .block_four img{
+        width: 110px;
+        margin: 0 auto;
+    }
+
+
+    @media screen and (min-width:666px) {
+
+        .WaterStop .puzzle_bottom_block{
+            grid-template-areas: 
+            'a b b'
+            'c c d';
+            gap: 24px;
+            padding: 0 32px 10px;
+        }
+    .WaterStop .puzzle_bottom_block .block_two{
+        gap: 10px;
+    }
+
+
+
+    }
+
+    @media screen and (min-width:1024px) {
+
+        .WaterStop .puzzle_bottom_block{
+            gap: 24px;
+            padding: 0 40px 40px;
+        }
+        .WaterStop .puzzle_bottom_block p{
+            font-size: 22px;
+        }
+        .WaterStop .puzzle_bottom_block .block_one img,
+        .WaterStop .puzzle_bottom_block .block_four img{
+            width: 160px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+
+        .WaterStop .puzzle_bottom_block{
+            gap: 24px;
+            padding: 0 60px 40px;
+        }
+        .WaterStop .puzzle_bottom_block p{
+            font-size: 32px;
+        }
+        .WaterStop .puzzle_bottom_block .block_one img,
+        .WaterStop .puzzle_bottom_block .block_four img{
+            width: 251px;
+        }
+        .WaterStop .puzzle_bottom_block .block_one{
+            padding: 60px 45px;
+            gap: 40px;
+        }
+        .WaterStop .puzzle_bottom_block .block_two{
+            padding-bottom: 60px;    
+            gap: 50px;   
+        }
+        .WaterStop .puzzle_bottom_block .block_four{
+            gap: 40px;
+            padding: 60px 0;
+        }
+        .WaterStop .puzzle_bottom_block .block_tree{
+            gap: 50px;
+            padding-bottom: 60px;
+        }
+
+    }
+
+
+

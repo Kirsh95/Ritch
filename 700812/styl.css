@@ -1,0 +1,745 @@
+  
+  .product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .sonicare img {
+      margin: 0;
+    }
+    .sonicare .description {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .sonicare .title {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .sonicare h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .sonicare ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .sonicare ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .sonicare {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .sonicare ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .sonicare ul li {
+      padding: 0;
+    }
+    .sonicare div {
+      padding: 0;
+    }
+    div.sonicare {
+      padding: 0;
+    }
+    .sonicare br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .sonicare{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .sonicare img{
+      width: 100%;
+      display: block;
+    }
+  
+  
+  /* sonicare */
+  .sonicare .philips_home{
+    position: relative;
+  }
+  .sonicare .philips_home #logo_philips{
+    position: absolute;
+    left: 16px;
+    width: 60px;
+  }
+  .sonicare .philips_home .philips_home_text{
+    display: grid;
+    position: absolute;
+    gap: 5px;
+    left: 16px;
+    bottom: 12px;
+  }
+  .sonicare .philips_home .philips_home_text .description{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .sonicare .philips_home .philips_home_text .title{
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .sonicare .philips_home .title{
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 300;
+  }
+  .sonicare .philips_home .description{
+    font-size: 16px;
+  }
+  @media screen and (min-width:666px) {
+    /* body{
+        padding: 0 24px;
+    } */
+
+    .sonicare .description{
+      font-size: 16px;
+    }
+    .sonicare .title{
+      font-size: 20px;
+    }
+    .sonicare .philips_home .philips_home_text{
+        position: absolute;
+        padding: 0;
+        width: 340px;
+        left: 32px;
+        bottom: 26px;
+        gap: 16px;
+    }
+
+    .sonicare .philips_home .philips_home_text .description{
+        font-size: 18px;
+    }
+    .sonicare .philips_home .philips_home_text .title{
+        font-size: 24px;
+    }
+    .sonicare .philips_home #logo_philips{
+        left: 32px;
+        width: 89px;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .sonicare .description{
+      font-size: 18px;
+    }
+    .sonicare .title{
+      font-size: 24px;
+    }
+    .sonicare .philips_home .philips_home_text .description{
+        font-size: 24px;
+      }
+      .sonicare .philips_home .philips_home_text .title{
+        font-size:32px;
+      }
+    .sonicare .philips_home .philips_home_text{
+      left: 40px;
+      width: 436px;
+      gap: 24px;
+      bottom: 32px;
+    }
+    .sonicare .philips_home #logo_philips{
+        left: 32px;
+        width: 188px;
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .sonicare .description{
+      font-size: 22px;
+    }
+    .sonicare .title{
+      font-size: 32px;
+    }
+
+    .sonicare .philips_home .philips_home_text .description{
+        font-size: 32px;
+      }
+      .sonicare .philips_home .philips_home_text .title{
+        font-size:42px;
+      }
+    .sonicare .philips_home .philips_home_text{
+      left: 60px;
+      width: 611px;
+      gap: 46px;
+      bottom: 50px;
+
+    }
+    .sonicare .philips_home #logo_philips{
+        left: 60px;
+        width: 188px;
+    }
+  }
+
+  /* characteristics */
+  .sonicare .characteristics{
+    padding: 40px 16px 0;
+    display: grid;
+    gap: 24px;
+  }
+  .sonicare .characteristics .characteristics_block{
+    display: grid;
+    gap: 20px;
+  }
+  .sonicare .characteristics .characteristics_item{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 32px auto;
+    gap: 24px;
+  }
+  .sonicare .characteristics .characteristics_text .description{
+    font-size: 16px;
+  }
+  .sonicare .characteristics .characteristics_notes p{
+    font-size: 12px;
+  }
+
+
+  @media screen and (min-width:666px) {
+    .sonicare .characteristics .characteristics_item{
+      align-items: start;
+      grid-template-columns: 32px auto;
+      gap: 24px;
+    }
+    .sonicare .characteristics .characteristics_block{
+      gap:24px;
+      grid-column-start: 2;
+      grid-row-start: 1;
+    }
+    .sonicare .characteristics{
+      grid-template-columns: repeat(2,1fr);
+      padding:32px 32px 0;
+      align-items: center;
+    }
+    .sonicare .characteristics .characteristics_text .description{
+      font-size: 18px;
+    }
+  }
+
+
+
+  @media screen and (min-width:1024px) {
+    .sonicare .characteristics .characteristics_item{
+      align-items: center;
+      grid-template-columns:54px auto;
+    }
+    .sonicare .characteristics{
+      grid-template-columns:1.3fr 1fr;
+      padding: 60px 40px 0;
+      gap: 0px;
+    }
+    .sonicare .characteristics .characteristics_text .description{
+      font-size:22px;
+    }
+
+  }
+
+
+
+  @media screen and (min-width:1366px) {
+    .sonicare .characteristics .characteristics_item{
+      grid-template-columns: 70px auto;
+    }
+
+    .sonicare .characteristics{
+      grid-template-columns:1fr 1.2fr;
+      padding:60px 166px 0;
+    }
+    .sonicare .characteristics .characteristics_text .description{
+      font-size: 22px;
+    }
+
+    .sonicare .characteristics .characteristics_text{
+      gap: 12px;
+    }
+  }
+
+
+  /* characteristics_notes */
+
+
+  .sonicare .characteristics_notes{
+    padding: 40px 16px 24px;
+  }
+
+  .sonicare .characteristics_notes .description{
+    font-size: 12px;
+  } 
+
+  @media screen and (min-width:666px) {
+    .sonicare .characteristics_notes{
+        padding: 32px;
+      }
+  }
+  @media screen and (min-width:1024px) {
+    .sonicare .characteristics_notes{
+        padding: 40px 40px 60px;
+      }
+  }
+  @media screen and (min-width:1366px) {
+    .sonicare .characteristics_notes{
+        padding: 40px 60px 60px;
+      }
+      .sonicare .characteristics_notes .description{
+        font-size: 14px;
+      }
+  }
+
+
+  /* blue_block */
+
+  .sonicare .blue_block{
+    background: rgb(2, 51, 120);
+    padding:12px 10px;
+  }
+  .sonicare .blue_block .title{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  @media screen and (min-width:666px) {
+    
+    .sonicare .blue_block{
+        padding:12px 32.5px;
+      }
+      .sonicare .blue_block .title{
+        font-size: 24px;
+      }
+  }
+  @media screen and (min-width:1024px) {
+    
+    .sonicare .blue_block{
+        padding:24px 40px;
+      }
+      .sonicare .blue_block .title{
+        font-size: 36px;
+      }
+  }
+
+  @media screen and (min-width:1366px) {
+    
+    .sonicare .blue_block{
+        padding:24px 70px;
+      }
+      .sonicare .blue_block .title{
+        font-size: 42px;
+      }
+  }
+
+
+  /* video_block */
+
+  .sonicare .video_block{
+    padding: 16px 16px 24px;
+  }
+
+  @media screen and (min-width:666px) {
+    .sonicare .video_block{
+        padding: 32px;
+      }
+  }
+  @media screen and (min-width:666px) {
+    .sonicare .video_block{
+        padding: 40px;
+      }
+  }
+  @media screen and (min-width:666px) {
+    .sonicare .video_block{
+        padding: 60px;
+      }
+  }
+
+
+  /* pazle_block */
+
+
+  .sonicare .pazle_block{
+    padding: 24px 16px 20px;
+  }
+
+  .sonicare .pazle_block .block_img{
+    padding: 0 50px;
+  }
+
+  .sonicare .pazle_block .title_blue{
+    color: rgb(2, 51, 120);
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+
+  .sonicare .pazle_block .block_text .description{
+    font-size: 16px;
+  }
+
+  .sonicare .pazle_block .item_text .description{
+    font-size: 18px;
+  }
+
+  .sonicare .pazle_block .block_text{
+    display: grid;
+    padding-top: 24px;
+    gap: 20px;
+  }
+  
+
+  @media screen and (min-width:666px) {
+    .sonicare .pazle_block{
+        padding: 32px;
+    }
+    .sonicare .pazle_block .pazle{
+        display: grid;
+        grid-template-columns: 2.9fr 1fr;
+        gap: 16px;
+        align-items: center;
+    }
+    .sonicare .pazle_block .block_img{
+        padding: 0px
+    }
+    .sonicare .pazle_block .block_text{
+        padding-top: 0;
+    }
+    .sonicare .pazle_block .item_text .description{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .sonicare .pazle_block .title_blue {
+        font-size: 24px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+  }
+
+  @media screen and (min-width:1024px) {
+    .sonicare .pazle_block{
+        padding: 32px 0;
+    }   
+    .sonicare .pazle_block .big_pazle{
+        display: grid;
+        padding: 0 16px;
+        align-items: center;
+        grid-template-columns: 4fr 1fr;
+    }
+    .sonicare .pazle_block .item_text .description{
+        font-size: 18px;
+        text-align: left;
+    }
+    .sonicare .pazle_block .block_text .description{
+        font-size: 18px;
+      }
+    .sonicare .pazle_block .item_text{
+        display: grid;
+        gap: 20px;
+    }
+    .sonicare .pazle_block .pazle{
+        grid-template-columns: 2.2fr 1fr;
+        gap: 0;
+
+    }
+    .sonicare .pazle_block .title_blue {
+        padding: 0 40px;
+        font-size: 32px;
+    }
+
+  }
+  
+  @media screen and (min-width:1366px) {
+    .sonicare .pazle_block{
+        padding:60px 0;
+    }
+    
+    .sonicare .pazle_block .big_pazle{
+        padding: 0 113px;
+        gap: 24px;
+        grid-template-columns: 4fr 1fr;
+
+    }
+
+    .sonicare .pazle_block .item_text .description{
+        font-size:22px;
+    }
+    .sonicare .pazle_block .block_text .description{
+        font-size: 22px;
+      }
+    .sonicare .pazle_block .item_text{
+        gap: 40px;
+    }
+    .sonicare .pazle_block .block_text{
+        gap: 40px;
+    }
+    .sonicare .pazle_block .pazle{
+        grid-template-columns: 1.9bjnfvrbnjffr 1fr;
+        gap: 24px;
+    }
+    .sonicare .pazle_block .title_blue {
+        padding: 0 60px;
+        font-size: 42px;
+    }
+  }
+  
+
+  /* block_tile */
+
+
+  .sonicare .block_tile{
+    display: grid;
+    gap: 16px;
+    background: rgb(27, 102, 160);
+    padding: 16px 16px 24px;
+  }
+  .sonicare .block_tile img{
+    border-radius: 10px;
+  }
+
+  .sonicare .block_tile .description,
+  .sonicare .block_tile .title{
+    color: #fff;
+  }
+
+  .sonicare .block_tile .block_left,
+  .sonicare .block_tile .block_right{
+    display: grid;
+    gap: 12px;
+
+  }
+
+
+  @media screen and (min-width:666px) {
+      .sonicare .block_tile{
+        padding: 32px;
+        gap: 32px;
+      }
+      .sonicare .block_tile .block_left,
+      .sonicare .block_tile .block_right{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 24px;
+      }
+      .sonicare .block_tile .block_left .block_left_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+  }
+
+  @media screen and (min-width:1024px) {
+      .sonicare .block_tile{
+        padding: 80px 40px 40px;
+        gap: 80px;
+      }
+      .sonicare .block_tile .block_left,
+      .sonicare .block_tile .block_right{
+        gap: 32px;
+      }
+      .sonicare .block_tile .descriptions{
+        padding-right: 20px;
+      }
+  }
+
+  @media screen and (min-width:1366px) {
+      .sonicare .block_tile{
+        padding: 60px;
+        gap: 60px;
+      }
+      .sonicare .block_tile .descriptions{
+        padding-right: 0px;
+      }
+      .sonicare .block_tile .block_left,
+      .sonicare .block_tile .block_right{
+        gap: 40px;
+      }
+      .sonicare .block_tile .block_left{
+        grid-template-columns:505px auto ;
+      }
+      .sonicare .block_tile .block_right{
+        grid-template-columns:auto 505px ;
+      }
+  }
+
+
+  /* equipment */
+
+  .sonicare .equipment {
+    padding: 16px ;
+    text-align: center;
+  }
+
+  .sonicare .equipment .description{
+    font-size: 22px;
+  }
+
+
+  @media screen and (min-width:666px) {
+
+      .sonicare .equipment {
+        padding: 40px 47px 32px 0;
+        display: grid;
+        gap: 24px;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+        text-align: left;
+      }
+
+      .sonicare .equipment .equipment_img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+      }
+      .sonicare .equipment .description{
+        font-size: 18px;
+      }
+  }
+
+  @media screen and (min-width:1024px) {
+
+      .sonicare .equipment {
+        padding: 40px 76px 60px 0;
+        gap: 32px;
+      }
+      .sonicare .equipment .equipment_img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+      }
+      .sonicare .equipment .description{
+        font-size: 22px;
+      }
+  }
+  @media screen and (min-width:1366px) {
+
+      .sonicare .equipment {
+        grid-template-columns: 705px auto;
+        padding: 0px 166px;
+        gap: 48px;
+      }
+
+      .sonicare .equipment .equipment_img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+      }
+      .sonicare .equipment .description{
+        font-size: 22px;
+      }
+  }
+
+  /* tablet_block*/
+  .sonicare .tablet_block{
+    display: none;
+  }
+  @media screen and (min-width:666px) {
+    .sonicare .tablet_block{
+      display: block;
+    }
+    .sonicare .tablet_block .block_item_1{
+      display: grid;
+      grid-template-columns: repeat(9,1fr);
+      margin-bottom: 18px;
+    }
+    .sonicare .tablet_block .block_item_2{
+      display: grid;
+      text-align: center;
+      grid-template-columns: repeat(4,1fr) 2fr 3fr;
+    }
+    .sonicare .tablet_block .block_item_3{
+      display: grid;
+      text-align: center;
+      grid-template-columns: 4fr 2fr 3fr;
+    }
+    .sonicare .tablet_block .block_item_1 .description{
+      font-size: 12px;
+      text-align: center;
+      margin: 9px 0;
+    }
+    .sonicare .tablet_block .block_item_2 .item_one{
+      padding:16px 4px ;
+    }
+    .sonicare .tablet_block .block_item_3 .item_one{
+      padding:16px 4px ;
+    }
+    .sonicare .tablet_block .block_item_3 .description{
+      font-size: 18px;
+    }
+    .sonicare .tablet_block .title{
+      margin-bottom: 0;
+      color:#023378 ;
+      font-size: 18px;
+    }
+    .sonicare .tablet_block .azure_block{
+      background: rgb(134, 170, 210);
+    }
+    .sonicare .tablet_block  .gay_block{
+      background: rgb(227, 238, 250);
+    }
+    .sonicare .tablet_block .description{
+      font-size: 14px;
+    }
+      
+    .sonicare .tablet_block .block_item_text{
+      padding: 8px 25px;
+    }
+  
+    .sonicare .tablet_block .last .description{
+      font-size: 18px;
+    }
+  }
+
+
+  @media screen and (min-width:1024px) {
+    .sonicare .tablet_block .block_item_1 .description{
+      font-size: 18px;
+    }
+    .sonicare .tablet_block .description{
+      font-size: 18px;
+    }
+    .sonicare .tablet_block .last .description{
+      font-size: 18px;
+    }
+    .sonicare .tablet_block .title{
+      font-size: 24px;
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .sonicare .tablet_block .block_item_1 .description{
+      font-size: 24px;
+    }
+    .sonicare .tablet_block .description{
+      font-size: 24px;
+    }
+    .sonicare .tablet_block .last .description{
+      font-size: 24px;
+    }
+    .sonicare .tablet_block .title{
+      font-size: 24px;
+    }
+  }
+
+  

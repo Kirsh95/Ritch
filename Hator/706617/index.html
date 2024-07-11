@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,600;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <style type="text/css">.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .hator img {
+      margin: 0;
+    }
+    .hator p {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .hator h3 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      margin: 0;
+    }
+    .hator h2 {
+      color: #ffffff;
+      font-family: 'Roboto',sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight:700;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    .hator ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .hator ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .hator {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .hator ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .hator ul li {
+      padding: 0;
+    }
+    .hator div {
+      padding: 0;
+    }
+    div.hator {
+      padding: 0;
+    }
+    .hator br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .hator{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .hator img{
+      width: 100%;
+      display: block;
+    }
+    .hator .hellraizer{
+      background: #000;
+      padding: 40px 13px;
+      text-align: center;
+      display: grid;
+      gap: 20px;
+    }
+    .hator .hellraizer .hellraizer_texr{
+      display: grid;
+      gap: 23px;
+    }
+
+
+.hator .hellraizer .colors_hator{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  align-content: center;
+  justify-content: center;
+  padding: 0 64px;
+  gap: 10px;
+  text-align: center;
+}
+
+.hator .hellraizer .colors_hator .color_img{
+  width: 32px;
+  margin: 0 auto;
+}
+
+
+    .hator .hellraizer h3{
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+      position: relative;
+    }
+    .hator .hellraizer h3::after{
+      position: absolute;
+      content: "";
+      width: 160px;
+      bottom: -8px;
+      left: 50%;
+      transform: translate(-50%);
+      height: 1px;
+      background: rgb(249, 208, 4);
+      ;
+    }
+    .hator .hellraizer p{
+      color: rgb(255, 255, 255);
+      opacity: 0.8;
+    }
+    .hator .hellraizer  .hellraizer_block{
+      padding: 0 3px;
+    }
+    .hator .hellraizer .hellraizer_block_item{
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(2,1fr);
+    }
+    @media screen and (min-width:666px) {
+      .hator .hellraizer{
+        padding: 40px 140px;
+      }
+      .hator .hellraizer .hellraizer_texr{
+        padding: 0 10px;
+      }
+      .hator .hellraizer .colors_hator{
+        padding: 0 121px;
+        gap: 10px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .hator p {
+        font-size: 18px;
+      }
+      .hator .hellraizer h3{
+        font-size: 32px;
+      }
+      .hator .hellraizer h3::after{
+        bottom: -14px;
+        width: 200px;
+        height: 2px;
+      }
+      .hator .hellraizer{
+        padding: 58px 193px;
+        gap: 28px;
+      }
+      .hator .hellraizer .hellraizer_texr{
+        padding: 0 23px;
+        gap: 32px;
+      }
+      .hator .hellraizer .hellraizer_block_item{
+        gap: 14px;
+      }
+      .hator .hellraizer .colors_hator{
+        padding: 0 167px;
+        gap: 14px;
+      }
+      .hator .hellraizer .colors_hator .color_img{
+        width: 40px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .hator p {
+        font-size: 22px;
+      }
+      .hator .hellraizer h3{
+        font-size: 42px;
+      }
+      .hator .hellraizer h3::after{
+        width: 260px;
+        bottom: -16px;
+      }
+      .hator .hellraizer{
+        padding: 80px 272px;
+        gap: 40px;
+      }
+      .hator .hellraizer .hellraizer_texr{
+        padding: 0 68px;
+        gap: 42px;
+      }
+      .hator .hellraizer .hellraizer_block_item{
+        gap: 20px;
+      }
+      .hator .hellraizer .colors_hator{
+        padding: 0 221px;
+        gap: 20px;
+      }
+      .hator .hellraizer .colors_hator .color_img{
+        width: 60px;
+      }
+    }
+    .hator .pazle_block{
+      background-color: #fff;
+      display: grid;
+      gap: 6px;
+    }
+    .hator .pazle_block .block_left{
+      background: rgb(249, 208, 4);
+      display: grid;
+      gap: 6px;
+    }
+    .hator .pazle_block .block_left .block_left_text{
+      background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/706617/ramka-grey-l.svg?_t=1707905933");
+      background-size: cover;
+      display: grid;
+      align-items: center;
+      /* height: 100%; */
+      padding: 40px 16px;
+      text-align: center;
+    }
+    .hator .pazle_block .block_left_text .notes{
+      font-size: 12px;
+    }
+    .hator .pazle_block .block_left .first_left{
+      padding: 40px 25.6px;
+    }
+    .hator .pazle_block .block_rigth{
+      display: grid;
+      gap: 6px;
+    }
+    .hator .pazle_block .block_rigth .block_rigth_text{
+      background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/706617/ramka-yellow-r.svg?_t=1707905933");
+      background-size: cover;
+      align-items: center;
+      /* height: 100%; */
+      display: grid;
+      padding: 40px 16px;
+      text-align: center;
+    }
+    @media screen and (min-width:666px) {
+      .hator .pazle_block .block_left{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1.26fr;
+        align-items: center;
+        gap: 6px;
+      }
+      .hator .pazle_block .block_left .block_left_text{
+        padding: 0px 24px;
+        height: 100%;
+      }
+      .hator .pazle_block .block_left .first_left{
+        padding: 0px 25.6px;
+      }
+      /* .hator .pazle_block .block_left .last_left{
+      padding: 0px 20px;
+    } */
+      .hator .pazle_block .block_rigth{
+        display: grid;
+        height: 100%;
+        align-items: center;
+        grid-template-columns: 1.26fr 1fr;
+        align-items: center;
+        gap: 6px;
+      }
+      .hator .pazle_block .block_rigth .block_rigth_text{
+        padding: 0px 24px;
+        height: 100%;
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .hator .pazle_block .block_left .block_left_text{
+        padding: 0px 45px;
+      }
+      .hator .pazle_block .block_rigth .block_rigth_text{
+        padding: 0px 40px;
+      }
+      .hator .pazle_block .block_left_text .notes{
+        font-size: 14px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .hator .pazle_block{
+        gap: 12px;
+      }
+      .hator .pazle_block .block_rigth{
+        grid-template-columns: 1.4fr 1fr;
+        gap: 12px;
+      }
+      .hator .pazle_block .block_left{
+        grid-template-columns: 1fr 1.4fr;
+        gap: 12px;
+      }
+      .hator .pazle_block .block_left .block_left_text{
+        padding: 0px 45px;
+      }
+      .hator .pazle_block .block_rigth .block_rigth_text{
+        padding: 0px 45px;
+      }
+    }
+    /* .big_img */
+    .hator .big_img{
+      position: relative;
+    }
+    .hator .big_img .big_img_block{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: #FFE24866;
+    }
+    /* features */
+    .hator .features{
+      background: #000;
+      padding: 40px 16px;
+      text-align: center;
+      display: grid;
+      gap: 28px;
+    }
+    .hator .features p{
+      color: rgb(255, 255, 255);
+      opacity: 0.8;
+      text-align: left;
+    }
+    .hator .features .serif{
+      font-weight: 600;
+      text-align: right;
+    }
+    .hator .features h3{
+      color: rgb(255, 255, 255);
+      margin-bottom:17px ;
+      font-size: 16px;
+    }
+    .hator .features h2,
+    .hator .features h3{
+      position: relative;
+    }
+    .hator .features h2::after,
+    .hator .features h3::after{
+      position: absolute;
+      content: "";
+      bottom: -8px;
+      left: 50%;
+      transform: translate(-50%);
+      height: 1px;
+      width: 160px;
+      background: rgb(249, 208, 4);
+    }
+    .hator .features .features_block{
+      display: grid;
+      gap: 6px;
+    }
+    .hator .features .features_items{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+    .hator .features .features_items_last .serif{
+      text-align: center;
+    }
+    @media screen and (min-width:666px) {
+      .hator .features{
+        padding: 40px 81px;
+      }
+
+      .hator .features .features_block_mause{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+      }
+
+    }
+    @media screen and (min-width:1024px) {
+      .hator .features{
+        padding: 58px 193px;
+        gap: 40px;
+      }
+      .hator h2{
+        font-size: 32px;
+      }
+      .hator .features h3{
+        font-size: 24px;
+        margin-bottom: 22px;
+      }
+      .hator .features h2::after,
+      .hator .features h3::after{
+        bottom: -12px;
+        height: 2px;
+        width: 200px;
+      }
+      .hator .features .features_block{
+        gap: 8px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .hator .features{
+        padding: 80px 272px;
+        gap: 60px;
+      }
+      .hator h2{
+        font-size: 42px;
+      }
+      .hator .features h3{
+        font-size: 32px;
+        margin-bottom: 30px;
+      }
+      .hator .features h2::after,
+      .hator .features h3::after{
+        bottom: -16px;
+        width: 260px;
+      }
+      .hator .features .features_block{
+        gap: 10px;
+      }
+      .hator .features .features_items{
+        gap: 24px;
+      }
+    }
+  </style>
+  <div class="hator"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/opt.img%201.webp?_t=1709191248" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706617/divider.svg?_t=1707905930" />
+    <section class="hellraizer">
+      <div class="hellraizer_texr">
+        <h3>HATOR Hyperpunk 2 USB 7.1
+        </h3>
+        <p>Багатий функціонал та надлегка конструкція: що може бути краще?Створена, щоб задовольнити будь-які потреби у налаштуваннях та супроводжувати вас під час довготривалих баталій.
+        </p>
+      </div>
+      <div class="hellraizer_block"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/727834/hellraizer-black_1.svg?_t=1709189631" />
+        <div class="hellraizer_block_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/Property%201%3D1.svg?_t=1709191229" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/Property%201%3D2.svg?_t=1709191229" />
+        </div>
+        <div class="hellraizer_block_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/Property%201%3D3.svg?_t=1709191228" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/Property%201%3D4.svg?_t=1709191228" />
+        </div>
+      </div>
+      <div class="colors_hator">
+        <img class="color_img"  src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/color.svg?_t=1709191237" alt="">
+        <img class="color_img"  src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/color-1.svg?_t=1709191237" alt="">
+        <img class="color_img"  src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/color-2.svg?_t=1709191237" alt="">
+        <img class="color_img"  src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/color-3.svg?_t=1709191237" alt="">
+        <img class="color_img"  src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/color-4.svg?_t=1709191237" alt="">
+      </div>
+      <div class="hellraizer_withe">
+        <p>Hyperpunk 2 USB 7.1
+          <br />
+          Black (HTA-845)
+        </p>
+      </div>
+    </section>
+    <!--  --> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706617/divider.svg?_t=1707905930" /> <!--  -->
+    <section class="pazle_block">
+      <div class="block_left ">
+        <div class="block_left_text first_left">
+          <p>Гарнітура має 5 варіантів кольору серед яких ви точно знайдете той, що буде до вподоби. Класичний чорний або може щось яскравіше? Не проблема!
+          </p>
+        </div>
+        <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/opt.hellraizer-2.webp?_t=1709191248" />
+      </div>
+      <div class="block_rigth">
+        <div class="block_rigth_text">
+          <div>
+            <p>Висока гучність та деталізація - гарантовані. За якісне звічання відповідають 50мм динаміки з опором 64ом, оснащені композитною та неодимовим ммагнітом.
+            </p>
+          </div>
+        </div>
+        <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/opt.hellraizer-3.webp?_t=1709191248" />
+      </div>
+      <div class="block_left">
+        <div class="block_left_text">
+          <div>
+            <p>Грай досхочу! Надлегка конструкція дозволяє користуватися гарнітурою протягом тривалого часу без будь-якого дискомфорту. Вага всього 180г!
+            </p>
+          </div>
+        </div>
+        <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/opt.hellraizer-4.webp?_t=1709191248" />
+      </div>
+      <div class="block_rigth">
+        <div class="block_rigth_text">
+          <div>
+            <p>Ергономічні тканеві амбушури забезечують покращену циркуляцію вух і незручностями під час тривалого використання. У якості наповнювача амбушур використовується піна з ефекктом пам&#39;яті, яка дозволяє рівномірно розподілити тиск та запобігти втомі.
+            </p>
+          </div>
+        </div>
+        <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/opt.hellraizer-5.webp?_t=1709191248" />
+      </div>
+      <div class="block_left">
+        <div class="block_left_text last_left">
+          <div>
+            <p>Відмінний мікрофон забезпечить високу якість запису під час гри або робочої відеоконференції. У разі потреби, мікрофон легко від&#39;єднується, а роз&#39;єм можна приховати від комплектною заглушкою.
+            </p>
+          </div>
+        </div>
+        <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/opt.hellraizer-6.webp?_t=1709191248" />
+      </div>
+      <div class="block_rigth">
+        <div class="block_rigth_text">
+          <div>
+            <p>Комплектна звукова карта з фірмовим програмним забезпеченням, відкриють великий перелік додаткових налаштувань як відтворюваного звуку так і запису з мікрофону. Активуйте багатоканальний просторовий звук 7.1, налаштовуйте еквалайзер та багато іншого!
+            </p>
+          </div>
+        </div>
+        <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/727666/opt.hellraizer-7.webp?_t=1709191249" />
+      </div>
+    </section>
+    <!--  --> <!--  -->
+    <!-- <section class="features">
+      <div class="features_block">
+        <h2>ХАРАКТЕРИСТИКИ
+        </h2>
+      </div>
+      <div class="features_block">
+        <h3>Навушники
+        </h3>
+        <div class="features_items">
+          <p class="serif">Динаміки:
+          </p>
+          <p>50 мм з неодимовим магнітом
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Діапазон частот:
+          </p>
+          <p>10Гц &ndash; 22кГц
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Опір:
+          </p>
+          <p>64&Omega; &plusmn; 15%
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Чутливість:
+          </p>
+          <p>114дБ &plusmn; ЗдБ
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Максимальна потужність:
+          </p>
+          <p>20 мВт
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Довжина кабелю:
+          </p>
+          <p>1м + 1.5м USB
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Роз&rsquo;єм підключення:
+          </p>
+          <p>3.5-мм комбінований (навушники і мікрофон), USB
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Приблизна вага:
+          </p>
+          <p>180 &plusmn; 5г
+          </p>
+        </div>
+      </div>
+      <div class="features_block">
+        <h3>Мікрофон
+        </h3>
+        <div class="features_items">
+          <p class="serif">Мікрофон:
+          </p>
+          <p>6мм*2.7мм всеспрямований
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Діапазон частот:
+          </p>
+          <p>100 Гц &ndash; 10 кГц
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Співвідношення Сигнал/Шум:
+          </p>
+          <p>&rsaquo;64дБ
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Чутливість:
+          </p>
+          <p>-42 &plusmn; ЗдБ
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Діапазон частот:
+          </p>
+          <p>100 Гц &ndash; 10 кГц
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Співвідношення Сигнал/Шум:
+          </p>
+          <p>&rsaquo;64дБ
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Чутливість:
+          </p>
+          <p>-42 &plusmn; ЗдБ
+          </p>
+        </div>
+      </div>
+      <div class="features_block">
+        <h3>Звукова карта
+        </h3>
+        <div class="features_items">
+          <p class="serif">Роз&rsquo;єм підключення:
+          </p>
+          <p>USB Type-A
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Вхідний роз&rsquo;єм:
+          </p>
+          <p>3,5мм для джеку 4-pin
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Розрядність:
+          </p>
+          <p>16 біт
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Напруга:
+          </p>
+          <p>4В
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Максимальна частота дискретизації:
+          </p>
+          <p>48кГц
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Співвідношення сигнал/шум:
+          </p>
+          <p>93.6дБ
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Довжина кабелю:
+          </p>
+          <p>1.5м
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Органи керування:
+          </p>
+          <p>Збільшення/зменшення гучності,
+            <br />
+            блокування роботи мікрофону,
+            <br />
+            блокування звуку динаміків
+          </p>
+        </div>
+      </div>
+      <div class="features_block">
+        <h3>Комплектація
+        </h3>
+        <div class="features_items_last">
+          <p style="text-align: center;">Гарнітура Hyperpunk 2 USB 7.1
+          </p>
+        </div>
+        <div class="features_items_last">
+          <p style="text-align: center;">З&rsquo;ємний аудіо кабель довжиною 1м з регулятором гучності та кнопкою Mute
+          </p>
+        </div>
+        <div class="features_items_last">
+          <p style="text-align: center;">1.5-метровий USB кабель із звуковою картою з входом 3.5мм
+          </p>
+        </div>
+        <div class="features_items_last">
+          <p style="text-align: center;">Дві гумові заглушки для гнізда мікрофону
+          </p>
+        </div>
+        <div class="features_items_last">
+          <p style="text-align: center;">Посібник користувача
+          </p>
+        </div>
+      </div>
+    </section> -->
+    <section class="features">
+      <div class="features_block">
+        <h2>РОЗМІРИ</h2>
+        <div class="features_block_mause">
+          <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/727684/size-pulsar-2%201.svg?_t=1709620781" alt="">
+            <div class="features_block_text">
+                      <div class="features_items">
+                          <p class="serif">Довжина:
+                          </p>
+                          <p>123 мм
+                          </p>
+                        </div>
+                      <div class="features_items">
+                          <p class="serif">Ширина:
+                          </p>
+                          <p>123 мм
+                          </p>
+                        </div>
+                      <div class="features_items">
+                          <p class="serif">Висота:
+                          </p>
+                          <p>38 мм
+                          </p>
+                        </div>
+                      <div class="features_items">
+                          <p class="serif">Вага:
+                          </p>
+                          <p>69 г
+                          </p>
+                        </div>
+                      <div class="features_items">
+                          <p class="serif">Довжина кабелю:
+                          </p>
+                          <p>1800 мм
+                          </p>
+                        </div>
+              </div>
+           </div>
+        </div>
+
+      <div class="features_block">
+        <h2>ХАРАКТЕРИСТИКИ
+        </h2>
+      </div>
+      <div class="features_block">
+        <h3>Миша
+        </h3>
+        <div class="features_items">
+          <p class="serif">Тип під&rsquo;єднання:
+          </p>
+          <p>USB
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Частота опитування:
+          </p>
+          <p>до 1000Гц
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Напруга живлення:
+          </p>
+          <p>5В
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Сила струму:
+          </p>
+          <p>150мА
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Модель сенсору:
+          </p>
+          <p>Оптичний PixArt PMW 3327
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Характеристики DPI за замовченням:
+          </p>
+          <p>400 / 800 / 1000 / 1600 / 6200
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Прискорення сенсору:
+          </p>
+          <p>30G
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Перемикачі:
+          </p>
+          <p>Kailh GM4.0
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Життєвий цикл:
+          </p>
+          <p>60 мільйонів натискань
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Сила натискання:
+          </p>
+          <p>65 &plusmn;15%гс
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Сила повернення:
+            <br />
+            25гс мінімум
+          </p>
+          <p>25гс мінімум
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Вбудована пам&rsquo;ять:
+          </p>
+          <p>так
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Підсвічування:
+          </p>
+          <p>RGB на 16.8 млн. кольорів
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Бокові перемикачі:
+          </p>
+          <p>Kailh
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Енкодер:
+          </p>
+          <p>TTC Gold
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Підтримка операційних систем:
+          </p>
+          <p>Windows 10/11, Linux, Android та Mac&nbsp;OS
+          </p>
+        </div>
+      </div>
+      <div class="features_block">
+        <h3>Комплектація
+        </h3>
+        <div class="features_items_last">
+          <p style="text-align: center;">Миша HATOR Pulsar 2
+          </p>
+        </div>
+        <div class="features_items_last">
+          <p style="text-align: center;">Комплект змінних 100% PTFE глайдів
+          </p>
+        </div>
+        <div class="features_items_last">
+          <p style="text-align: center;">Інструкція
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+  
+      
+    
+</body>
+</html>

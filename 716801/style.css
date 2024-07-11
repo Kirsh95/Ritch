@@ -1,0 +1,737 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+  }
+  .G72 img {
+    margin: 0;
+  }
+    .G72 p {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto" , sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    }
+    .G72 .foonter p,
+    .G72 ul li
+     {
+        font-size: 12px;
+        color: white;
+        font-weight: 400;
+        line-height: 150%; 
+    }
+    .G72 h3{
+    font-family: "Roboto" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0;
+    }
+
+  .G72 ul {
+    list-style: decimal;
+    margin: 0;
+    padding-left: 16px;
+  }
+  .G72 ul li {
+    font-family: "Roboto" , sans-serif;
+
+  }
+  .G72 {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .G72 div {
+    padding: 0;
+  }
+  div.G72 {
+    padding: 0;
+  }
+  .G72 br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+
+  .G72 {
+    margin: 0 auto;
+    max-width: 1366px;
+    overflow-x: hidden;
+  }
+
+  .G72 img{
+    display: block;
+    width: 100%;
+  }
+
+
+/* colors_block */
+
+  .G72 .colors_block{
+    position: relative;
+    background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/716801/bg1%201.png?_t=1695109229");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.G72 .colors_block .g72_icon{
+    width: 90px;
+    margin: 0 auto;
+}
+
+.G72 .colors_block .colors_block_center{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    position: absolute;
+    top: 44%;
+    left: 53%;
+    transform:translate(-50%, -50%);
+}
+
+
+.G72 .colors_block .colors_block_center .center_text{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.G72 .colors_block .colors_block_center .big_text{
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.G72 .colors_block .colors_block_moto{
+    display: grid;
+    gap: 14px;
+}
+
+.G72 .colors_block .colors_block_moto p{
+    color: white;
+    font-weight: 400;
+    line-height: 150%;
+}
+.G72 .colors_block .moto_logo{
+    width: 90px;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width:666px) {
+
+    .G72 p {
+        color: #fff;
+    }
+    .G72 h3 {
+        color: #fff;
+
+    }
+
+    .G72 .colors_block{
+        padding: 40px;
+    }
+
+    .G72 .colors_block .g72_icon{
+        width: 90px;
+        position: absolute;
+        left: 40px;
+        top: 40px;
+    }
+    .G72 .colors_block .colors_block_center{
+        top: 50%;
+        left: 53%;
+        gap: 20px;
+    }
+
+    .G72 .colors_block .colors_block_moto{
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+        text-align: right;
+
+    }
+    .G72 .colors_block .colors_block_center .center_text{
+        font-size: 18px;
+    }
+
+    .G72 .colors_block .colors_block_center .big_text{
+        font-size: 56px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .G72 p{
+        font-size:18px;
+    }
+    .G72 h3{
+        font-size:20px;
+    }
+    .G72 .colors_block .colors_block_moto{
+        gap: 18px;
+    }
+
+    .G72 .colors_block{
+        padding: 40px 60px;
+    }
+
+    .G72 .colors_block .g72_icon{
+        width: 123px;
+        left: 60px;
+    }
+    .G72 .colors_block .colors_block_center{
+        gap: 28px;
+    }
+
+    .G72 .colors_block .colors_block_moto{
+        right: 60px;
+    }
+    .G72 .colors_block .colors_block_center .center_text{
+        font-size: 24px;
+    }
+
+    .G72 .colors_block .colors_block_center .big_text{
+        font-size: 76px;
+    }
+    .G72 .colors_block .moto_logo{
+        width: 123px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .G72 p{
+        font-size:20px;
+    }
+    .G72 h3{
+        font-size:28px;
+    }
+    .G72 .colors_block{
+        padding: 60px;
+    }
+    .G72 .colors_block .colors_block_center .center_text{
+        font-size: 36px;
+    }
+
+    .G72 .colors_block .colors_block_center .big_text{
+        font-size: 112px;
+    }
+    .G72 .colors_block .g72_icon{
+        width: 188px;
+
+    }
+    .G72 .colors_block .moto_logo{
+        width: 188px;
+    }
+
+
+}
+
+
+/* capture_life */
+
+
+.G72 .capture_life{
+    margin-top: 24px;
+    text-align: center;
+}
+
+.G72 .capture_life .capture_life_text{
+    padding: 0 16px 24px;
+    display: grid;
+    gap: 14px;
+    
+}
+.G72 .capture_life img{
+    border-radius: 0 0 10px 10px;
+}
+
+@media screen and (min-width:666px) {
+    .G72 .capture_life{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        align-items: flex-start;
+        background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/716801/Layer%209.png?_t=1695109230");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: left;
+        padding: 40px;
+        border-radius: 10px;
+
+    }
+
+    .G72 .capture_life img{
+        opacity: 0;
+        display: none;
+    }
+    .G72 .capture_life .capture_life_text{
+        padding: 0;
+        padding-right: 15px;
+
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .G72 .capture_life{
+        padding: 60px;
+        gap: 30px 0;
+    }
+    .G72 .capture_life .capture_life_text{
+        padding-right: 40px;
+    }   
+
+}
+
+@media screen and (min-width:1366px) {
+    .G72 .capture_life{
+        padding: 60px;
+        gap: 160px 0;
+    }
+    .G72 .capture_life .capture_life_text{
+        padding-right: 115px;
+    }   
+
+}
+
+
+/* catch_moments */
+
+.G72 .catch_moments{
+    margin-top: 24px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.G72 .catch_moments img{
+    border-radius: 0 0 10px 10px;
+}
+
+.G72 .catch_moments .catch_moments_text{
+    padding: 0 16px 24px;
+    display: grid;
+    gap: 14px;
+}
+
+
+@media screen and (min-width:666px) {
+    .G72 .catch_moments{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/716801/Layer%2010.png?_t=1695109230");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: left;
+        padding: 40px;
+        border-radius: 10px;
+
+    }
+    .G72 .catch_moments img{
+        /* border-radius: 0 0 10px 10px; */
+        opacity: 0;
+    }
+
+    .G72 .catch_moments .catch_moments_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        padding: 0;
+        padding-left: 85px;
+    }
+
+
+}
+
+
+@media screen and (min-width:1024px) {
+    .G72 .catch_moments{
+        padding: 60px;
+    }
+    .G72 .catch_moments .catch_moments_text{
+        padding-left: 135px;
+        gap: 18px;
+    }
+    /* .G72 .catch_moments .catch_moments_text h3{
+        padding-right: 20px;
+    } */
+
+}
+
+
+@media screen and (min-width:1366px) {
+
+    .G72 .catch_moments{
+        padding: 60px;
+    }
+    .G72 .catch_moments .catch_moments_text{
+        padding-left: 180px;
+        gap: 24px;
+    }
+
+}
+
+
+/* expand_your_vision */
+
+.G72 .expand_your_vision{
+    display: grid;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.G72 .expand_your_vision .expand_your_vision_text{
+    padding: 0 16px 24px;
+    display: grid;
+    gap: 14px;
+}   
+
+.G72 .expand_your_vision img{
+    border-radius: 0 0 10px 10px;
+}
+
+@media screen and (min-width:666px) {
+    .G72 .expand_your_vision{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/716801/Layer%2012.png?_t=1695109231");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: left;
+        padding: 98px 40px;
+        border-radius: 10px;
+
+    }
+    .G72 .expand_your_vision .expand_your_vision_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        padding: 0;
+        padding-left: 94px;
+    }
+    .G72 .expand_your_vision img{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .G72 .expand_your_vision{
+        padding: 151.5px 60px; 
+    }
+    .G72 .expand_your_vision .expand_your_vision_text{
+        padding-left: 85px;
+    }
+
+
+}
+@media screen and (min-width:1366px) {
+    .G72 .expand_your_vision{
+        padding: 248px 60px; 
+    }
+    .G72 .expand_your_vision .expand_your_vision_text{
+        padding-left: 100px;
+    }
+
+
+}
+
+/* .no_restrictions */
+
+.G72 .no_restrictions{
+    display: grid;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.G72 .no_restrictions .no_restrictions_text{
+    background: linear-gradient(136deg, #C69090 0%, #6B4C6E 38.94%, #373E68 78.52%, #0D112A 102.58%);    display: grid;
+    gap: 14px;
+    padding: 24px 16px 16px ;
+    border-radius: 12px 12px 0 0 ;
+}
+.G72 .no_restrictions .no_restrictions_text p,
+.G72 .no_restrictions .no_restrictions_text h3{
+    color: white;
+}
+
+.G72 .no_restrictions img{
+    border-radius: 0 0 12px 12px;
+}
+
+
+@media screen and (min-width:666px) {
+    .G72 .no_restrictions{
+        display: grid;
+        background: linear-gradient(117deg, #C69090 0%, #6B4C6E 26.39%, #373E68 45.83%, #0D112A 66.67%);;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        border-radius: 12px;
+        text-align: left;
+    }
+        
+    .G72 .no_restrictions img{
+        border-radius: 0 12px 12px 0;
+    }
+    .G72 .no_restrictions .no_restrictions_text{
+        border-radius: 12px 0 0 12px ;
+        background: none;
+        padding: 0 45px 0 40px;
+    }
+
+}
+@media screen and (min-width:1024px) {
+   
+    .G72 .no_restrictions .no_restrictions_text{
+        padding: 0 61px 0 60px;
+    }
+
+}
+@media screen and (min-width:1366px) {
+   
+    .G72 .no_restrictions .no_restrictions_text{
+        padding: 0 118px 0 60px;
+    }
+
+}
+
+/* dolby_atmos */
+
+.G72 .dolby_atmos{
+    display: grid;
+    margin-top: 24px;
+    text-align: center;
+    border-radius: 12px;
+    background: #011425;
+}
+
+.G72 .dolby_atmos .dolby_atmos_text{
+    padding: 24px 16px 0;
+    display: grid;
+    gap: 14px;
+}
+
+.G72 .dolby_atmos .dolby_atmos_text .dolby_audio{
+    margin: 0 auto;
+    width: 55px;
+}
+
+
+.G72 .dolby_atmos .dolby_atmos_text p,
+.G72 .dolby_atmos .dolby_atmos_text h3{
+    color: white;
+}
+
+
+@media screen and (min-width:666px) {
+    .G72 .dolby_atmos{
+        align-items: center;
+        grid-template-columns: repeat(2,1fr);
+        text-align: left;
+
+    }
+    .G72 .dolby_atmos .dolby_atmos_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        padding: 0;
+        padding-left: 45px;
+        padding-right: 40px;
+    }
+
+    .G72 .dolby_atmos .dolby_atmos_text .dolby_audio{
+        margin: 0;
+        margin-right: auto;
+    }
+
+
+}
+
+@media screen and (min-width:1024px) {
+    .G72 .dolby_atmos .dolby_atmos_text{
+        padding-left: 61px;
+        padding-right: 60px;
+        gap: 18px;
+    }
+
+    .G72 .dolby_atmos .dolby_atmos_text .dolby_audio{
+        width: 74px;
+    }
+
+
+}
+
+@media screen and (min-width:1366px) {
+    .G72 .dolby_atmos .dolby_atmos_text{
+        padding-left: 118px;
+        gap: 24px;
+    }
+
+    .G72 .dolby_atmos .dolby_atmos_text .dolby_audio{
+        width: 82px;
+    }
+}
+
+/* characteristics */
+
+.G72 .characteristics{
+    background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/716801/11.png?_t=1695123327");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #041326;
+    display: grid;
+    gap: 20px;
+    padding: 200px 24px 24px;
+    text-align: center;
+    border-radius: 12px;
+    margin-top: 24px;
+}
+
+.G72 .characteristics img{
+    width: 60px;
+    margin: 0 auto;
+}   
+
+.G72 .characteristics p,
+.G72 .characteristics h3{
+    color: white;
+}
+
+.G72 .characteristics .characteristics_block{
+    display: grid;
+    gap: 14px;
+}
+
+@media screen and (min-width:666px) {
+    .G72 .characteristics{
+        background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/716801/reflections.png?_t=1695109232");
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        background-position:  top left;
+        align-items: center;
+        padding: 40px;
+        gap: 0px 40px;
+        text-align: left;
+    }
+    .G72 .characteristics .batery{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        /* padding-left: 30px; */
+
+    }
+    .G72 .characteristics .next_level{
+        grid-column-start: 2;
+        grid-row-start: 2;
+        /* padding-left: 30px; */
+
+    }
+    .G72 .characteristics .touch{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        /* padding-right: 30px; */
+    }
+    .G72 .characteristics img{
+        width: 60px;
+        margin: 0;
+        margin-right: auto;
+    } 
+
+}
+
+@media screen and (min-width:1024px) {
+    .G72 .characteristics{
+        padding: 60px;
+        gap: 0 60px;
+    }
+    .G72 .characteristics img{
+        width: 80px;
+        
+    } 
+    .G72 .characteristics .characteristics_block{
+        gap: 18px;
+    }
+    
+
+}
+@media screen and (min-width:1366px) {
+    .G72 .characteristics{
+        background-size: auto;
+        gap: 40px 55px;
+
+    }
+    .G72 .characteristics img{
+        width: 100px;
+
+    } 
+    .G72 .characteristics .characteristics_block{
+        gap: 24px;
+    }
+
+}
+
+
+
+
+
+/* foonter */
+
+
+ .G72 .foonter{
+    background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/716801/bg.png?_t=1695109229");
+    padding: 32px 16px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    margin-top: 24px;
+    display: grid;
+    gap: 20px;
+}
+
+.G72 .foonter .foonter_text{
+    display: grid;
+    gap: 20px;
+}
+
+@media screen and (min-width:666px) {
+ .G72 .foonter{
+    padding: 32px 60px 44px;
+ }
+ .G72 .foonter .foonter_text{
+    padding: 0 37px;
+ }
+}
+@media screen and (min-width:1024px) {
+ .G72 .foonter{
+    padding: 42px 109px 64px;
+ }
+ .G72 .foonter .foonter_text{
+    padding: 0 25px;
+ }
+ .G72 .foonter p,
+ .G72 ul li
+  {
+     font-size: 14px; 
+ }
+}
+@media screen and (min-width:1366px) {
+ .G72 .foonter{
+    padding: 60px 142px 80px;
+    background-position: center;
+ }
+ .G72 .foonter .foonter_text{
+    padding: 0 25px;
+ }
+
+}

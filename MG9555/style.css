@@ -1,0 +1,318 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+  }
+  .MG9000 img {
+    margin: 0;
+  }
+  .MG9000 p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family:"Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+  }
+  .MG9000 ul {
+    list-style: disc;
+    color: #ffff;
+    margin: 0;
+  }
+  .MG9000 ul li {
+    line-height: normal;
+    font-family:"Roboto", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+  }
+  .MG9000 {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .MG9000 ul {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .MG9000 ul li {
+    padding: 0;
+
+  }
+  .MG9000 div {
+    padding: 0;
+  }
+  div.MG9000 {
+    padding: 0;
+  }
+  .MG9000 br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+.MG9000{
+  max-width: 1366px;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+.MG9000 img{
+  width: 100%;
+  display: block;
+}
+
+  .MG9000 .one_for_everything{
+    background: #326482;
+    padding: 20px 16px;
+  }
+  .MG9000 .one_for_everything p{
+    color: #ffff;
+  }
+
+  .MG9000 .one_for_everything .one_home_container{
+    display: grid;
+    gap: 24px;
+  }
+
+  .MG9000 .one_for_everything .one_home_container .one_left{
+    display: grid;
+    width: 300px;
+    margin: 0 auto;
+    grid-template-columns: 1.1fr 1fr;
+    align-items:flex-end;
+    text-align: center;
+  }
+
+
+
+  .MG9000 .one_for_everything .one_home_container .one_rigth{
+    display: grid;
+    gap: 24px;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_top_block{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    'a b'
+    'c d'
+    'e e';
+    text-align: center;
+    align-items: flex-end;
+    margin: 0 auto;
+  }
+
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_top_block div:nth-child(1){
+    grid-area: a;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_top_block div:nth-child(2){
+    grid-area: b;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_top_block div:nth-child(3){
+    grid-area: c;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_top_block div:nth-child(4){
+    grid-area: d;
+  }
+  
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_top_block div:nth-child(5){
+    grid-area: e;
+  }
+
+
+  .MG9000 .one_for_everything .one_home_container .one_center_block{
+    display: grid;
+    text-align: center;
+    margin: 0 auto;
+    gap: 24px;
+    grid-template-areas:
+    'a b'
+    'd d'
+    'c c  '
+    ;
+  }
+
+
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_center_block div:nth-child(1){
+    grid-area: a;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_center_block div:nth-child(2){
+    grid-area: d;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_center_block div:nth-child(3){
+    grid-area: b;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_center_block div:nth-child(4){
+    grid-area: c;
+  }
+  
+
+
+  
+
+  .MG9000 .one_for_everything .one_home_container .one_bottom_block{
+    display: grid;
+    gap: 24px;
+    text-align: center;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_bottom_block .additionally p {
+    margin-bottom: 8px;
+  }
+
+
+  .MG9000 .one_for_everything .one_home_container .one_bottom_block .additionally ul{
+    text-align: left;
+  }
+
+  .MG9000 .one_for_everything .one_home_container .one_top_block .the_nose img{
+    width: 60px;
+    margin: 0 auto;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_top_block .for_cutting img{
+    width: 90px;
+    margin: 0 auto;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_top_block .protective_nozzle img{
+    width: 90px;
+    margin: 0 auto;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_top_block .precise_trimming img{
+    width: 90px;
+    margin: 0 auto;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_top_block .beards_and_hair img{
+    width: 290px;
+    margin: 0 auto;
+  }
+  
+
+  .MG9000 .one_for_everything .one_home_container .one_center_block .for_gradient img{
+    width: 150px;
+    margin: 0 auto;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_center_block .for_hair img{
+    width: 250px;
+    margin: 0 auto;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_center_block .for_body img{
+    width: 150px;
+    margin: 0 auto;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_center_block .for_eyebrows img{
+    width: 90px;
+    margin: 0 auto;
+  }
+
+
+
+  @media screen and (min-width:666px) {
+
+
+  .MG9000 .one_for_everything{
+    padding: 40px 32px;
+  }
+    .MG9000 .one_for_everything .one_home_container .one_rigth .one_top_block{
+      display: flex;
+      width: auto;
+      gap: 10px;
+    }
+  .MG9000 .one_for_everything .one_home_container .one_center_block{
+    align-items: flex-end;
+    display: flex;
+    width: auto;
+    gap: 15px;
+  }
+    .MG9000 .one_for_everything .one_home_container .one_bottom_block{
+    width: 400px;
+    margin: 0 auto;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+  .MG9000 .one_for_everything .one_home_container .one_left{
+    width: -webkit-fill-available;
+  }
+  .MG9000 .one_for_everything .one_home_container{
+    display: flex;
+    gap: 5px;
+  }
+
+  .MG9000 .one_for_everything{
+    padding: 20px 10px;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_top_block{
+    display: flex;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_bottom_block{
+    display: flex;
+    align-items: center;
+
+    width: auto;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_bottom_block .additionally{
+    text-align: left;
+  }
+}
+
+@media screen and (min-width:1366px) {
+  .MG9000 .one_for_everything{
+    padding: 20px 40px;
+  }
+
+  .MG9000 .one_for_everything p{
+    font-size: 16px;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_left{
+    width: 20%;
+
+  }
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_top_block .the_nose{
+    width: 115px;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_top_block .for_cutting{
+    width: 143px;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_top_block .protective_nozzle{
+    width: 102px;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_top_block .precise_trimming {
+    width: 169px;
+
+  }
+  .MG9000 .one_for_everything .one_home_container .one_rigth .one_top_block .beards_and_hair {
+    width: 308px;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_top_block .beards_and_hair img{
+    width: 308px;
+    margin: 0 auto;
+  }
+
+
+
+  .MG9000 .one_for_everything .one_home_container .one_center_block .for_gradient {
+    width: 210px;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_center_block .for_gradient img{
+    width: 189px;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_center_block .for_hair {
+    width: 418px;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_center_block .for_hair img {
+    width: 418px;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_center_block .for_body {
+    width: 174px;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_center_block .for_body img{
+    width: 173px;
+  }
+  .MG9000 .one_for_everything .one_home_container .one_center_block .for_eyebrows {
+    width: 90px;
+  }
+}
+

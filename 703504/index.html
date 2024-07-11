@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+  }
+  .DiamondClean img {
+    margin: 0;
+  }
+  .DiamondClean p {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+
+  .DiamondClean h3 {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 14px;
+  }
+
+
+  .DiamondClean ul {
+    list-style: disc;
+    margin: 0;
+  }
+  .DiamondClean ul li {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .DiamondClean {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .DiamondClean ul {
+    padding: 0 0 0 20px;
+  }
+  .DiamondClean ul li {
+    padding: 0;
+  }
+  .DiamondClean div {
+    padding: 0;
+  }
+  div.DiamondClean {
+    padding: 0;
+  }
+  .DiamondClean br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+
+
+  .DiamondClean {
+    max-width: 1366px;
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
+
+  .DiamondClean img{
+    display: block;
+    width: 100%;
+  }
+
+  /* sonicare */
+
+  .DiamondClean .sonicare{
+    position: relative;
+  }
+  .DiamondClean .sonicare .sonicare_img{
+    position: relative;
+  }
+
+  .DiamondClean .sonicare .sonicare_text{
+    padding: 40px 32px 24px;
+    text-align: center;
+  }
+
+  .DiamondClean .sonicare .sonicare_text p{
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .DiamondClean .sonicare .logo_clean{
+    width: 60px;
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+
+
+@media screen and (min-width:666px) {
+
+    .DiamondClean p,
+    .DiamondClean ul li{
+        font-size: 16px;
+    }
+    .DiamondClean h3 {
+        font-size: 20px;
+    }
+    
+    .DiamondClean .sonicare .sonicare_text p{
+        font-size: 18px;
+      }
+  .DiamondClean .sonicare .sonicare_text{
+    padding: 40px 80px 32px;
+  }
+  .DiamondClean .sonicare .logo_clean{
+    width: 89px;
+    left: 32px;
+  }
+}
+@media screen and (min-width:1024px) {
+
+    .DiamondClean p,
+    .DiamondClean ul li{
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .DiamondClean h3 {
+        margin-bottom: 18px;
+        font-size: 24px;
+    }
+    
+    .DiamondClean .sonicare .sonicare_text p{
+        font-size: 24px;
+      }
+      .DiamondClean .sonicare .sonicare_text h3{
+        font-size: 26px;
+        margin-bottom: 18px;
+      }
+  .DiamondClean .sonicare .sonicare_text{
+    padding: 60px 140px 40px;
+  }
+  .DiamondClean .sonicare .logo_clean{
+    width: 129px;
+    left: 40px;
+  }
+}
+@media screen and (min-width:1366px) {
+    .DiamondClean p,
+    .DiamondClean ul li{
+        font-size: 22px;
+    }
+    .DiamondClean h3 {
+        margin-bottom: 18px;
+        font-size: 32px;
+    }
+    
+    .DiamondClean .sonicare .sonicare_text p{
+        font-size: 32px;
+      }
+      .DiamondClean .sonicare .sonicare_text h3{
+        font-size: 36px;
+        margin-bottom: 16px;
+      }
+  .DiamondClean .sonicare .sonicare_text{
+        padding: 60px 250px;
+    }
+    .DiamondClean .sonicare .logo_clean{
+        width: 188px;
+        left: 60px;
+    }
+}
+
+
+  /* block_radius */
+
+  .DiamondClean .block_radius{
+    display: grid;
+    gap: 16px;
+    padding: 40px 16px 0;
+  }
+
+  .DiamondClean .control_radius{
+    padding: 40px 44px 40px 16px
+
+  }
+
+
+  .DiamondClean .block_radius .cell_radius{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 40px auto;
+    align-items: center;
+  }
+
+  .DiamondClean .block_radius .cell_radius img{
+    width: 40px;
+  }
+
+  .DiamondClean .block_radius .cell_radius .cell_text{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+@media screen and (min-width:666px) {
+    .DiamondClean .block_radius .cell_radius .cell_text{
+        font-size: 20px;
+    }
+    .DiamondClean .block_radius .cell_radius img{
+        width: 60px;
+
+    }
+    .DiamondClean .block_radius .cell_radius{
+    grid-template-columns: 60px auto;
+    gap: 24px;
+    
+    }
+    .DiamondClean .block_radius{
+        gap: 24px;
+        padding: 40px 32px 0;
+      }
+      
+      .DiamondClean .control_radius{
+        padding: 40px 44px 40px 32px
+    
+      }
+
+}
+@media screen and (min-width:1024px) {
+    .DiamondClean .block_radius .cell_radius .cell_text{
+        font-size: 24px;
+    }
+    .DiamondClean .block_radius .cell_radius img{
+        width: 80px;
+
+    }
+    .DiamondClean .block_radius .cell_radius{
+    grid-template-columns: 80px auto;
+    gap: 24px;
+    
+    }
+    .DiamondClean .block_radius{
+        gap: 40px;
+        padding: 40px 40px 0;
+      }
+      
+      .DiamondClean .control_radius{
+        padding: 40px 44px 40px 40px
+    
+      }
+
+}
+
+@media screen and (min-width:1366px) {
+    .DiamondClean .block_radius .cell_radius .cell_text{
+        font-size: 32px;
+    }
+    .DiamondClean .block_radius .cell_radius img{
+        width: 120px;
+
+    }
+    .DiamondClean .block_radius .cell_radius{
+    grid-template-columns: 120px auto;
+    gap: 40px;
+    
+    }
+    .DiamondClean .block_radius{
+        gap: 40px;
+        padding: 60px 166px 0;
+      }
+      
+      .DiamondClean .control_radius{
+        padding: 60px 166px
+    
+      }
+
+}
+
+  /* comparison */
+
+  .DiamondClean .comparison{
+    padding:40px 16px ; 
+  }
+  .DiamondClean .comparison .comparison_text{
+    display: grid;
+    
+  }
+  .DiamondClean .comparison .comparison_text img{
+    width: 168px;
+    margin: 0 auto;
+  }
+
+@media screen and (min-width:666px) {
+    .DiamondClean .comparison{
+        padding:40px 32px 60px ; 
+        display: grid;
+        text-align: center;
+        gap: 26px;
+      }
+      .DiamondClean .comparison .comparison_text{
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        text-align: left;
+      }
+      .DiamondClean .comparison .comparison_text img{
+        width: 138px;
+      }
+
+
+}
+@media screen and (min-width:1024px) {
+    .DiamondClean .comparison{
+        padding:40px 40px 60px ; 
+        display: grid;
+        text-align: center;
+        gap: 22px;
+      }
+      .DiamondClean .comparison .comparison_text{
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        text-align: left;
+      }
+      .DiamondClean .comparison .comparison_text img{
+        width: 236px;
+      }
+
+
+}
+@media screen and (min-width:1366px) {
+    .DiamondClean .comparison{
+        padding:60px 166px 60px ; 
+        display: grid;
+        text-align: center;
+        gap: 22px;
+      }
+      .DiamondClean .comparison .comparison_text{
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        text-align: left;
+      }
+      .DiamondClean .comparison .comparison_text img{
+        width: 236px;
+      }
+
+
+}
+
+
+  /* movements */
+
+
+  .DiamondClean .movements{
+    padding: 0 16px;
+    display: grid;
+    gap: 24px;
+  }
+  .DiamondClean .movements_left img,
+    .DiamondClean .movements img{
+        border-radius: 10px;
+    }
+  .DiamondClean .movements_left{
+    padding: 40px 16px;
+    display: grid;
+    gap: 24px;
+  }
+
+@media screen and (min-width:666px) {
+    .DiamondClean .movements{
+        padding: 0 32px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .DiamondClean .movements_left{
+        padding: 32px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+
+    }
+    .DiamondClean .movements_left img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+}
+@media screen and (min-width:1024px) {
+    .DiamondClean .movements{
+        padding: 0 40px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .DiamondClean .movements_left{
+        padding: 40px 55px 40px 40px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+
+    }
+    .DiamondClean .movements_left img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+}
+@media screen and (min-width:1366px) {
+    .DiamondClean .movements{
+        padding: 0 166px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 40px;
+    }
+    .DiamondClean .movements_left{
+        padding: 60px 166px 60px 166px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 40px;
+
+    }
+    .DiamondClean .movements_left img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+}
+
+  /* personalized */
+
+  .DiamondClean .personalized .personalized_text{
+    padding: 40px 16px 24px;
+    text-align: center;
+  }
+
+  .DiamondClean .personalized .personalized_text p{
+    font-size: 16px;
+  }
+
+
+  .DiamondClean .personalized .personalized_img{
+    position: relative;
+  }
+
+  .DiamondClean .personalized .personalized_img .personalized_img_block{
+    position: absolute;
+    display: grid;
+    gap:10px;
+    right: 16px;
+    top: 22px;
+  }
+
+  .DiamondClean .personalized .personalized_img_block .sonicare_logo{
+    width: 32px;
+    
+  }
+  .DiamondClean .personalized .personalized_img_block .store_logo,
+  .DiamondClean .personalized .personalized_img_block .play_logo
+  {
+    width: 63px;
+    
+  }
+
+  .DiamondClean .choose_your h3{
+
+    padding: 40px 45px 10px;
+    text-align: center;
+
+  }
+
+  @media screen and (min-width:666px) {
+
+    .DiamondClean .personalized .personalized_text h3{
+        font-size: 24px;
+      }
+
+    .DiamondClean .personalized .personalized_text p{
+        font-size: 18px;
+      }
+    .DiamondClean .personalized .personalized_text{
+        padding: 40px 50px 32px;
+      }
+      .DiamondClean .personalized .personalized_img_block .sonicare_logo{
+        width: 46px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        margin-left: auto;
+        
+      }
+      .DiamondClean .personalized .personalized_img_block .store_logo,
+      .DiamondClean .personalized .personalized_img_block .play_logo
+      {
+        grid-row-start: 2;
+
+        width: 74px;
+      }
+      .DiamondClean .personalized .personalized_img .personalized_img_block{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);;
+        gap:16px 14px;
+        right: 32px;
+        top: auto;
+        bottom: 32px;
+      }
+      .DiamondClean .choose_your .choose_your_img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+      }
+  }
+  @media screen and (min-width:1024px) {
+
+
+    .DiamondClean .personalized .personalized_text{
+        padding: 40px 160px 32px;
+      }
+      .DiamondClean .personalized .personalized_img_block .sonicare_logo{
+        width: 59px;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        margin-right: auto;
+        
+      }
+      .DiamondClean .personalized .personalized_img_block .store_logo,
+      .DiamondClean .personalized .personalized_img_block .play_logo
+      {
+        grid-row-start: 2;
+        width: 94px;
+      }
+      .DiamondClean .personalized .personalized_img .personalized_img_block{
+       
+        gap:22px 18px;
+        right: 40px;
+        bottom: 40px;
+      }
+      .DiamondClean .choose_your .choose_your_img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+      }
+
+      .DiamondClean .personalized .personalized_text p{
+        font-size: 24px;
+      }
+      .DiamondClean .personalized .personalized_text h3{
+        font-size: 26px;
+      }
+  }
+
+  @media screen and (min-width:1366px) {
+
+
+    .DiamondClean .personalized .personalized_text{
+        padding: 60px 270px;
+      }
+      .DiamondClean .personalized .personalized_img_block .sonicare_logo{
+        width: 82px;
+        grid-column-start:2;
+        grid-row-start: 1;
+        margin-left: auto;
+        
+      }
+      .DiamondClean .personalized .personalized_img_block .store_logo,
+      .DiamondClean .personalized .personalized_img_block .play_logo
+      {
+        grid-row-start: 2;
+        width: 128px;
+      }
+      .DiamondClean .personalized .personalized_img .personalized_img_block{
+       
+        gap:32px 24px;
+        right: 166px;
+        bottom: 80px;
+      }
+      .DiamondClean .choose_your .choose_your_img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+      }
+
+      .DiamondClean .personalized .personalized_text p{
+        font-size: 32px;
+      }
+      .DiamondClean .personalized .personalized_text h3{
+        font-size: 36px;
+      }
+  }
+
+  /* fonet */
+
+  .DiamondClean .fonet{
+    padding: 40px 16px;
+
+  }
+
+  .DiamondClean .fonet p{
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 12px;
+  }
+
+
+  @media screen and (min-width:666px) {
+
+    .DiamondClean .fonet{
+        padding: 40px 32px;
+    }
+    .DiamondClean .fonet p{
+        font-size: 14px;
+      }
+
+  }
+  @media screen and (min-width:1024px) {
+
+    .DiamondClean .fonet{
+        padding: 40px 40px;
+    }
+
+
+  }
+  @media screen and (min-width:1366px) {
+
+    .DiamondClean .fonet{
+        padding: 60px 166px;
+    }
+    
+
+  }
+    </style>
+    <div class="DiamondClean">
+        <section class="sonicare">
+            <div class="sonicare_text">
+                <h3>Електрична зубна щітка Philips Sonicare HX9917/88 Diamond Clean Smart 9400</h3>
+                <p>Комплексний догляд для здоровішої ротової порожнини</p>
+            </div>
+            <div class="sonicare_img">
+                <img class="logo_clean" src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/logo.png?_t=1689777599" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3Dwhite.png?_t=1689777602" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+            </div>
+        </section>
+<!--  -->
+        <section class="block_radius">
+            <div class="cell_radius">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3D1.png?_t=1689777600" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <p class="cell_text">Усуває до 10 разів більше нальоту*</p>
+            </div>
+            <div class="cell_radius">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3D2.png?_t=1689777600" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <p class="cell_text">Зручний застосунок для чищення зубів</p>
+            </div>
+            <div class="cell_radius">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3D3.png?_t=1689777601" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <p class="cell_text">Розпізнавання насадки для чищення</p>
+            </div>
+            <div class="cell_radius">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3D4.png?_t=1689777601" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <p class="cell_text">4 режими, 3 рівні інтенсивності</p>
+            </div>
+            <div class="cell_radius">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3D5.png?_t=1689777601" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <p class="cell_text">Повідомляє про надмірний тиск</p>
+            </div>
+            <div class="cell_radius">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3D6.png?_t=1689777601" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <p class="cell_text">Технологія BrushSync відстежує тривалість та інтенсивність використання насадки</p>
+            </div>
+        </section>
+        <!--  -->
+        <section class="comparison">
+            <h3 style="text-align: center;">2 хвилини чищення зубів щіткою Philips відповідають місячному використанню звичайної зубної щітки <sum>**</sum></h3>
+            <div class="comparison_text">
+                <div class="philips">
+                    <ul>
+                        <li>62 тис рухів за хвилину. </li>
+                        <li>Прогресивна звукова технологія Philips Sonicare спрямовує потік води між зубами, що разом з рухом щітки руйнує та усуває наліт.</li>
+                        <li>Оповіщає про надмірний тиск.</li>
+                        <li>Стежить за тривалістю чищення.</li>
+                        <li>Технологія BrushSync відстежує тривалість використання насадки 
+                            для щітки та інтенсивність чищення. </li>
+                        <li>BrushSync повідомить вас, коли прийде час замінити насадку для чищення на нову.</li>
+                    </ul>
+                </div>
+                <img  src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3Dwhite-7.png?_t=1689777602" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <div class="ordinary">
+                    <ul>
+                        <li>до 200 рухів за хвилину.</li>
+                        <li>Ефективність залежить від типу щітки, техніки чищення та часу, що витрачається на чищення зубів</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    <!--  -->
+        <section class="movements">
+                <div class="movements_text">
+                    <h3>62 000 тисячі рухів на хвилину</h3>
+                    <p>Що робить Philips Sonicare такою ефективною зубною щіткою? Це унікальне поєднання інноваційної технології й дизайну щітки. <br>
+                        Кінчики щетинок насадки вібрують і створюють потік рідини з води, що глибоко очищає між зубами та вздовж ясен. Ця динамічна дія, відокремлює Philips Sonicare від інших зубних щіток.</p>
+                </div>
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3Dwhite-8.png?_t=1689777602" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+
+        </section>
+        <!--  -->
+        <section class="movements_left">
+                <div class="movements_text">
+                    <h3>Забудьте про наліт</h3>
+                    <p>Усуває до 10 разів більше нальоту*. <br>
+                        М'які та гнучкі щетинки повторюють контури ваших зубів усуваючи до 10 разів більше нальоту у важкодоступних місцях.</p>
+                </div>
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/img%203.png?_t=1689837526" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+
+        </section>
+        <!--  -->
+        <section class="movements">
+                <div class="movements_text">
+                    <h3>Насадка G3 Premium Gum Care — турбота про ясна</h3>
+                    <p>М'яка бічна частина та щетинки забезпечують лагідне чищення вздовж лінії ясен.</p>
+                </div>
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3Dwhite-9.png?_t=1689777602" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+
+        </section>
+        <!--  -->
+        <section class="movements_left">
+                <div class="movements_text">
+                    <h3>Насадка A3 Premium All-in-One — повний догляд</h3>
+                    <p>Нахилені щетинки та вигнуті краї максимально ефективно усувають наліт та допомагають почистити навіть важкодоступні ділянки.</p>
+                </div>
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3Dwhite-1.png?_t=1689777600" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+
+        </section>
+        <!--  -->
+        <section class="movements">
+                <div class="movements_text">
+                    <h3>Усі насадки Philips Sonicare сумісні з усіма щітками Philips Sonicare</h3>
+                    <p>Змінюйте насадку кожні 3 місяці для 100% ефективності</p>
+                </div>
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3Dwhite-3.png?_t=1689777601" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+
+        </section>
+        <!--  -->
+        <section class="movements_left">
+                <div class="movements_text">
+                    <h3>Підходить для всього</h3>
+                    <p>Безпечна для чутливих зубів, пломб, коронок, вінірів та брекетів</p>
+                </div>
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/img%207.png?_t=1689777599" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+
+        </section>
+        <!--  -->
+        <section class="movements">
+                <div class="movements_text">
+                    <h3>BrushSync — синхронізація насадки з режимом чищення</h3>
+                    <p>BrushSync сповістить вас про час заміни насадки на нову та видасть короткий звуковий сигнал. Також повідомить вас, яку насадку ви використовуєте та вибере оптимальний режим та інтенсивність, щоб забезпечити обережний, але ефективний догляд за вашими яснами</p>
+                </div>
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3Dwhite-6.png?_t=1689777601" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+
+        </section>
+        <!--  -->
+        <section class="block_radius modes_radius">
+            <h3 style="text-align: center;">4 режими, 3 рівні інтенсивності</h3>
+            <div class="cell_radius">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3D1-1.png?_t=1689777600" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <p class="cell_text">Clean: для щоденного використання</p>
+            </div>
+            <div class="cell_radius">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3D2-1.png?_t=1689777600" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <p class="cell_text">White+: для відбілювання ваших зубів</p>
+            </div>           
+            <div class="cell_radius">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3D3-1.png?_t=1689777600" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <p class="cell_text">Gum health: для чутливих зубів та ясен</p>
+            </div>
+            <div class="cell_radius">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3D4-1.png?_t=1689777601" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <p class="cell_text">Deep clean+: для більш ретельного очищення</p>
+            </div>
+            <div class="cell_radius">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3D4.png?_t=1689777601" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <p class="cell_text">Три рівні інтенсивності</p>
+            </div>
+        </section>
+ <!--  -->
+       <section class="movements_left">
+        <div class="movements_text">
+            <h3>Повідомляє про надмірний тиск на щітку</h3>
+            <p>Якщо ви надмірно тиснете, щітка вам про це повідомить за допомогою світлого індикатору та додаткової вібрації, щоб ви зменшили тиск під час чищення</p>
+        </div>
+        <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3Dwhite-2.png?_t=1689777601" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+
+    </section>
+<!--  -->
+    <section class="movements">
+        <div class="movements_text">
+            <h3>Просте заряджання</h3>
+            <p>До 2 тижнів без підзарядки.<sum>***</sum> Для заряджання просто помістіть вашу електричну зубну щітку в стакан із зарядною базою. А зручний дорожній футляр зарядить щітку через USB у тривалих поїздках</p>
+        </div>
+        <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3Dwhite-4.png?_t=1689777601" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+
+    </section>
+    <!--  -->
+    <section class="personalized">
+            <div class="personalized_text">
+                <h3>Персоналізовані вказівки застосунка Philips Sonicare</h3>
+                <p style="font-weight: 300;">Застосунок Philips Sonicare працює на основі штучного інтелекту. Застосунок отримує дані з щітки, аналізує їх та в режимі реального часу, керує процесом чищення, надає рекомендації, а також персоналізовані поради після чищення.</p>
+            </div>
+            <div class="personalized_img">
+                <div class="personalized_img_block">
+                <img class="sonicare_logo"   src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Sonicare-App%201.png?_t=1689777603" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <img class="store_logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/logo_app_store.png?_t=1689846608" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+                <img class="play_logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/logo_google_play.png?_t=1689846609" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+
+                </div>
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/img%2020.png?_t=1689777599" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+
+            </div>
+    </section>
+    <!--  -->
+    <section class="block_radius control_radius">
+       <div class="cell_radius">
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3D1-2.png?_t=1689777600" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+            <div class="cell_radius_text">
+                <h3>Контроль щітки</h3>
+                <p>У застосунку можна обрати режим та налаштування інтенсивності.</p>
+            </div>
+        </div>
+        <div class="cell_radius">
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3D2-2.png?_t=1689777600" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+            <div class="cell_radius_text">
+                <h3>Рекомендації</h3>
+                <p>Під час чищення штучний інтелект аналізує дані та надає персоналізовані рекомендації для покращення результатів</p>
+            </div>       
+         </div>
+        <div class="cell_radius">
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3D3-2.png?_t=1689777600" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+            <div class="cell_radius_text">
+                <h3>Offline чищення</h3>
+                <p>Якщо смартфон не був поруч і чищення проходило офлайн, застосунок проаналізує дані під час наступної синхронізації</p>
+            </div>   
+        </div>
+    </section>
+    <!--  -->
+
+    <section class="movements">
+        <div class="movements_text">
+            <h3>Комплектація:</h3>
+            <ul>
+                <li>Електрична зубна щітка</li>
+                <li>Philips Sonicare Diamond Clean Smart</li>
+                <li>Насадки:
+                     <ul>
+                            <li>A3 Premium All-in-One – 1шт; </li>
+                            <li> G3 Premium Gum Care – 1 шт; </li>
+                            <li>Дорожній USB-футляр для заряджання</li>
+                            <li>Скляний стакан для заряджання</li>
+                    </ul>
+                </li>
+                
+            </ul>       
+         </div>
+        <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Property%201%3Dwhite-5.png?_t=1689777601" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+
+    </section>
+
+    <!--  -->
+    <section class="choose_your">
+        <div class="choose_your_text">
+            <h3 style="text-align: center;">Обирай свій Philips Sonicare Flosser</h3>
+        </div>
+        <div class="choose_your_img">
+            <img src=" https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Rectangle%201.png?_t=1689777603" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/703504/Rectangle%202.png?_t=1689777603" alt="Електрична зубна щітка Philips Sonicare HX9917/89 Diamond Clean Smart 9400">
+        </div>
+    </section>
+
+    <section class="fonet">
+        <p> <sum>*</sum>У порівнянні зі звичайною щіткою, клінічне дослідження.</p>
+        <p><sum>**</sum>Різниця виникає з середньої кількості рухів щітки під час одного циклу чищення зубів.</p>
+        <p><sum>***</sum>У разі використання двічі на день протягом двох хвилин у стандартному режимі.</p>
+    </section>
+
+
+
+
+
+
+    </div>
+
+
+
+
+</body>
+</html>

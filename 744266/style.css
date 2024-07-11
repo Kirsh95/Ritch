@@ -1,0 +1,620 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .motorola img {
+      margin: 0;
+    }
+    .motorola .description {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .motorola .title {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .motorola h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .motorola ul {
+      list-style: decimal;
+      margin: 0;
+    }
+    .motorola ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+    }
+    .motorola {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .motorola ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .motorola ul li {
+      padding: 0;
+    }
+    .motorola div {
+      padding: 0;
+    }
+    div.motorola {
+      padding: 0;
+    }
+    .motorola br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .motorola{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .motorola img{
+      width: 100%;
+      display: block;
+    }
+
+
+    @media screen and (min-width:666px) {
+        body{
+            padding: 0 24px;
+        }
+    }
+
+    .motorola .beauty_detail{
+        display: none;
+    }
+
+    .motorola .beauty_detail_mobile{
+        display: grid;
+        gap: 16px;
+    }
+
+    .motorola .beauty_detail_mobile .beauty_detail_top{
+        text-align: center;
+        padding: 24px 16px 0px;
+    }
+
+    .motorola .beauty_detail_mobile .beauty_detail_top .top_moto{
+        display: none;
+    }
+
+    .motorola .beauty_detail_mobile .beauty_detail_top .title{
+        font-size: 44px;
+        line-height: 130%;
+        font-weight: 300;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .motorola .beauty_detail_mobile .beauty_detail_top .description{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .motorola .beauty_detail_mobile .beauty_detail_text_mobile{
+        padding: 0 16px 24px;
+    }
+    .motorola .beauty_detail_mobile .beauty_detail_text_mobile .title{
+        font-size: 22px;
+    }
+    .motorola .beauty_detail_mobile .beauty_detail_text_mobile .description{
+        font-size: 15px;
+        padding: 0 2px;
+    }
+
+
+    @media screen and (min-width:666px) {
+             .motorola .beauty_detail{
+                display: grid;
+                position: relative;
+                gap: 16px;
+            } 
+            .motorola .beauty_detail_mobile{
+                display: none;
+            }
+        
+            .motorola .beauty_detail .sunset{
+                position: relative;
+            } 
+            .motorola .beauty_detail .sunset .sunset_img{
+                border-radius: 12px;
+            }
+            .motorola .beauty_detail .sunset .sunset_text{
+                position: absolute;
+                top: 50%;
+                transform: translate(0, -50%);
+                z-index: 2;
+                left: 40px;
+            }
+
+            .motorola .beauty_detail .hand{
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 71%;
+            }
+
+            .motorola .beauty_detail .moto_logo{
+                width: 145px;
+            }
+
+            .motorola .beauty_detail .sunset .title{
+                font-size: 44px;
+                line-height: 130%;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+                color: #fff;
+            }
+
+            .motorola .beauty_detail .sunset .description{
+                font-size: 18px;
+                font-weight: 500;
+                color: #fff;
+            }
+
+            .motorola .beauty_detail .beauty_detail_footer{
+                display: grid;
+                grid-template-columns: 1fr 1.51fr;
+                gap: 16px;
+            }
+
+            .motorola .beauty_detail .beauty_detail_footer img{
+                border-radius: 12px;
+            }
+
+            .motorola .beauty_detail  .beauty_detail_footer .block_left,
+            .motorola .beauty_detail .beauty_detail_footer .block_rigth {
+                position: relative;
+            }
+            .motorola .beauty_detail  .beauty_detail_footer .block_left .title,
+            .motorola .beauty_detail .beauty_detail_footer .block_rigth .description {
+                position: absolute;
+                color: #fff;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+
+            .motorola .beauty_detail  .beauty_detail_footer .block_left .title{
+                bottom: 32px;
+                width: 196px;
+                font-size:22px;
+                text-transform: uppercase;
+            }
+            .motorola .beauty_detail .beauty_detail_footer .block_rigth .description {
+                bottom: 32px;
+                width: 348px;
+                font-size: 15px;
+
+            }
+
+    }
+
+
+    @media screen and (min-width:1024px) {
+        .motorola .beauty_detail{
+            gap: 20px;
+        } 
+        .motorola .beauty_detail .beauty_detail_footer{
+            gap: 20px;
+        }
+        .motorola .beauty_detail .moto_logo{
+            width: 206px;
+        }
+        .motorola .beauty_detail .sunset .title{
+            font-size: 62px;
+        }
+        .motorola .beauty_detail .sunset .description{
+            font-size: 24px;
+        }
+        .motorola .beauty_detail  .beauty_detail_footer .block_left .title{
+            bottom: 32px;
+            width: 294px;
+            font-size:32px;
+        }
+        .motorola .beauty_detail .beauty_detail_footer .block_rigth .description {
+            bottom:32px;
+            width: 502px;
+            font-size: 20px
+        }
+
+    }
+
+    @media screen and (min-width:1366px) {
+        .motorola .beauty_detail{
+            gap: 24px;
+        } 
+        .motorola .beauty_detail .beauty_detail_footer{
+            gap: 24px;
+        }
+        .motorola .beauty_detail .moto_logo{
+            width: 294px;
+        }
+        .motorola .beauty_detail .sunset .title{
+            font-size: 88px;
+        }
+        .motorola .beauty_detail .sunset .description{
+            font-size: 34px;
+        }
+        .motorola .beauty_detail  .beauty_detail_footer .block_left .title{
+            bottom: 40px;
+            width: 407px;
+            font-size:46px;
+        }
+        .motorola .beauty_detail .beauty_detail_footer .block_rigth .description {
+            bottom: 40px;
+            width: 695px;
+            font-size: 28px
+        }
+
+    }
+
+
+    /*moto_block  */
+    .motorola .moto_block{
+        position: relative;
+        margin-top: 24px;
+    }
+
+    .motorola .moto_block img{
+        border-radius:0 0 12px 12px;
+    }
+
+    .motorola .moto_block .moto_text{
+        padding: 16px;     
+        background: #000;   
+        border-radius: 12px 12px 0 0;
+    }
+    
+    .motorola .moto_block .description,
+    .motorola .moto_block .title{
+        color: #fff;
+    }
+
+
+    .motorola .moto_block .moto_text img{
+        width: 96px;
+        margin-top: 16px;
+    }
+
+    .motorola .moto_block:first-child{
+        margin-top: 0;
+    }
+    .motorola .moto_block:nth-child(5) .moto_text{
+        background:#555653;
+    }
+    .motorola .moto_block:nth-child(6) .moto_text{
+        background:#35495a;;
+    }
+    .motorola .moto_block:nth-child(7) .moto_text{
+        background:#555653;;
+    }
+    .motorola .moto_block:nth-child(9) .moto_text{
+        background:#6b6a67;;
+    }
+    .motorola .moto_block:nth-child(10) .moto_text{
+        background:#645749;;
+    }
+    .motorola .moto_block:nth-child(12) .moto_text{
+        background:#003e45;
+    }
+    .motorola .moto_block:nth-child(11) .moto_text{
+        background:none;
+    }
+    
+    .motorola .moto_block:nth-child(11){
+        background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/744266/opt.Livello%2025.webp?_t=1718792948");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .motorola .moto_block:nth-child(11) .description,
+    .motorola .moto_block:nth-child(11) .title{
+        color: #000;
+    }
+
+    .motorola .moto_block:nth-child(13) .moto_text{
+        background: #78aaca;
+    }
+    .motorola .moto_block:nth-child(13) .moto_text img{
+        width: 131px;
+    }
+
+    .motorola .pazle .pazle_mobile .pazle_mobile_text{
+        padding: 16px 16px 0;
+    }
+        
+    .motorola .pazle .pazle_mobile{
+        margin-top: 24px;
+    } 
+    .motorola .pazle .pazle_mobile .pazle_mobile_text .title{
+        font-size: 22px;
+    }   
+    .motorola .pazle .pazle_mobile .pazle_mobile_text .description{
+        font-size: 14px;
+    }   
+
+    .motorola .pazle .pazle_block{
+        display: none;
+    }
+
+
+
+    @media screen and (min-width:666px) {
+        .motorola .moto_block{
+            margin-top: 24px;
+        }
+        .motorola .moto_block .moto_text{
+            padding: 14px;
+            top: 50%;
+            left: 32px;
+            transform: translate(0, -50%);
+            width: 247px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius:0;
+            position: absolute;
+        }
+        .motorola .moto_block img,
+        .motorola .moto_block{
+            border-radius:12px;
+        }
+
+        .motorola .moto_block .moto_text img{
+            position: absolute;
+            bottom: -50px;
+        }
+        .motorola .moto_block:nth-child(5) .moto_text{
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .motorola .moto_block:nth-child(6) .moto_text{
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .motorola .moto_block:nth-child(7) .moto_text{
+            background:rgba(0, 0, 0, 0.5);
+        }
+        .motorola .moto_block:nth-child(9) .moto_text,
+        .motorola .moto_block:nth-child(10) .moto_text,
+        .motorola .moto_block:nth-child(11) .moto_text,
+        .motorola .moto_block:nth-child(12) .moto_text,
+        .motorola .moto_block:nth-child(13) .moto_text{
+            background:none;
+        }
+        .motorola .moto_block:nth-child(12) .moto_text img{
+            width: 131px;
+            bottom: -30px;
+        }
+
+        .motorola .moto_block:nth-child(11){
+            display: grid;
+            padding: 40px 40px 0 0;
+            grid-template-columns: repeat(2,1fr);
+        }
+
+        .motorola .moto_block:nth-child(11) img{
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+
+        .motorola .pazle .pazle_mobile{
+            display: none;
+        }
+
+        .motorola .pazle .pazle_block{
+            margin-top: 24px;
+            display: grid;
+            gap: 16px;
+            grid-template-columns: 1.54fr 1fr;
+        }
+        .motorola .pazle .pazle_block img{
+            border-radius: 12px;
+        }
+
+
+        .motorola .pazle .pazle_block .block_left,
+        .motorola .pazle .pazle_block .block_rigth{
+            position: relative;
+        }
+
+        .motorola .pazle .pazle_block .block_left .title,
+        .motorola .pazle .pazle_block .block_rigth .description,
+        .motorola .pazle .pazle_block .block_rigth img{
+            position: absolute;
+        }
+
+        .motorola .pazle .pazle_block .block_left .title{
+            top: 32px;
+            right: 32px;
+            font-size: 22px;
+            text-transform: uppercase;
+        }
+        .motorola .pazle .pazle_block .block_rigth .description{
+            bottom: 16px;
+            left: 16px;
+            width: 235px;
+            font-size: 15px;
+        }
+
+        .motorola .pazle .pazle_block .block_rigth .logo_pazle{
+            width: 126px;
+            top: 16px;
+            left: 16px;
+        }   
+
+          
+    }
+
+    @media screen and (min-width:1024px) {
+        .motorola .description{
+            font-size: 18px;
+        }
+        .motorola .title{
+            font-size: 20px;
+            margin-bottom: 18px;
+        }
+        .motorola .moto_block .moto_text{
+            padding: 18px;
+            left: 32px;
+            width: 323px;
+        }
+        .motorola .moto_block img,
+        .motorola .moto_block{
+            border-radius:16px;
+        }
+
+        .motorola .moto_block .moto_text img{
+            width: 135px;
+            bottom: -80px;
+        }
+        .motorola .moto_block:nth-child(12) .moto_text img{
+            width: 188px;
+            bottom: -50px;
+        }
+
+        .motorola .pazle .pazle_block .block_left .title{
+            top: 32px;
+            right: 24px;
+            font-size: 32px;
+        }
+        .motorola .pazle .pazle_block .block_rigth .description{
+            bottom: 16px;
+            left: 16px;
+            width: 334px;
+            font-size: 20px;
+        }
+
+        .motorola .pazle .pazle_block .block_rigth .logo_pazle{
+            width: 185px;
+            top: 16px;
+            left: 16px;
+        }  
+        .motorola .pazle .pazle_block{
+            gap: 20px;
+        }
+       
+    }
+    @media screen and (min-width:1366px) {
+        .motorola .description{
+            font-size: 20px;
+            line-height: 150%;
+        }
+        .motorola .title{
+            font-size: 28px;
+            margin-bottom: 24px;
+        }
+        .motorola .moto_block .moto_text{
+            padding: 24xpx;
+            left: 60px;
+            width: 457px;
+        }
+        .motorola .moto_block img,
+        .motorola .moto_block{
+            border-radius:20px;
+        }
+
+        .motorola .moto_block .moto_text img{
+            width: 192px;
+            bottom: -150px;
+        }
+        .motorola .moto_block:nth-child(12) .moto_text img{
+            width: 270px;
+            bottom: -120px;
+        }
+        .motorola .moto_block:nth-child(11){
+            padding: 60px 40px 0 0;
+        }
+        .motorola .pazle .pazle_block .block_left .title{
+            top: 60px;
+            right: 32px;
+            font-size: 46px;
+        }
+        .motorola .pazle .pazle_block .block_rigth .description{
+            bottom: 16px;
+            left: 16px;
+            width: 479px;
+            font-size: 28px;
+        }
+
+        .motorola .pazle .pazle_block .block_rigth .logo_pazle{
+            width: 255px;
+            top: 24px;
+            left: 24px;
+        }  
+        .motorola .pazle .pazle_block{
+            gap: 24px;
+        }
+    }
+
+
+    .motorola .notes{
+        padding: 32px 16px;
+        display: grid;
+        gap: 16px;
+    }
+    .motorola .notes .notes_block_bottom ul{
+        display: grid;
+        gap: 5px;
+    }
+    .motorola .notes .description{
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+
+    @media screen and (min-width:666px) {
+        .motorola .notes{
+            padding: 32px 75px;
+            gap: 20px;
+        }
+        .motorola .notes .notes_block_bottom ul{
+            display: grid;
+            gap: 16px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .motorola .notes{
+            padding:42px 90px;
+            gap: 28px;
+        }
+        .motorola .notes .notes_block_bottom ul{
+            display: grid;
+            gap: 16px;
+        }
+        .motorola .notes .description{
+            font-size: 14px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .motorola .notes{
+            padding:60px 170px;
+            gap: 40px;
+        }
+    }

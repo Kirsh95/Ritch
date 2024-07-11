@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,600;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+  .product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .Light_Bee img {
+      margin: 0;
+    }
+    .Light_Bee .description {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .Light_Bee .title {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+    .Light_Bee .title_s {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+    .Light_Bee ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .Light_Bee ul li {
+      line-height: normal;
+      color: rgba(0, 0, 0, 0.7);
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .Light_Bee {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .Light_Bee ul {
+      padding: 0;
+      padding-left: 20px;
+      padding: 16px 0 16px 20px;
+    }
+    .Light_Bee ul li {
+      padding: 0;
+    }
+    .Light_Bee div {
+      padding: 0;
+    }
+    div.Light_Bee {
+      padding: 0;
+    }
+    .Light_Bee br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .Light_Bee{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .Light_Bee img{
+      width: 100%;
+      display: block;
+    }
+    /* electric_scooter */
+    .Light_Bee .electric_scooter{
+    background: linear-gradient(90deg, rgba(60,11,99,1) 20%, rgba(116,100,185,1) 100%);
+      padding: 24px 16px;
+      position: relative;
+      display: grid;
+      gap: 16px;
+    }
+    .Light_Bee .electric_scooter .icon_top{
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 1;
+      width: 90%;
+    }
+    .Light_Bee .electric_scooter .electric_scooter_img{
+      position: relative;
+      z-index: 2;
+    }
+    .Light_Bee .electric_scooter .electric_scooter_text p{
+      color: rgb(255, 255, 255);
+    }
+    @media screen and (min-width:666px) {
+        /* body{
+            padding: 0 24px;
+        } */
+      .Light_Bee .electric_scooter{
+        grid-template-columns:1.4fr 1fr ;
+        align-items: center;
+        padding: 24px 40px;
+        gap: 0;
+      }
+      .Light_Bee .electric_scooter .electric_scooter_img{
+        padding-left: 24px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        
+      }
+      .Light_Bee .electric_scooter .icon_top{
+        width: 448px;
+        right: 0px;
+      }
+      .Light_Bee .electric_scooter .title{
+        padding-right: 40px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .Light_Bee .electric_scooter{
+        grid-template-columns:1fr 1fr ;
+        padding: 24px 64px;
+        gap:32px;
+      }
+      .Light_Bee .electric_scooter .electric_scooter_img{
+        padding-left: 0px;
+      }
+      .Light_Bee .electric_scooter .icon_top{
+        width: 400px;
+        right: 0px;
+      }
+      .Light_Bee .electric_scooter .title{
+        padding-right: 50px;
+      }
+      .Light_Bee .title {
+        font-size: 28px;
+      }
+      .Light_Bee .title_s {
+        font-size: 18px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .Light_Bee .electric_scooter{
+        grid-template-columns:628px 1fr ;
+        padding: 24px 80px;
+        gap: 40px;
+      }
+      .Light_Bee .electric_scooter .electric_scooter_img{
+        padding-right: 0px;
+      }
+      .Light_Bee .electric_scooter .icon_top{
+        width: 540px;
+        right: 0px;
+      }
+      .Light_Bee .electric_scooter .electric_scooter_text{
+        padding-right: 34px;
+      }
+      .Light_Bee .electric_scooter .title{
+        padding-right: 40px;
+      }
+      .Light_Bee .title {
+        font-size: 38px;
+        margin-bottom: 18px;
+      }
+      .Light_Bee .description {
+        font-size: 18px;
+        line-height: 150%;
+      }
+      .Light_Bee ul li {
+        font-size: 18px;
+        line-height: 150%;
+      }
+      .Light_Bee .title_s {
+        font-size: 22px;
+        margin-bottom: 18px;
+      }
+    }
+    /* main_chareckt */
+    .Light_Bee .main_chareckt{
+      display: grid;
+      z-index: 2;
+      position: relative;
+    }
+    .Light_Bee .main_chareckt .description{
+      color: rgba(0, 0, 0, 0.7);
+    }
+    .Light_Bee .main_chareckt .main_chareckt_img{
+      padding-right: 92px;
+      
+    }
+    .Light_Bee .main_chareckt .main_chareckt_text{
+      display: grid;
+      padding: 40px 16px;
+      text-align: center;
+      align-items: start;
+      gap: 16px;
+      grid-template-columns: repeat(2,1fr);
+    }
+    .Light_Bee .main_chareckt .main_chareckt_item{
+      display: grid;
+      gap: 8px;
+    }
+    .Light_Bee .main_chareckt .main_chareckt_item{
+      display: grid;
+      gap: 8px;
+    }
+    .Light_Bee .main_chareckt .main_chareckt_text img{
+      width: 64px;
+      margin: 0 auto;
+    }
+    @media screen and (min-width:666px) {
+      .Light_Bee .main_chareckt{
+        grid-template-columns: .48fr 1fr;
+        padding-right: 40px;
+        align-items: start;
+        align-items: center;
+        gap: 32px;
+      }
+
+      .Light_Bee .main_chareckt .main_chareckt_img{
+        padding-right: 0px;
+      }
+      .Light_Bee .main_chareckt .main_chareckt_text img{
+        width: 56px;
+        margin: 0 auto;
+      }
+      .Light_Bee .main_chareckt .main_chareckt_text{
+        grid-template-columns: repeat(3,1fr);
+        padding: 0;
+        gap: 24px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .Light_Bee .main_chareckt{
+        padding-right: 64px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .Light_Bee .main_chareckt{
+        padding-right: 80px;
+      }
+      .Light_Bee .main_chareckt .main_chareckt_text{
+        gap: 32px;
+      }
+      .Light_Bee .main_chareckt .main_chareckt_text img{
+        width: 88px;
+      }
+    }
+    /* lightweight_and_fast */
+    .Light_Bee .lightweight_and_fast{
+        background: linear-gradient(90deg, rgba(60,11,99,1) 20%, rgba(116,100,185,1) 100%);
+        display: grid;
+      padding: 40px 16px;
+      gap: 16px;
+      position: relative;
+    }
+    .Light_Bee .lightweight_and_fast p{
+      color: #fff;
+    }
+    .Light_Bee .lightweight_and_fast .lightweight_img{
+      position: relative;
+      z-index: 2;
+    }
+    .Light_Bee .lightweight_and_fast .icon_two{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 1;
+      width: 248px;
+    }
+    @media screen and (min-width:666px) {
+      .Light_Bee .lightweight_and_fast{
+        grid-template-columns: 1.5fr 1fr;
+        padding: 40px 40px;
+        align-items: center;
+      }
+      .Light_Bee .lightweight_and_fast .icon_two{
+        width: 350px;
+        top: 50%;
+        transform: translate(0, -50%);
+        bottom: auto;
+        }
+     }
+    @media screen and (min-width:1024px) {
+      .Light_Bee .lightweight_and_fast{
+        grid-template-columns: 1fr 1fr;
+        padding: 24px 60px;
+        gap: 40px;
+      }
+      .Light_Bee .lightweight_and_fast .icon_two{
+        right: 0px;
+        width: 342px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .Light_Bee .lightweight_and_fast{
+        padding: 30px 80px;
+        grid-template-columns: 1fr 628px;
+        gap: 40px
+      }
+      .Light_Bee .lightweight_and_fast .icon_two{
+        width: 497px;
+      }
+    }
+    /* power_reserve */
+    .Light_Bee .power_reserve{
+      padding: 40px 16px 0;
+      display: grid;
+      gap: 16px;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+    @media screen and (min-width:666px) {
+      .Light_Bee .power_reserve{
+        padding: 40px 83px 0;
+        gap: 24px;
+      }
+      .Light_Bee .power_reserve .power_reserve_img{
+        padding:0 57px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .Light_Bee .power_reserve{
+        padding: 40px 85px 0;
+        gap: 32px;
+      }
+      .Light_Bee .power_reserve .power_reserve_img{
+        padding:0 75px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .Light_Bee .power_reserve{
+        gap: 40px;
+        padding: 50px 265px 0;
+      }
+      .Light_Bee .power_reserve .power_reserve_img{
+        padding:0 18px;
+      }
+    }
+
+
+
+
+    /* in_front_of */
+    .Light_Bee .in_front_of{
+      background: rgb(248, 248, 248);
+      display: grid;
+      padding: 40px 16px;
+      gap: 16px;
+    }
+    @media screen and (min-width:666px) {
+      .Light_Bee .in_front_of{
+        grid-template-columns: 1.73fr 1fr;
+        align-items: center;
+        padding:70px 40px ;
+        gap: 0;
+      }
+      .Light_Bee .in_front_of .in_front_of_text{
+        padding-right: 32px;
+        grid-column-start: 1;
+        grid-row-start: 1;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .Light_Bee .in_front_of{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 40px 64px ;
+        gap: 32px;
+      }
+      .Light_Bee .in_front_of .in_front_of_text{
+        padding-right: 0px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .Light_Bee .in_front_of{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 50px 80px ;
+        gap:40px;
+      }
+      .Light_Bee .in_front_of .in_front_of_text{
+        padding-right: 0px;
+      }
+    }
+    /* energy_efficiency */
+    .Light_Bee .energy_efficiency{
+      padding: 40px 16px;
+      background: rgb(248, 248, 248);
+      text-align: center;
+      position: relative;
+      z-index: 2j;
+    }
+    @media screen and (min-width:666px) {
+      .Light_Bee .energy_efficiency{
+        padding: 40px;
+        align-items: center;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .Light_Bee .energy_efficiency{
+        padding: 40px 64px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .Light_Bee .energy_efficiency{
+        padding: 50px 80px;
+      }
+    }
+    /* ergonomic_design */
+    .Light_Bee .ergonomic_design{
+        background: linear-gradient(170deg, rgba(60,11,99,1) 20%, rgba(116,100,185,1) 100%);
+        padding: 40px 16px;
+        gap: 20px;
+        display: grid;
+      position: relative;
+    }
+    .Light_Bee .ergonomic_design p{
+      color: #fff;
+    }
+    .Light_Bee .ergonomic_design .ergonomic_design_img{
+      position: relative;
+      z-index: 2;
+      grid-row-start: 2;
+    }
+    .Light_Bee .ergonomic_design .icon_last{
+      position: absolute;
+      top: 0;
+      left: -180px;
+      width: 500px;
+      transform:scaleX(-1);
+      z-index: 1;
+    }
+    @media screen and (min-width:666px) {
+      .Light_Bee .ergonomic_design{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1.5fr;
+        padding: 40px;
+      }
+      .Light_Bee .ergonomic_design .ergonomic_design_text{
+        padding-left: 9px;
+      }
+
+      .Light_Bee .ergonomic_design .icon_last{
+        position: absolute;
+        top: -16%;
+        left: 0px;
+        width: 333px;
+        z-index: 1;
+      }
+      .Light_Bee .ergonomic_design .ergonomic_design_img{
+        position: relative;
+        z-index: 2;
+        padding-right: 32px;
+        grid-row-start: 1;
+
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .Light_Bee .ergonomic_design{
+        padding: 40px 64px;
+        gap: 32px;
+        grid-template-columns: repeat(2,1fr);
+      }
+      .Light_Bee .ergonomic_design .ergonomic_design_text{
+        padding-right: 0px;
+      }
+      .Light_Bee .ergonomic_design .icon_last{
+        width: 368px;
+        top: -3%;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .Light_Bee .ergonomic_design{
+        padding: 50px 80px;
+        gap: 40px;
+        grid-template-columns:628px 1fr;
+      }
+      .Light_Bee .ergonomic_design .ergonomic_design_text{
+        padding:0;
+      }
+      .Light_Bee .ergonomic_design .icon_last{
+        width: 607px;
+      }
+      .Light_Bee .ergonomic_design .ergonomic_design_img{
+        position: relative;
+        z-index: 2;
+        padding-right: 0px;
+      }
+
+    }
+    /* confident_movement   */
+    .Light_Bee .confident_movement{
+      display: grid;
+      gap: 16px;
+      position: relative;
+      z-index: 2;
+    }
+    .Light_Bee .confident_movement .confident_movement_text{
+      padding: 0 16px 32px;
+    }
+    @media screen and (min-width:666px) {
+      .Light_Bee .confident_movement{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1.5fr;
+        gap: 32px;
+      }
+      .Light_Bee .confident_movement .confident_movement_text{
+        padding: 0;
+        padding-right:40px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .Light_Bee .confident_movement{
+        grid-template-columns: 1fr 1.3fr;
+        gap: 32px;
+      }
+      .Light_Bee .confident_movement .confident_movement_text{
+        padding-right:64px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .Light_Bee .confident_movement{
+        grid-template-columns: 499px 1fr;
+        gap: 40px;
+      }
+      .Light_Bee .confident_movement .confident_movement_text{
+        padding: 0;
+        padding-right:80px;
+      }
+    }
+    /* IP54 */
+    .Light_Bee .IP54{
+      background: rgb(248, 248, 248);
+      display: grid;
+      padding: 40px 16px 0;
+      gap: 16px;
+    }
+    @media screen and (min-width:666px) {
+      .Light_Bee .IP54{
+        display: grid;
+        align-items: center;
+        padding: 40px;
+        grid-template-columns: 1.5fr 1fr;
+        gap: 32px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .Light_Bee .IP54{
+        display: grid;
+        align-items: center;
+        padding: 40px 64px 0;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .Light_Bee .IP54{
+        display: grid;
+        align-items: center;
+        padding:50px 80px 0;
+        grid-template-columns: 1fr 1.11fr;
+        gap: 40px;
+      }
+    }
+    /* safe_travelling */
+    .Light_Bee .safe_travelling{
+      padding: 40px 16px;
+      display: grid;
+      gap: 16px;
+    }
+    @media screen and (min-width:666px) {
+      .Light_Bee .safe_travelling{
+        display: grid;
+        align-items: center;
+        padding: 40px;
+        grid-template-columns: 1.6fr 1fr;
+        gap: 32px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .Light_Bee .safe_travelling{
+        padding: 40px 64px;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .Light_Bee .safe_travelling{
+        padding: 40px 80px;
+        grid-template-columns: 1fr 628px;
+        gap: 40px;
+      }
+    }
+    .Light_Bee .notes{
+      background: radial-gradient(48.26% 100% at 48.26% 100%, rgb(116, 100, 185) 0%, rgb(60, 11, 99) 100%);
+    }
+    .Light_Bee .notes p{
+      color: #fff;
+    }
+    @media screen and (min-width:666px) {
+      .Light_Bee .notes{
+        padding: 40px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .Light_Bee .notes{
+        padding: 40px 64px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .Light_Bee .notes{
+        padding: 40px 80px;
+      }
+    }
+
+</style>
+  <div class="Light_Bee">
+    <div class="electric_scooter"><img alt="" class="icon_top" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/Frame%2048.webp?_t=1718008804" />
+      <div class="electric_scooter_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/im_2.webp?_t=1718008805" />
+      </div>
+      <div class="electric_scooter_text">
+        <p class="title">Електромотоцикл Sur-Ron Light Bee X
+        </p>
+        <p class="description">Sur-Ron Light Bee X &ndash; потужний електромотоцикл створений для бездоріжжя, пересіченої місцевості, кросових трас. Sur-Ron Light Bee X можна назвати &ldquo;монстром&rdquo; фрірайду. Він долає підйоми з ухилом у 46&deg;, підіймається на кам&rsquo;янисті схили, а якщо їхати по прямій, то максимальна швидкість електромотоцикла становить до 72 км/год на рівній дорозі. Все це можливо завдяки спеціальній полегшеній конструкції. А яскравий агресивний дизайн підкреслює потужність.
+          <br />
+          <br />
+          Ганяйте по будь-якій місцевості та підкорюйте пісок, пагорби, бруд, траву з легкістю та майстерністю.
+        </p>
+      </div>
+    </div>
+    <!--  --><!--  -->
+    <div class="main_chareckt">
+      <div class="main_chareckt_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/Frame%2032.webp?_t=1718008804" />
+      </div>
+      <div class="main_chareckt_text">
+        <div class="main_chareckt_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/Frame%2049.svg?_t=1718008798" />
+          <div class="main_item_text">
+            <p class="description"><strong>Потужний двигун</strong>
+            </p>
+            <p class="description">3000 Вт
+            </p>
+          </div>
+        </div>
+        <div class="main_chareckt_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/Frame%2049-1.svg?_t=1718008798" />
+          <div class="main_item_text">
+            <p class="description"><strong>Максимальна швидкість</strong>
+            </p>
+            <p class="description">до 72 км/год
+            </p>
+          </div>
+        </div>
+        <div class="main_chareckt_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/Frame%2049-2.svg?_t=1718008797" />
+          <div class="main_item_text">
+            <p class="description"><strong>Запас ходу</strong>
+            </p>
+            <p class="description">до 100 км
+            </p>
+          </div>
+        </div>
+        <div class="main_chareckt_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/Frame%2049-3.svg?_t=1718008797" />
+          <div class="main_item_text">
+            <p class="description"><strong>Ємність акумулятора</strong>
+            </p>
+            <p class="description">40 Аг
+            </p>
+          </div>
+        </div>
+        <div class="main_chareckt_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/Frame%2049-4.svg?_t=1718008797" />
+          <div class="main_item_text">
+            <p class="description"><strong>Долає підйоми з ухилом</strong>
+            </p>
+            <p class="description">до 46&deg;
+            </p>
+          </div>
+        </div>
+        <div class="main_chareckt_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/Frame%2049-5.svg?_t=1718008797" />
+          <div class="main_item_text">
+            <p class="description"><strong>Вага електромотоцикла</strong>
+            </p>
+            <p class="description">50 кг
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="lightweight_and_fast">
+      <div class="lightweight_text">
+        <p class="title">Потужний і ефективний двигун
+        </p>
+        <p class="description">Спеціально розроблений електродвигун потужністю 3000 Вт з повітряним охолодженням та двоступеневий привід значно підвищують продуктивність Sur-Ron Light Bee X. У результаті його мотор може працювати на дуже високих обертах, ефективно використовуючи вхідну потужність і забезпечуючи необхідну частоту обертання колеса при невеликому нагріванні двигуна.
+        </p>
+      </div>
+      <div class="lightweight_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/im_3.webp?_t=1718008804" />
+      </div>
+      <img alt="" class="icon_two" src="https://i.citrus.world/uploads/content/product-photos/kirsh/714082/Frame%2045.svg?_t=1717765702" />
+    </div>
+    <!--  -->
+    <div class="confident_movement">
+      <div class="confident_movement_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/im_5.webp?_t=1718008805" />
+      </div>
+      <div class="confident_movement_text">
+        <p class="title" style="color: #7464B9;">Ідеальний контроль швидкості та маневреності
+        </p>
+        <p class="description">Sur-Ron Light Bee Х проїде всюди. Байк комплектується 19-дюймовими колесами зі спеціальними позашляховими шинами, які забезпечують краще зчеплення з поверхнею і покращують керованість транспорту. Тож фрірайд на Sur-Ron Light Bee X стає більш потужним.
+        </p>
+      </div>
+    </div>
+    <!--  -->
+    <div class="in_front_of"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/im_3_1.webp?_t=1718008805" />
+      <div class="in_front_of_text">
+        <p class="title" style="color: #7464B9;">Приголомшливий запас ходу
+        </p>
+        <p class="description">Загальна ємність акумулятора становить 40 Аг. Цього електромотоциклу вистачить майже на 100 км поїздки (на швидкості 20 км/год). Акумулятор захищений міцним боксом, який витримує чималі навантаження і просто знімається з рами, щоб його можна було зарядити вдома від звичайної розетки..
+        </p>
+      </div>
+    </div>
+    <!--  -->
+    <div class="ergonomic_design">
+      <div class="ergonomic_design_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/im_4.webp?_t=1718008805" />
+      </div>
+      <div class="ergonomic_design_text">
+        <p class="title">Безпека на дорозі
+        </p>
+        <p class="description">Дискові гідравлічні гальма дають Light Bee Х повний контроль над дорогою. Вони вирізняються високою надійністю і чудово підходять для заїздів на трасах зі складним рельєфом. А яскрава світлодіодна фара й задній стоп-сигнал призначені для безпечної їзди у темний час доби.
+        </p>
+      </div>
+      <img alt="" class="icon_last" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/Frame%2046.webp?_t=1718008804" />
+    </div>
+    <!--  --><!--  --><!--  -->
+    <div class="energy_efficiency">
+      <div class="energy_efficiency_text">
+        <p class="title" style="color: #7464B9;">Безпечна зарядка
+        </p>
+        <p class="description">Акумулятор Light Bee X зібраний з ефективних елементів живлення і працює під керуванням потужної BMS (розумна система для збереження акумулятора). Він захищений від короткого замикання, надмірної зарядки та розрядки, перегріву, перенапруги та інших небезпечних ситуацій. Що особливо зручно, користувач сам може визначати тривалість процесу заряджання, обираючи між нормальною та швидкою зарядкою.
+        </p>
+      </div>
+    </div>
+    <!--  -->
+    <div class="power_reserve">
+      <div class="power_reserve_text">
+        <p class="title" style="color: #7464B9;">Особлива полегшена конструкція
+        </p>
+        <p class="description">Рама електробайка виготовляється з алюмінієвого сплаву методом кування на гідравлічному пресі. Завдяки оригінальній конструкції її загальна вага становить всього близько 8 кілограмів. При цьому вона досить міцна, щоб витримати стрибки й досить жорсткі приземлення.
+        </p>
+      </div>
+      <div class="power_reserve_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/700235/im_8.webp?_t=1718008804" />
+      </div>
+    </div>
+    <!--  -->
+    <div class="notes">
+      <p class="description">*Усі зображення наведені в якості ілюстрації продукту. Фактичний вид і дизайн можуть відрізнятися в залежності від характеристик конкретної моделі.
+      </p>
+    </div>
+  </div>
+  
+             
+</body>
+</html>

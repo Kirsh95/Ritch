@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,600;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    .product__description.base-padding {
+  padding: 0;
+  border-radius: 0px;
+  }
+  .g24 img {
+    margin: 0;
+  }
+  .g24 p {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .g24 h3 {
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    margin: 0;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+  .g24 h2 {
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 6px;
+  }
+  .g24 ul {
+    list-style: decimal;
+    margin: 0;
+  }
+  .g24 ul li {
+    line-height: normal;
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    
+  }
+  .g24 {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .g24 ul {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .g24 ul li {
+    padding: 0;
+  }
+  .g24 div {
+    padding: 0;
+  }
+  div.g24 {
+    padding: 0;
+  }
+  .g24 br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+  .g24{
+    max-width: 1366px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  .g24 img{
+    width: 100%;
+    display: block;
+  }
+
+
+  .g24 .love_from{
+    padding: 16px;
+    display: grid;
+    gap: 16px;
+  }
+
+  .g24 .love_from .love_from_block{
+    display: grid;
+    gap: 24px;
+  }
+
+  .g24 .love_from .logo_moto{
+    width: 133px;
+  }
+  .g24 .love_from .g_logo{
+    width: 98px;
+  }
+
+
+  @media screen and (min-width:666px) {
+    .g24 .love_from{
+        grid-template-columns: 1.5fr 1fr;
+        align-items: center;
+        padding:32px 40px;
+        gap: 32px;
+      }
+      .g24 .love_from .love_from_block{
+        gap: 42.5px;
+      }
+  }
+
+  @media screen and (min-width:1024px) {
+    .g24 .love_from{
+        grid-template-columns: 1.5fr 1fr;
+        padding:40px 60px;
+        gap: 40px;
+      }
+      .g24 p{
+        font-size: 18px;
+      }
+      .g24 h2{
+        font-size: 24px;
+        margin-bottom: 8px;
+      }
+      .g24 h3{
+        font-size: 20px;
+        margin-bottom: 18px;
+      }
+      .g24 .love_from .love_from_block{
+        gap: 65px;
+      }
+      .g24 .love_from p{
+        font-size: 20px;
+      }
+      .g24 .love_from .logo_moto{
+        width: 180px;
+      }
+      .g24 .love_from .g_logo{
+        width: 131px;
+      }
+  }
+
+  @media screen and (min-width:1366px) {
+    .g24 .love_from{
+        grid-template-columns: 1.47fr 1fr;
+      }
+      .g24 p{
+        font-size: 20px;
+      }
+      .g24 h2{
+        font-size:32px;
+        margin-bottom:12px;
+      }
+      .g24 h3{
+        font-size: 28px;
+        margin-bottom: 24px;
+      }
+      .g24 .love_from .love_from_block{
+        gap: 87px;
+      }
+      .g24 .love_from p{
+        font-size: 28px;
+      }
+      .g24 .love_from .logo_moto{
+        width: 277px;
+      }
+      .g24 .love_from .g_logo{
+        width: 196px;
+      }
+  }
+
+
+  .g24 .by_touch{
+    padding: 24px 16px 24px 0;
+    text-align: center;
+    display: grid;
+    gap: 16px;
+  }
+
+  .g24 .by_touch .by_touch_text{
+    padding-left:16px ;
+  }
+
+  .g24 .by_touch .by_touch_img img{
+    border-radius: 0 0 18px 18px;
+  }
+
+  @media screen and (min-width:666px) {
+    .g24 .by_touch{
+        align-items: center;
+        padding: 20px 0;
+        grid-template-columns: 1fr .85fr;
+        gap: 0;
+    }
+    .g24 .by_touch .by_touch_text{
+        padding-left:45px ;
+        padding-right: 40px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+      .g24 .by_touch .by_touch_img img{
+        border-radius: 18px 0 0 18px;
+      }
+  }
+
+  @media screen and (min-width:1024px) {
+    .g24 .by_touch{
+        padding: 24px 0;
+        grid-template-columns: 1fr .81fr;
+    }
+    .g24 .by_touch .by_touch_text{
+        padding-left:61px ;
+        padding-right: 60px;
+      }
+  }
+  @media screen and (min-width:1366px) {
+    .g24 .by_touch .by_touch_text{
+        padding-left:45px ;
+        padding-right: 60px;
+      }
+  }
+
+
+  /* block_rigth */
+
+  .g24 .block_rigth{
+    /* padding: 24px 0 0; */
+    display: grid;
+    gap: 16px;
+    text-align: center;
+  }
+  .g24 .block_rigth img{
+    border-radius: 0 0 18px 18px;
+  }
+
+  .g24 .block_rigth .block_rigth_text{
+    padding: 0 16px;
+  }
+  .g24 .block_rigth .tree_title{
+    padding: 0 40px;
+ }
+
+  @media screen and (min-width:666px) {
+
+    .g24 .block_rigth{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 0;
+    }
+    .g24 .block_rigth img{
+        border-radius: 0 18px 18px 0;
+      }
+      .g24 .block_rigth .block_rigth_text{
+        padding: 0 45px 0 40px;
+      }
+      .g24 .block_rigth .tree_title{
+        padding: 0 35px;
+     }
+  }
+
+  @media screen and (min-width:1024px) {
+    .g24 .block_rigth img{
+        border-radius: 0 22px 22px 0;
+      }
+      .g24 .block_rigth .block_rigth_text{
+        padding: 0 61px 0 50px;
+      }
+      .g24 .block_rigth .tree_title{
+        padding: 0 20px;
+     }
+  }
+
+  @media screen and (min-width:1366px) {
+    .g24 .block_rigth img{
+        border-radius: 0 20px 20px 0;
+      }
+      .g24 .block_rigth .block_rigth_text{
+        padding: 0 118px 0 60px;
+      }
+      .g24 .block_rigth .block_rigth_text h3{
+        padding:0 10px;
+      }
+     .g24 .block_rigth .tree_title{
+        padding: 0 20px;
+     }
+  }
+
+
+
+  /* block_left */
+
+  .g24 .block_left{
+    padding: 24px 0;
+    display: grid;
+    gap: 16px;
+  }
+
+  .g24 .block_left img{
+    border-radius: 0  0 18px 18px;
+  }
+
+  .g24 .block_left .block_left_text{
+    padding: 0 16px;
+    text-align: center;
+  }
+  .g24 .block_left .four_title{
+    padding: 0 45px;
+  }
+
+  @media screen and (min-width:666px) {
+    .g24 .block_left{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 0;
+    }
+    .g24 .block_left img{
+        border-radius: 18px 0 0 18px;
+      }
+      .g24 .block_left .block_left_text{
+        padding: 0 40px 0 50px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+  }
+
+  @media screen and (min-width:1024px) {
+      .g24 .block_left .block_left_text{
+        padding: 0 60px 0 65px;
+      }
+      
+  }
+  @media screen and (min-width:1366px) {
+      .g24 .block_left .block_left_text{
+        padding: 0 60px 0 118px;
+      }
+  }
+
+  
+  /* touch_finger */
+
+.g24 .touch_finger{
+    padding: 24px 16px 0;
+    border-radius: 12px;
+    background: rgb(150, 191, 221);
+    text-align: center;
+}
+.g24 .touch_finger h3{
+    padding: 0 37px;
+}
+
+
+@media screen and (min-width:666px) {
+
+    .g24 .touch_finger{
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .g24 .touch_finger .touch_finger_text{
+        padding: 0 45px 0 40px;
+    }
+    .g24 .touch_finger h3{
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .g24 .touch_finger .touch_finger_text{
+        padding: 0 61px 0 60px;
+    }
+    .g24 .touch_finger h3{
+        padding:0 20px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .g24 .touch_finger .touch_finger_text{
+        padding: 0 118px 0 60px;
+    }
+    .g24 .touch_finger h3{
+        padding:0 20px;
+    }
+}
+
+
+.g24 .dolby_atmos {
+    background: rgb(150, 191, 221);
+    display: grid;
+    text-align: center;
+    border-radius: 12px;
+    gap: 16px;
+}
+
+.g24 .dolby_atmos .dolby_atmos_text{
+    padding: 24px 16px 0;
+}
+
+
+@media screen and (min-width:666px) {
+
+    .g24 .dolby_atmos{
+        padding: 0;
+        gap: 0;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .g24 .dolby_atmos .dolby_atmos_text{
+        padding: 0px 45px 0 40px;
+    }
+    .g24 .dolby_atmos .dolby_atmos_text h3{
+        padding:0 40px
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .g24 .dolby_atmos .dolby_atmos_text{
+        padding: 0px 61px 0 60px;
+    }
+    .g24 .dolby_atmos .dolby_atmos_text h3{
+        padding:0
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .g24 .dolby_atmos .dolby_atmos_text{
+        padding: 0px 118px 0 60px;
+    }
+    .g24 .dolby_atmos .dolby_atmos_text h3{
+        padding:0 20px
+    }
+}
+
+
+.g24 .info{
+    padding: 32px 16px;
+    display: grid;
+    gap: 20px;
+}
+.g24 .info .info_text ul li,
+.g24 .info .info_text p{
+    font-size: 12px;   
+}
+
+.g24 .info .info_text ul li{
+    padding-bottom:10px;
+}
+
+.g24 .info .info_text{
+    display: grid;
+    gap: 20px;
+}
+
+
+@media screen and (min-width:666px) {
+    .g24 .info{
+        padding: 32px 75px;
+    }
+    .g24 .info .info_text{
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .g24 .info{
+        padding: 42px 109px;
+        gap: 28px;
+    }
+    .g24 .info .info_text{
+        padding: 0 24px;
+        gap: 28px;
+    }
+    .g24 .info .info_text ul li,
+    .g24 .info .info_text p{
+        font-size: 14px;   
+    }
+    .g24 .info .info_text ul li{
+        padding-bottom:15px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .g24 .info{
+        padding: 80px 142px 80px;
+        gap: 40px;
+    }
+    .g24 .info .info_text{
+        padding: 0 24px;
+        gap: 40px;
+    }
+    .g24 .info .info_text ul li{
+        padding-bottom:15px;
+    }
+}
+</style>
+
+    <div class="g24">
+        <section class="love_from">
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/738634/opt.MOT_ROW_RAZR%20KVs%202.webp?_t=1711525341" alt="">
+            <div class="love_from_block">
+                <img class="logo_moto" src="https://i.citrus.world/uploads/content/product-photos/kirsh/738634/logo%201.svg?_t=1711525320" alt="">
+                <div class="love_from_text">
+                    <h2>ЛЮБОВ З ПЕРШОГО <br> ЗАРЯДЖАННЯ</h2>
+                    <p>Елегантний дизайн та <br> суперпотужна батарея 6 000 мАг</p>
+                </div>
+                <img class="g_logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/738634/logo%202.svg?_t=1711525320" alt="">
+            </div>
+        </section>
+<!--  -->
+        <section class="by_touch">
+            <div class="by_touch_text">
+                <h3>Відчуйте дизайн на дотик</h3>
+                <p>Насолоджуйтесь заокругленим дизайном та якістю оздоблення з преміальних матеріалів.</p>
+            </div>
+            <div class="by_touch_img">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/738634/opt.Layer%2014.webp?_t=1711525341" alt="">
+            </div>
+        </section>
+<!--  -->
+<section class="block_rigth">
+    <div class="block_rigth_text">
+        <h3>Батарея 6 000 мАг<br>
+            Швидке заряджання <br> TurbopowerTM 30 Вт1</h3>
+        <p>Відчуйте свободу від електричних розеток завдяки потужній батареї та блискавичному заряджанню1.</p>
+    </div>
+    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/738634/opt.Layer-1.webp?_t=1711525341" alt="">
+</section>
+<!--  -->
+<section class="block_left">
+    <div class="block_left_text">
+        <h3>50-МЕГАПІКСЕЛЬНА КАМЕРА + <br> MACRO ЗЙОМКА</h3>
+        <p>Знімайте вражаюче деталізовані фото вдень та вночі або досліджуйте зблизька з режимом Macro Vision lens.</p>
+    </div>
+    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/738634/opt.2023_JUNO_CAMERA_CAROUSEL_DIGITAL_2.webp?_t=1711525340" alt="">
+</section>
+<!--  -->
+<section class="touch_finger">
+    <div class="touch_finger_text">
+        <h3>РОЗБЛОКУВАННЯ ДОТИКОМ ПАЛЬЦЯ АБО ПОГЛЯДОМ</h3>
+        <p>З двома найшвидшими та найлегшими способами розблокування телефону  - за відбитком пальця або розпізнаванням обличчя - можна забути про паролі.</p>
+    </div>
+    <div class="touch_finger_img">
+        <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/738634/opt.reflections.webp?_t=1711525340" alt=""></div>
+    </section>
+<!--  -->
+<section class="block_left">
+    <div class="block_left_text">
+        <h3>ПРОДУКТИВНІСТЬ ЩО <br> ПЕРЕВЕРШУЄ ОЧІКУВАННЯ</h3>
+        <p>Відчуйте силу процесору octa-core частотою 2 ГГц в будь якій справі —  від більш надійного зв’язку до карколомних розваг.</p>
+    </div>
+    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/738634/opt.Layer%206.webp?_t=1711525341" alt="">
+</section>
+<!--  -->
+<section class="block_rigth">
+    <div class="block_rigth_text">
+        <h3 class="tree_title" >РОЗШИРТЕ ОПЕРАТИВНУ ПАМ’ЯТЬ ДО 8 ГБ3/16 ГБ4</h3>
+        <p>Розкрийте можливості процесору octa-core за допомогою додаткових 4 ГБ3/8 ГБ4 віртуальної оперативної пам’яті для виконання багатьох задач одночасно.</p>
+    </div>
+    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/738634/opt.Layer%203.webp?_t=1711525341" alt="">
+</section>
+<!--  -->
+<section class="block_left">
+    <div class="block_left_text">
+        <h3 class="four_title">НАДЗВИЧАЙНО ЯСКРАВИЙ 6,6-ДЮЙМОВИЙ ДИСЛЕЙ З ЧАСТОТОЮ 90 ГЦ</h3>
+        <p>Насолоджуйтесь переглядом контенту на дисплеї з частотою, що швидко оновлюється. Вам більше не доведеться затіняти екран від яскравого сонця завдяки режиму «Висока Яскравість».</p>
+    </div>
+    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/738634/opt.Layer%205.webp?_t=1711525341" alt="">
+</section>
+<!--  -->
+<section class="dolby_atmos">
+    <div class="dolby_atmos_text">
+        <h3>DOLBY ATMOS® ТА СТЕРЕО СПІКЕРИ</h3>
+        <p>Зануртесь в багатовимірний звук з покращеними басами, чистішим вокалом та прозорістю звучання. </p>
+    </div>
+    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/738634/opt.reflections-1.webp?_t=1711525340" alt="">
+</section>
+<!--  -->
+
+<section class="info">
+    <div class="info_img">
+        <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/738634/opt.image%20320.webp?_t=1711525340" alt="">
+    </div>
+    <div class="info_text">
+        <p>Певні функції, служби та програми залежать від мережі та можуть бути недоступні в усіх регіонах; можуть застосовуватися додаткові умови та/або плата. Щоб дізнатися більше, зверніться до свого постачальника послуг. Використання цього пристрою регулюється умовами вашого плану бездротового зв’язку. Цей продукт відповідає вимогам Рекомендацій щодо впливу частотного радіо випромінювання.
+            MOTOROLA, стилізований логотип M, MOTO та сімейство знаків MOTO є товарними знаками Motorola Trademark Holdings, LLC. Усі інші торгові марки є власністю відповідних власників.</p>
+
+        <ul>
+            <li>Заряджання максимум 30 Вт. Заряджання TurboPowerTM можливе лише із зарядним пристроєм Motorola TurboPowerTM 33  (входить в комплектацію деяких регіонів) або більшої потужності. Зарядний пристрій Motorola TurboPowerTM 33 або більш потужний зарядний пристрій не змінює максимальну спроможність заряджання.</li>
+            <li>50-мегапіксельний сенсор об’єднує 4 пікселі в 1, створюючи таким чином ефективну роздільну здатність 12,5 МП.</li>
+            <li>4 ГБ фізичної оперативної пам’яті + до 4 ГБ збільшення оперативної пам’яті (2ГБ за замовчанням | 4 ГБ максимально).</li>
+            <li>Розширення оперативної пам’яті потребує використання внутрішнього сховища смартфону в якості віртуальної пам’яті. Таким чином зменшується об’єм внутрішнього сховища. Опція встановлена за замовчуванням, але її можна вимкнути. </li>
+            <li>Автоматичний режим має за замовчанням частоту оновлення екрану 60 Гц. Максимальна частота оновлення екрану становить 90 Гц. Актуальна частота оновлення екрану може бути більше або менше за ці значення в залежності від обмежень/вимог застосунків/контенту, режиму використання смартфону та інших факторів.</li>
+        </ul>
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

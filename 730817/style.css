@@ -1,0 +1,602 @@
+.product__description.base-padding {
+  padding: 0;
+  border-radius: 0px;
+  }
+  .C805 img {
+    margin: 0;
+  }
+  .C805 p {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .C805 h3 {
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 14px;
+  }
+  .C805 h2 {
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+  .C805 ul {
+    list-style: disc;
+    margin: 0;
+  }
+  .C805 ul li {
+    line-height: normal;
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .C805 {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .C805 ul {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .C805 ul li {
+    padding: 0;
+  }
+  .C805 div {
+    padding: 0;
+  }
+  div.C805 {
+    padding: 0;
+  }
+  .C805 br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+  .C805{
+    max-width: 1366px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  .C805 img{
+    width: 100%;
+    display: block;
+  }
+
+  .C805{
+    max-width: 1366px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+  /* video_block_one */
+
+  .C805 .video_block_one{
+    padding: 40px 24px 0;
+  }
+
+@media screen and (min-width:666px) {
+
+  .C805 p{
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .C805 h2{
+    font-size: 32px;
+  }
+  .C805 h3{
+    font-size: 24px;
+  }
+
+  .C805 .video_block_one{
+    padding: 64px 64px 0;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .C805 .video_block_one{
+    padding: 80px 64px 0;
+  }
+  .C805 p{
+    font-size: 18px;
+  }
+  .C805 h2{
+    font-size: 40px;
+    margin-bottom: 32px;
+  }
+  .C805 h3{
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width:1366px) {
+  .C805 p{
+    font-size: 24px;
+  }
+  .C805 h2{
+    font-size: 50px;
+  }
+  .C805 h3{
+    font-size: 40px;
+  }
+}
+
+
+
+
+
+  /* local_dimming */
+
+  .C805 .local_dimming{
+    padding: 40px 24px;
+    display: grid;
+    gap: 24px;
+  }
+  .C805 .local_dimming .local_dimming_text{
+    text-align: center;
+  } 
+
+  @media screen and (min-width:666px) {
+    .C805 .local_dimming{
+      padding: 64px 64px;
+      display: grid;
+      gap: 24px;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .C805 .local_dimming{
+      padding: 80px 64px;
+      display: grid;
+      gap: 40px;
+    }
+    .C805 .local_dimming h2{
+      padding: 0 70px;
+    }
+
+  }
+  @media screen and (min-width:1366px) {
+    .C805 .local_dimming h2{
+      padding: 0;
+    }
+  }
+
+
+
+
+
+  /* mini_led */
+  .C805 .mini_led{
+    padding: 0 24px;
+    position: relative;
+    
+  }
+
+  .C805 .mini_led .mini_led_container{
+    background: #000;
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/730817/opt.image%2016.webp?_t=1702053039");
+    padding: 48px 24px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .C805 .mini_led .mini_led_container .mini_led_text img{
+    width: 140px;
+  }
+  .C805 .mini_led .mini_led_container .mini_led_text{
+    display: grid;
+    gap: 24px;
+  }
+  .C805 .mini_led p{
+    color: #fff;
+  }
+
+
+
+  @media screen and (min-width:666px) {
+      .C805 .mini_led{
+        padding: 0 64px;
+      }
+      .C805 .mini_led .mini_led_container{
+        padding: 96.5px 64px;
+        gap: 24px;
+      background-position: right;
+
+      }
+      .C805 .mini_led .mini_led_container .mini_led_text img{
+        width: 142px;
+      }
+  }
+
+  @media screen and (min-width:1024px) {
+    .C805 .mini_led .mini_led_container{
+      padding: 80px 64px;
+    }
+    .C805 .mini_led .mini_led_container .mini_led_text{
+      gap :32px
+    }
+  }
+
+  @media screen and (min-width:1366px) {
+    .C805 .mini_led .mini_led_container{
+      padding: 93px 64px;
+      gap: 24px;
+    }
+    .C805 .mini_led .mini_led_container .mini_led_text img{
+      width: 242px;
+    }
+
+
+
+  }
+  /* beauty_indetails */
+
+
+  .C805 .beauty_indetails{
+    padding: 40px 24px;
+    text-align: center;
+    display: grid;
+    gap: 24px;
+  }
+  @media screen and (min-width:666px) {
+  .C805 .beauty_indetails{
+    align-items: center;
+    grid-template-columns: 1.4fr 1fr;
+    padding: 64px 64px;
+    gap: 0px;
+  }
+  .C805 .beauty_indetails .beauty_indetails_text{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    text-align: left;
+    padding-right: 51px;
+  }
+}
+
+  @media screen and (min-width:1024px) {
+  .C805 .beauty_indetails{
+    grid-template-columns: 1.5fr 1fr;
+    padding: 80px 64px;
+  }
+  .C805 .beauty_indetails .beauty_indetails_text{
+    padding-right: 86px;
+  }
+}
+
+  @media screen and (min-width:1366px) {
+  .C805 .beauty_indetails{
+    padding: 80px 64px;
+  }
+  .C805 .beauty_indetails .beauty_indetails_text{
+    padding-right: 105px;
+  }
+}
+
+  /* frequency_update */
+
+  .C805 .frequency_update{
+    padding: 0 24px 40px;
+    text-align: center;
+    display: grid;
+    gap:24px;
+  }
+
+  @media screen and (min-width:666px) {
+    .C805 .frequency_update{
+      padding: 0 64px 64px;
+    }
+    .C805 .frequency_update .frequency_update_text{
+      padding: 0 10px;
+    } 
+
+  }
+
+  @media screen and (min-width:1024px) {
+    .C805 .frequency_update{
+      padding: 0 64px 80px;
+      gap: 40px;
+    }
+    .C805 .frequency_update .frequency_update_text{
+      padding: 0 10px;
+    } 
+
+  }
+
+  /* gif_seven */
+
+  .C805 .gif_seven{
+    padding: 0 24px;
+  }
+
+  @media screen and (min-width:666px) {
+    .C805 .gif_seven{
+      padding: 0 64px;
+    }
+  }
+
+  /* vrr */
+
+  .C805 .vrr{
+    padding: 40px 24px;
+    display: grid;
+    gap: 24px;
+    text-align: center;
+  }
+  @media screen and (min-width:666px) {
+    .C805 .vrr{
+      padding: 64px 64px;
+      gap: 40px;
+    }
+
+    .C805 .vrr .vrr_text{
+      padding: 0 10px;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .C805 .vrr{
+      padding: 80px 64px;
+      gap: 40px;
+    }
+
+    .C805 .vrr .vrr_text{
+      padding: 0 3px;
+    }
+  }
+
+  /* tilki_gra */
+
+  .C805 .tilki_gra{
+    padding: 0 24px;
+    text-align: center;
+    display: grid;
+    gap: 24px;
+
+  }
+
+  @media screen and (min-width:666px) {
+    .C805 .tilki_gra{
+      padding: 0 64px;
+      gap: 40px;
+    }
+    .C805 .tilki_gra h2{
+      padding: 0 65px;
+    } 
+  }
+
+  @media screen and (min-width:1024px) {
+    .C805 .tilki_gra h2{
+      padding: 0 65px;
+    } 
+  }
+
+/* dolby_img */
+
+.C805 .dolby_atmos{
+  display: grid;
+  padding: 40px 24px 0;
+  gap: 24px;
+  text-align: center;
+}
+
+.C805 .dolby_atmos .dolby_atmos_text {
+  grid-row-start: 2;
+}
+
+.C805 .dolby_img{
+  padding: 40px 24px;
+}
+@media screen and (min-width:666px) {
+  .C805 .dolby_atmos{
+    grid-template-columns: 1fr 1.54fr;
+    padding: 64px 64px 0;
+    gap: 0;
+    align-items: center;
+    text-align: left;
+
+  }
+  .C805 .dolby_atmos .dolby_atmos_text {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    padding-left: 51px;
+  }
+  .C805 .dolby_img{
+    padding: 64px 64px;
+  }
+}
+@media screen and (min-width:1024px) {
+  .C805 .dolby_atmos{
+    grid-template-columns: 1fr 1.5fr;
+    padding: 80px 64px 0;
+
+  }
+  .C805 .dolby_atmos .dolby_atmos_text {
+    padding-left: 73px;
+  }
+  .C805 .dolby_img{
+    padding: 80px 64px;
+  }
+}
+
+
+  /* onkyo​ */
+
+  .C805 .onkyo{
+    padding: 40px 24px 0;
+    text-align: center;
+    display: grid;
+    gap: 24px;
+  }
+
+  .C805 .onkyo .onkyo_text{
+    grid-row-start: 2;
+  }
+
+  @media screen and (min-width:666px) {
+    .C805 .onkyo{
+      grid-template-columns: 1.54fr 1fr;
+      padding: 64px 64px 0;
+      text-align: left;
+    align-items: center;
+      gap:0
+    }
+    .C805 .onkyo .onkyo_text{
+      padding-right: 51px;
+      grid-row-start: 1;
+      grid-column-start: 1;
+    }
+  }
+@media screen and (min-width:1024px) {
+  .C805 .onkyo{
+    grid-template-columns: 1.5fr 1fr;
+    padding: 80px 64px 0;
+  }
+  .C805 .onkyo .onkyo_text{
+    padding-right: 73px;
+  }
+}
+
+
+
+
+
+  
+  /* personalized */
+
+
+  .C805 .personalized{
+    text-align: center;
+    padding: 0 24px;
+  }
+
+  .C805 .personalized .personalized_block{
+    padding-top: 10px;
+    display: grid;
+    gap: 24px;
+  }
+
+  .C805 .personalized .personalized_block .personalized_item{
+    display: grid;
+    gap: 24px;
+  }
+
+  .C805 .personalized .personalized_block .personalized_item .personalized_item_text img{
+    width: 130px;
+    margin: 0 auto;
+    margin-bottom:16px;    
+  }
+
+
+  @media screen and (min-width:666px) {
+    .C805 .personalized{
+      padding: 0 64px;
+
+    }
+
+    .C805 .personalized .personalized_block{
+      grid-template-columns: repeat(3,1fr);
+      align-items: start;
+      text-align: left;
+
+    }
+    .C805 .personalized .personalized_block h3{
+      font-size: 18px;
+      margin-bottom: 24px;
+    }
+    .C805 .personalized .personalized_block .personalized_item .personalized_item_text img{
+      margin: 0;
+      margin-right: auto;
+      margin-bottom: 24px;
+      width: 103px;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .C805 .personalized{
+      padding: 0 64px;
+    }
+    .C805 .personalized .personalized_block h3{
+      font-size: 24px;
+      margin-bottom: 32px;
+    }
+    .C805 .personalized .personalized_block .personalized_item .personalized_item_text img{
+      margin: 0;
+      margin-right: auto;
+      margin-bottom: 32px;
+      width: 121px;
+    }
+    .C805 .personalized .personalized_block .personalized_item{
+      gap: 32px;
+    }
+  }
+
+
+  @media screen and (min-width:1366px) {
+    .C805 .personalized .personalized_block h3{
+      font-size: 32px;
+    }
+    .C805 .personalized .personalized_block .personalized_item .personalized_item_text img{
+      width: 186px;
+    }
+  }
+
+
+
+  /* uni_body */
+
+
+  .C805 .uni_body{
+    display: grid;
+    gap: 24px;
+    text-align: center;
+    padding: 40px 24px;
+  }
+
+  .C805 .uni_body .uni_body_img{
+    display: grid;
+    gap: 40px;
+  }
+
+
+
+  @media screen and (min-width:666px) {
+    .C805 .uni_body{
+      padding: 64px;
+    }
+    .C805 .uni_body .uni_body_img{
+      gap:64px;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .C805 .uni_body{
+      padding: 80px 64px 40px;
+      gap: 40px;
+    }
+    .C805 .uni_body .uni_body_img{
+      gap:80px;
+    }
+  }

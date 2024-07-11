@@ -1,0 +1,920 @@
+.product__description.base-padding {
+  padding: 0;
+  border-radius: 0px;
+  }
+  .xtrfy img {
+    margin: 0;
+  }
+  .xtrfy p {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .xtrfy h3 {
+    color: #21FCEB;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+  .xtrfy h2 {
+   color: #21FCEB;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .xtrfy ul {
+    list-style: disc;
+    margin: 0;
+  }
+  .xtrfy ul li {
+    line-height: normal;
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .xtrfy {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .xtrfy ul {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .xtrfy ul li {
+    padding: 0;
+  }
+  .xtrfy div {
+    padding: 0;
+  }
+  div.xtrfy {
+    padding: 0;
+  }
+  .xtrfy br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+  .xtrfy{
+    max-width: 1366px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  .xtrfy img{
+    width: 100%;
+    display: block;
+  }
+
+
+  .xtrfy .latest_design{
+    padding: 32px 16px ; 
+    text-align: center;
+    display: grid;
+    gap: 24px;
+    background-image: url('https://i.citrus.world/uploads/content/product-photos/kirsh/722719/opt.Background.webp?_t=1704439232');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .xtrfy .latest_design h3{
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 400;
+  }
+
+  .xtrfy .latest_design .logo_m{
+    margin: 0 auto;
+    width: 202px;
+  }
+
+  .xtrfy .latest_design .latest_design_line{
+    background: rgb(3,5,9);
+    background: linear-gradient(90deg, rgba(3,5,9,1) 10%, rgba(33,252,235,1) 50%, rgba(3,5,9,1) 90%);
+    /* background: radial-gradient(43628.34% 42.83% at 50% 50%, #21FCEB 0%, rgba(33, 252, 235, 0.00) 100%); */
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+   }
+
+
+  @media screen and (min-width:666px) {
+    body{
+        padding: 0 24px
+    }
+    .xtrfy p {
+        font-size: 16px;
+    }
+    .xtrfy h2 {
+        font-size: 50px;
+    }
+    .xtrfy .latest_design{
+        padding: 34px 129px 20px; 
+        gap: 14px;
+    }
+    .xtrfy .latest_design .latest_design_img{
+        padding: 0 44px;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .xtrfy .latest_design{
+        padding: 60px 160px 20px; 
+        gap: 18px;
+    }
+    .xtrfy .latest_design h3{
+        font-size: 20px;
+      }
+    .xtrfy .latest_design .latest_design_img{
+        padding: 0 83.5px;
+    }
+    .xtrfy .latest_design .logo_m{
+        margin: 0 auto;
+        width: 202px;
+      }
+      .xtrfy p {
+        font-size: 18px;
+    }
+    .xtrfy h2 {
+        font-size: 70px;
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+    .xtrfy .latest_design .logo_m{
+        width: 270px;
+      }
+  }
+
+
+  @media screen and (min-width:1366px) {
+    .xtrfy .latest_design{
+        padding: 90px 160px 25px; 
+        gap: 20px;
+    }
+    .xtrfy h2 {
+        font-size: 90px;
+        margin-bottom: 18px;
+        margin-top: 18px;
+    }
+    .xtrfy .latest_design .logo_m{
+        width: 401px;
+    }
+    .xtrfy .latest_design h3{
+        font-size: 50px;
+    }
+    .xtrfy p {
+        font-size: 26px;
+    }
+  }
+
+
+  /* tested_victories */
+
+  .xtrfy .tested_victories{
+    background-image: url('https://i.citrus.world/uploads/content/product-photos/kirsh/722719/opt.Background.webp?_t=1704439232');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    gap: 24px;
+    padding: 30.5px 16px 25px;
+    text-align: center;
+  }
+  .xtrfy .tested_victories .tested_victories_line{
+    background: rgb(3,5,9);
+    background: linear-gradient(90deg, rgba(3,5,9,1) 10%, rgba(33,252,235,1) 50%, rgba(3,5,9,1) 90%);
+    /* background: radial-gradient(43628.34% 42.83% at 50% 50%, #21FCEB 0%, rgba(33, 252, 235, 0.00) 100%); */
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+   }
+
+
+  @media screen and (min-width:666px) {
+    .xtrfy .tested_victories{
+        padding: 50px 130px 7.5px;
+        gap: 14px;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .xtrfy h3{
+        margin-bottom: 14px;
+        font-size: 28px
+    }
+    
+    .xtrfy .tested_victories{
+        padding: 60px 161px 16px;
+        gap: 14px;
+    }
+  }
+
+  @media screen and (min-width:1366px) {
+    .xtrfy h3{
+        margin-bottom: 18px;
+        font-size: 38px
+    }
+
+    .xtrfy .tested_victories{
+        padding: 127px 157px 65px;
+        gap: 40px;
+    }
+
+    .xtrfy .tested_victories .tested_victories_text{
+        padding:0 40px;
+    }
+  }
+
+
+
+
+  /* five_colors */
+
+.xtrfy .five_colors{
+    position: relative;
+    background: #040011;
+    text-align: center;
+}
+
+.xtrfy .five_colors .five_colors_logo{
+    position: absolute;
+    width: 113px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 11px;
+
+}
+
+.xtrfy .five_colors .five_colors_text{
+    padding: 0 16px 24px;
+}
+
+.xtrfy .five_colors .five_colors_line{
+    background: rgb(3,5,9);
+    background: linear-gradient(90deg, rgba(3,5,9,1) 10%, rgba(33,252,235,1) 50%, rgba(3,5,9,1) 90%);
+    /* background: radial-gradient(43628.34% 42.83% at 50% 50%, #21FCEB 0%, rgba(33, 252, 235, 0.00) 100%); */
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+@media screen and (min-width:666px) {
+    .xtrfy .five_colors .five_colors_text{
+        position: absolute;
+        width: 464px;
+        bottom: 37px;
+        left: 50%;
+        transform: translate(-50%);
+        padding: 0;
+    }
+
+    .xtrfy .five_colors .five_colors_logo{
+        width:164px ;
+        top: 39px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .xtrfy .five_colors .five_colors_text{
+        width: 654px;
+        bottom: 30px;
+    }
+
+    .xtrfy .five_colors .five_colors_logo{
+        width:270px ;
+        top: 61px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .xtrfy .five_colors .five_colors_text{
+        width: 920px;
+        bottom: 142px;
+    }
+
+    .xtrfy .five_colors .five_colors_logo{
+        width:444px ;
+        top: 0px;
+    }
+}
+/* durability */
+
+.xtrfy .durability{
+    position: relative;
+    background: #040011;
+}
+
+.xtrfy .durability .durability_line{
+    background: rgb(3,5,9);
+    background: linear-gradient(90deg, rgba(3,5,9,1) 10%, rgba(33,252,235,1) 50%, rgba(3,5,9,1) 90%);
+    /* background: radial-gradient(43628.34% 42.83% at 50% 50%, #21FCEB 0%, rgba(33, 252, 235, 0.00) 100%); */
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+}
+
+.xtrfy .durability .durability_text{
+    text-align: center;
+    padding: 0 16px 93px;
+}
+.xtrfy .durability .durability_text img{
+    margin: 0 auto 12px; 
+    width: 32px;
+}
+@media screen and (min-width:666px) {
+    .xtrfy .durability .durability_text{
+        position: absolute;
+        left: 53px;
+        width: 281px;
+        z-index: 1;
+        padding: 0;
+        top: 34px;
+    }
+    .xtrfy .durability .durability_text img{
+        margin: 0 auto 8px; 
+    }
+    .xtrfy .durability .durability_text h3{
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .xtrfy .durability .durability_text{
+        position: absolute;
+        left: 80px;
+        width: 336px;
+        z-index: 1;
+        padding: 0;
+        top: 37px;
+    }
+    .xtrfy .durability .durability_text img{
+        margin: 0 auto 18px;
+        width: 58px;
+    }
+    .xtrfy .durability .durability_text h3{
+        margin-bottom: 18px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .xtrfy .durability .durability_text{
+        position: absolute;
+        left: 59px;
+        width: 625px;
+        z-index: 1;
+        padding: 0;
+        top: 37px;
+    }
+    .xtrfy .durability .durability_text img{
+        width: 77px;
+    }
+    .xtrfy .durability .durability_line{
+        display: none;
+    }
+}
+
+/* lightness */
+
+.xtrfy .lightness{
+    padding: 40px 7.3px 32px;
+    position: relative;
+    background: #020609;
+    text-align: center;
+    display: grid;
+    gap: 24px;
+}
+
+.xtrfy .lightness .lightness_img{
+    padding: 0 16px;
+}
+.xtrfy .lightness .lightness_text h3{
+    margin-bottom: 18px;
+}
+.xtrfy .lightness .lightness_text img{
+    width: 29px;
+    margin: 0 auto 18px;
+}
+
+.xtrfy .lightness .lightness_line{
+    background: rgb(3,5,9);
+    background: linear-gradient(90deg, rgba(3,5,9,1) 10%, rgba(33,252,235,1) 50%, rgba(3,5,9,1) 90%);
+    /* background: radial-gradient(43628.34% 42.83% at 50% 50%, #21FCEB 0%, rgba(33, 252, 235, 0.00) 100%); */
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+@media screen and (min-width:666px) {
+
+    .xtrfy .lightness{
+        padding: 40px 130px 0;
+    }
+    .xtrfy .lightness .lightness_text{
+        grid-row-start: 1;
+    }
+    .xtrfy .lightness .lightness_img{
+        padding: 0 18px;
+    }
+    .xtrfy .lightness .lightness_text img{
+        width: 48px;
+        margin: 0 auto 18px;
+    }
+
+}
+@media screen and (min-width:1024px) {
+
+    .xtrfy .lightness{
+        padding: 40px;
+        grid-template-columns: 1.1fr 1fr;
+        align-items: center;
+        gap: 78px;
+    }
+    .xtrfy .lightness .lightness_text{
+        grid-row-start: 1;
+        grid-column-start: 2;
+    }
+    .xtrfy .lightness .lightness_img{
+        padding: 0;
+    }
+    .xtrfy .lightness .lightness_text img{
+        width: 56px;
+        margin: 0 auto 18px;
+    }
+
+}
+
+@media screen and (min-width:1366px) {
+
+    .xtrfy .lightness{
+        padding:60px 40px 40px;
+        grid-template-columns: 1.5fr 1fr;
+        align-items: center;
+        gap: 40px;
+    }
+    .xtrfy .lightness .lightness_text{
+        grid-row-start: 1;
+        grid-column-start: 2;
+    }
+    .xtrfy .lightness .lightness_img{
+        padding: 0;
+    }
+    .xtrfy .lightness .lightness_text img{
+        width: 77px;
+        margin: 0 auto 18px;
+    }
+
+}
+
+
+/* e_sports */
+
+.xtrfy .e_sports{
+    position: relative;
+    display: grid;
+    padding:0 7.5px 24px;
+    background: #010101;
+    text-align: center;
+}
+
+.xtrfy .e_sports .e_sports_text img{
+    width: 32px;
+    margin: 0 auto 18px;
+}
+
+.xtrfy .e_sports .e_sports_text h3{
+    margin-bottom: 18px;
+}
+
+.xtrfy .e_sports .e_sports_line{
+    background: rgb(3,5,9);
+    background: linear-gradient(90deg, rgba(3,5,9,1) 10%, rgba(33,252,235,1) 50%, rgba(3,5,9,1) 90%);
+    /* background: radial-gradient(43628.34% 42.83% at 50% 50%, #21FCEB 0%, rgba(33, 252, 235, 0.00) 100%); */
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (min-width:666px) {
+    .xtrfy .e_sports{
+        padding-bottom: 40px;
+    }
+    .xtrfy .e_sports .e_sports_text{
+        position: absolute;
+        bottom: 25px;
+        width: 459px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .xtrfy .e_sports .e_sports_text img{
+        width:56px ;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .xtrfy .e_sports .e_sports_text{
+        width: 656px;
+        bottom: 40px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .xtrfy .e_sports{
+        padding-bottom: 58px;
+    }
+    .xtrfy .e_sports .e_sports_text{
+        width: 920px;
+        bottom: 58px;
+    }
+    .xtrfy .e_sports .e_sports_text img{
+        width:77px ;
+    }
+}
+
+
+/* continuous_play */
+.xtrfy .continuous_play{
+    position: relative;
+    background: #010101;
+    text-align: center;
+}
+
+.xtrfy .continuous_play .continuous_play_line{
+    background: rgb(3,5,9);
+    background: linear-gradient(90deg, rgba(3,5,9,1) 10%, rgba(33,252,235,1) 50%, rgba(3,5,9,1) 90%);
+    /* background: radial-gradient(43628.34% 42.83% at 50% 50%, #21FCEB 0%, rgba(33, 252, 235, 0.00) 100%); */
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.xtrfy .continuous_play .continuous_play_text{
+    padding:0 7.3px 24px;
+}
+
+.xtrfy .continuous_play .continuous_play_text h3{
+    margin-bottom: 18px;
+}
+
+
+.xtrfy .continuous_play .continuous_play_text img{
+    width: 32px;
+    margin: 0 auto 18px;
+}
+
+
+@media screen and (min-width:666px) {
+    .xtrfy .continuous_play .continuous_play_text{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 459px;
+        bottom: 24px;
+        padding: 0;
+    }
+    .xtrfy .continuous_play .continuous_play_text img{
+        width: 48px;
+        margin: 0 auto 18px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .xtrfy .continuous_play .continuous_play_text{
+        width: 654px;
+        bottom: 40px;
+    }
+    .xtrfy .continuous_play .continuous_play_text img{
+        width: 56px;
+    }
+}
+@media screen and (min-width:1366px) {
+    .xtrfy .continuous_play .continuous_play_text{
+        width: 920px;
+        bottom: 54px;
+    }
+    .xtrfy .continuous_play .continuous_play_text img{
+        width: 77px;
+    }
+}
+
+
+/* components */
+
+
+.xtrfy .components{
+    position: relative;
+    background: #010101;
+    text-align: center;
+}
+.xtrfy .components .components_text{
+    padding: 0 7.3px 24px;
+}
+
+.xtrfy .components .components_text img{
+    width:32px;
+    margin: 0 auto 18px;
+}
+
+.xtrfy .components .components_text h3{
+    margin-bottom: 18px;
+}
+
+.xtrfy .components .components_line{
+    background: rgb(3,5,9);
+    background: linear-gradient(90deg, rgba(3,5,9,1) 10%, rgba(33,252,235,1) 50%, rgba(3,5,9,1) 90%);
+    /* background: radial-gradient(43628.34% 42.83% at 50% 50%, #21FCEB 0%, rgba(33, 252, 235, 0.00) 100%); */
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (min-width:666px) {
+    .xtrfy .components .components_text{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 461px;
+        bottom: 24px;
+        padding: 0;
+    }
+    .xtrfy .components .components_text img{
+        width:48px;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .xtrfy .components .components_text{
+        width: 656px;
+        bottom: 40px;
+    }
+    .xtrfy .components .components_text img{
+        width:56px;
+    }
+
+}
+@media screen and (min-width:1366px) {
+    .xtrfy .components .components_text{
+        width: 1079px;
+        bottom: 98px;
+    }
+    .xtrfy .components .components_text img{
+        width:77px;
+    }
+
+}
+
+
+/* sizing */
+
+.xtrfy .sizing{
+    padding: 21px 23px;
+    background: #010101;
+}
+
+@media screen and (min-width:666px) {
+    .xtrfy .sizing{
+        padding: 48px 52px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .xtrfy .sizing{
+        padding: 65px 71px;
+    }
+}
+@media screen and (min-width:1366px) {
+    .xtrfy .sizing{
+        padding: 90px 99px;
+    }
+}
+
+
+/* technical_characteristics */
+
+
+.xtrfy .technical_characteristics{
+    background: #010101;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.xtrfy .technical_characteristics .technical_characteristics_text{
+    text-align: center;
+    padding: 0 7px;
+}
+
+
+.xtrfy .technical_characteristics .technical_characteristics_line{
+    display: none;
+}
+
+.xtrfy .technical_characteristics .technical_characteristics_img{
+    padding: 0 28.21px;
+}
+
+
+@media screen and (min-width:666px) {
+    .xtrfy .technical_characteristics{
+        grid-template-columns: 1fr 509px;
+        display: grid;
+        position: relative;
+        padding: 27px 22px 60px;
+    }
+
+    .xtrfy .technical_characteristics .technical_characteristics_text{
+        border: 3px solid #21FCEB;
+        padding: 54px  18px 44px 150px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+
+    }
+    .xtrfy .technical_characteristics .technical_characteristics_img{
+        position: absolute;
+        top: 55px;
+        left: 22px;
+        width: 260px;
+        height: 100%;
+        background: #010101;
+    }
+    .xtrfy .technical_characteristics .technical_characteristics_img img{  
+        width: 250px;
+    }
+    .xtrfy .technical_characteristics .technical_characteristics_line{
+        bottom: 20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .xtrfy .technical_characteristics{
+        padding:40px 40px 60px;
+        grid-template-columns: 1fr 663px;
+
+    }
+    .xtrfy .technical_characteristics .technical_characteristics_line{
+        bottom: 0px;
+    }
+
+    .xtrfy .technical_characteristics .technical_characteristics_text{
+        border: 3px solid #21FCEB;
+        padding: 141px  31px 44px 239px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+
+    }
+    .xtrfy .technical_characteristics .technical_characteristics_img{
+        position: absolute;
+        top: 67px;
+        left: 45px;
+        width: 405px;
+    }
+    .xtrfy .technical_characteristics .technical_characteristics_img img{  
+        width: 351px;
+    }
+}
+@media screen and (min-width:1366px) {
+    .xtrfy .technical_characteristics{
+        padding:100px 46px;
+        grid-template-columns: 1fr 902px;
+    }
+    .xtrfy .technical_characteristics p{
+        margin-top: 10px;
+
+    }
+
+    .xtrfy .technical_characteristics .technical_characteristics_text{
+        border: 3px solid #21FCEB;
+        padding: 30px  64.5px 49px 259px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+
+    }
+    .xtrfy .technical_characteristics .technical_characteristics_img{
+        position: absolute;
+        top: 120px;
+        left: 120px;
+        width: 480px;
+    }
+    .xtrfy .technical_characteristics .technical_characteristics_img img{  
+        width: 460px;
+    }
+    .xtrfy .technical_characteristics .technical_characteristics_line{
+        background: linear-gradient(90deg, rgba(3,5,9,1) 10%, rgba(33,252,235,1) 50%, rgba(3,5,9,1) 90%);
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        display: block;
+    }
+}
+
+
+/* settings_for_esports */
+
+.xtrfy .settings_for_esports{
+    position: relative;
+    background: #010101;
+}
+.xtrfy .settings_for_esports .settings_for_esports_text{
+    text-align: center;
+    padding: 16px 7px 24px;
+}
+.xtrfy .settings_for_esports .settings_for_esports_text h3{
+    margin-bottom: 18px;
+}
+
+.xtrfy .settings_for_esports .settings_for_esports_text img{
+    margin: 0 auto 18px;
+    width: 32px;
+}
+
+
+@media screen and (min-width:666px) {
+    .xtrfy .settings_for_esports{
+        padding: 55px 0 0 70px;
+
+    }
+    .xtrfy .settings_for_esports .settings_for_esports_text{
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+        padding: 0;
+        width: 471px;
+    }
+    .xtrfy .settings_for_esports .settings_for_esports_text img{
+        margin: 0 auto 18px;
+        width: 48px;
+    }
+    .xtrfy .settings_for_esports .settings_for_esports_text h3{
+        padding: 0 75px; 
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .xtrfy .settings_for_esports{
+        padding: 17px 0 0 94px;
+
+    }
+    .xtrfy .settings_for_esports .settings_for_esports_text{
+        width: 650px;
+        top: 17px;
+    }
+    .xtrfy .settings_for_esports .settings_for_esports_text img{
+        width: 56px;
+    }
+    .xtrfy .settings_for_esports .settings_for_esports_text h3{
+        padding: 0 100px; 
+    }
+
+}
+
+@media screen and (min-width:1366px) {
+    .xtrfy .settings_for_esports{
+        padding: 40px 0 0 132px;
+
+    }
+    .xtrfy .settings_for_esports .settings_for_esports_text{
+        width: 1030px;
+        top: 40px;
+    }
+    .xtrfy .settings_for_esports .settings_for_esports_text img{
+        width: 77px;
+    }
+    .xtrfy .settings_for_esports .settings_for_esports_text h3{
+        padding: 0 210px; 
+    }
+
+}

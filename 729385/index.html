@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+            .product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .BRAUN img {
+      margin: 0;
+    }
+    .BRAUN p {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .BRAUN h3 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .BRAUN h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+    .BRAUN ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .BRAUN ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .BRAUN {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .BRAUN ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .BRAUN ul li {
+      padding: 0;
+    }
+    .BRAUN div {
+      padding: 0;
+    }
+    div.BRAUN {
+      padding: 0;
+    }
+    .BRAUN br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .BRAUN{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .BRAUN img{
+      width: 100%;
+      display: block;
+    }
+    .BRAUN .blue_text{
+      color: #007BC2;
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .BRAUN .foont_text{
+      color: #7C7C7C;
+      font-size: 12px;
+    }
+    .BRAUN .powerful{
+      position: relative;
+      padding: 110px 77px 0;
+    }
+    .BRAUN .powerful .blue_semicircle{
+      width: 150px;
+      position: absolute;
+      right: 0;
+      bottom: -11px;
+      z-index: 1;
+    }
+    .BRAUN .powerful .powerful_text{
+      text-align: left;
+      top: 10px;
+      left: 16px;
+      position: absolute;
+      z-index: 2;
+
+    }
+
+    .BRAUN .powerful .powerful_img img{
+      position: relative;
+      z-index:2
+    }
+    @media screen and (min-width:666px) {
+      .BRAUN .powerful .blue_semicircle{
+        width: 385px;
+        bottom: 0;
+      }
+      .BRAUN .powerful{
+        padding: 0;
+        height: 346px;
+      }
+      .BRAUN .powerful .powerful_img img{
+        width: 289px;
+        z-index:2;
+        position: absolute;
+        bottom: -30px;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+      .BRAUN .powerful .powerful_text{
+        text-align: left;
+        width: 50%;
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -60%);
+        padding:0;
+        padding-left: 40px;
+      }
+      .BRAUN .powerful .foont_text{
+        width: 165px;
+      }
+      .BRAUN p{
+        font-size: 16px;
+        line-height: 150%;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .BRAUN h2 {
+        font-size:34px;
+        margin-bottom: 28px;
+      }
+      .BRAUN h3 {
+        font-size:32px;
+        margin-bottom: 14px;
+      }
+      .BRAUN p{
+        font-size: 20px;
+        line-height: 150%;
+      }
+      .BRAUN .foont_text{
+        font-size: 16px;
+      }
+      .BRAUN .blue_text{
+        font-size: 18px;
+        margin-bottom: 12px;
+      }
+      .BRAUN .powerful .blue_semicircle{
+        width: 522px;
+      }
+      .BRAUN .powerful .powerful_img img{
+        width: 411px;
+        bottom: -45px;
+      }
+      .BRAUN .powerful .powerful_text{
+        padding-left: 65px;
+        top: 40%;
+      }
+      .BRAUN .powerful .foont_text{
+        width: 213px;
+      }
+      .BRAUN .powerful{
+        height: 469px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .BRAUN h2 {
+        font-size:46px;
+        margin-bottom: 40px;
+      }
+      .BRAUN h3 {
+        font-size:42px;
+        margin-bottom: 24px;
+      }
+      .BRAUN p{
+        font-size: 26px;
+      }
+      .BRAUN .powerful{
+        height: 657px;
+      }
+      .BRAUN .blue_text{
+        font-size: 24px;
+        margin-bottom: 16px;
+      }
+      .BRAUN .foont_text{
+        font-size: 20px;
+      }
+      .BRAUN .powerful .blue_semicircle{
+        width: 657px;
+      }
+      .BRAUN .powerful .powerful_img img{
+        width: 500px;
+        bottom: -55px;
+      }
+      .BRAUN .powerful .powerful_text{
+        padding-left: 130px;
+        top: 50%;
+        width: 30%;
+      }
+      .BRAUN .powerful .foont_text{
+        width: 318px;
+        font-size: 14px;
+      }
+    }
+    /*  */
+    /* steam_supply */
+    /*  */
+    .BRAUN .steam_supply{
+      padding: 10px 0 0;
+      display: grid;
+      align-items: center;
+    }
+    .BRAUN .steam_supply .steam_supply_text{
+      padding: 24px 16px 0;
+    }
+    @media screen and (min-width:666px) {
+        body{
+            padding: 0 24px;
+        }
+      .BRAUN .steam_supply{
+        grid-template-columns: repeat(2,1fr);
+        padding: 0;
+      }
+      .BRAUN .steam_supply .steam_supply_text{
+        padding: 0 8px 0 25px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .BRAUN .steam_supply .steam_supply_text{
+        padding: 0 14px 0 40px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .BRAUN .steam_supply .steam_supply_text{
+        padding: 0 60px 0 70px;
+      }
+    }
+    /* ergonomics_certificate */
+    .BRAUN .ergonomics_certificate{
+      padding:40px 0 0;
+      display: grid;
+      align-items: center;
+    }
+    .BRAUN .ergonomics_certificate .ergonomics_certificate_text{
+      padding: 24px 16px 0;
+      position: relative;
+    }
+    .BRAUN .ergonomics_certificate .foont_text{
+      padding-top:14px;
+    }
+    @media screen and (min-width:666px) {
+      .BRAUN .ergonomics_certificate{
+        grid-template-columns: repeat(2,1fr);
+        padding: 0;
+      }
+      .BRAUN .ergonomics_certificate .ergonomics_certificate_text{
+        padding: 0 15px 0 15px;
+        grid-column-start: 1;
+        grid-row-start: 1;
+      }
+      .BRAUN .ergonomics_certificate .foont_text{
+        padding-top:30px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .BRAUN .ergonomics_certificate .ergonomics_certificate_text{
+        padding: 0 90px 0 15px;
+      }
+      .BRAUN .ergonomics_certificate .foont_text{
+        position: absolute;
+        width:368px ;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .BRAUN .ergonomics_certificate .ergonomics_certificate_text{
+        padding: 0 120px 0 60px;
+      }
+      .BRAUN .ergonomics_certificate .foont_text{
+        padding-top:45px;
+      }
+      .BRAUN .ergonomics_certificate .foont_text{
+        padding-top: 100px;
+        width: 454px;
+      }
+    }
+    /* .steam_shot */
+    .BRAUN .steam_shot{
+      padding: 10px 0 0;
+      position: relative;
+    }
+    .BRAUN .steam_shot .steam_shot_img{
+      opacity: 0;
+    }
+    .BRAUN .steam_shot .steam_shot_img_fon{
+      position: absolute;
+      top: 45px
+    }
+    .BRAUN .steam_shot .steam_shot_text{
+      position: relative;
+      z-index: 2;
+      padding: 0 15px;
+    }
+    .BRAUN .steam_shot br{
+      display: none;
+    }
+    @media screen and (min-width:666px) {
+      .BRAUN .steam_shot .steam_shot_text{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0;
+        padding: 0 15px;
+        align-items: center;
+      }
+      .BRAUN .steam_shot{
+        background-image: none;
+        padding: 0;
+      }
+      .BRAUN .steam_shot .steam_shot_img{
+        opacity: 0;
+        width: 80%;
+      }
+      .BRAUN .steam_shot .steam_shot_img_fon{
+        top: -30px
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .BRAUN .steam_shot .steam_shot_text{
+        gap: 24px;
+        padding: 0;
+        grid-template-columns: 1fr 1.5fr;
+      }
+      .BRAUN .steam_shot .steam_shot_img_fon{
+        top: -50px
+      }
+      .BRAUN .steam_shot br{
+        display: block;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .BRAUN .steam_shot .steam_shot_text{
+        gap: 24px;
+        padding: 0 70px;
+      }
+      .BRAUN .steam_shot .steam_shot_img_fon{
+        top: -90px
+      }
+      .BRAUN .steam_shot br{
+        display: none;
+      }
+    }
+    /* let_nothing */
+    .BRAUN .let_nothing{
+      padding: 40px 0 0;
+      display: grid;
+      align-items: center;
+    }
+    .BRAUN .let_nothing .let_nothing_text{
+      padding: 24px 16px 0;
+    }
+    .BRAUN .let_nothing .let_nothing_text br{
+        display: none;
+      }
+    @media screen and (min-width:666px) {
+      .BRAUN .let_nothing{
+        grid-template-columns: repeat(2,1fr);
+        padding: 40px 0 0;
+      }
+      .BRAUN .let_nothing .let_nothing_text{
+        padding: 0px 0px 0 45px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .BRAUN .let_nothing{
+        padding: 58px 0 0;
+      }
+      .BRAUN .let_nothing .let_nothing_text{
+        padding: 0 0 0px 65px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .BRAUN .let_nothing{
+        padding: 80px 0 0;
+      }
+      .BRAUN .let_nothing .let_nothing_text{
+        padding: 0 40px 0 40px;
+      }
+      .BRAUN .let_nothing .let_nothing_text br{
+        display: block;
+      }
+
+    }
+    /* enjoy_convenience */
+    .BRAUN .enjoy_convenience{
+      padding: 40px 0;
+      display: grid;
+      gap: 24px;
+    }
+    .BRAUN .enjoy_convenience .enjoy_convenience_text{
+      padding: 0px 16px;
+      text-align: center;
+    }
+    @media screen and (min-width:666px) {
+      .BRAUN .enjoy_convenience{
+        padding: 40px 60px 0;
+        gap: 28px;
+      }
+      .BRAUN .enjoy_convenience .enjoy_convenience_text{
+        padding: 0px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .BRAUN .enjoy_convenience{
+        padding: 58px 110px 0;
+        gap: 40px;
+      }
+      .BRAUN .enjoy_convenience .enjoy_convenience_text{
+        padding: 0px 75px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .BRAUN .enjoy_convenience{
+        padding: 80px 142px 0;
+        gap: 60px;
+      }
+      .BRAUN .enjoy_convenience .enjoy_convenience_text{
+        padding: 0px 60px;
+      }
+    }
+
+
+    </style>
+      <div class="BRAUN">
+        <section class="powerful"><img alt="" class="blue_semicircle" src="https://i.citrus.world/uploads/content/product-photos/kirsh/729386/bg.png?_t=1698738700" />
+          <div class="powerful_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/729385/opt.opt.image%201.webp?_t=1718265695" />
+          </div>
+          <div class="powerful_text">
+            <p class="blue_text">Braun CareStyle 7 Pro
+            </p>
+            <h2>Найпотужніша прасувальна 
+                система Braun.
+            </h2>
+          </div>
+        </section>
+        <!--  -->
+        <section class="steam_supply">
+                <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/729385/opt.Property%201%3Dweb.webp?_t=1718258847" />
+          <div class="steam_supply_text">
+            <h3>Професійні результати завдяки потужній подачі пари.
+            </h3>
+            <p>Оснащений інноваційною технологією 
+                PowerSteam, CareStyle 7 Pro дозволяє легко розгладжувати навіть найскладніші складки завдяки безперервній подачі пари 180 г/хв.</p>
+          </div>
+        </section>
+        <!--  -->
+        <section class="ergonomics_certificate"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/729385/opt.Property%201%3Dweb-1.webp?_t=1718258847" />
+          <div class="ergonomics_certificate_text">
+            <h3>Перша в світі праска з сертифікатом ергономіки*.
+            </h3>
+            <p>Унікальна відкрита ручка має оптимальний кут для зменшення навантаження на зап’ястя, забезпечуючи більш комфортне прасування.</p>
+            <p class="foont_text">*Сертифіковано ErgoCert (Інститут сертифікації ергономіки, визнаний Accredia). Перевірено порівняно з найбільш продаваними конкурентами, січень 2020 р.</p>
+          </div>
+        </section>
+        <!--  -->
+        <section class="steam_shot">
+          <div class="steam_shot_img_block"><img alt="" class="steam_shot_img_fon" src="https://i.citrus.world/uploads/content/product-photos/kirsh/729385/opt.img%204.webp?_t=1718258846" />
+          </div>
+          <img alt="" class="steam_shot_img" src="https://i.citrus.world/uploads/content/product-photos/kirsh/729385/opt.img%204.webp?_t=1718258846" />
+          <div class="steam_shot_text">
+            <h3 style="margin-bottom: 0;">Потужний паровий постріл.
+                Сильний тиск пари.
+            </h3>
+            <p>Насолоджуйтеся бездоганними результатами прасування завдяки тиску пари 8 бар і надзвичайно потужному паровому удару 600 г/хв, щоб розгладити найскладніші складки.
+            </p>
+          </div>
+        </section>
+        <!--  -->
+        <section class="let_nothing"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/729385/opt.Property%201%3Dweb-2.webp?_t=1718258847" />
+          <div class="let_nothing_text">
+            <h3>Нехай ніщо<br>
+                не гальмує вас.
+            </h3>
+            <p>Технологія Freeglide 3D дозволяє <br>
+                ковзати назад через будь-які перешкоди,
+                такі як гудзики та блискавки. </p>
+          </div>
+        </section>
+        <!--  -->
+        <section class="enjoy_convenience">
+          <div class="enjoy_convenience_text">
+            <h3>Насолоджуйтесь зручністю.
+            </h3>
+            <p>Завдяки новому інтерфейсу iMode усі режими прасування будуть під рукою. Виберіть один із 4 режимів одним натисканням кнопки під час прасування. </p>
+          </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/729385/opt.img%206.webp?_t=1718258846" />
+        </section>
+      </div>
+
+      
+      
+</body>
+</html>

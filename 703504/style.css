@@ -1,0 +1,636 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+  }
+  .DiamondClean img {
+    margin: 0;
+  }
+  .DiamondClean p {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+
+  .DiamondClean h3 {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 14px;
+  }
+
+
+  .DiamondClean ul {
+    list-style: disc;
+    margin: 0;
+  }
+  .DiamondClean ul li {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .DiamondClean {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .DiamondClean ul {
+    padding: 0 0 0 20px;
+  }
+  .DiamondClean ul li {
+    padding: 0;
+  }
+  .DiamondClean div {
+    padding: 0;
+  }
+  div.DiamondClean {
+    padding: 0;
+  }
+  .DiamondClean br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+
+
+  .DiamondClean {
+    max-width: 1366px;
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
+
+  .DiamondClean img{
+    display: block;
+    width: 100%;
+  }
+
+  /* sonicare */
+
+  .DiamondClean .sonicare{
+    position: relative;
+  }
+  .DiamondClean .sonicare .sonicare_img{
+    position: relative;
+  }
+
+  .DiamondClean .sonicare .sonicare_text{
+    padding: 40px 32px 24px;
+    text-align: center;
+  }
+
+  .DiamondClean .sonicare .sonicare_text p{
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .DiamondClean .sonicare .logo_clean{
+    width: 60px;
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+
+
+@media screen and (min-width:666px) {
+
+    .DiamondClean p,
+    .DiamondClean ul li{
+        font-size: 16px;
+    }
+    .DiamondClean h3 {
+        font-size: 20px;
+    }
+    
+    .DiamondClean .sonicare .sonicare_text p{
+        font-size: 18px;
+      }
+  .DiamondClean .sonicare .sonicare_text{
+    padding: 40px 80px 32px;
+  }
+  .DiamondClean .sonicare .logo_clean{
+    width: 89px;
+    left: 32px;
+  }
+}
+@media screen and (min-width:1024px) {
+
+    .DiamondClean p,
+    .DiamondClean ul li{
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .DiamondClean h3 {
+        margin-bottom: 18px;
+        font-size: 24px;
+    }
+    
+    .DiamondClean .sonicare .sonicare_text p{
+        font-size: 24px;
+      }
+      .DiamondClean .sonicare .sonicare_text h3{
+        font-size: 26px;
+        margin-bottom: 18px;
+      }
+  .DiamondClean .sonicare .sonicare_text{
+    padding: 60px 140px 40px;
+  }
+  .DiamondClean .sonicare .logo_clean{
+    width: 129px;
+    left: 40px;
+  }
+}
+@media screen and (min-width:1366px) {
+    .DiamondClean p,
+    .DiamondClean ul li{
+        font-size: 22px;
+    }
+    .DiamondClean h3 {
+        margin-bottom: 18px;
+        font-size: 32px;
+    }
+    
+    .DiamondClean .sonicare .sonicare_text p{
+        font-size: 32px;
+      }
+      .DiamondClean .sonicare .sonicare_text h3{
+        font-size: 36px;
+        margin-bottom: 16px;
+      }
+  .DiamondClean .sonicare .sonicare_text{
+        padding: 60px 250px;
+    }
+    .DiamondClean .sonicare .logo_clean{
+        width: 188px;
+        left: 60px;
+    }
+}
+
+
+  /* block_radius */
+
+  .DiamondClean .block_radius{
+    display: grid;
+    gap: 16px;
+    padding: 40px 16px 0;
+  }
+
+  .DiamondClean .control_radius{
+    padding: 40px 44px 40px 16px
+
+  }
+
+
+  .DiamondClean .block_radius .cell_radius{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 40px auto;
+    align-items: center;
+  }
+
+  .DiamondClean .block_radius .cell_radius img{
+    width: 40px;
+  }
+
+  .DiamondClean .block_radius .cell_radius .cell_text{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+@media screen and (min-width:666px) {
+    .DiamondClean .block_radius .cell_radius .cell_text{
+        font-size: 20px;
+    }
+    .DiamondClean .block_radius .cell_radius img{
+        width: 60px;
+
+    }
+    .DiamondClean .block_radius .cell_radius{
+    grid-template-columns: 60px auto;
+    gap: 24px;
+    
+    }
+    .DiamondClean .block_radius{
+        gap: 24px;
+        padding: 40px 32px 0;
+      }
+      
+      .DiamondClean .control_radius{
+        padding: 40px 44px 40px 32px
+    
+      }
+
+}
+@media screen and (min-width:1024px) {
+    .DiamondClean .block_radius .cell_radius .cell_text{
+        font-size: 24px;
+    }
+    .DiamondClean .block_radius .cell_radius img{
+        width: 80px;
+
+    }
+    .DiamondClean .block_radius .cell_radius{
+    grid-template-columns: 80px auto;
+    gap: 24px;
+    
+    }
+    .DiamondClean .block_radius{
+        gap: 40px;
+        padding: 40px 40px 0;
+      }
+      
+      .DiamondClean .control_radius{
+        padding: 40px 44px 40px 40px
+    
+      }
+
+}
+
+@media screen and (min-width:1366px) {
+    .DiamondClean .block_radius .cell_radius .cell_text{
+        font-size: 32px;
+    }
+    .DiamondClean .block_radius .cell_radius img{
+        width: 120px;
+
+    }
+    .DiamondClean .block_radius .cell_radius{
+    grid-template-columns: 120px auto;
+    gap: 40px;
+    
+    }
+    .DiamondClean .block_radius{
+        gap: 40px;
+        padding: 60px 166px 0;
+      }
+      
+      .DiamondClean .control_radius{
+        padding: 60px 166px
+    
+      }
+
+}
+
+  /* comparison */
+
+  .DiamondClean .comparison{
+    padding:40px 16px ; 
+  }
+  .DiamondClean .comparison .comparison_text{
+    display: grid;
+    
+  }
+  .DiamondClean .comparison .comparison_text img{
+    width: 168px;
+    margin: 0 auto;
+  }
+
+@media screen and (min-width:666px) {
+    .DiamondClean .comparison{
+        padding:40px 32px 60px ; 
+        display: grid;
+        text-align: center;
+        gap: 26px;
+      }
+      .DiamondClean .comparison .comparison_text{
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        text-align: left;
+      }
+      .DiamondClean .comparison .comparison_text img{
+        width: 138px;
+      }
+
+
+}
+@media screen and (min-width:1024px) {
+    .DiamondClean .comparison{
+        padding:40px 40px 60px ; 
+        display: grid;
+        text-align: center;
+        gap: 22px;
+      }
+      .DiamondClean .comparison .comparison_text{
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        text-align: left;
+      }
+      .DiamondClean .comparison .comparison_text img{
+        width: 236px;
+      }
+
+
+}
+@media screen and (min-width:1366px) {
+    .DiamondClean .comparison{
+        padding:60px 166px 60px ; 
+        display: grid;
+        text-align: center;
+        gap: 22px;
+      }
+      .DiamondClean .comparison .comparison_text{
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        text-align: left;
+      }
+      .DiamondClean .comparison .comparison_text img{
+        width: 236px;
+      }
+      .DiamondClean .comparison h3{
+        padding: 0 130px;
+      }
+
+
+
+}
+
+
+  /* movements */
+
+
+  .DiamondClean .movements{
+    padding: 0 16px;
+    display: grid;
+    gap: 24px;
+  }
+  .DiamondClean .movements_left img,
+    .DiamondClean .movements img{
+        border-radius: 10px;
+    }
+  .DiamondClean .movements_left{
+    padding: 40px 16px;
+    display: grid;
+    gap: 24px;
+  }
+
+@media screen and (min-width:666px) {
+    .DiamondClean .movements{
+        padding: 0 32px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .DiamondClean .movements_left{
+        padding: 32px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+
+    }
+    .DiamondClean .movements_left img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+}
+@media screen and (min-width:1024px) {
+    .DiamondClean .movements{
+        padding: 0 40px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .DiamondClean .movements_left{
+        padding: 40px 55px 40px 40px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+
+    }
+    .DiamondClean .movements_left img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+}
+@media screen and (min-width:1366px) {
+    .DiamondClean .movements{
+        padding: 0 172px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 40px;
+    }
+    .DiamondClean .movements_left{
+        padding: 60px 172px 60px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 40px;
+
+    }
+    .DiamondClean .movements_left img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+}
+
+  /* personalized */
+
+  .DiamondClean .personalized .personalized_text{
+    padding: 40px 16px 24px;
+    text-align: center;
+  }
+
+  .DiamondClean .personalized .personalized_text p{
+    font-size: 16px;
+  }
+
+
+  .DiamondClean .personalized .personalized_img{
+    position: relative;
+  }
+
+  .DiamondClean .personalized .personalized_img .personalized_img_block{
+    position: absolute;
+    display: grid;
+    gap:10px;
+    right: 16px;
+    top: 22px;
+  }
+
+  .DiamondClean .personalized .personalized_img_block .sonicare_logo{
+    width: 32px;
+    
+  }
+  .DiamondClean .personalized .personalized_img_block .store_logo,
+  .DiamondClean .personalized .personalized_img_block .play_logo
+  {
+    width: 63px;
+    
+  }
+
+  .DiamondClean .choose_your h3{
+
+    padding: 40px 45px 10px;
+    text-align: center;
+
+  }
+
+  @media screen and (min-width:666px) {
+
+    .DiamondClean .personalized .personalized_text h3{
+        font-size: 24px;
+      }
+
+    .DiamondClean .personalized .personalized_text p{
+        font-size: 18px;
+      }
+    .DiamondClean .personalized .personalized_text{
+        padding: 40px 50px 32px;
+      }
+      .DiamondClean .personalized .personalized_img_block .sonicare_logo{
+        width: 46px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        margin-left: auto;
+        
+      }
+      .DiamondClean .personalized .personalized_img_block .store_logo,
+      .DiamondClean .personalized .personalized_img_block .play_logo
+      {
+        grid-row-start: 2;
+
+        width: 74px;
+      }
+      .DiamondClean .personalized .personalized_img .personalized_img_block{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);;
+        gap:16px 14px;
+        right: 32px;
+        top: auto;
+        bottom: 32px;
+      }
+      .DiamondClean .choose_your .choose_your_img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+      }
+  }
+  @media screen and (min-width:1024px) {
+
+
+    .DiamondClean .personalized .personalized_text{
+        padding: 40px 160px 32px;
+      }
+      .DiamondClean .personalized .personalized_img_block .sonicare_logo{
+        width: 59px;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        margin-right: auto;
+        
+      }
+      .DiamondClean .personalized .personalized_img_block .store_logo,
+      .DiamondClean .personalized .personalized_img_block .play_logo
+      {
+        grid-row-start: 2;
+        width: 94px;
+      }
+      .DiamondClean .personalized .personalized_img .personalized_img_block{
+       
+        gap:22px 18px;
+        right: 40px;
+        bottom: 40px;
+      }
+      .DiamondClean .choose_your .choose_your_img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+      }
+
+      .DiamondClean .personalized .personalized_text p{
+        font-size: 24px;
+      }
+      .DiamondClean .personalized .personalized_text h3{
+        font-size: 26px;
+      }
+  }
+
+  @media screen and (min-width:1366px) {
+
+
+    .DiamondClean .personalized .personalized_text{
+        padding: 60px 270px;
+      }
+      .DiamondClean .personalized .personalized_img_block .sonicare_logo{
+        width: 82px;
+        grid-column-start:2;
+        grid-row-start: 1;
+        margin-left: auto;
+        
+      }
+      .DiamondClean .personalized .personalized_img_block .store_logo,
+      .DiamondClean .personalized .personalized_img_block .play_logo
+      {
+        grid-row-start: 2;
+        width: 128px;
+      }
+      .DiamondClean .personalized .personalized_img .personalized_img_block{
+       
+        gap:32px 24px;
+        right: 166px;
+        bottom: 80px;
+      }
+      .DiamondClean .choose_your .choose_your_img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+      }
+
+      .DiamondClean .personalized .personalized_text p{
+        font-size: 32px;
+      }
+      .DiamondClean .personalized .personalized_text h3{
+        font-size: 36px;
+      }
+  }
+
+  /* fonet */
+
+  .DiamondClean .fonet{
+    padding: 40px 16px;
+
+  }
+
+  .DiamondClean .fonet p{
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 12px;
+  }
+
+
+  @media screen and (min-width:666px) {
+
+    .DiamondClean .fonet{
+        padding: 40px 32px;
+    }
+    .DiamondClean .fonet p{
+        font-size: 14px;
+      }
+
+  }
+  @media screen and (min-width:1024px) {
+
+    .DiamondClean .fonet{
+        padding: 40px 40px;
+    }
+
+
+  }
+  @media screen and (min-width:1366px) {
+
+    .DiamondClean .fonet{
+        padding: 60px 166px;
+    }
+    
+
+  }

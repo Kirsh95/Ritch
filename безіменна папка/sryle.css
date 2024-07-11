@@ -1,0 +1,406 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .series_nine img {
+      margin: 0;
+    }
+    .series_nine h2{
+      font-family: "Roboto",sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      margin: 0;
+      padding: 0;
+    }
+    .series_nine p {
+      padding: 0;
+      margin: 0;
+      font-family: "Roboto",sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%
+    }
+    .series_nine h3{
+      font-family: "Roboto",sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      margin: 0;
+      padding: 0;
+    }
+    .series_nine a{
+      font-family: "Roboto",sans-serif;
+      color: black;
+      text-decoration: none;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .series_nine ul {
+      list-style: none;
+      margin: 0;
+    }
+    .series_nine ul li {
+      line-height: normal;
+    }
+    .series_nine {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .series_nine ul {
+      padding: 0;
+    }
+    .series_nine ul li {
+      padding: 0;
+    }
+    .series_nine div {
+      padding: 0;
+    }
+    div.series_nine {
+      padding: 0;
+    }
+    .series_nine br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .series_nine{
+      max-width: 1366px;
+      overflow-x: hidden;
+      margin: 0 auto;
+    }
+    .series_nine img{
+      display: block;
+      width: 100%;
+    }
+    .series_nine .fifteen{
+      text-align: center;
+      padding-top: 40px;
+    }
+    .series_nine .fifteen .logo_iphone{
+      margin: 0 auto;
+      width: 160px;
+      margin-top: 8px;
+    }
+    .series_nine .fifteen .big_img_series{
+        padding: 30px 30px 20px;
+    }
+    .series_nine .fifteen .big_title{
+      font-weight: 400;
+      font-size: 29px;
+      /* color: #87878B; */
+    }
+
+
+    @media screen and (min-width:666px) {
+        body{
+            padding: 0 24px
+        }
+
+      .series_nine .fifteen .logo_iphone{
+        width: 200px;
+        margin-top: 12px;
+      }
+      .series_nine .fifteen .big_title{
+        font-size: 44px;
+      }
+        .series_nine .fifteen .big_img_series{
+            padding: 50px 150px 50px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+      .series_nine .fifteen .logo_iphone{
+        width: 264px;
+        margin-top: 12px;
+      }
+      .series_nine .fifteen .big_title{
+        font-size: 64px;
+      }
+      .series_nine p {
+        font-size: 22px;
+      }
+      .series_nine h3{
+        font-size: 22px;
+      }
+      .series_nine .fifteen .big_img_series{
+        padding: 50px 250px 50px;
+    }
+    }
+    @media screen and (min-width:1366px) {
+      .series_nine .fifteen .logo_iphone{
+        width: 370px;
+        margin-top: 18px;
+      }
+      .series_nine .fifteen .big_title{
+        font-size: 88px;
+      }
+      .series_nine .fifteen .big_img_series{
+        padding: 100px 350px 80px;
+    }
+    }
+    /* pre_order */
+    .series_nine .pre_order{
+      display: grid;
+      gap: 16px;
+      text-align: center;
+      padding: 20px 16px 0;
+    }
+    .series_nine .pre_order a{
+      border: 1px solid #86868b;
+      color:#86868b ;
+      border-radius: 80px;
+      padding: 10px 24px;
+      margin: 0 auto;
+      font-size: 22px;
+    }
+    .series_nine .pre_order h3{
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      color:#86868b ;
+    }
+    @media screen and (min-width:666px) {
+      
+      .series_nine .pre_order{
+        gap: 24px;
+      padding: 40px 16px 0;
+
+      }
+      .series_nine .pre_order a{
+        padding: 16px 30px;
+        font-size: 36px;
+      }
+      .series_nine .pre_order h3{
+        font-size: 52px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+
+      .series_nine .pre_order a{
+        padding: 20px 36px;
+        font-size: 40px;
+      }
+      .series_nine .pre_order h3{
+        font-size: 52px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .series_nine .pre_order a{
+        padding: 24px 40px;
+      }
+    }
+    /* dynamic_Island */
+    .series_nine .dynamic_Island{
+      padding-top: 32px;
+      text-align: center;
+      display: grid;
+    }
+    .series_nine .dynamic_Island p{
+      font-size: 18px;
+    }
+    .series_nine .dynamic_Island .dynamic_Island_text{
+      padding: 0 14px;
+    }
+
+
+    @media screen and (min-width:666px) {
+      .series_nine .dynamic_Island{
+        padding-top: 60px;
+      }
+      .series_nine .dynamic_Island p{
+        font-size: 28px;
+      }
+      .series_nine .dynamic_Island .dynamic_Island_text{
+        padding: 0 22px;
+      }
+      .series_nine .dynamic_Island .watch_img{
+        padding: 0 60px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .series_nine .dynamic_Island p{
+        font-size: 36px;
+      }
+      .series_nine .dynamic_Island .dynamic_Island_text{
+        padding: 0 22px;
+      }
+      .series_nine .dynamic_Island .watch_img{
+        padding: 0 80px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .series_nine .dynamic_Island{
+        padding-top: 74px;
+      }
+      .series_nine .dynamic_Island .dynamic_Island_text{
+        padding: 0 80px;
+      }
+      .series_nine .dynamic_Island .watch_img{
+        padding: 0 100px;
+      }
+    }
+    /* .main_characteristics */
+    .series_nine .main_characteristics{
+      padding: 20px 16px 40px;
+      display: grid;
+      gap: 40px;
+    }
+    .series_nine .main_characteristics .main_block{
+      font-size: 23px;
+      font-weight: 700;
+    }
+    .series_nine .main_characteristics .main_characteristics_block_left,
+    .series_nine .main_characteristics .main_characteristics_block_rigth{
+      display: grid;
+      gap: 40px;
+      align-items:flex-start;
+    }
+    .series_nine .main_characteristics .main_characteristics_block_left .main_items,
+    .series_nine .main_characteristics .main_characteristics_block_rigth .main_items{
+      display: grid;
+      gap: 8px;
+      align-items: flex-start;
+    }
+    .series_nine .main_characteristics .main_characteristics_block{
+      display: grid;
+      gap: 40px;
+      align-items: flex-start;
+    }
+
+
+    .series_nine .watchs_img{
+        padding: 0 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        .series_nine .watchs_img{
+            padding: 0 60px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .series_nine .watchs_img{
+            padding: 0 80px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .series_nine .watchs_img{
+            padding: 0 160px;
+        }
+    }
+
+
+
+    @media screen and (min-width:666px) {
+      .series_nine .main_characteristics .main_block{
+        font-size: 34px;
+        text-align: center;
+      }
+      .series_nine .main_characteristics{
+        padding: 0px 30px 40px;
+      }
+      .series_nine .main_characteristics .main_characteristics_block{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      }
+      .series_nine .main_characteristics .main_characteristics_block_left,
+      .series_nine .main_characteristics .main_characteristics_block_rigth{
+        gap: 40px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .series_nine .main_characteristics .main_block{
+        font-size: 48px;
+      }
+      .series_nine .main_characteristics{
+        padding: 80px 32px;
+        gap: 64px;
+      }
+      .series_nine .main_characteristics .main_characteristics_block{
+        gap: 153.55px;
+      }
+      .series_nine .main_characteristics .main_characteristics_block_left .main_items,
+      .series_nine .main_characteristics .main_characteristics_block_rigth .main_items{
+        gap: 16px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .series_nine .main_characteristics .main_block{
+        font-size: 64px;
+      }
+      .series_nine .main_characteristics{
+        padding: 100px 91px;
+      }
+      .series_nine .main_characteristics .main_characteristics_block{
+        gap: 207px;
+      }
+      .series_nine .main_characteristics .main_characteristics_block_left .main_items,
+      .series_nine .main_characteristics .main_characteristics_block_rigth .main_items{
+        gap: 16px;
+      }
+    }
+    /* legal_information */
+    .series_nine .legal_information{
+      display: grid;
+      gap:16px ;
+      padding: 40px 16px;
+    }
+    .series_nine .legal_information .legal_information_block{
+      gap: 16px;
+      display: grid;
+    }
+    .series_nine .legal_information .legal_information_block .legal_items{
+      gap: 16px;
+      display: grid;
+    }
+    .series_nine .legal_information .legal_information_block .legal_items .legal_item{
+      gap: 16px;
+      display: grid;
+    }
+    @media screen and (min-width:666px) {
+      .series_nine .legal_information{
+        padding: 40px 24px;
+      }
+      .series_nine .legal_information p,
+      .series_nine .legal_information h3{
+        font-size: 22px;
+      }
+      .series_nine .legal_information .legal_information_block{
+        gap: 40px;
+      }
+      .series_nine .legal_information .legal_information_block .last_items{
+        gap: 35px;
+        grid-template-columns: repeat(2,1fr);
+      }
+      .series_nine .legal_information .legal_information_block .legal_items .legal_item{
+        gap: 24px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .series_nine .legal_information{
+        padding: 60px 40px 40px;
+      }
+      .series_nine .legal_information .legal_information_block{
+        gap: 40px;
+      }
+      .series_nine .legal_information .legal_information_block .last_items{
+        gap: 49px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .series_nine .legal_information{
+        padding: 80px 118px 40px;
+      }
+      .series_nine .legal_information .legal_information_block .last_items{
+        gap: 81px;
+      }
+      .series_nine .legal_information .legal_information_block .legal_items .legal_item{
+        padding-right: 45px;
+      }
+    }

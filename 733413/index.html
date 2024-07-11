@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    .product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .gazer img {
+      margin: 0;
+    }
+    .gazer .description {
+      padding: 0;
+      margin: 0;
+      color: #ffffff;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .gazer .title {
+      color: #ffffff;
+      font-family: 'Roboto',sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .gazer h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .gazer ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .gazer ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .gazer {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .gazer ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .gazer ul li {
+      padding: 0;
+    }
+    .gazer div {
+      padding: 0;
+    }
+    div.gazer {
+      padding: 0;
+    }
+    .gazer br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .gazer{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+      background: #000;
+    }
+    .gazer img{
+      width: 100%;
+      display: block;
+    }
+
+    .gazer .gazer_home{
+        position: relative;
+    }
+
+    .gazer .gazer_home .gazer_home_text{
+        text-align: center;
+        padding: 16px;
+        display: grid;
+        gap: 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        /* body{
+            padding: 0 24px;
+        } */
+        .gazer .title{
+            font-size: 20px;
+        }
+        .gazer .gazer_home .gazer_home_text{
+            position: absolute;
+            padding: 0;
+            left: 32px;
+            top: 50%;
+            transform: translate(0, -50%);
+            text-align: left;
+            width: 438px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .gazer .description{
+            font-size: 18px;
+        }
+        .gazer .title{
+            font-size: 24px;
+        }
+        .gazer .gazer_home .gazer_home_text{
+            left: 40px;
+            width: 538px;
+            gap: 24px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .gazer .description{
+            font-size:22px;
+        }
+        .gazer .gazer_home .description{
+            font-size:24px;
+        }
+        .gazer .title{
+            font-size: 55px;
+        }
+        .gazer .gazer_home .gazer_home_text{
+            left: 60px;
+            gap: 40px;
+            width: 734px;
+        }
+    }
+
+
+    /* film_search  */
+
+
+    .gazer .film_search{
+        display: grid;
+        gap: 16px;
+    }
+
+    .gazer .film_search .film_search_text{
+        padding: 16px 16px 0;
+    }
+
+    @media screen and (min-width:666px) {
+        .gazer .film_search{
+            display: grid;
+            gap: 0;
+            padding: 0 32px;
+            align-items: center;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .gazer .film_search .film_search_text{
+            padding: 0;
+            padding-right: 60px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .gazer .film_search{
+            padding: 0 40px;
+        }
+        .gazer .film_search .film_search_text{
+            padding: 0;
+            padding-right: 95px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .gazer .film_search{
+            padding: 0 60px;
+        }
+        .gazer .film_search .description{
+            font-size: 32px;
+        }
+        .gazer .film_search .film_search_text{
+            padding: 0;
+            padding-right: 95px;
+        }
+    }
+
+
+    /* film_search  */
+
+
+    .gazer .metasmar{
+        display: grid;
+        gap: 16px;
+        position: relative;
+
+       
+    }
+
+    .gazer .metasmar .metasmar_text{
+        padding: 16px 16px 0;
+        position: relative;
+        z-index: 2;
+    }
+    .gazer .metasmar .metasmar_img{
+        position: relative;
+        z-index: 2;
+    }
+
+    .gazer .back_blue {
+       position: absolute;
+       width: 100%;
+       z-index: 1;
+       bottom:70px;
+       right: -50px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .gazer .metasmar{
+            display: grid;
+            gap: 0;
+            padding:32px;
+            align-items: center;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .gazer .metasmar .metasmar_text{
+            padding: 0;
+            padding-right: 52px;
+        }
+
+        .gazer  .back_blue {
+            bottom:50px;
+            right: -80px;
+            width: 65%;
+         }
+        
+    }
+
+    @media screen and (min-width:1024px) {
+        .gazer .metasmar{
+            padding: 24px 40px;
+        }
+        .gazer .metasmar .metasmar_text{
+            padding: 0;
+            padding-right: 50px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .gazer .metasmar{
+            padding: 60px;
+            grid-template-columns: 1fr 669px;
+        }
+        .gazer .metasmar .metasmar_text{
+            padding: 0;
+            padding-right: 34.8px
+        }
+        .gazer  .back_blue {
+            bottom:11px;
+            right: -15%;
+            width: 74%;
+         }
+    }
+
+    /* ChatGPT */
+
+    .gazer .ChatGPT{
+        display: grid;
+        padding-top: 16px;
+        position: relative;
+    }
+    .gazer .ChatGPT .ChatGPT_titlt{
+        text-align: center;
+    }
+
+    .gazer .ChatGPT .ChatGPT_block{
+        padding: 0 16px;
+        display: grid;
+        position: relative;
+        z-index: 2;
+        gap: 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        .gazer .ChatGPT{
+            display: grid;
+            padding-top: 16px;
+        }
+
+        .gazer .ChatGPT .ChatGPT_text{
+            padding-right: 35px;
+        }
+  
+        .gazer .ChatGPT .ChatGPT_block{
+            padding: 32px;
+            align-items: center;
+            display: grid;
+            gap: 16px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .gazer .ChatGPT{
+            display: grid;
+            padding-top: 16px;
+        }
+        .gazer .ChatGPT .ChatGPT_text{
+            padding-right: 35px;
+        }
+  
+        .gazer .ChatGPT .ChatGPT_block{
+            padding: 40px;
+            gap: 16px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .gazer .ChatGPT .ChatGPT_text{
+            padding-right: 47px;
+        }
+  
+        .gazer .ChatGPT .ChatGPT_block{
+            padding: 60px;
+            grid-template-columns: 1fr 669px;
+            gap: 0px;
+        }
+    }
+
+
+    /* metasmart */
+
+    .gazer .metasmart{
+        display: grid;
+        padding-top: 16px;
+        position: relative;
+    }
+    .gazer .metasmart .metasmart_titlt{
+        text-align: center;
+    }
+
+    .gazer .metasmart .metasmart_block{
+        padding: 0 16px;
+        display: grid;
+        gap: 16px;
+        position: relative;
+        z-index: 2;
+    }
+
+    @media screen and (min-width:666px) {
+        .gazer .metasmart{
+            display: grid;
+            padding-top: 16px;
+        }
+
+        .gazer .metasmart .metasmart_text{
+            padding-right: 54px;
+        }
+  
+        .gazer .metasmart .metasmart_block{
+            padding: 32px 0px 32px 32px;
+            align-items: center;
+            display: grid;
+            gap: 0px;
+            display: grid;
+            grid-template-columns: 1.17fr 1fr;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .gazer .metasmart{
+            display: grid;
+            padding-top: 16px;
+        }
+        .gazer .metasmart .metasmart_text{
+            padding-right: 75px;
+        }
+  
+        .gazer .metasmart .metasmart_block{
+            padding: 40px 0px 40px 40px;
+            grid-template-columns: 1fr 1fr;
+
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .gazer .metasmart .metasmart_text{
+            padding-right: 115px;
+        }
+  
+        .gazer .metasmart .metasmart_block{
+            padding: 60px 0 60px 60px; 
+            grid-template-columns: 1fr 683px;
+            gap: 0px;
+        }
+    }
+
+
+    /* collections */
+
+    .gazer .collections{
+        display: grid;
+        padding-top: 16px;
+        position: relative;
+    }
+    .gazer .collections .collections_titlt{
+        text-align: center;
+    }
+
+    .gazer .collections .collections_block{
+        padding: 0 16px;
+        position: relative;
+        z-index: 2;
+        display: grid;
+        gap: 16px;
+    }
+
+    .gazer .collections .back_blue{
+        bottom: 30px;
+        left: 0;
+    }
+
+    @media screen and (min-width:666px) {
+        .gazer .collections{
+            display: grid;
+            padding-top: 16px;
+        }
+
+        .gazer .collections .collections_text{
+            padding-left: 45px;
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+  
+        .gazer .collections .collections_block{
+            padding: 32px;
+            align-items: center;
+            display: grid;
+            gap: 0px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .gazer .collections .back_blue{
+            position: absolute;
+            bottom: 17%;
+            left:-15%;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .gazer .collections{
+            display: grid;
+            padding-top: 16px;
+        }
+        .gazer .collections .collections_text{
+            padding-left: 50px;
+        }
+  
+        .gazer .collections .collections_block{
+            padding: 40px;
+            grid-template-columns: 1fr 1fr;
+
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .gazer .collections .collections_text{
+            padding-left: 40px;
+        }
+  
+        .gazer .collections .collections_block{
+            padding: 60px; 
+            grid-template-columns: 666px 1fr;
+            gap: 0px;
+        }
+        .gazer .collections .back_blue{
+            bottom: 10%;
+            left: -10%;
+            width: 65%;
+        }
+    }
+
+
+
+
+
+      /* metasmart */
+
+      .gazer .qled{
+        display: grid;
+        padding-top: 16px;
+    }
+    .gazer .qled .qled_titlt{
+        text-align: center;
+    }
+
+    .gazer .qled .qled_block{
+        padding: 0 16px;
+        display: grid;
+        gap: 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        .gazer .qled{
+            display: grid;
+            padding-top: 16px;
+        }
+
+        .gazer .qled .qled_text{
+            padding-right: 42px;
+        }
+  
+        .gazer .qled .qled_block{
+            padding: 32px 0px 32px 32px;
+            align-items: center;
+            display: grid;
+            gap: 0px;
+            display: grid;
+            grid-template-columns: 1.17fr 1fr;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .gazer .qled{
+            display: grid;
+            padding-top: 16px;
+        }
+        .gazer .qled .qled_text{
+            padding-right: 90px;
+        }
+  
+        .gazer .qled .qled_block{
+            padding: 40px 0px 40px 40px;
+            grid-template-columns: 1fr 1fr;
+
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .gazer .qled .qled_text{
+            padding-right: 119px;
+        }
+  
+        .gazer .qled .qled_block{
+            padding: 60px 0 60px 60px; 
+            grid-template-columns: 1fr 683px;
+            gap: 0px;
+        }
+    }
+
+
+    /* remote */
+
+    .gazer .remote{
+        display: grid;
+        position: relative;
+    }
+
+    .gazer .remote .remote_title{
+        text-align: center;
+        padding: 0 16px;
+    }
+
+    .gazer .remote .remote_text{
+        padding: 0 16px 16px;
+        display: grid;
+        gap: 14px;
+    }
+    .gazer .remote .remote_blue_block{
+        display: grid;
+        gap: 14px;
+    }
+
+    .gazer .remote .remote_blue_block .blue_description{
+        border-left: 1px solid #0A65FF;
+    }
+
+    .gazer .remote_desctope{
+        display: none;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .gazer .remote .remote_block{
+            display: none;
+        }
+        .gazer .remote_desctope{
+            display: block;
+        }
+    
+            
+    }
+
+    .gazer .nft{
+        display: grid;
+        padding-top: 16px;
+    }
+
+    .gazer .nft .nft_titlt{
+        text-align: center;
+    }
+
+    .gazer .nft .nft_block{
+        padding: 0 16px;
+        display: grid;
+        gap: 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        .gazer .nft{
+            display: grid;
+            background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/733413/NFTs_and_Metaverse_Shutterstock_waifu2x_photo_noise1_scale%201.svg?_t=1718196227");
+           background-repeat: no-repeat;
+           background-size: cover;
+            padding-top: 16px;
+        }
+
+        .gazer .nft .nft_text{
+            padding-right: 98px;
+        }
+  
+        .gazer .nft .nft_block{
+            padding: 32px;
+            align-items: center;
+            display: grid;
+            gap: 0px;
+            display: grid;
+            grid-template-columns: 1.17fr 1fr;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .gazer .nft{
+            display: grid;
+            padding-top: 16px;
+        }
+        .gazer .nft .nft_text{
+            padding-right: 106px;
+        }
+  
+        .gazer .nft .nft_block{
+            padding: 40px;
+            grid-template-columns: 1fr 1fr;
+
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .gazer .nft .lnft_text{
+            padding-right: 50px;
+        }
+  
+        .gazer .nft .nft_block{
+            padding: 60px 70px 60px 60px; 
+            grid-template-columns: 1fr 682px;
+            gap: 0px;
+        }
+    }
+
+    /* last_but */
+
+    .gazer .last_but{
+        display: grid;
+        padding-top: 16px;
+        background: #fff;
+    }
+    .gazer .last_but .description,
+    .gazer .last_but .title
+    { 
+        color: #000;
+    }
+    .gazer .last_but .last_but_titlt{
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+
+    .gazer .last_but .last_but_block{
+        padding: 0 16px;
+        display: grid;
+        gap: 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        .gazer .last_but .last_but_titlt{
+            text-align: center;
+            padding: 0 140px;
+        }
+
+        .gazer .last_but{
+            display: grid;
+            padding-top: 16px;
+        }
+
+        .gazer .last_but .last_but_text{
+            padding-right: 35px;
+        }
+  
+        .gazer .last_but .last_but_block{
+            padding: 32px 0 32px 32px;
+            align-items: center;
+            display: grid;
+            gap: 0px;
+            display: grid;
+            grid-template-columns: 1.17fr 1fr;
+        }
+        .gazer .last_but .last_but_titlt br{
+            display: none;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .gazer .last_but{
+            display: grid;
+            padding-top: 16px;
+        }
+        .gazer .last_but .last_but_text{
+            padding-right: 30px;
+        }
+  
+        .gazer .last_but .last_but_block{
+            padding: 40px 0 40px 40px;
+            grid-template-columns: 1fr 1fr;
+        }
+        .gazer .last_but .last_but_titlt{
+            text-align: center;
+            padding: 0 200px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+  
+        .gazer .last_but .last_but_block{
+            padding: 60px 0px 60px 60px; 
+            grid-template-columns: 1fr 688px;
+            gap: 0px;
+        }
+        .gazer .last_but .last_but_titlt{
+            text-align: center;
+            padding: 40px 90px;
+        }
+        .gazer .last_but .last_but_titlt p{
+            font-size: 46px;
+        }
+    }
+
+</style>
+
+    <div class="gazer">
+        <div class="gazer_home">
+            <div class="gazer_home_img">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/img_1.webp?_t=1718066094" alt="">
+            </div>
+            <div class="gazer_home_text">
+                <p class="description">На звичайному SMART телевізорі потрібно докласти зусиль і витратити чимало часу, щоб знайти фільм для перегляду. Перевірити наявність потрібного фільму та його вартість можна лише по черзі в кожному додатку.</p>
+                <p class="description">Якщо застосунок не встановлено, то завантажити та пройти реєстрацію. І лише потім переконатися, що бажаного фільму або взагалі немає, або відсутня необхідна мова озвучки, або коштує він занадто дорого.</p>
+            </div>
+        </div>
+        <!--  -->
+        <div class="film_search">
+            <div class="film_search_text">
+                <p class="description">Як на вашу думку має виглядати ідеальний пошук фільму? <br>
+                    Можливо як вибір товарів на маркетплейсах чи підбір готелю у відомих системах бронювання?</p>
+            </div>
+            <div class="film_search_img">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/img_2.webp?_t=1718064808" alt="">
+            </div>
+        </div>
+        <!--  -->
+        <div class="metasmar">
+            <div class="metasmar_text">
+                <p class="description">Телевізор METASMART TV art edition E2 виводить на новий рівень споживання відеоконтенту. Відтепер всі фільми та серіали зібрані в єдиний мультикаталог, що знаходиться на головному екрані вашого телевізора Gazer. Щоб знайти потрібний фільм та умови його перегляду достатньо ввести назву у відповідний фільтр пошуку та за лічені секунди отримати результат з переліком всіх застосунків. Вибрати найвигідніший варіант та відразу розпочати перегляд.</p>
+            </div>
+            <div class="metasmar_img">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/img_3.webp?_t=1718064805" alt="">
+            </div>
+            <img class="back_blue" src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/blue_2.svg?_t=1718211125" alt="">
+
+        </div>
+        <!--  -->
+        <div class="ChatGPT">
+            <div class="ChatGPT_titlt">
+                <p class="title" style="text-transform: uppercase;">ChatGPT знайде все</p>
+            </div>
+            <div class="ChatGPT_block">
+                <div class="ChatGPT_text">
+                    <p class="description">Хочеться подивитися щось до сліз романтичне? Чи про супергероїв, що рятують всесвіт? А може, розслаблююче та смішне, але так щоб і дітям можна було глянути? Прямо так і вводьте запит в пошук AI movie зі штучним інтелектом. ChatGPT знайде вам потрібні фільми за описом сюжету, під настрій, день тижня та навіть погоду за вікном. Формуйте необмежену кількість запитів та щоразу отримуйте добірку з відповідними кінострічками. </p>
+                </div>
+                
+                <div class="ChatGPT_img">
+                    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/img_4.webp?_t=1718064803" alt="">
+                </div>
+            </div>
+            <img class="back_blue" src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/blue_2.svg?_t=1718211125" alt="">
+
+        </div>
+        
+        <div class="metasmart">
+            <div class="metasmart_titlt">
+                <p class="title">Лаунчер METASMART TV</p>
+            </div>
+            <div class="metasmart_block">
+                <div class="metasmart_text">
+                    <p class="description">З телевізором Gazer art edition E2 обирати фільм на вечір можна не лише за назвою. Унікальний лаунчер METASMART TV об’єднав в собі найрізноманітніші параметри для пошуку. З ним не потрібно використовувати додаткові гаджети.
+                        <br>
+                        <br>
+
+                        Шукаєте трилер за певний рік випуску, який номінували на Оскар? Легко. Чи цікавить рейтинг  IMDb 7 і не балом менше? Додали. А хочете, щоб у фільмі грав ваш улюблений актор? Є і така можливість. З оптимізованим фільтром METASMART TV ви обираєте потрібні критерії та отримуєте максимально точний результат за кілька секунд. Якщо фільм існує, то ви точно його знайдете з мінімальними зусиллями.
+                    </p>
+                </div>
+                
+                <div class="metasmart_img">
+                    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/img_5.webp?_t=1718064804" alt="">
+                </div>
+            </div>
+            <img class="back_blue" src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/blue_2.svg?_t=1718211125" alt="">
+
+        </div>
+        <!--  -->
+        <div class="collections">
+            <div class="collections_titlt">
+                <p class="title">Мультикаталог і добірки</p>
+            </div>
+            <div class="collections_block">
+                <div class="collections_text">
+                    <p class="description">Gazer art edition E2 подбав і про тих, хто в пошуку, щоб такого подивитися, і моніторить соцмережі та різні сайти. 
+                        <br>
+                        <br>
+                        Мультикаталог з добірками від кіностудій, критиків, онлайн-кінотеатрів, відомих особистостей, лідерів думок і місцевих блогерів відтепер на головному екрані вашого телевізора Gazer. Переходьте між добірками в один клік за допомогою пульту. Це в рази спрощує процес вибору фільму та його кінцевий пошук, бо відтепер ви завжди будете знати, що цікавого є для перегляду. 
+                    </p>
+                </div>
+                
+                <div class="collections_img">
+                    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/img_6.webp?_t=1718064804" alt="">
+                </div>
+            </div>
+            <img class="back_blue" src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/blue_2.svg?_t=1718211125" alt="">
+
+        </div>
+
+        <!--  -->
+
+        <div class="collections">
+            <div class="collections_titlt">
+                <p class="title">Всі телеканали країни</p>
+            </div>
+            <div class="collections_block">
+                <div class="collections_text">
+                    <p class="description">Для любителів цифрового телебачення в Gazer art edition E2 зібрані всі доступні телеканали вашої країни. Обирайте що хочете дивитись, порівнюйте умови від операторів, оформлюйте підписку та починайте дивитись в один клік на головному екрані телевізора. Зручно перемикайте канали між собою та насолоджуйтеся переглядом улюблених телепередач.</p>
+                </div>
+                
+                <div class="collections_img">
+                    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/img_7.webp?_t=1718064804 " alt="">
+                </div>
+            </div>
+            <img class="back_blue" src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/blue_2.svg?_t=1718211125" alt="">
+        </div>
+
+        <!--  -->
+
+        <div class="qled">
+            <div class="qled_titlt">
+                <p class="title">Неймовірне зображення екрана <br>
+                     multiart™ - більше ніж QLED</p>
+            </div>
+            <div class="qled_block">
+                <div class="qled_text">
+                    <p class="description">Як ви любите дивитися телевізор? Сидячи прямо перед ним? Зручно лежачи на дивані? А може ходячи по квартирі? З технологією екрана multiart™ на телевізорах Gazer буде ідеальна картинка з будь-якого ракурсу.
+                        <br><br>Екран створений на базі QLED IPS панелі класу А+. Має вищу яскравість та контрастність у порівнянні зі звичайними QLED панелями. Точно та максимально натурально передає всі кольори, як найкращі у світі ноутбуки.
+                        <br><br>Навіть при тривалому щоденному використанню телевізора екран Gazer art edition E2 збереже свої властивості понад 10 років.
+                    </p>
+                </div>
+                <div class="qled_img">
+                    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/img_8.webp?_t=1718064804" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+
+        <div class="remote">
+            <div class="remote_title">
+                <p class="title">Стильний пульт multicontrol remote™</p>
+            </div>
+            <div class="remote_block">
+                <div class="remote_text">
+                    <p class="description">Річ, без якої складно уявити комфортне використання телевізора - це пульт. Стильний, сучасний, продуманий до дрібниць це все про пульт multicontrol remote.</p>
+                    <div class="remote_blue_block">
+                        <p class="description blue_description">Має кнопки прямого доступу до найпопулярніших застосунків Netflix та YouTube.</p>
+                        <p class="description blue_description">Має голосове управління для вводу запитів.м</p>
+                        <p class="description blue_description">Він немає зайвих кнопок. Пульт зручно тримати в руці, нереально загубити, не потрібно направляти в екран для перемикання каналів. Оснащений гіро мишкою.</p>
+                        <p class="description blue_description">При повороті на 90 градусів можна використовувати як геймпад. І саме приємне - пульт multicontrol remote не потребує батарейок, бо заряджається через звичний розʼєм Type-C.</p>
+                    </div>
+                </div>
+                    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/opt.img_9.webp?_t=1718191107" alt="">
+            </div>
+            <div class="remote_desctope">
+                <picture>
+                    <source media="(min-width:1024px )" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/6.svg?_t=1718195702">
+                    <source media="(min-width:666px )" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/6%20(1).svg?_t=1718195702">
+                    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/6%20(2).svg?_t=1718195701" alt="">
+                </picture>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/img_10.webp?_t=1718064803" alt="">
+        </div>
+
+        <div class="nft">
+            <div class="nft_titlt">
+                <p class="title">Галерея NFT мистецтва на екрані вашого телевізора</p>
+            </div>
+            <div class="nft_block">
+                <div class="nft_text">
+                    <p class="description">Цікавитесь сучасним мистецтвом та NFT творами? Тепер майже всі вони доступні на екрані вашого телевізора Gazer art edition E2. За допомогою додатка multiart відкрийте для себе безмежний світ цифрового мистецтва. Завантажуйте у власну колекцію NFT і картини відомих художників та використовуйте їх для заставки телевізора.</p>
+                </div>
+                <div class="nft_img">
+                    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/img_11.webp?_t=1718064804" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="last_but">
+            <div class="last_but_titlt">
+                <p class="title">Останнє, але не за значенням</p>
+            </div>
+            <div class="last_but_block">
+                <div class="last_but_text">
+                    <p class="description">Безрамковий екран гарантує повне занурення у кіно, реалістичні подорожі метавсесвітом та максимальне задоволення від споглядання цифрового мистецтва.
+                        <br><br>Операційна система Android TV 11 забезпечує швидкий <br> та стабільний доступ до всіх додатків Google Play Market.
+                        <br><br>Потужний звук та підтримка різних форматів.
+                        <br><br>Звук рівня Hi-Fi створює відчуття присутності, ніби ви не дивитеся, а знаходитеся прямо в епіцентрі подій у фільмі, на концерті чи на стадіоні під час спортивного матчу. 
+                        <br><br>Самі популярні застосунки Netflix, YouTube, Amazon вже встановлені на вашому телевізорі.
+                        </p>
+                </div>
+                <div class="last_but_img">
+                    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/img_12.webp?_t=1718064804" alt="">
+                </div>
+            </div>
+        </div>
+        <div style="background: #000;" class="last_but">
+            <div class="last_but_titlt">
+                <p style="color: #fff;" class="title">З телевізором Gazer METASMART <br> TV art edition E2 <br>
+                    вам завжди буде що подивитися!</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/733413/img_13.webp?_t=1718064804" alt="">
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

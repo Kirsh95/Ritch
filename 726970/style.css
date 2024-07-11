@@ -1,0 +1,793 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+  }
+  .razr_fourty img {
+    margin: 0;
+  }
+  .razr_fourty p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .razr_fourty h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .razr_fourty ul {
+    list-style: none;
+    margin: 0;
+  }
+  .razr_fourty ul li {
+    line-height: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 150%;
+    font-weight: 400;
+  }
+  .razr_fourty {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .razr_fourty ul {
+    padding: 0;
+  }
+  .razr_fourty ul li {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .razr_fourty div {
+    padding: 0;
+  }
+  div.razr_fourty {
+    padding: 0;
+  }
+  .razr_fourty br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+
+  .razr_fourty{
+    max-width: 1366px;
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
+
+  .razr_fourty img{
+    width: 100%;
+    display: block;
+  }
+
+  .razr_fourty .moto_razr{
+    display: grid;
+    gap: 24px;
+    padding: 24px 16px 0;
+  }
+
+  .razr_fourty .moto_razr .block_logo{
+    display: grid;
+    gap: 20px;
+  }
+  .razr_fourty .moto_razr .block_logo .logo_moto{
+    width: 188px;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width:666px) {
+     .razr_fourty .moto_razr{
+        grid-template-columns: 1fr 1fr;
+        padding: 0 0 0 40px;
+        gap: 45px;
+    }
+
+    .razr_fourty .moto_razr .block_logo{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        gap: 35px;
+        padding: 24px 40px 24px 0px;
+    }
+    .razr_fourty .moto_razr .left_img{
+        padding-left: 32px;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .razr_fourty p {
+        font-size: 18px;
+    }
+    .razr_fourty h3 {
+        font-size: 20px;
+    }
+    .razr_fourty .moto_razr{
+        padding: 0 0 0 60px;
+        gap: 61px;
+    }
+    .razr_fourty .moto_razr .block_logo{
+        gap: 35px;
+        padding: 32px 60px 32px 0px;
+    }
+    .razr_fourty .moto_razr .left_img{
+        padding-left: 48px;
+    }
+    .razr_fourty .moto_razr .block_logo .logo_moto{
+        width: 258px;
+    }
+  }
+
+  @media screen and (min-width:1366px) {
+    .razr_fourty p {
+        font-size: 20px;
+    }
+    .razr_fourty h3 {
+        font-size: 28px;
+    }
+     .razr_fourty .moto_razr{
+        padding: 0 0 0 60px;
+        gap: 94px;
+    }
+    .razr_fourty .moto_razr .block_logo{
+        gap: 35px;
+        padding: 40px 60px 40px 0px;
+    }
+    .razr_fourty .moto_razr .left_img{
+        padding-left: 48px;
+    }
+    .razr_fourty .moto_razr .block_logo .logo_moto{
+        width: 363px;
+    }
+  }
+
+  /* fits_ideally */
+
+    .razr_fourty .fits_ideally{
+        padding-top: 24px;
+        display: grid;
+        gap: 16px;
+    }
+    .razr_fourty .fits_ideally .fits_ideally_text{
+        padding: 0 16px;
+        text-align: center;
+        display: grid;
+        gap: 14px;
+    }
+    .razr_fourty .fits_ideally img{
+        border-radius: 0 0 12px 12px;
+    }
+
+  @media screen and (min-width:666px) {
+    .razr_fourty .fits_ideally{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 0;
+    }
+    .razr_fourty .fits_ideally img{
+        border-radius: 12px 0 0 12px;
+    }
+    .razr_fourty .fits_ideally .fits_ideally_text{
+        padding: 0 40px 0 45px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .razr_fourty .fits_ideally{
+        padding-top: 24px;
+    }
+    .razr_fourty .fits_ideally .fits_ideally_text{
+        padding: 0 60px 0 61px;
+        gap: 18px;
+    }
+  }
+
+  @media screen and (min-width:1366px) {
+    .razr_fourty .fits_ideally .fits_ideally_text{
+        padding: 0 60px 0 118px;
+        gap: 24px;
+    }
+  }
+  /* bet_and_die */
+
+
+   .razr_fourty .bet_and_die{
+        padding-top: 24px;
+        display: grid;
+        gap: 16px;
+    }
+    .razr_fourty .bet_and_die .bet_and_die_text{
+        padding: 0 16px;
+        text-align: center;
+        display: grid;
+        gap: 14px;
+    }
+    .razr_fourty .bet_and_die img{
+        border-radius: 0 0 12px 12px;
+    }
+
+    @media screen and (min-width:666px) {
+        .razr_fourty .bet_and_die{
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            gap: 0;
+        }
+        .razr_fourty .bet_and_die img{
+            border-radius: 0 12px 12px 0;
+        }
+        .razr_fourty .bet_and_die .bet_and_die_text{
+            padding: 0 45px 0 40px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .razr_fourty .bet_and_die .bet_and_die_text{
+            padding: 0 65px 0 60px;
+            gap: 18px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .razr_fourty .bet_and_die .bet_and_die_text{
+            padding: 0 118px 0 60px;
+            gap: 24px;
+        }
+    }
+
+
+    /* your_hand */
+
+
+    .razr_fourty .your_hand{
+        display: grid;
+        gap: 24px;
+        margin-top: 24px;
+        position: relative;
+    }
+    .razr_fourty .your_hand .your_hand_text{
+        padding: 0 16px;
+        text-align: center;
+    }
+    .razr_fourty .your_hand img{
+        border-radius: 0 0 12px 12px;
+    }
+
+    @media screen and (min-width:666px) {
+        .razr_fourty .your_hand .your_hand_text{
+            position: absolute;
+            bottom: 30px;
+            left: 40px;
+            padding: 0;
+        }
+        .razr_fourty .your_hand .your_hand_text h3{
+            color: #ffff;
+        }
+        .razr_fourty .your_hand{
+            display: block;
+        }
+        .razr_fourty .your_hand img{
+            border-radius: 12px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .razr_fourty .your_hand .your_hand_text{
+            bottom: 40px;
+            left: 60px;
+        }
+
+    }
+    @media screen and (min-width:1366px) {
+        .razr_fourty .your_hand .your_hand_text{
+            bottom: 60px;
+        }
+
+    }
+
+
+    /* reinterpreted */
+
+    .razr_fourty .reinterpreted{
+        display: grid;
+        margin-top: 24px;
+    }
+
+    .razr_fourty .reinterpreted .reinterpreted_block{
+        position: relative;
+        text-align: center;
+    }
+    .razr_fourty .reinterpreted .reinterpreted_block h3{
+        position: absolute;
+        bottom: 30px;
+        width: 100%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .razr_fourty .reinterpreted .reinterpreted_block .left_img{
+        border-radius: 12px 12px 0 0;
+    }
+   
+    .razr_fourty .reinterpreted .reinterpreted_block .rigth_img{
+        border-radius: 0 0 12px 12px;
+    }
+
+    @media screen and (min-width:666px) {
+        .razr_fourty .reinterpreted{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .razr_fourty .reinterpreted .reinterpreted_block .left_img{
+            border-radius: 12px 0 0 12px;
+        }
+       
+        .razr_fourty .reinterpreted .reinterpreted_block .rigth_img{
+            border-radius: 0 12px 12px 0;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .razr_fourty .reinterpreted .reinterpreted_block h3{
+            bottom: 40px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .razr_fourty .reinterpreted .reinterpreted_block h3{
+            bottom: 60px;
+        }
+    }
+
+
+    /* instant_access */
+
+    .razr_fourty .instant_access{
+        background: #EDE8DF;
+        margin-top: 24px;
+        text-align: center;
+        display: grid;
+        gap: 16px;
+        border-radius: 12px;
+    }
+    .razr_fourty .instant_access .instant_access_text{
+        padding: 0 16px 24px;
+        display: grid;
+        gap: 14px;
+
+    }
+    @media screen and (min-width:666px) {
+        .razr_fourty .instant_access{
+            gap: 20px;
+        }
+        .razr_fourty .instant_access .instant_access_text{
+            padding: 0 90px 24px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .razr_fourty .instant_access{
+            gap: 18px;
+        }
+        .razr_fourty .instant_access .instant_access_text{
+            padding: 0 120px 28px;
+            gap: 18px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .razr_fourty .instant_access{
+            gap: 24px;
+        }
+        .razr_fourty .instant_access .instant_access_text{
+            padding: 0 266px 40px;
+            gap: 24px;
+        }
+    }
+
+    /* whole_world */
+
+    .razr_fourty .whole_world{
+        display: grid;
+        padding: 45px 16px;
+        gap: 14px;
+        
+    }
+
+    .razr_fourty .whole_world .whole_world_img{
+        text-align: center;
+        display: grid;
+        gap: 14px;
+    }
+
+    .razr_fourty .whole_world .whole_world_text{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .razr_fourty .whole_world .whole_world_text .world_text_block{
+        display: grid;
+        gap: 14px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .razr_fourty .whole_world{
+            padding: 40px;
+        }
+        .razr_fourty .whole_world .whole_world_text{
+            gap: 14px 20px;
+        }
+        .razr_fourty .whole_world .whole_world_img{
+            padding: 0 110px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .razr_fourty .whole_world{
+            padding: 52px 60px;
+            gap: 18px;
+        }
+
+        .razr_fourty .whole_world p{
+            font-size: 16px;
+        }
+        .razr_fourty .whole_world .whole_world_text .world_text_block{
+            gap: 18px;
+        }
+        .razr_fourty .whole_world .whole_world_text{
+            gap: 24px;
+            grid-template-columns: repeat(4,1fr);
+
+        }
+        .razr_fourty .whole_world .whole_world_img{
+            padding: 0 147px;
+            gap: 18px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .razr_fourty .whole_world{
+            padding: 64px 60px;
+            gap: 24px;
+        }
+
+        .razr_fourty .whole_world p{
+            font-size: 20px;
+        }
+        .razr_fourty .whole_world .whole_world_text .world_text_block{
+            gap: 24px;
+        }
+        .razr_fourty .whole_world .whole_world_text{
+            gap: 24px;
+            grid-template-columns: repeat(4,1fr);
+
+        }
+        .razr_fourty .whole_world .whole_world_img{
+            padding: 0 212px;
+            gap: 24px;
+        }
+    }
+
+
+
+    /* perfect_smoothness */
+
+    .razr_fourty .perfect_smoothness{
+        background: #EDE8DF;
+        border-radius: 12px;
+        padding: 30px 16px;
+        text-align: center;
+        display: grid;
+        gap: 30px;
+
+    }
+    .razr_fourty .perfect_smoothness .perfect_smoothness_text{
+        display: grid;
+        gap: 14px;
+    }
+    .razr_fourty .perfect_smoothness .perfect_smoothness_img{
+        padding: 0 10px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .razr_fourty .perfect_smoothness{
+            padding: 30px 95px;    
+        }
+        .razr_fourty .perfect_smoothness .perfect_smoothness_img{
+            padding: 0 110px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .razr_fourty .perfect_smoothness{
+            padding: 42px 144px;    
+            gap: 42px;
+        }
+        .razr_fourty .perfect_smoothness .perfect_smoothness_img{
+            padding: 0 136px;
+        }
+        .razr_fourty .perfect_smoothness .perfect_smoothness_text{
+            gap: 18px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .razr_fourty .perfect_smoothness{
+            padding: 60px 275px;    
+        }
+        .razr_fourty .perfect_smoothness .perfect_smoothness_img{
+            padding: 0 102px;
+        }
+        .razr_fourty .perfect_smoothness .perfect_smoothness_text{
+            gap: 24px;
+        }
+
+    }
+
+
+    /* incredible_clarity */
+
+
+
+
+    .razr_fourty .incredible_clarity .incredible_clarity_text{
+        padding:24px 16px ;
+        display: grid;
+        gap: 14px;
+        text-align: center;
+    }
+
+    .razr_fourty .incredible_clarity img{
+        border-radius: 0 0 12px 12px;
+    }  
+
+    @media screen and (min-width:666px) {
+        .razr_fourty .incredible_clarity{
+            position: relative;
+            margin-top: 20px;
+        }
+        .razr_fourty .incredible_clarity img{
+            border-radius: 12px;
+        }   
+
+        .razr_fourty .incredible_clarity .incredible_clarity_text{
+            position: absolute;
+            background: #fff;
+            width: 315px;
+            padding: 14px;
+            bottom: 0;
+            right: 0;
+        }   
+    }
+
+    @media screen and (min-width:1024px) {
+        .razr_fourty .incredible_clarity{
+            position: relative;
+            margin-top: 24px;
+        } 
+
+        .razr_fourty .incredible_clarity .incredible_clarity_text{
+            width: 425px;
+            padding: 18px;
+            gap: 18px;
+        }   
+    }
+    @media screen and (min-width:1366px) {
+        .razr_fourty .incredible_clarity{
+            position: relative;
+            margin-top: 24px;
+        } 
+
+        .razr_fourty .incredible_clarity .incredible_clarity_text{
+            width: 565px;
+            gap: 24px;
+            padding: 24px;
+        }   
+    }
+
+
+    /* cameraphone */
+
+
+  .razr_fourty  .cameraphone{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 24px 0;
+    gap: 20px 0;
+  }
+
+  .razr_fourty  .cameraphone .cameraphone_block .cameraphone_text{
+    padding: 14px 14px 0;
+    text-align: center;
+  }
+  .razr_fourty .cameraphone .cameraphone_block:first-child img{
+    border-radius: 12px 0 0 0;
+  }
+  .razr_fourty .cameraphone .cameraphone_block:nth-child(2) img{
+    border-radius: 0px 12px 0 0;
+  }
+  .razr_fourty .cameraphone .cameraphone_block:nth-child(3) img{
+    border-radius: 12px 0 0 0;
+  }
+  .razr_fourty .cameraphone .cameraphone_block:last-child img{
+    border-radius: 0 12px 0 0;
+  }
+
+  @media screen and (min-width:666px) {
+    .razr_fourty  .cameraphone{
+        grid-template-columns: repeat(4,1fr);
+        padding: 20px 0;
+    }
+    .razr_fourty  .cameraphone .cameraphone_block .cameraphone_text{
+        padding: 14px 14px 0;
+        text-align: center;
+    }
+    .razr_fourty .cameraphone .cameraphone_block:first-child img{
+        border-radius: 12px 0 0 0;
+    }
+    .razr_fourty .cameraphone .cameraphone_block:nth-child(2) img{
+        border-radius: 0;
+    }
+    .razr_fourty .cameraphone .cameraphone_block:nth-child(3) img{
+        border-radius: 0;
+    }
+    .razr_fourty .cameraphone .cameraphone_block:last-child img{
+        border-radius: 0 12px 0 0;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .razr_fourty  .cameraphone{
+        padding: 24px 0;
+    }
+    .razr_fourty  .cameraphone p{
+        font-size: 16px;
+    }
+    .razr_fourty  .cameraphone .cameraphone_block .cameraphone_text{
+        padding: 18px 18px 0;
+    } 
+  }
+
+  @media screen and (min-width:1366px) {
+    .razr_fourty  .cameraphone{
+        padding: 24px 0 40px;
+    }
+    .razr_fourty  .cameraphone p{
+        font-size: 20px;
+    }
+    .razr_fourty  .cameraphone .cameraphone_block .cameraphone_text{
+        padding: 24px 24px 0;
+    } 
+  }
+
+
+  /* battery_life */
+
+
+    .razr_fourty .battery_life{
+        background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.image%20322.webp?_t=1697093916");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30px 16px;
+        border-radius: 12px;
+        display: grid;
+        gap: 16px;
+    }
+    .razr_fourty .battery_life .battery_life_text{
+        text-align: center;
+        display: grid;
+        gap: 14px;
+    }
+    .razr_fourty .battery_life .battery_life_text .battery_logo{
+        width: 30px;
+        margin: 0 auto;
+    }
+
+  @media screen and (min-width:666px) {
+    .razr_fourty .battery_life{
+        grid-template-columns: repeat(2,1fr);
+
+        gap: 0;
+        padding: 30px 40px;
+        align-items: center;
+    }
+    .razr_fourty .battery_life .battery_life_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        padding-left: 75px;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .razr_fourty .battery_life{
+        padding: 42px 60px;
+    }
+    .razr_fourty .battery_life .battery_life_text{
+        padding-left: 97px;
+        gap: 18px;
+    }
+    .razr_fourty .battery_life .battery_life_text .battery_logo{
+        width: 42px;
+    }
+  }
+
+  @media screen and (min-width:1366px) {
+    .razr_fourty .battery_life{
+        padding: 60px;
+    }
+    .razr_fourty .battery_life .battery_life_text{
+        padding-left: 130px;
+        gap: 24px;
+    }
+    .razr_fourty .battery_life .battery_life_text .battery_logo{
+        width: 60px;
+    }
+  }
+
+    /* foonter */
+    .razr_fourty .foonter{
+        padding: 32px 16px 40px;
+        display: grid;
+        gap: 20px;
+        }
+    .razr_fourty .foonter p{
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.80);;
+    }
+      .razr_fourty .foonter .foonter_text{
+        display: grid;
+        gap: 20px;
+      }
+      @media screen and (min-width:666px) {
+        .razr_fourty .foonter{
+          padding: 32px 40px 44px;
+        }
+        /* .razr_fourty .foonter .foonter_text{
+          padding: 0 21px;
+        } */
+        .razr_fourty .foonter p{
+            font-size: 12px;
+        }
+      }
+      @media screen and (min-width:1024px) {
+        .razr_fourty .foonter{
+          padding: 48px 60px 60px;
+          gap: 28px;
+        }
+        .razr_fourty .foonter .foonter_text{
+          gap: 28px;
+        }
+        .razr_fourty .foonter p{
+            font-size: 14px;
+        }
+      }
+      @media screen and (min-width:1366px) {
+        .razr_fourty .foonter{
+          padding: 60px 142px 80px;
+          gap: 40px;
+        }
+        .razr_fourty .foonter .foonter_text{
+          padding: 0 25px;
+          gap: 40px;
+        }
+        .razr_fourty .foonter_text p{
+          font-size: 14px;
+        }
+        .razr_fourty ul li {
+          font-size: 14px;
+        }
+      }

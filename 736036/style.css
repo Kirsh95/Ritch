@@ -1,0 +1,562 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .galaxy_tab img {
+      margin: 0;
+    }
+    .galaxy_tab p {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .galaxy_tab .notes_text{
+        font-size: 12px;
+    }
+    .galaxy_tab h3 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .galaxy_tab h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .galaxy_tab ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .galaxy_tab ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .galaxy_tab {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .galaxy_tab ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .galaxy_tab ul li {
+      padding: 0;
+    }
+    .galaxy_tab div {
+      padding: 0;
+    }
+    div.galaxy_tab {
+      padding: 0;
+    }
+    .galaxy_tab br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .galaxy_tab{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .galaxy_tab img{
+      width: 100%;
+      display: block;
+    }
+
+
+    .galaxy_tab .tab_img{
+        padding: 40px 24px 28px;
+        width: 272px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .galaxy_tab .tab_notes{
+        padding: 28px 16px 0;
+        text-align: center;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .galaxy_tab .tab_img{
+            padding: 60px 175px 40px;
+            width: 370px;
+        }
+
+        .galaxy_tab .tab_notes{
+            padding: 40px 104px 0;
+            text-align: center;
+        }
+
+        .galaxy_tab p {
+            font-size: 16px;
+        }
+
+        .galaxy_tab h3 {
+            font-size:24px;
+            margin-bottom: 16px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+
+        .galaxy_tab .tab_img{
+            padding: 60px 245px 40px;
+            width: 485px;
+        }
+
+        .galaxy_tab .tab_notes{
+            padding: 40px 88px 0;
+            text-align: center;
+        }
+        .galaxy_tab p {
+            font-size: 18px;
+            line-height: 150%;
+        }
+       
+        .galaxy_tab h3 {
+            font-size: 30px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+
+        .galaxy_tab .tab_img{
+            padding: 80px 296px 40px;
+            width: 485px;
+        }
+
+        .galaxy_tab .tab_notes{
+            padding: 40px 283px 0;
+            text-align: center;
+        } 
+          .galaxy_tab .notes_text{
+            font-size: 14px;
+        }
+
+        .galaxy_tab p {
+            font-size: 22px;
+        }
+
+        .galaxy_tab h3 {
+            font-size: 42px;
+            margin-bottom: 24px;
+        }
+    }
+
+
+.galaxy_tab .classic_and_modern .classic_and_modern_text{
+    text-align: center;
+    padding: 40px 16px;
+}
+
+.galaxy_tab .classic_and_modern .classic_and_modern_notes{
+    padding: 40px 15px;
+    text-align: center;
+}
+
+@media screen and (min-width:666px) {
+    .galaxy_tab .classic_and_modern .classic_and_modern_text{
+        padding: 40px 66px;
+    }
+    .galaxy_tab .classic_and_modern .classic_and_modern_notes{
+        padding: 40px 104px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .galaxy_tab .classic_and_modern .classic_and_modern_text{
+        padding: 60px 88px 40px;
+    }
+    .galaxy_tab .classic_and_modern .classic_and_modern_notes{
+        padding: 40px 88px 60px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .galaxy_tab .classic_and_modern .classic_and_modern_text{
+        padding: 60px 283px 40px;
+    }
+    .galaxy_tab .classic_and_modern .classic_and_modern_notes{
+        padding: 40px 283px 60px;
+    }
+}
+
+
+.galaxy_tab .bright_reflection{
+    text-align: center;
+}
+
+.galaxy_tab .bright_reflection .bright_reflection_text{
+    padding: 0 16px 40px;
+}
+
+.galaxy_tab .bright_reflection .bright_reflection_notes{
+    padding: 40px 16px 0;
+}
+
+
+@media screen and (min-width:666px) {
+    .galaxy_tab .bright_reflection .bright_reflection_text{
+        padding: 40px 66px;
+    }
+    
+    .galaxy_tab .bright_reflection .bright_reflection_notes{
+        padding: 40px 104px;
+    }
+    .galaxy_tab .bright_reflection .bright_reflection_text h3{
+        padding: 0 83px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .galaxy_tab .bright_reflection .bright_reflection_text{
+        padding: 60px 75px 40px;
+    }
+    
+    .galaxy_tab .bright_reflection .bright_reflection_notes{
+        padding: 40px 88px 60px;
+    }
+    .galaxy_tab .bright_reflection .bright_reflection_text h3{
+        padding: 0px;
+    }
+    .galaxy_tab .bright_reflection .bright_reflection_text p{
+        padding: 0 12.5px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .galaxy_tab .bright_reflection .bright_reflection_text{
+        padding: 60px 283px 40px;
+    }
+    
+    .galaxy_tab .bright_reflection .bright_reflection_notes{
+        padding: 40px 214px 60px;
+    }
+    .galaxy_tab .bright_reflection .bright_reflection_text h3{
+        padding: 0px;
+    }
+    .galaxy_tab .bright_reflection .bright_reflection_text p{
+        padding: 0px;
+    }
+}
+
+
+.galaxy_tab .you_like .you_like_text{
+    padding: 40px 16px 24px;
+    text-align: center;
+}
+.galaxy_tab .you_like .you_like_notes{
+    padding:0 16px;
+    text-align: center;
+}
+
+
+@media screen and (min-width:666px) {
+    .galaxy_tab .you_like .you_like_text{
+        padding: 40px 66px 0;
+    }
+    .galaxy_tab .you_like .you_like_notes{
+        padding: 0 104px 40px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .galaxy_tab .you_like .you_like_text{
+        padding: 60px 88px 0;
+    }
+    .galaxy_tab .you_like .you_like_notes{
+        padding: 0 88px 60px;
+    }
+}
+@media screen and (min-width:1366px) {
+    .galaxy_tab .you_like .you_like_text{
+        padding: 60px 283px 0;
+    }
+    .galaxy_tab .you_like .you_like_notes{
+        padding: 0 283px 60px;
+    }
+}
+
+
+/* increase_productivity */
+
+.galaxy_tab .increase_productivity{
+    display: grid;
+   
+}
+
+.galaxy_tab .increase_productivity .increase_productivity_text{
+    padding:40px 16px;
+}
+
+.galaxy_tab .increase_productivity .increase_productivity_notes{
+    margin-top: 14px;
+}
+
+
+@media screen and (min-width:666px) {
+    .galaxy_tab .increase_productivity{
+        grid-template-columns: repeat(2,1fr);
+        padding: 40px 0;
+        align-items: center;
+    }
+    .galaxy_tab .increase_productivity .increase_productivity_text{
+        padding: 0 20px 0 24px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+    .galaxy_tab .increase_productivity .increase_productivity_notes{
+        margin-top: 16px;
+    } 
+}
+@media screen and (min-width:1024px) {
+    .galaxy_tab .increase_productivity{
+        padding:0;
+    }
+    .galaxy_tab .increase_productivity .increase_productivity_text{
+        padding: 0 30px 0 40px;
+    }
+    .galaxy_tab .increase_productivity .increase_productivity_notes{
+        margin-top: 16px;
+    } 
+}
+@media screen and (min-width:1366px) {
+    .galaxy_tab .increase_productivity{
+        padding:0;
+    }
+    .galaxy_tab .increase_productivity .increase_productivity_text{
+        padding: 0 55px 0 40px;
+    }
+    .galaxy_tab .increase_productivity .increase_productivity_notes{
+        margin-top: 24px;
+    } 
+}
+
+
+.galaxy_tab .rich_sound{
+    text-align: center;
+}
+.galaxy_tab .rich_sound .rich_sound_text{
+    padding: 40px 16px 24px;
+}
+.galaxy_tab .rich_sound .rich_sound_notes{
+    padding: 24px 16px 0;
+}
+
+@media screen and (min-width:666px) {
+    .galaxy_tab .rich_sound .rich_sound_text{
+        padding: 40px 66px 0px;
+    }
+    .galaxy_tab .rich_sound .rich_sound_notes{
+        padding: 0px 104px 40px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .galaxy_tab .rich_sound .rich_sound_text{
+        padding: 60px 86px 0px;
+    }
+    .galaxy_tab .rich_sound .rich_sound_notes{
+        padding: 0px 88px 60px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .galaxy_tab .rich_sound .rich_sound_text{
+        padding: 60px 283px 0px;
+    }
+    .galaxy_tab .rich_sound .rich_sound_notes{
+        padding: 0px 280px 60px;
+    }
+}
+
+
+
+.galaxy_tab .peace_mind{
+ text-align: center;
+}
+
+.galaxy_tab .peace_mind .peace_mind_text{
+ padding: 40px 16px;
+}
+.galaxy_tab .peace_mind .peace_mind_notes{
+ padding: 40px 16px 0;
+}
+
+@media screen and (min-width:666px) {
+    .galaxy_tab .peace_mind .peace_mind_text{
+        padding: 40px 66px;
+       }
+       .galaxy_tab .peace_mind .peace_mind_notes{
+        padding: 40px 104px;
+       }
+}
+@media screen and (min-width:1024px) {
+    .galaxy_tab .peace_mind .peace_mind_text{
+        padding: 60px 88px 40px;
+       }
+       .galaxy_tab .peace_mind .peace_mind_notes{
+        padding: 40px 88px 60px;
+       }
+}
+@media screen and (min-width:1366px) {
+    .galaxy_tab .peace_mind .peace_mind_text{
+        padding: 60px 283px 40px;
+       }
+       .galaxy_tab .peace_mind .peace_mind_notes{
+        padding: 40px 283px 60px;
+       }
+}
+
+
+.galaxy_tab .quick_share{
+    padding: 40px 16px 0 ;
+    display: grid;
+    gap: 40px;
+    text-align: center;
+}
+@media screen and (min-width:666px) {
+    .galaxy_tab .quick_share{
+        padding: 40px 66px ;
+    }
+    .galaxy_tab .quick_share .quick_share_img{
+        padding: 0 23px;
+    }
+    .galaxy_tab .quick_share .quick_share_notes{
+        padding: 0 38px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .galaxy_tab .quick_share{
+        padding: 60px 88px ;
+    }
+    .galaxy_tab .quick_share .quick_share_img{
+        padding: 0 29px;
+    }
+    .galaxy_tab .quick_share .quick_share_notes{
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .galaxy_tab .quick_share{
+        padding: 60px 182px ;
+    }
+    .galaxy_tab .quick_share .quick_share_img{
+        padding: 0px;
+    }
+    .galaxy_tab .quick_share .quick_share_text{
+        padding: 0px 101px;
+    }
+    .galaxy_tab .quick_share .quick_share_notes{
+        padding: 0 99px;
+    }
+}
+
+
+/* univers_block_tab */
+
+
+.galaxy_tab .univers_block_tab{
+    padding: 40px 16px 0;
+    text-align: center;
+    display: grid;
+    gap: 40px;
+}
+.galaxy_tab .univers_block_tab .title_text{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    
+}
+.galaxy_tab .univers_block_tab:last-child{
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width:666px) {
+
+    .galaxy_tab .univers_block_tab{
+        padding: 40px 66px;
+        gap: 40px;
+    }
+    .galaxy_tab .univers_block_tab .title_text{
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    .galaxy_tab .univers_block_tab .univers_block_img{
+        padding: 0 23px;
+    }
+    .galaxy_tab .univers_block_tab .univers_block_notes{
+        padding: 0 15px;
+    }
+    .galaxy_tab .univers_block_tab:last-child{
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    .galaxy_tab .univers_block_tab{
+        padding: 60px 88px;
+        gap: 40px;
+    }
+    .galaxy_tab .univers_block_tab .title_text{
+        font-size: 22px;
+    }
+    .galaxy_tab .univers_block_tab .univers_block_img{
+        padding: 0 29px;
+    }
+    .galaxy_tab .univers_block_tab .univers_block_notes{
+        padding: 0;
+    }
+
+}
+
+@media screen and (min-width:1366px) {
+
+    .galaxy_tab .univers_block_tab{
+        padding: 60px 182px;
+        gap: 40px;
+    }
+    .galaxy_tab .univers_block_tab .title_text{
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+    .galaxy_tab .univers_block_tab .univers_block_img{
+        padding: 0px;
+    }
+    .galaxy_tab .univers_block_tab .univers_block_text{
+        padding:0 99px;
+    }
+    .galaxy_tab .univers_block_tab .univers_block_notes{
+        padding: 0 101px;
+    }
+    .galaxy_tab .univers_block_tab:last-child{
+        padding-bottom: 60px;
+    }
+}

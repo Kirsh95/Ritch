@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    .product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .philips img {
+      margin: 0;
+    }
+    .philips .description {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .philips .title {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .philips h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .philips ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .philips ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .philips {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .philips ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .philips ul li {
+      padding: 0;
+    }
+    .philips div {
+      padding: 0;
+    }
+    div.philips {
+      padding: 0;
+    }
+    .philips br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .philips{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .philips img{
+      width: 100%;
+      display: block;
+    }
+
+
+    .philips .XU7100{
+        position: relative;
+    }
+    .philips .XU7100 .description{
+        font-size: 11px;
+    }
+
+    .philips .XU7100 .XU7100_text{
+        display: grid;
+        position: absolute;
+        left: 16px;
+        bottom: 16px;
+    }
+
+    .philips .XU7100 .title{
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+
+
+    @media screen and (min-width:666px) {
+        /* body{
+            padding: 0 24px;
+        }
+     */
+        .philips .XU7100 .description{
+            font-size: 12px;
+        }
+        .philips .XU7100 .title{
+            font-size: 38px;
+        }
+
+        .philips .XU7100 .XU7100_text{
+            left: 32px;
+            bottom: 60px;
+        }
+        
+    }
+
+    @media screen and (min-width:1024px) {
+        .philips .XU7100 .description{
+            font-size: 24px;
+        }
+        .philips .XU7100 .title{
+            font-size: 52px;
+            margin-bottom: 32px;
+        }
+
+        .philips .XU7100 .XU7100_text{
+            left: 40px;
+            bottom: 60px;
+        }  
+    }
+
+    @media screen and (min-width:1366px) {
+        .philips .XU7100 .description{
+            font-size: 24px;
+        }
+        .philips .XU7100 .title{
+            font-size: 86px;
+            margin-bottom: 32px;
+        }
+
+        .philips .XU7100 .XU7100_text{
+            left: 60px;
+            bottom: 80px;
+        }  
+    }
+
+    /* main_features */
+
+    .philips .main_features .title{
+        padding: 24px 0;
+        text-align: center;
+
+    }
+    .philips .main_features .main_features_item{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 26px auto;
+        gap: 7px;
+    }
+    .philips .main_features .main_features_text{
+        padding: 24px;
+        display: grid;
+        gap: 6px;
+    }
+    .philips .main_features .description{
+        font-weight: 700;
+    }
+
+    @media screen and (min-width:666px) {
+        .philips .title{
+            font-size: 24px;
+        }
+        .philips .description{
+            font-size: 16px;
+        }
+        .philips .main_features .main_features_block{
+            position: relative;
+        }
+        .philips .main_features .main_features_item{
+            display: grid;
+            align-items: center;
+            grid-template-columns: 52px auto;
+            gap: 10px;
+        }
+        .philips .main_features .main_features_text{
+            padding: 0;
+            left: 32px;
+            gap: 24px;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+        }
+        .philips .main_features .description{
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .philips .title{
+            font-size: 32px;
+        }
+        .philips .description{
+            font-size: 32px;
+        }
+
+        .philips .main_features .main_features_item{
+            grid-template-columns: 71px auto;
+            gap: 16px;
+        }
+        .philips .main_features .main_features_text{
+            left: 40px;
+            gap: 32px;
+        }
+        .philips .main_features .description{
+            font-size: 24px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .philips .title{
+            font-size: 46px;
+        }
+        .philips .main_features .title{
+            padding: 32px 0;    
+        }
+
+        .philips .main_features .main_features_item{
+            grid-template-columns: 112px auto;
+            gap: 24px;
+        }
+        .philips .main_features .main_features_text{
+            left: 60px;
+            gap: 32px;
+        }
+        .philips .main_features .description{
+            font-size: 28px;
+        }
+    }
+
+
+    .philips .philips_block{
+        text-align: center;
+    }
+    .philips .philips_block .philips_block_text{
+         padding:24px 16px;
+    }
+    @media screen and (min-width:666px) {
+        .philips .philips_block .philips_block_text{
+            padding:24px 10px;
+       }
+
+    }
+    @media screen and (min-width:1024px) {
+        .philips .philips_block .philips_block_text{
+            padding:24px 16px;
+       }
+    }
+    @media screen and (min-width:1366px) {
+        .philips .philips_block .philips_block_text{
+            padding:32px 24px;
+       }
+    }
+
+    /* сomparison_table */
+
+    .philips .сomparison_table{
+        display: none;
+    }
+
+    @media screen and (min-width:666px) {
+    .philips .сomparison_table{
+        display: grid;
+        align-items: stretch;
+        grid-template-columns:1fr repeat(3,1.5fr);
+        grid-template-areas: 
+        "item_1 item_2 item_3 item_4"
+        "item_5 item_6 item_7 item_8"
+        "item_9 item_10 item_11 item_11"
+        "item_12 item_13 item_14 item_14"
+        "item_15 item_16 item_16 item_16"
+        "item_17 item_18 item_18 item_19"
+        "item_20 item_21 item_22 item_22"
+        "item_23 item_24 item_25 item_25"
+        "item_26 item_27 item_28 item_28"
+        "item_29 item_30 item_31 item_31"
+        "item_32 item_33 item_34 item_34";
+        text-align: center;
+    }
+    .philips .сomparison_table .item_tablet_img{
+        width: 50px;
+        margin: 0 auto;
+    }
+
+    .philips .сomparison_table .description{
+        color: #fff;
+    }
+    .philips .сomparison_table .black_description{
+        color: #000000;
+    }
+
+
+    .philips .сomparison_table .item_tablet{
+        display: grid;
+        align-items: center;
+        padding: 8px 10px;
+    }
+
+    .philips .сomparison_table .blue_block{
+        background-color:#0A7896;
+    }
+    .philips .сomparison_table .azure_block{
+        background-color:#3992AA;
+    }
+
+    .philips .сomparison_table .item_tablet:first-child{
+        grid-area: item_2;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(2){
+        grid-area: item_3;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(3){
+        grid-area: item_4;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(4){
+        grid-area: item_6;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(5){
+        grid-area: item_7;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(6){
+        grid-area: item_8;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(7){
+        grid-area: item_9;
+        border-bottom: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(8){
+        grid-area: item_10;
+        border-left: #fff 2px solid;
+        border-right: #fff 2px solid;
+        border-bottom: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(9){
+        grid-area: item_11;
+        border-bottom: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(10){
+        grid-area: item_12;
+        border-bottom: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(11){
+        grid-area: item_13;
+        border-left: #fff 2px solid;
+        border-right: #fff 2px solid;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(12){
+        grid-area: item_14;
+        border-bottom: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(13){
+        grid-area: item_15;
+        border-bottom: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(14){
+        grid-area: item_16;
+        border-left: #fff 2px solid;
+        border-bottom: #fff 2px solid
+    }
+    .philips .сomparison_table .item_tablet:nth-child(15){
+        grid-area: item_17;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(16){
+        grid-area: item_18;
+        border-left: #fff 2px solid;
+        border-right: #fff 2px solid;
+        border-bottom: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(17){
+        grid-area: item_19;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(18){
+        grid-area: item_20;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(19){
+        grid-area: item_21;
+        border-left: #fff 2px solid;
+        border-right: #fff 2px solid;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(20){
+        grid-area: item_22;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(18){
+        grid-area: item_23;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(19){
+        grid-area: item_24;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(20){
+        grid-area: item_25;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(21){
+        grid-area: item_26;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(22){
+        grid-area: item_27;
+        border-left: #fff 2px solid;
+        border-right: #fff 2px solid;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(23){
+        grid-area: item_28;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(24){
+        grid-area: item_29;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(25){
+        grid-area: item_30;
+        border-left: #fff 2px solid;
+        border-right: #fff 2px solid;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(26){
+        grid-area: item_31;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(27){
+        grid-area: item_32;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(28){
+        grid-area: item_33;
+        border-left: #fff 2px solid;
+        border-right: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(29){
+        grid-area: item_34;
+    }
+    
+
+}
+
+@media screen and (min-width:1024px) {
+    .philips .сomparison_table .item_tablet{
+        padding: 12px 20px;
+    }
+
+    .philips .сomparison_table .item_tablet .description{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .philips .сomparison_table .item_tablet{
+        padding: 20px 25px;
+    }
+
+    .philips .сomparison_table .item_tablet .description{
+        font-size: 20px;
+    }
+}
+
+</style>
+    <div class="philips">
+        <div class="XU7100">
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.PIU_01.webp?_t=1718408858" alt="">
+            <div class="XU7100_text">
+                <p style="color: #fff;" class="title">
+                    Ретельне <br> <b>сухе та вологе <br> прибирання <br></b> без зусиль
+                </p>
+                <p style="color: #fff;" class="description">Мийний робот-пилосос Philips серії 7000 <br> XU7100/01</p>
+            </div>
+        </div>
+        <!--  -->
+        <div class="main_features">
+            <p class="title" style="margin-bottom:0;">
+                Основні особливості
+            </p>
+            <div class="main_features_block">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.01.webp?_t=1718412512" alt="">
+                <div class="main_features_text">
+                    <div class="main_features_item">
+                        <picture>
+                            <source media="(min-width:666px)" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/Group%20911.svg?_t=1718409320">
+                            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/Group%20902.svg?_t=1718411426" alt="">
+                        </picture>
+                        <p class="description">Пилососить і миє одним рухом</p>
+                    </div>
+                    <div class="main_features_item">
+                        <picture>
+                            <source media="(min-width:666px)" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/Group%20910.svg?_t=1718409320">
+                            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/Group%20903.svg?_t=1718411426" alt="">
+                        </picture>
+                        <p class="description">Висока потужність</p>
+                    </div>
+                    <div class="main_features_item">
+                        <picture>
+                            <source media="(min-width:666px)" srcset=https://i.citrus.world/uploads/content/product-photos/kirsh/739573/Group%20912.svg?_t=1718413992">
+                            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/Group%20904.svg?_t=1718411426" alt="">
+                        </picture>
+                        <p class="description">Виявлення найменших перешкод</p>
+                    </div>
+                    <div class="main_features_item">
+                        <picture>
+                            <source media="(min-width:666px)" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/Group%20908.svg?_t=1718409320">
+                            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/Group%20904-1.svg?_t=1718411426" alt="">
+                        </picture>
+                        <p class="description"> 5 режимів прибирання</p>
+                    </div>
+                    <div class="main_features_item">
+                        <picture>
+                            <source media="(min-width:666px)" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/Group%20907.svg?_t=1718409320">
+                            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/Group%20905.svg?_t=1718411425" alt="">
+                        </picture>
+                        <p class="description"> Персоналізація прибирання <br>із застосунком Philips HomeRun</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="philips_block">
+            <div class="philips_block_text">
+                <p class="title">Надзвичайно висока потужність</p>
+                <p class="description">Потужність 5000 Па може підхоплювати велике сміття, таке як крихти або шерсть домашніх тварин. Залежно від ваших потреб можна обрати необхідний рівень потужності: екорежим, звичайний, високий, максимальний.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.img%203.webp?_t=1718368323" alt="">
+        </div>
+        <!--  -->
+        <div class="philips_block">
+            <div class="philips_block_text">
+                <p class="title">5 режимів прибирання</p>
+                <p class="description">Сухе та вологе прибирання, Сухе, Інтенсивний, Тихий, Індивідуальний.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.img%204.webp?_t=1718368324" alt="">
+        </div>
+        <!--  -->
+        <div class="philips_block">
+            <div class="philips_block_text">
+                <p class="title">Система вологого прибирання</p>
+                <p class="description">Оснащена резервуаром для води з електронним регулюванням вологості мийної насадки, і дозволяє обрати різні рівні вологості в залежності від типу підлоги.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.img%205.webp?_t=1718368324" alt="">
+        </div>
+        <!--  -->
+        <div class="philips_block">
+            <div class="philips_block_text">
+                <p class="title">Технологія динамічного миття</p>
+                <p class="description">Ефективно впорається з будь-яким брудом, завдяки вібраційній насадці для вологого прибирання, яка здійснює до 430 рухів за хв.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.img%206.webp?_t=1718368324" alt="">
+        </div>
+        <!--  -->
+        <div class="philips_block">
+            <div class="philips_block_text">
+                <p class="title">Максимальне охоплення вашої підлоги</p>
+                <p class="description">Завдяки лазерній навігації на 360° (LiDAR) робот-пилосос не пропустить жодого куточка.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.img%207.webp?_t=1718368324" alt="">
+        </div>
+        <!--  -->
+        <div class="philips_block">
+            <div class="philips_block_text">
+                <p class="title">Просунута система виявлення найменших перешкод (від 2см х 2см)</p>
+                <p class="description">Робот-пилосос оснащений сучасним 3D-датчик TOF  та ще 8-ма датчиками TOF, які виявляють дрібні предмети на шляху, наприклад взуття чи іграшки, і прибирає навколо них, не застрягаючи, навіть за умов поганого освітлення.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.img%208.webp?_t=1718368324" alt="">
+        </div>
+        <!--  -->
+        <div class="philips_block">
+            <div class="philips_block_text">
+                <p class="title">До 30 днів без клопоту очистки зі станцією самоочистки</p>
+                <p class="description">Робот автоматично вивантажує бруд на станції самоочистки за допомогою технології Philips Dual Wave™. Станція містить 3,0-літровий одноразовий антиалергенний мішок, який можна легко утилізувати без хмари пилу — це ідеальне рішення для астматиків та алергіків.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.img%209.webp?_t=1718368325" alt="">
+        </div>
+        <!--  -->
+        <div class="philips_block">
+            <div class="philips_block_text">
+                <p class="title">Довготривалий час роботи</p>
+                <p class="description">Ефективно прибирає до 180 хвилин від одного заряду батареї, що дозволяє прибрати до 185м2.*</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.img%2010.webp?_t=1718368325" alt="">
+        </div>
+        <!--  -->
+        <div class="philips_block">
+            <div class="philips_block_text">
+                <p class="title">Легке та зрозуміле керування із застосунком Philips HomeRun</p>
+                <p class="description">Точна карта будинку <br>
+                    Лазерна навігація на 360° (LiDAR) сканує приміщення та швидко створює точну інтерактивну карту.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.img%2011.webp?_t=1718368325" alt="">
+        </div>
+        <!--  -->
+        <div class="philips_block">
+            <div class="philips_block_text">
+                <p class="description">Індивідуальний план прибирання</p>
+                <p class="description">Створіть свій план прибирання відповідно до ваших потреб в декілька дотиків.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.img%2012.webp?_t=1718368325" alt="">
+        </div>
+        <!--  -->
+        <div class="philips_block">
+            <div class="philips_block_text">
+                <p class="description">Зберігайте до 5 карт</p>
+                <p class="description">СМожливість прибирання на різних поверхах – створіть і зберігайте до 5 детальних карт ваших зон прибирання.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.img%2013.webp?_t=1718368325" alt="">
+        </div>
+        <!--  -->
+        <div class="philips_block">
+            <div class="philips_block_text">
+                <p class="description">Обмежені зони для прибирання:</p>
+                <p class="description">Віртуальна стіна, Непрохідна зона, Зона без вологого прибирання, Зона без подолання порогів, Зона делікатного прибирання.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.img%2014.webp?_t=1718368325" alt="">
+        </div>
+        <!--  -->
+        <div class="philips_block">
+            <div class="philips_block_text">
+                <p class="description">Детальні іструкції за потреби:</p>
+                <p class="description">- відеоуроки з покроковими інструкціями;<br>
+                    -відповіді на запитання;<br>
+                    -технічна підтримка.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.img%2015.webp?_t=1718368325" alt="">
+        </div>
+        <!--  -->
+        <div class="philips_video philips_block">
+            <div class="philips_block_text">
+            <p style="margin-bottom: 0;" class="title">Погляньте як це працює</p>
+            </div>
+            <video loop autoplay muted width="100%" height="auto" src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/noviy-miyniy-robot-pilosos-philips-xu710001.mp4?_t=1718415719"></video>
+        </div>
+        <div class="philips_block">
+            <div class="philips_block_text">
+               <p style="margin-bottom: 0;" class="title">Таблиця порівняння</p>
+            </div>
+        </div>
+        <!--  -->
+        <div class="сomparison_table">
+            <div class="item_tablet">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.Property%201%3D1.webp?_t=1718435722" alt="">
+            </div>
+            <!--  -->
+            <div class="item_tablet">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.Property%201%3D2.webp?_t=1718435722" alt="">
+            </div>
+            <!--  -->
+            <div class="item_tablet">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/opt.Property%201%3D3.webp?_t=1718435722" alt="">
+            </div>
+            <!--  -->
+            <div class="item_tablet">
+                <p class="description black_description">XU7100/01</p> 
+            </div>
+            <!--  -->
+            <div class="item_tablet">
+                <p class="description black_description">XU3110/02</p> 
+            </div>
+            <!--  -->
+            <div class="item_tablet">
+                <p class="description black_description">XU3000/01</p> 
+            </div>
+            <!--  -->
+            <div class="item_tablet blue_block">
+                <p class="description ">Потужність, Пa</p> 
+            </div>
+            <!--  -->
+            <div class="item_tablet blue_block">
+                <p class="description ">5000</p> 
+            </div>
+            <!--  -->
+            <div class="item_tablet azure_block">
+                <p class="description ">4000</p> 
+            </div>
+            <!--  -->
+            <div class="item_tablet blue_block">
+                <p class="description ">Просунута
+                    система
+                    виявлення
+                    перешкод </p> 
+            </div>
+            <!--  -->
+            <div class="item_tablet blue_block">
+                <img class="item_tablet_img" src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/Frame%2059549.svg?_t=1718436065" alt="">
+            </div>
+            <!--  -->
+            <div class="item_tablet azure_block">
+                <p class="description">-</p> 
+            </div>
+            <!--  -->
+
+            <div class="item_tablet blue_block">
+                <p class="description">360° (LiDAR) лазерна навігація</p>
+            </div>
+            <!--  -->
+            <div class="item_tablet blue_block">
+                <img class="item_tablet_img" src="https://i.citrus.world/uploads/content/product-photos/kirsh/739573/Frame%2059549.svg?_t=1718436065" alt="">
+            </div>
+            <!--  -->
+            <div class="item_tablet blue_block">
+                <p class="description">Станція самоочистки</p>
+            </div>
+            <!--  -->
+            <div class="item_tablet blue_block">
+                <p class="description">30 днів без клопоту очистки</p>
+            </div>
+            <!--  -->
+            <div class="item_tablet azure_block">
+                <p class="description">–</p>
+            </div>
+            <!--  -->
+
+            <div class="item_tablet blue_block">
+                <p class="description">Ємність батереї, мАгод</p>
+            </div>
+            <!--  -->
+            <div class="item_tablet blue_block">
+                <p class="description">5200</p>
+            </div>
+            <!--  -->
+            <div class="item_tablet azure_block">
+                <p class="description">4800</p>
+            </div>
+            <!--  -->
+            <div class="item_tablet blue_block">
+                <p class="description">Вологе прибирання</p>
+            </div>
+            <!--  -->
+            <div class="item_tablet blue_block">
+                <p class="description">Динамічне, 430 рухів за хв</p>
+            </div>
+            <!--  -->
+            <div class="item_tablet azure_block">
+                <p class="description">Cтатичне</p>
+            </div>
+            <!--  -->
+            <div class="item_tablet blue_block">
+                <p class="description">Час роботи без підзарядки</p>
+            </div>
+            <!--  -->
+            <div class="item_tablet blue_block">
+                <p class="description">До 180 хв / 185 м2*</p>
+            </div>
+            <!--  -->
+            <div class="item_tablet azure_block">
+                <p class="description">До 200 хв / 185 м2*</p>
+            </div>
+            <!--  -->
+            <div class="item_tablet blue_block">
+                <p class="description">Діапазон вологого прибирання</p>
+            </div>
+            <!--  -->
+            <div class="item_tablet blue_block">
+                <p class="description">До 130 м2</p>
+            </div>
+            <!--  -->
+            <div class="item_tablet azure_block">
+                <p class="description">До 150 м2</p>
+            </div>
+            <!--  -->
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>    
+</body>
+</html>

@@ -1,0 +1,1518 @@
+.product__description.base-padding {
+  padding: 0;
+  border-radius: 0px;
+  }
+  .galaxy img {
+    margin: 0;
+  }
+  .galaxy p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 130%;
+    margin: 0;
+  }
+  .galaxy h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 14px;
+  }
+  .galaxy .footnote{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #ffffffcc;
+  }
+  .galaxy ul {
+    list-style: none;
+    margin: 0;
+  }
+  .galaxy ul li {
+    line-height: normal;
+  }
+  .galaxy {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .galaxy ul {
+    padding: 0;
+  }
+  .galaxy ul li {
+    padding: 0;
+  }
+  .galaxy div {
+    padding: 0;
+  }
+  div.galaxy {
+    padding: 0;
+  }
+  .galaxy br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+  .galaxy{
+    margin: 0 auto;
+    max-width: 1366px;
+    overflow-x: hidden;
+    text-align: center;
+    background-color:#000000
+      ;
+  }
+  .galaxy img{
+    width: 100%;
+  }
+  /* s23 */
+  .galaxy .s23{
+    padding: 40px 0;
+  }
+
+  .galaxy .galaxy_tite{
+    display: grid;
+  }
+  .galaxy .logo_galaxy{
+    width: 252px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+  }
+  .galaxy .logo_ai{
+    width: 169px;
+    margin: 0 auto;
+    margin-bottom: 28px;
+
+  }
+  @media screen and (min-width:666px) {
+    .galaxy p {
+      font-size: 16px;
+    }
+    .galaxy h3 {
+      font-size: 24px;
+      margin-bottom: 14px;
+    }
+    .galaxy .s23{
+      padding: 60px 0 40px;
+    }
+    .galaxy .logo_galaxy{
+      width: 276px;
+    }
+    .galaxy .logo_ai{
+      margin-bottom: 40px;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .galaxy p {
+      font-size: 18px;
+      line-height: 150%;
+    }
+    .galaxy h3 {
+      font-size: 30px;
+      margin-bottom: 16px;
+    }
+    .galaxy .s23{
+      padding: 60px 0 40px;
+    }
+    .galaxy .logo_galaxy{
+      width: 370px;
+      margin-bottom: 26px;
+    }
+    .galaxy .logo_ai{
+      width: 221px;
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .galaxy p {
+      font-size: 22px;
+    }
+    .galaxy h3 {
+      font-size: 42px;
+      margin-bottom: 24px;
+    }
+    .galaxy .s23{
+      padding: 80px 0 60px;
+    }
+    .galaxy .logo_galaxy{
+      width: 535px;
+      margin-bottom:33px;
+    }
+    .galaxy .footnote{
+      font-size: 14px;
+    }
+
+    .galaxy .logo_ai{
+      width: 305px;
+    }
+  }
+  /* more_power */
+  .galaxy .more_power{
+    padding: 0 16px ;
+  }
+  .galaxy .more_power .more_power_icon{
+    width: 34px;
+  }
+  .galaxy .more_power h3{
+    margin-top: 8px;
+  }
+  .galaxy .more_power .snapgragon{
+    margin-top: 14px;
+    margin-bottom: 40px;
+    width: 48px;
+  }
+  .galaxy .more_power .footnote_first{
+    margin-top: 20px;
+  }
+  .galaxy .more_power h3{
+    padding: 0 22px ;
+  }
+  @media screen and (min-width:666px) {
+    .galaxy .more_power{
+      padding: 0 24px ;
+    }
+    .galaxy .more_power .snapgragon{
+      margin-top: 16px;
+      margin-bottom: 40px;
+    }
+    .galaxy .more_power p{
+      padding: 0 42px;
+    }
+    .galaxy .more_power .footnote{
+      padding: 0 19px;
+    }
+    .galaxy .more_power h3{
+      margin-top: 10px;
+      padding: 0 42px;
+    }
+    .galaxy .more_power .more_power_phone{
+      padding: 0 116px ;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .galaxy .more_power{
+      padding:0 ;
+      padding-bottom: 40px;
+    }
+    .galaxy .more_power .snapgragon{
+      margin-top: 16px;
+      margin-bottom: 40px;
+      width: 56px;
+    }
+    .galaxy .more_power p{
+      padding: 0 88px;
+    }
+    .galaxy .more_power .footnote{
+      padding: 0 88px;
+    }
+    .galaxy .more_power h3{
+      margin-top: 12px;
+      padding: 0 88px;
+    }
+    .galaxy .more_power .more_power_icon{
+      width: 42px;
+    }
+    .galaxy .more_power .more_power_phone{
+      padding: 0 183px ;
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .galaxy .more_power{
+      padding: 0 0 60px ;
+    }
+    .galaxy .more_power .footnote_first{
+      margin-top: 24px;
+    }
+    .galaxy .more_power .snapgragon{
+      margin-top: 24px;
+      margin-bottom: 40px;
+      width: 80px;
+    }
+    .galaxy .more_power p{
+      padding: 0 283px;
+    }
+    .galaxy .more_power .footnote{
+      padding: 0 283px;
+    }
+    .galaxy .more_power h3{
+      margin-top: 16px;
+      padding: 0 283px;
+    }
+    .galaxy .more_power .more_power_icon{
+      width: 60px;
+    }
+    .galaxy .more_power .more_power_phone{
+      padding: 0 248px;
+    }
+  }
+  /* environment */
+  .galaxy .environment{
+    padding: 40px 16px 0;
+  }
+  .galaxy .environment .more_power_icon{
+    width: 34px;
+  }
+  .galaxy .environment h3{
+    margin-top: 8px;
+  }
+  .galaxy .environment .footnote_first{
+    margin-top: 20px;
+  }
+  .galaxy .environment .teh_text{
+    margin-bottom: 40px;
+  }
+  .galaxy .environment .ikon_block_environment{
+    display: grid;
+    grid-template-columns:repeat(2,28px);
+    align-items: center;
+    justify-content: center;
+    margin-top: 7.9px;
+    gap: 16px;
+  }
+  @media screen and (min-width:666px) {
+    .galaxy .environment{
+      padding: 40px 0px;
+    }
+    .galaxy .environment h3{
+      margin-top: 10px;
+    }
+    .galaxy .environment .footnote{
+      padding: 0 46px;
+    }
+    .galaxy .environment p{
+      padding: 0 66px;
+    }
+    .galaxy .environment .environment_block_img{
+      position: relative;
+      padding: 0 112px 0 52px;
+    }
+    .galaxy .environment .ikon_block_environment{
+      position: absolute;
+      right: 24px;
+      bottom: 5px;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .galaxy .environment h3{
+      margin-top: 12px;
+    }
+    .galaxy .environment .footnote{
+      padding: 0 88px;
+    }
+    .galaxy .environment p{
+      padding: 0 88px;
+    }
+    .galaxy .environment .more_power_icon{
+      width: 42px;
+    }
+    .galaxy .environment .environment_block_img{
+      padding: 0 183px;
+    }
+    .galaxy .environment .ikon_block_environment{
+      right: 55px;
+      bottom: 5px;
+      grid-template-columns:repeat(2,40px);
+      gap: 24px;
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .galaxy .environment{
+      padding: 60px 0;
+    }
+    .galaxy .environment h3{
+      margin-top: 16px;
+    }
+    .galaxy .environment .footnote{
+      padding: 0 283px;
+    }
+    .galaxy .environment p{
+      padding: 0 283px;
+    }
+    .galaxy .environment .more_power_icon{
+      width: 50px;
+    }
+    .galaxy .environment .teh_text{
+      margin-bottom: 60px;
+    }
+    .galaxy .environment .environment_block_img{
+      padding: 0 301px;
+    }
+    .galaxy .environment .ikon_block_environment{
+      right: 173px;
+      bottom: 5px;
+      grid-template-columns:repeat(2,40px);
+      gap: 24px;
+    }
+    .galaxy .environment .footnote_first{
+      margin-top: 24px;
+    }
+  }
+  /* starrysky */
+  .galaxy .starrysky{
+    padding: 40px 16px;
+  }
+  .galaxy .starrysky .footnote_first{
+    margin-top: 14px;
+  }
+  .galaxy .starrysky img{
+    margin-top: 24px;
+  }
+  @media screen and (min-width:666px) {
+    .galaxy .starrysky{
+      padding: 40px 0 40px 0px ;
+    }
+    .galaxy .starrysky .starrysky_block{
+      padding: 0 66px;
+    }
+    .galaxy .starrysky .starrysky_block h3{
+      padding: 0 120px;
+    }
+    .galaxy .starrysky img{
+      margin-top: 40px;
+    }
+    .galaxy .starrysky .footnote_first{
+      margin-top: 20px;
+      padding: 0 46px;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .galaxy .starrysky .starrysky_block{
+      padding: 0 88px;
+    }
+    .galaxy .starrysky .starrysky_block h3{
+      padding: 0 130px;
+    }
+    .galaxy .starrysky img{
+      margin-top: 40px;
+    }
+    .galaxy .starrysky .footnote_first{
+      margin-top: 20px;
+      padding: 0 88px;
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .galaxy .starrysky .starrysky_block{
+      padding: 0 283px;
+    }
+    .galaxy .starrysky .starrysky_block h3{
+      padding:0 30px;
+    }
+    .galaxy .starrysky img{
+      margin-top: 40px;
+    }
+    .galaxy .starrysky .footnote_first{
+      margin-top: 24px;
+      padding: 0 283px;
+    }
+  }
+  /* noglare */
+  .galaxy .noglare{
+    padding: 40px 16px 0;
+    text-align: left;
+    display: grid;
+    gap:24px ;
+  }
+  .galaxy .noglare .footnote_first{
+    margin-top: 14px;
+  }
+  @media screen and (min-width:666px) {
+    .galaxy .noglare{
+      padding: 40px 24px 40px 0;
+      grid-template-columns:repeat(2,1fr);
+      align-items: center;
+      gap: 0;
+    }
+    .galaxy .noglare .footnote_first{
+      margin-top: 16px;
+    }
+    .galaxy .noglare .noglare_block{
+      grid-column-start: 2;
+      grid-row-start: 1;
+      padding-left: 24px;
+    }
+  }
+  /* play_longer */
+  .galaxy .play_longer{
+    padding: 40px 16px 0;
+    text-align: left;
+    display: grid;
+    gap:24px ;
+  }
+  .galaxy .play_longer .footnote_first{
+    margin-top: 14px;
+  }
+  @media screen and (min-width:666px) {
+    .galaxy .play_longer{
+      padding: 40px 0 40px 24px;
+      grid-template-columns: repeat(2,1fr);
+      align-items: center;
+      gap: 0;
+    }
+    .galaxy .play_longer .play_longer_block {
+      padding-right: 24px;
+    }
+    .galaxy .play_longer .footnote_first{
+      margin-top: 16px;
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .galaxy .play_longer .footnote_first{
+      margin-top: 24px;
+    }
+  }
+  /* electronic_pen */
+  .galaxy .electronic_pen{
+    padding: 40px 16px 0;
+    text-align: left;
+  }
+  .galaxy .electronic_pen img{
+    margin-top: 24px;
+  }
+  @media screen and (min-width:666px) {
+    .galaxy .electronic_pen{
+      padding: 40px 0 40px;
+      text-align: center;
+    }
+    .galaxy .electronic_pen img{
+      margin-top: 40px;
+    }
+    .galaxy .electronic_pen p{
+      padding: 0 66px;
+    }
+    .galaxy .electronic_pen h3{
+      padding: 0 118px;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .galaxy .electronic_pen p{
+      padding: 0 88px;
+    }
+    .galaxy .electronic_pen h3{
+      padding: 0 208px;
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .galaxy .electronic_pen p{
+      padding: 0 283px;
+    }
+    .galaxy .electronic_pen h3{
+      padding: 0 283px;
+    }
+  }
+  /* multi_control */
+  .galaxy .multi_control{
+    padding: 40px 16px 0;
+    text-align: left;
+    display: grid;
+    gap:24px 
+  }
+  .galaxy .multi_control .footnote_first{
+    margin-top: 14px;
+  }
+  @media screen and (min-width:666px) {
+    .galaxy .multi_control{
+      padding: 40px 0 40px 24px;
+      grid-template-columns: repeat(2,1fr);
+      align-items: center;
+      gap: 0;
+    }
+    .galaxy .multi_control .footnote_first{
+      margin-top: 16px;
+    }
+    .galaxy .multi_control .multi_control_block{
+      padding-right: 24px;
+    }
+    .galaxy .multi_control img{
+      grid-row-start: 1;
+      grid-column-start: 2;
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .galaxy .multi_control .footnote_first{
+      margin-top: 24px;
+    }
+  }
+  /* galaxy_personally */
+  .galaxy .galaxy_personally{
+    padding: 40px 16px 0;
+    text-align: left;
+    display: grid;
+    gap:24px ;
+  }
+  @media screen and (min-width:666px) {
+    .galaxy .galaxy_personally{
+      padding: 40px 24px 40px 0;
+      grid-template-columns:repeat(2,1fr);
+      align-items: center;
+      gap: 0;
+    }
+    .galaxy .galaxy_personally .galaxy_personally_block{
+      grid-column-start: 2;
+      grid-row-start: 1;
+      padding-left: 24px;
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .galaxy .galaxy_personally{
+      grid-template-columns: auto 671px;
+    }
+  }
+  /* saving_data */
+  .galaxy .saving_data{
+    padding: 40px 16px 0;
+    text-align: left;
+    display: grid;
+    gap:24px ;
+  }
+  .galaxy .saving_data .footnote_first{
+    margin-top: 14px;
+  }
+  @media screen and (min-width:666px) {
+    .galaxy .saving_data .footnote_first{
+      margin-top: 16px;
+    }
+    .galaxy .saving_data{
+      padding: 40px 0 40px 24px;
+      grid-template-columns: repeat(2,1fr);
+      align-items: center;
+      gap: 0;
+    }
+    .galaxy .saving_data .saving_data_block{
+      grid-row-start: 1;
+      grid-column-start: 1;
+      padding-left: 24px;
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .galaxy .saving_data{
+      grid-template-columns: 671px auto;
+    }
+  }
+  /* comparison */
+  .galaxy .comparison{
+    padding: 40px 16px;
+  }
+  .galaxy .comparison .footnote_first{
+    margin-top: 40px;
+  }
+  .galaxy .comparison_block{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16px;
+  }
+  .galaxy .comparison_block h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 150%;
+    color: #0E0E0E;
+  }
+  .galaxy .comparison_block p{
+    font-size: 12px;
+    line-height: 150%;
+    color: #0E0E0E;
+  }
+  .galaxy .comparison_block .galaxy_ultra{
+    display: none;
+  }
+  .galaxy .comparison_block .galaxy_plus,
+  .galaxy .comparison_block .galaxy_new
+  {
+    display: grid;
+    grid-template-rows: auto;
+    padding: 0 10px ;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+  }
+  /* .galaxy_plus */
+  .galaxy .comparison_block .display_photo{
+    width: 32px;
+  }
+  .galaxy .comparison_block .camera_photo {
+    width: 33.37px;
+  }
+  .galaxy .comparison_block .battary_photo {
+    width: 32px;
+  }
+  .galaxy .comparison_block h3{
+    margin-top: 12px;
+    margin-bottom: 4px;
+  }
+  .galaxy .comparison_block .photo_model{
+    padding-top: 18px;
+  }
+  .galaxy .comparison_block .display,
+  .galaxy .comparison_block .camera,
+  .galaxy .comparison_block .battary
+  {
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 12px;
+  }
+  .galaxy .comparison_block .display::before,
+  .galaxy .comparison_block .camera::before{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height:1px;
+    background-color: #F0F0F0 ;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    content: "";
+  }
+  @media screen and (min-width:666px) {
+    .galaxy .comparison_block .galaxy_plus,
+    .galaxy .comparison_block .galaxy_new,
+    .galaxy .comparison_block .galaxy_ultra
+    {
+      display: grid;
+      grid-template-rows: auto;
+      padding: 0 12px ;
+      background-color: #FFFFFF;
+      border-radius: 12px;
+    }
+    .galaxy .comparison_block{
+      grid-template-columns: repeat(3,1fr);
+      gap: 24px;
+      margin-top: 40px;
+    }
+    .galaxy .comparison{
+      padding: 40px 24px;
+    }
+    .galaxy .comparison_block .display,
+    .galaxy .comparison_block .camera,
+    .galaxy .comparison_block .battary
+    {
+      padding-top: 20px;
+      padding-bottom: 14px;
+    }
+    .galaxy .comparison_block h3{
+      font-size: 18px;
+    }
+    .galaxy .comparison_block .display_photo,
+    .galaxy .comparison_block .camera_photo,
+    .galaxy .comparison_block .battary_photo{
+      width: 40px;
+    }
+    .galaxy .comparison_block .model{
+      width: 126px;
+    }
+    .galaxy .comparison .footnote{
+      padding: 0 43px;
+    }
+    .galaxy .comparison_block .photo_model{
+      padding-top: 20px;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    .galaxy .comparison_block .model{
+      width: 160px;
+    }
+    .galaxy .comparison_block h3{
+      font-size: 26px;
+    }
+    .galaxy .comparison_block .display_photo,
+    .galaxy .comparison_block .camera_photo,
+    .galaxy .comparison_block .battary_photo{
+      width: 50px;
+    }
+    .galaxy .comparison_block .galaxy_plus,
+    .galaxy .comparison_block .galaxy_new,
+    .galaxy .comparison_block .galaxy_ultra
+    {
+      padding: 0 18px ;
+    }
+    .galaxy .comparison_block .display,
+    .galaxy .comparison_block .camera,
+    .galaxy .comparison_block .battary
+    {
+      padding-top: 28px;
+      padding-bottom: 18px;
+    }
+    .galaxy .comparison .footnote{
+      padding: 0 64px;
+    }
+    .galaxy .comparison_block .photo_model h3{
+      font-size: 20px;
+    }
+  }
+  @media screen and (min-width:1366px) {
+    .galaxy .comparison{
+      padding: 60px 136px;
+    }
+    .galaxy .comparison_block .model{
+      width: 215px;
+    }
+    .galaxy .comparison_block h3{
+      font-size: 38px;
+    }
+    .galaxy .comparison_block p{
+      font-size: 22px;
+    }
+    .galaxy .comparison_block .photo_model h3{
+      font-size: 25px;
+    }
+    .galaxy .comparison_block .galaxy_plus,
+    .galaxy .comparison_block .galaxy_new,
+    .galaxy .comparison_block .galaxy_ultra
+    {
+      padding: 0 24px ;
+    }
+    .galaxy .comparison_block .camera,
+    .galaxy .comparison_block .display,
+    .galaxy .comparison_block .battary
+    {
+      padding-top: 40px;
+      padding-bottom: 24px;
+    }
+    .galaxy .comparison_block .display_photo,
+    .galaxy .comparison_block .camera_photo,
+    .galaxy .comparison_block .battary_photo{
+      width: 73px;
+    }
+    .galaxy .comparison_block .display_photo{
+      margin-bottom: 24px;
+    }
+    .galaxy .comparison_block .camera_photo{
+      margin-bottom: 21px;
+    }
+    .galaxy .comparison_block .battary{
+      margin-bottom: 30px;
+    }
+    .galaxy .comparison .footnote{
+      padding: 0 147px;
+    }
+    .galaxy .saving_data .footnote_first {
+      margin-top: 24px;
+    }
+  }
+  /*  */
+  .product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+  }
+  .samsung img {
+    margin: 0;
+  }
+  .samsung p {
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+  }
+  .samsung ul {
+    list-style: none;
+    margin: 0;
+  }
+  .samsung ul li {
+    line-height: normal;
+  }
+  .samsung {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .samsung ul {
+    padding: 0;
+  }
+  .samsung ul li {
+    padding: 0;
+  }
+  .samsung div {
+    padding: 0;
+  }
+  /* div.aqara {
+  padding: 0;
+  } */
+  .samsung br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+  .samsung .title {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  .samsung .title span {
+    font-weight: 400;
+  }
+  .samsung .title-s {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 130%;
+  }
+  .samsung .subtitle {
+    color: #ffffff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .samsung .description {
+    color: #999;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  @media (min-width: 1024px) {
+    .samsung .title {
+      font-size: 30px;
+    }
+    .samsung .title-s {
+      font-size: 22px;
+    }
+    .samsung .subtitle {
+      font-size: 16px;
+    }
+    .samsung .description {
+      font-size: 14px;
+    }
+  }
+  @media (min-width: 1366px) {
+    .samsung .title {
+      font-size: 42px;
+    }
+    .samsung .title-s {
+      font-size: 28px;
+    }
+    .samsung .subtitle {
+      font-size: 20px;
+    }
+  }
+  .samsung {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+    /* color: #ffffff; */
+  }
+  .samsung-white {
+    background: #ffffff;
+    padding: 0px 0px 24px;
+    display: grid;
+    justify-items: center;
+    width: 100%;
+  }
+  .samsung .section {
+    padding: 40px 0 0 0;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    max-width: 530px;
+  }
+  .samsung .header__title {
+    width: 182px;
+    min-height: 23px;
+    margin-bottom: 20px;
+  }
+  .samsung .header__image {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .samsung .header__subtitle:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .samsung .header__subtitle {
+    color: #ffffff;
+    padding: 0 24px;
+  }
+  .samsung .header__subtitle span {
+    color: #999999;
+  }
+  .samsung-flip-5 .banner__content .banner__content_text{
+    text-align: center;
+  }
+  .samsung-flip-5 .banner__content .banner__content_text .ai_logo{
+    width: 169px;
+    margin: 0 auto;
+  }
+  @media (min-width: 768px) {
+    .samsung .section {
+      padding: 44px 0 0 0;
+      margin-bottom: 44px;
+      max-width: initial;
+    }
+    .samsung .header__image {
+      padding: 0 40px;
+      margin-bottom: 44px;
+    }
+    .samsung .header__subtitle {
+      padding: 0px;
+      max-width: 530px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .samsung .section {
+      /* padding: 60px 0 0 0; */
+      margin-bottom: 60px;
+      max-width: 1238px;
+      margin: 0 auto 60px;
+    }
+    .samsung .header__title {
+      width: 245px;
+      height: 30px;
+    }
+    .samsung .header__image {
+      padding: 0 96px;
+      margin-bottom: 60px;
+    }
+    .samsung .header__subtitle {
+      padding: 0px;
+      max-width: 584px;
+    }
+    .samsung .header__subtitle:not(:last-child) {
+      margin-bottom: 12px;
+    }
+    .samsung-flip-5 .banner__content .banner__content_text{
+      display: grid;
+      gap: 27px;
+    }
+    .samsung-flip-5 .banner__content .banner__content_text .ai_logo{
+      width: 221px;
+    }
+  }
+  @media (min-width: 1366px) {
+    .samsung .section {
+      /* padding: 80px 0 0 0; */
+      margin-bottom: 80px;
+      max-width: 1046px;
+    }
+    .samsung .header__title {
+      width: 329px;
+      height: 48px;
+    }
+    .samsung .header__image {
+      padding: 0 0px;
+      margin-bottom: 80px;
+    }
+    .samsung .header__subtitle {
+      padding: 0px;
+      max-width: 800px;
+    }
+    .samsung .header__subtitle:not(:last-child) {
+      margin-bottom: 16px;
+    }
+    .samsung-flip-5 .banner__content .banner__content_text{
+      gap: 33px;
+    }
+    .samsung-flip-5 .banner__content .banner__content_text .ai_logo{
+      width: 305px;
+    }
+  }
+
+
+
+
+
+  /* galaxy_ai */
+  .samsung .galaxy_ai .galaxy_ai_text{
+    display: grid;
+    gap: 10px;
+    text-align: left;
+    padding: 40px 24px;
+  }
+  .samsung .galaxy_ai .subtitle{
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left;
+
+  }
+  .samsung .galaxy_ai .galaxy_ai_title{
+    display: flex;
+  }
+
+  .samsung .galaxy_ai .galaxy_ai_item{
+    display: grid;
+    gap: 10px;
+
+  }
+
+  .samsung .galaxy_ai .title-s{
+    text-align: left;
+    align-items: start;
+    display: flex;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  .samsung .galaxy_ai .ai_logo{
+    width: 26px;
+    margin: 0 10px;
+  }
+  @media (min-width: 666px) {
+    .samsung .galaxy_ai .galaxy_ai_text{
+      padding: 0px 24px;
+      gap: 24px;
+      grid-template-columns: 150px auto;
+    }
+    .samsung .galaxy_ai .galaxy_ai_title{
+      display: inline;
+    }
+    .samsung .galaxy_ai .subtitle{
+      font-size: 16px;
+    }
+    
+  }
+  @media (min-width: 1024px) {
+
+    .samsung .galaxy_ai .galaxy_ai_text{
+      gap:24px ;
+      grid-template-columns: 214px auto;
+
+    }
+    .samsung .galaxy_ai .galaxy_ai_item{
+      gap: 12px;
+    }
+    .samsung .galaxy_ai .subtitle{
+      font-size: 18px;
+    }
+    .samsung .galaxy_ai .title-s{
+      font-size: 30px;
+    }
+    .samsung .galaxy_ai .ai_logo{
+      width: 35px;
+    }
+  }
+  @media (min-width: 1366px) {
+    .samsung .galaxy_ai .galaxy_ai_text{
+      padding: 0px 135px;
+      grid-template-columns: 311px auto;
+      
+    }
+    .samsung .galaxy_ai .galaxy_ai_item{
+      gap: 12px;
+    }
+    .samsung .galaxy_ai .subtitle{
+      font-size: 22px;
+    }
+    .samsung .galaxy_ai .title-s{
+      font-size: 42px;
+    }
+    .samsung .galaxy_ai .ai_logo{
+      width: 45px;
+    }
+  }
+  /* experience_galaxy */
+  .samsung .experience_galaxy{
+    padding:40px 0;
+  }
+  .samsung .experience_galaxy img{
+    width: 100%;
+  }
+  .samsung .experience_galaxy .experience_galaxy_block{
+    padding:24px;
+    background: rgba(31, 31, 38, 1);
+    display: grid;
+    grid-template-columns: 100px auto;
+    border-radius: 18px;
+  }
+  .samsung .experience_galaxy .experience_galaxy_text{
+    display: grid;
+    align-content: space-between;
+    padding-left: 18px;
+  }
+  .samsung .experience_galaxy .title-s{
+    font-size: 18px;
+  }
+  .samsung .experience_galaxy .subtitle,
+  .samsung .experience_galaxy .title-s{
+    color: rgb(255, 255, 255);
+    text-align: left;
+  }
+  @media (min-width: 666px) {
+    .samsung .experience_galaxy{
+      padding: 40px 182px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .samsung .experience_galaxy{
+      padding: 60px 274px;
+    }
+    .samsung .experience_galaxy .experience_galaxy_block{
+      padding: 30px;
+      grid-template-columns: 121px auto;
+    }
+    .samsung .experience_galaxy .title-s{
+      font-size: 22px;
+    }
+    .samsung .experience_galaxy .subtitle{
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 1366px) {
+    .samsung .experience_galaxy{
+      padding: 80px 404px;
+    }
+    .samsung .experience_galaxy .experience_galaxy_block{
+      padding: 40px;
+      grid-template-columns: 162px auto;
+    }
+    .samsung .experience_galaxy .experience_galaxy_text{
+      padding-left: 24px;
+    }
+    .samsung .experience_galaxy .title-s{
+      font-size: 28px;
+    }
+    .samsung .experience_galaxy .subtitle{
+      font-size: 20px;
+    }
+  }
+  /* samsung__slider */
+  .samsung .samsung__slider {
+    line-height: 1px
+  }
+  .samsung .swiper {
+    width: 100vw;
+    max-width: 1440px;
+  }
+  .samsung .slide1-mob {
+    display: grid;
+    gap: 16px;
+  }
+
+  
+  
+  .samsung .slider__slide-wrapper {
+    overflow: hidden;
+    border-radius: 20px;
+    /* margin-bottom: 50px; */
+    width: 284px;
+    height: 507px;
+  }
+  .samsung .slider__slide video {
+    width: 100%;
+    /* max-height: 535px; */
+  }
+  .samsung .slider__slide-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    padding: 32px 40px 16px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgb(0, 0, 0, 0.7));
+  }
+  .samsung .slider__button {
+    position: absolute;
+    top: 32px;
+    right: 54px;
+    cursor: pointer;
+    padding: 16px;
+    width: initial;
+  }
+  .samsung .slider__button svg {
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.30);
+    transition: 0.2s ease background;
+  }
+  .swiper-button-next:after, .swiper-button-prev:after{
+    font-size: large !important;
+  }
+  .swiper-button-next, .swiper-button-prev{
+    width: 34px !important;
+    height: 34px !important;
+    top: 40% !important;
+  }
+  @media(hover: hover) {
+    .samsung .slider__button:hover svg {
+      background: rgba(192, 192, 192, 0.30);
+      transition: 0.2s ease background;
+    }
+  }
+  @media(hover: none) {
+    .samsung .slider__button:active svg {
+      background: rgba(192, 192, 192, 0.30);
+      transition: 0.2s ease background;
+    }
+  }
+  .samsung .slider__button-icon_pause {
+    display: none;
+  }
+  .samsung .swiper-pagination {
+    top: auto !important;
+    width: auto !important;
+    position: absolute;
+    border-radius: 16px;
+    padding: 6px 10px;
+    border: 1px solid rgb(229, 229, 229);
+    bottom: 0px !important;
+    left: 50% !important;
+    transform: translate( -50%, 0) !important;
+  }
+  .swiper-pagination-bullet {
+    width: 8px !important;
+    height: 8px !important;
+  }
+  .samsung .swiper-pagination-bullet {
+    background: rgba(143, 143, 143, 1);
+    opacity: 0.8;
+  }
+  .samsung .swiper-pagination-bullet-active {
+    background: rgb(255, 255, 255);
+    opacity: 0.8;
+  }
+  .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background: rgba(255, 255, 255, 0.15); */
+    transition: background .2s ease;
+  }
+  .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background: rgba(255, 255, 255, 0.15); */
+    transition: background .2s ease;
+  }
+  @media(hover: hover) {
+    .swiper-button-prev:hover {
+      background: rgba(192, 192, 192, 0.50);
+      transition: background .2s ease;
+    }
+    .swiper-button-next:hover {
+      background: rgba(192, 192, 192, 0.50);
+      transition: background .2s ease;
+    }
+  }
+  @media(hover: none) {
+    .swiper-button-prev:active {
+      background: rgba(192, 192, 192, 0.50);
+      transition: background .2s ease;
+    }
+    .swiper-button-next:active {
+      background: rgba(192, 192, 192, 0.50);
+      transition: background .2s ease;
+    }
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 24px;
+    color: white;
+  }
+  .samsung .slider-1__video_mobile {
+    display: grid;
+  }
+  .samsung .slider-1__video_desktop {
+    display: none;
+  }
+  /* swiper_item */
+  .samsung .swiper_item img{
+    width: 100%;
+    display: block;
+  }
+  .samsung .swiper_item {
+    background: rgb(0, 0, 0);
+    border-radius: 18px;
+    padding: 40px 24px;
+    display: grid;
+    gap: 28px;
+  }
+  .samsung .swiper_item .swiper_item_block_img{
+    padding: 0 26px;
+  }
+  .samsung .swiper_item .swiper_item_text .blue_text{
+    display: grid;
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 14px;
+    grid-template-columns: 15px auto;
+    color: rgb(2, 129, 254);
+    text-transform: uppercase;
+    gap: 6px;
+    text-align: left;
+  }
+  .samsung .swiper_item .swiper_item_text{
+    display: grid;
+    gap: 14px;
+  }
+  .samsung .swiper_item .subtitle,
+  .samsung .swiper_item .title-s{
+    color: #ffffff;
+    text-align: left;
+  }
+  .samsung .swiper_item .notes{
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    text-align: left;
+  }
+  .samsung .swiper_item .title-s{
+    font-size:24px ;
+  }
+  .samsung .swiper_item_cont{
+    padding: 0 0 40px;
+  }
+  @media (min-width: 768px) {
+    .samsung .swiper_item_cont{
+      padding: 0 40px 40px;
+    }
+    .samsung .swiper {
+      width: 100vw;
+      height: auto;
+    }
+    .samsung .slider-1__video_mobile {
+      display: none;
+    }
+    .samsung .slider-1__video_desktop {
+      display: grid;
+    }
+    .samsung .slider__link {
+      top: 12px;
+      left: 12px;
+    }
+    .swiper-button-next {
+      right: 40px !important;
+    }
+    .swiper-button-prev {
+      left: 40px !important;
+    }
+    .swiper-button-next, .swiper-button-prev{
+      top: 50% !important;
+    }
+    .samsung .swiper-pagination {
+      top: 24px;
+      left: 100px;
+      transform: initial;
+    }
+    .samsung .slider__slide {
+      height: 50vw;
+      width: 100%;
+      padding: 0;
+      justify-content: end;
+      align-content: end;
+      place-items: initial;
+    }
+    .samsung .swiper_item{
+      grid-template-columns: repeat(2,1fr);
+      padding: 60px 40px;
+      align-items: center;
+      gap: 0;
+    }
+    .samsung .swiper_item .swiper_item_block_img{
+      padding: 0;
+      padding-left: 28px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .samsung .swiper_item{
+      padding: 60px 72px;
+    }
+    .samsung .swiper_item .swiper_item_block_img{
+      padding-left: 40px;
+    }
+    .swiper-button-next, .swiper-button-prev{
+      width: 40px !important;
+      height: 40px !important;
+    }
+    .swiper-button-next{
+      right: 75px !important;
+    }
+    .swiper-button-prev{
+      left:75px !important;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after{
+      font-size: 24px !important;
+    }
+    .samsung .swiper_item_cont{
+      padding: 0 60px 40px;
+    }
+    .samsung .swiper-pagination {
+      top: 26px;
+      left: 120px;
+      transform: initial;
+    }
+    .samsung .slider__link {
+      top: 12px;
+      left: 16px;
+    }
+    .samsung .swiper_item .swiper_item_text{
+      gap: 18px;
+    }
+    .samsung .swiper_item .swiper_item_text .blue_text{
+      grid-template-columns: 16px auto;
+      font-size: 16px;
+    }
+    .samsung .swiper_item .title-s{
+      font-size: 30px;
+    }
+    .samsung .swiper_item .notes{
+      font-size: 14px;
+    }
+  }
+  @media (min-width: 1366px) {
+    .swiper-button-next{
+      right: 140px !important;
+    }
+    .swiper-button-prev{
+      left:140px !important;
+    }
+    .samsung .swiper_item{
+      padding: 80px 140px;
+    }
+    .samsung .swiper_item_cont{
+      padding: 0 100px 60px;
+    }
+    .swiper-button-next, .swiper-button-prev{
+      top: 45% !important;
+    }
+    .swiper-button-next, .swiper-button-prev{
+      width: 56px !important;
+      height: 56px !important;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after{
+      font-size: 32px !important;
+    }
+    .samsung .swiper_item .swiper_item_block_img{
+      padding-left: 60px;
+    }
+    .samsung .swiper_item .swiper_item_text{
+      gap: 24px;
+    }
+    .samsung .swiper_item .swiper_item_text .blue_text{
+      grid-template-columns: 22px auto;
+      font-size: 20px;
+    }
+    .samsung .swiper_item .title-s{
+      font-size: 42px;
+    }
+    .samsung .swiper-pagination {
+      top: 26px;
+      left: 82px;
+    }
+    .samsung .swiper-button-next {
+      right: 0px;
+    }
+    .samsung .swiper-button-prev {
+      left: 0px;
+    }
+  }

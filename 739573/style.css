@@ -1,0 +1,498 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .philips img {
+      margin: 0;
+    }
+    .philips .description {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .philips .title {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .philips h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .philips ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .philips ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .philips {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .philips ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .philips ul li {
+      padding: 0;
+    }
+    .philips div {
+      padding: 0;
+    }
+    div.philips {
+      padding: 0;
+    }
+    .philips br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .philips{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .philips img{
+      width: 100%;
+      display: block;
+    }
+
+
+    .philips .XU7100{
+        position: relative;
+    }
+    .philips .XU7100 .description{
+        font-size: 11px;
+    }
+
+    .philips .XU7100 .XU7100_text{
+        display: grid;
+        position: absolute;
+        left: 16px;
+        bottom: 16px;
+    }
+
+    .philips .XU7100 .title{
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+
+
+    @media screen and (min-width:666px) {
+        /* body{
+            padding: 0 24px;
+        }
+     */
+        .philips .XU7100 .description{
+            font-size: 12px;
+        }
+        .philips .XU7100 .title{
+            font-size: 38px;
+        }
+
+        .philips .XU7100 .XU7100_text{
+            left: 32px;
+            bottom: 60px;
+        }
+        
+    }
+
+    @media screen and (min-width:1024px) {
+        .philips .XU7100 .description{
+            font-size: 24px;
+        }
+        .philips .XU7100 .title{
+            font-size: 52px;
+            margin-bottom: 32px;
+        }
+
+        .philips .XU7100 .XU7100_text{
+            left: 40px;
+            bottom: 60px;
+        }  
+    }
+
+    @media screen and (min-width:1366px) {
+        .philips .XU7100 .description{
+            font-size: 24px;
+        }
+        .philips .XU7100 .title{
+            font-size: 86px;
+            margin-bottom: 32px;
+        }
+
+        .philips .XU7100 .XU7100_text{
+            left: 60px;
+            bottom: 80px;
+        }  
+    }
+
+    /* main_features */
+
+    .philips .main_features .title{
+        padding: 24px 0;
+        text-align: center;
+
+    }
+    .philips .main_features .main_features_item{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 26px auto;
+        gap: 7px;
+    }
+    .philips .main_features .main_features_text{
+        padding: 24px;
+        display: grid;
+        gap: 6px;
+    }
+    .philips .main_features .description{
+        font-weight: 700;
+    }
+
+    @media screen and (min-width:666px) {
+        .philips .title{
+            font-size: 24px;
+        }
+        .philips .description{
+            font-size: 16px;
+        }
+        .philips .main_features .main_features_block{
+            position: relative;
+        }
+        .philips .main_features .main_features_item{
+            display: grid;
+            align-items: center;
+            grid-template-columns: 52px auto;
+            gap: 10px;
+        }
+        .philips .main_features .main_features_text{
+            padding: 0;
+            left: 32px;
+            gap: 24px;
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+        }
+        .philips .main_features .description{
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .philips .title{
+            font-size: 32px;
+        }
+        .philips .description{
+            font-size: 32px;
+        }
+
+        .philips .main_features .main_features_item{
+            grid-template-columns: 71px auto;
+            gap: 16px;
+        }
+        .philips .main_features .main_features_text{
+            left: 40px;
+            gap: 32px;
+        }
+        .philips .main_features .description{
+            font-size: 24px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .philips .title{
+            font-size: 46px;
+        }
+        .philips .main_features .title{
+            padding: 32px 0;    
+        }
+
+        .philips .main_features .main_features_item{
+            grid-template-columns: 112px auto;
+            gap: 24px;
+        }
+        .philips .main_features .main_features_text{
+            left: 60px;
+            gap: 32px;
+        }
+        .philips .main_features .description{
+            font-size: 28px;
+        }
+    }
+
+
+    .philips .philips_block{
+        text-align: center;
+    }
+    .philips .philips_block .philips_block_text{
+         padding:24px 16px;
+    }
+    @media screen and (min-width:666px) {
+        .philips .philips_block .philips_block_text{
+            padding:24px 10px;
+       }
+
+    }
+    @media screen and (min-width:1024px) {
+        .philips .philips_block .philips_block_text{
+            padding:24px 16px;
+       }
+    }
+    @media screen and (min-width:1366px) {
+        .philips .philips_block .philips_block_text{
+            padding:32px 24px;
+       }
+    }
+
+    /* сomparison_table */
+
+    .philips .сomparison_table{
+        display: none;
+    }
+
+    @media screen and (min-width:666px) {
+    .philips .сomparison_table{
+        display: grid;
+        align-items: stretch;
+        grid-template-columns:1fr repeat(3,1.5fr);
+        grid-template-areas: 
+        "item_1 item_2 item_3 item_4"
+        "item_5 item_6 item_7 item_8"
+        "item_9 item_10 item_11 item_11"
+        "item_12 item_13 item_14 item_14"
+        "item_15 item_16 item_16 item_16"
+        "item_17 item_18 item_18 item_19"
+        "item_20 item_21 item_22 item_22"
+        "item_23 item_24 item_25 item_25"
+        "item_26 item_27 item_28 item_28"
+        "item_29 item_30 item_31 item_31"
+        "item_32 item_33 item_34 item_34";
+        text-align: center;
+    }
+    .philips .сomparison_table .item_tablet_img{
+        width: 50px;
+        margin: 0 auto;
+    }
+
+    .philips .сomparison_table .description{
+        color: #fff;
+    }
+    .philips .сomparison_table .black_description{
+        color: #000000;
+    }
+
+
+    .philips .сomparison_table .item_tablet{
+        display: grid;
+        align-items: center;
+        padding: 8px 10px;
+    }
+
+    .philips .сomparison_table .blue_block{
+        background-color:#0A7896;
+    }
+    .philips .сomparison_table .azure_block{
+        background-color:#3992AA;
+    }
+
+    .philips .сomparison_table .item_tablet:first-child{
+        grid-area: item_2;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(2){
+        grid-area: item_3;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(3){
+        grid-area: item_4;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(4){
+        grid-area: item_6;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(5){
+        grid-area: item_7;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(6){
+        grid-area: item_8;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(7){
+        grid-area: item_9;
+        border-bottom: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(8){
+        grid-area: item_10;
+        border-left: #fff 2px solid;
+        border-right: #fff 2px solid;
+        border-bottom: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(9){
+        grid-area: item_11;
+        border-bottom: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(10){
+        grid-area: item_12;
+        border-bottom: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(11){
+        grid-area: item_13;
+        border-left: #fff 2px solid;
+        border-right: #fff 2px solid;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(12){
+        grid-area: item_14;
+        border-bottom: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(13){
+        grid-area: item_15;
+        border-bottom: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(14){
+        grid-area: item_16;
+        border-left: #fff 2px solid;
+        border-bottom: #fff 2px solid
+    }
+    .philips .сomparison_table .item_tablet:nth-child(15){
+        grid-area: item_17;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(16){
+        grid-area: item_18;
+        border-left: #fff 2px solid;
+        border-right: #fff 2px solid;
+        border-bottom: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(17){
+        grid-area: item_19;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(18){
+        grid-area: item_20;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(19){
+        grid-area: item_21;
+        border-left: #fff 2px solid;
+        border-right: #fff 2px solid;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(20){
+        grid-area: item_22;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(18){
+        grid-area: item_23;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(19){
+        grid-area: item_24;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(20){
+        grid-area: item_25;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(21){
+        grid-area: item_26;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(22){
+        grid-area: item_27;
+        border-left: #fff 2px solid;
+        border-right: #fff 2px solid;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(23){
+        grid-area: item_28;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(24){
+        grid-area: item_29;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(25){
+        grid-area: item_30;
+        border-left: #fff 2px solid;
+        border-right: #fff 2px solid;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(26){
+        grid-area: item_31;
+        border-bottom: #fff 2px solid;
+
+    }
+    .philips .сomparison_table .item_tablet:nth-child(27){
+        grid-area: item_32;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(28){
+        grid-area: item_33;
+        border-left: #fff 2px solid;
+        border-right: #fff 2px solid;
+    }
+    .philips .сomparison_table .item_tablet:nth-child(29){
+        grid-area: item_34;
+    }
+    
+
+}
+
+@media screen and (min-width:1024px) {
+    .philips .сomparison_table .item_tablet{
+        padding: 12px 20px;
+    }
+
+    .philips .сomparison_table .item_tablet .description{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .philips .сomparison_table .item_tablet{
+        padding: 20px 25px;
+    }
+
+    .philips .сomparison_table .item_tablet .description{
+        font-size: 20px;
+    }
+}

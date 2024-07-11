@@ -1,0 +1,901 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .Aqua_Plus img {
+      margin: 0;
+    }
+    .Aqua_Plus p {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 130%;
+    }
+    .Aqua_Plus h3 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .Aqua_Plus h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+    }
+    .Aqua_Plus ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .Aqua_Plus ul li {
+      line-height: normal;
+      color: #ffffff;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 130%;
+      text-align: left;
+    }
+    .Aqua_Plus {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .Aqua_Plus ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .Aqua_Plus ul li {
+      padding: 0;
+    }
+    .Aqua_Plus div {
+      padding: 0;
+    }
+    div.Aqua_Plus {
+      padding: 0;
+    }
+    .Aqua_Plus br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+
+    .Aqua_Plus{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+
+    .Aqua_Plus img{
+      width: 100%;
+      display: block;
+    }
+
+    .Aqua_Plus {
+        text-align: center;
+    }
+
+    .Aqua_Plus .blue_title {
+        color: rgb(50, 120, 150);
+        font-size: 24px;
+    }
+
+    .Aqua_Plus .removes_more .blue_title {
+      margin-bottom: 12px;
+    }
+
+    .Aqua_Plus .removes_more_text{
+        padding: 24px 36px;
+    }
+
+    .Aqua_Plus .removes_more p {
+        font-size: 18px;
+        font-weight: 300
+    }
+
+     .Aqua_Plus #circle{
+        display: none;
+     }
+
+
+@media screen and (min-width:666px) {
+     .Aqua_Plus .removes_more_text{
+        padding: 40px 36px 32px;
+    }
+     .Aqua_Plus #circle{
+        display: block;
+        position: absolute;
+        width: 80px;
+        bottom: 60px;
+        left: 66px;
+     }
+     .Aqua_Plus .removes_more_img{
+        position: relative;
+     }
+}
+
+@media screen and (min-width:1024px) {
+     .Aqua_Plus .removes_more_text{
+        padding: 40px 0px 32px;
+    }
+     .Aqua_Plus #circle{
+        width: 140px;
+        bottom: 73px;
+        left: 78px;
+     }
+     .Aqua_Plus .removes_more p {
+        font-size: 32px;
+    }
+    .Aqua_Plus .blue_title {
+        font-size: 32px;
+    }
+    .Aqua_Plus .removes_more .blue_title {
+      margin-bottom: 14px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+     .Aqua_Plus .removes_more_text{
+        padding: 40px 0px;
+    }
+     .Aqua_Plus #circle{
+        width: 212px;
+        bottom: 127px;
+        left: 117px;
+     }
+     .Aqua_Plus .removes_more p {
+        font-size: 32px;
+    }
+    .Aqua_Plus .blue_title {
+        font-size: 48px;
+    }
+    .Aqua_Plus .removes_more .blue_title {
+      margin-bottom: 16px;
+    }
+}
+
+
+.Aqua_Plus .accessory_text{
+    padding:24px 36px ;
+}
+
+.Aqua_Plus .accessory_text .blue_title{
+    margin-bottom: 0;
+}
+
+@media screen and (min-width:666px) {
+    .Aqua_Plus .accessory_text{
+        padding:40px 70px 32px ;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .Aqua_Plus .accessory_text{
+        padding:40px 100px 40px ;
+    }
+}
+
+
+
+.Aqua_Plus .get_know{
+  display: grid;
+  gap: 24px;
+}
+
+.Aqua_Plus .get_know .get_know_text{
+  padding: 24px 36px 0;
+}
+
+.Aqua_Plus .get_know .get_know_items{
+  display: grid;
+  gap: 8px;
+}
+
+.Aqua_Plus .get_know .get_know_img{
+  position: relative;
+  display: grid;
+  gap: 24px;
+}
+
+.Aqua_Plus .get_know  .get_know_item{
+  display: grid;
+  grid-template-columns:40px auto;
+  text-align: left;
+  align-items: center;
+  gap: 24px;
+}
+
+.Aqua_Plus .get_know .get_know_block{
+  padding: 0 20px 24px;
+  display: grid;
+  gap: 8px;
+}
+
+@media screen and (min-width:666px) {
+
+  .Aqua_Plus .get_know  .get_know_item{
+    grid-template-columns:52px auto;
+    gap: 15px;
+  }
+
+  .Aqua_Plus .get_know .get_know_block {
+    display: grid;
+    position: absolute;
+    padding:25px 41px 0 25px  ;
+    grid-template-columns: repeat(2,1fr);
+    z-index: 2;
+    gap: 167px;
+  }
+
+  .Aqua_Plus .get_know p{
+    font-size: 12px;
+    color: #fff;
+    font-weight: 300;
+  }
+
+  .Aqua_Plus .get_know .get_know_img::before,
+  .Aqua_Plus .get_know .get_know_img::after{
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 100%;
+  }
+
+  .Aqua_Plus .get_know .get_know_items{
+    gap: 20px;
+  }
+
+  .Aqua_Plus .get_know .get_know_img::after{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) -2.691%,rgba(0, 0, 0, 0) 69.48%);;
+  }
+
+  .Aqua_Plus .get_know .get_know_img::before{
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.6) -2.691%,rgba(0, 0, 0, 0) 69.48%);;
+    right: 0;
+  }
+}
+
+
+@media screen and (min-width:1024px) {
+
+  .Aqua_Plus .get_know .get_know_block{
+    padding:35px 56px 0 35px ;
+    gap: 209px;
+  }
+  .Aqua_Plus .get_know  .get_know_item{
+    grid-template-columns:71px auto;
+    gap: 21px;
+  }
+  .Aqua_Plus .get_know p{
+    font-size: 16px;
+  }
+  .Aqua_Plus .get_know .get_know_items{
+    gap: 35px;
+  }
+}
+
+@media screen and (min-width:1366px) {
+
+  .Aqua_Plus .get_know .get_know_block{
+    padding:45px 87px 0 53px ;
+    gap: 310px;
+  }
+  .Aqua_Plus .get_know  .get_know_item{
+    grid-template-columns:112px auto;
+    gap: 35px;
+  }
+  .Aqua_Plus .get_know p{
+    font-size: 22px;
+  }
+  .Aqua_Plus .get_know .get_know_items{
+    gap: 55px;
+  }
+}
+
+
+/* pazle_block */
+
+ .Aqua_Plus .pazle_block .blue_title{
+  padding: 24px 0;
+ }
+ .Aqua_Plus .pazle_block h3{
+ }
+
+ .Aqua_Plus .pazle_block .pazle_block_item{
+  display: grid;
+  gap: 24px;
+ }
+ .Aqua_Plus .pazle_block .pazle_block_item .pazle_item_text{
+  padding: 0 36px;
+ }
+
+ .Aqua_Plus .pazle_block .pazle_item{
+  display: grid;
+  gap: 24px;
+ }
+
+
+ @media screen and (min-width:666px) {
+        .Aqua_Plus h3{
+          font-size: 20px;
+        }
+        .Aqua_Plus .pazle_block .blue_title{
+          padding: 40px 0 32px;
+        }
+
+        .Aqua_Plus .pazle_block .pazle_block_item{
+          grid-template-columns: repeat(3,1fr);
+          gap: 8px;
+          align-items: start;
+          text-align: left;
+          padding: 0 8px;
+        }
+      
+        .Aqua_Plus .pazle_block .pazle_block_item .pazle_item_text{
+          padding: 0;
+          grid-row-start: 2;
+        }
+        .Aqua_Plus .pazle_block .pazle_item  img{
+          border-radius: 20px;
+        }
+        .Aqua_Plus .pazle_block .pazle_item{
+          gap: 12px;
+        }
+ }
+
+
+ @media screen and (min-width:1024px) {
+        .Aqua_Plus .pazle_block h3{
+          font-size: 26px;
+          margin-bottom: 19px;
+        }
+        .Aqua_Plus .pazle_block p{
+          font-size: 18px;
+        }
+        .Aqua_Plus .pazle_block .blue_title{
+          padding: 40px 0 40px;
+        }
+
+        .Aqua_Plus .pazle_block .pazle_block_item{
+          
+        }
+      
+        .Aqua_Plus .pazle_block .pazle_block_item .pazle_item_text{
+          padding: 0;
+          grid-row-start: 2;
+        }
+        .Aqua_Plus .pazle_block .pazle_item  img{
+          border-radius: 20px;
+        }
+        .Aqua_Plus .pazle_block .pazle_item{
+          gap: 12px;
+        }
+ }
+
+ @media screen and (min-width:1366px) {
+        .Aqua_Plus .pazle_block h3{
+          font-size: 36px;
+        }
+        .Aqua_Plus .pazle_block p{
+          font-size: 24px;
+        }
+        .Aqua_Plus .pazle_block .blue_title{
+          padding: 60px 0 60px;
+        }
+
+        .Aqua_Plus .pazle_block .pazle_block_item{
+          padding: 0 14px;
+          gap: 16px;  
+        }
+
+      
+        .Aqua_Plus .pazle_block .pazle_block_item .pazle_item_text{
+          padding: 0;
+          grid-row-start: 2;
+        }
+        .Aqua_Plus .pazle_block .pazle_item img{
+          border-radius: 20px;
+        }
+ }
+
+ /* vacuum_wash */
+
+  .Aqua_Plus .vacuum_wash .vacuum_wash_text{
+    padding: 24px 0;
+  }
+  .Aqua_Plus .vacuum_wash .last_title{
+    padding: 0ch 36px;
+  }
+
+
+ @media screen and (min-width:666px) {
+  .Aqua_Plus .vacuum_wash .vacuum_wash_text{
+    padding: 40px 0 32px;
+  }
+  .Aqua_Plus .vacuum_wash .last_title{
+    padding: 0px 155px;
+  }
+ }
+
+ @media screen and (min-width:1024px) {
+  .Aqua_Plus .vacuum_wash .vacuum_wash_text{
+    padding: 40px 0;
+  }
+  .Aqua_Plus .vacuum_wash .last_title{
+    padding: 0px 215px;
+  }
+ }
+
+ @media screen and (min-width:1366px) {
+  .Aqua_Plus .vacuum_wash .vacuum_wash_text{
+    padding: 60px 0;
+  }
+  .Aqua_Plus .vacuum_wash .last_title{
+    padding: 0px 270px;
+  }
+ }
+ /* washing_module */
+
+
+
+ .Aqua_Plus .washing_module .washing_module_text{
+  padding: 24px 36px;
+
+ }
+
+ .Aqua_Plus .washing_module p{
+  font-size: 16px;
+ }
+
+ .Aqua_Plus .washing_module .washing_module_left{
+  display: grid;
+ }
+
+ .Aqua_Plus .washing_module .washing_module_left .washing_left_text{
+  padding: 24px 36px;
+ }
+ 
+ .Aqua_Plus .washing_module .washing_module_rigth{
+  display: grid;
+ }
+
+ .Aqua_Plus .washing_module .washing_module_rigth .washing_rigth_text{
+  padding: 24px 36px;
+ }
+
+
+ @media screen and (min-width:666px) {
+  .Aqua_Plus .washing_module .washing_module_text{
+    padding: 40px 36px 32px;
+  
+   }
+    .Aqua_Plus .washing_module .washing_module_left{
+        grid-template-columns: repeat(2,1fr);
+        gap: 60px;
+        padding: 0 60px;
+        align-items: center;
+        text-align: left;
+    }
+
+    .Aqua_Plus .washing_module .washing_module_left .washing_left_text{
+      padding:0;
+      grid-column-start: 2;
+      grid-row-start: 1;
+    }
+
+    .Aqua_Plus .washing_module .washing_module_rigth{
+        grid-template-columns: repeat(2,1fr);
+        gap: 60px;
+        padding: 0 60px;
+        align-items: center;
+        text-align: left;
+    }
+    .Aqua_Plus .washing_module .washing_module_rigth .washing_rigth_text{
+      padding:0;
+    }
+ }
+
+ @media screen and (min-width:1024px) {
+  .Aqua_Plus .washing_module h3{
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+  .Aqua_Plus .washing_module p{
+    font-size: 24px;
+   }
+  .Aqua_Plus .washing_module .washing_module_text{
+    padding: 40px 36px;
+  
+   }
+    .Aqua_Plus .washing_module .washing_module_left{
+        gap: 0px;
+        padding: 0 60px;
+    }
+
+    .Aqua_Plus .washing_module .washing_module_left .washing_left_text{
+      padding:0;
+      padding-left: 60px;
+    }
+
+    .Aqua_Plus .washing_module .washing_module_rigth{
+        grid-template-columns: repeat(2,1fr);
+        gap: 0px;
+        padding: 0 60px;
+    }
+    .Aqua_Plus .washing_module .washing_module_rigth .washing_rigth_text{
+      padding:0;
+      padding-right: 60px;
+
+    }
+ }
+
+ @media screen and (min-width:1366px) {
+  .Aqua_Plus .washing_module h3{
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+  .Aqua_Plus .washing_module p{
+    font-size: 24px;
+   }
+  .Aqua_Plus .washing_module .washing_module_text{
+    padding: 60px 36px;
+  
+   }
+    .Aqua_Plus .washing_module .washing_module_left{
+        gap: 0px;
+        padding: 0 60px 24px;
+    }
+    
+
+    .Aqua_Plus .washing_module .washing_module_left .washing_left_text{
+      padding:0;
+      padding-left: 60px;
+    }
+
+    .Aqua_Plus .washing_module .washing_module_rigth{
+        grid-template-columns: repeat(2,1fr);
+        gap: 0px;
+        padding: 0 60px;
+    }
+    .Aqua_Plus .washing_module .washing_module_rigth .washing_rigth_text{
+      padding:0;
+      padding-right: 60px;
+
+    }
+    .Aqua_Plus .washing_module .left_up{
+      gap: 0px;
+      padding: 24px 60px 0;
+  }
+ }
+
+
+ .Aqua_Plus .table {
+  display: none;
+}
+
+
+ @media screen and (min-width:666px) {
+
+ .Aqua_Plus .table {
+    padding: 24px 0;display: block;
+ }
+
+ .Aqua_Plus .table p {
+  font-size: 12px;
+ }
+
+
+ .Aqua_Plus .table .blue_title{
+  font-size: 32px;
+ }
+
+ .Aqua_Plus .table .table_text{
+    padding: 0 36px 24px;
+ }
+
+ .Aqua_Plus .table .table_block{
+  display: grid;
+  grid-template-columns: .7fr repeat(5,1fr);
+  align-items: stretch;
+  text-align: center;
+  grid-template-areas:
+  "item_1 item_2 item_3 item_4 item_5 item_6"
+  "item_7 item_8 item_9 item_10 item_11 item_12"
+  "item_13 item_14 item_14 item_15 item_15 item_15"
+  "item_16 item_17 item_17 item_17 item_17 item_17"
+  "item_18 item_19 item_19 item_20 item_20 item_21"
+  "item_22 item_23 item_23 item_24 item_24 item_24"
+  "item_25 item_26 item_26 item_27 item_27 item_27"
+  "item_28 item_29 item_29 item_30 item_30 item_30"
+  "item_31 item_32 item_33 item_34 item_35 item_36"
+  "item_37 item_38 item_38 item_38 item_38 item_38"
+  "item_39 item_40 item_40 item_41 item_41 item_41"
+  "item_42 item_43 item_43 item_43 item_43 item_43"
+ }
+
+ .Aqua_Plus .table .table_block .table_block_item{
+  display: grid;
+  align-items: center;
+  padding: 32px 8px;
+  
+ }
+
+ .Aqua_Plus .table .table_block .dark{
+  background: rgb(10, 120, 150);
+ }
+ .Aqua_Plus .table .table_block .light{
+  background: rgb(57, 146, 170);
+ }
+
+ .Aqua_Plus .table .table_block .table_block_item p{
+  color: #fff;
+ }
+
+
+ .Aqua_Plus .table .table_block .item_1{
+  grid-area: item_1;
+ }
+ .Aqua_Plus .table .table_block .item_2{
+  grid-area: item_2;
+  padding: 0;
+ }
+ .Aqua_Plus .table .table_block .item_3{
+  grid-area: item_3;
+  padding: 0;
+ }
+ .Aqua_Plus .table .table_block .item_4{
+  grid-area: item_4;
+  padding: 0;
+ }
+ .Aqua_Plus .table .table_block .item_5{
+  grid-area: item_5;
+  padding: 0;
+ }
+ .Aqua_Plus .table .table_block .item_6{
+  grid-area: item_6;
+  padding: 0;
+ }
+ .Aqua_Plus .table .table_block .item_7{
+  grid-area: item_7;
+  padding: 10px;
+ }
+ .Aqua_Plus .table .table_block .item_8{
+  grid-area: item_8;
+  padding: 10px;
+ }
+ .Aqua_Plus .table .table_block .item_9{
+  grid-area: item_9;
+  padding:10px;
+ }
+ .Aqua_Plus .table .table_block .item_10{
+  grid-area: item_10;
+  padding: 10px;
+ }
+ .Aqua_Plus .table .table_block .item_11{
+  grid-area: item_11;
+  padding: 0;
+ }
+ .Aqua_Plus .table .table_block .item_12{
+  grid-area: item_12;
+  padding: 0;
+ }
+ .Aqua_Plus .table .table_block .item_13{
+  grid-area: item_13;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+ }
+ .Aqua_Plus .table .table_block .item_14{
+  grid-area: item_14;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+ }
+ .Aqua_Plus .table .table_block .item_15{
+  grid-area: item_15;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_16{
+  grid-area: item_16;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+ }
+ .Aqua_Plus .table .table_block .item_17{
+  grid-area: item_17;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_18{
+  grid-area: item_18;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+ }
+ .Aqua_Plus .table .table_block .item_19{
+  grid-area: item_19;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_20{
+  grid-area: item_20;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_21{
+  grid-area: item_21;
+  background: rgb(145, 194, 208);
+  color: #fff;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_22{
+  grid-area: item_22;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+ }
+ .Aqua_Plus .table .table_block .item_23{
+  grid-area: item_23;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_24{
+  grid-area: item_24;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_25{
+  grid-area: item_25;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_26{
+  grid-area: item_26;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_27{
+  grid-area: item_27;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_28{
+  grid-area: item_28;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_29{
+  grid-area: item_29;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_30{
+  grid-area: item_30;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_31{
+  grid-area: item_31;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+ }
+ .Aqua_Plus .table .table_block .item_32{
+  grid-area: item_32;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_33{
+  grid-area: item_33;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_34{
+  grid-area: item_34;
+  background: rgb(108, 174, 192);
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_35{
+  grid-area: item_35;
+  background: rgb(145, 194, 208);
+  color: #fff;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_36{
+  grid-area: item_36;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_37{
+  grid-area: item_37;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+ }
+ .Aqua_Plus .table .table_block .item_38{
+  grid-area: item_38;
+  border-bottom: 2px solid #fff;
+  
+ }
+ .Aqua_Plus .table .table_block .item_39{
+  grid-area: item_39;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_40{
+  grid-area: item_40;
+  border-bottom: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_41{
+  grid-area: item_41;
+  border-bottom: 2px solid #fff;
+ }
+ .Aqua_Plus .table .table_block .item_42{
+  grid-area: item_42;
+  border-right: 2px solid #fff;
+
+ }
+ .Aqua_Plus .table .table_block .item_43{
+  grid-area: item_43;
+
+ }
+ }
+
+
+ @media screen and (min-width:1366px) {
+  .Aqua_Plus .table {
+    padding: 32px 0;
+ }
+  .Aqua_Plus .table .blue_title{
+    font-size: 48px;
+   }
+  .Aqua_Plus .table p {
+    font-size: 16px;
+   }
+  
+   .Aqua_Plus .table .table_text{
+      padding: 0 36px 32px;
+   }
+ }
+
+
+
+ .Aqua_Plus .notes{
+    padding: 28.5px 16px
+ }
+ .Aqua_Plus .notes p{
+    font-size: 12px;
+ }
+
+
+ @media screen and (min-width:1024px) {
+      .Aqua_Plus .notes{
+        padding: 33.5px 36px
+      }
+      .Aqua_Plus .notes p{
+          font-size: 14px;
+      }
+ }
+
+ @media screen and (min-width:1366px) {
+      .Aqua_Plus .notes{
+        padding: 42.5px 67px
+      }
+ }

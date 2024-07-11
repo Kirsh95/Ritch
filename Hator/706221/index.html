@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <style type="text/css">.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .hator img {
+      margin: 0;
+    }
+    .hator p {
+      padding: 0;
+      margin: 0;
+      color: #ffffff;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .hator h3 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      margin: 0;
+    }
+    .hator h2 {
+      color:  rgb(255, 255, 255);
+      font-family: 'Roboto',sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight:700;
+      line-height: 130%;
+      text-shadow:0px 0px 10px rgba(0, 0, 0, 0.85);
+      margin: 0;
+    }
+    .hator ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .hator ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .hator {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .hator ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .hator ul li {
+      padding: 0;
+    }
+    .hator div {
+      padding: 0;
+    }
+    div.hator {
+      padding: 0;
+    }
+    .hator br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .hator{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .hator img{
+      width: 100%;
+      display: block;
+    }
+    .hator .hators{
+      position: relative;
+    }
+    .hator .hators .hators_text{
+      position: absolute;
+      left: 16px;
+      bottom: 40px;
+    }
+    .hator .hators h2 {
+      font-size: 46px;
+      font-size: 36px;
+      color:  rgb(249, 208, 4);
+      text-shadow:0px 0px 10px rgba(0, 0, 0, 0.85);
+    }
+    .hator .hators .hators_text .hotor_logo{
+      width: 92px;
+      margin-bottom: 10px;
+    }
+    @media screen and (min-width:666px) {
+      .hator .hators .hators_text{
+        right: 24px;
+        left: auto;
+        top: 60px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .hator .hators .hators_text{
+        right: 40px;
+        left: auto;
+        top: 80px;
+      }
+      .hator .hators h2 {
+        font-size: 46px;
+      }
+      .hator .hators .hators_text .hotor_logo{
+        width: 140px;
+        margin-bottom: 14px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .hator .hators .hators_text{
+        right: 60px;
+        left: auto;
+        top: 120px;
+      }
+      .hator .hators h2 {
+        font-size: 66px;
+      }
+      .hator .hators .hators_text .hotor_logo{
+        width: 187px;
+        margin-bottom: 18px;
+      }
+    }
+    .hator .hellraizer{
+      background: #000;
+      background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.bg_desc%201.webp?_t=1708334425");
+      background-size: cover;
+      background-position: center 90% ;
+      background-repeat: no-repeat;
+      padding: 40px 13px;
+      text-align: center;
+      display: grid;
+      gap: 20px;
+    }
+    .hator .hellraizer .hellraizer_texr{
+      display: grid;
+      gap: 23px;
+    }
+    .hator .hellraizer h3{
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+      position: relative;
+    }
+    .hator .hellraizer h3::after{
+      position: absolute;
+      content: "";
+      width: 160px;
+      bottom: -8px;
+      left: 50%;
+      transform: translate(-50%);
+      height: 1px;
+      background: rgb(249, 208, 4);
+      ;
+    }
+    .hator .hellraizer p{
+      color: rgb(255, 255, 255);
+      opacity: 0.8;
+    }
+    .hator .hellraizer  .hellraizer_block{
+      padding: 0 3px;
+    }
+    .hator .hellraizer .hellraizer_block_item{
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(2,1fr);
+    }
+    @media screen and (min-width:666px) {
+      .hator .hellraizer{
+        padding: 40px 140px;
+      }
+      .hator .hellraizer .hellraizer_texr{
+        padding: 0 10px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .hator p {
+        font-size: 18px;
+      }
+      .hator .hellraizer h3{
+        font-size: 32px;
+      }
+      .hator .hellraizer h3::after{
+        bottom: -14px;
+        width: 200px;
+        height: 2px;
+      }
+      .hator .hellraizer{
+        padding: 58px 193px;
+        gap: 28px;
+      }
+      .hator .hellraizer .hellraizer_texr{
+        padding: 0 23px;
+        gap: 32px;
+      }
+      .hator .hellraizer .hellraizer_block_item{
+        gap: 14px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .hator p {
+        font-size: 22px;
+      }
+      .hator .hellraizer h3{
+        font-size: 42px;
+      }
+      .hator .hellraizer h3::after{
+        width: 260px;
+        bottom: -16px;
+      }
+      .hator .hellraizer{
+        padding: 80px 272px;
+        gap: 40px;
+      }
+      .hator .hellraizer .hellraizer_texr{
+        padding: 0 68px;
+        gap: 42px;
+      }
+      .hator .hellraizer .hellraizer_block_item{
+        gap: 20px;
+      }
+    }
+    /*  */
+    .hator .pazle_block{
+      display: grid;
+      position: relative;
+      text-align: left;
+    }
+    .hator .pazle_block p{
+      font-weight: 600;
+      line-height: 150%;
+    }
+    .hator .pazle_block .block_left{
+      display: grid;
+      position: relative;
+    }
+    .hator .pazle_block .block_left .block_left_text{
+      text-align: center;
+      position: absolute;
+      text-align: left;
+      top: 50%;
+      left:47px;
+      transform: translate(0, -50%);
+      width: 266px;
+    }
+    .hator .pazle_block .block_rigth{
+      display: grid;
+      position: relative;
+    }
+    .hator .pazle_block .block_rigth .block_rigth_text{
+      text-align: center;
+      position: absolute;
+      text-align: left;
+      top: 50%;
+      left: 47px;
+      transform: translate(0, -50%);
+      width: 271px;
+    }
+    .hator .pazle_block .block_left .block_left_text::before,
+    .hator .pazle_block .block_rigth .block_rigth_text::before{
+      position: absolute;
+      content: "";
+      width: 160px;
+      top: -14px;
+      height: 1px;
+      background: rgb(249, 208, 4);
+    }
+    @media screen and (min-width:666px) {
+      .hator .pazle_block .block_left .block_left_text{
+        left:auto;
+        right: 24px;
+        width: 266px;
+      }
+      .hator .pazle_block .block_rigth .block_rigth_text{
+        top: 50%;
+        left: 24px;
+        width: 271px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .hator .pazle_block .block_left .block_left_text{
+        right: 40px;
+        width: 366px;
+      }
+      .hator .pazle_block .block_left .block_left_text::before,
+      .hator .pazle_block .block_rigth .block_rigth_text::before{
+        width: 200px;
+        top: -18px;
+        height: 2px;
+      }
+      .hator .pazle_block .block_rigth .block_rigth_text{
+        left: 40px;
+        width: 375px;
+      }
+      .hator .pazle_block .block_rigth .block_rigth_text:nth-child(3){
+        left: 40px;
+        width: 385px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .hator .pazle_block .block_left .block_left_text{
+        right: 60px;
+        width: 505px;
+      }
+      .hator .pazle_block .block_left .block_left_text::before,
+      .hator .pazle_block .block_rigth .block_rigth_text::before{
+        width: 260px;
+        top: -24px;
+      }
+      .hator .pazle_block .block_rigth .block_rigth_text{
+        left: 60px;
+        width: 527px;
+      }
+      .hator .pazle_block .block_rigth .block_rigth_text:nth-child(3){
+        left: 60px;
+        width: 527px;
+      }
+    }
+
+
+/* .big_img */
+ .hator .big_img{
+  position: relative;
+ }
+ .hator .big_img .big_img_block{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #FFE24866;
+
+ }
+
+
+    /* features */
+    .hator .features{
+      background: #000;
+      padding: 40px 16px;
+      text-align: center;
+      display: grid;
+      gap: 28px;
+    }
+    .hator .features p{
+      color: rgb(255, 255, 255);
+      opacity: 0.8;
+      text-align: left;
+    }
+    .hator .features .serif{
+      font-weight: 600;
+      text-align: right;
+    }
+    .hator .features h3{
+      color: rgb(255, 255, 255);
+      margin-bottom:17px ;
+      font-size: 16px;
+    }
+    .hator .features h2,
+    .hator .features h3{
+      position: relative;
+    }
+    .hator .features h2::after,
+    .hator .features h3::after{
+      position: absolute;
+      content: "";
+      bottom: -8px;
+      left: 50%;
+      transform: translate(-50%);
+      height: 1px;
+      width: 160px;
+      background: rgb(249, 208, 4);
+    }
+    .hator .features .features_block{
+      display: grid;
+      gap: 6px;
+    }
+    .hator .features .features_items{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+    .hator .features .features_items_last p{
+      text-align: center;
+    }
+    @media screen and (min-width:666px) {
+      .hator .features{
+        padding: 40px 81px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .hator .features{
+        padding: 58px 193px;
+        gap: 40px;
+      }
+      .hator h2{
+        font-size: 32px;
+      }
+      .hator .features h3{
+        font-size: 24px;
+        margin-bottom: 22px;
+      }
+      .hator .features h2::after,
+      .hator .features h3::after{
+        bottom: -12px;
+        height: 2px;
+        width: 200px;
+      }
+      .hator .features .features_block{
+        gap: 8px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .hator .features{
+        padding: 80px 272px;
+        gap: 60px;
+      }
+      .hator h2{
+        font-size: 42px;
+      }
+      .hator .features h3{
+        font-size: 32px;
+        margin-bottom: 30px;
+      }
+      .hator .features h2::after,
+      .hator .features h3::after{
+        bottom: -16px;
+        width: 260px;
+      }
+      .hator .features .features_block{
+        gap: 10px;
+      }
+      .hator .features .features_items{
+        gap: 24px;
+      }
+    }
+  </style>
+  <div class="hator">
+    <div class="hators">
+      <picture> 
+        <source media="(min-width:666px)" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.img%201.webp?_t=1708334424" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.img%201%20-%20mob.webp?_t=1708334424" /> 
+      </picture>
+      <div class="hators_text"><img alt="" class="hotor_logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/logo%201.svg?_t=1708340158" />
+        <h2>HYPERGANG
+          <br />
+          EVO ELITE
+        </h2>
+      </div>
+    </div>
+    <!--  --><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706617/divider.svg?_t=1707905930" /> <!--  --> 
+    <section class="hellraizer">
+      <div class="hellraizer_texr">
+        <h3>HATOR HYPERGANG EVO ELITE
+        </h3>
+        <p>Hypergang EVO Elite &ndash; еволюція нашої популярної ігрової гарнітури. Тепер ще більше можливостей та комфорту використання.
+        </p>
+      </div>
+      <div class="hellraizer_block"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/hellraizer-black_1.svg?_t=1708334387" />
+        <div class="hellraizer_block_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/Property%201%3D1.svg?_t=1708334387" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/Property%201%3D2.svg?_t=1708334386" />
+        </div>
+        <div class="hellraizer_block_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/Property%201%3D3.svg?_t=1708334386" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/Property%201%3D4.svg?_t=1708334386" />
+        </div>
+      </div>
+      <!-- <div class="hellraizer_withe">
+  <p>Hellraizer
+  <br />
+  Black (HTA-812)
+  </p>
+  </div> --></section>
+    <!--  --><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706617/divider.svg?_t=1707905930" /> <!--  -->
+    <section class="pazle_block">
+      <div class="block_left ">
+        <div class="block_left_text first_left">
+          <p>ЛЕГКА ТА МІЦНА КОНСТРУКЦІЯ З МЕТАЛУ ЗАБЕЗПЕЧУЄ НАДІЙНІСТЬ ТА КОМФОРТ ВИКОРИСТАННЯ ГАРНІТУРИ.
+          </p>
+        </div>
+        <picture> 
+          <source media="(min-width:666px)" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.bg_big-hypergang-evo-elite%20(7).webp?_t=1708354963" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.bg_big-hypergang-evo-elite.webp?_t=1708352349" /> 
+        </picture>
+      </div>
+      <div class="block_rigth">
+        <div class="block_rigth_text">
+          <p>ОНОВЛЕНІ 53-ММ ДИНАМІКИ З КОМПОЗИТНОЮ МЕМБРАНОЮ ВІДПОВІДАЮТЬ ЗА ТОЧНИЙ І НАСИЧЕНИЙ ЗВУК. ВИ ЗАВЖДИ БУДЕТЕ ЗНАТИ, ДЕ ЗНАХОДИТЬСЯ ВАШ ПРОТИВНИК &ndash; ПРОСТО СЛУХАЙТЕ.
+          </p>
+        </div>
+        <picture> 
+          <source media="(min-width:666px)" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.bg_big-hypergang-evo-elite%20(8).webp?_t=1708354963" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.bg_big-hypergang-evo-elite%20(1).webp?_t=1708352349" /> 
+        </picture>
+      </div>
+      <div class="block_left">
+        <div class="block_left_text">
+          <p>З&rsquo;ЄМНИЙ КАБЕЛЬ З ПІД&rsquo;ЄДНАННЯМ ЧЕРЕЗ РОЗ&rsquo;ЄМ 3,5 ММ. ВИКОРИСТАННЯ ТА ТРАНСПОРТУВАННЯ ГАРНІТУРИ СТАЛИ ЩЕ ЗРУЧНІШИМИ.
+          </p>
+        </div>
+        <picture> 
+          <source media="(min-width:666px)" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.bg_big-hypergang-evo-elite%20(9).webp?_t=1708354963" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.bg_big-hypergang-evo-elite%20(2).webp?_t=1708352350" /> 
+        </picture>
+      </div>
+      <div class="block_rigth">
+        <div class="block_rigth_text">
+          <p>З&rsquo;ЄМНИЙ ВИСОКОЧУТЛИВИЙ МІКРОФОН З ЧУДОВИМ РІВНЕМ ПЕРЕДАЧІ ГОЛОСУ ПРЕКРАСНО ПІДІЙДЕ ЯК ДЛЯ ІГОР, ТАК І ДЛЯ СТРІМІНГУ.
+          </p>
+        </div>
+        <picture> 
+          <source media="(min-width:666px)" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.bg_big-hypergang-evo-elite%20(10).webp?_t=1708354963" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.bg_big-hypergang-evo-elite%20(4).webp?_t=1708352350" /> 
+        </picture>
+      </div>
+      <div class="block_rigth">
+        <div class="block_rigth_text ">
+          <p>ДВА ТИПИ АМБУШЮР У КОМПЛЕКТІ: НАДІЙНА PU-ШКІРА ДЛЯ ЧУДОВОЇ ШУМОІЗОЛЯЦІЇ, М&rsquo;ЯКА ТКАНИНА ДЛЯ МАКСИМАЛЬНОГО КОМФОРТУ. ВИБІР ЗА ВАМИ.
+          </p>
+        </div>
+        <picture> 
+          <source media="(min-width:666px)" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.bg_big-hypergang-evo-elite%20(11).webp?_t=1708354963" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.bg_big-hypergang-evo-elite%20(5).webp?_t=1708352350" /> 
+        </picture>
+      </div>
+      <div class="block_rigth">
+        <div class="block_rigth_text">
+          <p>КОМПЛЕКТ ПОСТАВКИ ГАРНІТУРИ МІСТИТЬ ВСЕ, ЩО МОЖЕ ЗНАДОБИТИСЯ ПРИ РІЗНИХ СЦЕНАРІЯХ ВИКОРИСТАННЯ.
+          </p>
+        </div>
+        <picture> 
+          <source media="(min-width:666px)" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.bg_big-hypergang-evo-elite%20(12).webp?_t=1708354963" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.bg_big-hypergang-evo-elite%20(6).webp?_t=1708352350" /> 
+        </picture>
+      </div>
+    </section>
+    
+    <!--  --> 
+    <div class="big_img">
+      <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/706221/opt.video.webp?_t=1708334425" /> <!--  -->
+      <div class="big_img_block"></div>
+    </div>
+    <section class="features">
+      <div class="features_block">
+        <h2>ХАРАКТЕРИСТИКИ
+        </h2>
+      </div>
+      <div class="features_block">
+        <h3>Навушники
+        </h3>
+        <div class="features_items">
+          <p class="serif">Динаміки:
+          </p>
+          <p>53 мм з неодимовим магнітом
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Діапазон частот:
+          </p>
+          <p>20 Гц to 20 кГц
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Опір:
+          </p>
+          <p>64&Omega; +/- 15%
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Чутливість:
+          </p>
+          <p>110dB +/- 3дБ
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Максимальна потужність:
+          </p>
+          <p>30мВт
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Робоча напруга:
+          </p>
+          <p>&le; 80 мA
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Довжина кабелю:
+          </p>
+          <p>1 м
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Довжина кабелю перехідника:
+          </p>
+          <p>20 cм
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Роз&rsquo;єм підключення:
+          </p>
+          <p>3,5 мм суміщений (навушники і мікрофон)
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Вага:
+          </p>
+          <p>295 г.
+          </p>
+        </div>
+      </div>
+      <div class="features_block">
+        <h3>Мікрофон
+        </h3>
+        <div class="features_items">
+          <p class="serif">Діапазон частот:
+          </p>
+          <p>100 Гц &ndash; 10 кГц
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Співвідношення Сигнал/Шум:
+          </p>
+          <p>64дБ
+          </p>
+        </div>
+        <div class="features_items">
+          <p class="serif">Чутливість:
+          </p>
+          <p>-42 +/- 3дБ
+          </p>
+        </div>
+      </div>
+      <div class="features_block">
+        <h3>Комплектація
+        </h3>
+        <div class="features_items_last">
+          <p>Гарнітура HATOR Hypergang EVO Elite
+          </p>
+        </div>
+        <div class="features_items_last">
+          <p>Аудіо кабель довжиною 1 м. з роз&rsquo;ємом 3,5 мм.
+          </p>
+        </div>
+        <div class="features_items_last">
+          <p>Аудіо кабель для ПК довжиною 2 м. з окремими роз&rsquo;ємами для аудіо та мікрофону
+          </p>
+        </div>
+        <div class="features_items_last">
+          <p>Кабель перехідник &ndash; адаптер аудіо/мікрофон
+          </p>
+        </div>
+        <div class="features_items_last">
+          <p>Чохол для зберігання
+          </p>
+        </div>
+        <div class="features_items_last">
+          <p>Додатковий комплект тканинних амбушур з піни з ефектом пам&rsquo;яті
+          </p>
+        </div>
+        <div class="features_items_last">
+          <p>Інструкція
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+</body>
+</html>

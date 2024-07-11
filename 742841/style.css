@@ -1,0 +1,660 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .LG_cleaner img {
+      margin: 0;
+    }
+    .LG_cleaner .description {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+
+    .LG_cleaner .notes {
+      font-size: 12px;
+    }
+    .LG_cleaner .title {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 8px;
+    }
+    .LG_cleaner h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .LG_cleaner ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .LG_cleaner ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .LG_cleaner {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .LG_cleaner ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .LG_cleaner ul li {
+      padding: 0;
+    }
+    .LG_cleaner div {
+      padding: 0;
+    }
+    div.LG_cleaner {
+      padding: 0;
+    }
+    .LG_cleaner br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .LG_cleaner{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .LG_cleaner img{
+      width: 100%;
+      display: block;
+    }
+    /* lg_home */
+    .LG_cleaner .lg_home{
+      position: relative;
+      background: #000000;
+    }
+    .LG_cleaner .lg_home .description,
+    .LG_cleaner .lg_home .title{
+      color: #fff;
+    }
+    .LG_cleaner .lg_home .lg_home_text{
+      padding: 40px 16px 32px;
+    }
+    .LG_cleaner .lg_home .lg_home_notes{
+      padding: 24px 16px;
+    }
+    .LG_cleaner  .lg_home .title{
+      padding-right: 40px;
+      margin-bottom: 16px;
+    }
+    @media screen and (min-width:666px) {
+
+      .LG_cleaner .lg_home .lg_home_text{
+        position: absolute;
+        width: 283px;
+        padding: 0;
+        left:40px;
+        top: 40%;
+        transform: translate(0%,-50%);
+      }
+      .LG_cleaner .title {
+        font-size: 24px;
+        margin-bottom: 8px;
+      }
+      .LG_cleaner .lg_home .lg_home_notes{
+        padding: 24px 35px 24px 40px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .LG_cleaner .lg_home .lg_home_text{
+        width: 367px;
+        left:60px;
+      }
+      .LG_cleaner .title {
+        font-size: 28px;
+        margin-bottom: 16px;
+      }
+      .LG_cleaner .description{
+        font-size: 16px;
+      }
+      .LG_cleaner .lg_home .lg_home_notes{
+        padding: 24px 60px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .LG_cleaner .lg_home .lg_home_text{
+        width: 459px;
+        left:80px;
+      }
+      .LG_cleaner  .lg_home .title{
+        padding-right: 0px;
+      }
+      .LG_cleaner .description{
+        font-size: 18px;
+      }
+      .LG_cleaner .title {
+        font-size: 38px;
+        margin-bottom: 18px;
+      }
+      .LG_cleaner .lg_home .lg_home_notes{
+        padding: 24px 80px;
+      }
+      .LG_cleaner .notes{
+        font-size: 14px;
+      }
+    }
+
+    /* kompressor */
+
+    .LG_cleaner .kompressor{
+        padding: 24px 16px;
+        text-align: center;
+        position: relative;
+    }
+
+    .LG_cleaner .kompressor .kompressor_notes{
+        position: absolute;
+        bottom: 5px;
+        left: 16px;
+    }
+
+    @media screen and (min-width:666px) {
+
+        .LG_cleaner .kompressor{
+            display: grid;
+            align-items: center;
+            gap: 32px;
+            padding: 32px 40px;
+            grid-template-columns: 1fr 1.4fr;
+        }
+        .LG_cleaner .kompressor .kompressor_text{
+            grid-column-start: 2;
+            text-align: left;
+            grid-row-start: 1;
+
+        }
+        .LG_cleaner .kompressor .kompressor_notes{
+            bottom: 30px;
+            left: 40px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+
+        .LG_cleaner .kompressor{
+            padding: 32px 64px;
+            grid-template-columns: 1fr 1fr;
+        }
+        .LG_cleaner .kompressor .kompressor_notes{
+            bottom: 25px;
+            left: 64px;
+        }
+        .LG_cleaner .notes {
+            font-size: 14px;
+          }
+    }
+
+    @media screen and (min-width:1366px) {
+
+        .LG_cleaner .kompressor{
+            padding: 40px 80px;
+            gap: 40px;
+            grid-template-columns: 1fr 1fr;
+        }
+        .LG_cleaner .kompressor .title{
+            padding-right: 30px;
+
+        }
+        .LG_cleaner .kompressor .kompressor_notes{
+            bottom: 35px;
+            left: 80px;
+        }
+        .LG_cleaner .kompressor .notes{
+            font-size: 18px;
+        }
+        .LG_cleaner .notes {
+            font-size: 14px;
+          }
+    }
+
+    /* saving_you_time */
+
+    .LG_cleaner .saving_you_time{
+        display: grid;
+        gap: 26px;
+        padding: 24px 16px;
+        text-align: center;
+    }
+
+    .LG_cleaner .saving_you_time .saving_you_time_block{
+        display: grid;
+        gap: 32px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .LG_cleaner .saving_you_time{
+            padding: 32px 40px;
+            gap: 0;
+        }
+        .LG_cleaner .saving_you_time .saving_you_time_block{
+            grid-template-columns: 1.6fr 1fr;
+            align-items: center;
+            text-align: left;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .LG_cleaner .saving_you_time{
+            padding: 32px 64px;
+        }
+        .LG_cleaner .saving_you_time .saving_you_time_block{
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .LG_cleaner .saving_you_time{
+            padding: 40px 80px;
+        }
+        .LG_cleaner .saving_you_time .saving_you_time_block{
+            grid-template-columns: 1fr 1.06fr;
+            gap: 0px;
+        }
+        .LG_cleaner .saving_you_time  .saving_you_time_text{
+            padding-right: 40px;
+        }
+        
+    }
+
+    /* layer_filtration */
+
+    .LG_cleaner .layer_filtration{
+        padding: 24px 16px;
+        text-align: center;
+        display: grid;
+        gap: 24px;
+    }
+
+    @media screen and (min-width:666px) {
+        .LG_cleaner .layer_filtration{
+            padding: 32px 40px;
+            gap: 24px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .LG_cleaner .layer_filtration{
+            padding: 32px 64px;
+            gap: 24px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .LG_cleaner .layer_filtration{
+            padding: 40px 80px;
+            gap: 40px;
+        }
+        .LG_cleaner .layer_filtration .layer_filtration_text{
+            padding: 0 40px;
+        }
+    }
+    /* view */
+
+    .LG_cleaner .view{
+        padding: 24px 16px;
+        display: grid;
+        gap: 16px;
+    }
+    .LG_cleaner .view .view_text{
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    @media screen and (min-width:666px) {
+        .LG_cleaner .view{
+            padding: 32px 40px;
+        }
+        .LG_cleaner .view .description{
+            font-size: 16px;
+
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .LG_cleaner .view{
+            padding: 32px 64px;
+            gap: 32px;
+        }
+        .LG_cleaner .view .description{
+            font-size: 20px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .LG_cleaner .view{
+            padding: 40px 80px;
+            gap: 40px;
+        }
+        .LG_cleaner .view .description{
+            font-size: 24px;
+        }
+    }
+    /* control  */
+
+    .LG_cleaner .control{
+        text-align: center;
+        padding: 24px 0;
+        display: grid;
+        gap: 24px;
+    }
+    .LG_cleaner .control .control_text,
+    .LG_cleaner .control .control_notes{
+        padding: 0 40px;
+    }
+
+
+
+    @media screen and (min-width:666px) {
+        .LG_cleaner .control{
+            padding: 32px 0;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .LG_cleaner .control{
+            padding: 32px 0;
+        }
+        .LG_cleaner .control .control_text,
+        .LG_cleaner .control .control_notes{
+            padding: 0 50px;
+        }
+    } 
+
+    @media screen and (min-width:1366px) {
+        .LG_cleaner .control{
+            padding: 40px 0;
+            gap: 40px;
+        }
+        .LG_cleaner .control .control_text{
+            padding: 0 50px;
+        }
+        .LG_cleaner .control .control_notes{
+            padding: 0 70px;
+        }
+    } 
+
+
+    /* telescopic_tube */
+
+    .LG_cleaner .telescopic_tube{
+        text-align: center;
+        display: grid;
+        gap: 24px;
+        padding: 24px 0;
+    }
+    .LG_cleaner .telescopic_tube .telescopic_tube_block{
+        display: grid;
+        position: relative;
+        gap: 24px;
+    }
+
+    .LG_cleaner .telescopic_tube .telescopic_tube_text{
+        padding: 0 16px;
+    }
+    .LG_cleaner .telescopic_tube .telescopic_tube_notes{
+        padding: 0 16px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .LG_cleaner .telescopic_tube .telescopic_tube_text{
+            position: absolute;
+            padding: 0;
+            text-align: left;
+            width: 274px;
+            right: 40px;
+            top: 50%;
+            transform: translate(0, -50%);
+        }
+        .LG_cleaner .telescopic_tube .telescopic_tube_notes{
+            padding: 0 40px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .LG_cleaner .telescopic_tube{
+            padding: 32px 0;
+            gap: 24px;
+        }
+        .LG_cleaner .telescopic_tube .telescopic_tube_text{
+            width: 367px;
+            right: 64px;
+        }
+        .LG_cleaner .telescopic_tube .telescopic_tube_notes{
+            padding: 0 64px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .LG_cleaner .telescopic_tube{
+            padding: 40px 0;
+            gap: 40px;
+        }
+        .LG_cleaner .telescopic_tube .telescopic_tube_text{
+            width: 503px;
+            right: 80px;
+        }
+        .LG_cleaner .telescopic_tube .telescopic_tube_notes{
+            padding: 0 80px;
+        }
+    }
+
+
+/* easy_clean */
+
+.LG_cleaner .easy_clean{
+    display: grid;
+    text-align: center;
+    gap: 32px;
+    padding: 24px 16px 24px;
+}
+@media screen and (min-width:666px) {
+    .LG_cleaner .easy_clean{
+        grid-template-columns: 1.5fr 1fr;
+        align-items: center;
+        text-align: left;
+         padding: 32px 40px 0;
+    }
+}
+@media screen and (min-width:1024px) {
+    .LG_cleaner .easy_clean{
+        grid-template-columns: 1fr 1fr;
+         padding: 32px 64px 0;
+    }
+}
+@media screen and (min-width:1366px) {
+    .LG_cleaner .easy_clean{
+        grid-template-columns: 1fr 1fr;
+         padding: 40px 80px 0;
+         gap: 40px;
+    }
+}
+
+
+/* powerful_reliable */
+
+.LG_cleaner .powerful_reliable{
+    padding: 24px 0;
+    text-align: center;
+    display: grid;
+    gap: 24px;
+}
+.LG_cleaner .powerful_reliable .powerful_reliable_text,
+.LG_cleaner .powerful_reliable  .powerful_reliable_notes{
+    padding: 0 16px;
+}
+
+.LG_cleaner .powerful_reliable .powerful_reliable_block{
+    display: grid;
+    gap: 10px;
+}
+
+@media screen and (min-width:666px) {
+   
+    .LG_cleaner .powerful_reliable{
+        padding: 0 0 32px;
+    }
+    .LG_cleaner .powerful_reliable .powerful_reliable_block{
+        position: relative;
+    }
+    .LG_cleaner .powerful_reliable .powerful_reliable_text{
+        padding: 0;
+        text-align: left;
+        width: 274px;
+        position: absolute;
+        right: 32px;
+        top: 50%;
+        transform: translate(0%,-50%);
+    }
+    .LG_cleaner .powerful_reliable  .powerful_reliable_notes{
+        padding: 0 40px;
+
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .LG_cleaner .powerful_reliable .powerful_reliable_text{
+        width: 357px;
+        right: 32px;
+    }
+    .LG_cleaner .powerful_reliable  .powerful_reliable_notes{
+        padding: 0 40px;
+    }
+}
+@media screen and (min-width:1366px) {
+    .LG_cleaner .powerful_reliable{
+        padding: 0 0 40px;
+        gap: 40px;
+    }
+    .LG_cleaner .powerful_reliable .powerful_reliable_text{
+        width: 503px;
+        right: 80px;
+    }
+    .LG_cleaner .powerful_reliable  .powerful_reliable_notes{
+        padding: 0 160px;
+    }
+}
+
+/* accessories */
+
+.LG_cleaner .accessories{
+    padding: 40px 16px;
+    text-align: center;
+    display: grid;
+    gap: 16px;
+}
+
+.LG_cleaner .accessories .accessories_block{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "a b"
+    "c c";
+}
+.LG_cleaner .accessories .accessories_block .accessorie_item{
+    display: grid;
+    gap: 16px;
+}
+.LG_cleaner .accessories .accessories_block .accessorie_item:last-child{
+    grid-area: c;
+    padding: 0 85px;
+
+
+}
+
+
+
+@media screen and (min-width:666px) {
+    .LG_cleaner .accessories{
+        padding: 40px;
+    }
+    .LG_cleaner .accessories .accessories_block{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas:  "a b c";
+        align-items: start;
+    }
+    .LG_cleaner .accessories .accessories_block .accessorie_item:last-child{
+        padding: 0px;
+    }
+    .LG_cleaner .accessories .accessories_block .description{
+        padding:0 9px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .LG_cleaner .accessories{
+        padding: 40px 64px;
+        gap: 24px;
+    }
+    .LG_cleaner .accessories .accessories_block{
+        gap: 24px;
+    }
+    .LG_cleaner .accessories .accessories_block .description{
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .LG_cleaner .accessories{
+        padding: 40px;
+        gap: 40px;
+    }
+    .LG_cleaner .accessories .accessories_block{
+        gap: 40px;
+    }
+}
+
+
+/* last_block */
+
+.LG_cleaner .last_block{
+    padding: 40px 32px;
+}
+
+
+@media screen and (min-width:666px) {
+    .LG_cleaner .last_block{
+        padding: 40px 40px 0
+    }
+}
+@media screen and (min-width:1024px) {
+    .LG_cleaner .last_block{
+        padding: 40px 64px 0;
+    }
+}
+@media screen and (min-width:1366px) {
+    .LG_cleaner .last_block{
+        padding: 50px 80px 0;
+    }
+}
+
+

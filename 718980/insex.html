@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .aima-a700 img {
+      margin: 0;
+    }
+    .aima-a700 p {
+      padding: 0;
+      margin: 0;
+      line-height: normal;
+    }
+    .aima-a700 ul li {
+      line-height: 150%;
+      font-size: inherit;
+    }
+    .aima-a700 {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .aima-a700 ul {
+      padding: 0;
+    }
+    .aima-a700 ul li {
+      padding: 0;
+    }
+    .aima-a700 div {
+      padding: 0;
+    }
+    /* container ------------------------------------------------ */
+    .aima-a700 .container {
+      margin: auto;
+      width: calc(100% - 32px);
+    }
+    @media (min-width: 768px) {
+      .aima-a700 .container {
+        width: calc(100% - 80px);
+      }
+    }
+    @media (min-width: 1024px) {
+      .aima-a700 .container {
+        width: calc(100% - 128px);
+      }
+    }
+    @media (min-width: 1366px) {
+      .aima-a700 .container {
+        width: calc(100% - 160px);
+      }
+    }
+    /* title --------------------------------------------------- */
+    .aima-a700 .title {
+      font-size: 20px;
+      line-height: 130%;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: #fff;
+      letter-spacing: 0.2px;
+    }
+    @media (min-width: 768px) {
+      .aima-a700 .title {
+        font-size: 24px;
+        letter-spacing: 0.24px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .aima-a700 .title {
+        font-size: 28px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .aima-a700 .title {
+        font-size: 38px;
+      }
+    }
+    /* description ------------------------------------- */
+    .aima-a700 .description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: #fff;
+    }
+    @media (min-width: 1366px) {
+      .aima-a700 .description {
+        font-size: 18px;
+      }
+    }
+    .aima-a700 .text-white {
+      color: #ffff;
+    }
+    .aima-a700 .text-black {
+      color: rgba(0, 0, 0, 0.70);
+    }
+    .aima-a700 .text-brown {
+      color: #CCB192;
+    }
+    /* banner ======================================================== */
+    .aima-a700 .banner {
+      background: radial-gradient(138.47% 81.22% at 33.09% 53.96%, #CDBBA8 0%, #524432 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 24px 16px;
+      position: relative;
+    }
+    .aima-a700 .banner__img {
+      width: 328px;
+      z-index: 2;
+      position: relative;
+    }
+    .aima-a700 .banner__logo {
+      width: 316px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .aima-a700 .banner__subtitle {
+      color: #FFF;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      margin-bottom: 16px;
+    }
+    @media (min-width: 768px) {
+      .aima-a700 .banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        padding: 24px 40px;
+        position: relative;
+      }
+      .aima-a700 .banner__img {
+        width: 235px;
+        position: relative;
+      }
+      .aima-a700 .banner__content {
+        width: 373px;
+      }
+      .aima-a700 .banner__logo {
+        width: 353px;
+        position: absolute;
+        top: 0;
+        left: -60px;
+      }
+      .aima-a700 .banner__title {
+        width: 50%;
+      }
+      .aima-a700 .banner__subtitle {
+        font-size: 18px;
+        line-height: 130%;
+        margin-bottom: 16px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .aima-a700 .banner {
+        gap: 32px;
+        padding: 24px 64px;
+        position: relative;
+      }
+      .aima-a700 .banner__img {
+        width: 408px;
+        position: relative;
+      }
+      .aima-a700 .banner__content {
+        width: 408px;
+      }
+      .aima-a700 .banner__logo {
+        width: 402px;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .aima-a700 .banner__title {
+        width: 50%;
+      }
+      .aima-a700 .banner__subtitle {
+        font-size: 18px;
+        line-height: 130%;
+        margin-bottom: 16px;
+        width: 90%;
+      }
+    }
+    @media (min-width: 1366px) {
+      .aima-a700 .banner {
+        gap: 40px;
+        padding: 40px 80px;
+        position: relative;
+      }
+      .aima-a700 .banner__img {
+        width: 628px;
+        position: relative;
+      }
+      .aima-a700 .banner__content {
+        width: 538px;
+      }
+      .aima-a700 .banner__logo {
+        width: 607px;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .aima-a700 .banner__title {
+        width: 50%;
+      }
+      .aima-a700 .banner__subtitle {
+        font-size: 22px;
+        line-height: 130%;
+        margin-bottom: 18px;
+        width: 85%;
+      }
+    }
+    /* props ================================================================= */
+    .aima-a700 .props {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      gap: 16px;
+    }
+    .aima-a700 .props__img {
+      width: 270px;
+    }
+    .aima-a700 .props__content {
+      padding: 40px 16px;
+    }
+    .aima-a700 .props__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .aima-a700 .props__item {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 8px;
+    }
+    .aima-a700 .props__svg {
+      width: 64px;
+      height: 64px !important;
+    }
+    .aima-a700 .props__title {
+      color: rgba(0, 0, 0, 0.70);
+      text-align: center;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      /* 21px */ 
+    }
+    .aima-a700 .props__description {
+      color: rgba(0, 0, 0, 0.70);
+      text-align: center;
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      /* 21px */ 
+    }
+    @media (min-width: 768px) {
+      .aima-a700 .props {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 32px;
+      }
+      .aima-a700 .props__img {
+        width: 233px;
+      }
+      .aima-a700 .props__content {
+        padding: 40px 0 40px 40px;
+      }
+      .aima-a700 .props__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+      }
+      .aima-a700 .props__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+      }
+      .aima-a700 .props__svg {
+        width: 48px;
+        height: 48px !important;
+      }
+    }
+    @media (min-width: 1024px) {
+      .aima-a700 .props {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 32px;
+      }
+      .aima-a700 .props__img {
+        width: 254px;
+      }
+      .aima-a700 .props__content {
+        padding: 64px 0 64px 64px;
+      }
+      .aima-a700 .props__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 22px;
+      }
+      .aima-a700 .props__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+      }
+      .aima-a700 .props__svg {
+        width: 64px;
+        height: 64px !important;
+      }
+    }
+    @media (min-width: 1366px) {
+      .aima-a700 .props {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 40px;
+        margin-top: -15px;
+      }
+      .aima-a700 .props__img {
+        width: 415px;
+      }
+      .aima-a700 .props__content {
+        padding: 160px 0 160px 80px;
+      }
+      .aima-a700 .props__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 32px;
+      }
+      .aima-a700 .props__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+      }
+      .aima-a700 .props__svg {
+        width: 80px;
+        height: 80px !important;
+      }
+      .aima-a700 .props__title {
+        font-size: 18px;
+      }
+      .aima-a700 .props__description {
+        font-size: 18px;
+      }
+    }
+    /* style ================================================== */
+    .aima-a700 .style {
+      padding: 0;
+      justify-content: space-between;
+    }
+    .aima-a700 .style__content {
+      padding: 24px 16px 0 16px;
+    }
+    .aima-a700 .style__title {
+      width: 100%;
+    }
+    .aima-a700 .style__image {
+      position: relative;
+      margin-bottom: 16px;
+    }
+    .aima-a700 .style__img {
+      width: 100%;
+    }
+    .aima-a700 .style__logo {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    @media (min-width: 768px) {
+      .aima-a700 .style {
+        padding: 0;
+      }
+      .aima-a700 .style__content {
+        padding: 24px 0 24px 40px;
+        width: 130%;
+      }
+      .aima-a700 .style__image {
+        position: relative;
+        margin-bottom: 0;
+      }
+      .aima-a700 .style__img {
+        margin: 24px 0 0 0;
+      }
+      .aima-a700 .style__logo {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+    @media (min-width: 1024px) {
+      .aima-a700 .style {
+        padding: 0;
+      }
+      .aima-a700 .style__content {
+        padding: 24px 0 24px 64px;
+        width: 65%;
+      }
+      .aima-a700 .style__image {
+        position: relative;
+        margin-bottom: 0;
+      }
+      .aima-a700 .style__img {
+        margin: 24px 0 0 0;
+        width: 90%;
+      }
+    }
+    @media (min-width: 1366px) {
+      .aima-a700 .style {
+        padding: 0;
+      }
+      .aima-a700 .style__content {
+        padding: 30px 0 30px 80px;
+        width: 47%;
+      }
+      .aima-a700 .style__image {
+        position: relative;
+        margin-bottom: 0;
+      }
+      .aima-a700 .style__img {
+        margin: 30px 0 0 0;
+        width: 90%;
+      }
+    }
+    /* light ====================================== */
+    .aima-a700 .light {
+      flex-direction: column-reverse;
+      padding-bottom: 24px;
+      position: relative;
+    }
+    .aima-a700 .light__content {
+      padding: 0 16px;
+    }
+    .aima-a700 .light__logo {
+      position: absolute;
+      top: 0;
+      right: -50%;
+      height: 571px !important;
+    }
+    .aima-a700 .light__image {
+      margin-bottom: 0;
+    }
+    .aima-a700 .light__img {
+      width: 328px;
+    }
+    .aima-a700 .light__content {
+      margin-bottom: 0;
+    }
+    @media (min-width: 768px) {
+      .aima-a700 .light {
+        flex-direction: row;
+        padding-bottom: 24px;
+        position: relative;
+      }
+      .aima-a700 .light__logo {
+        position: absolute;
+        top: 0;
+        right: -5%;
+        width: 290px;
+        height: auto !important;
+      }
+      .aima-a700 .light__content {
+        padding: 0 0 0 40px;
+      }
+      .aima-a700 .light__img {
+        width: 100%;
+      }
+    }
+    @media (min-width: 1024px) {
+      .aima-a700 .light {
+        flex-direction: row;
+        padding-bottom: 0;
+        position: relative;
+      }
+      .aima-a700 .light__logo {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 450px;
+      }
+      .aima-a700 .light__content {
+        padding: 0 0 0 64px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .aima-a700 .light__logo {
+        position: absolute;
+        top: 0px;
+        right: 0%;
+        width: 560px;
+      }
+      .aima-a700 .light__content {
+        padding: 0 0 0 80px;
+      }
+      .aima-a700 .light__logo {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 610px;
+      }
+    }
+    /* block-white =================================== */
+    .aima-a700 .block-white {
+      padding: 40px 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+      background: #fff;
+    }
+    .aima-a700 .block-white__title {
+      text-align: left;
+      width: 70%;
+    }
+    .aima-a700 .block-white__description {
+      text-align: left;
+    }
+    .aima-a700 .block-white__img {
+      width: 100%;
+    }
+    @media (min-width: 768px) {
+      .aima-a700 .block-white {
+        padding: 40px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+      }
+      .aima-a700 .block-white__img {
+        width: 38%;
+      }
+    }
+    @media (min-width: 1024px) {
+      .aima-a700 .block-white {
+        padding: 24px 64px;
+      }
+      .aima-a700 .block-white__img {
+        width: 52%;
+      }
+      .aima-a700 .block-white__title {
+        text-align: left;
+        width: 80%;
+      }
+    }
+    @media (min-width: 1366px) {
+      .aima-a700 .block-white {
+        padding: 50px 80px;
+      }
+    }
+    /* display ==================================================  */
+    .aima-a700 .display {
+      background: #F8F8F8;
+      padding: 32px 16px 0 16px;
+    }
+    .aima-a700 .display__title {
+      width: 100%;
+    }
+    @media (min-width: 768px) {
+      .aima-a700 .display {
+        padding: 40px 0 40px 40px;
+        flex-direction: row;
+      }
+      .aima-a700 .display__title {
+        width: 100%;
+      }
+      .aima-a700 .display__img {
+        width: 42%;
+      }
+    }
+    @media (min-width: 1024px) {
+      .aima-a700 .display {
+        padding: 40px 64px;
+        flex-direction: row;
+      }
+      .aima-a700 .display__title {
+        width: 100%;
+      }
+      .aima-a700 .display__img {
+        width: 48%;
+      }
+    }
+    @media (min-width: 1366px) {
+      .aima-a700 .display {
+        padding: 50px 80px;
+        flex-direction: row;
+        gap: 40px;
+      }
+      .aima-a700 .display__title {
+        width: 100%;
+      }
+      .aima-a700 .display__img {
+        width: 48%;
+      }
+    }
+    /* functions ========================================== */
+    .aima-a700 .functions__title {
+      width: 60%;
+    }
+    @media (min-width: 1024px) {
+      .aima-a700 .functions__title {
+        width: 70%;
+      }
+    }
+    @media (min-width: 1024px) {
+      .aima-a700 .conscience {
+        padding: 40px 64px 0 64px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .aima-a700 .conscience {
+        padding: 50px 80px 0 80px;
+      }
+    }
+    /* brakes ===============================================================*/
+    .aima-a700 .brakes {
+      padding: 0 0 32px 0;
+    }
+    .aima-a700 .brakes__content {
+      padding: 0 16px;
+    }
+    @media (min-width: 768px) {
+      .aima-a700 .brakes {
+        padding: 0 40px 0 0;
+        flex-direction: row;
+      }
+    }
+    @media (min-width: 1024px) {
+      .aima-a700 .brakes {
+        padding: 0 64px 0 0;
+      }
+      .aima-a700 .brakes__img {
+        width: 45%;
+      }
+    }
+    /* quality ================================ */
+    .aima-a700 .quality {
+      padding: 40px 0 0 0;
+      align-items: flex-start;
+    }
+    .aima-a700 .quality__img {
+      width: 90%;
+    }
+    @media (min-width: 768px) {
+      .aima-a700 .quality {
+        padding: 0 40px 0 0;
+        align-items: center;
+        flex-direction: row-reverse;
+      }
+      .aima-a700 .quality__img {
+        width: 245px;
+      }
+    }
+    @media (min-width: 1024px) {
+      .aima-a700 .quality {
+        padding: 0 64px 0 0;
+        align-items: center;
+        flex-direction: row-reverse;
+      }
+      .aima-a700 .quality__img {
+        width: 370px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .aima-a700 .quality {
+        padding: 0 64px 0 0;
+        align-items: center;
+        flex-direction: row-reverse;
+      }
+      .aima-a700 .quality__img {
+        width: 545px;
+      }
+    }
+
+    /* energy_efficiency ================================ */
+
+    .aima-a700 .energy_efficiency{
+        background:radial-gradient(71.41% 136.55% at -0.62% 0%, #887966 0%, #2E261C 100%);
+        display: grid;
+        gap: 16px;
+        position: relative;
+        padding: 40px 16px 0;
+    }
+    .aima-a700 .energy_efficiency img{
+        width: 100%;
+    }
+
+
+    @media (min-width: 768px) {
+        body{
+            padding: 0 24px;
+        }
+        .aima-a700 .energy_efficiency{
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            padding: 40px 0 40px 40px;
+            gap: 32px;
+        }
+    }
+    @media (min-width: 1024px) {
+        .aima-a700 .energy_efficiency{
+            padding: 40px 64px;
+        }
+    }
+    @media (min-width: 1366px) {
+        .aima-a700 .energy_efficiency{
+            padding: 50px 80px;
+            gap: 40px;
+        }
+    }
+    </style>
+    <div class="aima-a700">
+        <div class="banner">
+          <div class="banner__image"><img alt="banner__img" class="banner__img" src="https://i.citrus.world/uploads/promo/aima-a700/banner__img.png?_t=1690640610" /> <img alt="banner__logo" class="banner__logo" src="https://i.citrus.world/uploads/promo/aima-a700/banner__logo.png?_t=1690640609" />
+          </div>
+          <div class="banner__content">
+            <p class="banner__title title">Електроскутер AIMA A700
+            </p>
+            <p class="banner__subtitle">Міський стиляга з відмінною автономністю та розумним управлінням
+            </p>
+            <p class="banner__description description">AIMA A700 &ndash; це стильний сучасний електроскутер з відмінною функціональністю та естетичним дизайном, що дозволяє легко та швидко пересуватися містом незалежно від часу доби чи завантаженості доріг. Він оснащений потужним мотором та графеновою батареєю великої ємності, перевагами якої є тривалий час автономної роботи та стійкість до перепадів температури. Таке поєднання дозволяє A700 розганятися до 55 км/год та проїжджати на одному заряді до 100 км, забезпечуючи власнику справжню свободу пересування у межах міста. Надійні дискові гальма допомагають краще контролювати скутер на дорозі. Великий дисплей надає всю необхідну інформацію, а інтелектуальна система з NFC робить розблокування набагато простішим та швидшим, що сприяє зручнішій взаємодії з транспортом. Все для того, щоб кожна ваша подорож була справді приємною у всіх сенсах.
+            </p>
+          </div>
+        </div>
+        <div class="props"><img alt="props__img" class="props__img" src="https://i.citrus.world/uploads/promo/aima-a700/props_-img.png?_t=1690640611" />
+          <div class="props__content">
+            <div class="props__container">
+              <div class="props__item"><img alt="props__svg" class="props__svg" src="https://i.citrus.world/uploads/promo/aima-a700/ic_speed.svg?_t=1690696988" />
+                <p class="props__title">Максимальна швидкість
+                </p>
+                <p class="props__description">до 55&nbsp;км/год
+                </p>
+              </div>
+              <div class="props__item"><img alt="props__svg" class="props__svg" src="https://i.citrus.world/uploads/promo/aima-a700/ic_road.svg?_t=1690696989" />
+                <p class="props__title">Запас ходу
+                </p>
+                <p class="props__description">100 км
+                </p>
+              </div>
+              <div class="props__item"><img alt="props__svg" class="props__svg" src="https://i.citrus.world/uploads/promo/aima-a700/ic_sw_width.svg?_t=1690696989" />
+                <p class="props__title">Надійні дискові гальма
+                </p>
+              </div>
+              <div class="props__item"><img alt="props__svg" class="props__svg" src="https://i.citrus.world/uploads/promo/aima-a700/ic_size%20trash.svg?_t=1690696989" />
+                <p class="props__title">Повнокольоровий світлодіодний екран
+                </p>
+              </div>
+              <div class="props__item"><img alt="props__svg" class="props__svg" src="https://i.citrus.world/uploads/promo/aima-a700/ic_nfc.svg?_t=1690696989" />
+                <p class="props__title">Розумна система NFC
+                </p>
+              </div>
+              <div class="props__item"><img alt="props__svg" class="props__svg" src="https://i.citrus.world/uploads/promo/aima-a700/ic_scooter.svg?_t=1690696988" />
+                <p class="props__title">Подовжене зручне сидіння
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner style">
+          <div class="banner__content style__content">
+            <p class="banner__title title style__title">Унікальний стиль
+            </p>
+            <p class="banner__description description">Завдяки своїй вишуканій зовнішності AIMA A700 стане чудовим компаньйоном навіть для найвибагливіших модників. Цей електроскутер виділяється серед інших своїми квадратними формами та чіткими лініями. А спеціальне оздоблення на деяких деталях, що нагадує алмазне огранювання, створює відчуття розкоші, яке лише посилюється ретельно продуманим дизайном інтер&#39;єру, привносячи багаті деталі до зовнішності цього стильного скутера.
+            </p>
+          </div>
+          <div class="banner__image style__image"><img alt="banner__img" class="banner__img style__img" src="https://i.citrus.world/uploads/promo/aima-a700/style__img.png?_t=1690640610" /> <img alt="banner__logo" class="style__logo" src="https://i.citrus.world/uploads/promo/aima-a700/style__bckgr.png?_t=1690640609" />
+          </div>
+        </div>
+        <div class="compact block-white">
+          <div class="block-white__content">
+            <p class="block-white__title title text-brown">Велика сила у компактному корпусі
+            </p>
+            <p class="block-white__description description text-black">Найбільшою родзинкою цього електроскутера є його потужність та час автономної роботи. Двигун нового покоління AIMA Engine потужністю 1200 Вт відмінно доповнює графеновий акумулятор 72В 38 Аг. Завдяки їм транспорт може легко проїхати до 100 кілометрів* на одному заряді, долати невеликі підйоми та розганятися до 55 км/год. З A700 ви зможете забути про такі проблеми як часта зарядка і короткі поїздки та вільно подорожувати містом.
+            </p>
+          </div>
+          <img alt="compact__img" class="block-white__img" src="https://i.citrus.world/uploads/promo/aima-a700/compact__img.png?_t=1690640610" />
+        </div>
+        <div class="display block-white">
+          <div class="block-white__content">
+            <p class="block-white__title display__title title text-brown">Чіткий та яскравий екран
+            </p>
+            <p class="block-white__description description text-black">Тримайте все під контролем за допомогою кольорового РК-екрана. Він забезпечує чітке відображення інформації про стан скутера та інші параметри, і добре читається при будь-якому освітленні.
+            </p>
+          </div>
+          <img alt="compact__img" class="block-white__img display__img" src="https://i.citrus.world/uploads/promo/aima-a700/display__img.png?_t=1690640611" />
+        </div>
+        <div class="functions block-white">
+          <div class="block-white__content">
+            <p class="block-white__title functions__title title text-brown">Інтелектуальні функції та безпека
+            </p>
+            <p class="block-white__description description text-black">Оснащений модулем NFC та різними розумними функціями, електроскутер AIMA A700 простий в керуванні та підтримує різні методи розблокування. Навіть безконтактні. А його система безпеки дозволить спокійно залишати скутер на парковці та вирушати у своїх справах.
+            </p>
+          </div>
+          <img alt="compact__img" class="block-white__img" src="https://i.citrus.world/uploads/promo/aima-a700/functions__img.png?_t=1690640609" />
+        </div>
+        <div class="banner style light">
+          <div class="banner__content style__content light__content">
+            <p class="banner__title title style__title">Яскраве підсвічування
+            </p>
+            <p class="banner__description description">Впевнено мандруйте у будь-який час доби. Електроскутер AIMA A700 оснащений яскравою передньою фарою, яка створює досить потужний промінь світла та дозволяє краще бачити дорогу перед собою. А великогабаритні задні вогні допоможуть зробити вас добре помітним для інших учасників руху та тримати безпечну дистанцію.
+            </p>
+          </div>
+          <div class="banner__image style__image light__image"><img alt="banner__img" class="banner__img style__img light__img" src="https://i.citrus.world/uploads/promo/aima-a700/lights__img.png?_t=1690640610" />
+          </div>
+          <img alt="banner__logo" class="light__logo" src="https://i.citrus.world/uploads/promo/aima-a700/lights__bckgr.png?_t=1690640610" />
+        </div>
+        <div class="compact brakes block-white"><img alt="brakes__img" class="block-white__img brakes__img" src="https://i.citrus.world/uploads/promo/aima-a700/brakes__img.png?_t=1690640609" />
+          <div class="block-white__content brakes__content">
+            <p class="block-white__title title text-brown">Плавне гальмування
+            </p>
+            <p class="block-white__description description text-black">Система з дисковими гальмами на передньому та задньому колесах забезпечує швидку реакцію транспорту, короткий гальмівний шлях та простоту обслуговування. Завдяки їй ви будете готові до непередбачених ситуацій на дорозі, а ваші поїздки стануть набагато безпечнішими.
+            </p>
+          </div>
+        </div>
+        <div class="display conscience block-white">
+          <div class="block-white__content">
+            <p class="block-white__title display__title title text-brown">Зроблено на совість
+            </p>
+            <p class="block-white__description description text-black">У скутері використана двошарова технологія проводки панелі, яка не тільки акуратна, але й підтримує швидке розбирання та зручніша для обслуговування. А також знижує ризик короткого замикання, подовжує термін служби електричних компонентів скутера та робить керування більш безпечним.
+            </p>
+          </div>
+          <img alt="compact__img" class="block-white__img display__img" src="https://i.citrus.world/uploads/promo/aima-a700/conscience__img.png?_t=1690640610" />
+        </div>
+        <div class="compact brakes quality block-white">
+          <div class="block-white__content brakes__content">
+            <p class="block-white__title title text-brown">Якість у деталях
+            </p>
+            <p class="block-white__description description text-black">Створюючи A700, інженери та дизайнери AIMA постаралися опрацювати кожну його деталь, щоб ваші поїздки були максимально комфортними та безпечними. Так, подовжене сидіння дає більше місця для водія та дозволяє із зручністю перевозити пасажира. Місткий багажник під сидінням дозволить зберігати там шолом або перевозити особисті речі. А широка платформа пропонує більше місця для ніг та більш впевнену посадку.
+            </p>
+          </div>
+          <img alt="brakes__img" class="block-white__img brakes__img quality__img" src="https://i.citrus.world/uploads/promo/aima-a700/quality__img.png?_t=1690640609" />
+        </div>
+        <div class="energy_efficiency">
+            <div class="energy_efficiency_text">
+                <p class="banner__title title">Збільшена енергоефективність</p>
+                <p class="banner__description description">В електроскутері AIMA A700 застосована система рекуперації енергії AIMA Intelligent Technology, завдяки чому можна збільшити запас ходу на 10% і загалом проїжджати до 120 км</p>
+            </div>
+            <div class="energy_efficiency_img">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/718980/opt.im_8.webp?_t=1713950287" alt="">
+            </div>
+        </div>
+      </div>
+    
+</body>
+</html>
+
+ 

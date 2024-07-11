@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,600;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .protect img {
+      margin: 0;
+    }
+    .protect p {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .protect h3 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 8px;
+    }
+    .protect h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .protect ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .protect ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .protect {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .protect ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .protect ul li {
+      padding: 0;
+    }
+    .protect div {
+      padding: 0;
+    }
+    div.protect {
+      padding: 0;
+    }
+    .protect br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .protect{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .protect img{
+      width: 100%;
+      display: block;
+    }
+
+    .protect .leaks .leaks_text{
+        padding: 32px 16px;
+        text-align: center;
+    }
+    @media screen and (min-width:666px) {
+
+        .protect h3{
+            font-size: 28px;
+            margin-bottom: 16px;
+        }
+        .protect .leaks .leaks_text{
+            padding: 48px 40px;        
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .protect h3{
+            font-size: 38px;
+        }
+        .protect p{
+            font-size: 16px;
+        }
+        .protect .leaks .leaks_text{
+            padding: 56px 48px;        
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .protect h3{
+            font-size: 50px;
+            margin-bottom: 24px;
+        }
+        .protect p{
+            font-size: 18px;
+        }
+        .protect .leaks .leaks_text{
+            padding: 80px 283px;        
+        }
+    }
+
+    /* constant_monitoring */
+
+    .protect .constant_monitoring .constant_monitoring_text{
+        padding: 32px 16px;
+        text-align: center;
+    }
+
+    .protect .constant_monitoring .deck{
+        display: none;
+    }
+
+    @media screen and (min-width:666px) {
+        .protect .constant_monitoring .constant_monitoring_text{
+            padding: 48px 40px;
+            text-align: center;
+        }
+        .protect .constant_monitoring .deck{
+            display: block;
+        }
+        .protect .constant_monitoring .mob{
+            display: none;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .protect .constant_monitoring .constant_monitoring_text{
+            padding: 56px 88px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .protect .constant_monitoring .constant_monitoring_text{
+            padding: 80px 64px;
+        }
+        .protect .constant_monitoring .constant_monitoring_text p{
+            padding: 0 180px;
+        }
+    }
+
+    /* risk_flooding */
+
+    .protect .risk_flooding{
+        padding: 32px 16px;
+        display: grid;
+        gap: 24px;
+        text-align: center;
+    }
+
+    .protect .risk_flooding .risk_flooding_puzle{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 8px;
+    }
+
+    .protect .risk_flooding .risk_flooding_items{
+        position: relative
+    }
+    .protect .risk_flooding .risk_flooding_items p{
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        color: #fff;
+        text-align: left;
+        font-weight: 500;
+    }
+    .protect .risk_flooding img{
+        border-radius: 16px;
+    }
+
+    @media screen and (min-width:666px) {
+        .protect .risk_flooding{
+            padding: 48px 40px;
+        }
+        .protect .risk_flooding .risk_flooding_puzle{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 8px;
+        }
+        .protect .risk_flooding .risk_flooding_items p{
+            bottom: 16px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .protect .risk_flooding{
+            padding: 56px 48px;
+        }
+        .protect .risk_flooding .risk_flooding_puzle{
+            gap: 12px;
+        }
+        .protect .risk_flooding .risk_flooding_items p{
+            bottom: 24px;
+            left: 24px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .protect .risk_flooding{
+            padding: 80px 64px;
+        }
+        .protect .risk_flooding .risk_flooding_puzle{
+            gap: 16px;
+        }
+        .protect .risk_flooding .risk_flooding_text{
+            padding: 0 175px;
+        }
+
+        .protect .risk_flooding .risk_flooding_items p{
+            font-size: 24px;
+        }
+    }
+
+
+
+    /* block_left */
+
+    .protect .block_left{
+        padding: 0 16px 32px;
+        display: grid;
+        gap: 16px;
+        text-align: center;
+    }
+    .protect .block_left .block_left_items{
+        display: grid;
+        gap: 10px;
+    }
+
+    .protect .block_left p{
+        font-size: 16px;
+    }
+
+    .protect .block_rigth{
+        padding: 0 16px 32px;
+        display: grid;
+        gap: 16px;
+        text-align: center;
+    }
+    .protect .block_rigth .block_rigth_items{
+        display: grid;
+        gap: 10px;
+    }
+
+    .protect .block_rigth p{
+        font-size: 16px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .protect .block_left{
+            display: grid;
+            grid-template-columns: 1.37fr 1fr;
+            padding: 0 40px 48px;
+            text-align: left;
+            align-items: center;
+            gap: 40px;
+        }
+        .protect .block_left .block_left_text{
+            grid-column-start: 1;
+            grid-row-start: 1;
+        }
+        .protect .block_rigth{
+            display: grid;
+            grid-template-columns:1fr 1.37fr;
+            padding: 0 40px 48px;
+            text-align: left;
+            align-items: center;
+            gap: 40px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .protect .block_left{
+            padding: 0 48px 56px;
+            gap: 48px;
+        }
+        .protect .block_rigth{
+            padding: 0 48px 56px;
+            gap: 48px;
+        }
+        /* .protect .block_rigth p{
+            font-size: 18px;
+        } */
+    
+    }
+
+    @media screen and (min-width:1366px) {
+        .protect .block_left{
+            grid-template-columns: 1.4fr 1fr;
+            padding: 0 64px 80px;
+            gap: 64px;
+        }
+        .protect .block_rigth{
+            grid-template-columns:1fr 1.4fr;
+            padding: 0 50px 80px 64px;
+            gap:64px;
+        }
+        .protect .block_rigth p{
+            font-size: 18px;
+        }
+    }
+
+
+
+/* center_block */
+
+.protect .center_block{
+    text-align: center;
+    padding: 0 16px 32px;
+}
+
+@media screen and (min-width:666px) {
+    .protect .center_block{
+        padding: 0 40px 48px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .protect .center_block{
+        padding: 0 88px 56px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .protect .center_block{
+        padding: 0 210px 80px;
+    }
+    .protect .center_block p{
+        padding: 0 70px;
+    }
+
+
+}
+
+    </style>
+
+      <div class="protect">
+        <section class="leaks">
+          <div class="leaks_text">
+            <h3>LeaksProtect
+            </h3>
+            <p>Беспроводной адресный датчик протечки
+            </p>
+          </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/opt.img.webp?_t=1708939739" />
+        </section>
+        <!--  -->
+        <section class="constant_monitoring">
+          <div class="constant_monitoring_text">
+            <h3>Постоянный контроль. Мгновенные уведомления.
+            </h3>
+            <p>LeaksProtect можно разместить даже в труднодоступном месте. Он не требует монтажа, годами обходится без обслуживания и работает 24/7. Если потечет стиральная машина или прорвет трубу &mdash; датчик мгновенно отреагирует и сообщит об аварии. И если на объекте реализована антипотоп-система, Ajax автоматически перекроет воду.
+            </p>
+          </div>
+          <video autoplay="" class="mob" height="auto" loop="" muted="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/leaksprotect_bathroom_ua_mob.mp4?_t=1708954590" width="100%">
+          </video>
+          <video autoplay="" class="deck" height="auto" loop="" muted="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/leaksprotect_bathroom_ua.mp4?_t=1708954590" width="100%">
+          </video>
+        </section>
+        <section class="risk_flooding">
+          <div class="risk_flooding_text">
+            <h3>Везде, где есть риск затопления
+            </h3>
+            <p>Миниатюрные датчики LeaksProtect легко разместить в любом месте, где вероятна протечка воды. Высота устройства &mdash; всего 14 мм.
+            </p>
+          </div>
+          <div class="risk_flooding_puzle">
+            <div class="risk_flooding_items">
+              <p>Под раковиной
+              </p>
+              <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/opt.cardIMGText%20(2).webp?_t=1708939719" />
+            </div>
+            <div class="risk_flooding_items">
+              <p>Под ванной
+              </p>
+              <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/opt.cardIMGText%20(1).webp?_t=1708939719" />
+            </div>
+            <div class="risk_flooding_items">
+              <p>Под стиральной машиной
+              </p>
+              <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/opt.cardIMGText.webp?_t=1708939719" />
+            </div>
+            <div class="risk_flooding_items">
+              <p>В стояке канализации
+              </p>
+              <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/opt.cardIMGText%20(4).webp?_t=1708939718" />
+            </div>
+            <div class="risk_flooding_items">
+              <p>Под посудомойкой
+              </p>
+              <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/opt.cardIMGText%20(3).webp?_t=1708939718" />
+            </div>
+            <div class="risk_flooding_items">
+              <p>В бойлерной
+              </p>
+              <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/opt.cardIMGText06.webp?_t=1708939718" />
+            </div>
+          </div>
+        </section>
+        <!--  -->
+        <section class="block_left"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/opt.IMG1.webp?_t=1708939738" />
+          <div class="block_left_text">
+            <h3>Эффективный минимализм
+            </h3>
+            <div class="block_left_items">
+              <p>С какой бы стороны вода не подступила к датчику, он незамедлительно поднимает тревогу. На четырех гранях корпуса LeaksProtect размещены контактные пары. Если хотя бы одна замыкается водой, датчик сообщает о протечке. А когда контакты просыхают и размыкаются &mdash; оповещает о прекращении течи.
+              </p>
+              <p>До 5 лет без замены батарей
+              </p>
+              <p>Работает 24/7
+              </p>
+              <p>Защита корпуса IP65
+              </p>
+            </div>
+          </div>
+        </section>
+        <!--  -->
+        <section class="block_rigth"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/opt.IMG2.webp?_t=1708939739" />
+          <div class="block_rigth_text">
+            <h3>Против маленьких <br> протечек и больших <br> потопов
+            </h3>
+            <div class="block_rigth_items">
+              <p>Датчики LeaksProtect готовы оберегать от затопления как небольшие квартиры, так и торговые или производственные комплексы. Если случится авария, благодаря информативным уведомлениям будет точно известно, куда направлять сантехников.
+              </p>
+              <p>До 200 датчиков в системе
+              </p>
+              <p>Имя и комната размещения датчика в уведомлени
+              </p>
+            </div>
+          </div>
+        </section>
+        <!--  -->
+        <section class="center_block">
+          <h3>Антипотоп и управление подачей воды
+          </h3>
+          <p>С датчиками протечек LeaksProtect и беспроводными запорными кранами WaterStop можно создать умную антипотоп-систему для удаленного или автоматического управления подачей воды.
+          </p>
+        </section>
+        <!--  -->
+        <section class="block_left"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/opt.IMG3.webp?_t=1708939739" />
+          <div class="block_left_text">
+            <h3>Автоматическое перекрытие воды при обнаружении протечки
+            </h3>
+          </div>
+        </section>
+        <section class="block_rigth"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/opt.IMG4.webp?_t=1708939738" />
+          <div class="block_rigth_text">
+            <h3>Автоматическое перекрытие при постановке/снятии системы с охраны
+            </h3>
+          </div>
+        </section>
+        <section class="block_left"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/opt.IMG5.webp?_t=1708939738" />
+          <div class="block_left_text">
+            <h3>Ручное перекрытие воды через приложение
+            </h3>
+          </div>
+        </section>
+        <section class="block_rigth"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/630081/opt.IMG6.webp?_t=1708939738" />
+          <div class="block_rigth_text">
+            <h3>Подача воды по расписанию
+            </h3>
+          </div>
+        </section>
+      </div>
+      
+    
+</body>
+</html>

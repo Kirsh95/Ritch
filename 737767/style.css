@@ -1,0 +1,388 @@
+product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .razr_ultra img {
+      margin: 0;
+    }
+    .razr_ultra p {
+      padding: 0;
+      margin: 0;
+      font-family: "Roboto" , sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .razr_ultra .foonter p,
+    .razr_ultra ul li
+    {
+      font-size: 12px;
+      color: white;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .razr_ultra h3{
+      font-family: "Roboto" , sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      margin: 0;
+    }
+    .razr_ultra h2{
+        margin: 0;
+        font-family: "Roboto" , sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    }
+    .razr_ultra ul {
+      list-style: decimal;
+      margin: 0;
+      padding-left: 16px;
+    }
+    .razr_ultra ul li {
+      font-family: "Roboto" , sans-serif;
+    }
+    .razr_ultra {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .razr_ultra div {
+      padding: 0;
+    }
+    div.razr_ultra {
+      padding: 0;
+    }
+    .razr_ultra br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .razr_ultra {
+      margin: 0 auto;
+      max-width: 1366px;
+      overflow-x: hidden;
+    }
+    .razr_ultra img{
+      display: block;
+      width: 100%;
+    }
+    /* logo_block */
+    .razr_ultra .logo_block{
+      display: grid;
+      gap: 16px;
+      padding: 20px 16px;
+    }
+    .razr_ultra .logo_block .left_logo{
+        display: grid;
+        grid-template-columns: 90px auto;
+        gap: 40px;
+        grid-row-start: 2;
+    }
+    .razr_ultra .logo_block .left_logo .logo_razr{
+      width: 90px;
+    }
+    .razr_ultra .logo_block .right_logo{
+      display: grid;
+      gap: 20px;
+    }
+    .razr_ultra .logo_block .right_logo .logo_moto{
+      width: 42px;
+      margin: 0 auto;
+    }
+
+    .razr_ultra .logo_block h2{
+        font-size: 20px;
+        color: rgb(4, 20, 37);
+        text-transform: uppercase;
+        margin-bottom: 4px;
+    }
+    .razr_ultra .logo_block p{
+        font-size: 16px;
+    }
+
+
+
+
+    @media screen and (min-width:666px) {
+      /* body{
+        padding: 0 24px;
+      } */
+      .razr_ultra .logo_block{
+        grid-template-columns: 1fr 1.05fr 1fr;
+        padding: 0 40px 24px;
+        align-items: center;
+        gap: 0px;
+      }
+    .razr_ultra .logo_block .left_logo{
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-template-columns:none;
+        gap: 58px;
+        padding-right: 20px;
+        
+    }
+      .razr_ultra .logo_block .right_logo{
+        padding: 0;
+        padding-left: 20px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .razr_ultra p {
+        font-size: 18px;
+      }
+      .razr_ultra h3 {
+        font-size: 20px;
+      }
+
+      .razr_ultra .logo_block{
+        padding: 0 60px 24px;
+      }
+      .razr_ultra .logo_block .left_logo .logo_razr{
+        width: 123px;
+      }
+    .razr_ultra .logo_block .left_logo{
+        gap: 78px;
+        padding-right: 24px;
+    }
+    .razr_ultra .logo_block .right_logo{
+        padding-left: 24px;
+    }
+    .razr_ultra .logo_block h2{
+     font-size: 24px;
+     margin-bottom: 6px;
+    }
+    .razr_ultra .logo_block p{
+     font-size: 20px;
+    }
+
+}
+    @media screen and (min-width:1366px) {
+        .razr_ultra p {
+            font-size: 20px;
+        }
+        .razr_ultra h3 {
+            font-size: 28px;
+        }
+        .razr_ultra .logo_block .left_logo .logo_razr{
+            width: 188px;
+        }
+        .razr_ultra .logo_block .left_logo{
+            gap: 113px;
+        }
+        .razr_ultra .logo_block h2{
+            font-size: 32px;
+        }
+        .razr_ultra .logo_block p{
+            font-size: 28px;
+        }
+    }
+
+
+    /* pantone */
+
+    .razr_ultra .pantone{
+        display: grid;
+        gap: 16px;
+        background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/737647/opt.photo_2024-01-24_18-09-39.webp?_t=1711630609");
+        background-position: center;
+        background-size: cover;   
+        background-repeat: no-repeat;
+        border-radius: 12px;
+        padding: 24px 16px;
+    }
+
+    .razr_ultra .pantone .pantone_text{
+        display: grid;
+        gap: 14px;
+    }
+    .razr_ultra .pantone .pantone_logo {
+        width: 240px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .razr_ultra .pantone{
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            padding: 22px 40px 22px 0;
+            gap: 0;
+        }
+        .razr_ultra .pantone .pantone_text{
+            padding-left: 45px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .razr_ultra .pantone{
+            padding: 30px 60px 30px 0;
+            border-radius: 16px;
+        }
+        .razr_ultra .pantone .pantone_logo {
+            width:318px ;
+        }
+        .razr_ultra .pantone .pantone_text{
+            padding-left: 61px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .razr_ultra .pantone{
+            padding: 42.6px 110px 42.6px 0;
+            border-radius: 20px;
+        }
+        .razr_ultra .pantone .pantone_logo {
+            width:423px ;
+        }
+        .razr_ultra .pantone .pantone_text{
+            padding-left: 118px;
+            gap: 24px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* left_block */
+    .razr_ultra .left_block{
+      display: grid;
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .razr_ultra .left_block img{
+      border-radius: 0 0 12px 12px;
+    }
+    .razr_ultra .left_block .left_block_text{
+      padding: 0 16px;
+      display: grid;
+      gap: 14px;
+    }
+    @media screen and (min-width:666px) {
+      .razr_ultra .left_block{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 0;
+      }
+      .razr_ultra .left_block .left_block_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        padding: 0 40px 0 45px;
+      }
+      .razr_ultra .left_block img{
+        border-radius: 12px 0 0 12px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .razr_ultra .left_block .left_block_text{
+        padding: 0 60px 0 61px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .razr_ultra .left_block .left_block_text{
+        padding: 0 60px 0 118px;
+      }
+    }
+    /* rigth_block */
+    .razr_ultra .rigth_block{
+      display: grid;
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .razr_ultra .rigth_block img{
+      border-radius: 0 0 20px 20px;
+    }
+    .razr_ultra .rigth_block .rigth_block_text{
+      padding: 0 16px;
+      display: grid;
+      gap: 14px;
+    }
+    @media screen and (min-width:666px) {
+      .razr_ultra .rigth_block{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 0;
+      }
+      .razr_ultra .rigth_block .rigth_block_text{
+        padding: 0 45px 0 40px;
+      }
+      .razr_ultra .rigth_block img{
+        border-radius: 0 20px 20px 0;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .razr_ultra .rigth_block .rigth_block_text{
+        padding: 0 61px 0 60px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .razr_ultra .rigth_block .rigth_block_text{
+        padding: 0 118px 0 60px;
+      }
+    }
+    /* foonter */
+    .razr_ultra .foonter{
+      background: linear-gradient(180deg, #F0617D 0%, #370931 49.76%, #350025 100%);
+      padding: 32px 16px;
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px 20px 0 0;
+      margin-top: 24px;
+      display: grid;
+      gap: 20px;
+    }
+    .razr_ultra .foonter .foonter_text{
+      display: grid;
+      gap: 20px;
+    }
+    @media screen and (min-width:666px) {
+      .razr_ultra .foonter{
+        padding: 32px 60px 44px;
+      }
+      .razr_ultra .foonter .foonter_text{
+        padding: 0 37px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .razr_ultra .foonter{
+        padding: 42px 109px 64px;
+      }
+      .razr_ultra .foonter .foonter_text{
+        padding: 0 25px;
+      }
+      .razr_ultra .foonter p,
+      .razr_ultra ul li
+      {
+        font-size: 14px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .razr_ultra .foonter{
+        padding: 60px 142px 80px;
+        background-position: center;
+      }
+      .razr_ultra .foonter .foonter_text{
+        padding: 0 25px;
+      }
+    }

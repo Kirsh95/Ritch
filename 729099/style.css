@@ -1,0 +1,936 @@
+.product__description.base-padding {
+        padding: 0;
+        border-radius: 0px;
+        }
+        .philips_HD9285 img {
+          margin: 0;
+        }
+        .philips_HD9285 p {
+          padding: 0;
+          margin: 0;
+          color: #000;
+          font-family: 'Roboto' ,sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+        }
+        .philips_HD9285 h3 {
+          color: #000;
+          font-family: 'Roboto',sans-serif;
+          font-size:25px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 130%;
+          margin: 0;
+          margin-bottom: 14px;
+        }
+        .philips_HD9285 .blue_title{
+          color: #327896;
+          font-weight: 700;
+        }
+        .philips_HD9285 h2 {
+          color: #000;
+          font-family: 'Roboto',sans-serif;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 130%;
+          margin: 0;
+          margin-bottom: 12px;
+        }
+        .philips_HD9285 ul {
+          list-style: disc;
+          margin: 0;
+        }
+        .philips_HD9285 ul li {
+          line-height: normal;
+          color: #ffffff;
+          font-family: 'Roboto',sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+        }
+        .philips_HD9285 {
+          overflow: hidden;
+        }
+        body {
+          padding: 0;
+          margin: 0;
+        }
+        .philips_HD9285 ul {
+          padding: 0;
+          padding-left: 20px;
+        }
+        .philips_HD9285 ul li {
+          padding: 0;
+        }
+        .philips_HD9285 div {
+          padding: 0;
+        }
+        div.philips_HD9285 {
+          padding: 0;
+        }
+        .philips_HD9285 br {
+          display: block;
+        }
+        .product__body .el-tabs__header {
+          z-index: 6;
+        }
+        .philips_HD9285{
+          max-width: 1366px;
+          margin: 0 auto;
+          overflow-x: hidden;
+        }
+        .philips_HD9285 img{
+          width: 100%;
+          display: block;
+        }
+
+
+        /* more_than */
+
+        .philips_HD9285 .more_than{
+          position: relative;
+          display: grid;
+        }
+        .philips_HD9285 .more_than .big_title{
+          margin: 0;
+          font-size: 28px;
+        }
+        .philips_HD9285 .more_than_text .description_big{
+          margin-top: 14px;
+          font-size: 18px;
+        }
+        .philips_HD9285 .more_than_text{
+          padding: 14px 16px;
+          background: #5B90A5;
+          text-align: left;
+          display: grid;
+          z-index: 2;
+          gap: 4px;
+        }
+        .philips_HD9285 .more_than .more_than_block{
+          position: relative;
+          display: grid;
+          z-index: 1;
+        }
+        .philips_HD9285 .more_than .logo_philips{
+          width: 60px;
+          position: absolute;
+          top: 0;
+          left: 16px;
+        }
+        .philips_HD9285 .more_than .white_text{
+          color: #ffffff;
+        }
+        @media screen and (min-width:666px) {
+          .philips_HD9285 .more_than .logo_philips{
+            width: 89px;
+            left: 32px;
+          }
+          .philips_HD9285 .more_than_text .description_big br{
+            display: block;
+          }
+          .philips_HD9285 .more_than_text{
+            backdrop-filter: blur(4.22px);
+            background: rgba(0, 0, 0, 0.34);
+            position: absolute;
+            bottom: 44px;
+            left: 32px;
+   
+          }
+          .philips_HD9285 .more_than .white_text{
+            color: #fff;
+          }
+          .philips_HD9285 .more_than .big_title{
+            margin: 0;
+            font-size: 32px;
+          }
+        }
+        @media screen and (min-width:1024px) {
+          .philips_HD9285 .more_than .logo_philips{
+            width:129px;
+            left: 40px;
+          }
+          .philips_HD9285 .more_than_text{
+            bottom: 60px;
+            left: 40px;
+            padding: 18px;
+          }
+          .philips_HD9285 .more_than .big_title{
+            margin: 0;
+            font-size: 38px;
+          }
+          .philips_HD9285 .more_than .description_big{
+            font-size: 24px;
+          }
+          .philips_HD9285 h3 {
+            font-size: 32px;
+          }
+          .philips_HD9285 p {
+            font-size: 20px;
+          }
+        }
+        @media screen and (min-width:1366px) {
+          .philips_HD9285 .more_than .logo_philips{
+            width:188px;
+            left: 40px;
+          }
+          .philips_HD9285 .more_than .big_title{
+            margin: 0;
+            line-height: 108%;
+            font-size: 50px;
+          }
+          .philips_HD9285 .more_than .description_big{
+            font-size: 32px;
+            margin-top: 24px;
+          }
+          .philips_HD9285 .more_than_text{
+            bottom: 80px;
+            left: 60px;
+            padding: 24px;
+          }
+          .philips_HD9285 h3 {
+            font-size: 42px;
+          }
+          .philips_HD9285 p {
+            font-size: 26px;
+          }
+        }
+        /* main_characteristics */
+        .philips_HD9285 .main_characteristics{
+          display: grid;
+          position: relative;
+          background: rgb(91, 144, 165);;
+        }
+  
+        .philips_HD9285 .main_characteristics .main_characteristics_img{
+            position: relative;
+        }
+
+        .philips_HD9285 .main_characteristics .main_characteristics_img .img_main_text{
+            position: absolute;
+            top: 14px;
+            left: 37px;
+            right: 37px;
+            display: grid;
+            grid-template-columns: 40px auto;
+            align-items: center;
+            text-align: center;
+            gap: 10px;
+        }
+
+        .philips_HD9285 .main_characteristics .characteristics_items{
+          display: grid;
+          grid-template-columns: 40px auto;
+          gap: 10px;
+          align-items: center;
+        }
+        .philips_HD9285 .main_characteristics .white_text{
+          color: #fff;
+          font-weight: 500;
+          font-size: 14px;
+        }
+        .philips_HD9285 .main_characteristics .characteristics_left{
+            display: grid;
+            gap: 18px;
+            padding: 24px 16px 0;
+        }
+        .philips_HD9285 .main_characteristics .characteristics_right{
+          display: grid;
+          gap: 13px;
+          padding: 18px 16px 24px;
+
+        }
+
+        @media screen and (min-width:666px) {
+         
+            .philips_HD9285 .main_characteristics .characteristics_left{
+               position: absolute;
+               bottom: 46px;
+               left: 32px;
+               padding: 0;
+               width: 203px;
+            }
+            .philips_HD9285 .main_characteristics .characteristics_right{
+                position: absolute;
+                width: 227px;
+                bottom: 46px;
+                right: 32px;
+                padding: 0;
+
+            }
+            .philips_HD9285 .main_characteristics .main_characteristics_img .img_main_text{
+                width: 286px;
+                left: 50%;
+                top: 30px;
+                transform: translate(-50%,0);
+            }
+        }
+        @media screen and (min-width: 1024px) {
+            .philips_HD9285 .main_characteristics .characteristics_items{
+                gap: 28px;
+                grid-template-columns: 60px auto;
+            }
+            .philips_HD9285 .main_characteristics .white_text{
+                font-size: 16px;
+            }
+
+            .philips_HD9285 .main_characteristics .characteristics_left{
+                bottom: 40px;
+                left: 40px;
+                width: 283px;
+                gap: 28px;
+             }
+             .philips_HD9285 .main_characteristics .characteristics_right{
+                 width: 305px;
+                 bottom: 40px;
+                 gap: 28px;
+                 right: 40px;
+ 
+             }
+             .philips_HD9285 .main_characteristics .main_characteristics_img .img_main_text{
+                 width: 358px;
+                 top: 40px;
+                 grid-template-columns: 60px auto;
+             }
+
+        }
+        @media screen and (min-width:1366px) {
+          
+            .philips_HD9285 .main_characteristics .characteristics_left{
+                left: 50px;
+                width: 399px;
+                gap: 40px;
+             }
+             .philips_HD9285 .main_characteristics .characteristics_right{
+                 width: 423px;
+                 gap: 28px;
+                 right: 60px;
+ 
+             }
+             .philips_HD9285 .main_characteristics .characteristics_items{
+                gap: 40px;
+                grid-template-columns: 100px auto;
+            }
+             .philips_HD9285 .main_characteristics .main_characteristics_img .img_main_text{
+                 width: 502px;
+                 top: 40px;
+                 grid-template-columns: 100px auto;
+                 gap: 24px;
+             }
+
+            .philips_HD9285 .main_characteristics .white_text{
+                font-size: 22px;
+            }
+
+            .philips_HD9285 .main_characteristics .characteristics_left,
+            .philips_HD9285 .main_characteristics .characteristics_right{
+                gap: 40px;
+            }
+        }
+        /* RapidAir */
+        .philips_HD9285 .RapidAir{
+          padding: 40px 0 0;
+        }
+        .philips_HD9285 .RapidAir .RapidAir_text{
+          padding: 0 16px 32px;
+          text-align: center;
+        }
+        .philips_HD9285 .RapidAir .img_block_RapidAir{
+          display: grid;
+          position: relative;
+        }
+        .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block{
+          position: relative;
+        }
+        .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block .img_block_text_one,
+        .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block .img_block_text_two{
+          position: absolute;
+          top: 20px;
+        }
+        .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block .img_block_text_one{
+          left: 16px;
+        }
+        .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block .img_block_text_two{
+          right:16px;
+          text-align: right;
+        }
+        .philips_HD9285 .RapidAir .img_block_RapidAir .img_block_text_one p, 
+        .philips_HD9285 .RapidAir .img_block_RapidAir .img_block_text_two p{
+          font-size: 18px;
+        }
+        .philips_HD9285  .white_text{
+          color: #fff;
+        }
+        @media screen and (min-width:666px) {
+          .philips_HD9285 .RapidAir{
+            padding: 40px 0 0;
+          }
+          .philips_HD9285 .RapidAir .RapidAir_text{
+            padding: 0 65px 32px;
+          }
+          .philips_HD9285 .RapidAir .img_block_RapidAir{
+            grid-template-columns: repeat(2,1fr);
+            gap: 24px;
+          }
+          .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block .img_block_text_one{
+            left: 32px;
+          }
+          .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block .img_block_text_two{
+            right:32px;
+          }
+          .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block .img_block_text_one,
+          .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block .img_block_text_two{
+            top: 40px;
+          }
+        }
+        @media screen and (min-width:1024px) {
+          .philips_HD9285 .RapidAir{
+            padding-top: 42px;
+          }
+          .philips_HD9285 .RapidAir .RapidAir_text{
+            padding: 0 93px 42px;
+          }
+          .philips_HD9285 .RapidAir .img_block_RapidAir  .img_block_text_one p,
+          .philips_HD9285 .RapidAir .img_block_RapidAir  .img_block_text_two p{
+            font-size: 22px;
+          }
+          .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block .img_block_text_one{
+            left: 40px;
+          }
+          .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block .img_block_text_two{
+            right:40px;
+          }
+          .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block .img_block_text_one,
+          .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block .img_block_text_two{
+            top: 60px;
+          }
+        }
+        @media screen and (min-width:1366px) {
+            .philips_HD9285 .RapidAir{
+                padding-top: 60px;
+              }
+          .philips_HD9285 .RapidAir .RapidAir_text{
+            padding: 0 283px 60px;
+          }
+          .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block .img_block_text_one{
+            left: 60px;
+          }
+          .philips_HD9285 .RapidAir .img_block_RapidAir .iner_block .img_block_text_two{
+            right:60px;
+          }
+          .philips_HD9285 .RapidAir .img_block_RapidAir  .img_block_text_one p,
+          .philips_HD9285 .RapidAir .img_block_RapidAir  .img_block_text_two p{
+            font-size: 32px;
+          }
+        }
+
+        /* even_more */
+
+        .philips_HD9285 .even_more .even_more_text{
+            padding: 14px 16px;
+            background: #5B90A5;
+        }
+
+        .philips_HD9285 .even_more .even_more_text h3{
+            margin-bottom: 0;
+        }
+
+        @media screen and (min-width:666px) {
+            .philips_HD9285 .even_more{
+                position: relative;
+            }
+            .philips_HD9285 .even_more .even_more_text{
+                position: absolute;
+                backdrop-filter: blur(4.22px);
+                background: rgba(0, 0, 0, 0.34);
+                padding: 14px;
+                width: 340px;
+                top: 32px;
+                left: 32px;
+            }
+        }
+        @media screen and (min-width:1024px) {
+            .philips_HD9285 .even_more .even_more_text{
+                padding: 18px;
+                width: 460px;
+                top: 40px;
+                left: 40px;
+            }
+        }
+
+        @media screen and (min-width:1024px) {
+            .philips_HD9285 .even_more .even_more_text{
+                padding: 24px;
+                width: 635px;
+                top: 60px;
+                left: 60px;
+            }
+        }
+
+
+
+        /* cooking_functions */
+        .philips_HD9285 .cooking_functions{
+          padding: 20px 0 0 ;
+          text-align: center;
+        }
+        .philips_HD9285 .cooking_functions .block_function p{
+            color: rgba(30, 30, 30);
+        }
+        .philips_HD9285 .cooking_functions .block_function_contein p{
+            color: rgba(30, 30, 30, 0.8);
+            font-size: 14px;
+        }
+        .philips_HD9285 .cooking_functions .block_function{
+          display: grid;
+          gap: 40px;
+          background:  #E1EBF0;
+          padding: 40px 16px;
+        }
+        .philips_HD9285 .cooking_functions .block_function_contein{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          gap: 24px;
+        }
+        .philips_HD9285 .cooking_functions .block_function .cooking_item img{
+          width: 146px;
+          margin: 0 auto;
+          margin-bottom: 12px;
+        }
+
+
+
+        @media screen and (min-width:666px) {
+          .philips_HD9285 .cooking_functions{
+            padding: 40px 0 0 ;
+          }
+          .philips_HD9285 .cooking_functions .block_function{
+            gap: 24px;
+            padding: 40px 32px;
+          }
+          .philips_HD9285 .cooking_functions .block_function_contein{
+            grid-template-columns: repeat(4,1fr);
+            gap: 24px;
+          }
+          .philips_HD9285 .cooking_functions .block_function .cooking_item img{
+            width: 146px;
+          }
+        }
+        @media screen and (min-width:1024px) {
+            .philips_HD9285 .cooking_functions{
+                padding-top: 42px;
+            }
+          .philips_HD9285 .cooking_functions .block_function{
+            margin-top: 40px;
+            padding: 42px 40px;
+          }
+
+          .philips_HD9285 .cooking_functions .block_function .cooking_item img{
+            width: 206px;
+            margin-bottom: 16px;
+          }
+          .philips_HD9285 .cooking_functions .block_function_contein p{
+            font-size: 20px;
+          }
+        }
+        @media screen and (min-width:1366px) {
+            .philips_HD9285 .cooking_functions{
+                padding-top: 60px;
+            }
+          .philips_HD9285 .cooking_functions .block_function{
+            margin-top: 60px;
+            padding: 60px 166px;
+          }
+          .philips_HD9285 .cooking_functions .block_function_contein p{
+            font-size: 24px;
+          }
+          .philips_HD9285 .cooking_functions .block_function_contein{
+            gap: 24px;
+          }
+          .philips_HD9285 .cooking_functions .block_function .cooking_item img{
+            width: 240px;
+            margin-bottom: 20px;
+          }
+        }
+        /* model */
+        .philips_HD9285 .model{
+          display: none;
+        }
+        @media screen and (min-width:666px) {
+          .philips_HD9285 .model{
+            display: block;
+            text-align: center;
+            padding: 40px 0 0;
+          }
+          .philips_HD9285 .model p{
+            font-size: 12px;
+          }
+          .philips_HD9285 .model ul{
+            font-size: 12px;
+          }
+          .philips_HD9285 .model .model_block .model_icon{
+            width: 40px;
+            margin: 0 auto 10px;
+          }
+          .philips_HD9285 .model .model_block{
+            display: grid;
+            padding-top: 32px;
+            /* overflow-x: scroll; */
+            /* align-items: center; */
+            grid-template-columns: repeat(8,1fr);
+            gap: 3px 0;
+            grid-template-areas: 
+              "item_1 item_2 item_3 item_4 item_5 item_6 item_7 item_8"
+              "item_9 item_10 item_11 item_11 item_12 item_12 item_13 item_13"
+              "item_9 item_14 item_15 item_16 item_18 item_19 item_20 item_21"
+              "item_22 item_23 item_24 item_24 item_24 item_24 item_24 item_24"
+              "item_22 item_26 item_27 item_27 item_28 item_28 item_28 item_28"
+              "item_29 item_30 item_31 item_31 item_32 item_33 item_34 item_35"
+              "item_36 item_37 item_38 item_38 item_39 item_40 item_41 item_42"
+              "item_43 item_44 item_45 item_46 item_47 item_48 item_48 item_48"
+              "item_49 item_50 item_51 item_51 item_52 item_52 item_53 item_54"
+              "item_55 item_56 item_56 item_56 item_57 item_57 item_58 item_59"
+          }
+          .philips_HD9285 .model .model_block p{
+            color: #fff;
+          }
+          .philips_HD9285 .model .model_block .item_2 img,
+          .philips_HD9285 .model .model_block .item_3 img,
+          .philips_HD9285 .model .model_block .item_4 img,
+          .philips_HD9285 .model .model_block .item_5 img,
+          .philips_HD9285 .model .model_block .item_6 img,
+          .philips_HD9285 .model .model_block .item_7 img,
+          .philips_HD9285 .model .model_block .item_8 img{
+            width:90px ;
+          }
+          .philips_HD9285 .model .model_block .item_22,
+          .philips_HD9285 .model .model_block .item_29,
+          .philips_HD9285 .model .model_block .item_36,
+          .philips_HD9285 .model .model_block .item_43,
+          .philips_HD9285 .model .model_block .item_49,
+          .philips_HD9285 .model .model_block .item_55{
+            border-right:3px solid #fff ;
+          }
+          .philips_HD9285 .model .model_block .item_14 p,
+          .philips_HD9285 .model .model_block .item_15 p,
+          .philips_HD9285 .model .model_block .item_16 p,
+          .philips_HD9285 .model .model_block .item_18 p,
+          .philips_HD9285 .model .model_block .item_19 p,
+          .philips_HD9285 .model .model_block .item_20 p,
+          .philips_HD9285 .model .model_block .item_21 p{
+            color: #000;
+          }
+          .philips_HD9285 .model .model_block .block_item{
+            padding: 10px 7px 10px;
+            display: grid;
+            align-items: center;
+          }
+          .philips_HD9285 .model .model_block .item_1{
+            grid-area:item_1;
+          }
+          .philips_HD9285 .model .model_block .item_2{
+            grid-area:item_2;
+          }
+          .philips_HD9285 .model .model_block .item_3{
+            grid-area:item_3;
+          }
+          .philips_HD9285 .model .model_block .item_4{
+            grid-area:item_4;
+          }
+          .philips_HD9285 .model .model_block .item_5{
+            grid-area:item_5;
+          }
+          .philips_HD9285 .model .model_block .item_6{
+            grid-area:item_6;
+          }
+          .philips_HD9285 .model .model_block .item_7{
+            grid-area:item_7;
+          }
+          .philips_HD9285 .model .model_block .item_8{
+            grid-area:item_8;
+          }
+          .philips_HD9285 .model .model_block .item_9{
+            grid-area:item_9;
+          }
+          .philips_HD9285 .model .model_block .item_10{
+            grid-area:item_10;
+            background: #0A7896;
+          }
+          .philips_HD9285 .model .model_block .item_11{
+            grid-area:item_11;
+            background:#0a7896cf;
+          }
+          .philips_HD9285 .model .model_block .item_12{
+            grid-area:item_12;
+            background: rgba(10, 120, 150, 0.60);
+          }
+          .philips_HD9285 .model .model_block .item_13{
+            grid-area:item_13;
+            background: rgba(10, 120, 150, 0.45);
+          }
+          .philips_HD9285 .model .model_block .item_14{
+            grid-area:item_14;
+          }
+          .philips_HD9285 .model .model_block .item_15{
+            grid-area:item_15;
+          }
+          .philips_HD9285 .model .model_block .item_16{
+            grid-area:item_16;
+          }
+          .philips_HD9285 .model .model_block .item_18{
+            grid-area:item_18;
+          }
+          .philips_HD9285 .model .model_block .item_19{
+            grid-area:item_19;
+          }
+          .philips_HD9285 .model .model_block .item_20{
+            grid-area:item_20;
+          }
+          .philips_HD9285 .model .model_block .item_21{
+            grid-area:item_21;
+          }
+          .philips_HD9285 .model .model_block .item_22{
+            grid-area:item_22;
+            background: #0A7896;
+          }
+          .philips_HD9285 .model .model_block .item_23{
+            grid-area:item_23;
+            background: #0A7896;
+          }
+          .philips_HD9285 .model .model_block .item_24{
+            grid-area:item_24;
+            background: rgba(10, 120, 150, 0.81);
+          }
+          .philips_HD9285 .model .model_block .item_26{
+            grid-area:item_26;
+            background: #0A7896;
+          }
+          .philips_HD9285 .model .model_block .item_27{
+            grid-area:item_27;
+            background: rgba(10, 120, 150, 0.81);
+          }
+          .philips_HD9285 .model .model_block .item_28{
+            grid-area:item_28;
+            background: #91C2D0;
+          }
+          .philips_HD9285 .model .model_block .item_29{
+            grid-area:item_29;
+            background: #0A7896;
+          }
+          .philips_HD9285 .model .model_block .item_30{
+            grid-area:item_30;
+            background: #0A7896;
+            text-align: left;
+          }
+          .philips_HD9285 .model .model_block .item_31{
+            grid-area:item_31;
+            background: rgba(10, 120, 150, 0.81);
+            text-align: left;
+          }
+          .philips_HD9285 .model .model_block .item_32{
+            grid-area:item_32;
+            background: #6CAEC0;
+            text-align: left;
+          }
+          .philips_HD9285 .model .model_block .item_33{
+            grid-area:item_33;
+            background: #91C2D0;
+            text-align: left;
+          }
+          .philips_HD9285 .model .model_block .item_34{
+            grid-area:item_34;
+            background: #6CAEC0;
+            text-align: left;
+          }
+          .philips_HD9285 .model .model_block .item_35{
+            grid-area:item_35;
+            background: #91C2D0;
+            text-align: left;
+          }
+          .philips_HD9285 .model .model_block .item_36{
+            grid-area:item_36;
+            background: #0A7896;
+          }
+          .philips_HD9285 .model .model_block .item_37{
+            grid-area:item_37;
+            background: #0A7896;
+          }
+          .philips_HD9285 .model .model_block .item_38{
+            grid-area:item_38;
+            background: rgba(10, 120, 150, 0.81);
+          }
+          .philips_HD9285 .model .model_block .item_39{
+            grid-area:item_39;
+            background: #6CAEC0;
+          }
+          .philips_HD9285 .model .model_block .item_40{
+            grid-area:item_40;
+            background: #91C2D0;
+          }
+          .philips_HD9285 .model .model_block .item_41{
+            grid-area:item_41;
+            background: #6CAEC0;
+          }
+          .philips_HD9285 .model .model_block .item_42{
+            grid-area:item_42;
+            background: #91C2D0;
+          }
+          .philips_HD9285 .model .model_block .item_43{
+            grid-area:item_43;
+            background: #0A7896;
+          }
+          .philips_HD9285 .model .model_block .item_44{
+            grid-area:item_44;
+            background: #0A7896;
+          }
+          .philips_HD9285 .model .model_block .item_45{
+            grid-area:item_45;
+            background: rgba(10, 120, 150, 0.81);
+          }
+          .philips_HD9285 .model .model_block .item_46{
+            grid-area:item_46;
+            background: #91C2D0;
+          }
+          .philips_HD9285 .model .model_block .item_47{
+            grid-area:item_47;
+            background: #6CAEC0;
+          }
+          .philips_HD9285 .model .model_block .item_48{
+            grid-area:item_48;
+            background: #91C2D0;
+          }
+          .philips_HD9285 .model .model_block .item_49{
+            grid-area:item_49;
+            background: #0A7896;
+          }
+          .philips_HD9285 .model .model_block .item_50{
+            grid-area:item_50;
+            background: #0A7896;
+          }
+          .philips_HD9285 .model .model_block .item_51{
+            grid-area:item_51;
+            background: rgba(10, 120, 150, 0.81);
+          }
+          .philips_HD9285 .model .model_block .item_52{
+            grid-area:item_52;
+            background: #6CAEC0;
+          }
+          .philips_HD9285 .model .model_block .item_53{
+            grid-area:item_53;
+            background: #91C2D0;
+          }
+          .philips_HD9285 .model .model_block .item_54{
+            grid-area:item_54;
+            background: #6CAEC0;
+          }
+          .philips_HD9285 .model .model_block .item_55{
+            grid-area:item_55;
+            background: #0A7896;
+          }
+          .philips_HD9285 .model .model_block .item_56{
+            grid-area:item_56;
+            background: #0A7896;
+          }
+          .philips_HD9285 .model .model_block .item_57{
+            grid-area:item_57;
+            background: #6CAEC0;
+          }
+          .philips_HD9285 .model .model_block .item_58{
+            grid-area:item_58;
+            background: #91C2D0;
+          }
+          .philips_HD9285 .model .model_block .item_59{
+            grid-area:item_59;
+            background: #6CAEC0;
+          }
+        }
+        @media screen and (min-width:1024px) {
+            .philips_HD9285 .model{
+                padding-top: 42px;
+            }
+            .philips_HD9285 .model .model_block{
+                padding-top: 42px;
+            }
+          .philips_HD9285 .model p{
+            font-size: 14px;
+          }
+          .philips_HD9285 .model ul{
+            font-size: 14px;
+          }
+          .philips_HD9285 .model .model_block .model_icon{
+            width: 50px;
+            margin: 0 auto 10px;
+          }
+          .philips_HD9285 .model .model_block .block_item{
+            padding: 15px 10px;
+          }
+          .philips_HD9285 .model .model_block .item_2 img,
+          .philips_HD9285 .model .model_block .item_3 img,
+          .philips_HD9285 .model .model_block .item_4 img,
+          .philips_HD9285 .model .model_block .item_5 img,
+          .philips_HD9285 .model .model_block .item_6 img,
+          .philips_HD9285 .model .model_block .item_7 img,
+          .philips_HD9285 .model .model_block .item_8 img{
+            width:100px ;
+          }
+        }
+        @media screen and (min-width:1366px) {
+            .philips_HD9285 .model{
+                padding-top: 80px;
+            }
+            .philips_HD9285 .model .model_block{
+                padding-top: 60px;
+            }
+          .philips_HD9285 .model p{
+            font-size: 16px;
+          }
+          .philips_HD9285 .model ul{
+            font-size: 16px;
+          }
+          .philips_HD9285 .model .model_block .model_icon{
+            width: 56px;
+            margin: 0 auto 10px;
+          }
+          .philips_HD9285 .model .model_block .block_item{
+            padding: 20px 10px;
+          }
+          .philips_HD9285 .model .model_block .item_2 img,
+          .philips_HD9285 .model .model_block .item_3 img,
+          .philips_HD9285 .model .model_block .item_4 img,
+          .philips_HD9285 .model .model_block .item_5 img,
+          .philips_HD9285 .model .model_block .item_6 img,
+          .philips_HD9285 .model .model_block .item_7 img,
+          .philips_HD9285 .model .model_block .item_8 img{
+            width:150px ;
+          }
+        }
+        /* footnote */
+        .philips_HD9285 .footnote{
+          padding: 40px 16px;
+        }
+        .philips_HD9285 .footnote p{
+          color: rgba(0, 0, 0, 0.60);
+          font-size: 12px;
+        }
+        @media screen and (min-width:666px) {
+          .philips_HD9285 .footnote{
+            padding: 40px 32px;
+          }
+        }
+        @media screen and (min-width:1024px) {
+          .philips_HD9285 .footnote{
+            padding: 42px 40px;
+          }
+          .philips_HD9285 .footnote p{
+            font-size: 14px;
+          }
+        }
+        @media screen and (min-width:1366px) {
+          .philips_HD9285 .footnote{
+            padding: 60px;
+          }
+        }

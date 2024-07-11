@@ -1,0 +1,1212 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+  }
+  .MSM6M871 img {
+    margin: 0;
+  }
+  .MSM6M871 h2{
+    font-family: "Roboto",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .MSM6M871 p {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+
+.MSM6M871 h3{
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .MSM6M871 ul {
+    list-style: disc;
+    margin: 0;
+  }
+  .MSM6M871 ul li {
+    line-height: normal;
+  }
+  .MSM6M871 {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .MSM6M871 ul {
+    padding: 0;
+    padding-left: 16px;
+  }
+  .MSM6M871 ul li {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    padding: 0;
+  }
+  .MSM6M871 div {
+    padding: 0;
+  }
+  div.MSM6M871 {
+    padding: 0;
+  }
+  .MSM6M871 br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+
+
+  .MSM6M871 {
+    max-width: 1366px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+  .MSM6M871 img{
+    display: block;
+    width: 100%;
+  }
+
+/* ErgoMaster */
+
+.MSM6M871 .ErgoMaster{
+    display: grid;
+    gap: 20px;
+    padding: 0 16px 32px;
+    position: relative;
+}
+
+.MSM6M871 .ErgoMaster .logo_bosch{
+    width: 89px;
+}
+
+
+@media screen and (min-width:666px) {
+    body{
+        padding: 0 24px;
+    }
+    .MSM6M871 h3{
+      font-size: 18px;
+    }
+    .MSM6M871 p{
+      font-size: 18px;
+    }
+    .MSM6M871 ul li{
+      font-size: 18px;
+    }
+    .MSM6M871 ul{
+      list-style: none;
+    }
+
+    .MSM6M871 .ErgoMaster{
+        grid-template-columns: auto 201px;
+        align-items: center;
+        padding: 0 32px 32px;
+        gap: 24px;
+    }
+    .MSM6M871 .ErgoMaster .logo_bosch{
+        position: absolute;
+        right: 32px;
+        bottom: 0;
+    }
+
+
+}
+@media screen and (min-width:1024px) {
+
+    .MSM6M871 h2{
+      font-size: 20px;
+    }
+    .MSM6M871 p{
+      font-size: 20px;
+    }
+    .MSM6M871 h3{
+      font-size: 20px;
+    }
+
+    .MSM6M871 .ErgoMaster{
+      grid-template-columns: auto 273px;
+      padding: 0 40px 42px;
+    }
+
+    .MSM6M871 .ErgoMaster .logo_bosch{
+      width: 129px;
+      right: 40px;
+      bottom: 42px;
+
+    }
+}
+@media screen and (min-width:1366px) {
+
+    .MSM6M871 p{
+      font-size: 24px;
+    }
+
+    .MSM6M871 h3{
+      font-size: 24px;
+    }
+
+    .MSM6M871 h2{
+      font-size: 38px;
+    }
+
+    .MSM6M871 .ErgoMaster_text{
+      position: absolute;
+      width: 714px;
+      right: 40px;
+      top: 180px;
+      text-align: center;
+    }
+
+    .MSM6M871 .ErgoMaster{
+      grid-template-columns: 830px auto;
+      padding: 0 40px 42px;
+    }
+
+    .MSM6M871 .ErgoMaster .logo_bosch{
+      width: 188px;
+    }
+}
+
+/* productive_engine */
+
+.MSM6M871 .productive_engine{
+  display: grid;
+  gap: 32px;
+  padding: 32px 0;
+}
+
+.MSM6M871 .productive_engine .productive_engine_text{
+  display: grid;
+  gap: 8px;
+  padding: 0 16px;
+}
+
+@media screen and (min-width:666px) {
+    .MSM6M871 .productive_engine{
+      padding: 32px 32px;
+      display: block;
+      position: relative;
+
+      }
+
+      .MSM6M871 .productive_engine .productive_engine_text{
+        top: 32px;
+        left: 32px;
+      }
+
+      .MSM6M871 .productive_engine .productive_engine_text .productive_engine_item{
+        position: absolute;
+        bottom: 32px;
+        right: 32px;
+        width: 257px;
+        text-align: center;
+      }
+
+      .MSM6M871 .productive_engine .productive_engine_text .harect_block{
+        position: absolute;
+        left: 32px;
+        width:91%;
+        height: 85%;
+      }
+
+      .MSM6M871 .productive_engine .harect_block .first_item{
+        position: absolute;
+        left: 10px ;
+        top: 18%;
+      }
+      .MSM6M871 .productive_engine .harect_block .two_item{
+        position: absolute;
+        left: 25% ;
+        top: 0px;
+        width: 250px;
+        text-align: center;
+      }
+      .MSM6M871 .productive_engine .harect_block .tree_item{
+        position: absolute;
+        left: 0 ;
+        width: 159px;
+        top: 50%;
+        text-align: center;
+      }
+
+      .MSM6M871 .productive_engine .harect_block .four_item{
+        position: absolute;
+        left: 28% ;
+        bottom: 10%;
+        text-align: center;
+      }
+}
+
+
+@media screen and (min-width:1024px) {
+    .MSM6M871 .productive_engine{
+      padding: 40px;
+      }
+
+      .MSM6M871 .productive_engine ul li{
+        font-size: 24px;
+      }
+
+      .MSM6M871 .productive_engine .productive_engine_text .productive_engine_item{
+        position: absolute;
+        bottom: 40px;
+        right: 32px;
+        width: 324px;
+        text-align: center;
+      }
+
+      .MSM6M871 .productive_engine .productive_engine_text .harect_block{
+        position: absolute;
+        left: 32px;
+        width:91%;
+        height: 85%;
+      }
+
+      .MSM6M871 .productive_engine .harect_block .first_item{
+        left: 6%;
+        top: 15%;
+      }
+      .MSM6M871 .productive_engine .harect_block .two_item{
+        left: 34%;
+        top: 10%;
+      }
+      .MSM6M871 .productive_engine .harect_block .tree_item{
+        width: 297px;
+        top: 45%;
+      }
+
+      .MSM6M871 .productive_engine .harect_block .four_item{
+        left: 28% ;
+        bottom: 10%;
+      }
+}
+
+
+@media screen and (min-width:1366px) {
+    .MSM6M871 .productive_engine{
+      padding: 40px;
+
+      }
+
+      .MSM6M871 .productive_engine ul li{
+        font-size: 24px;
+      }
+
+      .MSM6M871 .productive_engine .productive_engine_text .productive_engine_item{
+        position: absolute;
+        bottom: 80px;
+        right: 50px;
+        width: 457px;
+        text-align: center;
+      }
+      .MSM6M871 .productive_engine .productive_engine_text .productive_engine_item p{
+        font-size: 22px;
+      }
+
+      .MSM6M871 .productive_engine .productive_engine_text .harect_block{
+        position: absolute;
+        left: 32px;
+        width:91%;
+        height: 85%;
+      }
+
+      .MSM6M871 .productive_engine .harect_block .first_item{
+        left: 6%;
+        top: 15%;
+      }
+      .MSM6M871 .productive_engine .harect_block .two_item{
+        left: 40%;
+        top: 4%;
+      }
+      .MSM6M871 .productive_engine .harect_block .tree_item{
+        width: 297px;
+        top: 50%;
+        left: 1%;
+      }
+
+      .MSM6M871 .productive_engine .harect_block .four_item{
+        left: 34%;
+        bottom: 8%;
+      }
+}
+
+
+
+
+
+
+
+/* less_overheating */
+
+.MSM6M871 .less_overheating{
+  display: grid;
+  gap: 32px;
+}
+
+.MSM6M871 .less_overheating p{
+  padding: 0 16px;
+}
+
+
+@media screen and (min-width:666px) {
+    .MSM6M871 .less_overheating{
+      gap: 0px;
+      position: relative;
+      padding: 0 32px;
+    }
+
+  .MSM6M871 .less_overheating p{
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 32px;
+    width: 388px;
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width:1024px) {
+    .MSM6M871 .less_overheating{
+      position: relative;
+      padding: 42px 40px 0;
+    }
+
+  .MSM6M871 .less_overheating p{
+    width: 396px;
+    padding: 0;
+  }
+
+}
+
+@media screen and (min-width:1366px) {
+    .MSM6M871 .less_overheating{
+      position: relative;
+      padding: 40px 40px 0;
+    }
+
+  .MSM6M871 .less_overheating p{
+    width: 475px;
+  }
+
+}
+
+
+/* blade_pro */
+
+
+.MSM6M871 .blade_pro{
+  display: grid;
+  gap: 32px;
+  padding:32px 16px;
+  position: relative;
+}
+
+.MSM6M871 .blade_pro .blade_pro_block{
+  display: grid;
+  gap: 32px;
+}
+
+.MSM6M871 .blade_pro .blade_pro_block .blade_pro_text{
+  display: grid;
+  gap: 8px;
+}
+
+.MSM6M871 .blade_pro .logo_bosch{
+  display: none;
+}
+
+
+
+@media screen and (min-width:666px) {
+
+  .MSM6M871 .blade_pro{
+    gap: 24px;
+    padding:32px 32px;
+    align-items: center;
+    grid-template-columns: auto 215px;
+  }
+
+  .MSM6M871 .blade_pro .blade_pro_block{
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  
+
+}
+
+@media screen and (min-width:1024px) {
+
+  .MSM6M871 .blade_pro{
+    padding: 32px 40px;
+    grid-template-columns: auto 334px;
+  }
+  .MSM6M871 .blade_pro .blade_pro_block{
+    padding-right: 10px;
+  }
+  .MSM6M871 .blade_pro .blade_pro_block .blade_pro_text{
+    display: grid;
+    gap: 16px;
+  }
+
+
+
+}
+@media screen and (min-width:1366px) {
+
+  .MSM6M871 .blade_pro{
+    padding: 32px 40px;
+    text-align: center;
+    gap: 42.5px;
+    align-items: flex-start ;
+    grid-template-columns: auto 385px;
+  }
+  .MSM6M871 .blade_pro .blade_pro_block{
+    padding-right: 10px;
+    grid-template-rows: repeat(2,1fr);
+    padding-top: 40px;
+  }
+  .MSM6M871 .blade_pro .logo_bosch{
+    display: block;
+    width: 188px;
+    position: absolute;
+    bottom: 40px;
+    right: 32px;
+  }
+  .MSM6M871 .blade_pro .item_pro{
+    position: absolute;
+    right: 20%;
+    width: 429px;
+    bottom: 80px;
+  }
+
+}
+
+
+/* ceramic_connection */
+
+.MSM6M871 .ceramic_connection br{
+  display: none;
+}
+
+.MSM6M871 .ceramic_connection{
+    display: grid;
+    gap: 32px;
+}
+.MSM6M871 .ceramic_connection .ceramic_connection_block{
+    display: grid;
+    gap: 32px;
+    padding: 0 16px;
+}
+
+.MSM6M871 .ceramic_connection .ceramic_connection_block .item_ceramic{
+    padding-right: 70px;
+}
+
+.MSM6M871 .ceramic_connection .ceramic_connection_block .ceramic_connection_text{
+  display: grid;
+  gap: 8px;
+}
+
+
+@media screen and (min-width:666px) {
+
+    .MSM6M871 .ceramic_connection{
+      background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/22056/opt.img%205.webp?_t=1695711999");
+      background-size: cover;
+      gap: 0;
+      padding: 12px;
+      margin: 0 32px 32px;
+      grid-template-columns: repeat(2,1fr);
+      
+    }
+    .MSM6M871 .ceramic_connection img{
+      opacity: 0;
+    }
+    .MSM6M871 .ceramic_connection .ceramic_connection_block{
+      grid-column-start: 2;
+      grid-row-start: 1;
+      text-align: center;
+      padding: 0px;
+      gap: 16px;
+    }
+    .MSM6M871 .ceramic_connection .ceramic_connection_block .item_ceramic{
+      padding-right: 0px;
+  }
+}
+
+
+@media screen and (min-width:1024px) {
+
+    .MSM6M871 .ceramic_connection{
+      padding:70px 25px;
+      grid-template-columns: auto 334px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      
+    }
+    .MSM6M871 .ceramic_connection .ceramic_connection_block{
+      padding: 0px;
+      gap: 16px;
+    }
+    .MSM6M871 .ceramic_connection .ceramic_connection_block .item_ceramic{
+      padding-right: 0px;
+  }
+}
+
+@media screen and (min-width:1366px) {
+  .MSM6M871 .ceramic_connection{
+    grid-template-columns: 741px 483px;
+    padding: 20px 30px 100px;
+    margin: 40px;
+
+  }
+  .MSM6M871 .ceramic_connection br{
+    display: block;
+  }
+  .MSM6M871 .ceramic_connection .ceramic_connection_block{
+    gap: 100px;
+  }
+}
+
+
+/* сhange_accessories */
+
+
+.MSM6M871 .сhange_accessories{
+  display: grid;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.MSM6M871 .сhange_accessories br{
+  display: none
+}
+
+.MSM6M871 .сhange_accessories .сhange_accessories_text{
+  display: grid;
+  padding: 0 16px;
+  gap: 8px;
+}
+
+
+
+@media screen and (min-width:666px) {
+
+  .MSM6M871 .сhange_accessories{
+
+    background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/22056/opt.im%206.webp?_t=1695711998");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: auto 280px;
+    padding: 81px 0 84px;
+    align-items: center;
+    margin: 32px;
+    gap: 0;
+  }
+
+  .MSM6M871 .сhange_accessories .сhange_accessories_text{
+    grid-column-start: 2;
+    padding: 0;
+    grid-row-start: 1;
+    text-align: center;
+
+  }
+  .MSM6M871 .сhange_accessories img{
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width:1024px) {
+
+    .MSM6M871 .сhange_accessories{
+      margin: 40px;
+      grid-template-columns: auto 334px;
+      padding: 81px 25px 84px;
+      gap: 0;
+    }
+
+    .MSM6M871 .сhange_accessories .сhange_accessories_text{
+      grid-column-start: 2;
+      padding: 0;
+      grid-row-start: 1;
+      text-align: center;
+    }
+    .MSM6M871 .сhange_accessories img{
+      opacity: 0;
+    }
+    .MSM6M871 .сhange_accessories .сhange_accessories_text h3{
+      padding: 0 20px;
+    }
+
+}
+
+@media screen and (min-width:1366px) {
+
+    .MSM6M871 .сhange_accessories{
+      grid-template-columns: auto 552px;
+      padding: 125px 0px 185px;
+
+
+    }
+    .MSM6M871 .сhange_accessories br{
+      display: block
+    }
+
+}
+
+
+/* speed_control */
+
+.MSM6M871 .speed_control .mobile_speed {
+  display: grid;
+  gap: 32px;
+  padding: 32px 0;
+  position: relative;
+}
+
+.MSM6M871 .speed_control .mobile_speed .speed_control_block {
+  display: grid;
+  gap: 32px;
+  padding: 0 16px;
+}
+
+.MSM6M871 .speed_control .mobile_speed .logo_bosch{
+  display: none;
+}
+
+.MSM6M871 .speed_control .dect_speed{
+  display: none;
+  margin: 0 40px;
+}
+
+.MSM6M871 .speed_control .mobile_speed .speed_control_text{
+  display: grid;
+  gap: 16px;
+}
+
+@media screen and (min-width:666px) {
+  .MSM6M871 .speed_control .mobile_speed .logo_bosch{
+    display: block;
+    position: absolute;
+    width: 89px;
+    bottom: 10px;
+    right: 40px;
+  }
+
+  .MSM6M871 .speed_control .mobile_speed{
+    margin-top: 32px;
+    grid-template-columns: auto 237px;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0 32px 40px;
+
+  }
+
+  .MSM6M871 .speed_control .mobile_speed .speed_control_block {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding: 0 20px 0 0;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .MSM6M871 .speed_control .mobile_speed .logo_bosch{
+    width: 129px;
+  }
+
+  .MSM6M871 .speed_control .mobile_speed {
+    grid-template-columns: auto 337px;
+    padding:0 40px;
+    align-items: center;
+  }
+
+  .MSM6M871 .speed_control .mobile_speed .speed_control_block {
+    padding: 0 23px 0 0;
+  }
+
+
+}
+
+@media screen and (min-width:1366px) {
+  .MSM6M871 .speed_control .mobile_speed{
+    display: none;
+  }
+  .MSM6M871 .speed_control .dect_speed{
+    display: block;
+    margin: 0 40px;
+  }
+
+
+}
+
+
+/* wide_selection */
+
+.MSM6M871 .wide_selection{
+  padding: 32px 0;
+  display: grid;
+  gap: 32px;
+}
+.MSM6M871 .wide_selection .wide_block{
+  padding: 0 16px;
+  display: grid;
+}
+
+.MSM6M871 .wide_selection .wide_block .wide_items_5{
+  display: none;
+}
+
+@media screen and (min-width:666px) {
+      .MSM6M871 .wide_selection{
+        position: relative;
+        padding: 0 50px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        gap: 0;
+      }
+
+    .MSM6M871 .wide_selection .wide_block{
+      position: absolute;
+      display: block;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .MSM6M871 .wide_selection .wide_block .wide_items_5{
+      display: block;
+      position: absolute;
+      padding: 2px 11px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      text-align: center;
+    }
+    .MSM6M871 .wide_selection .wide_block .wide_items_1{
+      position: absolute;
+      width: 159px;
+      top: 10%;
+      left:0%;
+      text-align: center;
+    }
+    .MSM6M871 .wide_selection .wide_block .wide_items_2{
+      position: absolute;
+      width: 159px;
+      top: 10%;
+      right:0%;
+      text-align: center;
+    }
+    .MSM6M871 .wide_selection .wide_block .wide_items_3{
+      position: absolute;
+      width: 159px;
+      bottom: 10%;
+      left:0%;
+      text-align: center;
+    }
+    .MSM6M871 .wide_selection .wide_block .wide_items_4{
+      position: absolute;
+      width: 159px;
+      bottom: 10%;
+      right:0%;
+      text-align: center;
+    }
+
+}
+
+
+@media screen and (min-width:1024px) {
+  .MSM6M871 .wide_selection{
+    position: relative;
+    padding: 0 177px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 0;
+  }
+  .MSM6M871 .wide_selection .wide_block .wide_items_5{
+    padding: 2px 45px;
+  }
+  .MSM6M871 .wide_selection .wide_block .wide_items_1{
+     top: 20%;
+    left:45px;
+   
+  }
+  .MSM6M871 .wide_selection .wide_block .wide_items_2{
+    width: 173px;
+    top: 20%;
+    right:45px;
+  }
+  .MSM6M871 .wide_selection .wide_block .wide_items_3{
+    bottom: 20%;
+    left:45px;
+  }
+  .MSM6M871 .wide_selection .wide_block .wide_items_4{
+    bottom: 20%;
+    right:45px;
+    
+  }
+}
+
+
+@media screen and (min-width:1366px) {
+  .MSM6M871 .wide_selection{
+    position: relative;
+    padding: 0 372px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 0;
+  }
+  .MSM6M871 .wide_selection .wide_block .wide_items_5{
+    padding: 2px 20px;
+  }
+  .MSM6M871 .wide_selection .wide_block .wide_items_1{
+     top: 20%;
+    left:9%;
+    width: 255px;
+
+   
+  }
+  .MSM6M871 .wide_selection .wide_block .wide_items_2{
+    width: 367px;
+    top: 20%;
+    right:2%;
+  }
+  .MSM6M871 .wide_selection .wide_block .wide_items_3{
+    bottom: 20%;
+    width: 255px;
+    left:6%;
+  }
+  .MSM6M871 .wide_selection .wide_block .wide_items_4{
+    bottom: 20%;
+    width: 255px;
+    right:6%;
+    
+  }
+}
+
+
+
+/* food_processor */
+
+.MSM6M871 .food_processor{
+  display: grid;
+  gap: 32px;
+  padding: 32px 0;
+}
+.MSM6M871 .food_processor .food_processor_text{
+  display: grid;
+  gap: 8px;
+  padding: 0 16px;
+}
+
+
+@media screen and (min-width:666px) {
+
+  .MSM6M871 .food_processor{
+    position: relative;
+    padding: 0 32px;
+  }
+
+  .MSM6M871 .food_processor .food_processor_text{
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    width: 271px;
+    text-align: center;
+
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .MSM6M871 .food_processor{
+    margin-top: 42px;
+    padding: 0 40px;
+  }
+  .MSM6M871 .food_processor .food_processor_text{
+    top: 67px;
+    right: 40px;
+    width: 334px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:1366px) {
+  .MSM6M871 .food_processor .food_processor_text{
+    top: 67px;
+    right: 40px;
+    width: 552px;
+    text-align: center;
+  }
+}
+
+
+/* cleaning_leg */
+
+.MSM6M871 .cleaning_leg{
+  display: grid;
+  padding: 32px 0;
+  gap: 20px;
+}
+
+.MSM6M871 .cleaning_leg p:last-child{
+  display: none;
+}
+.MSM6M871 .cleaning_leg h3{
+  margin-bottom: 8px;
+}
+
+.MSM6M871 .cleaning_leg .cleaning_leg_text{
+  padding: 0 16px;
+}
+
+.MSM6M871 .cleaning_leg .logo_bosch{
+  display: none;
+}
+
+@media screen and (min-width:666px) {
+  .MSM6M871 .cleaning_leg{
+    grid-template-columns:auto 207px ; 
+    position: relative;   
+    padding: 32px;
+    gap: 24px;
+  }
+  .MSM6M871 .cleaning_leg .logo_bosch{
+    display: block;
+    position: absolute;
+    width: 89px;
+    bottom: 0;
+    right: 32px;
+  }
+  .MSM6M871 .cleaning_leg .cleaning_leg_text{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding: 0;
+
+  }
+  .MSM6M871 .cleaning_leg p:last-child{
+    display: block;
+  }
+}
+
+
+@media screen and (min-width:1024px) {
+  .MSM6M871 .cleaning_leg{
+    grid-template-columns:auto 295px ; 
+    padding: 40px;
+    align-items: center;
+
+  }
+  .MSM6M871 .cleaning_leg .logo_bosch{
+    width: 129px;
+    right: 40px;
+  }
+}
+
+@media screen and (min-width:1366px) {
+  .MSM6M871 .cleaning_leg{
+    grid-template-columns:807px 409px ; 
+    text-align: center;
+    padding:40px 40px 0;
+    gap: 40px;
+    align-items: center;
+
+  }
+  .MSM6M871 .cleaning_leg .logo_bosch{
+    width: 188px;
+  }
+  .MSM6M871 .cleaning_leg h3{
+    margin-bottom: 40px;
+    padding: 0 20px;
+  }
+  .MSM6M871 .cleaning_leg p:last-child{
+    margin-top: 20px;
+  }
+  
+}
+
+
+
+/* ten_years */
+
+
+.MSM6M871 .ten_years{
+  display: grid;
+  gap: 32px;
+  position: relative;
+  padding: 32px 0;
+}
+
+.MSM6M871 .ten_years .ten_years_text{
+  padding: 0 16px;
+}
+
+.MSM6M871 .ten_years p:last-child{
+  margin-top: 32px;
+}
+.MSM6M871 .ten_years h3{
+  margin-bottom: 8px;
+}
+
+.MSM6M871 .ten_years .logo_bosch{
+  display: none;
+}
+
+@media screen and (min-width:666px) {
+  .MSM6M871 .ten_years{
+    grid-template-columns: 346px auto;
+    gap: 24px;
+    padding: 32px;
+    align-items: center;
+
+  }
+  .MSM6M871 .ten_years .ten_years_text{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding: 0;
+  }
+  .MSM6M871 .ten_years .logo_bosch{
+    display: block;
+    position: absolute;
+    width: 89px;
+    bottom: 5px;
+    right: 32px;  
+  }
+
+}
+
+
+@media screen and (min-width:1024px) {
+  .MSM6M871 .ten_years{
+    grid-template-columns: 512px auto;
+    gap: 24px;
+    padding: 40px;
+  }
+  .MSM6M871 .ten_years .ten_years_text{
+
+    padding-right: 20px;
+  }
+  .MSM6M871 .ten_years .logo_bosch{
+    
+    width: 129px;
+    right: 40px;  
+  }
+  .MSM6M871 .ten_years h3{
+    margin-bottom: 16px;
+  }
+
+}
+
+@media screen and (min-width:1366px) {
+  .MSM6M871 .ten_years{
+    grid-template-columns: 591px auto;
+    gap: 94px;
+    text-align: center;
+  }
+  .MSM6M871 .ten_years .ten_years_text{
+    padding-right: 20px;
+  }
+  .MSM6M871 .ten_years .logo_bosch{    
+    width: 188px;
+  }
+  .MSM6M871 .ten_years h3{
+    margin-bottom: 22px;
+  }
+
+}
+
+
+/* bosch */
+
+.MSM6M871 .bosch{
+  display: grid;
+  gap: 20px;
+  padding: 32px 16px;
+  text-align: center;
+  position: relative;
+}
+.MSM6M871 .bosch .logo_bosch{
+  display: none;
+}
+
+.MSM6M871 .bosch .bosch_img_text h3{
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+@media screen and (min-width:666px) {
+  .MSM6M871 .bosch{
+    padding: 32px 100px;
+  }
+
+  .MSM6M871 .bosch .bosch_img{
+    padding: 0 83px;
+  }
+  .MSM6M871 .bosch .bosch_img_text h3{
+    margin-bottom: 10px;
+  }
+  .MSM6M871 .bosch .bosch_img_text p{
+    font-size: 14px;
+    line-height: 150%; 
+  }
+
+}
+
+@media screen and (min-width:1024px) {
+  .MSM6M871 .bosch{
+    padding: 42px 190px;
+    gap: 28px;
+  }
+  .MSM6M871 .bosch .bosch_img_text h3{
+    margin-bottom:14px;
+    font-size: 22px;
+  }
+  .MSM6M871 .bosch .bosch_img_text p{
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (min-width:1366px) {
+  .MSM6M871 .bosch{
+    padding: 60px 300px;
+    gap: 40px;
+  }
+  .MSM6M871 .bosch .bosch_img_text h3{
+    margin-bottom:16px;
+    font-size: 28px;
+  }
+  .MSM6M871 .bosch .bosch_img_text p{
+    font-size: 24px;
+  }
+  .MSM6M871 .bosch .logo_bosch{
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    right: 40px;
+    width: 188px;
+  }
+}

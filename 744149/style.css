@@ -1,0 +1,695 @@
+.product__description.base-padding {
+  padding: 0;
+  border-radius: 0px;
+  }
+  .lenovo img {
+    margin: 0;
+  }
+  .lenovo .description {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .lenovo .title {
+    color: #ffffff;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 14px;
+  }
+  .lenovo h2 {
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+  .lenovo ul {
+    list-style: disc;
+    margin: 0;
+  }
+  .lenovo ul li {
+    line-height: normal;
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .lenovo {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .lenovo ul {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .lenovo ul li {
+    padding: 0;
+  }
+  .lenovo div {
+    padding: 0;
+  }
+  div.lenovo {
+    padding: 0;
+  }
+  .lenovo br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+  .lenovo{
+    max-width: 1366px;
+    margin: 0 auto;
+    background: #000;
+    overflow-x: hidden;
+  }
+  .lenovo img{
+    width: 100%;
+    display: block;
+  }
+/* 
+  @media screen and (min-width:768px) {
+        body{
+            padding: 0 24px;
+        }
+  } */
+
+  .lenovo .mobile_world .mobile_world_text{
+    padding: 24px 18px;
+    display: grid;
+  }
+  .lenovo .mobile_world_text .big_title{
+    text-align: center;
+    font-size: 32px;
+  }
+
+
+  @media screen and (min-width:768px) {
+    .lenovo .mobile_world .description{
+        font-size:20px;
+    }
+    .lenovo .mobile_world{
+        text-align: center;
+        padding: 20px 32px 0;
+        display: grid;
+        gap: 45px;
+    }
+    .lenovo .mobile_world .mobile_world_text{
+        padding:0;
+    }
+    .lenovo .mobile_world_text .big_title{
+        text-align: center;
+        font-size: 40px;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .lenovo .description{
+        font-size:20px;
+    }
+    .lenovo .mobile_world{
+        text-align: center;
+        padding: 10px 0 0;
+        display: grid;
+        gap:0
+    }
+    .lenovo .mobile_world .mobile_world_text{
+        padding:0 40px;
+    }
+    .lenovo .mobile_world_text .big_title{
+        font-size: 56px;
+    }
+  }
+
+  @media screen and (min-width:1366px) {
+    .lenovo .description{
+        font-size:18px;
+    }
+    .lenovo .mobile_world .description{
+        font-size:28px;
+    }
+    .lenovo .mobile_world{
+        text-align: center;
+        padding: 60px;
+        display: grid;
+        gap:32px
+    }
+    .lenovo .mobile_world .mobile_world_text{
+        padding:0 115px;
+    }
+    .lenovo .mobile_world_text .big_title{
+        font-size: 72px;
+    }
+  }
+
+
+  /* power_impressive */
+
+  .lenovo .power_impressive{
+    display: grid;
+  }
+
+  .lenovo .power_impressive .power_impressive_text{
+    padding: 24px 16px;
+    display: grid;
+  }
+
+  .lenovo .power_impressive .title{
+    text-align: center;
+  }
+
+  @media screen and (min-width:666px) {
+    .lenovo .description{
+        font-size: 16px;
+    }
+    .lenovo .title{
+        font-size: 24px;
+    }
+    .lenovo .power_impressive{
+        text-align: center;
+    }
+    .lenovo .power_impressive .power_impressive_text{
+        padding: 24px 32px;
+        display: grid;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .lenovo .description{
+        font-size: 20px;
+    }
+    .lenovo .power_impressive .description{
+        font-size: 20px;
+    }
+    .lenovo .title{
+        font-size: 24px;
+        font-size: 32px;
+
+    }
+    .lenovo .power_impressive .title{
+        grid-area: a;
+
+    }
+    .lenovo .power_impressive{
+        text-align: center;
+        padding: 40px;
+        gap: 24px 0;
+        grid-template-columns: 1fr 1.1fr ;
+        align-items: center;
+        grid-template-areas: 
+        "a a"
+        "b c";
+    }
+    .lenovo .power_impressive .power_impressive_text{
+        padding: 0;
+        text-align: left;
+        display: grid;
+        grid-area: c;
+    }
+  }
+
+  @media screen and (min-width:1366px) {
+    .lenovo .description{
+        font-size: 18px;
+    }
+    .lenovo .power_impressive .description{
+        font-size: 22px;
+    }
+    .lenovo .title{
+        font-size: 48px;
+    }
+
+    .lenovo .power_impressive{
+        text-align: center;
+        padding:0 60px 60px;
+        gap: 24px 0;
+        grid-template-columns: 1.36fr 1fr ;
+        align-items: center;
+        grid-template-areas: 
+        "a a"
+        "b c";
+    }
+    .lenovo .power_impressive .power_impressive_text{
+        padding: 0;
+        text-align: left;
+        display: grid;
+        grid-area: c;
+    }
+  }
+
+
+  /* ColdFront */
+
+  .lenovo .ColdFront{
+    display: grid;
+  }
+
+  .lenovo .ColdFront .title{
+    padding: 24px 16px 0;
+  }
+
+
+  .lenovo .ColdFront .ColdFront_text{
+    padding: 0px 16px 16px;
+    display: grid;
+    gap: 16px;
+  }
+
+  .lenovo .ColdFront .title{
+    text-align: center;
+  }
+
+  @media screen and (min-width:666px) {
+    .lenovo .ColdFront{
+        text-align: center;
+    }
+    .lenovo .ColdFront .ColdFront_text{
+        padding: 0px 32px 24px;
+        display: grid;
+    }
+    .lenovo .ColdFront .title{
+        padding: 24px 32px 0;
+      }
+    .lenovo .ColdFront .ColdFront_img{
+        padding: 0 75px;
+    }
+
+  }
+
+  @media screen and (min-width:1024px) {
+    .lenovo .ColdFront .description{
+        font-size: 20px;
+    }
+
+    .lenovo .ColdFront{
+        text-align: center;
+        padding: 40px;
+        gap: 24px 0;
+        grid-template-columns: 1fr 1fr ;
+        align-items: center;
+    }
+    .lenovo .ColdFront .title{
+        text-align: left;
+        padding: 0;
+        padding-right: 20px;
+
+      }
+    .lenovo .ColdFront .ColdFront_text{
+        padding: 0;
+        padding-right: 12px;
+        text-align: left;
+    }
+    .lenovo .ColdFront .ColdFront_img{
+        padding: 0px;
+    }
+
+  }
+
+  @media screen and (min-width:1366px) {
+    
+    .lenovo .ColdFront{
+        text-align: center;
+        padding:0 60px 60px;
+        gap: 0;
+        grid-template-columns: 1fr 619px ;
+        align-items: center;
+    }
+    .lenovo .ColdFront .title{
+
+        padding-right: 10px;
+
+      }
+    .lenovo .ColdFront .ColdFront_text{
+        padding: 0;
+        padding-right: 50px;
+        text-align: left;
+    }
+  }
+
+
+    /* PureSight */
+
+    .lenovo .PureSight{
+        display: grid;
+      }
+    
+      .lenovo .PureSight .PureSight_text{
+        padding: 0px 16px 16px;
+        display: grid;
+        gap: 16px;
+      }
+    
+      .lenovo .PureSight .title{
+        text-align: center;
+        padding: 24px 16px 0;
+      }
+    
+      @media screen and (min-width:666px) {
+        .lenovo .description{
+            font-size: 16px;
+        }
+        .lenovo .title{
+            font-size: 24px;
+        }
+        .lenovo .PureSight{
+            text-align: center;
+            padding: 24px 32px;
+        }
+        .lenovo .PureSight .PureSight_text{
+            padding: 0px 0px 24px;
+        }
+        .lenovo .PureSight .title{
+            text-align: center;
+            padding: 0px 32px 0;
+          }
+          .lenovo .PureSight .PureSight_img{
+            padding-right: 100px;
+          }
+
+      }
+
+      @media screen and (min-width:1024px) {
+        .lenovo .description{
+            font-size: 18px;
+        }
+        .lenovo .title{
+            font-size: 24px;
+            font-size: 32px;
+    
+        }
+        .lenovo .PureSight .title{
+            grid-area: a;
+    
+        }
+        .lenovo .PureSight{
+            text-align: center;
+            padding: 40px;
+            gap: 24px 0;
+            grid-template-columns: 1fr 1fr ;
+            align-items: center;
+            grid-template-areas: 
+            "a a"
+            "b c";
+        }
+        .lenovo .PureSight .PureSight_text{
+            padding: 0;
+            text-align: left;
+            display: grid;
+            grid-area: c;
+        }
+        .lenovo .PureSight .PureSight_img{
+            padding-right: 0px;
+          }
+      }
+    
+      @media screen and (min-width:1366px) {
+        .lenovo .description{
+            font-size: 18px;
+        }
+
+        .lenovo .title{
+            font-size: 48px;
+        }
+        .lenovo .PureSight{
+            text-align: center;
+            padding:0 60px 60px;
+            gap: 24px 32px;
+            grid-template-columns: 698px 1fr ;
+            align-items: center;
+        }
+      }
+    
+    /*     .lenovo .autonomous */
+
+    .lenovo .autonomous{
+        display: grid;
+      }
+    
+      .lenovo .autonomous .autonomous_text{
+        padding: 0px 16px 16px;
+        display: grid;
+        gap: 16px;
+      }
+
+      .lenovo .autonomous .autonomous_text .description:nth-child(2){
+        padding: 0 20px;
+      }
+
+      .lenovo .autonomous .title{
+        text-align: center;
+        padding: 24px 16px 0;
+      }
+    
+      @media screen and (min-width:666px) {
+
+        .lenovo .autonomous{
+            text-align: center;
+            padding: 24px 32px;
+        }
+        .lenovo .autonomous .autonomous_text{
+            padding: 0px 0px 24px;
+        }
+        .lenovo .autonomous .title{
+            text-align: center;
+            padding: 0px 32px 0;
+          }
+          .lenovo .autonomous .autonomous_img{
+            padding-left: 100px;
+          }
+
+      }
+
+      @media screen and (min-width:1024px) {
+
+        .lenovo .autonomous .title{
+            grid-area: a;
+    
+        }
+        .lenovo .autonomous{
+            text-align: center;
+            padding: 40px;
+            gap: 24px 0;
+            grid-template-columns: 1fr 1fr ;
+            align-items: center;
+            grid-template-areas: 
+            "a a"
+            "b c";
+        }
+        .lenovo .autonomous .autonomous_text .description:nth-child(2){
+            padding: 0px;
+          }
+        .lenovo .autonomous .autonomous_text{
+            padding: 0;
+            padding-right: 10px;
+            text-align: left;
+            display: grid;
+            grid-area: b;
+        }
+        .lenovo .autonomous .autonomous_img{
+            padding-left: 0px;
+          }
+      }
+    
+      @media screen and (min-width:1366px) {
+        .lenovo .autonomous .autonomous_text{
+            padding-right: 90px;
+        }
+        .lenovo .autonomous{
+            padding:0 60px 60px;
+            gap: 24px 0;
+            grid-template-columns: 1fr 669px ;
+        }
+      }
+    
+
+
+
+         /* new_level */
+
+    .lenovo .new_level{
+        display: grid;
+      }
+    
+      .lenovo .new_level .new_level_text{
+        padding: 0px 16px 16px;
+        display: grid;
+        gap: 16px;
+      }
+    
+      .lenovo .new_level .title{
+        text-align: center;
+        padding: 24px 16px 0;
+      }
+    
+      @media screen and (min-width:666px) {
+
+        .lenovo .new_level{
+            text-align: center;
+            padding: 24px 32px 0;
+        }
+        .lenovo .new_level .new_level_text{
+            padding: 0px 0px 24px;
+        }
+        .lenovo .new_level .title{
+            text-align: center;
+            padding: 0px 32px 0;
+          }
+          .lenovo .new_level .new_level_img{
+            padding-right: 100px;
+          }
+
+      }
+
+      @media screen and (min-width:1024px) {
+
+        .lenovo .new_level{
+            text-align: center;
+            padding: 40px 40px 0;
+            gap: 24px 0;
+            grid-template-columns: 1fr 1fr ;
+            align-items: center;
+            
+        }
+        .lenovo .new_level .new_level_text{
+            padding: 0;
+            padding-left: 24px;
+            grid-column-start: 2;
+            grid-row-start: 1;
+            text-align: left;
+        }
+        .lenovo .new_level .new_level_img{
+            padding-right: 0px;
+          }
+        .lenovo .new_level .title{
+            text-align: left;
+            padding: 0;
+        }
+
+      }
+    
+      @media screen and (min-width:1366px) {
+        .lenovo .new_level .new_level_text{
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+        .lenovo .new_level .new_level_text .description:nth-child(2){
+            padding-right: 50px;
+        }
+        .lenovo .new_level .new_level_text .description:nth-child(3){
+            padding-right: 24px;
+        }
+        .lenovo .new_level .new_level_text .description:nth-child(4){
+            padding-right: 60px;
+        }
+        .lenovo .new_level .new_level_text .description:nth-child(5){
+            padding-right: 70px;
+        }
+        .lenovo .new_level{
+            padding:0 60px 60px;
+            gap:0;
+            grid-template-columns: 556px 1fr ;
+        }
+      }
+    
+
+
+       /* gaming_support*/
+
+    .lenovo .gaming_support{
+        display: grid;
+      }
+    
+      .lenovo .gaming_support .gaming_support_text{
+        padding: 0px 16px 16px;
+        display: grid;
+        gap: 16px;
+      }
+
+      /* .lenovo .gaming_support .gaming_support_text .description:nth-child(2){
+        padding: 0 20px;
+      } */
+
+      .lenovo .gaming_support .title{
+        text-align: center;
+        padding: 0px 16px;
+      }
+    
+      @media screen and (min-width:666px) {
+
+        .lenovo .gaming_support{
+            text-align: center;
+        }
+        .lenovo .gaming_support .gaming_support_text{
+            padding: 0px 32px 24px;
+        }
+        .lenovo .gaming_support .title{
+            text-align: center;
+            padding: 0px 32px 0;
+          }
+          .lenovo .gaming_support .gaming_support_img{
+            padding-left: 100px;
+          }
+
+      }
+
+      @media screen and (min-width:1024px) {
+
+        .lenovo .gaming_support .title{
+            grid-area: a;
+            padding: 0;
+            text-align: left;
+    
+        }
+        .lenovo .gaming_support{
+            text-align: center;
+            padding: 40px;
+            gap: 24px 0;
+            grid-template-columns: 1fr 1.1fr ;
+            align-items: center;
+            grid-template-areas: 
+            "a a"
+            "b c";
+        }
+        .lenovo .gaming_support .gaming_support_text .description:nth-child(2){
+            padding: 0px;
+          }
+        .lenovo .gaming_support .gaming_support_text{
+            padding: 0;
+            padding-right: 15px;
+            text-align: left;
+            display: grid;
+            grid-area: b;
+        }
+        .lenovo .gaming_support .gaming_support_img{
+            padding-left: 0px;
+          }
+      }
+    
+      @media screen and (min-width:1366px) {
+        .lenovo .gaming_support .gaming_support_text{
+            padding-right: 40px;
+        }
+        .lenovo .gaming_support{
+            padding:0 60px 60px;
+            gap: 24px 0;
+            grid-template-columns: 1fr 720px ;
+        }
+      }
+    

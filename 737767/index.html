@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .razr_ultra img {
+      margin: 0;
+    }
+    .razr_ultra p {
+      padding: 0;
+      margin: 0;
+      font-family: "Roboto" , sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .razr_ultra .foonter p,
+    .razr_ultra ul li
+    {
+      font-size: 12px;
+      color: white;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .razr_ultra h3{
+      font-family: "Roboto" , sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      margin: 0;
+    }
+    .razr_ultra h2{
+        margin: 0;
+        font-family: "Roboto" , sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    }
+    .razr_ultra ul {
+      list-style: decimal;
+      margin: 0;
+      padding-left: 16px;
+    }
+    .razr_ultra ul li {
+      font-family: "Roboto" , sans-serif;
+    }
+    .razr_ultra {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .razr_ultra div {
+      padding: 0;
+    }
+    div.razr_ultra {
+      padding: 0;
+    }
+    .razr_ultra br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .razr_ultra {
+      margin: 0 auto;
+      max-width: 1366px;
+      overflow-x: hidden;
+    }
+    .razr_ultra img{
+      display: block;
+      width: 100%;
+    }
+    /* logo_block */
+    .razr_ultra .logo_block{
+      display: grid;
+      gap: 16px;
+      padding: 20px 16px;
+    }
+    .razr_ultra .logo_block .left_logo{
+        display: grid;
+        grid-template-columns: 90px auto;
+        gap: 40px;
+        grid-row-start: 2;
+    }
+    .razr_ultra .logo_block .left_logo .logo_razr{
+      width: 90px;
+    }
+    .razr_ultra .logo_block .right_logo{
+      display: grid;
+      gap: 20px;
+    }
+    .razr_ultra .logo_block .right_logo .logo_moto{
+      width: 42px;
+      margin: 0 auto;
+    }
+
+    .razr_ultra .logo_block h2{
+        font-size: 20px;
+        color: rgb(4, 20, 37);
+        text-transform: uppercase;
+        margin-bottom: 4px;
+    }
+    .razr_ultra .logo_block p{
+        font-size: 16px;
+    }
+
+
+
+
+    @media screen and (min-width:666px) {
+      /* body{
+        padding: 0 24px;
+      } */
+      .razr_ultra .logo_block{
+        grid-template-columns: 1fr 1.05fr 1fr;
+        padding: 0 40px 24px;
+        align-items: center;
+        gap: 0px;
+      }
+    .razr_ultra .logo_block .left_logo{
+        grid-row-start: 1;
+        grid-column-start: 1;
+        grid-template-columns:none;
+        gap: 58px;
+        padding-right: 20px;
+        
+    }
+      .razr_ultra .logo_block .right_logo{
+        padding: 0;
+        padding-left: 20px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .razr_ultra p {
+        font-size: 18px;
+      }
+      .razr_ultra h3 {
+        font-size: 20px;
+      }
+
+      .razr_ultra .logo_block{
+        padding: 0 60px 24px;
+      }
+      .razr_ultra .logo_block .left_logo .logo_razr{
+        width: 123px;
+      }
+    .razr_ultra .logo_block .left_logo{
+        gap: 78px;
+        padding-right: 24px;
+    }
+    .razr_ultra .logo_block .right_logo{
+        padding-left: 24px;
+    }
+    .razr_ultra .logo_block h2{
+     font-size: 24px;
+     margin-bottom: 6px;
+    }
+    .razr_ultra .logo_block p{
+     font-size: 20px;
+    }
+
+}
+    @media screen and (min-width:1366px) {
+        .razr_ultra p {
+            font-size: 20px;
+        }
+        .razr_ultra h3 {
+            font-size: 28px;
+        }
+        .razr_ultra .logo_block .left_logo .logo_razr{
+            width: 188px;
+        }
+        .razr_ultra .logo_block .left_logo{
+            gap: 113px;
+        }
+        .razr_ultra .logo_block h2{
+            font-size: 32px;
+        }
+        .razr_ultra .logo_block p{
+            font-size: 28px;
+        }
+    }
+
+
+    /* pantone */
+
+    .razr_ultra .pantone{
+        display: grid;
+        gap: 16px;
+        background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/737647/opt.photo_2024-01-24_18-09-39.webp?_t=1711630609");
+        background-position: center;
+        background-size: cover;   
+        background-repeat: no-repeat;
+        border-radius: 12px;
+        padding: 24px 16px;
+    }
+
+    .razr_ultra .pantone .pantone_text{
+        display: grid;
+        gap: 14px;
+    }
+    .razr_ultra .pantone .pantone_logo {
+        width: 240px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .razr_ultra .pantone{
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            padding: 22px 40px 22px 0;
+            gap: 0;
+        }
+        .razr_ultra .pantone .pantone_text{
+            padding-left: 45px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .razr_ultra .pantone{
+            padding: 30px 60px 30px 0;
+            border-radius: 16px;
+        }
+        .razr_ultra .pantone .pantone_logo {
+            width:318px ;
+        }
+        .razr_ultra .pantone .pantone_text{
+            padding-left: 61px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .razr_ultra .pantone{
+            padding: 42.6px 110px 42.6px 0;
+            border-radius: 20px;
+        }
+        .razr_ultra .pantone .pantone_logo {
+            width:423px ;
+        }
+        .razr_ultra .pantone .pantone_text{
+            padding-left: 118px;
+            gap: 24px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* left_block */
+    .razr_ultra .left_block{
+      display: grid;
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .razr_ultra .left_block img{
+      border-radius: 0 0 12px 12px;
+    }
+    .razr_ultra .left_block .left_block_text{
+      padding: 0 16px;
+      display: grid;
+      gap: 14px;
+    }
+    @media screen and (min-width:666px) {
+      .razr_ultra .left_block{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 0;
+      }
+      .razr_ultra .left_block .left_block_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        padding: 0 40px 0 45px;
+      }
+      .razr_ultra .left_block img{
+        border-radius: 12px 0 0 12px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .razr_ultra .left_block .left_block_text{
+        padding: 0 60px 0 61px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .razr_ultra .left_block .left_block_text{
+        padding: 0 60px 0 118px;
+      }
+    }
+    /* rigth_block */
+    .razr_ultra .rigth_block{
+      display: grid;
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .razr_ultra .rigth_block img{
+      border-radius: 0 0 20px 20px;
+    }
+    .razr_ultra .rigth_block .rigth_block_text{
+      padding: 0 16px;
+      display: grid;
+      gap: 14px;
+    }
+    @media screen and (min-width:666px) {
+      .razr_ultra .rigth_block{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 0;
+      }
+      .razr_ultra .rigth_block .rigth_block_text{
+        padding: 0 45px 0 40px;
+      }
+      .razr_ultra .rigth_block img{
+        border-radius: 0 20px 20px 0;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .razr_ultra .rigth_block .rigth_block_text{
+        padding: 0 61px 0 60px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .razr_ultra .rigth_block .rigth_block_text{
+        padding: 0 118px 0 60px;
+      }
+    }
+    /* foonter */
+    .razr_ultra .foonter{
+      background: linear-gradient(180deg, #F0617D 0%, #370931 49.76%, #350025 100%);
+      padding: 32px 16px;
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 20px 20px 0 0;
+      margin-top: 24px;
+      display: grid;
+      gap: 20px;
+    }
+    .razr_ultra .foonter .foonter_text{
+      display: grid;
+      gap: 20px;
+    }
+    @media screen and (min-width:666px) {
+      .razr_ultra .foonter{
+        padding: 32px 60px 44px;
+      }
+      .razr_ultra .foonter .foonter_text{
+        padding: 0 37px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .razr_ultra .foonter{
+        padding: 42px 109px 64px;
+      }
+      .razr_ultra .foonter .foonter_text{
+        padding: 0 25px;
+      }
+      .razr_ultra .foonter p,
+      .razr_ultra ul li
+      {
+        font-size: 14px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .razr_ultra .foonter{
+        padding: 60px 142px 80px;
+        background-position: center;
+      }
+      .razr_ultra .foonter .foonter_text{
+        padding: 0 25px;
+      }
+    }
+</style>
+<div class="razr_ultra">
+  <section class="logo_block">
+    <div class="left_logo">
+        <img alt="" class="logo_razr" src="https://i.citrus.world/uploads/content/product-photos/kirsh/737647/logo%201.svg?_t=1711630582" />
+        <div class="left_logo_text">
+            <h2>2024 Pantone <br> Color of the Year</h2>
+            <p>Peach Fuzz</p>
+        </div>
+        
+    </div>
+    <div class="center_logo">
+        <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/737647/opt.MOT_ROW_RAZR%20KVs%202.webp?_t=1711630601" alt="">
+    </div>
+    <div class="right_logo"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/737647/opt.Device_right.webp?_t=1711630601" />
+    </div>
+  </section>
+  <!--  -->
+  <section class="pantone">
+    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/737647/opt.pantone-color-of-the-year-2024-collaborations-motorola-razr-angled.webp?_t=1711630600" alt="">
+    <div class="pantone_text">
+        <img class="pantone_logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/737647/logo%202.svg?_t=1711630582" alt="">
+        <p>Цей motorola razr 40 ultra в кольорі Peach Fuzz створений для екстравертів, які прагнуть підкреслити свій стиль.</p>
+    </div>
+  </section>
+  <!--  -->
+  <section class="left_block">
+    <div class="left_block_text">
+      <h3>НАЙБІЛЬШИЙ ТА НАЙПЕРЕДОВІШИЙ ЗОВНІШНІЙ ДИСПЛЕЙ<sup>1</sup>
+      </h3>
+      <p>Найбільший та найпередовіший серед сучасних фліпфонів зовнішній дисплей надає миттєвий доступ до всіх важливих для тебе застосунків.
+      </p>
+    </div>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/737647/opt.2023_JUNO_CAMERA_CAROUSEL_DIGITAL_2.webp?_t=1711630599" />
+  </section>
+  <!--  -->
+  <section class="rigth_block">
+    <div class="rigth_block_text">
+      <h3>ПЕРЕОСМИСЛЕННЯ
+        <br />
+        КУЛЬТОВОГО ДИЗАЙНУ
+      </h3>
+      <p>Насолоджуйся повністю інтерактивним зовнішнім дисплеєм з діагоналлю 3,6&rdquo;. Або відкрий основний, ультра рівний та яскравий pOLED дисплей.
+      </p>
+    </div>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/724937/Layer-1.webp?_t=1695575927" />
+  </section>
+  <!--  -->
+  <section class="left_block" style="background:rgba(223, 169, 145, 1); border-radius: 20px;">
+    <div class="left_block_text">
+      <h3>ЗНІМАЙ КРАЩЕ НІЖ БУДЬ-КОЛИ
+      </h3>
+      <p>Створюй приголомшливі фото та відео завдяки гнучкому екрану Flex View, який дозволяє розташовувати телефон під різними кутами та навіть використовувати його як штатив.
+      </p>
+    </div>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/737647/opt.reflections.webp?_t=1711630600" />
+  </section>
+  <!--  -->
+  <section class="rigth_block">
+    <div class="rigth_block_text">
+      <h3>ПОКРАЩ СВОЄ БАЧЕННЯ
+      </h3>
+      <p>Фіксуй кожну мить у найдрібніших деталях за будь-якого освітлення або створюй надзвичайні ширококутні знімки. Роби найкращі селфі за допомогою потужних камер та зовнішнього дисплею.
+      </p>
+    </div>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/737647/opt.Layer%203.webp?_t=1711630600" />
+  </section>
+  <!--  -->
+  <section class="left_block" style="background:rgba(203, 132, 138, 1); border-radius: 20px;">
+    <div class="left_block_text">
+      <h3>ЗАРЯДИСЯ НА ЦІЛИЙ ДЕНЬ
+      </h3>
+      <p>Не переймайтеся про заряд смартфона із акумулятором ємністю 3800 мА*год<sup>2</sup>. Використовуйте швидку зарядку TurboPower&trade; потужністю 30 Вт <sup>3</sup> або бездротову зарядку <sup>4</sup>.
+      </p>
+    </div>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/737647/opt.reflections-1.webp?_t=1711630600" />
+  </section>
+  <!--  -->
+  <section class="rigth_block">
+    <div class="rigth_block_text">
+      <h3>ПОТУЖНА ПРОДУКТИВНІСТЬ SNAPDRAGON&reg; 8+
+      </h3>
+      <p>Насолоджуйся блискавичною швидкістю роботи та покращеною на 20% продуктивністю штучного інтелекту <sub>5</sub>.
+      </p>
+    </div>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/724937/Layer%204.webp?_t=1695575926" />
+  </section>
+  <!--  -->
+  <section class="left_block">
+    <div class="left_block_text">
+      <h3>БАГАТОВИМІРНИЙ ЗВУК
+      </h3>
+      <p>Відчуйте повне занурення у світ музики із технологіями Dolby Atmos&reg; та Spatial Sound.
+      </p>
+    </div>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/737647/opt.Layer%206.webp?_t=1711630600" />
+  </section>
+  <!--  -->
+  <section class="rigth_block">
+    <div class="rigth_block_text">
+      <h3>ЗАХИСТ ВІД ВОЛОГИ <sup>6</sup> ЗАХИСТ ВІД ТРИВОГИ
+      </h3>
+      <p>Вологостійкий корпус <sup>6</sup> захистить телефон усередині та ззовні будь-де: на пробіжці чи під час телефонної розмови під дощем.
+      </p>
+    </div>
+    <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/724937/Layer%205.webp?_t=1695575927" />
+  </section>
+  <!--  -->
+  <section class="foonter"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/724937/image%20320.png?_t=1695575926" />
+    <div class="foonter_text">
+      <p>Деякі функції та технічні характеристики виробу можуть залежати від мережі, регулюватися додатковими умовами, і за їх використання може стягуватися додаткова плата. Усі вони можуть бути змінені без попередження. MOTOROLA, стилізований логотип у формі літери M, MOTO й серія знаків MOTO є зареєстрованими торговельними марками компанії Motorola Trademark Holdings, LLC. Усі інші торговельні марки є власністю відповідних власників. &copy; Motorola Mobility LLC, 2023. Усі права захищено. RAZR&reg; &ndash; зареєстрована торговельна марка компанії Razor USA LLC; RAZR і похідні слова використовуються з дозволу компанії Razor USA LLC. Зв&rsquo;язок 5G доступний за умови наявності тарифного плану 5G. Потрібне покриття мережі 5G, яке доступне лише в окремих регіонах. Пристрій сумісний не з усіма мережами 5G. За детальною інформацією звертайтеся до свого постачальника послуг.
+      </p>
+      <ul>
+        <li>На основі зазначених функцій, відсутніх в інших розкладних телефонах із вертикальною орієнтацією: розмір екрана 3,6 дюйма, частота оновлення до 144 Гц і роздільна здатність 1056&times;1066.</li>
+        <li>Усі твердження стосовно часу роботи від батареї є приблизними та ґрунтуються на середньому рівні користування, що перевірявся за змішаним профілем використання (який передбачає як використання, так і час очікування) за оптимальних умов мережі. Фактичний час роботи від батареї відрізнятиметься й залежатиме від багатьох факторів, зокрема рівня сигналу, налаштувань мережі й пристрою, температури, стану батареї та особливостей використання.</li>
+        <li>Заряджання TurboPower&trade; можливе лише за допомогою зарядного пристрою Motorola TurboPower&trade;; потужність зарядного пристрою Motorola TurboPower&trade;, який іде в комплекті, &ndash; 33 Вт, проте максимальна зарядна здатність виробу &ndash; 30 Вт. Зарядний пристрій Motorola TurboPower&trade; 33 не покращує максимальну зарядну здатність виробу. Батарея повинна бути максимально розряджена; швидкість заряджання вповільнюється у міру підвищення процента заряду. Бездротовий зарядний пристрій продається окремо.</li>
+        <li>На основі наданих Qualcomm даних про продуктивність мобільної платформи Snapdragon 8+ Gen 1 порівняно з мобільною платформою Snapdragon 8 Gen 1 попереднього покоління.</li>
+        <li>Вологостійкий корпус створює захисний бар&rsquo;єр від помірної кількості води, наприклад випадкових бризок, пролитої рідини або крапель дощу. Не слід занурювати виріб у воду, піддавати впливу води або іншої рідини під тиском; з часом водовідштовхувальні властивості можуть погіршитися. Виріб не є водонепроникним.</li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+</body>
+</html>

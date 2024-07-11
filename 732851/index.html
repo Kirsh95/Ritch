@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,600;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    .product__description.base-padding {
+  padding: 0;
+  border-radius: 0px;
+  }
+  .case img {
+    margin: 0;
+  }
+  .case p {
+    padding: 0;
+    margin: 0;
+    color: rgb(26, 26, 26);   
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    opacity: 0.8;
+  }
+  .case h3 {
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+  .case .notes {
+    color: rgb(26, 26, 26);   
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.6;
+
+  }
+  .case h2 {
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+  .case ul {
+    list-style: disc;
+    margin: 0;
+  }
+  .case ul li {
+    line-height: normal;
+    color: #000;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+  .case {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .case ul {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .case ul li {
+    padding: 0;
+  }
+  .case div {
+    padding: 0;
+  }
+  div.case {
+    padding: 0;
+  }
+  .case br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+  .case{
+    max-width: 1366px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  .case img{
+    width: 100%;
+    display: block;
+  }
+
+  .case .premium_look{
+    padding: 40px 16px 0;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+  }
+
+
+  
+  @media screen and (min-width:666px) {
+    body{
+        padding: 0 24px !important;
+    }
+    .case .premium_look{
+        padding: 40px;
+      }
+    .case .premium_look .premium_look_text{
+        padding: 0 60px;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+   .case h3{
+    margin-bottom: 16px;
+    font-size: 30px;
+   }
+   .case p{
+    font-size: 16px;
+    line-height: 150%;
+   }
+   .case .premium_look{
+    padding:42px 60px;
+    gap:28px ;
+    }
+    .case .premium_look .premium_look_text{
+        padding: 0 140px;
+    }
+  }
+
+  @media screen and (min-width:1366px) {
+    .case h3{
+        margin-bottom: 22px;
+        font-size: 42px;
+       }
+       .case p{
+        font-size: 22px;
+       }
+       .case .premium_look{
+            padding:60px 100px;
+            gap:40px ;
+        }
+        .case .premium_look .premium_look_text{
+            padding: 0 255px;
+        }
+  }
+
+
+
+/* protection */
+
+  .case .protection{
+    padding: 40px 16px 0;
+    display: grid;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .case .protection .protection_img{
+    display: grid;
+    gap: 16px;
+  }
+  .case .protection .protection_img img{
+    border-radius: 18px;
+  }
+    .case .protection .protection_img .protection_img_block{
+        padding-left: 86px;
+    }
+
+    @media screen and (min-width:666px) {
+        .case .protection{
+                padding: 40px 40px;
+        }
+        .case .protection .protection_text{
+            padding: 0 104px;
+        }
+        .case .protection .protection_img img{
+            border-radius: 22px;
+        }
+        .case .protection .protection_img{
+            grid-template-columns: 1.47fr 1fr;
+            align-items: end;
+        }
+        .case .protection .protection_img .protection_img_block{
+            padding-left: 0px;
+        }
+
+    }
+    @media screen and (min-width:1024px) {
+        .case .protection{
+            padding: 40px 60px;
+            gap: 28px;
+        }
+        .case .protection .protection_text{
+            padding: 0 142px;
+        }
+        .case .protection .protection_img{
+            gap: 24px;
+            grid-template-columns: 1.43fr 1fr;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .case .protection{
+            padding: 60px 100px;
+            gap: 40px;
+        }
+        .case .protection .protection_text{
+            padding: 0 183px;
+        }
+    }
+
+
+/* easy_operate */
+
+.case .easy_operate{
+    padding: 40px 16px 0;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+
+@media screen and (min-width:666px) {
+    .case .easy_operate{
+        padding: 40px 40px;
+    }
+    .case .easy_operate .easy_operate_text{
+        padding: 0 74px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .case .easy_operate{
+        padding: 42px 60px;
+        gap: 28px;
+    }
+    .case .easy_operate .easy_operate_text{
+        padding: 0 142px;
+    }
+}
+@media screen and (min-width:1366px) {
+    .case .easy_operate{
+        padding: 60px 100px;
+        gap: 40px;
+    }
+    .case .easy_operate .easy_operate_text{
+        padding: 0 183px;
+    }
+}
+
+/* from_nature */
+
+.case .from_nature{
+    display: grid;
+    gap: 20px;
+    padding: 40px 16px;
+    text-align: center;
+}
+
+.case .from_nature .notes{
+    margin-top: 12px;
+}
+
+.case .from_nature h3{
+    padding: 0 12px;
+}
+
+@media screen and (min-width:666px) {
+    .case .from_nature{
+        padding: 40px;
+    }
+    .case .from_nature .from_nature_text{
+        padding: 0 97px;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .case .from_nature{
+        padding: 42px 60px;
+        gap: 28px;
+    }
+    .case .from_nature .from_nature_text{
+        padding: 0 142px;
+    }
+    .case .from_nature h3{
+        padding: 0 30px
+    }
+    .case .from_nature .notes{
+        margin-top: 16px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .case .from_nature{
+        padding: 60px 100px;
+        gap: 40px;
+    }
+    .case .from_nature .from_nature_text{
+        padding: 0 183px;
+    }
+    .case .from_nature h3{
+        padding: 0 40px
+    }
+    .case .from_nature .notes{
+        margin-top: 22px;
+    }
+}
+</style>
+
+    <div class="case">
+        <!--  -->
+        <section class="premium_look">
+            <div class="premium_look_text">
+                <h3>Преміальний зовнішній вигляд і функції</h3>
+                <p>Чохол Smart View Wallet зберігає невелике віконце на куті вашого екрана, щоб ви могли отримати доступ до вашого пристрою, не відкриваючи чохол. Доступний у чорному, лаймовому або чорничному кольорах, чохол Smart View Wallet захищає стильно.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/718680/opt.%5BEF-ZA346%5D01_Get%20it%20at%20a%20glance_PC%201.webp?_t=1711378048" alt="">
+            <p class="notes">*Зображення моделюється для ілюстративних цілей. **Доступність кольорів може варіюватися залежно від країни чи регіону.</p>
+            
+        </section>
+        <!--  -->
+
+        <section class="easy_operate">
+            <div class="easy_operate_text">
+                <h3>Легке керування</h3>
+                <p>За допомогою футляра Smart View Wallet Case ви можете просто торкнутися вікна дисплея, щоб виконати основні функції, зокрема відповісти на телефонний дзвінок або призупинити музику, навіть якщо кришка закрита.</p>
+            </div>
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/718680/opt.Frame%2059606-3.webp?_t=1711379492" alt="">
+            <p class="notes">*Зображення змодельовано з метою ілюстрації.</p>
+
+
+        </section>
+        
+        <section class="protection">
+            <div class="protection_text">
+                <h3>Ваша картка в безпеці</h3>
+                <p>Завдяки зручному чохлу ви можете носити свою повсякденну картку, знаючи, що вона надійно захована у вашому футлярі.</p>
+            </div>
+            <div class="protection_img">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/718680/opt.L2.webp?_t=1711378048" alt="">
+                <div class="protection_img_block">
+                    <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/718680/opt.R2.webp?_t=1711378048" alt="">
+                </div>
+            </div>
+            <p class="notes">
+                *Зображення змодельовано з метою ілюстрації.
+            </p>
+        </section>
+        <!--  -->
+        
+        <section class="from_nature">
+            <div class="from_nature_text">
+                <h3>Створено з урахуванням природи</h3>
+                <p>Натхненний природою та екологічним дизайном чохол-гаманець Galaxy A34 5G Smart View допомагає захистити ваш пристрій.</p>
+                <p class="notes">*Пластик футляра Smart View Wallet Case містить щонайменше 15% переробленого вмісту.**Зовнішній корпус футляра Smart View Wallet Case містить мінімум 30% біоконтенту.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/718680/opt.%5BEF-ZA346%5D04_Going%20Green_Syndication_PC%201.webp?_t=1711378048" alt="">
+        </section>
+        
+    </div>
+    <video width="100%" height="auto" loop autoplay muted src="https://i.citrus.world/uploads/content/product-photos/kirsh/728686/2020-Aspire1-3-camellia-Animation%20clip%20(1).mp4?_t=1711395924"></video>
+
+</body>
+</html>

@@ -1,0 +1,481 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .delonghi img {
+      margin: 0;
+    }
+    .delonghi p {
+      padding: 0;
+      margin: 0;
+      line-height: normal;
+    }
+
+
+    .delonghi ul {
+      list-style: none;
+      margin: 0;
+    }
+    .delonghi ul li {
+      line-height: normal;
+    }
+    .delonghi {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .delonghi ul {
+      padding: 0;
+    }
+    .delonghi ul li {
+      padding: 0;
+    }
+    .delonghi div {
+      padding: 0px;
+    }
+    div.delonghi {
+      padding: 0;
+    }
+    .delonghi br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .delonghi .title {
+      color: #032845;
+      text-align: center;
+      font-family: 'Roboto',sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .delonghi .title-s {
+      color: #88898B;
+      text-align: center;
+      font-family: 'Roboto',sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+    .delonghi .subtitle {
+      color: #032845;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+    }
+    .delonghi .description {
+      color: #3C3F41;
+      text-align: center;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .delonghi .dull{
+      color: rgba(3, 40, 69, 0.50)
+
+    }
+    .delonghi .header__content {
+      padding: 0 16px;
+    }
+    @media (min-width: 1024px) {
+      .delonghi .title {
+        font-size: 32px;
+      }
+      .delonghi .title-s {
+        font-size: 14px;
+      }
+      .delonghi .subtitle {
+        font-size: 22px;
+      }
+      .delonghi .description {
+        font-size: 18px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .delonghi .title {
+        font-size: 40px;
+      }
+      .delonghi .title-s {
+        font-size: 16px;
+      }
+      .delonghi .subtitle {
+        font-size: 24px;
+      }
+      .delonghi .description {
+        font-size: 20px;
+      }
+    }
+    .delonghi {
+      /* display: flex;
+      flex-direction: column;
+      align-items: center; */
+      max-width: 1366px;
+      width: 100%;
+      margin: 0 auto;
+      background: #FAFAFA;
+      color: #1A1D1F;
+      overflow-x: hidden;
+    }
+ 
+    .delonghi img{
+      width: 100%;
+      display: block;
+    }
+    /* variety */
+
+    .delonghi .variety{
+      display: grid;
+      gap:24px ;
+      padding: 40px 16px;
+      text-align: center;
+    }
+
+    .delonghi .variety .variety_text{
+      padding: 0 16px 0 0;
+    }
+
+    @media (min-width: 666px) {
+      body{
+        padding: 0 24px;
+      }
+    .delonghi .variety{
+      padding: 40px 0;
+    }
+    .delonghi .variety .variety_text{
+      grid-row-start: 1;
+      padding: 0 85px;
+    }
+
+    }
+    @media (min-width:1024px) {
+
+    .delonghi .variety{
+      padding: 40px 0;
+    }
+    .delonghi .variety .variety_text{
+      grid-row-start: 1;
+      padding: 0 135px;
+    }
+
+    }
+    @media (min-width: 1366px) {
+
+    .delonghi .variety{
+      padding: 40px 0;
+    }
+    .delonghi .variety .variety_text{
+      grid-row-start: 1;
+      padding: 0 290px;
+    }
+
+    }
+
+    /* favorite_coffee */
+
+    .delonghi .favorite_coffee{
+      padding: 0px 16px;
+      display: grid;
+      gap: 24px;
+    }
+
+    .delonghi .favorite_coffee .favorite_coffee_top{
+      padding: 0 0 24px;
+
+    }
+    .delonghi .favorite_coffee .favorite_coffee_bottom{
+      padding: 24px 0 0;
+      border-top:1px solid #E5E5E5;;
+    }
+    @media (min-width: 666px) {
+      .delonghi .favorite_coffee{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 40px 40px 0;
+      }
+      .delonghi .favorite_coffee .favorite_coffee_text{
+          grid-column-start: 1;
+          grid-row-start: 1;
+      }
+
+      .delonghi .favorite_coffee .description,
+      .delonghi .favorite_coffee .title{
+        text-align: left;
+      }
+      .delonghi .favorite_coffee .title{
+        margin-bottom: 20px;
+      }
+
+    }
+
+    @media (min-width: 1024px) {
+      .delonghi .favorite_coffee{
+        padding: 60px 40px 0;
+        gap: 77px;
+      }
+
+    }
+    @media (min-width: 1366px) {
+      .delonghi .favorite_coffee{
+        padding: 80px 100px 0;
+        gap: 99px;
+      }
+
+    }
+
+    /* cleaning */
+
+
+    .delonghi .cleaning{
+      display: grid;
+      gap: 24px;
+      padding: 40px 16px 0;
+
+    }
+
+    .delonghi .cleaning .cleaning_text,
+    .delonghi .cleaning .cleaning_text h3{
+      position: relative;
+
+    }
+    .delonghi .cleaning .cleaning_text h3::before{
+      position: absolute;
+      content: "";
+      width: 44px;
+      height: 2px;
+      border-radius: 4px;
+      bottom: -12px;
+      left: 50%;
+      transform: translate(-50%,0);
+      background: #266BBF;
+    }
+
+    .delonghi .cleaning .cleaning_text .cleaning_block{
+      padding-top:20px ;
+      display: grid;
+      gap: 20px;
+    }
+    
+    @media (min-width: 666px) {
+      .delonghi .cleaning{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 40px 40px 0;
+      }
+      .delonghi .cleaning .description,
+      .delonghi .cleaning .title,
+      .delonghi .cleaning .title-s{
+        text-align: left;
+      }
+      .delonghi .cleaning .title-s{
+        margin-bottom: 8px;
+      }
+    .delonghi .cleaning .cleaning_text h3::before{
+      left: 0;
+      transform: translate(0,0);
+    }
+
+    .delonghi .cleaning .cleaning_text{
+      padding-right: 47px;
+    }
+    }
+
+    @media (min-width: 1024px) {
+      .delonghi .cleaning{
+        padding: 60px 40px 0;
+        gap: 77px;
+      }
+
+      .delonghi .cleaning .cleaning_text h3::before{
+        width: 60px;
+        height: 3px;
+      }
+
+      .delonghi .cleaning .cleaning_text .cleaning_block{
+        padding-top:28px ;
+        gap: 28px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .delonghi .cleaning .cleaning_text h3::before{
+        height: 4px;
+      }
+
+      .delonghi .cleaning{
+        padding: 80px 100px 0;
+        gap: 99px;
+      }
+
+    }
+
+
+    /* grinding */
+
+    .delonghi .grinding{
+      position: relative;
+      padding: 40px 16px 0;
+      display: grid;
+      gap: 24px;
+    }
+    .delonghi .grinding h3{
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .delonghi .grinding h3::before{
+      position: absolute;
+      content: "";
+      width: 44px;
+      height: 2px;
+      border-radius: 4px;
+      bottom: -12px;
+      left: 50%;
+      transform: translate(-50%,0);
+      background: #266BBF;
+    }
+
+
+    @media (min-width: 666px) {
+      .delonghi .grinding{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 40px 40px 0;
+      }
+      .delonghi .grinding .description,
+      .delonghi .grinding .title{
+        text-align: left;
+      }
+      .delonghi .grinding h3::before{
+        left: 0 ;
+        transform: translate(0,0);
+      }
+      .delonghi .grinding .grinding_text{
+        grid-column-start: 1;
+        grid-row-start: 1;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .delonghi .grinding{
+        padding: 60px 40px 0;
+        gap: 77px;
+      }
+
+      .delonghi .grinding .grinding_text h3::before{
+        width: 60px;
+        height: 3px;
+      }
+      .delonghi .grinding .grinding_text{
+        padding-right:20px;
+      }
+      .delonghi .grinding h3{
+        margin-bottom: 41px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .delonghi .grinding{
+        padding: 60px 100px 0;
+        gap: 99px;
+      }
+
+      .delonghi .grinding .grinding_text h3::before{
+        height: 4px;
+      }
+      .delonghi .grinding .grinding_text{
+        padding-right:20px;
+      }
+      .delonghi .grinding h3{
+        margin-bottom: 54px;
+      }
+    }
+    /* easy_care */
+
+    .delonghi .easy_care{
+      position: relative;
+      padding: 40px 16px 0;
+      display: grid;
+      gap: 24px;
+    }
+    .delonghi .easy_care h3{
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .delonghi .easy_care h3::before{
+      position: absolute;
+      content: "";
+      width: 44px;
+      height: 2px;
+      border-radius: 4px;
+      bottom: -12px;
+      left: 50%;
+      transform: translate(-50%,0);
+      background: #266BBF;
+    }
+
+
+    @media (min-width: 666px) {
+      .delonghi .easy_care{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 40px 40px 0;
+      }
+      .delonghi .easy_care .description,
+      .delonghi .easy_care .title{
+        text-align: left;
+      }
+      .delonghi .easy_care h3::before{
+        left: 0 ;
+        transform: translate(0,0);
+      }
+      .delonghi .easy_care .easy_care_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .delonghi .easy_care{
+        padding: 60px 40px 0;
+        gap: 77px;
+      }
+
+      .delonghi .easy_care .easy_care_text h3::before{
+        width: 60px;
+        height: 3px;
+      }
+      .delonghi .easy_care .easy_care_text{
+        padding-right:20px;
+      }
+      .delonghi .easy_care h3{
+        margin-bottom: 41px;
+      }
+    }
+    @media (min-width: 1366px) {
+      .delonghi .easy_care{
+        padding: 60px 100px 0;
+        gap: 99px;
+      }
+
+      .delonghi .easy_care .easy_care_text h3::before{
+        height: 4px;
+      }
+      .delonghi .easy_care .easy_care_text{
+        padding-right:35px;
+      }
+      .delonghi .easy_care h3{
+        margin-bottom: 54px;
+      }
+    }

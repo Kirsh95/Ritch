@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+     .product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+  }
+  .razr_fourty img {
+    margin: 0;
+  }
+  .razr_fourty p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .razr_fourty h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .razr_fourty ul {
+    list-style: none;
+    margin: 0;
+  }
+  .razr_fourty ul li {
+    line-height: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 150%;
+    font-weight: 400;
+  }
+  .razr_fourty {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .razr_fourty ul {
+    padding: 0;
+  }
+  .razr_fourty ul li {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .razr_fourty div {
+    padding: 0;
+  }
+  div.razr_fourty {
+    padding: 0;
+  }
+  .razr_fourty br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+
+  .razr_fourty{
+    max-width: 1366px;
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
+
+  .razr_fourty img{
+    width: 100%;
+    display: block;
+  }
+
+  .razr_fourty .moto_razr{
+    display: grid;
+    gap: 24px;
+    padding: 24px 16px 0;
+  }
+
+  .razr_fourty .moto_razr .block_logo{
+    display: grid;
+    gap: 20px;
+  }
+  .razr_fourty .moto_razr .block_logo .logo_moto{
+    width: 188px;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width:666px) {
+     .razr_fourty .moto_razr{
+        grid-template-columns: 1fr 1fr;
+        padding: 0 0 0 40px;
+        gap: 45px;
+    }
+
+    .razr_fourty .moto_razr .block_logo{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        gap: 35px;
+        padding: 24px 40px 24px 0px;
+    }
+    .razr_fourty .moto_razr .left_img{
+        padding-left: 32px;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .razr_fourty p {
+        font-size: 18px;
+    }
+    .razr_fourty h3 {
+        font-size: 20px;
+    }
+    .razr_fourty .moto_razr{
+        padding: 0 0 0 60px;
+        gap: 61px;
+    }
+    .razr_fourty .moto_razr .block_logo{
+        gap: 35px;
+        padding: 32px 60px 32px 0px;
+    }
+    .razr_fourty .moto_razr .left_img{
+        padding-left: 48px;
+    }
+    .razr_fourty .moto_razr .block_logo .logo_moto{
+        width: 258px;
+    }
+  }
+
+  @media screen and (min-width:1366px) {
+    .razr_fourty p {
+        font-size: 20px;
+    }
+    .razr_fourty h3 {
+        font-size: 28px;
+    }
+     .razr_fourty .moto_razr{
+        padding: 0 0 0 60px;
+        gap: 94px;
+    }
+    .razr_fourty .moto_razr .block_logo{
+        gap: 35px;
+        padding: 40px 60px 40px 0px;
+    }
+    .razr_fourty .moto_razr .left_img{
+        padding-left: 48px;
+    }
+    .razr_fourty .moto_razr .block_logo .logo_moto{
+        width: 363px;
+    }
+  }
+
+  /* fits_ideally */
+
+    .razr_fourty .fits_ideally{
+        padding-top: 24px;
+        display: grid;
+        gap: 16px;
+    }
+    .razr_fourty .fits_ideally .fits_ideally_text{
+        padding: 0 16px;
+        text-align: center;
+        display: grid;
+        gap: 14px;
+    }
+    .razr_fourty .fits_ideally img{
+        border-radius: 0 0 12px 12px;
+    }
+
+  @media screen and (min-width:666px) {
+    .razr_fourty .fits_ideally{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 0;
+    }
+    .razr_fourty .fits_ideally img{
+        border-radius: 12px 0 0 12px;
+    }
+    .razr_fourty .fits_ideally .fits_ideally_text{
+        padding: 0 40px 0 45px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .razr_fourty .fits_ideally{
+        padding-top: 24px;
+    }
+    .razr_fourty .fits_ideally .fits_ideally_text{
+        padding: 0 60px 0 61px;
+        gap: 18px;
+    }
+  }
+
+  @media screen and (min-width:1366px) {
+    .razr_fourty .fits_ideally .fits_ideally_text{
+        padding: 0 60px 0 118px;
+        gap: 24px;
+    }
+  }
+  /* bet_and_die */
+
+
+   .razr_fourty .bet_and_die{
+        padding-top: 24px;
+        display: grid;
+        gap: 16px;
+    }
+    .razr_fourty .bet_and_die .bet_and_die_text{
+        padding: 0 16px;
+        text-align: center;
+        display: grid;
+        gap: 14px;
+    }
+    .razr_fourty .bet_and_die img{
+        border-radius: 0 0 12px 12px;
+    }
+
+    @media screen and (min-width:666px) {
+        .razr_fourty .bet_and_die{
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            gap: 0;
+        }
+        .razr_fourty .bet_and_die img{
+            border-radius: 0 12px 12px 0;
+        }
+        .razr_fourty .bet_and_die .bet_and_die_text{
+            padding: 0 45px 0 40px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .razr_fourty .bet_and_die .bet_and_die_text{
+            padding: 0 65px 0 60px;
+            gap: 18px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .razr_fourty .bet_and_die .bet_and_die_text{
+            padding: 0 118px 0 60px;
+            gap: 24px;
+        }
+    }
+
+
+    /* your_hand */
+
+
+    .razr_fourty .your_hand{
+        display: grid;
+        gap: 24px;
+        margin-top: 24px;
+        position: relative;
+    }
+    .razr_fourty .your_hand .your_hand_text{
+        padding: 0 16px;
+        text-align: center;
+    }
+    .razr_fourty .your_hand img{
+        border-radius: 0 0 12px 12px;
+    }
+
+    @media screen and (min-width:666px) {
+        .razr_fourty .your_hand .your_hand_text{
+            position: absolute;
+            bottom: 30px;
+            left: 40px;
+            padding: 0;
+        }
+        .razr_fourty .your_hand .your_hand_text h3{
+            color: #ffff;
+        }
+        .razr_fourty .your_hand{
+            display: block;
+        }
+        .razr_fourty .your_hand img{
+            border-radius: 12px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .razr_fourty .your_hand .your_hand_text{
+            bottom: 40px;
+            left: 60px;
+        }
+
+    }
+    @media screen and (min-width:1366px) {
+        .razr_fourty .your_hand .your_hand_text{
+            bottom: 60px;
+        }
+
+    }
+
+
+    /* reinterpreted */
+
+    .razr_fourty .reinterpreted{
+        display: grid;
+        margin-top: 24px;
+    }
+
+    .razr_fourty .reinterpreted .reinterpreted_block{
+        position: relative;
+        text-align: center;
+    }
+    .razr_fourty .reinterpreted .reinterpreted_block h3{
+        position: absolute;
+        bottom: 30px;
+        width: 100%;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .razr_fourty .reinterpreted .reinterpreted_block .left_img{
+        border-radius: 12px 12px 0 0;
+    }
+   
+    .razr_fourty .reinterpreted .reinterpreted_block .rigth_img{
+        border-radius: 0 0 12px 12px;
+    }
+
+    @media screen and (min-width:666px) {
+        .razr_fourty .reinterpreted{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .razr_fourty .reinterpreted .reinterpreted_block .left_img{
+            border-radius: 12px 0 0 12px;
+        }
+       
+        .razr_fourty .reinterpreted .reinterpreted_block .rigth_img{
+            border-radius: 0 12px 12px 0;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .razr_fourty .reinterpreted .reinterpreted_block h3{
+            bottom: 40px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .razr_fourty .reinterpreted .reinterpreted_block h3{
+            bottom: 60px;
+        }
+    }
+
+
+    /* instant_access */
+
+    .razr_fourty .instant_access{
+        background: #EDE8DF;
+        margin-top: 24px;
+        text-align: center;
+        display: grid;
+        gap: 16px;
+        border-radius: 12px;
+    }
+    .razr_fourty .instant_access .instant_access_text{
+        padding: 0 16px 24px;
+        display: grid;
+        gap: 14px;
+
+    }
+    @media screen and (min-width:666px) {
+        .razr_fourty .instant_access{
+            gap: 20px;
+        }
+        .razr_fourty .instant_access .instant_access_text{
+            padding: 0 90px 24px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .razr_fourty .instant_access{
+            gap: 18px;
+        }
+        .razr_fourty .instant_access .instant_access_text{
+            padding: 0 120px 28px;
+            gap: 18px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .razr_fourty .instant_access{
+            gap: 24px;
+        }
+        .razr_fourty .instant_access .instant_access_text{
+            padding: 0 266px 40px;
+            gap: 24px;
+        }
+    }
+
+    /* whole_world */
+
+    .razr_fourty .whole_world{
+        display: grid;
+        padding: 45px 16px;
+        gap: 14px;
+        
+    }
+
+    .razr_fourty .whole_world .whole_world_img{
+        text-align: center;
+        display: grid;
+        gap: 14px;
+    }
+
+    .razr_fourty .whole_world .whole_world_text{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    .razr_fourty .whole_world .whole_world_text .world_text_block{
+        display: grid;
+        gap: 14px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .razr_fourty .whole_world{
+            padding: 40px;
+        }
+        .razr_fourty .whole_world .whole_world_text{
+            gap: 14px 20px;
+        }
+        .razr_fourty .whole_world .whole_world_img{
+            padding: 0 110px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .razr_fourty .whole_world{
+            padding: 52px 60px;
+            gap: 18px;
+        }
+
+        .razr_fourty .whole_world p{
+            font-size: 16px;
+        }
+        .razr_fourty .whole_world .whole_world_text .world_text_block{
+            gap: 18px;
+        }
+        .razr_fourty .whole_world .whole_world_text{
+            gap: 24px;
+            grid-template-columns: repeat(4,1fr);
+
+        }
+        .razr_fourty .whole_world .whole_world_img{
+            padding: 0 147px;
+            gap: 18px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .razr_fourty .whole_world{
+            padding: 64px 60px;
+            gap: 24px;
+        }
+
+        .razr_fourty .whole_world p{
+            font-size: 20px;
+        }
+        .razr_fourty .whole_world .whole_world_text .world_text_block{
+            gap: 24px;
+        }
+        .razr_fourty .whole_world .whole_world_text{
+            gap: 24px;
+            grid-template-columns: repeat(4,1fr);
+
+        }
+        .razr_fourty .whole_world .whole_world_img{
+            padding: 0 212px;
+            gap: 24px;
+        }
+    }
+
+
+
+    /* perfect_smoothness */
+
+    .razr_fourty .perfect_smoothness{
+        background: #EDE8DF;
+        border-radius: 12px;
+        padding: 30px 16px;
+        text-align: center;
+        display: grid;
+        gap: 30px;
+
+    }
+    .razr_fourty .perfect_smoothness .perfect_smoothness_text{
+        display: grid;
+        gap: 14px;
+    }
+    .razr_fourty .perfect_smoothness .perfect_smoothness_img{
+        padding: 0 10px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .razr_fourty .perfect_smoothness{
+            padding: 30px 95px;    
+        }
+        .razr_fourty .perfect_smoothness .perfect_smoothness_img{
+            padding: 0 110px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .razr_fourty .perfect_smoothness{
+            padding: 42px 144px;    
+            gap: 42px;
+        }
+        .razr_fourty .perfect_smoothness .perfect_smoothness_img{
+            padding: 0 136px;
+        }
+        .razr_fourty .perfect_smoothness .perfect_smoothness_text{
+            gap: 18px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .razr_fourty .perfect_smoothness{
+            padding: 60px 275px;    
+        }
+        .razr_fourty .perfect_smoothness .perfect_smoothness_img{
+            padding: 0 102px;
+        }
+        .razr_fourty .perfect_smoothness .perfect_smoothness_text{
+            gap: 24px;
+        }
+
+    }
+
+
+    /* incredible_clarity */
+
+
+
+
+    .razr_fourty .incredible_clarity .incredible_clarity_text{
+        padding:24px 16px ;
+        display: grid;
+        gap: 14px;
+        text-align: center;
+    }
+
+    .razr_fourty .incredible_clarity img{
+        border-radius: 0 0 12px 12px;
+    }  
+
+    @media screen and (min-width:666px) {
+        .razr_fourty .incredible_clarity{
+            position: relative;
+            margin-top: 20px;
+        }
+        .razr_fourty .incredible_clarity img{
+            border-radius: 12px;
+        }   
+
+        .razr_fourty .incredible_clarity .incredible_clarity_text{
+            position: absolute;
+            background: #fff;
+            width: 315px;
+            padding: 14px;
+            bottom: 0;
+            right: 0;
+        }   
+    }
+
+    @media screen and (min-width:1024px) {
+        .razr_fourty .incredible_clarity{
+            position: relative;
+            margin-top: 24px;
+        } 
+
+        .razr_fourty .incredible_clarity .incredible_clarity_text{
+            width: 425px;
+            padding: 18px;
+            gap: 18px;
+        }   
+    }
+    @media screen and (min-width:1366px) {
+        .razr_fourty .incredible_clarity{
+            position: relative;
+            margin-top: 24px;
+        } 
+
+        .razr_fourty .incredible_clarity .incredible_clarity_text{
+            width: 565px;
+            gap: 24px;
+            padding: 24px;
+        }   
+    }
+
+
+    /* cameraphone */
+
+
+  .razr_fourty  .cameraphone{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 24px 0;
+    gap: 20px 0;
+  }
+
+  .razr_fourty  .cameraphone .cameraphone_block .cameraphone_text{
+    padding: 14px 14px 0;
+    text-align: center;
+  }
+  .razr_fourty .cameraphone .cameraphone_block:first-child img{
+    border-radius: 12px 0 0 0;
+  }
+  .razr_fourty .cameraphone .cameraphone_block:nth-child(2) img{
+    border-radius: 0px 12px 0 0;
+  }
+  .razr_fourty .cameraphone .cameraphone_block:nth-child(3) img{
+    border-radius: 12px 0 0 0;
+  }
+  .razr_fourty .cameraphone .cameraphone_block:last-child img{
+    border-radius: 0 12px 0 0;
+  }
+
+  @media screen and (min-width:666px) {
+    .razr_fourty  .cameraphone{
+        grid-template-columns: repeat(4,1fr);
+        padding: 20px 0;
+    }
+    .razr_fourty  .cameraphone .cameraphone_block .cameraphone_text{
+        padding: 14px 14px 0;
+        text-align: center;
+    }
+    .razr_fourty .cameraphone .cameraphone_block:first-child img{
+        border-radius: 12px 0 0 0;
+    }
+    .razr_fourty .cameraphone .cameraphone_block:nth-child(2) img{
+        border-radius: 0;
+    }
+    .razr_fourty .cameraphone .cameraphone_block:nth-child(3) img{
+        border-radius: 0;
+    }
+    .razr_fourty .cameraphone .cameraphone_block:last-child img{
+        border-radius: 0 12px 0 0;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .razr_fourty  .cameraphone{
+        padding: 24px 0;
+    }
+    .razr_fourty  .cameraphone p{
+        font-size: 16px;
+    }
+    .razr_fourty  .cameraphone .cameraphone_block .cameraphone_text{
+        padding: 18px 18px 0;
+    } 
+  }
+
+  @media screen and (min-width:1366px) {
+    .razr_fourty  .cameraphone{
+        padding: 24px 0 40px;
+    }
+    .razr_fourty  .cameraphone p{
+        font-size: 20px;
+    }
+    .razr_fourty  .cameraphone .cameraphone_block .cameraphone_text{
+        padding: 24px 24px 0;
+    } 
+  }
+
+
+  /* battery_life */
+
+
+    .razr_fourty .battery_life{
+        background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.image%20322.webp?_t=1697093916");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30px 16px;
+        border-radius: 12px;
+        display: grid;
+        gap: 16px;
+    }
+    .razr_fourty .battery_life .battery_life_text{
+        text-align: center;
+        display: grid;
+        gap: 14px;
+    }
+    .razr_fourty .battery_life .battery_life_text .battery_logo{
+        width: 30px;
+        margin: 0 auto;
+    }
+
+  @media screen and (min-width:666px) {
+    .razr_fourty .battery_life{
+        grid-template-columns: repeat(2,1fr);
+
+        gap: 0;
+        padding: 30px 40px;
+        align-items: center;
+    }
+    .razr_fourty .battery_life .battery_life_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        padding-left: 75px;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .razr_fourty .battery_life{
+        padding: 42px 60px;
+    }
+    .razr_fourty .battery_life .battery_life_text{
+        padding-left: 97px;
+        gap: 18px;
+    }
+    .razr_fourty .battery_life .battery_life_text .battery_logo{
+        width: 42px;
+    }
+  }
+
+  @media screen and (min-width:1366px) {
+    .razr_fourty .battery_life{
+        padding: 60px;
+    }
+    .razr_fourty .battery_life .battery_life_text{
+        padding-left: 130px;
+        gap: 24px;
+    }
+    .razr_fourty .battery_life .battery_life_text .battery_logo{
+        width: 60px;
+    }
+  }
+
+    /* foonter */
+    .razr_fourty .foonter{
+        padding: 32px 16px 40px;
+        display: grid;
+        gap: 20px;
+        }
+    .razr_fourty .foonter p{
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.80);;
+    }
+      .razr_fourty .foonter .foonter_text{
+        display: grid;
+        gap: 20px;
+      }
+      @media screen and (min-width:666px) {
+        .razr_fourty .foonter{
+          padding: 32px 40px 44px;
+        }
+        /* .razr_fourty .foonter .foonter_text{
+          padding: 0 21px;
+        } */
+        .razr_fourty .foonter p{
+            font-size: 12px;
+        }
+      }
+      @media screen and (min-width:1024px) {
+        .razr_fourty .foonter{
+          padding: 48px 60px 60px;
+          gap: 28px;
+        }
+        .razr_fourty .foonter .foonter_text{
+          gap: 28px;
+        }
+        .razr_fourty .foonter p{
+            font-size: 14px;
+        }
+      }
+      @media screen and (min-width:1366px) {
+        .razr_fourty .foonter{
+          padding: 60px 142px 80px;
+          gap: 40px;
+        }
+        .razr_fourty .foonter .foonter_text{
+          padding: 0 25px;
+          gap: 40px;
+        }
+        .razr_fourty .foonter_text p{
+          font-size: 14px;
+        }
+        .razr_fourty ul li {
+          font-size: 14px;
+        }
+      }
+    </style>
+    <div class="razr_fourty">
+        <section class="moto_razr">
+            <div class="block_logo">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/logo.png?_t=1697093915" class="logo_moto" alt="">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.Copy-of-2023_VENUS_BASICPACK_GRAPE_09.webp?_t=1697093915" alt="">
+            </div>
+            <div class="left_img">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.img%201.webp?_t=1697093916" alt="">
+            </div>
+        </section>
+        <!--  -->
+        <section class="fits_ideally">
+            <div class="fits_ideally_text">
+                <h3>ІДЕАЛЬНО ВМІЩЮЄТЬСЯ В КИШЕНІ</h3>
+                <p>Не обтяжуйте себе – обирайте ультра компактний, легкий розкладний телефон. Отримуйте задоволення від дотику до покриття, зробленого з екологічної шкіри. Привертайте до себе увагу завдяки гаммі кольорів razr, що задають нові тренди.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.2023_JUNO_CAMERA_CAROUSEL_DIGITAL_2.webp?_t=1697093915" alt="">
+        </section>
+        <!--  -->
+        <section class="bet_and_die">
+            <div class="bet_and_die_text">
+                <h3>СТАВТЕ ТА ЗГИНАЙТЕ</h3>
+                <p>Знаходьте нові ракурси для інтерактивної творчості завдяки гнучкому телефону, який можна поставити на пласку поверхню.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.Layer-1.webp?_t=1697093917" alt="">
+
+        </section>
+        <!--  -->
+        <section class="your_hand">
+            <div class="your_hand_text">
+                <h3>ПЕРЕГЛЯДАЙТЕ КОНТЕНТ, <br>
+                    НЕ ТРИМАЮЧИ ТЕЛЕФОН У РУЦІ</h3>
+            </div>
+            <picture>
+            <source media="(min-width:666px)" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.Layer%209.webp?_t=1697093916"> <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.Layer%2011-mob.webp?_t=1697093916" alt="">
+            </picture>
+        </section>
+        <!--  -->
+        <section class="reinterpreted">
+            <div class="reinterpreted_block">
+                <h3 style="color: #ffff;">ВЗАЄМОДІЯ БЕЗ ДОПОМОГИ РУК</h3>
+                <img class="left_img" src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.Layer%2010.webp?_t=1697093916" alt="">
+            </div>
+            <div class="reinterpreted_block">
+                <h3 style="color: #ffff;">ПЕРЕОСМИСЛЕНІ СЕЛФІ</h3>
+                <img class="rigth_img" src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.Layer%2012.webp?_t=1697093916" alt="">
+            </div>
+        </section>
+<!--  -->
+        <section class="instant_access">
+            <img style="border-radius: 12px 12px 0 0 ;" src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.Layer%201.webp?_t=1697093916" alt="">
+            <div class="instant_access_text">
+                <h3>МИТТЄВИЙ ДОСТУП ДО ВСЬОГО НЕОБХІДНОГО</h3>
+                <p>Переглядайте сповіщення, дізнавайтеся прогноз погоди, відтворюйте музику, записуйте відео, знімайте селфі – усе це можна робити, не розкриваючи телефон.</p>
+            </div>
+        </section>
+ <!--  -->
+        <section class="whole_world">
+            <div class="whole_world_img">
+                <h3>ВІДКРИЙТЕ ЦІЛИЙ СВІТ ОДНИМ РУХОМ</h3>
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.razr-40-pdp-display-static-d-v2-.webp?_t=1697093917" alt="">
+            </div>
+            <div class="whole_world_text">
+                <div class="world_text_block">
+                    <h3>6,9" ДИСПЛЕЙ POLED</h3>
+                    <p>Приголомшливий ширококутний дисплей забезпечує глибші відтінки чорного, насиченіші кольори та неперевершений контраст<sup>1</sup>.</p>
+                </div>
+                <div class="world_text_block">
+                    <h3>ПРОСТОРОВИЙ ЗВУК</h3>
+                    <p>Заповніть свій акустичний простір із технологією багатовимірного звучання Dolby Atmos® і відчуйте, як вас огортає звук.</p>
+                </div>
+                <div class="world_text_block">
+                    <h3>HDR10+</h3>
+                    <p>Яскраві, реалістичні кольори, які відповідають галузевим стандартам точності, забезпечують підвищену якість перегляду фільмів і серіалів.</p>
+                </div>
+                <div class="world_text_block">
+                    <h3>144 ГЦ</h3>
+                    <p>Покращені ігрові можливості завдяки надзвичайно плавному відтворенню зображень із прискореною частотою оновлення<sup>2</sup>.</p>
+                </div>
+            </div>
+        </section>
+<!--  -->
+        <section class="perfect_smoothness">
+            <div class="perfect_smoothness_img">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/Layer%203.png?_t=1697093915" alt="">
+            </div>
+            <div class="perfect_smoothness_text">
+                <h3>ІДЕАЛЬНА ПЛАВНІСТЬ І ДОВГОТРИВАЛІСТЬ</h3>
+                <p>Ми переробили свій запатентований краплеподібний шарнір, який є провідним у галузі, щоб розгорнутий дисплей виглядав практично без згинів, завдяки чому забезпечується безперебійна робота із сенсорним екраном.</p>
+            </div>
+        </section>
+<!--  -->
+    <section class="incredible_clarity">
+        <div class="incredible_clarity_text">
+            <h3>НЕЙМОВІРНА ЧІТКІСТЬ</h3>
+            <p>Знімайте фото у високій роздільній здатності за будь-яких умов (як удень, так і вночі) завдяки технології Quad Pixel, яка вчетверо підвищує чутливість камери до світла.</p>
+        </div>
+        <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.Layer%2013.webp?_t=1697093916" alt="">
+        
+    </section>
+<!--  -->
+    <section class="cameraphone">
+        <div class="cameraphone_block">
+            <img  src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.razr-40-pdp-camera-overview-gallery-wall-1-%202.webp?_t=1697114810" alt="">
+            <div class="cameraphone_text">
+                <p>Фотографуйте все – робіть приголомшливі ширококутні знімки та фотографії надвеликим планом.</p>
+            </div>
+        </div>
+        <div class="cameraphone_block">
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.razr-40-pdp-camera-overview-gallery-wall-2-.webp?_t=1697114810" alt="">
+            <div class="cameraphone_text">
+                <p>Знайдіть найкращий ракурс для зйомки селфі, відеозйомки та відеовикликів без допомоги рук.</p>
+            </div>
+        </div>
+        <div class="cameraphone_block">
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.razr-40-pdp-camera-overview-gallery-wall-3-.webp?_t=1697114810" alt="">
+            <div class="cameraphone_text">
+                <p>Учетверо ширше кадрування та 3,5-кратне наближення, порівнюючи зі стандартним об’єктивом.</p>
+            </div>
+        </div>
+        <div class="cameraphone_block">
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.razr-40-pdp-camera-overview-gallery-wall-4-.webp?_t=1697114810" alt="">
+            <div class="cameraphone_text">
+                <p>Знімайте приголомшливі селфі з неймовірною деталізацією в 32 Мп</p>
+            </div>
+        </div>
+    </section>
+<!--  -->
+    <section class="battery_life">
+        <div class="battery_life_text">
+            <img class="battery_logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/1.png?_t=1697093915" alt="">
+            <h3 style="color: #ffff;" >Час роботи від батареї – понад 30 годин<sup>3</sup></h3>
+            <p style="color: #ffff;">Заряджайте телефон за лічені хвилини завдяки зарядному пристрою TurboPower™ потужністю в 30 Вт<sup>3</sup>.</p>
+        </div>
+        <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.phone.webp?_t=1697093917" alt="">
+    </section>
+<!--  -->
+<section class="foonter"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/726970/opt.Phones.webp?_t=1697093917"/>
+    <div class="foonter_text">
+      <p>Деякі функції та технічні характеристики виробу можуть залежати від мережі, регулюватися додатковими умовами, і за їх використання може стягуватися додаткова плата. Усі вони можуть бути змінені без попередження. MOTOROLA, стилізований логотип у формі літери M, MOTO й серія знаків MOTO є зареєстрованими торговельними марками компанії Motorola Trademark Holdings, LLC. Усі інші торговельні марки є власністю відповідних власників. © Motorola Mobility LLC, 2023. Усі права захищено.
+    <br>
+    Розроблено й виготовлено компанією та/або для компанії Motorola Mobility LLC, дочірньої компанії Lenovo.
+    </p>
+    <p>Виготовлено із застосуванням технологій Dolby за ліцензією Dolby Laboratories. Dolby, Dolby Atmos і символ у вигляді подвійної літери D є торговельними марками Dolby Laboratories Licensing Corporation. Виготовлено за ліцензією Dolby Laboratories.
+    </p>
+
+       <p> Зображення екрана змодельовано. Інтерфейс телефона представлено лише в цілях ілюстрації та може бути змінено. <br>
+        RAZR® є зареєстрованою торговельною маркою Razor USA LLC; RAZR і складові RAZR використовуються з дозволу Razor USA LLC. <br>
+        <sup>1</sup>Порівнюючи з традиційною технологією LCD. <br>
+        <sup>2</sup>На основі зазначених далі функцій, відсутніх в інших розкладних телефонах із вертикальною орієнтацією: розмір екрана 3,6 дюйма, частота оновлення до 144 Гц і роздільна здатність 1056 × 1066. <br>
+        <sup>3</sup>Усі твердження щодо часу роботи від батареї є приблизними та засновані на середньому рівні користування, який перевіряли за змішаним профілем використання (до якого належить як використання, так і час очікування) за оптимальних умов мережі. Фактичний час роботи від батареї відрізнятиметься й залежатиме від багатьох факторів, зокрема рівня сигналу, налаштувань мережі й пристрою, температури, стану батареї та особливостей використання.</p>
+      <p>Пам’ять, сховище, кольори, слот для SIM-карти та аксесуари відрізняються залежно від ринку. Запитуйте про наявність в операторів мобільного зв’язку або продавців.</p>
+    </div>
+  </section>
+
+
+
+
+
+    </div>
+
+
+
+    
+</body>
+</html>

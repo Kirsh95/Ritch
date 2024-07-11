@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+  <style>
+    .product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .s24 img {
+      margin: 0;
+    }
+    .s24 p {
+      padding: 0;
+      margin: 0;
+      color: #000000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .s24 h3 {
+      color: #000000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+    }
+    .s24 h2 {
+      color: #000000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .s24 ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .s24 ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .s24 {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .s24 ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .s24 ul li {
+      padding: 0;
+    }
+    .s24 div {
+      padding: 0;
+    }
+    div.s24 {
+      padding: 0;
+    }
+    .s24 br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .ultra{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .s24 img{
+      width: 100%;
+      display: block;
+    }
+    .s24 .galaxy{
+      padding: 40px 0 0;
+      display: grid;
+      gap: 28px;
+    }
+    .s24 .galaxy .galaxy_logo{
+      padding: 0 36px;
+      text-align: center;
+    }
+    .s24 .galaxy .galaxy_logo .logo_galaxy{
+      width: 168px;
+      margin: 0 auto;
+    }
+    .s24 .galaxy .galaxy_text{
+      text-align: center;
+      display: none;
+      gap:2px;
+      padding: 0 16px;
+    }
+    .s24 .galaxy .gray_text{
+      color: rgba(14, 14, 14, 0.80);
+      font-size: 12px;
+    }
+
+    @media screen and (min-width:666px) {
+
+      .s24 .galaxy{
+        padding: 40px 0 0;
+        gap:40px;
+      }
+      .s24 .galaxy .galaxy_logo{
+        padding: 0 218px;
+      }
+      .s24 .galaxy .galaxy_logo .logo_galaxy{
+        width: 192px;
+      }
+      .s24 .galaxy .galaxy_text{
+        display: grid;
+        gap:2px;
+        padding: 0 48px;
+      }
+      .s24 .galaxy .gray_text{
+        font-size: 12px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .s24 .galaxy{
+        padding: 60px 0 0;
+        gap:40px;
+      }
+      .s24 .galaxy .galaxy_logo{
+        padding: 0 357px;
+      }
+      .s24 .galaxy .galaxy_logo .logo_galaxy{
+        width: 262px;
+      }
+      .s24 .galaxy .galaxy_text{
+        gap:2px;
+        padding: 0 88px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 .galaxy{
+        padding: 80px 0 0;
+        gap:40px;
+      }
+      .s24 .galaxy .galaxy_logo{
+        padding: 0 500px;
+      }
+      .s24 .galaxy .galaxy_logo .logo_galaxy{
+        width: 365px;
+      }
+      .s24 .galaxy .galaxy_text{
+        gap:2px;
+        padding: 0 283px;
+      }
+      .s24 .galaxy .gray_text{
+        font-size: 14px;
+      }
+    }
+
+
+
+
+    /*  */
+    /* live_translate */
+    .s24 .live_translate{
+      padding: 40px 16px 0;
+      display: grid;
+      gap: 24px;
+    }
+    .s24 .live_translate .gray_text{
+      color: rgba(0, 0, 0, 0.8);
+      font-size: 12px;
+    }
+    .s24 .live_translate .live_translate_text{
+      display: grid;
+      gap: 14px;
+    }
+    .s24 .live_translate .live_translate_text .live_translate_img{
+      width: 36px;
+    }
+    @media screen and (min-width:666px) {
+      .s24 p{
+        font-size: 16px;
+      }
+      .s24 h3{
+        font-size: 24px;
+      }
+      .s24 .live_translate{
+        grid-template-columns: repeat(2,1fr);
+        padding: 40px 32px;
+        align-items: center;
+      }
+      .s24 .live_translate h3{
+        padding-right: 20px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .s24 p{
+        font-size: 18px;
+        line-height: 150%;
+      }
+      .s24 h3{
+        font-size: 30px;
+      }
+      .s24 .live_translate .gray_text{
+        padding-right: 8px;
+      }
+      .s24 .live_translate{
+        padding: 60px 40px;
+        gap: 40px;
+      }
+      .s24 .live_translate .live_translate_text{
+        gap: 16px;
+      }
+      .s24 .live_translate .live_translate_text .live_translate_img{
+        width: 54px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 p{
+        font-size: 22px;
+      }
+      .s24 h3{
+        font-size: 42px;
+      }
+      .s24 .live_translate .gray_text{
+        padding-right: 8px;
+        font-size: 14px;
+      }
+      .s24 .live_translate{
+        padding: 80px;
+        gap: 60px;
+      }
+      .s24 .live_translate .live_translate_text{
+        gap: 24px;
+      }
+      .s24 .live_translate .live_translate_text .live_translate_img{
+        width: 80px;
+      }
+    }
+
+
+
+
+
+    /* that_simple */
+    .s24 .that_simple{
+      padding: 40px 16px 0;
+      display: grid;
+      gap: 24px;
+    }
+    .s24 .that_simple .that_simple_text{
+      display: grid;
+      gap: 14px;
+    }
+    .s24 .that_simple .that_simple_img{
+      position: relative;
+      padding:0 77.5px;
+      display: grid;
+      gap: 24px;
+    }
+    .s24 .that_simple .that_simple_img .that_simple_logo{
+      /* position: absolute; */
+      /* bottom: 0; */
+      margin: 0 auto;
+      width: 89px;
+      /* right: 0px; */
+    }
+    .s24 .that_simple .that_simple_gray .gray_text{
+      color: rgba(0, 0, 0, 0.8);
+      font-size: 12px;
+    }
+    @media screen and (min-width:666px) {
+      .s24 .that_simple{
+        text-align: center;
+        padding: 40px 66px;
+        gap: 40px;
+      }
+      .s24 .that_simple .that_simple_img{
+        position: relative;
+        padding:0 216px;
+      }
+      .s24 .that_simple .that_simple_img .that_simple_logo{
+        position: absolute;
+        bottom: 0;
+        width: 113px;
+        right: 74px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .s24 .that_simple{
+        text-align: center;
+        padding: 60px 88px;
+        gap: 40px;
+      }
+      .s24 .that_simple .that_simple_img{
+        position: relative;
+        padding:0 288px;
+      }
+      .s24 .that_simple .that_simple_text{
+        gap: 16px;
+      }
+      .s24 .that_simple .that_simple_img .that_simple_logo{
+        bottom: 0;
+        width: 154px;
+        right: 105px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 .that_simple{
+        text-align: center;
+        padding: 80px 283px;
+        gap: 60px;
+      }
+      .s24 .that_simple .that_simple_img{
+        position: relative;
+        padding:0 253px;
+      }
+      .s24 .that_simple .that_simple_text{
+        gap: 16px;
+      }
+      .s24 .that_simple .that_simple_img .that_simple_logo{
+        bottom: 0;
+        width: 205px;
+        right: 0px;
+      }
+      .s24 .that_simple .that_simple_gray .gray_text{
+        font-size: 14px;
+      }
+    }
+    /* notes */
+    .s24 .notes{
+      padding: 40px 16px;
+      display: grid;
+      gap: 24px;
+    }
+    .s24 .notes .notes_text{
+      display: grid;
+      gap: 16px;
+    }
+    .s24 .notes .notes_text .gray_text{
+      color: rgba(0, 0, 0, 0.8);
+      font-size:12px;
+    }
+    @media screen and (min-width:666px) {
+      .s24 .notes{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 40px 32px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .s24 .notes{
+        padding: 60px 40px;
+        gap: 40px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 .notes{
+        padding: 80px;
+        gap: 61px;
+      }
+      .s24 .notes .notes_text{
+        gap: 24px;
+      }
+      .s24 .notes .notes_text{
+        padding-right: 15px;
+      }
+      .s24 .notes .notes_text .gray_text{
+        font-size: 14px;
+      }
+    }
+    /* change_size */
+    .s24 .change_size{
+      padding: 40px 16px 0;
+      display: grid;
+      gap: 24px;
+    }
+    .s24 .change_size .change_size_text{
+      display: grid;
+      gap: 14px;
+    }
+    .s24 .change_size .change_size_text .gray_text{
+      color: rgba(0, 0, 0, 0.8);
+      font-size:12px;
+    }
+    @media screen and (min-width:666px) {
+      .s24 .change_size{
+        grid-template-columns: repeat(2,1fr);
+        padding: 40px 32px;
+        align-items: center;
+      }
+      .s24 .change_size .change_size_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .s24 .change_size{
+        padding: 60px 40px;
+        gap: 40px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 .change_size{
+        padding: 80px 99px 80px 80px;
+        gap: 61px;
+      }
+      .s24 .change_size .change_size_text{
+        gap: 24px;
+        padding-left: 20px;
+      }
+      .s24 .change_size .change_size_text .gray_text{
+        font-size:14px;
+      }
+    }
+    /* titanium_housing */
+    .s24 .titanium_housing{
+      background: #000;
+      text-align: center;
+      display: grid;
+      gap:40px;
+      padding: 40px 16px 0;
+    }
+    .s24 .titanium_housing .titanium_housing_text{
+      display: grid;
+      gap: 14px;
+    }
+    .s24 .titanium_housing .titanium_housing_gray .gray_text{
+      color: rgba(255, 255, 255, 0.80);
+      font-size: 12px;
+    }
+    @media screen and (min-width:666px) {
+      .s24 .titanium_housing{
+        padding: 40px 66px;
+      }
+      .s24 .titanium_housing .titanium_housing_text{
+        gap: 16px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .s24 .titanium_housing{
+        padding: 60px 88px;
+      }
+      .s24 .titanium_housing .titanium_housing_img{
+        padding: 0 29px;
+      }
+      .s24 .titanium_housing .titanium_housing_text{
+        gap: 16px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 .titanium_housing{
+        padding: 80px 182px;
+        gap: 60px;
+      }
+      .s24 .titanium_housing .titanium_housing_img{
+        padding: 0px;
+      }
+      .s24 .titanium_housing .titanium_housing_text{
+        gap: 24px;
+        padding: 0 101px;
+      }
+      .s24 .titanium_housing .titanium_housing_gray .gray_text{
+        font-size: 14px;
+      }
+    }
+    /* s_pen */
+    .s24 .s_pen{
+      display: grid;
+      gap: 24px;
+      padding: 40px 16px;
+    }
+    .s24 .s_pen .s_pen_text{
+      display: grid;
+      gap: 14px;
+    }
+    .s24 .s_pen .gray_text{
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.80);
+    }
+    .s24 .s_pen .s_pen_text img{
+      display: none;
+    }
+
+
+    @media screen and (min-width:666px) {
+      .s24 .s_pen{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 40px 0 40px 32px;
+      }
+      .s24 .s_pen .s_pen_text{
+        gap: 16px;
+        padding-right: 17px;
+      }
+      .s24 .s_pen .s_pen_text img{
+        width: 36px;
+        display: block;
+      }
+      
+    }
+    @media screen and (min-width:1024px) {
+      .s24 .s_pen{
+        padding: 60px 0 60px 40px;
+        gap: 40px;
+      }
+      .s24 .s_pen .s_pen_text img{
+        width: 54px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 .s_pen{
+        padding: 80px 0 80px 80px;
+        gap: 60px;
+      }
+      .s24 .s_pen .s_pen_text{
+        padding-right: 40px;
+      }
+      .s24 .s_pen .s_pen_text img{
+        width: 54px;
+      }
+    }
+    /* .s24 */
+    .s24 .npu{
+      display: grid;
+      gap: 40px;
+      padding-top:40px;
+    }
+    .s24 .npu .npu_text{
+      padding: 0 16px;
+      text-align: center;
+    }
+    .s24 .npu .npu_text img{
+      width: 36px;
+      margin: 0 auto 8px;
+    }
+    .s24 .npu .npu_notes{
+      padding: 0 16px;
+    }
+    .s24 .npu .gray_text{
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.80);
+    }
+    @media screen and (min-width:666px) {
+      .s24 .npu{
+        padding: 40px 0px;
+        gap: 40px;
+      }
+      .s24 .npu .npu_text{
+        padding: 0 66px;
+      }
+      .s24 .npu .npu_text img{
+        margin: 0 auto 10px;
+      }
+      .s24 .npu .npu_notes{
+        padding: 0 89px;
+        text-align: center;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .s24 .npu{
+        padding: 60px 0px;
+        gap: 40px;
+      }
+      .s24 .npu .npu_text{
+        padding: 0 88px;
+      }
+      .s24 .npu .npu_text img{
+        width: 54px;
+        margin: 0 auto 12px;
+      }
+      .s24 .npu .npu_notes{
+        padding: 0 158px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 .npu{
+        padding: 80px 0px;
+        gap: 60px;
+      }
+      .s24 .npu .npu_text{
+        padding: 0 260px;
+      }
+      .s24 .npu .npu_text img{
+        width: 80px;
+        margin: 0 auto 16px;
+      }
+      .s24 .npu .npu_notes{
+        padding: 0 295px;
+      }
+      .s24 .npu .gray_text{
+        font-size: 14px;
+      }
+    }
+    /* realistic_pictures */
+    .s24 .realistic_pictures{
+      padding: 40px 16px 0;
+      display: grid;
+      gap: 40px;
+      text-align: center;
+    }
+    .s24 .realistic_pictures .realistic_pictures_img{
+      display: grid;
+      gap: 20px;
+    }
+    .s24 .realistic_pictures .realistic_pictures_text{
+      display: grid;
+      gap: 14px;
+    }
+    .s24 .realistic_pictures .big_img_item{
+      border-radius: 10px;
+    }
+    .s24 .realistic_pictures .realistic_pictures_img .img_item_text{
+      grid-template-columns: 20px auto;
+      display: grid;
+      text-align: center;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+    }
+    @media screen and (min-width:666px) {
+      .s24 .realistic_pictures{
+        padding: 40px 66px;
+      }
+      .s24 .realistic_pictures .realistic_pictures_img .img_item_text p{
+        font-size: 14px;
+      }
+      .s24 .realistic_pictures .realistic_pictures_img{
+        padding: 0 23px;
+        gap: 20px 0;
+      }
+      .s24 .realistic_pictures .realistic_pictures_img .img_item{
+        padding-left: 15px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .s24 .realistic_pictures{
+        padding: 60px 66px;
+      }
+      .s24 .realistic_pictures .realistic_pictures_img .img_item_text{
+        grid-template-columns: 28px auto;
+        gap: 18px;
+      }
+      .s24 .realistic_pictures .realistic_pictures_img .img_item_text p{
+        font-size: 16px;
+      }
+      .s24 .realistic_pictures .realistic_pictures_img{
+        padding: 0 29px;
+        gap: 20px 0;
+      }
+      .s24 .realistic_pictures .realistic_pictures_img .img_item{
+        padding-left:0;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 .realistic_pictures{
+        padding: 60px 182px;
+      }
+      .s24 .realistic_pictures .realistic_pictures_text{
+        padding: 0 111px;
+        gap: 24px;
+      }
+      .s24 .realistic_pictures .realistic_pictures_img .img_item_text{
+        grid-template-columns: 32px auto;
+      }
+      .s24 .realistic_pictures .realistic_pictures_img .img_item_text p{
+        font-size: 20px;
+      }
+      .s24 .realistic_pictures .realistic_pictures_img{
+        padding: 0px;
+        gap: 24px 0;
+      }
+      .s24 .realistic_pictures .realistic_pictures_img .img_item{
+        padding-left:0;
+      }
+    }
+    /* .quadruplets */
+    .s24 .quadruplets{
+      padding: 40px 16px 0;
+      text-align: center;
+    }
+    .s24 .quadruplets .quadruplets_text{
+      margin-bottom: 40px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .s24 .quadruplets .quadruplets_img{
+      gap:20px ;
+      display: grid;
+      margin-bottom: 20px;
+    }
+
+    .s24 .quadruplets .quadruplets_img .img_item_text{
+      grid-template-columns: 20px auto;
+      display: grid;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .s24 .quadruplets .quadruplets_gray .galaxy_text{
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.80);
+
+    }
+
+    @media screen and (min-width:666px) {
+      .s24 .quadruplets{
+        padding: 40px 66px;
+      }
+      .s24 .quadruplets .quadruplets_text{
+        margin-bottom: 40px;
+        /* padding: 0 66px; */
+        gap: 16px;
+      }
+      .s24 .quadruplets .quadruplets_img .img_item_text{
+        grid-template-columns: 20px auto;
+        gap: 14px;
+        justify-content: flex-start;
+      }
+      .s24 .quadruplets .quadruplets_img .img_item_text p{
+        font-size: 14px;
+      }
+      .s24 .quadruplets .quadruplets_img{
+        gap:20px;
+        padding: 0 23px;
+        margin-bottom: 40px;
+      }
+      .s24 .quadruplets .quadruplets_gray{
+        padding: 0 46px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .s24 .quadruplets{
+        padding: 60px 88px;
+      }
+      .s24 .quadruplets .quadruplets_text{
+        margin-bottom: 40px;
+      }
+      .s24 .quadruplets .quadruplets_img .img_item_text{
+        grid-template-columns: 28px auto;
+        gap: 18px;
+      }
+      .s24 .quadruplets .quadruplets_img .img_item_text p{
+        font-size: 16px;
+      }
+      .s24 .quadruplets .quadruplets_img{
+        gap:20px;
+        padding: 0 29px;
+      }
+      .s24 .quadruplets .quadruplets_gray{
+        padding: 0 88px;
+      }
+      .s24 .quadruplets .quadruplets_gray .galaxy_text{
+        font-size: 14px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 .quadruplets{
+        padding: 80px 182px;
+      }
+      .s24 .quadruplets .quadruplets_text{
+        margin-bottom: 60px;
+        padding: 0 101px;
+      }
+      .s24 .quadruplets .quadruplets_img .img_item_text{
+        grid-template-columns: 32px auto;
+      }
+      .s24 .quadruplets .quadruplets_img .img_item_text p{
+        font-size: 20px;
+      }
+      .s24 .quadruplets .quadruplets_img{
+        gap:24px;
+        margin-bottom: 24px;
+        padding: 0;
+      }
+      .s24 .quadruplets .quadruplets_gray{
+        padding: 0px;
+      }
+      .s24 .quadruplets .quadruplets_gray .galaxy_text{
+        font-size: 14px;
+      }
+    }
+    /* ProVisual */
+    .s24 .ProVisual{
+      padding: 40px 16px 0;
+      display: grid;
+      gap: 40px;
+    }
+    .s24 .ProVisual .ProVisual_text{
+      display: grid;
+      gap: 14px;
+    }
+    .s24 .ProVisual .ProVisual_text .galaxy_text{
+      display: none;
+    }
+    .s24 .ProVisual .ProVisual_img .ProVisual_img_item{
+      display: grid;
+      grid-template-columns: 20px auto;
+      gap: 10px;
+      padding: 20px 0;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .s24 .ProVisual .ProVisual_img .ProVisual_img_item p{
+      font-size: 14px;
+    }
+    .s24 .ProVisual .ProVisual_img .galaxy_text{
+      color: rgba(255, 255, 255, 0.80);
+      font-size: 12px;
+    }
+    @media screen and (min-width:666px) {
+      .s24 .ProVisual{
+        padding: 40px 0 40px 32px;
+        grid-template-columns: repeat(2,1fr);
+        gap: 24px;
+        align-items: center;
+      }
+      .s24 .ProVisual .ProVisual_img .galaxy_text{
+        display: none;
+      }
+      .s24 .ProVisual .ProVisual_text .galaxy_text{
+        color: rgba(255, 255, 255, 0.80);
+        font-size: 12px;
+        display: block;
+        padding-right: 10px;
+      }
+      .s24 .ProVisual .ProVisual_text{
+        gap: 16px;
+      }
+      .s24 .ProVisual .ProVisual_img .ProVisual_img_item{
+        padding: 0;
+        padding-top: 20px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .s24 .ProVisual{
+        padding: 60px 0 60px 40px;
+        gap: 40px;
+      }
+      .s24 .ProVisual .ProVisual_text{
+        padding-right:20px ;
+      }
+      .s24 .ProVisual .ProVisual_text .galaxy_text{
+        font-size: 14px;
+        padding-right: 20px;
+      }
+      .s24 .ProVisual .ProVisual_img .ProVisual_img_item p{
+        font-size: 16px;
+      }
+      .s24 .ProVisual .ProVisual_img .ProVisual_img_item{
+        grid-template-columns: 28px auto;
+        gap: 18px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 .ProVisual{
+        padding: 80px 0 80px 80px;
+        gap: 0;
+      }
+      .s24 .ProVisual .ProVisual_text{
+        padding-right:80px ;
+      }
+      .s24 .ProVisual .ProVisual_text .galaxy_text{
+        font-size: 14px;
+        padding-right: 20px;
+      }
+      .s24 .ProVisual .ProVisual_img .ProVisual_img_item p{
+        font-size: 20px;
+      }
+      .s24 .ProVisual .ProVisual_img .ProVisual_img_item{
+        grid-template-columns: 32px auto;
+        gap: 18px;
+        padding-top: 25px;
+      }
+    }
+    /* snapdragon */
+    .s24 .snapdragon{
+      padding: 40px 16px 0;
+      display: grid;
+      text-align: center;
+    }
+    .s24 .snapdragon .snapdragon_text{
+      padding: 0 0 40px;
+    }
+    .s24 .snapdragon .snapdragon_text h3{
+      margin-bottom: 14px;
+    }
+    .s24 .snapdragon .snapdragon_text img{
+      width: 36px;
+      margin: 0 auto 8px;
+    }
+    /* .s24 .snapdragon .snapdragon_grey{
+      padding-top: 20px;
+    } */
+    .s24 .snapdragon .snapdragon_grey .galaxy_text{
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.80);
+    }
+    @media screen and (min-width:666px) {
+      .s24 .snapdragon{
+        padding: 40px 46px;
+      }
+      .s24 .snapdragon .snapdragon_text img{
+        margin: 0 auto 10px;
+      }
+      .s24 .snapdragon .snapdragon_text{
+        padding:0 20px 40px;
+      }
+      .s24 .snapdragon .snapdragon_img{
+        padding: 0 23px;
+      }
+      .s24 .snapdragon .snapdragon_text h3{
+        margin-bottom: 16px;
+        padding: 0 52px;
+      }
+      .s24 .snapdragon .snapdragon_grey{
+        padding: 0;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .s24 .snapdragon{
+        padding: 60px 88px;
+      }
+      .s24 .snapdragon .snapdragon_text img{
+        width: 54px;
+        margin: 0 auto 12px;
+      }
+      .s24 .snapdragon .snapdragon_text{
+        padding:0px;
+        padding-bottom: 40px;
+      }
+      .s24 .snapdragon .snapdragon_img{
+        padding: 0 29px;
+      }
+      .s24 .snapdragon .snapdragon_text h3{
+        margin-bottom: 16px;
+        padding: 0 52px;
+      }
+      .s24 .snapdragon .snapdragon_grey .galaxy_text{
+        font-size: 14px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 .snapdragon{
+        padding: 80px 182px;
+        gap: 0px;
+      }
+      .s24 .snapdragon .snapdragon_text img{
+        width: 80px;
+        margin: 0 auto 16px;
+      }
+      .s24 .snapdragon .snapdragon_text{
+        padding:0px 110px 60px;
+      }
+      .s24 .snapdragon .snapdragon_img{
+        padding: 0;
+      }
+      .s24 .snapdragon .snapdragon_text h3{
+        margin-bottom: 24px;
+        padding: 0;
+      }
+      .s24 .snapdragon .snapdragon_grey{
+        padding: 0px 110px;
+      }
+    }
+    /* battery */
+    .s24 .battery {
+      padding: 40px 16px 0;
+      display: grid;
+      gap: 40px;
+    }
+    .s24 .battery .battery_text .grey_text{
+      display: none;
+    }
+    .s24 .battery .battery_text{
+      display: grid;
+      gap: 14px;
+    }
+    .s24 .battery .battery_img .grey_text{
+      color: rgba(0, 0, 0, 0.8);
+      font-size: 12px;
+      padding-top: 20px;
+    }
+    @media screen and (min-width:666px) {
+      .s24 .battery {
+        padding: 40px 0 40px 32px;
+        align-items: center;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0;
+      }
+      .s24 .battery .battery_text .grey_text{
+        display: block;
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 12px;
+      }
+      .s24 .battery .battery_img .grey_text{
+        display: none;
+      }
+      .s24 .battery .battery_text{
+        padding-right: 30px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .s24 .battery {
+        padding: 60px 40px;
+      }
+      .s24 .battery .battery_text .grey_text{
+        display: block;
+        /* padding-right: 10px; */
+      }
+      .s24 .battery .battery_text{
+        padding-right: 29px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 .battery {
+        padding: 80px;
+      }
+      .s24 .battery .battery_text .grey_text{
+        font-size: 14px;
+      }
+      .s24 .battery .battery_text{
+        padding-right: 49px;
+      }
+    }
+
+
+
+    /* display_brightness */
+    .s24 .display_brightness{
+      padding: 40px 16px;
+      text-align: center;
+    }
+    .s24 .display_brightness .display_brightness_text{
+      display: grid;
+      gap: 14px;
+      margin-bottom: 40px;
+    }
+    .s24 .display_brightness .display_brightness_grey{
+      margin-top: 20px;
+    }
+    .s24 .display_brightness .display_brightness_grey br{
+      display: none;
+    }
+    .s24 .display_brightness .display_brightness_notes{
+      display: none;
+    }
+    .s24 .display_brightness .display_brightness_notes .gray_text{
+      color: rgba(9, 9, 9, 0.8);
+      font-size: 12px;
+    }
+
+    .s24 .display_brightness .grey_text{
+      color: rgba(9, 9, 9, 0.8);
+      font-size: 12px;
+    }
+
+
+
+    @media screen and (min-width:666px) {
+      .s24 .display_brightness{
+        padding: 40px 32px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        text-align: left;
+        gap: 24px;
+      }
+
+      .s24 .display_brightness .display_brightness_text{
+        gap: 16px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        margin-bottom: 0;
+      }
+      .s24 .display_brightness .display_brightness_notes{
+        display: block;
+      }
+      .s24 .display_brightness .display_brightness_grey{
+        margin-top: 40px;
+        display: none;
+      }
+
+
+    }
+    @media screen and (min-width:1024px) {
+      .s24 .display_brightness{
+        padding: 60px 40px;
+        gap: 40px;
+      }
+      .s24 .display_brightness .display_brightness_text{
+        padding: 0px;
+      }
+      .s24 .display_brightness .grey_text{
+        font-size: 14px;
+        padding: 0 10px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 .display_brightness{
+        padding: 80px;
+        gap: 60px;
+      }
+      .s24 .display_brightness .display_brightness_text{
+        gap: 24px;
+        padding-right: 3px;
+      }
+      .s24 .display_brightness .display_brightness_text h3{
+        padding: 0px;
+      }
+      .s24 .display_brightness .display_brightness_notes .gray_text{
+        font-size: 14px;
+      }
+    }
+    /* ultra_in_AR */
+    .s24 .ultra_in_AR{
+      background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.IMG.webp?_t=1706318456");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:cover;
+      padding: 18px 16px;
+      text-align: center;
+    }
+    .s24 .ultra_in_AR .ultra_in_AR_text{
+      display: grid;
+      gap: 24px;
+    }
+    .s24 .ultra_in_AR .ultra_in_AR_text .qr_code{
+      width: 89px;
+      margin: 0 auto;
+    }
+    @media screen and (min-width:666px) {
+      .s24 .ultra_in_AR{
+        padding: 33px 89px 31px;
+      }
+      .s24 .ultra_in_AR .ultra_in_AR_text{
+        display: grid;
+        grid-template-columns: 89px auto;
+        gap:0;
+        align-items: center;
+        justify-content:space-between;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .s24 .ultra_in_AR{
+        padding:40px 117px 38px;
+      }
+      .s24 .ultra_in_AR .ultra_in_AR_text{
+        grid-template-columns: 129px auto;
+      }
+      .s24 .ultra_in_AR .ultra_in_AR_text .qr_code{
+        width: 129px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .s24 .ultra_in_AR{
+        padding:55px 183px 55px;
+      }
+      .s24 .ultra_in_AR .ultra_in_AR_text{
+        grid-template-columns: 181px auto;
+      }
+      .s24 .ultra_in_AR .ultra_in_AR_text .qr_code{
+        width: 181px;
+      }
+    }
+  </style>
+
+
+      <div class="s24">
+        <section class="galaxy">
+          <div class="galaxy_logo"><img alt="" class="logo_galaxy" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/Frame%2029.svg?_t=1706318455" />
+          </div>
+          <div class="galaxy_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.Visual%201.webp?_t=1706318456" />
+          </div>
+          <div class="galaxy_text">
+            <p class="gray_text">* Snapdragon – це виріб компанії Qualcomm Technologies, Inc. і/або її дочірніх компаній.
+            </p>
+            <p class="gray_text">* Snapdragon – це торговельна марка або зареєстрована торговельна марка компанії Qualcomm Incorporated.
+            </p>
+            <p class="gray_text">* Спеціально для серії Galaxy S23 до 30 квітня 2023 року, на основі специфікацій і результатів тестувань, проведених компанією Qualcomm Technologies, Inc.
+            </p>
+
+          </div>
+        </section>
+        <!--  -->
+        <section class="live_translate">
+          <div class="live_translate_text"><img alt="" class="live_translate_img" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736094/icon-2.svg?_t=1705488924" />
+                <h3>Live Translate. Найпростіший спосіб спілкування
+                </h3>
+                <p>Здійснюйте пошук, як ніколи раніше1, отримуйте швидкий переклад під час дзвінка<sup>2</sup>, конвертуйте голосовий запис у текст, а потім узагальнюйте його<sup>3</sup> і без зусиль редагуйте фотографії<sup>4</sup> – все це завдяки штучному інтелекту.</p>
+                <div class="live_translate_gray_text">
+                    <p class="gray_text">1. Результати функції Circle to Search можуть різнитися залежно від візуальних збігів. Потрібне підключення до інтернету. Користувачам може знадобитися оновити Android до останньої версії. Функції продукту можуть залежати від налаштувань програми та пристрою. Деякі функції можуть бути несумісними з певними програмами. Наявність послуги залежить від країни та мови. Точність результатів не гарантується.
+                    </p>
+                    <p class="gray_text">2. Для використання функції Миттєвий переклад потрібне підключення до мережі та вхід до облікового запису Samsung. Функція Миттєвий переклад доступна лише в попередньо встановленому застосунку Samsung Phone. Для деяких мов потрібно завантажити додатковий мовний пакет. Доступність послуги залежить від мови. Точність результатів не гарантується.</p>
+                    <p class="gray_text">3. Для використання функції Помічник із розпізнавання потрібне підключення до мережі та вхід до облікового запису Samsung. Функція Помічник із розпізнавання доступна лише в попередньо встановленому застосунку Диктофон або для файлів, записаних за допомогою попередньо встановленого застосунку Samsung Phone. У певних країнах функція запису голосу за допомогою попередньо встановленого застосунку Samsung Phone не підтримується. Обробляти можна лише аудіофайли тривалістю до 3 годин. Режим підсумовування тексту в Помічнику із розпізнавання застосовується до текстів, які містять певну кількість символів. Доступність послуги залежить від мови. Точність результатів не гарантується.</p>
+                    <p class="gray_text">4. Для використання функції Згенероване редагування потрібне підключення до мережі та вхід до облікового запису Samsung. Результатом застосування функції Згенероване редагування є змінена фотографія розміром до 12 МП. Під час збереження на згенероване за допомогою штучного інтелекту зображення накладається водяний знак. Точність і надійність згенерованого результату не гарантується.</p>
+                </div>
+          </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.Visual6.webp?_t=1706318457" />
+        </section>
+        <!--  -->
+        <section class="that_simple">
+          <div class="that_simple_text">
+            <h3>Обведіть, щоб знайти. Усе&nbsp;&ndash; просто.
+            </h3>
+            <p>Зустрічайте нову еру пошуку з функцією Circle to Search. Просто обведіть об&#39;єкт, і відкриється сторінка з результатами пошуку Google. Це інноваційний інструмент для пошуку корисної інформації.
+            </p>
+          </div>
+          <div class="that_simple_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.Visual7.webp?_t=1706318457" /> <img alt="" class="that_simple_logo" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/CTS_Lockup_Stacked_White.svg?_t=1706320440" />
+          </div>
+          <div class="that_simple_gray">
+            <p class="gray_text">* Зображення змодельовані з ілюстраційною метою. Послідовність скорочено та змодельовано. Реальний інтерфейс користувача може відрізнятися.
+            </p>
+            <p class="gray_text">* За використання деяких функцій AI може стягуватися плата.
+            </p>
+          </div>
+        </section>
+        <!--  -->
+        <section class="notes">
+          <div class="notes_text">
+            <h3>Підсумовуйте нотатки без втрати сенсу за допомогою штучного інтелекту (AI)
+            </h3>
+            <p>Яким би не було завдання&nbsp;&ndash; підбити підсумки чи зробити нотатку лаконічнішою,&nbsp;&ndash; функція Помічник для нотатків допоможе вам оптимально скоротити текст без втрати сенсів Просто почніть набирати текст, а скоротити й спростити його можна пізніше.
+            </p>
+            <p class="gray_text">*Для використання функції Помічник для нотатків потрібне підключення до мережі та вхід до облікового запису Samsung. Застосовується обмеження щодо кількості символів. Доступність послуги залежить від мови. Точність результатів не гарантується.
+            </p>
+          </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.Visual9.webp?_t=1706318457" />
+        </section>
+        <!--  -->
+        <section class="change_size">
+          <div class="change_size_text">
+            <h3>Міняйте розмір. Ретушуйте. Ось так просто!
+            </h3>
+            <p>Відкрийте світ розширених можливостей редагування знімків зі штучним інтелектом.* Тепер ви можете без зусиль вдосконалювати фотографії, перетворюючи їх на шедеври. Але це ще не все! Навіть якщо кадр виявився не дуже вдалим, функція Згенероване редагування допоможе заповнити фон і видалити зайві об&#39;єкти.
+            </p>
+            <p class="gray_text">*Для використання функції Згенероване редагування потрібне підключення до мережі та вхід до облікового запису Samsung. Результатом застосування функції Згенероване редагування є змінена фотографія розміром до 12 Мп. Під час збереження на згенероване за допомогою штучного інтелекту зображення накладається водяний знак. Точність і надійність згенерованого результату не гарантується.
+            </p>
+          </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.Visual10.webp?_t=1706318456" />
+        </section>        
+        <!--  -->
+        <section class="s_pen">
+          <div class="s_pen_text">
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/Property%201%3D2.svg?_t=1706318457" alt="">
+            <h3>Два епічних смартфони. Один великий плюс5</h3>
+            <p>Яким би не було завдання – підбити підсумки чи зробити нотатку лаконічнішою, – функція Помічник для нотатків допоможе вам оптимально скоротити текст без втрати сенсів Просто почніть набирати текст, а скоротити й спростити його можна пізніше.</p>
+            <div class="s_pen_notes">
+              <p class="gray_text">**Для використання функції Помічник для нотатків потрібне підключення до мережі та вхід до облікового запису Samsung. Застосовується обмеження щодо кількості символів. Доступність послуги залежить від мови. Точність результатів не гарантується.
+              </p>
+            </div>
+          </div>
+          <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.Visual92.webp?_t=1706318457" />
+        </section>
+        <!--  -->
+        <section class="npu">
+          <div class="npu_text"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/Property%201%3D3.svg?_t=1706318455" />
+            <h3>Першокласний модуль NPU. Камера за найвищими стандартами індустрії. Відтепер удосконалена можливостями AI
+            </h3>
+          </div>
+          <picture> 
+            <source media="(min-width:666px)" srcset="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.08_CAMERA_PC%201.webp?_t=1706318455" /> <img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.08_CAMERA_PC%201_mob.webp?_t=1706319762" /> 
+          </picture>
+          <div class="npu_notes">
+            <p class="gray_text">*Для використання функції Помічник для нотатків потрібне підключення до мережі та вхід до облікового запису Samsung. Застосовується обмеження щодо кількості символів. Доступність послуги залежить від мови. Точність результатів не гарантується.</p>
+          </div>
+        </section>
+        <!--  -->
+        <section class="realistic_pictures">
+          <div class="realistic_pictures_text">
+            <h3>50 МП. Мега-мегапікселів
+            </h3>
+            <p>Справжній генератор пікселів, який ніколи не підведе. Ніколи. Знімки високої роздільної здатності без сумніву витримають випробування часом на довгі роки.</p>
+          </div>
+          <div class="realistic_pictures_img"><img alt="" class="big_img_item" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.VISUAL4.webp?_t=1706318457" />
+            <div class="pictures_img_item">
+              <div class="img_item_text"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736094/icon-insta%201.svg?_t=1705488925" />
+                <p>Знято на Galaxy S24 <span style="color: #0378EC;">#withGalaxy</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--  -->
+        <section class="quadruplets">
+          <div class="quadruplets_text">
+            <h3>Користуйся зумом. Навіть уночі.
+            </h3>
+            <p>Робіть яскраві, барвисті й чіткі знімки навіть уночі завдяки процесору зображення з AI. Зустрічайте омріяні можливості портретної зйомки. Збільшуйте масштаб у 2 чи навіть 3 рази — це жодним чином не вплине на якість зображення.<sup>*</sup>  На будь-якій відстані деталі матимуть чіткий і виразний вигляд, навіть якщо ви робите знімки в нічний час.<sup>*</sup>
+            </p>
+          </div>
+          <div class="quadruplets_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.VISUAL2.webp?_t=1706318456" />
+            <div class="img_item_text"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736094/icon-insta%201.svg?_t=1705488925" />
+              <p>Знято на Galaxy S24 <span style="color: #0378EC;">#withGalaxy</span>
+              </p>
+            </div>
+          </div>
+          <div class="quadruplets_gray">
+            <p class="galaxy_text">*Зум оптичної якості можливий завдяки сенсору з технолонією Adaptive Pixel
+            </p>
+            <p class="galaxy_text">**2-кратний зум потрібно ввімкнути в налаштуваннях застосунку Camera Assistant. Застосунок Camera Assistant можна завантажити з Galaxy Store.
+            </p>
+            
+          </div>
+        </section>
+        <!--  -->
+        <section class="quadruplets">
+          <div class="quadruplets_text">
+            <h3>Ставайте ближче з кожним дотиком
+            </h3>
+            <p>Перемикайтесь від 1х до 2х й навіть 3х зуму. Робіть знімки з яскравими деталями на більших відстанях наближення, ніж раніше.<sup>8</sup> Наближайте дію та фіксуйте покращені деталі завдяки AI зуму. <sup>9,10</sup></p>
+          </div>
+          <div class="quadruplets_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.VISUAL23.webp?_t=1706318457" />
+            <div class="img_item_text"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736094/icon-insta%201.svg?_t=1705488925" />
+              <p>Знято на Galaxy S24 <span style="color: #0378EC;">#withGalaxy</span>
+              </p>
+            </div>
+          </div>
+          <div class="quadruplets_gray">
+            <p class="galaxy_text">8.У порівнянні з Galaxy S23. 9.30х Космічний зум включає 3х оптичний зум і 30х цифровий зум із технологією надвисокої роздільної здатності. На відстанях, що перевищують 3х збільшення, якість зображення може бути зниженою. 10.AI зум застосовується до відстаней між розмірами цифрового зуму. Точність результатів не гарантується.</p>
+            
+          </div>
+        </section>
+        <!--  -->
+        <section class="snapdragon">
+          <div class="snapdragon_text">
+            <h3>Наш мобільний екран – видатний зразок адаптивності
+            </h3>
+            <p>Завдяки збільшеним розмірам і неймовірно тонким рамкам, дисплеї Galaxy S24 тепер мають розмір 6,2 дюйма з роздільною здатністю FHD+, що приносить вам ще більше корисної площі екрана. Насолоджуйтеся поліпшеною передачею кольору та контрастністю завдяки інноваційній функції Vision Booster.</p>
+          </div>
+          <div class="snapdragon_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.Vector-Smart-Object.webp?_t=1706318456" />
+          </div>
+          <div class="snapdragon_grey">
+            <p class="galaxy_text">*Розмір екрана Galaxy S24, виміряний за діагоналлю, дорівнює 6,2 дюйма в повному прямокутнику та 6 дюймів за умови врахування заокруглених кутів. Фактична площа перегляду зменшується через вигнуті краї та наявність отвору для камери. **Сертифікований VDE Germany дисплей Dynamic AMOLED 2X гарантує 100% колірний об'єм для мобільних пристроїв у межах колірного простору DCI-P3. Цей дисплей здатний досягти максимальної яскравості до 2600 ніт, що значно покращує контраст між темними та світлими елементами цифрового контенту. Це забезпечує видатну якість зображення та контрастність на рівні 5 000 000:1.</p>
+          </div>
+        </section>
+        <!--  -->
+        <section class="battery">
+          <div class="battery_text">
+            <h3>Розумніший акумулятор на цілий день <sup>8,11</sup>
+            </h3>
+            <p>Заряд є. Все ще є. І досі є. Galaxy S24 оснащений розумним акумулятором, який забезпечує більше часу для роботи з пристроєм<sup>8,11,12,13</sup>.</p>
+            <p class="grey_text">8. У порівнянні з Galaxy S23.11. Фактичний час роботи від акумулятора залежить від мережевого середовища, використовуваних функцій і застосунків, частоти викликів і повідомлень, кількості заряджань та багатьох інших чинників. Приблизна оцінка проти профілю використання середнього користувача за даними UX Connect Research. Незалежне оцінювання UX Connect Research проводилось у період із 25 листопада до 15 грудня 2023 р. у США та Великій Британії з передсерійними версіями SM-S921 і SM-S926 з налаштуваннями за замовчуванням із використанням мереж LTE й 5G Sub6. У мережі 5G mmWave тестування НЕ проводилось.12. Типове значення, визначене під час тестування у сторонній лабораторії. Типове значення є приблизним середнім значенням з урахуванням відхилень ємності акумулятора серед зразків акумуляторів, які було протестовано за стандартом IEC 61960. Номінальна ємність для Galaxy S24 становить 3880 мА·год і Galaxy S24+ – 4755 мА·год. Фактичний час роботи від акумулятора залежить від мережі, способу використання та інших чинників.13. За результатами тестування у власній лабораторії Samsung із використанням передрелізної версії відповідної моделі, підключеної до навушників через Bluetooth зі стандартними налаштуваннями LTE. Орієнтовне значення з урахуванням ємності акумулятора, виміряної напруги та рівня споживання заряду під час відтворення відео (файлів із роздільною здатністю 720p, збережених на пристрої) та аудіо (файл mp3, 192 кбіт/с, збережений на пристрої, із вимкненим LCD-дисплеєм). Фактичний час відтворення відео та аудіо залежить від підключення до мережі, налаштувань, формату файлу, яскравості екрана, стану акумулятора й багатьох інших чинників.</p>
+          </div>
+          <div class="battery_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.12_PERFORMANCE_BATTERY_PC.webp?_t=1706318455" />
+            <p class="grey_text">8. У порівнянні з Galaxy S23.11. Фактичний час роботи від акумулятора залежить від мережевого середовища, використовуваних функцій і застосунків, частоти викликів і повідомлень, кількості заряджань та багатьох інших чинників. Приблизна оцінка проти профілю використання середнього користувача за даними UX Connect Research. Незалежне оцінювання UX Connect Research проводилось у період із 25 листопада до 15 грудня 2023 р. у США та Великій Британії з передсерійними версіями SM-S921 і SM-S926 з налаштуваннями за замовчуванням із використанням мереж LTE й 5G Sub6. У мережі 5G mmWave тестування НЕ проводилось.12. Типове значення, визначене під час тестування у сторонній лабораторії. Типове значення є приблизним середнім значенням з урахуванням відхилень ємності акумулятора серед зразків акумуляторів, які було протестовано за стандартом IEC 61960. Номінальна ємність для Galaxy S24 становить 3880 мА·год і Galaxy S24+ – 4755 мА·год. Фактичний час роботи від акумулятора залежить від мережі, способу використання та інших чинників.13. За результатами тестування у власній лабораторії Samsung із використанням передрелізної версії відповідної моделі, підключеної до навушників через Bluetooth зі стандартними налаштуваннями LTE. Орієнтовне значення з урахуванням ємності акумулятора, виміряної напруги та рівня споживання заряду під час відтворення відео (файлів із роздільною здатністю 720p, збережених на пристрої) та аудіо (файл mp3, 192 кбіт/с, збережений на пристрої, із вимкненим LCD-дисплеєм). Фактичний час відтворення відео та аудіо залежить від підключення до мережі, налаштувань, формату файлу, яскравості екрана, стану акумулятора й багатьох інших чинників.</p>
+          </div>
+        </section>
+        <!--  -->
+        <section class="display_brightness">
+          <div class="display_brightness_text">
+            <h3>Наш найяскравіший адаптивний мобільний екран</h3>
+            <p>Завдяки збільшеному розміру пристрою та ультратонким рамкам 6,2-дюймові дисплеї Galaxy S24 з роздільною здатністю FHD+ пропонують більше корисної площі екрана. Насолоджуйтеся оптимальними кольорами та контрастністю завдяки функції Vision Booster.<sup>14,15</sup></p>
+            <div class="display_brightness_notes">
+              <p class="gray_text">14. Розмір екрана Galaxy S24, виміряний по діагоналі, становить 6,2 дюйма в повному прямокутнику і 6 дюймів з урахуванням закруглених кутів. Фактична площа перегляду менша через закруглені кути і отвір камери.15. Дисплей Dynamic AMOLED 2X, що використовується на пристроях Galaxy S24 та S24+, здобув сертифікат VDE Germany за 100-відсотковий колірний обсяг для мобільних пристроїв (Mobile Color Volume) у діапазоні кольорів DCI-P3. Це означає, що кольори зображень залишаються чіткими та неймовірно яскравими незалежно від інтенсивності зовнішнього освітлення. Дисплей, який може досягати максимальної яскравості до 2600 ніт, покращує контраст між темними та світлими аспектами цифрового вмісту, забезпечуючи видатну якість зображення та контрастність 5 000 000:1 для більшого занурення під час використання мобільного пристрою.</p>
+            </div>
+          </div>
+          <div class="display_brightness_img"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/opt.Imag%D1%96%D0%B0e.webp?_t=1706318456" />
+          </div>
+          <div class="display_brightness_grey">
+            <p class="grey_text">14. Розмір екрана Galaxy S24, виміряний по діагоналі, становить 6,2 дюйма в повному прямокутнику і 6 дюймів з урахуванням закруглених кутів. Фактична площа перегляду менша через закруглені кути і отвір камери.15. Дисплей Dynamic AMOLED 2X, що використовується на пристроях Galaxy S24 та S24+, здобув сертифікат VDE Germany за 100-відсотковий колірний обсяг для мобільних пристроїв (Mobile Color Volume) у діапазоні кольорів DCI-P3. Це означає, що кольори зображень залишаються чіткими та неймовірно яскравими незалежно від інтенсивності зовнішнього освітлення. Дисплей, який може досягати максимальної яскравості до 2600 ніт, покращує контраст між темними та світлими аспектами цифрового вмісту, забезпечуючи видатну якість зображення та контрастність 5 000 000:1 для більшого занурення під час використання мобільного пристрою.</p>
+          </div>
+        </section>
+        <!--  -->
+        <section class="ultra_in_AR">
+          <div class="ultra_in_AR_text"><img alt="" class="qr_code" src="https://i.citrus.world/uploads/content/product-photos/kirsh/736074/QR.svg?_t=1706318455" />
+            <h3>Перегляньте Galaxy S24 в AR
+            </h3>
+          </div>
+        </section>
+      </div>
+      
+    
+</body>
+</html>

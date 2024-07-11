@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .product__description.base-padding {
+        padding: 0;
+        border-radius: 0px;
+        }
+        .galaxy_tab img {
+        margin: 0;
+        }
+        .galaxy_tab p {
+        padding: 0;
+        margin: 0;
+        color: #000;
+        font-family: 'Roboto' ,sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        }
+        .galaxy_tab .notes_text{
+            font-size: 12px;
+            color: #0E0E0E;
+        }
+        .galaxy_tab h3 {
+        color: #000;
+        font-family: 'Roboto',sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+        margin: 0;
+        margin-bottom: 14px;
+        }
+        .galaxy_tab h2 {
+        color: #000;
+        font-family: 'Roboto',sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+        margin: 0;
+        margin-bottom: 12px;
+        }
+        .galaxy_tab ul {
+        list-style: disc;
+        margin: 0;
+        }
+        .galaxy_tab ul li {
+        line-height: normal;
+        color: #000;
+        font-family: 'Roboto',sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        }
+        .galaxy_tab {
+        overflow: hidden;
+        }
+        body {
+        padding: 0;
+        margin: 0;
+        }
+        .galaxy_tab ul {
+        padding: 0;
+        padding-left: 20px;
+        }
+        .galaxy_tab ul li {
+        padding: 0;
+        }
+        .galaxy_tab div {
+        padding: 0;
+        }
+        div.galaxy_tab {
+        padding: 0;
+        }
+        .galaxy_tab br {
+        display: block;
+        }
+        .product__body .el-tabs__header {
+        z-index: 6;
+        }
+        .galaxy_tab{
+        max-width: 1366px;
+        margin: 0 auto;
+        overflow-x: hidden;
+        }
+        .galaxy_tab img{
+        width: 100%;
+        display: block;
+        }
+
+
+        .galaxy_tab .tab_img{
+            padding: 40px 0 28px;
+            width: 272px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .galaxy_tab .tab_notes{
+            padding: 28px 16px 0;
+            text-align: center;
+        }
+
+
+        @media screen and (min-width:666px) {
+            .galaxy_tab .tab_img{
+                padding: 60px 0 40px;
+                width: 370px;
+            }
+
+            .galaxy_tab .tab_notes{
+                padding: 40px 104px 0;
+                text-align: center;
+            }
+
+            .galaxy_tab p {
+                font-size: 16px;
+            }
+
+            .galaxy_tab h3 {
+                font-size:24px;
+                margin-bottom: 16px;
+            }
+        }
+
+        @media screen and (min-width:1024px) {
+
+            .galaxy_tab .tab_img{
+                padding: 60px 0 40px;
+                width: 485px;
+            }
+
+            .galaxy_tab .tab_notes{
+                padding: 40px 88px 0;
+                text-align: center;
+            }
+            .galaxy_tab p {
+                font-size: 18px;
+                line-height: 150%;
+            }
+        
+            .galaxy_tab h3 {
+                font-size: 30px;
+            }
+        }
+
+        @media screen and (min-width:1366px) {
+
+            .galaxy_tab .tab_img{
+                padding: 80px 0 40px;
+                width: 772px;
+            }
+
+            .galaxy_tab .tab_notes{
+                padding: 40px 283px 0;
+                text-align: center;
+            } 
+            .galaxy_tab .notes_text{
+                font-size: 14px;
+            }
+
+            .galaxy_tab p {
+                font-size: 22px;
+            }
+
+            .galaxy_tab h3 {
+                font-size: 42px;
+                margin-bottom: 24px;
+            }
+        }
+
+
+    .galaxy_tab .classic_and_modern .classic_and_modern_text{
+        text-align: center;
+        padding: 40px 16px;
+    }
+
+    .galaxy_tab .classic_and_modern .classic_and_modern_notes{
+        padding: 40px 15px;
+        text-align: center;
+    }
+
+    @media screen and (min-width:666px) {
+        .galaxy_tab .classic_and_modern .classic_and_modern_text{
+            padding: 40px 66px;
+        }
+        .galaxy_tab .classic_and_modern .classic_and_modern_notes{
+            padding: 40px 104px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .galaxy_tab .classic_and_modern .classic_and_modern_text{
+            padding: 60px 88px 40px;
+        }
+        .galaxy_tab .classic_and_modern .classic_and_modern_notes{
+            padding: 40px 88px 60px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .galaxy_tab .classic_and_modern .classic_and_modern_text{
+            padding: 60px 283px 40px;
+        }
+        .galaxy_tab .classic_and_modern .classic_and_modern_notes{
+            padding: 40px 283px 60px;
+        }
+    }
+
+
+    .galaxy_tab .bright_reflection{
+        text-align: center;
+    }
+
+    .galaxy_tab .bright_reflection .bright_reflection_text{
+        padding: 0 16px 40px;
+    }
+
+    .galaxy_tab .bright_reflection .bright_reflection_notes{
+        padding: 40px 16px 0;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .galaxy_tab .bright_reflection .bright_reflection_text{
+            padding: 40px 66px;
+        }
+        
+        .galaxy_tab .bright_reflection .bright_reflection_notes{
+            padding: 40px 104px;
+        }
+        .galaxy_tab .bright_reflection .bright_reflection_text h3{
+            padding: 0 83px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .galaxy_tab .bright_reflection .bright_reflection_text{
+            padding: 60px 75px 40px;
+        }
+        
+        .galaxy_tab .bright_reflection .bright_reflection_notes{
+            padding: 40px 88px 60px;
+        }
+        .galaxy_tab .bright_reflection .bright_reflection_text h3{
+            padding: 0px;
+        }
+        .galaxy_tab .bright_reflection .bright_reflection_text p{
+            padding: 0 11px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .galaxy_tab .bright_reflection .bright_reflection_text{
+            padding: 60px 283px 40px;
+        }
+        
+        .galaxy_tab .bright_reflection .bright_reflection_notes{
+            padding: 40px 283px 60px;
+        }
+        .galaxy_tab .bright_reflection .bright_reflection_text h3{
+            padding: 0px;
+        }
+        .galaxy_tab .bright_reflection .bright_reflection_text p{
+            padding: 0px;
+        }
+    }
+
+
+    .galaxy_tab .you_like .you_like_text{
+        padding: 40px 16px 24px;
+        text-align: center;
+    }
+    .galaxy_tab .you_like .you_like_notes{
+        padding:0 16px;
+        text-align: center;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .galaxy_tab .you_like .you_like_text{
+            padding: 40px 66px 0;
+        }
+        .galaxy_tab .you_like .you_like_notes{
+            padding: 0 105px 40px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .galaxy_tab .you_like .you_like_text{
+            padding: 60px 88px 0;
+        }
+        .galaxy_tab .you_like .you_like_notes{
+            padding: 0 88px 60px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .galaxy_tab .you_like .you_like_text{
+            padding: 60px 283px 0;
+        }
+        .galaxy_tab .you_like .you_like_notes{
+            padding: 0 283px 60px;
+        }
+    }
+
+
+    /* increase_productivity */
+
+    .galaxy_tab .increase_productivity{
+        display: grid;
+    
+    }
+
+    .galaxy_tab .increase_productivity .increase_productivity_text{
+        padding:40px 16px;
+    }
+
+    .galaxy_tab .increase_productivity .increase_productivity_notes{
+        margin-top: 14px;
+    }
+
+
+    @media screen and (min-width:666px) {
+        .galaxy_tab .increase_productivity{
+            grid-template-columns: repeat(2,1fr);
+            padding: 40px 0;
+            align-items: center;
+        }
+        .galaxy_tab .increase_productivity .increase_productivity_text{
+            padding: 0 20px 0 24px;
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+        .galaxy_tab .increase_productivity .increase_productivity_notes{
+            margin-top: 16px;
+        } 
+    }
+    @media screen and (min-width:1024px) {
+        .galaxy_tab .increase_productivity{
+            padding:0;
+        }
+        .galaxy_tab .increase_productivity .increase_productivity_text{
+            padding: 0 30px 0 40px;
+        }
+        .galaxy_tab .increase_productivity .increase_productivity_notes{
+            margin-top: 16px;
+        } 
+    }
+    @media screen and (min-width:1366px) {
+        .galaxy_tab .increase_productivity{
+            padding:0;
+        }
+        .galaxy_tab .increase_productivity .increase_productivity_text{
+            padding: 0 54px 0 40px;
+        }
+        .galaxy_tab .increase_productivity .increase_productivity_notes{
+            margin-top: 24px;
+        } 
+    }
+
+
+    .galaxy_tab .rich_sound{
+        text-align: center;
+    }
+    .galaxy_tab .rich_sound .rich_sound_text{
+        padding: 40px 16px 24px;
+    }
+    .galaxy_tab .rich_sound .rich_sound_notes{
+        padding: 24px 16px 0;
+    }
+
+    @media screen and (min-width:666px) {
+        .galaxy_tab .rich_sound .rich_sound_text{
+            padding: 40px 60px 0px;
+        }
+        .galaxy_tab .rich_sound .rich_sound_notes{
+            padding: 0px 104px 40px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .galaxy_tab .rich_sound .rich_sound_text{
+            padding: 60px 86px 0px;
+        }
+        .galaxy_tab .rich_sound .rich_sound_notes{
+            padding: 0px 88px 60px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .galaxy_tab .rich_sound .rich_sound_text{
+            padding: 60px 283px 0px;
+        }
+        .galaxy_tab .rich_sound .rich_sound_notes{
+            padding: 0px 280px 60px;
+        }
+    }
+
+
+
+    .galaxy_tab .peace_mind{
+    text-align: center;
+    }
+
+    .galaxy_tab .peace_mind .peace_mind_text{
+    padding: 40px 16px;
+    }
+    .galaxy_tab .peace_mind .peace_mind_notes{
+    padding: 40px 16px 0;
+    }
+
+    @media screen and (min-width:666px) {
+        .galaxy_tab .peace_mind .peace_mind_text{
+            padding: 40px 66px;
+        }
+        .galaxy_tab .peace_mind .peace_mind_notes{
+            padding: 40px 104px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .galaxy_tab .peace_mind .peace_mind_text{
+            padding: 60px 88px 40px;
+        }
+        .galaxy_tab .peace_mind .peace_mind_notes{
+            padding: 40px 88px 60px;
+        }
+    }
+    @media screen and (min-width:1366px) {
+        .galaxy_tab .peace_mind .peace_mind_text{
+            padding: 60px 283px 40px;
+        }
+        .galaxy_tab .peace_mind .peace_mind_notes{
+            padding: 40px 283px 60px;
+        }
+    }
+
+
+    .galaxy_tab .quick_share{
+        padding: 40px 16px 0 ;
+        display: grid;
+        gap: 40px;
+        text-align: center;
+    }
+    @media screen and (min-width:666px) {
+        .galaxy_tab .quick_share{
+            padding: 40px 60px ;
+        }
+        .galaxy_tab .quick_share .quick_share_img{
+            padding: 0 23px;
+        }
+        .galaxy_tab .quick_share .quick_share_notes{
+            padding: 0 40px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .galaxy_tab .quick_share{
+            padding: 60px 88px ;
+        }
+        .galaxy_tab .quick_share .quick_share_img{
+            padding: 0 29px;
+        }
+        .galaxy_tab .quick_share .quick_share_notes{
+            padding: 0;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .galaxy_tab .quick_share{
+            padding: 60px 182px ;
+        }
+        .galaxy_tab .quick_share .quick_share_img{
+            padding: 0px;
+        }
+        .galaxy_tab .quick_share .quick_share_text{
+            padding: 0px 99px;
+        }
+        .galaxy_tab .quick_share .quick_share_notes{
+            padding: 0 99px;
+        }
+    }
+
+
+    /* univers_block_tab */
+
+
+    .galaxy_tab .univers_block_tab{
+        padding: 40px 16px 0;
+        text-align: center;
+        display: grid;
+        gap: 40px;
+    }
+    .galaxy_tab .univers_block_tab .title_text{
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 14px;
+        
+    }
+    .galaxy_tab .univers_block_tab:last-child{
+        padding-bottom: 20px;
+    }
+
+    @media screen and (min-width:666px) {
+
+        .galaxy_tab .univers_block_tab{
+            padding: 40px 66px;
+            gap: 40px;
+        }
+        .galaxy_tab .univers_block_tab .title_text{
+            font-size: 18px;
+            margin-bottom: 16px;
+        }
+        .galaxy_tab .univers_block_tab .univers_block_img{
+            padding: 0 23px;
+        }
+        .galaxy_tab .univers_block_tab .univers_block_notes{
+            padding: 0 35px;
+        }
+        .galaxy_tab .univers_block_tab:last-child{
+            padding-bottom: 40px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+
+        .galaxy_tab .univers_block_tab{
+            padding: 60px 88px;
+            gap: 40px;
+        }
+        .galaxy_tab .univers_block_tab .title_text{
+            font-size: 22px;
+        }
+        .galaxy_tab .univers_block_tab .univers_block_img{
+            padding: 0 29px;
+        }
+        .galaxy_tab .univers_block_tab .univers_block_notes{
+            padding: 0;
+        }
+
+    }
+
+    @media screen and (min-width:1366px) {
+
+        .galaxy_tab .univers_block_tab{
+            padding: 60px 182px;
+            gap: 40px;
+        }
+        .galaxy_tab .univers_block_tab .title_text{
+            font-size: 32px;
+            margin-bottom: 24px;
+            padding: 0 110px;
+        }
+        .galaxy_tab .univers_block_tab .univers_block_img{
+            padding: 0px;
+        }
+        .galaxy_tab .univers_block_tab .univers_block_text{
+            padding:0 99px;
+        }
+        .galaxy_tab .univers_block_tab .univers_block_notes{
+            padding: 0 99px;
+        }
+        .galaxy_tab .univers_block_tab:last-child{
+            padding-bottom: 60px;
+        }
+    }
+    </style>
+    <div class="galaxy_tab">
+        <section class="tab">
+            <div class="tab_img">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/736036/icon.svg?_t=1707385500" alt="">
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/736036/opt.Visual%201.webp?_t=1707379013" alt="">
+            <div class="tab_notes">
+                <p class="notes_text">*Зображення змодельовано. Колір і доступність можуть відрізнятися залежно від країни або оператора.</p>
+            </div>
+        </section>
+<!--  -->
+        <section class="classic_and_modern">
+            <div class="classic_and_modern_text">
+                <h3>Класичний та сучасний</h3>
+                <p>Стильні з відтінком стриманості планшети Galaxy Tab A9 і Tab A9+ вирізняються витонченим дизайном та мають гладкий металевий корпус. Насолоджуйтесь фірмовим дизайном планшетів Samsung у графітовому, срібному та темно-синьому кольорах, кожен з яких підкреслює невимушений шарм.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/736036/opt.Visual%2093.webp?_t=1707379013" alt="">
+            <div class="classic_and_modern_notes">
+                <p class="notes_text">*Galaxy Tab A9 і Tab A9+ доступні у графітовому, срібному та темно-синьому кольорах. Доступність кольорів може залежати від країни або оператора. В Україні пристрій доступний тільки у кольорі Графіт. **Товщина Galaxy Tab A9 - 8,0 мм. Товщина Galaxy Tab A9+ - 6,9 мм.</p>
+            </div>
+        </section>
+        <!--  -->
+        <section class="bright_reflection">
+            <div class="bright_reflection_text">
+                <h3>Проникливе та яскраве відображення з плавними рухами</h3>
+                <p>Відчуйте задоволення від розваг на великому, яскравому дисплеї. Висока частота оновлення екрана Galaxy Tab A9+ дозволяє зануритися у візуальні ефекти з плавними та невимушеними рухами. Пориньте у захопливий світ улюбленого контенту, навіть коли ви перебуваєте надворі у сонячні дні.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/736036/opt.Visual%2094.webp?_t=1707379013" alt="">
+            <div class="bright_reflection_notes">
+                <p class="notes_text">*Зображення змодельоване з ілюстративною метою. **Діагональ екрана Galaxy Tab A9 становить 8,7" у повному прямокутнику без урахування заокруглених кутів. Екран Galaxy Tab A9+ має діагональ 11,0" у повному прямокутнику без урахування заокруглених кутів. Фактична площа екрану менша через закруглені кути.***Частота оновлення екрана Galaxy Tab A9 - до 60 Гц. Частота оновлення екрану Galaxy Tab A9+ - до 90 Гц.</p>
+            </div>
+        </section>
+<!--  -->
+        <section class="you_like">
+            <div class="you_like_text">
+                <h3>Зберігайте більше того, що вам подобається</h3>
+                <p>Galaxy Tab A9 і Tab A9+ оснащені до 8 ГБ оперативної пам'яті, що гарантує менші затримки під час роботи в режимі багатозадачності. Крім того, вбудоване сховище на 128 ГБ зберігає всі ваші відео, фотографії та файли у високій роздільній здатності. Обсяг пам'яті можна розширити за допомогою карти пам'яті microSD - до 1 ТБ. Зберігайте більше улюблених матеріалів та не переймайтеся про їхнє видалення.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/736036/opt.Visual%2095.webp?_t=1707379013" alt="">
+            <div class="you_like_notes">
+                <p class="notes_text">*Зображення змодельоване з ілюстративною метою.**Варіанти зберігання та доступність можуть відрізнятися залежно від країни або регіону.***Фактична доступність пам'яті може залежати від встановленого програмного забезпечення.****Для Galaxy Tab A9 і Tab A9+ доступні два варіанти пам'яті та сховища: 4 ГБ пам'яті та 64 ГБ пам'яті, 8 ГБ пам'яті та 128 ГБ пам'яті.*****Картка пам'яті microSD продається окремо. Усі моделі підтримують карти пам'яті microSD об'ємом до 1 ТБ. Зовнішню пам'ять можна використовувати для зберігання медіафайлів (фото, відео та музики), але не програм. Доступність залежить від країни та виробника.</p>
+            </div>
+        </section>
+        <!--  -->
+        <section class="increase_productivity">
+            <div class="increase_productivity_text">
+                <h3>Розділіть екран на три частини. Підвищіть свою продуктивність</h3>
+                <p>Виконуйте кілька завдань одночасно. Galaxy Tab A9+ дозволяє креслити архітектурні плани, переглядати зображення та спілкуватися у відеочаті одночасно з трьома застосунками на одному екрані, не закриваючи жоден з них.</p>
+                <div class="increase_productivity_notes">
+                    <p class="notes_text">*На Galaxy Tab A9 можуть одночасно відображатися до двох застосунків. На Galaxy Tab A9+ може одночасно відображатися до трьох застосунків.**Деякі застосунки можуть не підтримувати багатозадачність.***Зображення змодельоване з ілюстративною метою. Фактичний інтерфейс може відрізнятися.</p>
+                </div>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/736036/opt.Visual10.webp?_t=1707379011" alt="">
+        </section>
+        <!--  -->
+        <section class="rich_sound">
+            <div class="rich_sound_text">
+                <h3>Наповніть своє життя насиченим звуком</h3>
+                <p>Пориньте у насичений звуковий простір завдяки динамікам, які створюють об'ємний звук. Незалежно від того, чи насолоджуєтеся ви музикою, чи переглядаєте фільм, Galaxy Tab A9+ дозволяє повністю зануритися в 3D-звук з приголомшливою чистотою та глибиною звучання.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/736036/opt.Visual%2096.webp?_t=1707379012" alt="">
+            <div class="rich_sound_notes">
+                <p class="notes_text">*Зображення змодельоване з ілюстративною метою. **Galaxy Tab A9 оснащений двома динаміками (1,0 Вт). Galaxy Tab A9+ оснащений чотирма динаміками (1,2 Вт). ***Обидва планшети Galaxy Tab A9 і Galaxy Tab A9+ підтримують технологію Dolby Atmos.</p>
+            </div>
+        </section>
+        <!--  -->
+        <section class="peace_mind">
+            <div class="peace_mind_text">
+                <h3>Подбайте про свій душевний спокій</h3>
+                <p>Зберігайте свою інформацію в цілісності й неушкодженості. Тримайте важливі дані в захищеній папці та відстежуйте загальний стан безпеки вашого пристрою на панелі конфіденційності. Використовуйте всі можливості Samsung Galaxy, не переймаючись проблемами безпеки.</p>
+            </div>
+            <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/736036/opt.Visual%2097.webp?_t=1707379012" alt="">
+            <div class="peace_mind_notes">
+                <p class="notes_text">*Зображення змодельоване з ілюстративною метою. Фактичний інтерфейс може відрізнятися.</p>
+            </div>
+
+        </section>
+        <!--  -->
+        <section class="quick_share">
+            <div class="quick_share_text">
+                <h3>Надзвичайна швидкість Quick Share</h3>
+                <p>Ділитися фотографіями, відео та документами можна швидко і легко за допомогою функції Quick Share. Лише кілька дотиків - і ви зможете миттєво надсилати файли з телефона або планшета Galaxy на інші пристрої Galaxy, що знаходяться поруч, або навіть на кілька пристроїв. Бажаєте надіслати файл на пристрій, що не належить до лінійки Galaxy ? Зробити це так само просто, як надіслати посилання.</p>
+            </div>
+            <div class="quick_share_img">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/736036/opt.VISUAL4.webp?_t=1707379012" alt="">
+            </div>
+            <div class="quick_share_notes">
+                <p class="notes_text">*Усі функції підтримуються з One UI 5.1. Доступність One UI 5.1 може відрізнятися залежно від пристрою, країни, регіону та оператора.**На кожному пристрої має бути встановлено One UI 5.1, увімкнено Bluetooth та під'єднано до одного облікового запису Samsung.***Продовження роботи застосунку на інших пристроях сумісне лише з Samsung Internet та Samsung Notes. Щоб ця функція працювала, обидва пристрої, які ви збираєтеся використовувати, повинні бути зареєстровані в одному обліковому записі Samsung і під'єднані до однієї мережі Wi-Fi, а на обох пристроях має бути ввімкнено Bluetooth і функцію Continue.****Зображення змодельоване з ілюстративною метою. Фактичний інтерфейс може відрізнятися.</p>
+            </div>
+
+        </section>
+        <!--  -->
+        <section class="univers_block_tab">
+            <div class="univers_block_text">
+                <h3>Не зупиняйтеся на досягнутому</h3>
+                <p class="title_text">Продовжуйте працювати у застосунках на інших пристроях</p>
+                <p>Продовжуйте з того місця, де ви зупинилися, коли вам це потрібно. Просто увійшовши в той самий обліковий запис Samsung, ви можете повернутися до своїх нотаток або пошуку в Інтернеті, не починаючи все спочатку, і вільно перемикатися між двома пристроями.</p>
+            </div>
+            <div class="univers_block_img">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/736036/opt.VISUAL4-2.webp?_t=1707379012" alt="">
+            </div>
+            <div class="univers_block_notes">
+                <p class="notes_text">*Усі функції підтримуються з One UI 5.1. Доступність One UI 5.1 може відрізнятися залежно від пристрою, країни, регіону та оператора.**На кожному пристрої має бути встановлено One UI 5.1, увімкнено Bluetooth та підключено до одного облікового запису Samsung.***Продовження роботи застосунку на інших пристроях сумісне лише з Samsung Internet та Samsung Notes. Щоб ця функція працювала, обидва пристрої, які ви збираєтеся використовувати, повинні бути зареєстровані в одному обліковому записі Samsung і підключені до однієї мережі Wi-Fi, а на обох пристроях має бути ввімкнено Bluetooth і функцію Continue.****Зображення змодельоване з ілюстративною метою. Фактичний інтерфейс може відрізнятися.</p>
+            </div>
+        </section>
+        <!--  -->
+        <section class="univers_block_tab">
+            <div class="univers_block_text">
+                <h3>Розширюйте свої горизонти</h3>
+                <p class="title_text">Копіюйте та вставляйте</p>
+                <p>Створюйте, передавайте та долайте кордони завдяки легкому копіюванню та вставленню на різних пристроях. Незалежно від того, чи створюєте ви дошку настрою, чи редагуєте слайди PowerPoint, ваша продуктивність і творча енергія буде проявлятися більш вільно та ефективно.</p>
+            </div>
+            <div class="univers_block_img">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/736036/opt.VISUAL4-3.webp?_t=1707379012" alt="">
+            </div>
+            <div class="univers_block_notes">
+                <p class="notes_text">*Усі функції підтримуються з One UI 5.1. Доступність One UI 5.1 може відрізнятися залежно від пристрою, країни, регіону та оператора.**На кожному пристрої має бути встановлено One UI 5.1, увімкнено Bluetooth та підключено до одного облікового запису Samsung.***Продовження роботи застосунку на інших пристроях сумісне лише з Samsung Internet та Samsung Notes. Щоб ця функція працювала, обидва пристрої, які ви збираєтеся використовувати, повинні бути зареєстровані в одному обліковому записі Samsung і підключені до однієї мережі Wi-Fi, а на обох пристроях має бути ввімкнено Bluetooth і функцію Continue.****Зображення змодельоване з ілюстративною метою. Фактичний інтерфейс може відрізнятися.</p>
+            </div>
+        </section>
+        <!--  -->
+        <section class="univers_block_tab">
+            <div class="univers_block_text">
+                <h3>Безперешкодне під'єднання сумісних пристроїв</h3>
+                <p class="title_text">Автоматична синхронізація</p>
+                <p>Нехай довготривале ручне під'єднання та налаштування улюблених пристроїв залишиться в минулому. Від ноутбука і навушників до годинника Galaxy Watch - усі пристрої, які було під'єднано до смартфона Samsung Galaxy, автоматично з'являться у списку Bluetooth-пристроїв вашого планшета Galaxy Tab A9 або Tab A9+.</p>
+            </div>
+            <div class="univers_block_img">
+                <img src="https://i.citrus.world/uploads/content/product-photos/kirsh/736036/opt.VISUAL4-1.webp?_t=1707379012" alt="">
+            </div>
+            <div class="univers_block_notes">
+                <p class="notes_text">*Усі функції підтримуються з One UI 5.1. Доступність One UI 5.1 може відрізнятися залежно від пристрою, країни, регіону та оператора.**На кожному пристрої має бути встановлено One UI 5.1, увімкнено Bluetooth та підключено до одного облікового запису Samsung.***Продовження роботи застосунків на інших пристроях сумісна лише з Samsung Internet та Samsung Notes. Щоб ця функція працювала, обидва пристрої, які ви збираєтеся використовувати, повинні бути зареєстровані в одному обліковому записі Samsung і підключені до однієї мережі Wi-Fi, а на обох пристроях має бути ввімкнено Bluetooth і функцію Continue. ****Зображення змодельоване з ілюстративною метою. Фактичний інтерфейс може відрізнятися.</p>
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>

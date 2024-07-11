@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <style type="text/css">.product__description.base-padding {
+        padding: 0;
+        border-radius: 0px;
+        }
+        .likebike img {
+          margin: 0;
+        }
+        .likebike p {
+          padding: 0;
+          margin: 0;
+          line-height: normal;
+        }
+        .likebike ul {
+          list-style: none;
+          margin: 0;
+        }
+        .likebike ul li {
+          line-height: normal;
+        }
+        .likebike {
+          overflow: hidden;
+        }
+        body {
+          padding: 0;
+        }
+        .likebike ul {
+          padding: 0;
+        }
+        .likebike ul li {
+          padding: 0;
+        }
+        .likebike div {
+          padding: 0;
+        }
+        div.buds2 {
+          padding: 0;
+        }
+        .buds2 br {
+          display: block;
+        }
+        .product__body .el-tabs__header {
+          z-index: 6;
+        }
+        .likebike .container {
+          margin: 0 16px;
+          color: #1A1A18;
+        }
+        /* header======================================= */
+        .likebike .likebike-header {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .likebike .likebike-header__img {
+          width: 100%;
+        }
+        .likebike .likebike-header__logo {
+          margin: 40px 0 24px 0;
+          width: 130px;
+          height: 36px;
+        }
+        .likebike .likebike-header__content {
+          display: flex;
+          flex-direction: column;
+        }
+        .likebike .likebike-header__desc {
+          text-align: center;
+        }
+        .likebike .likebike-header__title {
+          text-transform: uppercase;
+          font-weight: 300;
+          font-size: 33px;
+          line-height: 39px;
+          margin-bottom: 8px;
+        }
+        .likebike .likebike-header__subtitle {
+          font-size: 15px;
+          line-height: 20px;
+          font-weight: 400;
+          margin: 0;
+        }
+        .likebike .likebike-header__main-img {
+          width: 288px;
+          height: 192px;
+          margin-bottom: 40px;
+        }
+        @media (min-width: 768px) {
+          .likebike .likebike-header__content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+          }
+          .likebike .likebike-header__main-img {
+            width: 382px;
+            height: 254px;
+          }
+          .likebike .likebike .likebike-header__desc {
+            padding-top: 10%;
+            text-align: left;
+            width: 232px;
+            height: 108px;
+          }
+          .likebike .likebike-header__title {
+            font-size: 46px;
+            line-height: 54px;
+          }
+          .likebike .likebike .likebike-header__subtitle {
+            font-size: 16px;
+          }
+        }
+        @media (min-width: 1024px) {
+          .likebike .likebike-header__main-img {
+            width: 531px;
+            height: 355px;
+          }
+          .likebike .likebike-header__desc {
+            text-align: left;
+            width: 373px;
+            height: 146px;
+          }
+          .likebike .likebike-header__title {
+            font-size: 62px;
+            line-height: 73px;
+          }
+          .likebike .likebike .likebike-header__subtitle {
+            font-size: 18px;
+          }
+          .likebike .likebike-header__logo {
+            width: 160px;
+            height: 46px;
+          }
+        }
+        @media (min-width: 1366px) {
+          .likebike .likebike-header__main-img {
+            width: 647px;
+            height: 432px;
+          }
+          .likebike .likebike-header__desc {
+            text-align: left;
+            width: 432px;
+            height: 168px;
+          }
+          .likebike .likebike-header__title {
+            font-size: 72px;
+            line-height: 84px;
+          }
+          .likebike .likebike-header__subtitle {
+            font-size: 22px;
+          }
+          .likebike .likebike-header__logo {
+            width: 160px;
+            height: 46px;
+          }
+          .likebike .container-max {
+            padding: 0 136px 0 136px;
+          }
+        }
+        /* props block ================================================== */
+        .likebike .likebike-props {
+          background-color: #F4F4F4;
+        }
+        .likebike .likebike-props__description {
+          text-align: center;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          color: #1A1A18CC;
+          padding: 40px 0 18px 0;
+        }
+        .likebike .likebike-props__content {
+          background-color: #ffffff;
+          padding: 24px;
+        }
+        .likebike .likebike-props__content_values {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          border-bottom: 1px solid #D9D9D9;
+        }
+        .likebike .props-value {
+          margin: 24px 0;
+          display: grid;
+          grid-template-rows: 1fr 1fr -1fr;
+          justify-items: center;
+        }
+        .likebike .props-value__title {
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 30px;
+          text-align: center;
+          margin-top: 10px;
+        }
+        .likebike .props-value__subtitle {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          text-align: center;
+          color: #1A1A18CC;
+        }
+        .likebike .likebike-props__road img {
+          margin-bottom: 10px;
+        }
+        .likebike .props {
+          margin: 24px;
+        }
+        .likebike .props__items {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .likebike .props__item {
+          text-align: center;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          color: #1A1A18CC;
+          margin-bottom: 20px;
+          position: relative;
+        }
+        .likebike .props__item {
+          margin-bottom: 0;
+        }
+        .likebike .props__item-dot {
+          display: block;
+          width: 4px;
+          height: 4px;
+          border-radius: 4px;
+          background-color: #D9D9D9;
+          margin: 6px 0;
+        }
+        .likebike .likebike-props__image {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-bottom: 40px;
+        }
+        @media (min-width: 768px) {
+          .likebike .props {
+            margin: 24px 0 0;
+          }
+          .likebike .likebike-props__description {
+            padding: 40px 0 28px 0;
+          }
+          .likebike .props__items {
+            justify-content: space-around;
+            flex-direction: row;
+          }
+          .likebike .props__items:last-child .props__item-dot:first-child {
+            display: none;
+          }
+          .likebike .props__item-dot {
+            margin: 0;
+          }
+          .likebike .props__items:first-child {
+            margin-bottom: 24px;
+          }
+          .likebike .props__item:not(:last-child)::after {
+            display: none;
+          }
+          .likebike .likebike-props__image {
+            padding-top: 24px;
+          }
+          .likebike .likebike-props__image img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 440px;
+            height: 380px;
+          }
+        }
+        @media (min-width: 1024px) {
+          .likebike .likebike-props {
+            padding-bottom: 60px;
+          }
+          .likebike .likebike-props__container {
+            display: flex;
+            flex-direction: row-reverse;
+          }
+          .likebike .likebike-props__wrapper,
+          .likebike .likebike-props__image {
+            width: 50%;
+            padding-top: 0;
+          }
+          .likebike .likebike .props-value__title {
+            font-size: 24px;
+            line-height: 36px;
+          }
+          .likebike .props__items:first-child .props__item {
+            max-width: min-content;
+          }
+          .likebike .props__items:first-child .props__item:last-child {
+            white-space: nowrap;
+          }
+          .likebike .props__item {
+            font-size: 16px;
+            line-height: 21px;
+          }
+          .likebike .props__item span {
+            display: block;
+          }
+          .likebike .likebike-props__description {
+            font-size: 16px;
+            line-height: 24px;
+            text-align: left;
+            padding: 60px 0 28px 0;
+          }
+        }
+        @media (min-width: 1366px) {
+          .likebike .likebike-props {
+            padding-bottom: 80px;
+          }
+          .likebike .likebike-props__description {
+            font-size: 18px;
+            line-height: 27px;
+            text-align: left;
+            padding: 60px 0 40px 0;
+          }
+          .likebike .props-value__title {
+            font-size: 28px;
+            line-height: 42px;
+          }
+          .likebike .props__item-big {
+            padding-left: 20px;
+            max-width: 220px;
+          }
+          .likebike .props__item {
+            font-size: 18px;
+            line-height: 27px;
+          }
+          .likebike .likebike-props__image img {
+            width: 540px;
+            height: 460px;
+          }
+          .likebike .container-max {
+            padding: 0 136px 0 136px;
+          }
+        }
+        /* about block ======================== */
+        .likebike .likebike-about {
+          background-color: #1A1A18;
+          color: #ffffff;
+        }
+        .likebike .likebike-about__support-img {
+          display: flex;
+          margin: 0 auto;
+        }
+        .likebike .likebike-about__practice {
+          height: 100%;
+        }
+        .likebike .likebike-practice {
+          background: url(https://i.citrus.world/uploads/promo/likebike/about/bg.png?_t=1678897174) center/cover no-repeat;
+        }
+        .likebike .likebike-practice__title {
+          text-align: center;
+          color: #ffffff;
+          font-size: 20px;
+          line-height: 26px;
+          padding: 40px 0 10px 0;
+        }
+        .likebike .likebike-practice__description {
+          text-align: center;
+          color: #ffffff;
+          font-size: 14px;
+          line-height: 21px;
+          padding: 0 16px 40px 16px;
+        }
+        @media (min-width: 768px) {
+          .likebike .likebike-about {
+            padding-bottom: 40px;
+          }
+          .likebike .likebike-practice__content {
+            width: 75%;
+          }
+          .likebike .likebike-practice__title {
+            text-align: left;
+            font-size: 24px;
+            line-height: 31px;
+            padding-left: 16px;
+          }
+          .likebike .likebike-practice__description {
+            text-align: left;
+            font-size: 14px;
+            line-height: 21px;
+          }
+        }
+        @media (min-width: 1024px) {
+          .likebike .likebike-about {
+            padding-bottom: 60px;
+          }
+          .likebike .likebike-practice__content {
+            width: 65%;
+          }
+          .likebike .likebike-practice__title {
+            text-align: left;
+            font-size: 32px;
+            line-height: 48px;
+            padding-left: 16px;
+          }
+          .likebike .likebike-practice__description {
+            text-align: left;
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+        @media (min-width: 1366px) {
+          .likebike .likebike-about {
+            padding-bottom: 80px;
+          }
+          .likebike .likebike-practice__content {
+            width: 70%;
+          }
+          .likebike .likebike-practice__title {
+            text-align: left;
+            font-size: 32px;
+            line-height: 48px;
+            padding: 80px 0 0 151px;
+          }
+          .likebike .likebike-practice__description {
+            text-align: left;
+            font-size: 18px;
+            line-height: 27px;
+            padding: 24px 0 80px 135px;
+          }
+        }
+        .likebike .likebike-about__title {
+          color: #ffffff;
+          font-size: 20px;
+          line-height: 26px;
+          text-align: center;
+        }
+        .likebike .likebike-about__description {
+          color: #ffffff;
+          font-size: 14px;
+          line-height: 21px;
+          text-align: center;
+        }
+        .likebike .support__content_title {
+          color: #ffffff;
+          font-size: 20px;
+          line-height: 26px;
+          text-align: center;
+          padding: 24px 0 10px 0;
+        }
+        .likebike .support__content_description {
+          color: #ffffff;
+          font-size: 14px;
+          line-height: 18px;
+          text-align: center;
+          padding: 0 0 40px 0;
+        }
+        @media (min-width: 768px) {
+          .likebike .likebike-about__practice_content {
+            width: 70%;
+          }
+          .likebike .likebike-about__title {
+            font-size: 24px;
+            line-height: 31px;
+            text-align: left;
+            margin-left: 16px;
+          }
+          .likebike .likebike-about__description {
+            font-size: 14px;
+            line-height: 21px;
+            text-align: left;
+          }
+          .likebike .likebike-about__support {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 24px;
+            padding: 40px 0;
+          }
+          .likebike .likebike-about__support:last-child {
+            padding-bottom: 0;
+          }
+          .likebike .likebike-about__support-rev img {
+            order: 2;
+          }
+          .likebike .support__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .likebike .support__content_title {
+            color: #ffffff;
+            font-size: 24px;
+            line-height: 31px;
+            text-align: left;
+            padding-top: 0;
+          }
+          .likebike .support__content_description {
+            font-size: 14px;
+            line-height: 18px;
+            text-align: left;
+            padding: 0;
+          }
+        }
+        @media (min-width: 1024px) {
+          .likebike .likebike-about__title {
+            font-size: 32px;
+            line-height: 48px;
+          }
+          .likebike .likebike-about__description {
+            font-size: 16px;
+            line-height: 24px;
+            text-align: left;
+          }
+          .likebike .support__content_title {
+            color: #ffffff;
+            font-size: 32px;
+            line-height: 48px;
+          }
+          .likebike .support__content_description {
+            font-size: 16px;
+            line-height: 24px;
+          }
+          .likebike .likebike-about__support {
+            padding: 60px 0;
+          }
+        }
+        @media (min-width: 1366px) {
+          .likebike .likebike-about__description {
+            font-size: 16px;
+            line-height: 27px;
+            text-align: left;
+          }
+          .likebike .support__content_description {
+            font-size: 18px;
+            line-height: 27px;
+          }
+          .likebike .likebike-about__support {
+            padding: 80px 136px;
+          }
+          .likebike .desc-left {
+            margin-right: 24px;
+          }
+        }
+        /* comfort block ======================= */
+        .likebike .likebike-comfort {
+          padding: 40px 0;
+        }
+        .likebike .likebike-comfort__image-img {
+          width: 100%;
+          height: 100%;
+        }
+        .likebike .likebike-comfort__content {
+          text-align: center;
+          padding: 24px 0;
+        }
+        .likebike .likebike-comfort__title {
+          font-size: 20px;
+          line-height: 26px;
+          margin: 0 0 10px;
+        }
+        .likebike .likebike-comfort__description {
+          font-size: 14px;
+          line-height: 21px;
+        }
+        @media (min-width: 768px) {
+          .likebike .likebike-comfort {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr 1fr;
+            column-gap: 24px;
+            align-items: center;
+          }
+          .likebike .likebike-comfort__image {
+            height: 224px;
+          }
+          .likebike .likebike-comfort__content {
+            padding: 0;
+          }
+          .likebike .likebike-comfort__title {
+            font-size: 24px;
+            line-height: 32px;
+          }
+        }
+        @media (min-width: 1024px) {
+          .likebike .likebike-comfort {
+            display: grid;
+            grid-template-columns: 1fr 1.4fr 1fr;
+            padding: 60px 0;
+          }
+          .likebike .likebike-comfort__image {
+            height: 393px;
+          }
+          .likebike .likebike-comfort__title {
+            font-size: 32px;
+            line-height: 48px;
+          }
+          .likebike .likebike-comfort__description {
+            font-size: 16px;
+            line-height: 24px;
+            padding: 0 16px;
+          }
+        }
+        @media (min-width: 1366px) {
+          .likebike .likebike-comfort {
+            display: grid;
+            grid-template-columns: 1fr 1.4fr 1fr;
+            padding: 80px 136px;
+          }
+          .likebike .likebike-comfort__image {
+            height: 467px;
+          }
+          .likebike .likebike-comfort__title {
+            font-size: 32px;
+            line-height: 48px;
+          }
+          .likebike .likebike-comfort__description {
+            font-size: 18px;
+            line-height: 27px;
+          }
+        }
+        /* control block ======================= */
+        .likebike .likebike-control {
+          background-color: #F4F4F4;
+          padding: 40px 0;
+        }
+        .likebike .likebike-control__img {
+          display: flex;
+          margin: 0 auto;
+          width: 90%;
+          height: 100%;
+          padding: 0 0 24px;
+        }
+        .likebike .likebike-control__content {
+          text-align: center;
+        }
+        .likebike .likebike-control__title {
+          font-size: 20px;
+          line-height: 26px;
+          padding-bottom: 10px;
+        }
+        .likebike .likebike-control__description {
+          font-size: 14px;
+          line-height: 21px;
+        }
+        @media (min-width: 768px) {
+          .likebike .likebike-control__img {
+            margin: 0 auto;
+            height: 100%;
+            width: 70%;
+          }
+          .likebike .likebike-control__content {
+            text-align: center;
+          }
+          .likebike .likebike-control__title {
+            font-size: 24px;
+            line-height: 31px;
+            padding-bottom: 10px;
+          }
+          .likebike .likebike-control__description {
+            font-size: 14px;
+            line-height: 21px;
+            padding-bottom: 40px;
+            padding: 0 82px 40px 82px;
+          }
+        }
+        @media (min-width: 1024px) {
+          .likebike .likebike-control {
+            padding: 60px 0;
+          }
+          .likebike .likebike-control__img {
+            margin: 0 auto;
+            height: 100%;
+            width: 70%;
+          }
+          .likebike .likebike-control__content {
+            text-align: center;
+          }
+          .likebike .likebike-control__title {
+            font-size: 32px;
+            line-height: 48px;
+            padding-bottom: 16px;
+          }
+          .likebike .likebike-control__description {
+            font-size: 16px;
+            line-height: 24px;
+            padding-bottom: 60px;
+            padding: 0 127px 40px 127px;
+          }
+        }
+        @media (min-width: 1366px) {
+          .likebike .likebike-control {
+            padding: 80px 0;
+          }
+          .likebike .likebike-control__img {
+            margin: 0 auto;
+            height: 100%;
+            width: 60%;
+          }
+          .likebike .likebike-control__content {
+            text-align: center;
+          }
+          .likebike .likebike-control__title {
+            font-size: 32px;
+            line-height: 48px;
+            padding-bottom: 24px;
+          }
+          .likebike .likebike-control__description {
+            font-size: 18px;
+            line-height: 27px;
+            padding-bottom: 80px;
+            padding: 0 283px 40px 283px;
+          }
+        }
+        /* safety block ======================= */
+        .likebike .likebike-safety__img {
+          width: 210px;
+          height: 420px;
+          padding: 40px 0px 24px 0px;
+          display: flex;
+          margin: 0 auto;
+        }
+        .likebike .likebike-safety__content {
+          text-align: center;
+        }
+        .likebike .likebike-safety__title {
+          font-size: 20px;
+          line-height: 26px;
+          padding-bottom: 10px;
+        }
+        .likebike .likebike-safety__description {
+          font-size: 14px;
+          line-height: 21px;
+          padding-bottom: 40px;
+        }
+        @media (min-width: 768px) {
+          .likebike .likebike-safety {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            align-items: center;
+            column-gap: 24px;
+          }
+          .likebike .likebike-safety__img {
+            width: 210px;
+            height: 420px;
+            padding: 66px 0px 66px 0px;
+            margin-left: 24px;
+          }
+          .likebike .likebike-safety__content {
+            text-align: start;
+          }
+          .likebike .likebike-safety__title {
+            font-size: 24px;
+            line-height: 31px;
+            padding-bottom: 10px;
+          }
+          .likebike .likebike-safety__description {
+            font-size: 14px;
+            line-height: 21px;
+            padding-bottom: 40px;
+          }
+        }
+        @media (min-width: 1024px) {
+          .likebike .likebike-safety__img {
+            width: 290px;
+            height: 585px;
+            padding: 96px 0px 96px 0px;
+            margin-left: 24px;
+          }
+          .likebike .likebike-safety__content {
+            text-align: start;
+          }
+          .likebike .likebike-safety__title {
+            font-size: 32px;
+            line-height: 48px;
+            padding-bottom: 16px;
+          }
+          .likebike .likebike-safety__description {
+            font-size: 16px;
+            line-height: 24px;
+            padding-bottom: 40px;
+          }
+        }
+        @media (min-width: 1366px) {
+          .likebike .likebike-safety__img {
+            width: 310px;
+            height: 620px;
+            padding: 99px 0px 99px 0px;
+            margin-left: 136px;
+          }
+          .likebike .likebike-safety__content {
+            text-align: start;
+            margin-left: 100px;
+          }
+          .likebike .likebike-safety__title {
+            font-size: 32px;
+            line-height: 48px;
+            padding-bottom: 24px;
+          }
+          .likebike .likebike-safety__description {
+            font-size: 18px;
+            line-height: 27px;
+            padding-bottom: 40px;
+            margin-right: 136px;
+          }
+        }
+        /* details block ======================================= */
+        .likebike .likebike-details {
+          background-color: #1A1A18;
+        }
+        .likebike .likebike-details__content {
+          text-align: center;
+        }
+        .likebike .likebike-details__title {
+          color: #ffffff;
+          padding: 40px 0 10px 0;
+          font-size: 20px;
+          line-height: 26px;
+        }
+        .likebike .likebike-details__description {
+          color: #ffffff;
+          padding-bottom: 24px;
+          font-size: 14px;
+          line-height: 21px;
+        }
+        .likebike .likebike-details__img {
+          padding-bottom: 16px;
+          display: flex;
+          margin: 0 auto;
+        }
+        @media (min-width: 768px) {
+          .likebike .likebike-details__images {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 24px;
+            padding-bottom: 40px;
+          }
+          .likebike .likebike-details__content {
+            padding: 0 82px;
+          }
+          .likebike .likebike-details__title {
+            padding: 40px 0 10px 0;
+            font-size: 24px;
+            line-height: 31px;
+          }
+          .likebike .likebike-details__description {
+            padding-bottom: 24px;
+            font-size: 14px;
+            line-height: 21px;
+          }
+        }
+        @media (min-width: 1024px) {
+          .likebike .likebike-details__content {
+            padding: 0 88px;
+          }
+          .likebike .likebike-details__title {
+            padding: 60px 0 16px 0;
+            font-size: 32px;
+            line-height: 48px;
+          }
+          .likebike .likebike-details__description {
+            padding-bottom: 24px;
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+        @media (min-width: 1366px) {
+          .likebike .likebike-details__content {
+            padding: 0 283px;
+          }
+          .likebike .likebike-details__title {
+            padding: 80px 0 24px 0;
+            font-size: 32px;
+            line-height: 48px;
+          }
+          .likebike .likebike-details__description {
+            padding-bottom: 24px;
+            font-size: 18px;
+            line-height: 27px;
+          }
+          .likebike .likebike-details__images {
+            padding: 0 136px 100px 136px;
+          }
+        }
+        .likebike img {
+          border-radius: 4px;
+        }
+        .universal_rich .univirs_bike{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          gap: 16px 20px;
+          align-items: start;
+          text-align: center;
+          padding: 20px;
+        }
+        .universal_rich .univirs_bike p{
+          margin: 0;
+          color:#000
+        }
+        .universal_rich .univirs_bike .univirs_bike_item{
+          display: grid;
+          align-items: center;
+          align-content: center;
+        }
+        .universal_rich .univirs_bike .univirs_bike_item img{
+          margin: 0 auto 10px;
+          width:35px ;
+        }
+        .universal_rich .univirs_bike .univirs_bike_item .univirs_bike_text{
+          display: grid;
+          gap: 5px;
+        }
+        .universal_rich .univirs_bike .univirs_bike_item .gray_text{
+          color: #0000007d;
+          ;
+        }
+        @media screen and (min-width:666px) {
+          .universal_rich .univirs_bike{
+            padding: 40px 16px;
+            grid-template-columns: repeat(6,1fr);
+          }
+          .universal_rich .univirs_bike p{
+            font-size: 14px;
+          }
+
+        }
+        @media screen and (min-width:1024px) {
+          .universal_rich .univirs_bike{
+            padding: 60px 20px;
+            gap: 16px;
+          }
+          .universal_rich .univirs_bike p{
+            font-size: 18px;
+          }
+          .universal_rich .univirs_bike .univirs_bike_item img{
+            margin: 0 auto 16px;
+            width:60px ;
+          }
+          .universal_rich .univirs_bike p{
+            font-size: 14px;
+          }
+          .universal_rich .univirs_bike .univirs_bike_item .univirs_bike_text{
+            gap: 12px;
+          }
+        }
+        @media screen and (min-width:1366px) {
+          .universal_rich .univirs_bike{
+            padding: 80px 80px;
+            gap: 20px;
+          }
+          .universal_rich .univirs_bike p{
+            font-size: 18px;
+          }
+          .universal_rich .univirs_bike .univirs_bike_item img{
+            margin: 0 auto 20px;
+          }
+          .universal_rich .univirs_bike .univirs_bike_item .univirs_bike_text{
+            gap: 16px;
+          }
+        }
+      </style>
+      <div class="likebike">
+        <div class="container container-max">
+          <div class="likebike-header">
+            <div class="likebike-header__logo"><img alt="likebike logo" class="likebike-header__img" src="https://i.citrus.world/uploads/promo/likebike/header/logo.svg?_t=1678758497" />
+            </div>
+            <div class="likebike-header__content">
+              <div class="likebike-header__desc">
+                <h1 class="likebike-header__title">Like.Bike Bruiser
+                </h1>
+                <h3 class="likebike-header__subtitle">Электровелосипед для любых дорог
+                </h3>
+              </div>
+              <div class="likebike-header__main-img"><img alt="likebike main-img" class="likebike-header__img" src="https://i.citrus.world/uploads/promo/likebike/header/header_img.png?_t=1678758498" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="universal_rich ">
+          <div class="univirs_bike">
+            <div class="univirs_bike_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/icon_bike/ic_razmer%20rami.svg?_t=1707230426" />
+              <div class="univirs_bike_text">
+                <p class="gray_text">Размер рамы
+                </p>
+                <p class="block_text">18 Дюймов (Medium)
+                </p>
+              </div>
+            </div>
+            <div class="univirs_bike_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/icon_bike/ic_rost.svg?_t=1707230426" />
+              <div class="univirs_bike_text">
+                <p class="gray_text">Рекомендованый рост
+                </p>
+                <p class="block_text">172-180 см
+                </p>
+              </div>
+            </div>
+            <div class="univirs_bike_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/icon_bike/ic_razmer%20koles.svg?_t=1707230426" />
+              <div class="univirs_bike_text">
+                <p class="gray_text">Размер колес
+                </p>
+                <p class="block_text">26
+                </p>
+              </div>
+            </div>
+            <div class="univirs_bike_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/icon_bike/ic_material%20rami.svg?_t=1707230426" />
+              <div class="univirs_bike_text">
+                <p class="gray_text">Материал рамы
+                </p>
+                <p class="block_text">Алюминий
+                </p>
+              </div>
+            </div>
+            <div class="univirs_bike_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/icon_bike/ic_%20count.svg?_t=1707230426" />
+              <div class="univirs_bike_text">
+                <p class="gray_text">Количество скоростей
+                </p>
+                <p class="block_text">7
+                </p>
+              </div>
+            </div>
+            <div class="univirs_bike_item"><img alt="" src="https://i.citrus.world/uploads/content/product-photos/kirsh/icon_bike/ic_ves.svg?_t=1707230425" />
+              <div class="univirs_bike_text">
+                <p class="gray_text">Вес
+                </p>
+                <p class="block_text">31кг
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="likebike-props">
+          <div class="container likebike-props__container container-max">
+            <div class="likebike-props__wrapper">
+              <p class="likebike-props__description">Путешествуйте свободно и чувствуйте себя уверенно и на городских улицах, и на бездорожье с мощным и экологичным велосипедом Like.Bike Bruiser. Оснащенный производительным мотором, прочной рамой и широкими устойчивыми колесами, этот фэтбайк способен развивать скорость до 40 км/ч и проезжать там, где остальные пасуют. При этом надежные дисковые тормоза и амортизационная передняя вилка делают поездки комфортнее и безопаснее. А емкий аккумулятор обеспечивает поддержку на сложных участках, облегчая ваш путь. Благодаря всему этому Like.Bike Bruiser одинаково хорошо показывает себя как в велопоходах и поездках cross-country, так и в пробках на улицах города.
+              </p>
+              <div class="likebike-props__content">
+                <div class="likebike-props__content_values">
+                  <div class="likebike-props__speed props-value"><img alt="svg speed" src="https://i.citrus.world/uploads/promo/likebike/properties/speed.svg?_t=1678758498" />
+                    <p class="props-value__title">40 км/ч
+                    </p>
+                    <p class="props-value__subtitle">Максимальная скорость
+                    </p>
+                  </div>
+                  <div class="likebike-props__road props-value"><img alt="svg road" src="https://i.citrus.world/uploads/promo/likebike/properties/road.svg?_t=1678758498" />
+                    <p class="props-value__title">до 60 км
+                    </p>
+                    <p class="props-value__subtitle">Запас хода (в режиме PAS)
+                    </p>
+                  </div>
+                </div>
+                <div class="props">
+                  <ul class="props__items">
+                    <li class="props__item">Амортизационная подвеска</li>
+                    <li class="props__item-dot"></li>
+                    <li class="props__item">Гидравлические тормоза</li>
+                    <li class="props__item-dot"></li>
+                    <li class="props__item">LCD-дисплей</li>
+                  </ul>
+                  <ul class="props__items">
+                    <li class="props__item-dot"></li>
+                    <li class="props__item">Широкие устойчивые&nbsp;<span>колеса</span></li>
+                    <li class="props__item-dot"></li>
+                    <li class="props__item">Яркая фара спереди и&nbsp;<span>стоп-сигнал сзади</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="likebike-props__image"><img alt="props main img" class="props_img" src="https://i.citrus.world/uploads/promo/likebike/properties/props_img.png?_t=1678838294" />
+            </div>
+          </div>
+        </div>
+        <div class="likebike-about">
+          <div class="likebike-about__practice likebike-practice">
+            <div class="likebike-practice__content">
+              <p class="likebike-practice__title">Практичный, выносливый, стильный
+              </p>
+              <p class="likebike-practice__description">Предпочитаете активный отдых и прогулки на свежем воздухе лежанию на диване? Тогда присмотритесь к электрическому фэтбайку Bruiser от компании Like.Bike. Он создавался специально для загородной езды и уверенно чувствует себя в поездках по грунтовым и проселочным дорогам, а также самому настоящему бездорожью. Этому способствует усиленная рама и суперширокие колеса с протектором. При этом сам велосипед не выглядит тяжеловесным внедорожником &mdash; сбалансированный, спортивный и необыкновенно стильный Bruiser выгодно выделяется среди большинства моделей. Он органично смотрится как на прогулке в городском парке, так и преодолевая сложный рельеф за городом.
+              </p>
+            </div>
+          </div>
+          <div class="likebike-about__support container container-max"><img alt="like bike about" class="likebike-about__support-img" src="https://i.citrus.world/uploads/promo/likebike/about/desc_img1.png?_t=1678897174" />
+            <div class="likebike-about__support-content support__content">
+              <div class="support__content_title title-right">Мощная поддержка в пути
+              </div>
+              <div class="support__content_description desc-right">Сочетание мотора мощностью 500 Вт и емкой батареи на 499 Вт/ч обеспечивает этому электробайку отличную производительность. Благодаря им транспорт может разгоняться до 40 км/ч, проезжать на одном заряде до 60 километров (в режиме PAS) и легко преодолевать подъемы. Поэтому вы можете строить любые маршруты и совершать достаточно длительные прогулки.
+              </div>
+            </div>
+          </div>
+          <div class="likebike-about__support likebike-about__support-rev container container-max"><img alt="like bike about" class="likebike-about__support-img" src="https://i.citrus.world/uploads/promo/likebike/about/desc_img2.png?_t=1678897175" />
+            <div class="likebike-about__support-content support__content">
+              <div class="support__content_title title-left">Проедет где угодно
+              </div>
+              <div class="support__content_description desc-left">Электровелосипед Bruiser может похвастаться отличной проходимостью и уверенно чувствует себя на любом покрытии, начиная от асфальта и травы, и заканчивая песком и снегом. Все благодаря 26-дюймовым колесам с очень широкими шинами от мирового производителя Kenda. Они обеспечивают хорошую устойчивость и дополнительно амортизируют во время движения по неровной дороге. А протекторный рисунок способствует лучшему сцеплению с поверхностью. Поэтому с Bruiser вы легко проедете где угодно.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="likebike-comfort container"><img alt="likebike-comfort__image" class="likebike-comfort__image-img" src="https://i.citrus.world/uploads/promo/likebike/comfort/comfort_left_img.png?_t=1678906075" />
+          <div class="likebike-comfort__content">
+            <h3 class="likebike-comfort__title">Для приятных поездок
+            </h3>
+            <p class="likebike-comfort__description">ККатаясь на Like.Bike Bruiser, вы можете больше наслаждаться поездкой и любоваться видами, вместо того, чтобы объезжать каждую кочку. Передняя вилка с амортизационной подвеской компенсирует неровности дороги и смягчает удары, что помогает лучше контролировать транспорт для большей безопасности и комфорта в пути. Кроме того, электробайк также получил переключатель Shimano на 7 скоростей, который позволяет плавно менять скорости и делает преодоление подъемов гораздо проще.
+            </p>
+          </div>
+          <img alt="likebike-comfort__image" class="likebike-comfort__image-img" src="https://i.citrus.world/uploads/promo/likebike/comfort/comfort_right_img.png?_t=1678906075" />
+        </div>
+        <div class="likebike-control"><img alt="likebike-control__img" class="likebike-control__img" src="https://i.citrus.world/uploads/promo/likebike/control/control.png?_t=1678758497" />
+          <div class="likebike-control__content container">
+            <p class="likebike-control__title">Все под контролем
+            </p>
+            <p class="likebike-control__description">Просматривайте всю важную информацию, включая вашу скорость, уровень заряда аккумулятора и прочие данные на небольшом, но четком LCD-дисплее, который установлен на руль велосипеда. Достаточно одного взгляда, чтобы оставаться в курсе и контролировать ситуацию.
+            </p>
+          </div>
+        </div>
+        <div class="likebike-safety"><img alt="likebike-safety__img" class="likebike-safety__img" src="https://i.citrus.world/uploads/promo/likebike/safety/safety.png?_t=1678758498" />
+          <div class="likebike-safety__content container">
+            <p class="likebike-safety__title">Безопасность в любой ситуации
+            </p>
+            <p class="likebike-safety__description">Чтобы вы могли чувствовать себя уверенно на любой дороге и при любой погоде, электровелосипед Like.Bike Bruiser оснастили гидравлической тормозной системой Tektro. Дисковые тормоза, установленные на обоих колесах, срабатывают очень быстро, что существенно сокращает время остановки и увеличивает безопасность езды. Также Like.Bike Bruiser оборудован передней фарой и задним стоп-сигналом, что помогает сделать вас заметнее на дороге и более безопасно передвигаться в темное время суток.
+            </p>
+          </div>
+        </div>
+        <div class="likebike-details">
+          <div class="likebike-details__content container">
+            <p class="likebike-details__title">Детали, создающие комфорт
+            </p>
+            <p class="likebike-details__description">Каждая деталь этого электровелосипеда тщательно продумана и максимально практична. Так, например, специальный механизм позволяет отрегулировать положение седла под себя, чтобы добиться лучшей посадки в зависимости от вашего веса и роста. Резиновые накладки на руле обеспечат уверенный хват и четкое управление велосипедом при любых погодных условиях. А широкий брызговик над задним колесом защитит вас от большей части брызг воды или грязи во время поездок в непогоду. Все для того, чтобы вы могли сосредоточиться на своих впечатлениях от поездки и не отвлекаться на разные досадные мелочи.
+            </p>
+          </div>
+          <div class="likebike-details__images container"><img alt="likebike-details__img" class="likebike-details__img" src="https://i.citrus.world/uploads/promo/likebike/details/details_left.png?_t=1678758497" /> <img alt="likebike-details__img" class="likebike-details__img" src="https://i.citrus.world/uploads/promo/likebike/details/details_right.png?_t=1678758497" />
+          </div>
+        </div>
+      </div>
+      
+    
+</body>
+</html>

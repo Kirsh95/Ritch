@@ -1,0 +1,408 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .interstuhl img {
+      margin: 0;
+    }
+    .interstuhl .description {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    .interstuhl .title {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .interstuhl h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+    .interstuhl ul {
+      list-style: none;
+      margin: 0;
+    }
+
+    .interstuhl ul li {
+      line-height: normal;
+      color: #000;
+      position: relative;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .interstuhl ul li::before{
+        content: url('https://i.citrus.world/uploads/content/product-photos/kirsh/741413/image%2070.svg?_t=1718358199');
+        position: absolute;
+        color: #000;
+        left: -20px;
+        top: 0;
+    }
+
+    .interstuhl {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .interstuhl ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .interstuhl ul li {
+      padding: 0;
+    }
+    .interstuhl div {
+      padding: 0;
+    }
+    div.interstuhl {
+      padding: 0;
+    }
+    .interstuhl br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .interstuhl{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .interstuhl img{
+      width: 100%;
+      display: block;
+    }
+    .interstuhl .top_interstuhl{
+      padding: 0 16px 24px;
+      display: grid;
+      gap: 16px;
+    }
+    .interstuhl .top_interstuhl .top_interstuhl_text{
+      display: grid;
+      gap: 10px;
+      text-align: center;
+    }
+    @media screen and (min-width:666px) {
+      /* body{
+      padding: 0 24px;
+    } */
+      .interstuhl .description{
+        font-size: 16px;
+      }
+      .interstuhl .description{
+        font-size: 14px;
+      }
+      .interstuhl .titles{
+        font-size: 24px;
+      }
+      .interstuhl .top_interstuhl{
+        padding: 0 40px 32px;
+        display: grid;
+        gap: 24px;
+      }
+      .interstuhl .top_interstuhl .top_interstuhl_text{
+        display: grid;
+        gap: 10px;
+        text-align: center;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .interstuhl .top_interstuhl .description{
+        font-size: 18px;
+      }
+      .interstuhl .description{
+        font-size: 16px;
+      }
+      .interstuhl .title{
+        font-size: 28px;
+        margin-bottom: 16px;
+      }
+      .interstuhl .top_interstuhl{
+        padding: 0 64px 32px;
+        display: grid;
+        gap: 24px;
+      }
+      .interstuhl .top_interstuhl .top_interstuhl_text{
+        display: grid;
+        gap: 10px;
+        text-align: center;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .interstuhl .top_interstuhl .description{
+        font-size: 20px;
+      }
+      .interstuhl .description{
+        font-size: 18px;
+      }
+      .interstuhl .title{
+        font-size: 38px;
+      }
+      .interstuhl .top_interstuhl{
+        padding: 0 80px 40px;
+        display: grid;
+        gap: 40px;
+      }
+      .interstuhl .top_interstuhl .top_interstuhl_text{
+        display: grid;
+        gap: 10px;
+        text-align: center;
+      }
+    }
+    /* modern */
+    .interstuhl .modern{
+      padding: 24px 16px;
+      text-align: center;
+      display: grid;
+      gap: 24px;
+    }
+    @media screen and (min-width:666px) {
+      .interstuhl .modern{
+        display: grid;
+        padding: 32px 40px;
+        gap: 32px;
+        align-items: center;
+        grid-template-columns: 1fr 1.6fr;
+      }
+      .interstuhl .modern .modern_text{
+        text-align: left;
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .interstuhl .modern{
+        display: grid;
+        padding: 32px 63px;
+        gap: 32px;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .interstuhl .modern{
+        display: grid;
+        padding: 40px 80px;
+        gap: 40px;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    /* developed_scientists */
+    .interstuhl .developed_scientists{
+      padding: 24px 16px;
+      text-align: center;
+      display: grid;
+      gap: 24px;
+    }
+    @media screen and (min-width:666px) {
+      .interstuhl .developed_scientists{
+        display: grid;
+        padding: 32px 40px;
+        gap: 32px;
+        align-items: center;
+        grid-template-columns: 1.6fr 1fr;
+      }
+      .interstuhl .developed_scientists .developed_scientists_text{
+        text-align: left;
+        grid-column-start: 1;
+        grid-row-start: 1;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .interstuhl .developed_scientists{
+        display: grid;
+        padding: 32px 63px;
+        gap: 32px;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .interstuhl .developed_scientists{
+        display: grid;
+        padding: 40px 80px;
+        gap: 40px;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+
+    /* akin_health */
+    .interstuhl .akin_health{
+      padding: 24px 16px;
+      text-align: left;
+      display: grid;
+      gap: 24px;
+    }
+    .interstuhl .akin_health .akin_health_text{
+        display: grid;
+         gap: 16px;
+    }
+    .interstuhl .akin_health .akin_health_text ul{
+        display: grid;
+         gap: 16px;
+    }
+    .interstuhl ul{
+        padding-left: 43px;
+    }
+    .interstuhl ul li::before{
+        left: -35px;
+    }
+    .interstuhl .akin_health .akin_health_text .title{
+        margin-bottom: 0;
+    }
+    .interstuhl .akin_health .notes{
+        padding-left: 20px;
+    }
+
+
+
+    @media screen and (min-width:666px) {
+      .interstuhl .akin_health{
+        background: #DFDFDF;
+        display: grid;
+        padding: 32px 40px;
+        gap: 32px;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+      }
+      .interstuhl .akin_health .akin_health_text{
+        text-align: left;
+        gap: 18px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+      }
+      .interstuhl .akin_health .akin_health_text ul{
+        display: grid;
+         gap: 18px;
+        }
+        .interstuhl ul{
+            padding-left: 25px;
+        }
+        .interstuhl ul li::before{
+            left: -25px;
+        }
+        .interstuhl .akin_health .notes{
+            padding-left: 0px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+      .interstuhl .akin_health{
+        display: grid;
+        padding: 32px 63px;
+        gap: 32px;
+        align-items: center;
+        grid-template-columns: 1fr 1.2fr;
+      }
+    }
+
+    @media screen and (min-width:1366px) {
+      .interstuhl .akin_health{
+        display: grid;
+        padding: 40px 80px;
+        gap: 40px;
+        align-items: center;
+        grid-template-columns: 1.1fr 1fr;
+      }
+    }
+
+
+   
+    /* synchronous */
+    .interstuhl .synchronous{
+      display: grid;
+      gap: 24px;
+      padding: 0px 16px 24px;
+      text-align: center;
+    }
+    @media screen and (min-width:666px) {
+      .interstuhl .synchronous{
+        padding: 32px 40px;
+      }
+      .interstuhl .synchronous .description{
+        font-size: 16px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .interstuhl .synchronous{
+        padding: 32px 64px;
+        gap: 32px;
+      }
+      .interstuhl .synchronous .description{
+        font-size: 18px;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .interstuhl .synchronous{
+        padding: 40px 80px;
+        gap: 40px;
+      }
+      .interstuhl .synchronous .description{
+        font-size: 20px;
+      }
+    }
+    
+    /* reliable */
+    .interstuhl .reliable{
+      padding: 24px 16px;
+    }
+    .interstuhl .reliable .reliable_block{
+      background: linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(60,60,59,1) 0%);
+    }
+    .interstuhl .reliable .reliable_text{
+      text-align: center;
+      padding: 24px 16px;
+    }
+    @media screen and (min-width:666px) {
+      .interstuhl .reliable{
+        padding: 32px 40px;
+        display: grid;
+        gap: 32px;
+        align-items: center;
+        grid-template-columns: 1fr 1.5fr;
+      }
+      .interstuhl .reliable .reliable_text{
+        text-align: center;
+        padding: 0;
+        grid-row-start: 1;
+        grid-column-start: 2;
+        text-align: left;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      .interstuhl .reliable{
+        padding: 32px 64px;
+        gap: 32px;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media screen and (min-width:1366px) {
+      .interstuhl .reliable{
+        padding: 40px 80px;
+        gap: 40px;
+      }
+    }

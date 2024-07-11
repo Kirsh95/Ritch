@@ -1,0 +1,578 @@
+.product__description.base-padding {
+    padding: 0;
+    border-radius: 0px;
+    }
+    .BHD720 img {
+      margin: 0;
+    }
+    .BHD720 p {
+      padding: 0;
+      margin: 0;
+      color: #000;
+      font-family: 'Roboto' ,sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .BHD720 h3 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    .BHD720 h2 {
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 130%;
+      margin: 0;
+    }
+    .BHD720 ul {
+      list-style: disc;
+      margin: 0;
+    }
+    .BHD720 ul li {
+      line-height: normal;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+    }
+    .BHD720 {
+      overflow: hidden;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    .BHD720 ul {
+      padding: 0;
+      padding-left: 20px;
+    }
+    .BHD720 ul li {
+      padding: 0;
+    }
+    .BHD720 div {
+      padding: 0;
+    }
+    div.BHD720 {
+      padding: 0;
+    }
+    .BHD720 br {
+      display: block;
+    }
+    .product__body .el-tabs__header {
+      z-index: 6;
+    }
+    .BHD720{
+      max-width: 1366px;
+      margin: 0 auto;
+      overflow-x: hidden;
+    }
+    .BHD720 img{
+      width: 100%;
+      display: block;
+    }
+
+/* hair_care */
+
+.BHD720 .hair_care{
+    text-align: center;
+}
+
+.BHD720 .hair_care .hair_care_text{
+    padding: 40px 16px 24px; 
+}  
+.BHD720 .hair_care .hair_care_text h3{
+    margin-bottom: 12px;
+}
+
+.BHD720 .hair_care .hair_care_img{
+    position: relative;
+}
+.BHD720 .hair_care .hair_care_img .logo_philips{
+    position: absolute;
+    width: 60px;
+    left: 16px;
+    top: 0;
+}
+
+
+@media screen and (min-width:666px) {
+    .BHD720 .hair_care .hair_care_text{
+        padding: 40px 16px 32px; 
+    }
+
+    .BHD720 .hair_care .hair_care_img .logo_philips{
+        position: absolute;
+        width: 89px;
+        left: 32px;
+        top: 0;
+    }
+    .BHD720 .hair_care .hair_care_text h3{
+        font-size: 24px;
+    }
+    .BHD720 .hair_care .hair_care_text h2{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .BHD720 .hair_care .hair_care_text{
+        padding: 40px 16px 40px; 
+    }
+
+    .BHD720 .hair_care .hair_care_img .logo_philips{
+        position: absolute;
+        width: 129px;
+        left: 40px;
+        top: 0;
+    }
+    .BHD720 .hair_care .hair_care_text h3{
+        font-size: 26px;
+        margin-bottom: 14px;
+    }
+    .BHD720 .hair_care .hair_care_text h2{
+        font-size: 24px;
+    }
+}
+@media screen and (min-width:1366px) {
+    .BHD720 .hair_care .hair_care_text{
+        padding: 60px 16px 60px; 
+    }
+
+    .BHD720 .hair_care .hair_care_img .logo_philips{
+        position: absolute;
+        width: 188px;
+        left: 60px;
+        top: 0;
+    }
+    .BHD720 .hair_care .hair_care_text h3{
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+    .BHD720 .hair_care .hair_care_text h2{
+        font-size: 32px;
+    }
+}
+
+/* .features */
+
+ .BHD720 .features{
+    padding: 40px 0px 0;
+    text-align: center;
+    display: grid;
+    gap: 2px;
+
+ }
+
+ .BHD720 .features .features_block{
+    position: relative;
+    display: grid;
+    gap: 16px;
+ }
+
+ .BHD720 .features .features_block .features_container{
+    display: grid;
+    gap: 20px;
+    text-align: left;
+    padding: 0 16px 16px;
+
+ }
+
+ .BHD720 .features .features_block .features_item{
+    display: grid;
+    grid-template-columns: 42px auto;
+    gap: 20px;
+    align-items: start;
+ }
+ .BHD720 .features .features_block .features_item h3{
+    margin-bottom: 10px; 
+ }
+ .BHD720 .features .features_block .features_item p{
+    font-size: 15px;
+ }
+
+
+ @media screen and (min-width:666px) {
+    .BHD720 h3{
+        font-size: 20px;
+    }
+    .BHD720 p,
+    .BHD720 ul li {
+        font-size: 16px;
+    }
+    .BHD720 .features{
+        padding-top: 32px;
+        gap: 10px;
+    }
+    .BHD720 .features .features_block .features_container{
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        left: 32px;
+    }
+    .BHD720 .features .features_block .features_item{
+        align-items: center;
+        gap: 16px;
+    }
+    .BHD720 .features .features_block .features_item h3{
+        font-size: 18px;
+        margin-bottom: 4px; 
+        color: #fff;
+     }
+     .BHD720 .features .features_block .features_item p{
+        font-size: 15px;
+        color: #fff;
+     }
+     .BHD720 .features .features_block .features_container{
+        gap: 10px;
+        padding: 0;
+        padding-right: 259px;
+     }
+
+ }
+
+
+ @media screen and (min-width:1024px) {
+    .BHD720 h3{
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+    .BHD720 p,
+    .BHD720 ul li {
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .BHD720 .features{
+        gap: 22px;
+        padding-top: 40px;
+    }
+    .BHD720 .features .features_block .features_item{
+        grid-template-columns: 68px auto;        
+        gap: 20px;
+    }
+    .BHD720 .features .features_block .features_item h3{
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .BHD720 .features .features_block .features_item p{
+        font-size: 18px;
+     }
+     .BHD720 .features .features_block .features_container{
+        gap: 12px;
+        padding-right: 399px;
+        left: 40px;
+     }
+ }
+
+ @media screen and (min-width:1366px) {
+    .BHD720 h3{
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+    .BHD720 p,
+    .BHD720 ul li {
+        font-size: 22px;
+        line-height: 150%;
+    }
+    .BHD720 .features{
+        gap: 16px;
+        padding-top: 60px;
+    }
+    .BHD720 .features .features_block .features_item{
+        grid-template-columns: 100px auto;        
+        gap: 20px;
+    }
+    .BHD720 .features .features_block .features_item h3{
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+    .BHD720 .features .features_block .features_item p{
+        font-size: 22px;
+     }
+     .BHD720 .features .features_block .features_container{
+        gap: 20px;
+        padding-right: 751px;
+        left: 60px;
+     }
+ }
+
+ .BHD720 .block_center{
+    padding-bottom: 40px;
+ }
+ .BHD720 .block_center .block_center_text{
+    text-align: center;
+    padding: 40px 16px 24px;
+ }
+
+
+ @media screen and (min-width:666px) {
+    .BHD720 .block_center{
+        padding-bottom: 60px;
+     }
+     .BHD720 .block_center .block_center_text{
+        text-align: center;
+        padding: 64px 65px 32px;
+     }
+ }
+
+ @media screen and (min-width:1024px) {
+    .BHD720 .block_center{
+        padding-bottom: 60px;
+     }
+     .BHD720 .block_center .block_center_text{
+        text-align: center;
+        padding: 40px 88px 40px;
+     }
+ }
+
+
+ @media screen and (min-width:1366px) {
+    .BHD720 .block_center{
+        padding-bottom: 80px;
+     }
+     .BHD720 .block_center .block_center_text{
+        text-align: center;
+        padding: 60px 285px 60px;
+     }
+ }
+
+
+/* .block_ionic */
+
+.BHD720 .block_ionic{
+    padding: 40px 16px 0;
+    display: grid;
+    gap: 24px;
+}
+.BHD720 .block_ionic img{
+    border-radius: 10px;
+}
+
+.BHD720 .block_ionic .block_ionic_text{
+    text-align: center;
+}
+
+.BHD720 .block_ionic .block_ionic_block{
+    display: grid;
+    gap: 16px;
+}
+
+.BHD720 .block_ionic .block_tree_item{
+    display: grid;
+    gap: 24px;
+}
+
+@media screen and (min-width:666px) {
+    .BHD720 .block_ionic .block_ionic_block{
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(3,1fr);
+        align-items: start;
+    }
+
+    .BHD720 .block_ionic .block_tree_item .block_tree_text{
+        grid-row-start: 2;
+    }
+
+    .BHD720 .block_ionic{
+        padding: 40px 32px 0;
+        gap: 32px;
+    }
+
+    .BHD720 .block_ionic .block_ionic_title{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .BHD720 .block_ionic .block_ionic_block{
+        gap: 24px;
+    }
+
+    .BHD720 .block_ionic .block_tree_item .block_tree_text{
+        grid-row-start: 2;
+    }
+
+    .BHD720 .block_ionic{
+        padding: 40px 40px 0;
+        gap: 40px;
+    }
+
+    .BHD720 .block_ionic .block_ionic_title{
+        font-size: 36px;
+    }
+    .BHD720 .block_ionic img{
+        border-radius: 16px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .BHD720 .block_ionic .block_ionic_block{
+        gap: 24px;
+    }
+
+    .BHD720 .block_ionic .block_tree_item .block_tree_text{
+        grid-row-start: 2;
+    }
+
+    .BHD720 .block_ionic{
+        padding: 60px 166px 0;
+        gap: 60px;
+    }
+
+    .BHD720 .block_ionic .block_ionic_title{
+        font-size: 36px;
+    }
+    .BHD720 .block_ionic img{
+        border-radius: 20px;
+    }
+}
+
+
+
+
+
+ /* rigth_block left_block */
+    .BHD720 .rigth_block{
+        padding:0px 16px ;
+        display: grid;
+        gap: 24px;
+
+    }
+    .BHD720 .left_block{
+        padding:40px 16px 40px ;
+        display: grid;
+        gap: 24px;
+    }
+
+    .BHD720 .rigth_block img,
+    .BHD720 .left_block img{
+        border-radius: 10px;
+    }
+
+    .BHD720 .last_block{
+        padding-bottom: 80px;
+    }
+
+    @media screen and (min-width:666px) {
+        .BHD720 .rigth_block{
+            padding:32px 32px 32px ;
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            gap: 24px; 
+        }
+        .BHD720 .left_block{
+            padding:32px 32px 32px ;
+            grid-template-columns: repeat(2,1fr);
+            align-items: center;
+            gap: 24px;
+        }
+        .BHD720 .left_block .left_block_text{
+            grid-column-start: 2;
+            grid-row-start: 1;
+        }
+        .BHD720 .last_block{
+            padding-bottom: 64px;
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+        .BHD720 .rigth_block{
+            padding:40px 40px 0px ;
+            gap: 32px; 
+        }
+        .BHD720 .left_block{
+            padding:40px 40px 0px ;
+            gap: 32px;
+        }
+        .BHD720 .rigth_block img,
+        .BHD720 .left_block img{
+            border-radius: 16px;
+        }
+        .BHD720 .last_block{
+            padding-bottom: 80px;
+        }
+    }
+
+    @media screen and (min-width:1366px) {
+        .BHD720 .rigth_block{
+            padding:60px 166px 0px ;
+            gap: 40px; 
+        }
+        .BHD720 .left_block{
+            padding:60px 166px 0px ;
+            gap: 40px;
+        }
+        .BHD720 .rigth_block img,
+        .BHD720 .left_block img{
+            border-radius: 20px;
+        }
+        .BHD720 .last_block{
+            padding-bottom: 120px;
+        }
+    }
+
+
+ /* video_philips */
+
+  .BHD720 .video_philips{
+    padding: 0;
+  }
+
+
+ @media screen and (min-width:666px) {
+    .BHD720 .video_philips{
+        padding: 0 18px;
+      }
+ }
+
+ @media screen and (min-width:1024px) {
+    .BHD720 .video_philips{
+        padding: 0px;
+      }
+ }
+
+ @media screen and (min-width:1366px) {
+    .BHD720 .video_philips{
+        padding: 0 60px;
+      }
+ }
+
+
+ .BHD720 .note{
+    padding: 40px 16px;
+ }
+
+ .BHD720 .note p{
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 12px;
+ }
+
+ @media screen and (min-width:666px) {
+    .BHD720 .note{
+        padding:64px 32px 32px;
+    }
+ }
+
+ @media screen and (min-width:1024px) {
+    .BHD720 .note{
+        padding:80px 40px 60px;
+    }
+ }
+
+ @media screen and (min-width:1366px) {
+    .BHD720 .note{
+        padding:120px 166px 80px;
+    }
+ }
